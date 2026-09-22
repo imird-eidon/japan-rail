@@ -17,6 +17,7 @@ config/            ← lo que se edita a mano
   lines.json       líneas: color, código, relación OSM, datos curiosos, trenes
   stations.json    datos curiosos por estación (clave = id de estación)
   trains.json      series de trenes
+  overrides.json   correcciones a errores de OSM (nombres, códigos de estación)
 tools/
   build_data.py    descarga de OSM + mezcla con config → web/data/network.json
 web/               ← la web estática (lo que se publica)
@@ -88,6 +89,6 @@ Para añadir datos a una estación, usa su id (lo ves en la URL: `#/station/<id>
 ## Créditos y licencias
 
 - Trazados y estaciones: © colaboradores de OpenStreetMap, licencia [ODbL](https://www.openstreetmap.org/copyright).
-- Mapa base: © [CARTO](https://carto.com/attributions), datos © OpenStreetMap.
+- Mapa base: teselas estándar de OpenStreetMap ([política de uso](https://operations.osmfoundation.org/policies/tiles/)); si el tráfico crece habrá que pasar a un proveedor propio.
 - [Leaflet](https://leafletjs.com/) (BSD-2-Clause).
 - Textos y datos curiosos: redacción propia, revisados a mano. Si ves un error, abre un issue.
