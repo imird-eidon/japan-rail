@@ -139,7 +139,14 @@ En `config/overrides.json` se corrigen los fallos de OSM: `station_names_en` (ro
 
 Para añadir datos a una estación, usa su id (lo ves en la URL: `#/station/<id>`) en `config/stations.json`.
 
-## Hoja de ruta
+## Inventario y hoja de ruta
+
+**[INVENTARIO.md](INVENTARIO.md)** tiene la foto completa: qué hay por región, los huecos que se detectan solos
+en los datos (líneas sin trenes, estaciones grandes sin datos curiosos…) y la lista de lo que queda por fases.
+Se regenera al ejecutar `tools/build_data.py`; la lista de pendientes se edita en `config/roadmap.json`
+(las líneas, trenes y regiones se marcan como hechos solos en cuanto existen en los datos).
+
+## Hoja de ruta (resumen)
 
 - [x] Red Shinkansen completa, con fotos de los trenes
 - [ ] Líneas privadas de Tokio (Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei)

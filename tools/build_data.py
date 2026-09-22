@@ -589,6 +589,11 @@ def main():
         for w in warnings:
             log("  - " + w)
 
+    # inventario (INVENTARIO.md) siempre al día con los datos
+    sys.path.insert(0, str(Path(__file__).parent))
+    import inventory
+    inventory.main()
+
 
 if __name__ == "__main__":
     main()
