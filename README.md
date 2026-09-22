@@ -50,7 +50,8 @@ python3 -m http.server 8000 -d web
 
 y abrir <http://localhost:8000>. (Abrir `index.html` con doble clic no funciona: el navegador bloquea la carga de `network.json` desde `file://`.)
 
-En el servidor actual está publicada en `http://192.168.0.215:8080/japan-rail/` (nginx, `location /japan-rail/` → `web/`).
+Publicada en <https://japanrail.alvaroom.org/> (Cloudflare Tunnel → nginx en `192.168.0.215:8080`, que sirve `web/`
+en `/` y también en `/japan-rail/` por compatibilidad con los enlaces antiguos).
 
 ## Regenerar los datos
 
