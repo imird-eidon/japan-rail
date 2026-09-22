@@ -50,6 +50,11 @@
       "name": "JR Hokkaido",
       "ja": "JR北海道",
       "url": "https://www.jrhokkaido.co.jp/"
+    },
+    "jnr": {
+      "name": "JNR",
+      "ja": "国鉄",
+      "url": "https://en.wikipedia.org/wiki/Japanese_National_Railways"
     }
   },
   "types": {

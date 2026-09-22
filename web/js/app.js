@@ -62,7 +62,7 @@ function route({ initial = false } = {}) {
   } else if (type === "train") {
     const t = net.trainById.get(id);
     html = t ? trainView(net, t) : notFoundView("ese tren");
-    if (t) { map.focusLines(t.lines, { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
+    if (t) { map.focusLines(t.lines.length ? t.lines : (t.history || []).map((h) => h.line), { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
   } else {
     const tab = ["stations", "trains"].includes(type) ? type : "lines";
     html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });

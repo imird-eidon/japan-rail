@@ -100,15 +100,33 @@ const trainThumb = (t, cls = "thumb") =>
   t.photo ? `<img class="${cls}" src="${esc(t.photo.src)}" alt="" loading="lazy" decoding="async">`
           : `<span class="${cls} no-photo">${trainIcon(cls === "thumb" ? 18 : 28)}</span>`;
 
-/** Tarjetas de trenes (foto + nombre), con los Shinkansen primero. */
-function trainCards(net, ids) {
-  const trains = ids.map((id) => net.trainById.get(id)).filter(Boolean)
-    .sort((a, b) => (b.photo ? 1 : 0) - (a.photo ? 1 : 0));
+const yearsText = ([a, b]) => `${a}–${b}`;
+/** Años de servicio de un tren en su conjunto (1963–1988, o «desde 2015»). */
+const serviceText = (t) => (t.retired ? `${t.introduced}–${t.retired}` : `desde ${t.introduced}`);
+
+/**
+ * Tarjetas de trenes (foto + nombre).
+ * meta(t) permite cambiar el texto de debajo (p. ej. los años en una línea concreta).
+ */
+function trainCards(net, ids, { meta, historic = false } = {}) {
+  const trains = ids.map((id) => net.trainById.get(id)).filter(Boolean);
   if (!trains.length) return "";
-  return `<ul class="train-cards">${trains.map((t) => `<li>${link("train", t.id, `
+  return `<ul class="train-cards ${historic ? "is-historic" : ""}">${trains.map((t) => `<li>${link("train", t.id, `
       ${trainThumb(t, "card-img")}
       <span class="card-name">${esc(t.name)}</span>
-      <span class="card-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span>`, "train-card")}</li>`).join("")}</ul>`;
+      <span class="card-meta">${meta ? meta(t) : `${esc(net.operators[t.operator]?.name || "")} · ${serviceText(t)}`}</span>`, "train-card")}</li>`).join("")}</ul>`;
+}
+
+/** Trenes que circularon por una línea, del más antiguo al más reciente, con sus años. */
+function historicOnLine(net, lineId) {
+  const rows = net.trains
+    .map((t) => ({ t, h: (t.history || []).find((h) => h.line === lineId) }))
+    .filter((x) => x.h)
+    .sort((a, b) => a.h.years[0] - b.h.years[0]);
+  return trainCards(net, rows.map((x) => x.t.id), {
+    historic: true,
+    meta: (t) => yearsText(rows.find((x) => x.t === t).h.years),
+  });
 }
 
 const dot = (l) => `<span class="dot" style="--c:${l.color}" title="${esc(l.name)}"></span>`;
@@ -118,14 +136,23 @@ function trainsTab(net) {
   const row = (t) => `
     <li>${link("train", t.id, `
       ${trainThumb(t)}
-      <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span></span>
+      <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${serviceText(t)}</span></span>
       <span class="tr-lines">${t.lines.map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`;
-  const sk = net.trains.filter(isSk), rest = net.trains.filter((t) => !isSk(t));
+  const current = net.trains.filter((t) => t.lines.length);
+  const retired = net.trains.filter((t) => !t.lines.length).sort((a, b) => a.introduced - b.introduced);
+  const histRow = (t) => `
+    <li>${link("train", t.id, `
+      ${trainThumb(t)}
+      <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${serviceText(t)}</span></span>
+      <span class="tr-lines">${(t.history || []).map((h) => badge(net.lineById.get(h.line))).join("")}</span>`, "train-row")}</li>`;
   return `
     <h2 class="group-title">Shinkansen <span class="ja">新幹線</span></h2>
-    <ul class="train-list">${sk.map(row).join("")}</ul>
+    <ul class="train-list">${current.filter(isSk).map(row).join("")}</ul>
     <h2 class="group-title">Tren y metro de Tokio</h2>
-    <ul class="train-list">${rest.map(row).join("")}</ul>`;
+    <ul class="train-list">${current.filter((t) => !isSk(t)).map(row).join("")}</ul>
+    <h2 class="group-title">Históricos <span class="ja">引退車両</span></h2>
+    <p class="muted group-note">Series que ya no circulan por estas líneas (algunas siguen en otras partes de Japón o del mundo).</p>
+    <ul class="train-list">${retired.map(histRow).join("")}</ul>`;
 }
 
 // ------------------------------------------------------------------ línea
@@ -144,6 +171,7 @@ export function lineView(net, line) {
   }).join("");
 
   const trains = net.trains.filter((t) => t.lines.includes(line.id));
+  let hist;
   return `
     ${back}
     <header class="entity-head" style="--c:${line.color}">
@@ -160,7 +188,8 @@ export function lineView(net, line) {
       <div><dt>Desde</dt><dd>${line.opened ?? "—"}</dd></div>
     </dl>
     ${factList(line.facts)}
-    ${trains.length ? `<h3>Trenes</h3>${trainCards(net, trains.map((t) => t.id))}` : ""}
+    ${trains.length ? `<h3>Trenes actuales</h3>${trainCards(net, trains.map((t) => t.id))}` : ""}
+    ${(hist = historicOnLine(net, line.id)) ? `<h3>Trenes históricos</h3>${hist}` : ""}
     <h3>Recorrido${line.loop ? " (circular ↻)" : ""}</h3>
     <ol class="route ${line.loop ? "is-loop" : ""}" style="--c:${line.color}">${stops}</ol>
     <p class="source">Trazado: ${line.osm.map((id) => `<a href="https://www.openstreetmap.org/relation/${id}" target="_blank" rel="noopener">OSM ${id}</a>`).join(", ")}</p>`;
@@ -197,6 +226,8 @@ export function stationView(net, st) {
     <h3>${st.lines.length === 1 ? "Línea" : `${st.lines.length} líneas`}</h3>
     <ul class="serving-list">${rows}</ul>
     ${st.trains?.length ? `<h3>Trenes que pasan por aquí</h3>${trainCards(net, st.trains)}` : ""}
+    ${st.past_trains?.length ? `<details class="more"><summary>Trenes históricos de sus líneas (${st.past_trains.length})</summary>
+      ${trainCards(net, [...st.past_trains].sort((a, b) => net.trainById.get(a).introduced - net.trainById.get(b).introduced), { historic: true })}</details>` : ""}
     ${factList(st.facts)}
     ${near ? `<h3>Transbordo a pie</h3><ul class="station-list">${near}</ul>` : ""}
     <p class="source"><a href="https://www.openstreetmap.org/?mlat=${st.lat}&mlon=${st.lon}#map=17/${st.lat}/${st.lon}" target="_blank" rel="noopener">Ver en OpenStreetMap ↗</a></p>`;
@@ -212,6 +243,11 @@ export function trainView(net, t) {
     return `<li>${link("line", l.id, `${badge(l)}<span class="ll-name">${esc(l.name)}<span class="ja">${span}</span></span>`, "line-row")}</li>`;
   }).join("");
   const nStations = net.stationList.filter((s) => s.trains?.includes(t.id)).length;
+  const past = (t.history || []).map((h) => {
+    const l = net.lineById.get(h.line);
+    const span = h.from ? ` · ${esc(net.stations[h.from].name)} – ${esc(net.stations[h.to].name)}` : "";
+    return `<li>${link("line", l.id, `${badge(l)}<span class="ll-name">${esc(l.name)}<span class="ja">${yearsText(h.years)}${span}</span></span>`, "line-row")}</li>`;
+  }).join("");
   return `
     ${back}
     ${p ? `
@@ -225,18 +261,19 @@ export function trainView(net, t) {
       ${p ? "" : `<span class="train-icon">${trainIcon(34)}</span>`}
       <div>
         <h1>${esc(t.name)}</h1>
-        <p class="sub">${esc(op?.name || "")}</p>
+        <p class="sub">${esc(op?.name || "")}${t.retired ? ` · <span class="tag">Retirado en ${t.retired}</span>` : !t.lines.length ? ` · <span class="tag">Histórico</span>` : ""}</p>
       </div>
     </header>
     ${t.summary ? `<p class="summary">${esc(t.summary)}</p>` : ""}
     <dl class="stats">
-      <div><dt>En servicio</dt><dd>${t.introduced}</dd></div>
+      <div><dt>${t.retired ? "En servicio" : "Desde"}</dt><dd>${t.retired ? `${t.introduced}<small>–${t.retired}</small>` : t.introduced}</dd></div>
       ${t.cars ? `<div><dt>Coches</dt><dd>${t.cars}</dd></div>` : ""}
       ${nStations ? `<div><dt>Estaciones</dt><dd>${nStations}</dd></div>` : ""}
       ${t.builder ? `<div class="wide"><dt>Fabricante</dt><dd class="small">${esc(t.builder)}</dd></div>` : ""}
     </dl>
     ${factList(t.facts)}
-    ${runs ? `<h3>Circula por</h3><ul class="line-list">${runs}</ul>` : ""}`;
+    ${runs ? `<h3>Circula por</h3><ul class="line-list">${runs}</ul>` : ""}
+    ${past ? `<h3>Circuló por</h3><ul class="line-list">${past}</ul>` : ""}`;
 }
 
 export function notFoundView(what) {

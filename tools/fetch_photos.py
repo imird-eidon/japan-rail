@@ -52,16 +52,20 @@ def lead_image(title):
 
 def clean(s):
     s = re.sub(r"<[^>]+>", "", s or "")
-    return html.unescape(re.sub(r"\s+", " ", s)).strip()
+    s = html.unescape(re.sub(r"\s+", " ", s)).strip()
+    return re.split(r"\s+This (photo|image|file) was taken", s)[0].strip()  # texto de plantillas de cámara
 
 
-def file_info(file):
+def file_info(file, width=WIDTH):
     d = api("commons.wikimedia.org", action="query", titles=file, prop="imageinfo",
-            iiprop="url|extmetadata|size", iiurlwidth=WIDTH)
+            iiprop="url|extmetadata|size", iiurlwidth=width)
     page = d["query"]["pages"][0]
     if page.get("missing"):
         raise LookupError(f"{file} no existe en Commons")
     ii = page["imageinfo"][0]
+    if ii.get("width", 0) <= width and width == WIDTH and ii.get("width", 0) > 1:
+        # si el original es más estrecho, Commons devuelve el original (a veces pesadísimo): pedimos miniatura
+        return file_info(file, ii["width"] - 1)
     meta = ii.get("extmetadata", {})
     val = lambda k: meta.get(k, {}).get("value", "")
     return {

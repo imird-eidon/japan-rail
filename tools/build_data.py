@@ -321,29 +321,45 @@ def resolve_trains(trains, lines, stations, warnings):
     Fuentes: 'runs' en trains.json ([{line, from?, to?}], nombres japoneses) y 'trains' en lines.json (línea entera)."""
     by_id = {l["id"]: l for l in lines}
     ja_to_idx = {l["id"]: {stations[sid]["ja"]: i for i, sid in enumerate(l["stations"])} for l in lines}
+    def resolve(t, r):
+        """Devuelve (tramo resuelto, ids de estaciones) o None si la línea no existe."""
+        line = by_id.get(r["line"])
+        if not line:
+            warnings.append(f"trains.json: {t['id']} usa la línea desconocida '{r['line']}'")
+            return None
+        idx = ja_to_idx[line["id"]]
+        for k in ("from", "to"):
+            if k in r and r[k] not in idx:
+                warnings.append(f"trains.json: {t['id']}: «{r[k]}» no está en {line['id']}")
+        a = idx.get(r.get("from"), 0)
+        b = idx.get(r.get("to"), len(line["stations"]) - 1)
+        lo, hi = min(a, b), max(a, b)
+        item = {"line": line["id"]}
+        if lo > 0 or hi < len(line["stations"]) - 1:
+            item.update({"from": line["stations"][lo], "to": line["stations"][hi]})
+        if "years" in r:
+            item["years"] = r["years"]
+        return item, line["stations"][lo:hi + 1]
+
     for t in trains:
+        # historia: por dónde circuló y cuándo ([{line, years: [desde, hasta], from?, to?}])
+        past, past_served = [], []
+        for r in t.get("history", []):
+            if (res := resolve(t, r)):
+                past.append(res[0])
+                past_served += [x for x in res[1] if x not in past_served]
+        t["history"] = sorted(past, key=lambda h: h["years"][0])
+        for sid in past_served:
+            stations[sid].setdefault("past_trains", []).append(t["id"])
+
         runs = list(t.get("runs", []))
         runs += [{"line": l["id"]} for l in lines if t["id"] in l.get("trains", []) and
                  not any(r["line"] == l["id"] for r in runs)]
         resolved, served = [], []
         for r in runs:
-            line = by_id.get(r["line"])
-            if not line:
-                warnings.append(f"trains.json: {t['id']} usa la línea desconocida '{r['line']}'")
-                continue
-            idx = ja_to_idx[line["id"]]
-            a = idx.get(r.get("from"), 0)
-            b = idx.get(r.get("to"), len(line["stations"]) - 1)
-            for k in ("from", "to"):
-                if k in r and r[k] not in idx:
-                    warnings.append(f"trains.json: {t['id']}: «{r[k]}» no está en {line['id']}")
-            lo, hi = min(a, b), max(a, b)
-            ids = line["stations"][lo:hi + 1]
-            served += [x for x in ids if x not in served]
-            item = {"line": line["id"]}
-            if lo > 0 or hi < len(line["stations"]) - 1:
-                item.update({"from": line["stations"][lo], "to": line["stations"][hi]})
-            resolved.append(item)
+            if (res := resolve(t, r)):
+                resolved.append(res[0])
+                served += [x for x in res[1] if x not in served]
         t["runs"] = resolved
         t["lines"] = [r["line"] for r in resolved]
         for sid in served:
@@ -489,7 +505,8 @@ def main():
     resolve_trains(trains, out_lines, stations, warnings)
     photos = load_json(CONFIG / "photos.json") if (CONFIG / "photos.json").exists() else {}
     for t in trains:
-        t.pop("wiki", None)
+        for k in ("wiki", "photo_file", "photo_search"):
+            t.pop(k, None)
         if t["id"] in photos:
             t["photo"] = photos[t["id"]]
 

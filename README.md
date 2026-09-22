@@ -98,6 +98,17 @@ En `config/trains.json`. Para decir por dónde pasa, usa `runs` (los tramos con 
   "runs": [ { "line": "tohoku-shinkansen", "from": "東京", "to": "盛岡" }, { "line": "akita-shinkansen" } ] }
 ```
 
+Para los trenes que ya no circulan (o que dejaron alguna línea), usa `history` con los años, y
+`retired` si se retiró del todo:
+
+```json
+{ "id": "jnr-205", "name": "Serie 205", "operator": "jnr", "introduced": 1985,
+  "history": [ { "line": "yamanote", "years": [1985, 2005] }, { "line": "saikyo", "years": [1989, 2016] } ] }
+```
+
+Un tren puede tener `runs` y `history` a la vez (el 700 sigue en el San'yō y dejó el Tōkaidō en 2020).
+Los años salen de los artículos de Wikipedia de cada serie.
+
 Para la foto: `wiki` (artículo de la Wikipedia en inglés; se usa su imagen principal) o `photo_file`
 (`"File:…jpg"` de Wikimedia Commons, para elegir una concreta). Después:
 
@@ -115,7 +126,8 @@ Para añadir datos a una estación, usa su id (lo ves en la URL: `#/station/<id>
 - [x] Red Shinkansen completa, con fotos de los trenes
 - [ ] Líneas privadas de Tokio (Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei)
 - [ ] Osaka / Kansai
-- [ ] Fotos de trenes de Tokio y de estaciones
+- [x] Fotos de todos los trenes y trenes históricos con sus años de servicio
+- [ ] Fotos de estaciones
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno
 - [ ] Viajeros diarios por estación
 

@@ -10,7 +10,8 @@
     "facts": [
       "Sustituye muchos carteles de papel por pantallas digitales sobre puertas y portaequipajes.",
       "Monitoriza en tiempo real el estado del tren y de la vía para anticipar averías."
-    ]
+    ],
+    "wiki": "E235 series"
   },
   {
     "id": "e235-1000",
@@ -19,7 +20,8 @@
     "introduced": 2020,
     "builder": "J-TREC / JR East (Niitsu)",
     "cars": 15,
-    "summary": "Versión del E235 para las líneas Yokosuka y Sōbu rápido, con coches Green de dos pisos (primera clase)."
+    "summary": "Versión del E235 para las líneas Yokosuka y Sōbu rápido, con coches Green de dos pisos (primera clase).",
+    "photo_file": "File:JRE Series-E235-1000 J12.jpg"
   },
   {
     "id": "e233-0",
@@ -30,7 +32,9 @@
     "summary": "El naranja de la línea Chūō. Fue el primer modelo de la gran familia E233.",
     "facts": [
       "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado."
-    ]
+    ],
+    "wiki": "E233 series",
+    "photo_file": "File:JRE Chuo-Rapid-Line Series-E233-0.jpg"
   },
   {
     "id": "e233-1000",
@@ -39,7 +43,8 @@
     "introduced": 2007,
     "builder": "Tōkyū Car / JR East (Niitsu)",
     "cars": 10,
-    "summary": "Variante azul celeste para la Keihin-Tōhoku."
+    "summary": "Variante azul celeste para la Keihin-Tōhoku.",
+    "photo_file": "File:JRE Series-E233-1000 121.jpg"
   },
   {
     "id": "e233-7000",
@@ -47,7 +52,8 @@
     "operator": "jr-east",
     "introduced": 2013,
     "cars": 10,
-    "summary": "Variante verde de las líneas Saikyō y Kawagoe."
+    "summary": "Variante verde de las líneas Saikyō y Kawagoe.",
+    "photo_file": "File:JRE Series-E233-7000 108.jpg"
   },
   {
     "id": "e231-500",
@@ -55,7 +61,20 @@
     "operator": "jr-east",
     "introduced": 2002,
     "cars": 10,
-    "summary": "Fue el tren de la Yamanote entre 2002 y 2020. Hoy circula, pintado de amarillo, por la Chūō-Sōbu."
+    "summary": "Fue el tren de la Yamanote entre 2002 y 2020. Hoy circula, pintado de amarillo, por la Chūō-Sōbu.",
+    "history": [
+      {
+        "line": "yamanote",
+        "years": [
+          2002,
+          2020
+        ]
+      }
+    ],
+    "facts": [
+      "Entre 2002 y 2020 fue el tren de la Yamanote, en verde; al llegar los E235 pasó a la Chūō-Sōbu pintado de amarillo."
+    ],
+    "photo_file": "File:JRE Series-E231-500 A525.jpg"
   },
   {
     "id": "tm-1000",
@@ -66,7 +85,8 @@
     "summary": "Homenaje a los primeros trenes de 1927: color limón y techo de aspecto retro.",
     "facts": [
       "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927."
-    ]
+    ],
+    "wiki": "Tokyo Metro 1000 series"
   },
   {
     "id": "tm-2000",
@@ -75,7 +95,8 @@
     "introduced": 2019,
     "builder": "Hitachi",
     "cars": 6,
-    "summary": "Rojo con la onda senoidal clásica de la Marunouchi y ventanas redondeadas."
+    "summary": "Rojo con la onda senoidal clásica de la Marunouchi y ventanas redondeadas.",
+    "wiki": "Tokyo Metro 2000 series"
   },
   {
     "id": "tm-13000",
@@ -83,7 +104,8 @@
     "operator": "tokyo-metro",
     "introduced": 2017,
     "cars": 7,
-    "summary": "Coches de 20 m (antes eran de 18 m), lo que permitió reducir el tren de 8 a 7 coches."
+    "summary": "Coches de 20 m (antes eran de 18 m), lo que permitió reducir el tren de 8 a 7 coches.",
+    "wiki": "Tokyo Metro 13000 series"
   },
   {
     "id": "tm-15000",
@@ -91,7 +113,8 @@
     "operator": "tokyo-metro",
     "introduced": 2010,
     "cars": 10,
-    "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai."
+    "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai.",
+    "wiki": "Tokyo Metro 15000 series"
   },
   {
     "id": "tm-16000",
@@ -99,14 +122,16 @@
     "operator": "tokyo-metro",
     "introduced": 2010,
     "cars": 10,
-    "summary": "Motores de imanes permanentes, muy eficientes. Lleva servicios directos hacia Odakyū y JR Jōban."
+    "summary": "Motores de imanes permanentes, muy eficientes. Lleva servicios directos hacia Odakyū y JR Jōban.",
+    "wiki": "Tokyo Metro 16000 series"
   },
   {
     "id": "tm-17000",
     "name": "Tokyo Metro serie 17000",
     "operator": "tokyo-metro",
     "introduced": 2021,
-    "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón."
+    "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón.",
+    "wiki": "Tokyo Metro 17000 series"
   },
   {
     "id": "tm-18000",
@@ -115,7 +140,8 @@
     "introduced": 2021,
     "builder": "Kinki Sharyō",
     "cars": 10,
-    "summary": "El tren de la Hanzōmon, con franja morada."
+    "summary": "El tren de la Hanzōmon, con franja morada.",
+    "wiki": "Tokyo Metro 18000 series"
   },
   {
     "id": "tm-9000",
@@ -123,7 +149,8 @@
     "operator": "tokyo-metro",
     "introduced": 1991,
     "cars": 6,
-    "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio."
+    "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio.",
+    "wiki": "Tokyo Metro 9000 series"
   },
   {
     "id": "toei-5500",
@@ -131,7 +158,8 @@
     "operator": "toei",
     "introduced": 2018,
     "cars": 8,
-    "summary": "Su frontal se inspira en el kumadori, el maquillaje del teatro kabuki; recorre las líneas de Keisei y Keikyū hasta los aeropuertos."
+    "summary": "Su frontal se inspira en el kumadori, el maquillaje del teatro kabuki; recorre las líneas de Keisei y Keikyū hasta los aeropuertos.",
+    "wiki": "Toei 5500 series"
   },
   {
     "id": "toei-6500",
@@ -139,7 +167,8 @@
     "operator": "toei",
     "introduced": 2022,
     "cars": 8,
-    "summary": "Trenes de 8 coches (antes 6) para la línea Mita."
+    "summary": "Trenes de 8 coches (antes 6) para la línea Mita.",
+    "wiki": "Toei 6500 series"
   },
   {
     "id": "toei-10-300",
@@ -147,7 +176,8 @@
     "operator": "toei",
     "introduced": 2005,
     "cars": 10,
-    "summary": "Basado en el E231 de JR East, adaptado al ancho de 1372 mm de la línea Shinjuku."
+    "summary": "Basado en el E231 de JR East, adaptado al ancho de 1372 mm de la línea Shinjuku.",
+    "wiki": "Toei 10-300 series"
   },
   {
     "id": "toei-12-000",
@@ -155,7 +185,8 @@
     "operator": "toei",
     "introduced": 1991,
     "cars": 8,
-    "summary": "Tren de motor lineal para los túneles pequeños de la Ōedo. La serie 12-600 lo va sustituyendo."
+    "summary": "Tren de motor lineal para los túneles pequeños de la Ōedo. La serie 12-600 lo va sustituyendo.",
+    "wiki": "Toei 12-000 series"
   },
   {
     "id": "toei-8900",
@@ -164,7 +195,8 @@
     "introduced": 2015,
     "builder": "Alna Sharyō",
     "cars": 1,
-    "summary": "Tranvía de un solo coche para el Tokyo Sakura Tram, en varios colores."
+    "summary": "Tranvía de un solo coche para el Tokyo Sakura Tram, en varios colores.",
+    "wiki": "Toei 8900 series"
   },
   {
     "id": "yurikamome-7300",
@@ -172,7 +204,9 @@
     "operator": "yurikamome",
     "introduced": 2014,
     "cars": 6,
-    "summary": "Automático, sin conductor y sobre ruedas de goma. Los asientos delanteros tienen vista directa a la vía."
+    "summary": "Automático, sin conductor y sobre ruedas de goma. Los asientos delanteros tienen vista directa a la vía.",
+    "wiki": "Yurikamome 7300 series",
+    "photo_file": "File:Yurikamome Series7300-33.jpg"
   },
   {
     "id": "monorail-10000",
@@ -181,7 +215,8 @@
     "introduced": 2014,
     "builder": "Hitachi",
     "cars": 6,
-    "summary": "Monorraíl moderno con espacio para el equipaje, pensado para los pasajeros de Haneda."
+    "summary": "Monorraíl moderno con espacio para el equipaje, pensado para los pasajeros de Haneda.",
+    "wiki": "Tokyo Monorail 10000 series"
   },
   {
     "id": "twr-70-000",
@@ -189,7 +224,8 @@
     "operator": "twr",
     "introduced": 1996,
     "cars": 10,
-    "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East."
+    "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East.",
+    "wiki": "TWR 70-000 series"
   },
   {
     "id": "sk-n700s",
@@ -397,6 +433,638 @@
       },
       {
         "line": "hokuriku-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "jnr-101",
+    "name": "Serie 101",
+    "operator": "jnr",
+    "introduced": 1957,
+    "retired": 2003,
+    "wiki": "101 series",
+    "summary": "El primer tren de cercanías «de nuevas prestaciones» de JNR: motores repartidos por todo el tren en vez de coches tirados por locomotora.",
+    "history": [
+      {
+        "line": "chuo-rapid",
+        "years": [
+          1957,
+          1985
+        ]
+      },
+      {
+        "line": "chuo-sobu",
+        "years": [
+          1963,
+          1988
+        ]
+      },
+      {
+        "line": "yamanote",
+        "years": [
+          1961,
+          1968
+        ]
+      },
+      {
+        "line": "keihin-tohoku",
+        "years": [
+          1970,
+          1978
+        ]
+      }
+    ],
+    "photo_file": "File:101 series sagamiko sp.(1).jpg"
+  },
+  {
+    "id": "jnr-103",
+    "name": "Serie 103",
+    "operator": "jnr",
+    "introduced": 1963,
+    "wiki": "103 series",
+    "summary": "El tren de cercanías más fabricado de Japón: más de 3.400 coches entre 1963 y 1984.",
+    "facts": [
+      "En la Yamanote vestía el verde amarillento «uguisu» que hoy sigue identificando a la línea.",
+      "De las líneas que recoge esta web desapareció en 2001, pero JR West aún lo usa en algunas líneas de Kansai."
+    ],
+    "history": [
+      {
+        "line": "yamanote",
+        "years": [
+          1963,
+          1988
+        ]
+      },
+      {
+        "line": "keihin-tohoku",
+        "years": [
+          1965,
+          1998
+        ]
+      },
+      {
+        "line": "chuo-rapid",
+        "years": [
+          1973,
+          1983
+        ]
+      },
+      {
+        "line": "chuo-sobu",
+        "years": [
+          1979,
+          2001
+        ]
+      },
+      {
+        "line": "saikyo",
+        "years": [
+          1985,
+          1990
+        ]
+      }
+    ],
+    "photo_file": "File:JNR103 198508 Uguisudani.jpg"
+  },
+  {
+    "id": "jnr-201",
+    "name": "Serie 201",
+    "operator": "jnr",
+    "introduced": 1979,
+    "retired": 2025,
+    "wiki": "201 series",
+    "summary": "Primer tren de cercanías de JNR con control «chopper», que ahorra energía. Fue el naranja de la Chūō hasta 2010.",
+    "history": [
+      {
+        "line": "chuo-rapid",
+        "years": [
+          1979,
+          2010
+        ]
+      },
+      {
+        "line": "chuo-sobu",
+        "years": [
+          1982,
+          2001
+        ]
+      }
+    ],
+    "photo_file": "File:Chuo 201 series set 43 Mitaka 20030222.jpg"
+  },
+  {
+    "id": "jnr-205",
+    "name": "Serie 205",
+    "operator": "jnr",
+    "introduced": 1985,
+    "wiki": "205 series",
+    "summary": "Primer tren de JNR de acero inoxidable ligero: sin pintar, solo con una franja del color de la línea. Estrenó en la Yamanote en 1985.",
+    "facts": [
+      "Muchos 205 retirados en Tokio siguen circulando en Yakarta (Indonesia)."
+    ],
+    "history": [
+      {
+        "line": "yamanote",
+        "years": [
+          1985,
+          2005
+        ]
+      },
+      {
+        "line": "saikyo",
+        "years": [
+          1989,
+          2016
+        ]
+      },
+      {
+        "line": "keihin-tohoku",
+        "years": [
+          1989,
+          1996
+        ]
+      },
+      {
+        "line": "chuo-sobu",
+        "years": [
+          1989,
+          2001
+        ]
+      }
+    ],
+    "photo_file": "File:Yamanote Line 205 series set 30 Tabata Station 20030202.JPG"
+  },
+  {
+    "id": "jr-209",
+    "name": "Serie 209",
+    "operator": "jr-east",
+    "introduced": 1993,
+    "wiki": "209 series",
+    "summary": "Diseñado con el lema «la mitad de peso, la mitad de precio, la mitad de vida útil».",
+    "history": [
+      {
+        "line": "keihin-tohoku",
+        "years": [
+          1993,
+          2010
+        ]
+      },
+      {
+        "line": "chuo-sobu",
+        "years": [
+          1998,
+          2019
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tm-01",
+    "name": "Tokyo Metro serie 01",
+    "operator": "tokyo-metro",
+    "introduced": 1984,
+    "retired": 2017,
+    "wiki": "Tokyo Metro 01 series",
+    "summary": "El tren de la Ginza durante 33 años, hasta marzo de 2017.",
+    "history": [
+      {
+        "line": "ginza",
+        "years": [
+          1984,
+          2017
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tm-500m",
+    "name": "Serie 300/400/500 (Marunouchi)",
+    "operator": "tokyo-metro",
+    "introduced": 1954,
+    "retired": 1996,
+    "summary": "Los trenes rojos originales de la Marunouchi, con la onda blanca que aún lleva la línea.",
+    "facts": [
+      "Tras retirarse en 1996, muchos coches viajaron a Argentina y circularon por la línea B del subte de Buenos Aires."
+    ],
+    "history": [
+      {
+        "line": "marunouchi",
+        "years": [
+          1954,
+          1996
+        ]
+      }
+    ],
+    "photo_file": "File:TRTA Marunouchi Line 500 783 Kokkai-gijido-mae 19770625.jpg"
+  },
+  {
+    "id": "tm-02",
+    "name": "Tokyo Metro serie 02",
+    "operator": "tokyo-metro",
+    "introduced": 1988,
+    "retired": 2024,
+    "wiki": "Tokyo Metro 02 series",
+    "summary": "El tren de la Marunouchi de 1988 a 2024, sustituido por la serie 2000.",
+    "history": [
+      {
+        "line": "marunouchi",
+        "years": [
+          1988,
+          2024
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tm-3000",
+    "name": "Serie 3000 (Hibiya)",
+    "operator": "tokyo-metro",
+    "introduced": 1961,
+    "retired": 1994,
+    "wiki": "TRTA 3000 series",
+    "summary": "Estrenó la Hibiya en 1961. Tras retirarse en 1994, varios coches siguieron en el ferrocarril Nagano Dentetsu.",
+    "history": [
+      {
+        "line": "hibiya",
+        "years": [
+          1961,
+          1994
+        ]
+      }
+    ],
+    "photo_file": "File:TRTA 3000 series set 3030 Naka-Meguro 19770625.jpg"
+  },
+  {
+    "id": "tm-03",
+    "name": "Tokyo Metro serie 03",
+    "operator": "tokyo-metro",
+    "introduced": 1988,
+    "retired": 2020,
+    "wiki": "Tokyo Metro 03 series",
+    "summary": "El tren de la Hibiya entre 1988 y 2020; algunos coches tenían 5 puertas por lado para agilizar la subida.",
+    "history": [
+      {
+        "line": "hibiya",
+        "years": [
+          1988,
+          2020
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tm-5000",
+    "name": "Serie 5000 (Tōzai)",
+    "operator": "tokyo-metro",
+    "introduced": 1964,
+    "retired": 2014,
+    "wiki": "Tokyo Metro 5000 series",
+    "summary": "Estrenó la Tōzai en 1964 y circuló en ella hasta 2007; varios acabaron en Yakarta.",
+    "history": [
+      {
+        "line": "tozai",
+        "years": [
+          1964,
+          2007
+        ]
+      }
+    ],
+    "photo_file": "File:Tokyo Metro Tozai Line 20050122.jpg"
+  },
+  {
+    "id": "tm-6000",
+    "name": "Tokyo Metro serie 6000",
+    "operator": "tokyo-metro",
+    "introduced": 1971,
+    "retired": 2018,
+    "wiki": "Tokyo Metro 6000 series",
+    "summary": "Con su frontal asimétrico fue un diseño muy avanzado para 1971. Circuló 47 años por la Chiyoda y muchos siguen en Yakarta.",
+    "history": [
+      {
+        "line": "chiyoda",
+        "years": [
+          1971,
+          2018
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tm-7000",
+    "name": "Tokyo Metro serie 7000",
+    "operator": "tokyo-metro",
+    "introduced": 1974,
+    "retired": 2022,
+    "wiki": "Tokyo Metro 7000 series",
+    "summary": "Estrenó la Yūrakuchō en 1974 y circuló hasta 2022.",
+    "history": [
+      {
+        "line": "yurakucho",
+        "years": [
+          1974,
+          2022
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toei-5300",
+    "name": "Toei serie 5300",
+    "operator": "toei",
+    "introduced": 1991,
+    "retired": 2023,
+    "wiki": "Toei 5300 series",
+    "summary": "El tren del Asakusa entre 1991 y 2023, con servicios directos a Keisei y Keikyū.",
+    "history": [
+      {
+        "line": "asakusa",
+        "years": [
+          1991,
+          2023
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toei-6000",
+    "name": "Toei serie 6000",
+    "operator": "toei",
+    "introduced": 1968,
+    "retired": 1999,
+    "wiki": "Toei 6000 series",
+    "summary": "Los primeros trenes del Mita (1968–1999). Después siguieron en otras líneas de Japón y en Indonesia.",
+    "history": [
+      {
+        "line": "mita",
+        "years": [
+          1968,
+          1999
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toei-10-000",
+    "name": "Toei serie 10-000",
+    "operator": "toei",
+    "introduced": 1978,
+    "retired": 2018,
+    "wiki": "Toei 10-000 series",
+    "summary": "Estrenó la línea Shinjuku en 1978 y circuló hasta febrero de 2018.",
+    "history": [
+      {
+        "line": "shinjuku",
+        "years": [
+          1978,
+          2018
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toei-7000",
+    "name": "Toei serie 7000 (tranvía)",
+    "operator": "toei",
+    "introduced": 1954,
+    "retired": 2017,
+    "wiki": "Toei 7000 series",
+    "summary": "Tranvías de la red Toden desde 1954; el último dejó de circular en junio de 2017.",
+    "history": [
+      {
+        "line": "arakawa",
+        "years": [
+          1954,
+          2017
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-0",
+    "name": "Serie 0",
+    "operator": "jnr",
+    "introduced": 1964,
+    "retired": 2008,
+    "wiki": "0 Series Shinkansen",
+    "summary": "El «tren bala» original, con su morro redondeado azul y blanco.",
+    "facts": [
+      "Se fabricaron 3.216 coches en 22 años.",
+      "Dejó el Tōkaidō en 1999, pero siguió en el San'yō hasta 2008."
+    ],
+    "history": [
+      {
+        "line": "tokaido-shinkansen",
+        "years": [
+          1964,
+          1999
+        ]
+      },
+      {
+        "line": "sanyo-shinkansen",
+        "years": [
+          1972,
+          2008
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-100",
+    "name": "Serie 100",
+    "operator": "jnr",
+    "introduced": 1985,
+    "retired": 2012,
+    "wiki": "100 Series Shinkansen",
+    "summary": "Estrenó los coches de dos pisos en el Shinkansen, con comedor y vistas.",
+    "history": [
+      {
+        "line": "tokaido-shinkansen",
+        "years": [
+          1985,
+          2003
+        ]
+      },
+      {
+        "line": "sanyo-shinkansen",
+        "years": [
+          1985,
+          2012
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-300",
+    "name": "Serie 300",
+    "operator": "jr-central",
+    "introduced": 1992,
+    "retired": 2012,
+    "wiki": "300 Series Shinkansen",
+    "summary": "Con él nació el Nozomi en 1992, a 270 km/h.",
+    "history": [
+      {
+        "line": "tokaido-shinkansen",
+        "years": [
+          1992,
+          2012
+        ]
+      },
+      {
+        "line": "sanyo-shinkansen",
+        "years": [
+          1993,
+          2012
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-200",
+    "name": "Serie 200",
+    "operator": "jnr",
+    "introduced": 1982,
+    "retired": 2013,
+    "wiki": "200 Series Shinkansen",
+    "summary": "El primer Shinkansen del este (1982), preparado para la nieve del Tōhoku y el Jōetsu.",
+    "history": [
+      {
+        "line": "tohoku-shinkansen",
+        "years": [
+          1982,
+          2011
+        ]
+      },
+      {
+        "line": "joetsu-shinkansen",
+        "years": [
+          1982,
+          2013
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-e1",
+    "name": "Serie E1 «Max»",
+    "operator": "jr-east",
+    "introduced": 1994,
+    "retired": 2012,
+    "wiki": "E1 Series Shinkansen",
+    "summary": "El primer Shinkansen de dos pisos en todos sus coches, pensado para los viajeros diarios a Tokio.",
+    "history": [
+      {
+        "line": "tohoku-shinkansen",
+        "years": [
+          1994,
+          1999
+        ]
+      },
+      {
+        "line": "joetsu-shinkansen",
+        "years": [
+          1994,
+          2012
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-e4",
+    "name": "Serie E4 «Max»",
+    "operator": "jr-east",
+    "introduced": 1997,
+    "retired": 2021,
+    "wiki": "E4 Series Shinkansen",
+    "summary": "Dos pisos; acoplando dos trenes llegaba a 1.634 plazas, un récord mundial en alta velocidad.",
+    "history": [
+      {
+        "line": "tohoku-shinkansen",
+        "years": [
+          1997,
+          2012
+        ]
+      },
+      {
+        "line": "joetsu-shinkansen",
+        "years": [
+          2001,
+          2021
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk-400",
+    "name": "Serie 400",
+    "operator": "jr-east",
+    "introduced": 1992,
+    "retired": 2010,
+    "wiki": "400 Series Shinkansen",
+    "summary": "El primer tren mini-shinkansen (1992), plateado, para los Tsubasa del Yamagata.",
+    "history": [
+      {
+        "line": "yamagata-shinkansen",
+        "years": [
+          1992,
+          2010
+        ]
+      },
+      {
+        "line": "tohoku-shinkansen",
+        "years": [
+          1992,
+          2010
+        ],
+        "from": "東京",
+        "to": "福島"
+      }
+    ]
+  },
+  {
+    "id": "sk-e3",
+    "name": "Serie E3",
+    "operator": "jr-east",
+    "introduced": 1997,
+    "wiki": "E3 Series Shinkansen",
+    "summary": "El primer Komachi (1997). La versión del Yamagata se está sustituyendo por el E8.",
+    "history": [
+      {
+        "line": "akita-shinkansen",
+        "years": [
+          1997,
+          2014
+        ]
+      },
+      {
+        "line": "tohoku-shinkansen",
+        "years": [
+          1997,
+          2014
+        ],
+        "from": "東京",
+        "to": "盛岡"
+      }
+    ]
+  },
+  {
+    "id": "sk-700",
+    "name": "Serie 700",
+    "operator": "jr-central",
+    "introduced": 1999,
+    "wiki": "700 Series Shinkansen",
+    "summary": "Su morro de «pico de pato» fue un icono del Tōkaidō hasta 2020. Sigue en el San'yō.",
+    "runs": [
+      {
+        "line": "sanyo-shinkansen"
+      }
+    ],
+    "history": [
+      {
+        "line": "tokaido-shinkansen",
+        "years": [
+          1999,
+          2020
+        ]
       }
     ]
   }
