@@ -128,7 +128,27 @@
   "西鯖江": "Nishi-Sabae",
   "三十八社": "Sanjuhassha",
   "浅水": "Asozu",
-  "清明": "Seimei"
+  "清明": "Seimei",
+  "長崎駅前": "Nagasaki-ekimae",
+  "熊本駅前": "Kumamoto-ekimae",
+  "浦上駅前": "Urakami-ekimae",
+  "新水前寺駅前": "Shin-Suizenji-ekimae",
+  "鹿児島駅前": "Kagoshima-ekimae",
+  "南鹿児島駅前": "Minami-Kagoshima-ekimae",
+  "鹿児島中央駅前": "Kagoshima-Chuo-ekimae",
+  "函館駅前": "Hakodate-ekimae",
+  "岡山駅前": "Okayama-ekimae",
+  "松山市駅前": "Matsuyama-shi-ekimae",
+  "JR松山駅前": "JR Matsuyama-ekimae",
+  "大手町駅前": "Otemachi-ekimae",
+  "浜寺駅前": "Hamadera-ekimae",
+  "新今宮駅前": "Shin-Imamiya-ekimae",
+  "天王寺駅前": "Tennoji-ekimae",
+  "伊野駅前": "Ino-ekimae",
+  "朝倉駅前": "Asakura-ekimae",
+  "大塚駅前": "Otsuka-ekimae",
+  "王子駅前": "Oji-ekimae",
+  "町屋駅前": "Machiya-ekimae"
  },
  "station_codes": {
   "oedo": {
