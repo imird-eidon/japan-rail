@@ -3,6 +3,10 @@ import { esc, textOn, neighbours, networkStats } from "./data.js";
 
 const fmtKm = (n) => `${String(n).replace(".", ",")} km`;
 
+/** Icono de tren (SVG en línea, usa currentColor). */
+export const trainIcon = (size = 20) =>
+  `<svg class="train-svg" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l-2 -3M15 21l2 -3"/><circle cx="9" cy="14" r=".6" fill="currentColor"/><circle cx="15" cy="14" r=".6" fill="currentColor"/></svg>`;
+
 export const badge = (line, text = line.code) =>
   `<span class="badge" style="--c:${line.color};--t:${textOn(line.color)}">${esc(text)}</span>`;
 
@@ -98,6 +102,7 @@ const dot = (l) => `<span class="dot" style="--c:${l.color}" title="${esc(l.name
 function trainsTab(net) {
   return `<ul class="train-list">${net.trains.map((t) => `
     <li>${link("train", t.id, `
+      <span class="tr-ico">${trainIcon()}</span>
       <span class="tr-name">${esc(t.name)}</span>
       <span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span>
       <span class="tr-lines">${t.lines.map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`).join("")}
@@ -183,7 +188,7 @@ export function trainView(net, t) {
   return `
     ${back}
     <header class="entity-head">
-      <span class="train-icon" aria-hidden="true">🚆</span>
+      <span class="train-icon">${trainIcon(34)}</span>
       <div>
         <h1>${esc(t.name)}</h1>
         <p class="sub">${esc(op?.name || "")}</p>

@@ -2,7 +2,9 @@
 import { esc, textOn } from "./data.js";
 
 const L = window.L;
-const TILE = (theme) => `https://{s}.basemaps.cartocdn.com/${theme === "dark" ? "dark_all" : "light_all"}/{z}/{x}/{y}{r}.png`;
+// Teselas estándar de OSM; el tono claro/oscuro se consigue con un filtro CSS (.basemap en app.css)
+const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+const CORE_BOUNDS = [[35.605, 139.66], [35.765, 139.84]]; // Tokio central (anillo Yamanote y alrededores)
 const STATION_MIN_ZOOM = 12;
 const LABEL_MIN_ZOOM = 12;
 
@@ -15,9 +17,9 @@ export function createMap(el, net, { onLine, onStation }) {
   L.control.zoom({ position: "topright" }).addTo(map);
   L.control.scale({ imperial: false, position: "bottomright" }).addTo(map);
 
-  const tiles = L.tileLayer(TILE(theme()), {
-    subdomains: "abcd", maxZoom: 20,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  L.tileLayer(TILE_URL, {
+    maxZoom: 19, className: "basemap",
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
 
   map.createPane("lines").style.zIndex = 410;
@@ -129,7 +131,7 @@ export function createMap(el, net, { onLine, onStation }) {
   function render() { styleLines(); styleStations(); }
 
   map.on("zoomend", render);
-  darkQuery.addEventListener("change", () => { tiles.setUrl(TILE(theme())); render(); });
+  darkQuery.addEventListener("change", render);
 
   // ---------------------------------------------------------------- API
   const pad = () => (matchMedia("(max-width: 820px)").matches ? [20, 20] : [40, 40]);
@@ -149,24 +151,28 @@ export function createMap(el, net, { onLine, onStation }) {
       state.focusLine = state.focusStation = null;
       setPulse(null);
       render();
-      if (fit) map.flyToBounds(visibleBounds(), { padding: pad(), duration: 0.6 });
+      if (fit) map.fitBounds(CORE_BOUNDS, { animate: false });
     },
-    focusLine(id) {
+    focusLine(id, { animate = true } = {}) {
       state.focusLine = id;
       state.focusStation = null;
       setPulse(null);
       render();
       const l = lineLayers.get(id);
-      if (l) map.flyToBounds(l.bounds, { padding: pad(), duration: 0.6 });
+      if (!l) return;
+      if (animate) map.flyToBounds(l.bounds, { padding: pad(), duration: 0.6 });
+      else map.fitBounds(l.bounds, { padding: pad(), animate: false });
     },
-    focusStation(id) {
+    focusStation(id, { animate = true } = {}) {
       const st = net.stations[id];
       if (!st) return;
       state.focusLine = null;
       state.focusStation = id;
       render();
       setPulse(st);
-      map.flyTo([st.lat, st.lon], Math.max(map.getZoom(), 14.5), { duration: 0.6 });
+      const z = Math.max(map.getZoom(), 14.5);
+      if (animate) map.flyTo([st.lat, st.lon], z, { duration: 0.6 });
+      else map.setView([st.lat, st.lon], z, { animate: false });
     },
     setHiddenOperators(set) {
       state.hiddenOps = new Set(set);
@@ -174,12 +180,6 @@ export function createMap(el, net, { onLine, onStation }) {
     },
     invalidate() { map.invalidateSize(); },
   };
-
-  function visibleBounds() {
-    const b = L.latLngBounds([]);
-    for (const { bounds, line } of lineLayers.values()) if (visibleLine(line)) b.extend(bounds);
-    return b.isValid() ? b : L.latLngBounds([[35.6, 139.6], [35.8, 139.9]]);
-  }
 
   render();
   return api;

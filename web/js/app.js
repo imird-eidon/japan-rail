@@ -3,7 +3,7 @@
 //   #/line/<id>        #/station/<id>       #/train/<id>
 import { loadNetwork, allFacts, search, esc } from "./data.js";
 import { createMap } from "./map.js";
-import { homeView, lineView, stationView, trainView, notFoundView, badge } from "./views.js";
+import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon } from "./views.js";
 
 const panel = document.getElementById("panel");
 const input = document.getElementById("search");
@@ -54,11 +54,11 @@ function route({ initial = false } = {}) {
   if (type === "line") {
     const line = net.lineById.get(id);
     html = line ? lineView(net, line) : notFoundView("esa línea");
-    if (line) { map.focusLine(line.id); document.title = `${line.name} · Japan Rail Explorer`; }
+    if (line) { map.focusLine(line.id, { animate: !initial }); document.title = `${line.name} · Japan Rail Explorer`; }
   } else if (type === "station") {
     const st = net.stations[id];
     html = st ? stationView(net, st) : notFoundView("esa estación");
-    if (st) { map.focusStation(st.id); document.title = `${st.name} ${st.ja} · Japan Rail Explorer`; }
+    if (st) { map.focusStation(st.id, { animate: !initial }); document.title = `${st.name} ${st.ja} · Japan Rail Explorer`; }
   } else if (type === "train") {
     const t = net.trainById.get(id);
     html = t ? trainView(net, t) : notFoundView("ese tren");
@@ -108,7 +108,7 @@ function renderResults() {
     const label = { line: "Línea", station: "Estación", train: "Tren" }[type];
     const lead = type === "line" ? badge(item)
       : type === "station" ? item.lines.slice(0, 4).map((x) => `<span class="dot" style="--c:${net.lineById.get(x.line).color}"></span>`).join("")
-      : `<span class="tr-ico">🚆</span>`;
+      : `<span class="tr-ico">${trainIcon(18)}</span>`;
     return `<li role="option" id="sr-${i}" aria-selected="${i === active}" data-href="#/${type}/${encodeURIComponent(item.id)}">
       <span class="sr-lead">${lead}</span>
       <span class="sr-name">${esc(item.name)} ${item.ja ? `<span class="ja">${esc(item.ja)}</span>` : ""}</span>

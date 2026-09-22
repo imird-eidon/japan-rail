@@ -211,11 +211,14 @@ def simplify(points, tol):
         s, e = stack.pop()
         (y1, x1), (y2, x2) = points[s], points[e]
         dx, dy = x2 - x1, y2 - y1
-        norm = math.hypot(dx, dy) or 1e-12
+        norm = math.hypot(dx, dy)
         best, idx = 0.0, None
         for k in range(s + 1, e):
             y0, x0 = points[k]
-            d = abs(dy * x0 - dx * y0 + x2 * y1 - y2 * x1) / norm
+            if norm == 0:  # tramo cerrado (líneas circulares): distancia al punto
+                d = math.hypot(x0 - x1, y0 - y1)
+            else:
+                d = abs(dy * x0 - dx * y0 + x2 * y1 - y2 * x1) / norm
             if d > best:
                 best, idx = d, k
         if idx is not None and best > tol:
