@@ -1,0 +1,194 @@
+[
+  {
+    "id": "e235-0",
+    "name": "Serie E235",
+    "operator": "jr-east",
+    "introduced": 2015,
+    "builder": "J-TREC / JR East (Niitsu)",
+    "cars": 11,
+    "summary": "El tren actual de la Yamanote. Desde enero de 2020 es el único que circula por el anillo.",
+    "facts": [
+      "Sustituye muchos carteles de papel por pantallas digitales sobre puertas y portaequipajes.",
+      "Monitoriza en tiempo real el estado del tren y de la vía para anticipar averías."
+    ]
+  },
+  {
+    "id": "e235-1000",
+    "name": "Serie E235-1000",
+    "operator": "jr-east",
+    "introduced": 2020,
+    "builder": "J-TREC / JR East (Niitsu)",
+    "cars": 15,
+    "summary": "Versión del E235 para las líneas Yokosuka y Sōbu rápido, con coches Green de dos pisos (primera clase)."
+  },
+  {
+    "id": "e233-0",
+    "name": "Serie E233-0",
+    "operator": "jr-east",
+    "introduced": 2006,
+    "builder": "Tōkyū Car / JR East (Niitsu)",
+    "summary": "El naranja de la línea Chūō. Fue el primer modelo de la gran familia E233.",
+    "facts": [
+      "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado."
+    ]
+  },
+  {
+    "id": "e233-1000",
+    "name": "Serie E233-1000",
+    "operator": "jr-east",
+    "introduced": 2007,
+    "builder": "Tōkyū Car / JR East (Niitsu)",
+    "cars": 10,
+    "summary": "Variante azul celeste para la Keihin-Tōhoku."
+  },
+  {
+    "id": "e233-7000",
+    "name": "Serie E233-7000",
+    "operator": "jr-east",
+    "introduced": 2013,
+    "cars": 10,
+    "summary": "Variante verde de las líneas Saikyō y Kawagoe."
+  },
+  {
+    "id": "e231-500",
+    "name": "Serie E231-500",
+    "operator": "jr-east",
+    "introduced": 2002,
+    "cars": 10,
+    "summary": "Fue el tren de la Yamanote entre 2002 y 2020. Hoy circula, pintado de amarillo, por la Chūō-Sōbu."
+  },
+  {
+    "id": "tm-1000",
+    "name": "Tokyo Metro serie 1000",
+    "operator": "tokyo-metro",
+    "introduced": 2012,
+    "cars": 6,
+    "summary": "Homenaje a los primeros trenes de 1927: color limón y techo de aspecto retro.",
+    "facts": [
+      "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927."
+    ]
+  },
+  {
+    "id": "tm-2000",
+    "name": "Tokyo Metro serie 2000",
+    "operator": "tokyo-metro",
+    "introduced": 2019,
+    "builder": "Hitachi",
+    "cars": 6,
+    "summary": "Rojo con la onda senoidal clásica de la Marunouchi y ventanas redondeadas."
+  },
+  {
+    "id": "tm-13000",
+    "name": "Tokyo Metro serie 13000",
+    "operator": "tokyo-metro",
+    "introduced": 2017,
+    "cars": 7,
+    "summary": "Coches de 20 m (antes eran de 18 m), lo que permitió reducir el tren de 8 a 7 coches."
+  },
+  {
+    "id": "tm-15000",
+    "name": "Tokyo Metro serie 15000",
+    "operator": "tokyo-metro",
+    "introduced": 2010,
+    "cars": 10,
+    "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai."
+  },
+  {
+    "id": "tm-16000",
+    "name": "Tokyo Metro serie 16000",
+    "operator": "tokyo-metro",
+    "introduced": 2010,
+    "cars": 10,
+    "summary": "Motores de imanes permanentes, muy eficientes. Lleva servicios directos hacia Odakyū y JR Jōban."
+  },
+  {
+    "id": "tm-17000",
+    "name": "Tokyo Metro serie 17000",
+    "operator": "tokyo-metro",
+    "introduced": 2021,
+    "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón."
+  },
+  {
+    "id": "tm-18000",
+    "name": "Tokyo Metro serie 18000",
+    "operator": "tokyo-metro",
+    "introduced": 2021,
+    "builder": "Kinki Sharyō",
+    "cars": 10,
+    "summary": "El tren de la Hanzōmon, con franja morada."
+  },
+  {
+    "id": "tm-9000",
+    "name": "Tokyo Metro serie 9000",
+    "operator": "tokyo-metro",
+    "introduced": 1991,
+    "cars": 6,
+    "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio."
+  },
+  {
+    "id": "toei-5500",
+    "name": "Toei serie 5500",
+    "operator": "toei",
+    "introduced": 2018,
+    "cars": 8,
+    "summary": "Su frontal se inspira en el kumadori, el maquillaje del teatro kabuki; recorre las líneas de Keisei y Keikyū hasta los aeropuertos."
+  },
+  {
+    "id": "toei-6500",
+    "name": "Toei serie 6500",
+    "operator": "toei",
+    "introduced": 2022,
+    "cars": 8,
+    "summary": "Trenes de 8 coches (antes 6) para la línea Mita."
+  },
+  {
+    "id": "toei-10-300",
+    "name": "Toei serie 10-300",
+    "operator": "toei",
+    "introduced": 2005,
+    "cars": 10,
+    "summary": "Basado en el E231 de JR East, adaptado al ancho de 1372 mm de la línea Shinjuku."
+  },
+  {
+    "id": "toei-12-000",
+    "name": "Toei serie 12-000",
+    "operator": "toei",
+    "introduced": 1991,
+    "cars": 8,
+    "summary": "Tren de motor lineal para los túneles pequeños de la Ōedo. La serie 12-600 lo va sustituyendo."
+  },
+  {
+    "id": "toei-8900",
+    "name": "Toei serie 8900",
+    "operator": "toei",
+    "introduced": 2015,
+    "builder": "Alna Sharyō",
+    "cars": 1,
+    "summary": "Tranvía de un solo coche para el Tokyo Sakura Tram, en varios colores."
+  },
+  {
+    "id": "yurikamome-7300",
+    "name": "Yurikamome serie 7300",
+    "operator": "yurikamome",
+    "introduced": 2014,
+    "cars": 6,
+    "summary": "Automático, sin conductor y sobre ruedas de goma. Los asientos delanteros tienen vista directa a la vía."
+  },
+  {
+    "id": "monorail-10000",
+    "name": "Tokyo Monorail serie 10000",
+    "operator": "tokyo-monorail",
+    "introduced": 2014,
+    "builder": "Hitachi",
+    "cars": 6,
+    "summary": "Monorraíl moderno con espacio para el equipaje, pensado para los pasajeros de Haneda."
+  },
+  {
+    "id": "twr-70-000",
+    "name": "TWR serie 70-000",
+    "operator": "twr",
+    "introduced": 1996,
+    "cars": 10,
+    "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East."
+  }
+]

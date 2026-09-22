@@ -1,0 +1,8 @@
+# caché de descargas de Overpass (se regenera con tools/build_data.py)
+tools/.cache/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

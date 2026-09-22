@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+web/data/network.json -diff linguist-generated

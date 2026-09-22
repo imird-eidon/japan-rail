@@ -1,0 +1,21 @@
+{
+  "_comment": "Correcciones manuales a errores o huecos de OpenStreetMap. Claves por nombre japonés de la estación (tal como sale en la web). Mejor aún: corrígelo también en openstreetmap.org para que le sirva a todo el mundo.",
+  "station_names_en": {
+    "木場": "Kiba",
+    "新高島平": "Shin-takashimadaira"
+  },
+  "station_codes": {
+    "oedo": {
+      "練馬春日町": "E37"
+    },
+    "tozai": {
+      "西葛西": "T16",
+      "葛西": "T17",
+      "妙典": "T21",
+      "西船橋": "T23"
+    },
+    "hibiya": {
+      "東銀座": "H10"
+    }
+  }
+}
