@@ -47,6 +47,46 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:JRE_Series-E235-1000_J12.jpg"
   },
+  "eizan-900": {
+    "src": "img/trains/eizan-900.jpg",
+    "file": "File:Eiden Kirara passing the maple tree tunnel.jpg",
+    "author": "ja:利用者:Nkensei",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Eiden_Kirara_passing_the_maple_tree_tunnel.jpg"
+  },
+  "eizan-hiei": {
+    "src": "img/trains/eizan-hiei.jpg",
+    "file": "File:Eizan Series700R-732 Hiei.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Eizan_Series700R-732_Hiei.jpg"
+  },
+  "hankyu-1300": {
+    "src": "img/trains/hankyu-1300.jpg",
+    "file": "File:Hankyu Series1300-1312.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Hankyu_Series1300-1312.jpg"
+  },
+  "hankyu-6300": {
+    "src": "img/trains/hankyu-6300.jpg",
+    "file": "File:Hankyu 6300 blue-ribbon2.jpg",
+    "author": "Tamanon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hankyu_6300_blue-ribbon2.jpg"
+  },
+  "hankyu-9300": {
+    "src": "img/trains/hankyu-9300.jpg",
+    "file": "File:Hankyu-Series9300-Kyoto-Line-GionHM.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hankyu-Series9300-Kyoto-Line-GionHM.jpg"
+  },
   "jnr-101": {
     "src": "img/trains/jnr-101.jpg",
     "file": "File:101 series sagamiko sp.(1).jpg",
@@ -87,6 +127,102 @@
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:Keihin-tohoku_209_series.jpg"
   },
+  "jrw-221": {
+    "src": "img/trains/jrw-221.jpg",
+    "file": "File:JR West 221 Yamatoji rapid.jpg",
+    "author": "Sui-setz",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_West_221_Yamatoji_rapid.jpg"
+  },
+  "jrw-223": {
+    "src": "img/trains/jrw-223.jpg",
+    "file": "File:Series223-2000-W15.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series223-2000-W15.jpg"
+  },
+  "jrw-225": {
+    "src": "img/trains/jrw-225.jpg",
+    "file": "File:JR West 225-0 Series I1 Special Rapid.jpg",
+    "author": "ゆなな",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_West_225-0_Series_I1_Special_Rapid.jpg"
+  },
+  "jrw-321": {
+    "src": "img/trains/jrw-321.jpg",
+    "file": "File:Series321-D11.jpg",
+    "author": "Himeji-Higashi11184",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series321-D11.jpg"
+  },
+  "keihan-13000": {
+    "src": "img/trains/keihan-13000.jpg",
+    "file": "File:Keihan-Series13000.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keihan-Series13000.jpg"
+  },
+  "keihan-3000": {
+    "src": "img/trains/keihan-3000.jpg",
+    "file": "File:Keihan 3000 8081.jpg",
+    "author": "Rsa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Keihan_3000_8081.jpg"
+  },
+  "keihan-8000": {
+    "src": "img/trains/keihan-8000.jpg",
+    "file": "File:Keihan8000 Premium car connection.jpg",
+    "author": "日根野 (Hineno)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keihan8000_Premium_car_connection.jpg"
+  },
+  "kintetsu-19200": {
+    "src": "img/trains/kintetsu-19200.jpg",
+    "file": "File:Kintetsu Series19200 Aoniyoshi.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series19200_Aoniyoshi.jpg"
+  },
+  "kintetsu-3220": {
+    "src": "img/trains/kintetsu-3220.jpg",
+    "file": "File:Kintetsu Series3220-3123.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series3220-3123.jpg"
+  },
+  "ks-10": {
+    "src": "img/trains/ks-10.jpg",
+    "file": "File:Kyoto Subway series 10 batch 1 and 6.JPG",
+    "author": "Hahifuheho",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Subway_series_10_batch_1_and_6.JPG"
+  },
+  "ks-20": {
+    "src": "img/trains/ks-20.jpg",
+    "file": "File:Kyoto Municipal Subway 20 series.jpg",
+    "author": "ガラスパゴス",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Municipal_Subway_20_series.jpg"
+  },
+  "ks-50": {
+    "src": "img/trains/ks-50.jpg",
+    "file": "File:Kyoto Subway 50 series.jpg",
+    "author": "Norihiro Kataoka",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Subway_50_series.jpg"
+  },
   "monorail-10000": {
     "src": "img/trains/monorail-10000.jpg",
     "file": "File:Tokyo-Monorail-Type10000-10081F.jpg",
@@ -94,6 +230,14 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tokyo-Monorail-Type10000-10081F.jpg"
+  },
+  "sagano-torokko": {
+    "src": "img/trains/sagano-torokko.jpg",
+    "file": "File:Sagano scenic railway hotsukyo.jpg",
+    "author": "Toshinori baba",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sagano_scenic_railway_hotsukyo.jpg"
   },
   "sk-0": {
     "src": "img/trains/sk-0.jpg",

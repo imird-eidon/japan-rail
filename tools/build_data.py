@@ -67,14 +67,23 @@ def slugify(s):
     return s.strip("-")
 
 
-# Nombres que OSM escribe distinto para la misma estación (clave de agrupación → nombre canónico)
+# Nombres que OSM escribe distinto para la misma estación (se completa con overrides.json → ja_aliases)
 JA_ALIASES = {"新線新宿": "新宿"}
 
 
+PLATFORM_RE = re.compile(r"(\d+\s*番(線|のりば|ホーム)?|のりば|方面|ホーム)")
+
+
 def normalize_ja(name):
-    """Nombre japonés para mostrar: sin sufijos entre paréntesis/〈〉 ni «駅»."""
-    name = re.sub(r"[（(〈<].*?[)）〉>]", "", name)
-    name = name.strip().removesuffix("駅")
+    """Nombre japonés para mostrar: sin sufijos entre paréntesis/〈〉, sin «駅» ni texto de andén.
+    Devuelve "" si el nombre es solo un andén («鞍馬方面のりば»): la parada se asigna luego a la estación más cercana."""
+    name = re.sub(r"[（(〈<].*?[)）〉>]", "", name).strip()
+    m = re.match(r"^(.+?)駅(?!前)(.+)$", name)          # «宝ヶ池駅2番線» → «宝ヶ池» (pero no «大塚駅前»)
+    if m and PLATFORM_RE.search(m.group(2)):
+        name = m.group(1)
+    elif PLATFORM_RE.search(name) and "駅" not in name:
+        return ""
+    name = name.removesuffix("駅")
     return JA_ALIASES.get(name, name)
 
 
@@ -87,7 +96,7 @@ def normalize_code(ref, line_code):
     """Código de numeración (JY17, G09, Mb03…) solo si pertenece a esta línea.
     OSM a veces pone el código de la compañía con la que hay servicio directo (p. ej. DT01 en Shibuya)."""
     for part in (ref or "").split(";"):
-        part = part.strip().replace(" ", "").replace("-", "")
+        part = part.strip().replace(" ", "").removeprefix("JR-").replace("-", "")
         m = re.fullmatch(r"([A-Za-z]{1,2})(\d{1,2})", part)
         if not m:
             continue
@@ -170,6 +179,39 @@ def fetch_relation(rel_id, refresh):
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     time.sleep(5)  # cortesía con el servidor público
     return data
+
+
+def fetch_ways(line, refresh):
+    """Líneas sin relación route en OSM: trazado = vías que cumplen el filtro; paradas = stop_position sobre ellas."""
+    import hashlib
+    q = line["osm_ways"]
+    bbox = ",".join(str(x) for x in q["bbox"])
+    query = (f'[out:json][timeout:120];{q["filter"]}({bbox})->.w;.w out geom;'
+             'node(w.w)["name"]->.n;.n out;')
+    key = hashlib.sha1(query.encode()).hexdigest()[:12]
+    path = CACHE / f"ways-{line['id']}-{key}.json"
+    CACHE.mkdir(parents=True, exist_ok=True)
+    if path.exists() and not refresh:
+        return load_json(path)
+    log(f"  descargando vías de {line['id']}…")
+    data = overpass(query)
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    time.sleep(5)
+    return data
+
+
+def parse_ways(data):
+    segments, stops = [], []
+    for e in data["elements"]:
+        if e["type"] == "way" and "geometry" in e:
+            if e.get("tags", {}).get("service"):  # apartaderos, cocheras, desvíos
+                continue
+            segments.append([(round(p["lat"], 7), round(p["lon"], 7)) for p in e["geometry"] if p])
+        elif e["type"] == "node":
+            t = e.get("tags", {})
+            if t.get("railway") in ("stop", "halt", "station") or t.get("public_transport") == "stop_position":
+                stops.append(e)
+    return segments, stops
 
 
 # ---------------------------------------------------------------- geometría
@@ -320,7 +362,7 @@ def resolve_trains(trains, lines, stations, warnings):
     """Calcula por qué líneas y estaciones pasa cada tren.
     Fuentes: 'runs' en trains.json ([{line, from?, to?}], nombres japoneses) y 'trains' en lines.json (línea entera)."""
     by_id = {l["id"]: l for l in lines}
-    ja_to_idx = {l["id"]: {stations[sid]["ja"]: i for i, sid in enumerate(l["stations"])} for l in lines}
+    ja_to_idx = {l["id"]: {ja_key(stations[sid]["ja"]): i for i, sid in enumerate(l["stations"])} for l in lines}
     def resolve(t, r):
         """Devuelve (tramo resuelto, ids de estaciones) o None si la línea no existe."""
         line = by_id.get(r["line"])
@@ -329,10 +371,10 @@ def resolve_trains(trains, lines, stations, warnings):
             return None
         idx = ja_to_idx[line["id"]]
         for k in ("from", "to"):
-            if k in r and r[k] not in idx:
+            if k in r and ja_key(r[k]) not in idx:
                 warnings.append(f"trains.json: {t['id']}: «{r[k]}» no está en {line['id']}")
-        a = idx.get(r.get("from"), 0)
-        b = idx.get(r.get("to"), len(line["stations"]) - 1)
+        a = idx.get(ja_key(r.get("from")), 0)
+        b = idx.get(ja_key(r.get("to")), len(line["stations"]) - 1)
         lo, hi = min(a, b), max(a, b)
         item = {"line": line["id"]}
         if lo > 0 or hi < len(line["stations"]) - 1:
@@ -377,6 +419,8 @@ def main():
     overrides = load_json(CONFIG / "overrides.json")
     names_en = overrides.get("station_names_en", {})
     code_fixes = overrides.get("station_codes", {})
+    stop_names = overrides.get("stop_nodes", {})  # nodo OSM → nombre japonés (paradas sin nombre)
+    JA_ALIASES.update(overrides.get("ja_aliases", {}))
     train_ids = {t["id"] for t in trains}
 
     clusters = []          # estaciones agrupadas: {ja, pts, en: Counter, lines: OrderedDict}
@@ -390,16 +434,25 @@ def main():
         # 'osm': relaciones que aportan trazado y paradas (la 1.ª fija el orden; las demás, p. ej. ramales, añaden)
         # 'extra_stops': relaciones de otros servicios de las que solo se toman paradas que falten
         sources = [(r, True) for r in line["osm"]] + [(r, False) for r in line.get("extra_stops", [])]
+        if "osm_ways" in line:
+            sources.append(("ways", True))
         for rel_id, use_geometry in sources:
-            rel, segs, rel_stops = parse_relation(fetch_relation(rel_id, args.refresh))
+            if rel_id == "ways":
+                segs, rel_stops = parse_ways(fetch_ways(line, args.refresh))
+            else:
+                rel, segs, rel_stops = parse_relation(fetch_relation(rel_id, args.refresh))
             if use_geometry:
                 chains_raw += segs
             for s in rel_stops:
                 t = s.get("tags", {})
-                ja = normalize_ja(t.get("name", ""))
+                ja = stop_names.get(str(s["id"])) or normalize_ja(t.get("name", ""))
                 if not ja:
-                    warnings.append(f"{line['id']}: parada sin nombre (nodo {s['id']})")
-                    continue
+                    near = min(clusters, key=lambda c: haversine_m(c["pts"][0], (s["lat"], s["lon"])), default=None)
+                    if near and haversine_m(near["pts"][0], (s["lat"], s["lon"])) < 400:
+                        ja = near["ja"]  # andén sin nombre de estación: se une a la estación de al lado
+                    else:
+                        warnings.append(f"{line['id']}: parada sin nombre utilizable «{t.get('name', '')}» (nodo {s['id']})")
+                        continue
                 if ja_key(ja) in seen:
                     continue
                 seen.add(ja_key(ja))
@@ -414,6 +467,8 @@ def main():
             stops, chains = cut_section(line, stops, chains, warnings)
         if line.get("order") == "geometry":
             stops = order_along(stops, chains)
+        elif line.get("order") == "code":  # todas las paradas numeradas: el código manda (vías dobles, cuádruples…)
+            stops.sort(key=lambda st: int(re.sub(r"\D", "", st["code"] or "999")))
 
         order = []
         for st in stops:
@@ -445,14 +500,15 @@ def main():
         for tid in line.get("trains", []):
             if tid not in train_ids:
                 warnings.append(f"{line['id']}: tren desconocido '{tid}'")
-        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops")},
+        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways")},
                           "osm": line["osm"],
                           "stations": order,   # se sustituye por ids más abajo
                           "drawn_km": round(drawn_km, 1),
                           "geometry": chains})
         log(f"    {len(order)} estaciones · {len(chains)} tramos · {drawn_km:.1f} km dibujados")
 
-    # ids estables
+    # ids estables (se asignan en el orden de lines.json, así Tokio conserva los suyos)
+    region_of = {l["id"]: l.get("region", "japan") for l in cfg["lines"]}
     used = {}
     for c in clusters:
         if not c["en"]:
@@ -460,6 +516,8 @@ def main():
         en = c["en"].most_common(1)[0][0] if c["en"] else c["ja"]
         base = slugify(en) or f"st-{len(used)}"
         sid = base
+        if sid in used:  # mismo nombre en otra ciudad (p. ej. Ōmiya en Saitama y en Kioto)
+            sid = f"{base}-{region_of[next(iter(c['lines']))]}"
         n = 2
         while sid in used:
             sid = f"{base}-{n}"
@@ -514,6 +572,7 @@ def main():
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "region": "Japón",
         "attribution": "Trazados y estaciones © colaboradores de OpenStreetMap (ODbL)",
+        "regions": cfg.get("regions", {}),
         "operators": cfg["operators"],
         "types": cfg["types"],
         "lines": out_lines,

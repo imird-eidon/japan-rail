@@ -9,7 +9,24 @@
     "諫早": "Isahaya",
     "くりこま高原": "Kurikoma-Kogen",
     "上越妙高": "Joetsu-Myoko",
-    "新庄": "Shinjo"
+    "新庄": "Shinjo",
+    "吹田": "Suita",
+    "撮影所前": "Satsueisho-mae",
+    "二軒茶屋": "Nikenchaya",
+    "京都精華大前": "Kyoto Seika-daimae",
+    "岩倉": "Iwakura",
+    "八幡前": "Hachiman-mae",
+    "宝ヶ池": "Takaragaike",
+    "長岡京": "Nagaokakyo",
+    "北野白梅町": "Kitano-Hakubaicho",
+    "元田中": "Mototanaka",
+    "一乗寺": "Ichijoji",
+    "修学院": "Shugakuin",
+    "三宅八幡": "Miyake-Hachiman",
+    "八瀬比叡山口": "Yase-Hieizanguchi",
+    "茶山・京都芸術大学": "Chayama-Kyoto Geijutsu Daigaku",
+    "木野": "Kino",
+    "等持院・立命館大学衣笠キャンパス前": "Tojiin-Ritsumeikan Univ."
   },
   "station_codes": {
     "oedo": {
@@ -23,6 +40,33 @@
     },
     "hibiya": {
       "東銀座": "H10"
+    },
+    "hankyu-arashiyama": {
+      "桂": "HK81",
+      "上桂": "HK97",
+      "松尾大社": "HK98",
+      "嵐山": "HK99"
+    },
+    "eizan-main": {
+      "出町柳": "E01",
+      "元田中": "E02"
+    },
+    "eizan-kurama": {
+      "八幡前": "E09",
+      "岩倉": "E10",
+      "宝ヶ池": "E06"
+    },
+    "randen-kitano": {
+      "北野白梅町": "B09",
+      "等持院・立命館大学衣笠キャンパス前": "B08",
+      "帷子ノ辻": "A08"
     }
+  },
+  "stop_nodes": {
+    "3964247078": "茶山・京都芸術大学",
+    "7587151151": "木野"
+  },
+  "ja_aliases": {
+    "近鉄京都": "京都"
   }
 }

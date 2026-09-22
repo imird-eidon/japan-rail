@@ -13,12 +13,11 @@ function buildIndexes(net) {
   net.trainById = new Map(net.trains.map((t) => [t.id, t]));
   net.stationList = Object.values(net.stations);
 
-  // grupos del mapa y de la lista: el Shinkansen va aparte; el resto, por operador
-  const groupIds = [...new Set(net.lines.map(groupOf))];
-  net.groups = groupIds.map((id) => (id === SHINKANSEN
-    ? { id, name: "Shinkansen", ja: "新幹線" }
-    : { id, ...net.operators[id] }));
-  net.groups.sort((a, b) => (a.id === SHINKANSEN ? -1 : b.id === SHINKANSEN ? 1 : 0));
+  // grupos del mapa y de la lista = regiones (Shinkansen, Tokio, Kioto…), en el orden de lines.json
+  const used = new Set(net.lines.map(groupOf));
+  const order = [...Object.keys(net.regions || {}), ...used];  // primero el orden de lines.json → regions
+  net.groups = [...new Set(order)].filter((id) => used.has(id))
+    .map((id) => ({ id, ...(net.regions?.[id] || { name: id }) }));
 
   // build_data.py ya calcula t.lines y st.trains; esto es solo por si faltan
   for (const t of net.trains) t.lines ??= [];
@@ -31,10 +30,14 @@ function buildIndexes(net) {
   for (const t of net.trains) t._search = norm(`${t.name} ${t.id}`);
 }
 
-export const SHINKANSEN = "shinkansen";
 export const isShinkansen = (line) => line.type === "shinkansen" || line.type === "mini-shinkansen";
-/** Grupo de una línea para filtros y listados. */
-export const groupOf = (line) => (isShinkansen(line) ? SHINKANSEN : line.operator);
+/** Grupo (región) de una línea para filtros y listados: "japan" (Shinkansen), "tokyo", "kyoto"… */
+export const groupOf = (line) => line.region || (isShinkansen(line) ? "japan" : "tokyo");
+/** Región principal de un tren: la de su primera línea actual (o histórica). */
+export const trainRegion = (net, t) => {
+  const id = t.lines[0] || t.history?.[0]?.line;
+  return id ? groupOf(net.lineById.get(id)) : null;
+};
 
 /** Minúsculas y sin acentos/macrones, para comparar textos. */
 export const norm = (s) =>

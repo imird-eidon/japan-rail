@@ -339,3 +339,8 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
   font-weight: 700; margin-bottom: 10px;
 }
 .more summary:hover { color: var(--text); }
+
+/* regiones y operadores en la lista de líneas */
+.region-title { font-size: 1.05rem; margin: 18px 0 4px; letter-spacing: -.01em; }
+.region-title .ja { font-size: .85rem; }
+.op-title { margin: 12px 0 4px; }

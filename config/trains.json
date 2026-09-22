@@ -1067,5 +1067,276 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ks-10",
+    "name": "Metro de Kioto serie 10",
+    "operator": "kyoto-subway",
+    "introduced": 1981,
+    "cars": 6,
+    "wiki": "Kyoto Municipal Subway 10 series",
+    "summary": "El tren con el que se inauguró la línea Karasuma en 1981. Los más antiguos se están sustituyendo por la serie 20.",
+    "runs": [
+      {
+        "line": "karasuma"
+      }
+    ]
+  },
+  {
+    "id": "ks-20",
+    "name": "Metro de Kioto serie 20",
+    "operator": "kyoto-subway",
+    "introduced": 2022,
+    "cars": 6,
+    "wiki": "Kyoto Municipal Subway 20 series",
+    "summary": "El nuevo tren de la Karasuma (2022). Su diseño se eligió por votación popular.",
+    "facts": [
+      "Gasta alrededor de un 30 % menos de electricidad que la serie 10 a la que sustituye."
+    ],
+    "runs": [
+      {
+        "line": "karasuma"
+      }
+    ]
+  },
+  {
+    "id": "ks-50",
+    "name": "Metro de Kioto serie 50",
+    "operator": "kyoto-subway",
+    "introduced": 1997,
+    "cars": 6,
+    "wiki": "Kyoto Municipal Subway 50 series",
+    "summary": "El tren de la línea Tōzai desde su inauguración en 1997.",
+    "runs": [
+      {
+        "line": "kyoto-tozai"
+      }
+    ]
+  },
+  {
+    "id": "jrw-225",
+    "name": "Serie 225",
+    "operator": "jr-west",
+    "introduced": 2010,
+    "wiki": "225 series",
+    "summary": "El tren de los rápidos especiales (Shin-kaisoku) de JR West, a 130 km/h entre Kioto y Ōsaka.",
+    "runs": [
+      {
+        "line": "jr-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "jrw-223",
+    "name": "Serie 223",
+    "operator": "jr-west",
+    "introduced": 1995,
+    "wiki": "223 series",
+    "summary": "Durante años el tren emblema de los rápidos de Kansai; sigue circulando junto al 225.",
+    "runs": [
+      {
+        "line": "jr-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "jrw-221",
+    "name": "Serie 221",
+    "operator": "jr-west",
+    "introduced": 1989,
+    "wiki": "221 series",
+    "summary": "El primer tren nuevo de JR West (1989), con grandes ventanales. Habitual en las líneas Nara y Sagano.",
+    "runs": [
+      {
+        "line": "nara-line"
+      },
+      {
+        "line": "sagano"
+      }
+    ]
+  },
+  {
+    "id": "jrw-321",
+    "name": "Serie 321",
+    "operator": "jr-west",
+    "introduced": 2005,
+    "wiki": "321 series",
+    "summary": "Tren de cercanías para los servicios que paran en todas las estaciones de la línea JR Kyōto.",
+    "runs": [
+      {
+        "line": "jr-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "keihan-8000",
+    "name": "Keihan serie 8000",
+    "operator": "keihan",
+    "introduced": 1989,
+    "cars": 8,
+    "wiki": "Keihan 8000 series",
+    "summary": "El tren de los expresos limitados de Keihan: coche de dos pisos y, desde 2017, un «Premium Car» con asientos reservados.",
+    "runs": [
+      {
+        "line": "keihan-main"
+      }
+    ]
+  },
+  {
+    "id": "keihan-13000",
+    "name": "Keihan serie 13000",
+    "operator": "keihan",
+    "introduced": 2012,
+    "wiki": "Keihan 13000 series",
+    "summary": "Tren de cercanías moderno de Keihan; consume un 35 % menos que los que sustituyó.",
+    "runs": [
+      {
+        "line": "keihan-uji"
+      },
+      {
+        "line": "keihan-main"
+      }
+    ]
+  },
+  {
+    "id": "hankyu-9300",
+    "name": "Hankyu serie 9300",
+    "operator": "hankyu",
+    "introduced": 2003,
+    "cars": 8,
+    "wiki": "Hankyu 9300 series",
+    "summary": "El tren de los expresos limitados de la línea Hankyu Kyōto, con asientos transversales.",
+    "runs": [
+      {
+        "line": "hankyu-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "hankyu-1300",
+    "name": "Hankyu serie 1300",
+    "operator": "hankyu",
+    "introduced": 2014,
+    "cars": 8,
+    "wiki": "Hankyu 1300 series",
+    "summary": "Tren de cercanías de la línea Kyōto desde 2014, en el granate de siempre.",
+    "runs": [
+      {
+        "line": "hankyu-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "kintetsu-3220",
+    "name": "Kintetsu serie 3220",
+    "operator": "kintetsu",
+    "introduced": 2000,
+    "cars": 6,
+    "wiki": "Kintetsu 3220 series",
+    "summary": "Diseñado para entrar en el metro Karasuma desde la línea Kintetsu Kyōto.",
+    "runs": [
+      {
+        "line": "kintetsu-kyoto"
+      },
+      {
+        "line": "karasuma"
+      }
+    ]
+  },
+  {
+    "id": "kintetsu-19200",
+    "name": "Kintetsu 19200 «Aoniyoshi»",
+    "operator": "kintetsu",
+    "introduced": 2022,
+    "cars": 4,
+    "wiki": "Kintetsu 19200 series",
+    "summary": "Tren turístico violeta y dorado que une Kioto, Nara y Ōsaka desde 2022.",
+    "runs": [
+      {
+        "line": "kintetsu-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "eizan-900",
+    "name": "Eiden serie 900 «Kirara»",
+    "operator": "eizan",
+    "introduced": 1997,
+    "cars": 2,
+    "summary": "Tren panorámico con ventanales hasta el techo, ideal para el «túnel de arces» del Kurama.",
+    "runs": [
+      {
+        "line": "eizan-kurama"
+      },
+      {
+        "line": "eizan-main",
+        "from": "出町柳",
+        "to": "宝ケ池"
+      }
+    ],
+    "photo_file": "File:Eiden Kirara passing the maple tree tunnel.jpg"
+  },
+  {
+    "id": "sagano-torokko",
+    "name": "Tren Torokko (Sagano)",
+    "operator": "sagano",
+    "introduced": 1991,
+    "cars": 5,
+    "wiki": "Sagano Scenic Railway",
+    "summary": "Una locomotora diésel DE10 y cinco coches de estilo antiguo, uno de ellos totalmente abierto («The Rich»).",
+    "runs": [
+      {
+        "line": "sagano-scenic"
+      }
+    ]
+  },
+  {
+    "id": "keihan-3000",
+    "name": "Keihan serie 3000 (1971)",
+    "operator": "keihan",
+    "introduced": 1971,
+    "retired": 2013,
+    "wiki": "Keihan 3000 series (1971)",
+    "summary": "El expreso limitado clásico de Keihan: tenía coches con televisión («terebi-kā») y, desde 1995, un coche de dos pisos.",
+    "history": [
+      {
+        "line": "keihan-main",
+        "years": [
+          1971,
+          2013
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hankyu-6300",
+    "name": "Hankyu serie 6300",
+    "operator": "hankyu",
+    "introduced": 1975,
+    "wiki": "Hankyu 6300 series",
+    "summary": "El expreso limitado de la línea Hankyu Kyōto entre 1975 y 2009; ganó el premio Blue Ribbon en 1976.",
+    "history": [
+      {
+        "line": "hankyu-kyoto",
+        "years": [
+          1975,
+          2009
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eizan-hiei",
+    "name": "Eiden «Hiei» (serie 700)",
+    "operator": "eizan",
+    "introduced": 2018,
+    "cars": 1,
+    "photo_file": "File:Eizan Series700R-732 Hiei.jpg",
+    "summary": "Tren de diseño con un gran marco ovalado en el frontal, inspirado en la naturaleza mística de los montes Hiei y Kurama. Ganó el premio Laurel de los aficionados al tren.",
+    "runs": [
+      {
+        "line": "eizan-main"
+      }
+    ]
   }
 ]

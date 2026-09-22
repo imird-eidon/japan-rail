@@ -1,15 +1,16 @@
 # Japan Rail Explorer
 
 Mapa interactivo de las líneas de tren y metro de Japón, con estaciones, trenes y datos curiosos.
-Ahora cubre **toda la red Shinkansen** (10 líneas) y **el tren y metro de Tokio** (24 líneas); la idea es ir
-ampliando poco a poco al resto del país.
+Ahora cubre **toda la red Shinkansen** (10 líneas), **el tren y metro de Tokio** (24 líneas) y **Kioto** (15 líneas:
+metro, JR, Keihan, Hankyu, Kintetsu, Randen, Eiden y el tren turístico Sagano); la idea es ir ampliando poco a
+poco al resto del país.
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
 - Ficha de cada estación (líneas, estación anterior/siguiente en cada línea, transbordos a pie).
 - Ficha de cada serie de tren, con foto (Shinkansen), por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
-- Botones para centrar el mapa en Tokio o en todo Japón.
+- Botones para centrar el mapa en cada ciudad o en todo Japón.
 - Buscador (español, romaji o japonés: `shinjuku`, `新宿`, `JY`…), filtros por operador, modo oscuro y móvil.
 - Enlaces compartibles: `#/line/yamanote`, `#/station/shinjuku`, `#/train/e235-0`.
 
@@ -85,6 +86,12 @@ a veces limita peticiones (HTTP 429); el script reintenta solo.
    - `section: ["desde", "hasta"]` (nombres japoneses): recorta una relación más larga a ese tramo
      (p. ej. el Yamagata Shinkansen sale del servicio Tsubasa Tokio–Shinjō).
    - `order: "geometry"`: ordena las estaciones por su posición sobre la vía.
+   - `order: "code"`: ordena por el código de estación (útil con vías dobles o cuádruples).
+   - `osm_ways` (`{filter, bbox}`): para líneas que no tienen relación *route* en OSM (p. ej. la línea
+     principal Keihan): el trazado sale de las vías que cumplen el filtro y las paradas, de las
+     `stop_position` que hay sobre ellas.
+   - `region`: `japan` (Shinkansen), `tokyo`, `kyoto`… Las regiones se definen arriba, en `regions`;
+     las que tienen `bounds` tienen su botón en el mapa.
    - `trains`: series que recorren la línea entera.
 3. `python3 tools/build_data.py` y recarga la web. El script avisa de estaciones sin nombre, trenes
    desconocidos o claves de `stations.json` que no coinciden con ninguna estación.
@@ -120,13 +127,24 @@ python3 tools/build_data.py
 
 Solo se aceptan licencias libres; la autoría y la licencia se muestran bajo cada foto.
 
+En `config/overrides.json` se corrigen los fallos de OSM: `station_names_en` (romaji que falta),
+`station_codes` (numeración), `ja_aliases` (dos nombres para la misma estación, como 近鉄京都 → 京都) y
+`stop_nodes` (paradas sin nombre, por número de nodo OSM).
+
+## Añadir una ciudad
+
+1. Añade la región en `regions` de `config/lines.json`, con `bounds` para que tenga botón en el mapa.
+2. Añade sus líneas con `"region": "<id>"` y sus trenes en `trains.json`.
+3. `python3 tools/build_data.py` y revisa los avisos (romaji, códigos, paradas sin nombre).
+
 Para añadir datos a una estación, usa su id (lo ves en la URL: `#/station/<id>`) en `config/stations.json`.
 
 ## Hoja de ruta
 
 - [x] Red Shinkansen completa, con fotos de los trenes
 - [ ] Líneas privadas de Tokio (Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei)
-- [ ] Osaka / Kansai
+- [x] Kioto
+- [ ] Ōsaka / resto de Kansai
 - [x] Fotos de todos los trenes y trenes históricos con sus años de servicio
 - [ ] Fotos de estaciones
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno

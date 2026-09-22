@@ -55,6 +55,41 @@
       "name": "JNR",
       "ja": "国鉄",
       "url": "https://en.wikipedia.org/wiki/Japanese_National_Railways"
+    },
+    "kyoto-subway": {
+      "name": "Metro de Kioto",
+      "ja": "京都市営地下鉄",
+      "url": "https://www.city.kyoto.lg.jp/kotsu/"
+    },
+    "keihan": {
+      "name": "Keihan",
+      "ja": "京阪電車",
+      "url": "https://www.keihan.co.jp/"
+    },
+    "hankyu": {
+      "name": "Hankyu",
+      "ja": "阪急電鉄",
+      "url": "https://www.hankyu.co.jp/"
+    },
+    "kintetsu": {
+      "name": "Kintetsu",
+      "ja": "近鉄",
+      "url": "https://www.kintetsu.co.jp/"
+    },
+    "keifuku": {
+      "name": "Randen (Keifuku)",
+      "ja": "嵐電・京福電気鉄道",
+      "url": "https://randen.keifuku.co.jp/"
+    },
+    "eizan": {
+      "name": "Eiden (Eizan)",
+      "ja": "叡山電車",
+      "url": "https://eizandensha.co.jp/"
+    },
+    "sagano": {
+      "name": "Sagano Scenic Railway",
+      "ja": "嵯峨野観光鉄道",
+      "url": "https://www.sagano-kanko.co.jp/"
     }
   },
   "types": {
@@ -64,7 +99,9 @@
     "agt": "Automático (AGT)",
     "monorail": "Monorraíl",
     "shinkansen": "Shinkansen",
-    "mini-shinkansen": "Mini-shinkansen"
+    "mini-shinkansen": "Mini-shinkansen",
+    "local": "Tren local",
+    "tourist": "Turístico"
   },
   "lines": [
     {
@@ -93,7 +130,8 @@
         "Oficialmente, la «línea Yamanote» solo es el tramo Shinagawa–Shinjuku–Tabata; el resto comparte registro con las líneas Tōhoku y Tōkaidō.",
         "Takanawa Gateway (2020) fue la primera estación nueva del anillo desde Nishi-Nippori (1971).",
         "En hora punta pasa un tren cada 2–3 minutos."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "chuo-rapid",
@@ -117,7 +155,8 @@
         "Entre Higashi-Nakano y Tachikawa hay una recta de unos 24,7 km, una de las más largas de Japón.",
         "En la estación de Tokio sus andenes (1 y 2) están elevados sobre el resto de vías.",
         "El primer tramo, Shinjuku–Tachikawa, lo abrió en 1889 el ferrocarril privado Kōbu."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "chuo-sobu",
@@ -140,7 +179,8 @@
       "facts": [
         "Sus trenes E231-500 son los que circulaban antes por la Yamanote; se trasladaron aquí al llegar los E235.",
         "En Ochanomizu corre junto al río Kanda, con el metro Marunouchi asomando sobre el agua: una de las vistas ferroviarias más fotografiadas de Tokio."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "keihin-tohoku",
@@ -164,7 +204,8 @@
         "Su nombre junta 京 (Tokio), 浜 (Yokohama) y 東北 (Tōhoku, el norte).",
         "Nació en 1914 como el primer servicio de trenes eléctricos de larga distancia de Japón.",
         "De día circula en modo rápido entre Tamachi y Tabata y se salta algunas estaciones que ya cubre la Yamanote."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "saikyo",
@@ -187,7 +228,8 @@
       "facts": [
         "Su nombre sale de 埼 (Saitama) + 京 (Tokio).",
         "Desde 2019 algunos trenes siguen por la red Sōtetsu hasta Kanagawa."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "sobu-rapid",
@@ -210,7 +252,8 @@
       "facts": [
         "En la estación de Tokio sus andenes están a unos 5 pisos bajo tierra: la parte más profunda de la estación.",
         "El año de apertura corresponde al túnel subterráneo Tokio–Kinshichō (1972)."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "ginza",
@@ -235,7 +278,8 @@
         "Toma la electricidad de un tercer carril, no de catenaria.",
         "En Shibuya la estación del «metro» está en un tercer piso, por encima de la calle.",
         "Sus trenes 1000 de 2012 imitan el color limón y el diseño de los primeros vagones de 1927."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "marunouchi",
@@ -259,7 +303,8 @@
       "facts": [
         "En Ochanomizu, Korakuen y Yotsuya sale a la superficie y se ve cruzar el río Kanda.",
         "Sus trenes llevan la onda senoidal blanca que ya decoraba los primeros trenes rojos de 1954."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "hibiya",
@@ -282,7 +327,8 @@
       "facts": [
         "Toranomon Hills (2020) fue su primera estación nueva en más de 50 años.",
         "En Kita-Senju conecta con la red Tōbu, que la prolonga hasta Saitama."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "tozai",
@@ -306,7 +352,8 @@
         "Antes de 2020 era la línea más saturada de Tokio: casi el 200 % de ocupación entre Kiba y Monzen-nakachō en hora punta.",
         "Sus trenes 15000 tienen puertas de 1,8 m, más anchas de lo habitual, para acelerar la subida y bajada.",
         "Al este sale a la superficie y cruza los ríos Arakawa y Nakagawa por un largo puente."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "chiyoda",
@@ -329,7 +376,8 @@
       "facts": [
         "Kokkai-gijidōmae, junto al Parlamento, es una de sus estaciones más profundas: casi 38 m.",
         "Por los extremos se enlaza con Odakyū (hacia Hakone) y con la JR Jōban."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "yurakucho",
@@ -352,7 +400,8 @@
       "facts": [
         "Hay en obras una extensión desde Toyosu hacia Sumiyoshi (ramal hacia el este).",
         "Entre Wakōshi y Kotake-mukaihara comparte vías con la línea Fukutoshin."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "hanzomon",
@@ -375,7 +424,8 @@
       "facts": [
         "Su letra es la Z porque la H ya era de la Hibiya.",
         "Sus trenes siguen por las redes Tōkyū (hacia Kanagawa) y Tōbu (hacia Saitama), en recorridos de más de 90 km."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "namboku",
@@ -399,7 +449,8 @@
         "Fue la primera línea de Tokyo Metro con puertas de andén en todas sus estaciones desde el primer día.",
         "Entre Meguro y Shirokane-takanawa comparte vía con la línea Toei Mita.",
         "Se construye un ramal de Shirokane-takanawa a Shinagawa."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "fukutoshin",
@@ -422,7 +473,8 @@
       "facts": [
         "Su estación de Shibuya, con una gran bóveda ovalada, la diseñó el arquitecto Tadao Andō.",
         "Desde 2013 sus trenes siguen por la línea Tōkyū Tōyoko hasta Yokohama."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "asakusa",
@@ -445,7 +497,8 @@
       "facts": [
         "Fue el primer metro japonés con servicio directo sobre vías de una compañía privada (Keisei, 1960).",
         "Usa ancho estándar (1435 mm), como el Shinkansen, para poder compartir vías con Keisei y Keikyū."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "mita",
@@ -468,7 +521,8 @@
       "facts": [
         "Su letra es la I porque la M ya era de la Marunouchi.",
         "Funciona con operación automática (ATO) y puertas de andén."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "shinjuku",
@@ -490,7 +544,8 @@
       "summary": "De Shinjuku a Motoyawata (Chiba). Continúa por la red Keiō hacia el oeste.",
       "facts": [
         "Usa un ancho de vía muy raro, 1372 mm: el mismo que Keiō, para poder compartir trenes."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "oedo",
@@ -515,7 +570,8 @@
         "Usa motores lineales, lo que permite túneles y trenes más pequeños y curvas más cerradas.",
         "No es un anillo completo: los trenes dan la vuelta y terminan de nuevo en Tochōmae.",
         "Su nombre, «Gran Edo», recuerda el antiguo nombre de Tokio."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "arakawa",
@@ -539,7 +595,8 @@
         "Llegó a haber más de 40 líneas de tranvía en Tokio; esta es la única que sobrevive de la red Toden.",
         "En primavera sus vías se llenan de rosas y cerezos; de ahí el apodo «Sakura Tram».",
         "Paga una tarifa única, cojas donde cojas el tranvía."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "nippori-toneri",
@@ -559,7 +616,8 @@
       "summary": "Tren automático sin conductor sobre ruedas de goma, de Nippori a Minumadai-shinsuikōen.",
       "facts": [
         "Va elevado en todo el recorrido: desde el primer vagón se ve la vía por delante."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "yurikamome",
@@ -582,7 +640,8 @@
       "facts": [
         "Para subir al Rainbow Bridge da una vuelta completa en espiral en Shibaura.",
         "Se llama como la gaviota reidora (ゆりかもめ), el ave símbolo de Tokio."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "tokyo-monorail",
@@ -605,7 +664,8 @@
       "facts": [
         "Se inauguró el 17 de septiembre de 1964, justo antes de los Juegos Olímpicos de Tokio.",
         "Es de tipo ALWEG: el tren va «a caballo» sobre una única viga de hormigón."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "rinkai",
@@ -628,7 +688,8 @@
       "facts": [
         "Casi todo su trazado es subterráneo; pasa bajo el canal de Tokio.",
         "Muchos trenes siguen por la línea Saikyō hacia Shinjuku y Saitama."
-      ]
+      ],
+      "region": "tokyo"
     },
     {
       "id": "tokaido-shinkansen",
@@ -652,7 +713,8 @@
         "Su retraso medio por tren ronda el minuto al año, incluidos tifones y nevadas.",
         "El «Doctor Yellow», el tren amarillo que medía el estado de la vía, se retiró del Tōkaidō en enero de 2025; verlo pasar se consideraba de buena suerte."
       ],
-      "trains": []
+      "trains": [],
+      "region": "japan"
     },
     {
       "id": "sanyo-shinkansen",
@@ -675,7 +737,8 @@
         "Pasa a la isla de Kyūshū por el túnel Shin-Kanmon (18,7 km), bajo el estrecho de Kanmon.",
         "En 1997 el serie 500 fue aquí el primer tren japonés en servicio comercial a 300 km/h."
       ],
-      "trains": []
+      "trains": [],
+      "region": "japan"
     },
     {
       "id": "kyushu-shinkansen",
@@ -697,7 +760,8 @@
         "Muchos trenes siguen hasta Shin-Ōsaka con los nombres «Mizuho» y «Sakura».",
         "Los trenes 800 tienen interiores de madera, persianas y tejidos tradicionales, obra del diseñador Eiji Mitooka."
       ],
-      "trains": []
+      "trains": [],
+      "region": "japan"
     },
     {
       "id": "nishi-kyushu-shinkansen",
@@ -722,7 +786,8 @@
         "Abrió el 23 de septiembre de 2022. En Takeo-Onsen se cambia al tren convencional «Relay Kamome», en el andén de enfrente.",
         "Con 66 km es la línea Shinkansen más corta."
       ],
-      "trains": []
+      "trains": [],
+      "region": "japan"
     },
     {
       "id": "tohoku-shinkansen",
@@ -750,7 +815,8 @@
         12439068,
         12439162
       ],
-      "order": "geometry"
+      "order": "geometry",
+      "region": "japan"
     },
     {
       "id": "hokkaido-shinkansen",
@@ -780,7 +846,8 @@
         "新青森",
         "新函館北斗"
       ],
-      "order": "geometry"
+      "order": "geometry",
+      "region": "japan"
     },
     {
       "id": "joetsu-shinkansen",
@@ -810,7 +877,8 @@
       "extra_stops": [
         13098206
       ],
-      "order": "geometry"
+      "order": "geometry",
+      "region": "japan"
     },
     {
       "id": "hokuriku-shinkansen",
@@ -843,7 +911,8 @@
         17348677,
         9878144,
         9812241
-      ]
+      ],
+      "region": "japan"
     },
     {
       "id": "yamagata-shinkansen",
@@ -869,7 +938,8 @@
         "Por estas vías los trenes van a 130 km/h como máximo y hay pasos a nivel.",
         "Tsubasa, el nombre del servicio, significa «ala»."
       ],
-      "trains": []
+      "trains": [],
+      "region": "japan"
     },
     {
       "id": "akita-shinkansen",
@@ -898,8 +968,385 @@
       "extra_stops": [
         1948965
       ],
+      "order": "geometry",
+      "region": "japan"
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "karasuma",
+      "code": "K",
+      "color": "#2E9E4F",
+      "name": "Línea Karasuma",
+      "ja": "烏丸線",
+      "en": "Karasuma Line",
+      "operator": "kyoto-subway",
+      "type": "metro",
+      "osm": [
+        536800
+      ],
+      "opened": 1981,
+      "length_km": 13.7,
+      "summary": "El metro norte–sur de Kioto: bajo la avenida Karasuma, de Kokusaikaikan a Takeda pasando por la estación de Kioto.",
+      "facts": [
+        "Durante las obras aparecieron muchos restos arqueológicos de la antigua capital, Heian-kyō, lo que retrasó la construcción.",
+        "En Takeda sus trenes siguen por la línea Kintetsu Kyōto; algunos llegan hasta Nara.",
+        "Karasuma-Oike es la única estación donde se cruzan las dos líneas de metro de Kioto."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "kyoto-tozai",
+      "code": "T",
+      "color": "#E8552D",
+      "name": "Línea Tōzai (Kioto)",
+      "ja": "東西線",
+      "en": "Tōzai Line (Kyoto)",
+      "operator": "kyoto-subway",
+      "type": "metro",
+      "osm": [
+        8030561
+      ],
+      "opened": 1997,
+      "length_km": 17.5,
+      "summary": "El metro este–oeste de Kioto, de Uzumasa Tenjingawa a Rokujizō, por Sanjō y Nijō-jō-mae.",
+      "facts": [
+        "Tiene puertas de andén en todas sus estaciones desde que se inauguró en 1997.",
+        "Los trenes de la línea Keihan Keishin entran en ella y la conectan con Ōtsu, a orillas del lago Biwa.",
+        "Nijōjō-mae deja a las puertas del castillo de Nijō."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "jr-kyoto",
+      "code": "A",
+      "color": "#0070C0",
+      "name": "Línea JR Kyōto",
+      "ja": "JR京都線",
+      "en": "JR Kyoto Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11808754
+      ],
+      "opened": 1877,
+      "length_km": 42.8,
+      "summary": "El tramo Kioto–Ōsaka de la línea Tōkaidō: el corredor ferroviario más transitado de Kansai.",
+      "facts": [
+        "Los «Shin-kaisoku» (rápidos especiales) circulan a 130 km/h y unen Kioto y Ōsaka en menos de 30 minutos.",
+        "El ferrocarril Kioto–Ōsaka se inauguró en 1877, solo cinco años después del primero de Japón."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "sagano",
+      "code": "E",
+      "color": "#7B6FB5",
+      "name": "Línea Sagano",
+      "ja": "嵯峨野線",
+      "en": "Sagano Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        10154358
+      ],
+      "opened": 1897,
+      "length_km": 34.2,
+      "summary": "De Kioto a Sonobe por Arashiyama: el tramo urbano de la línea San'in.",
+      "facts": [
+        "Su antiguo trazado junto al río Hozu se abandonó en 1989 al abrir túneles nuevos; desde 1991 lo recorre el tren turístico Sagano (Torokko).",
+        "Desde 2019 para en Umekōji-Kyōtonishi, junto al Museo del Ferrocarril de Kioto."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "nara-line",
+      "code": "D",
+      "color": "#B8782F",
+      "name": "Línea Nara",
+      "ja": "奈良線",
+      "en": "Nara Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11370090
+      ],
+      "opened": 1896,
+      "summary": "De Kioto a Nara por Fushimi Inari, Tōfukuji y Uji.",
+      "facts": [
+        "La estación de Inari está justo enfrente del santuario Fushimi Inari, el de los miles de torii rojos.",
+        "En Uji está el templo Byōdō-in, el que aparece en la moneda de 10 yenes."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "keihan-main",
+      "code": "KH",
+      "color": "#0E7A5A",
+      "name": "Línea principal Keihan",
+      "ja": "京阪本線・鴨東線",
+      "en": "Keihan Main Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^京阪電気鉄道(京阪本線|鴨東線)$\"]",
+        "bbox": [
+          34.6,
+          135.4,
+          35.1,
+          135.9
+        ]
+      },
+      "opened": 1910,
+      "length_km": 51.6,
+      "summary": "De Demachiyanagi a Yodoyabashi (Ōsaka) siguiendo el río Kamo y el Yodo: Gion, Kiyomizu-Gojō, Fushimi-Inari…",
+      "facts": [
+        "En Kioto va bajo tierra junto al río Kamo desde 1987; antes circulaba al aire libre por la orilla.",
+        "Sus trenes 8000 llevan un coche de dos pisos y un «Premium Car» con asientos reservados.",
+        "Fushimi-Inari (KH34) es la otra estación del famoso santuario, a pocos pasos de la de JR Inari."
+      ],
+      "order": "code"
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "keihan-uji",
+      "code": "KH",
+      "color": "#5BA094",
+      "name": "Línea Keihan Uji",
+      "ja": "宇治線",
+      "en": "Keihan Uji Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [
+        11102876
+      ],
+      "opened": 1913,
+      "length_km": 7.6,
+      "summary": "Ramal de Chūshojima a Uji, la ciudad del té verde matcha.",
+      "facts": [
+        "Uji es famosa por su té verde; su estación de Keihan está junto al puente Uji, uno de los más antiguos de Japón."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "hankyu-kyoto",
+      "code": "HK",
+      "color": "#7A1F2B",
+      "name": "Línea Hankyu Kyōto",
+      "ja": "阪急京都本線",
+      "en": "Hankyu Kyoto Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        10255878
+      ],
+      "opened": 1928,
+      "length_km": 47.7,
+      "summary": "De Kyōto-Kawaramachi (en pleno centro) a Ōsaka-Umeda, con trenes granate inconfundibles.",
+      "facts": [
+        "Todos los trenes Hankyu llevan el mismo color granate («Hankyu maroon»), una seña de identidad de la compañía.",
+        "El «Kyō-train Garaku» es un tren con interior de estilo japonés tradicional que circula los fines de semana."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "hankyu-arashiyama",
+      "code": "HK",
+      "color": "#A14553",
+      "name": "Línea Hankyu Arashiyama",
+      "ja": "阪急嵐山線",
+      "en": "Hankyu Arashiyama Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11985598
+      ],
+      "opened": 1928,
+      "length_km": 4.1,
+      "summary": "Corto ramal de Katsura a Arashiyama.",
+      "facts": [
+        "La estación de Arashiyama queda al otro lado del río Katsura; se cruza a pie por el puente Togetsukyō."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "kintetsu-kyoto",
+      "code": "B",
+      "color": "#E4002B",
+      "name": "Línea Kintetsu Kyōto",
+      "ja": "近鉄京都線",
+      "en": "Kintetsu Kyoto Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11958414
+      ],
+      "opened": 1928,
+      "length_km": 34.6,
+      "summary": "De Kioto a Yamato-Saidaiji, donde enlaza con Nara. Muchos trenes siguen por el metro Karasuma.",
+      "facts": [
+        "El tren turístico «Aoniyoshi» une Kioto y Nara desde 2022."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "randen-arashiyama",
+      "code": "A",
+      "color": "#6B2C91",
+      "name": "Randen: línea Arashiyama",
+      "ja": "嵐電嵐山本線",
+      "en": "Randen Arashiyama Line",
+      "operator": "keifuku",
+      "type": "tram",
+      "osm": [
+        17580263
+      ],
+      "opened": 1910,
+      "length_km": 7.2,
+      "summary": "El tranvía de Kioto, pintado de morado «Kyō-murasaki», de Shijō-Ōmiya a Arashiyama.",
+      "facts": [
+        "Es el último tranvía de Kioto, la ciudad que inauguró el primer tranvía eléctrico de Japón en 1895.",
+        "En la estación de Arashiyama hay un «bosque de kimonos»: cientos de postes forrados con telas de kimono que se iluminan de noche.",
+        "Se paga una tarifa única, recorras lo que recorras."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "randen-kitano",
+      "code": "B",
+      "color": "#8E5BB0",
+      "name": "Randen: línea Kitano",
+      "ja": "嵐電北野線",
+      "en": "Randen Kitano Line",
+      "operator": "keifuku",
+      "type": "tram",
+      "osm": [
+        11727446
+      ],
+      "opened": 1925,
+      "length_km": 3.8,
+      "summary": "Ramal del Randen de Kitano-Hakubaichō a Katabiranotsuji, cerca del Kinkaku-ji y el Ryōan-ji.",
+      "facts": [
+        "Entre Narutaki y Utano, en primavera, el tranvía pasa por un túnel de cerezos en flor."
+      ],
+      "extra_stops": [
+        11727428,
+        1940503
+      ],
       "order": "geometry"
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "eizan-main",
+      "code": "E",
+      "color": "#2E8B57",
+      "name": "Eiden: línea Eizan",
+      "ja": "叡山本線",
+      "en": "Eizan Main Line",
+      "operator": "eizan",
+      "type": "local",
+      "osm": [
+        11961440
+      ],
+      "opened": 1925,
+      "length_km": 5.6,
+      "summary": "De Demachiyanagi a Yase-Hieizanguchi, donde empieza el teleférico al monte Hiei.",
+      "facts": [
+        "En Yase-Hieizanguchi se enlaza con el funicular y el teleférico que suben al monte Hiei y al templo Enryaku-ji."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "eizan-kurama",
+      "code": "E",
+      "color": "#C4302B",
+      "name": "Eiden: línea Kurama",
+      "ja": "鞍馬線",
+      "en": "Kurama Line",
+      "operator": "eizan",
+      "type": "local",
+      "osm": [
+        11594590
+      ],
+      "opened": 1928,
+      "length_km": 8.8,
+      "summary": "De Takaragaike a Kurama, entre montañas y bosques de cedros.",
+      "facts": [
+        "En otoño, el tramo entre Ichihara y Ninose se convierte en un «túnel de arces» rojos que se ilumina de noche.",
+        "El tren panorámico «Kirara» tiene ventanales enormes y asientos mirando al paisaje."
+      ]
+    },
+    {
+      "region": "kyoto",
+      "trains": [],
+      "id": "sagano-scenic",
+      "code": "トロ",
+      "color": "#B5651D",
+      "name": "Tren turístico Sagano (Torokko)",
+      "ja": "嵯峨野観光線",
+      "en": "Sagano Scenic Railway",
+      "operator": "sagano",
+      "type": "tourist",
+      "osm": [
+        6092992
+      ],
+      "opened": 1991,
+      "length_km": 7.3,
+      "summary": "Tren turístico lento por el desfiladero del río Hozu, de Torokko Saga a Torokko Kameoka.",
+      "facts": [
+        "Recorre el antiguo trazado de la línea San'in, abandonado en 1989.",
+        "Su quinto coche, «The Rich», no tiene ventanas: es completamente abierto.",
+        "No circula en pleno invierno; es famoso en primavera (cerezos) y otoño (arces)."
+      ]
     }
   ],
-  "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas)."
+  "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas). 'order': 'code' ordena por el código de estación (cuando OSM trae todos).",
+  "regions": {
+    "japan": {
+      "name": "Shinkansen",
+      "ja": "新幹線"
+    },
+    "tokyo": {
+      "name": "Tokio",
+      "ja": "東京",
+      "bounds": [
+        [
+          35.605,
+          139.66
+        ],
+        [
+          35.765,
+          139.84
+        ]
+      ]
+    },
+    "kyoto": {
+      "name": "Kioto",
+      "ja": "京都",
+      "bounds": [
+        [
+          34.925,
+          135.66
+        ],
+        [
+          35.075,
+          135.83
+        ]
+      ]
+    }
+  }
 }

@@ -6,7 +6,7 @@ Para cada tren de config/trains.json con:
   "wiki": "Título del artículo"     → usa la imagen principal del artículo en la Wikipedia en inglés.
 
 Resultado:
-  web/img/trains/<id>.jpg   miniatura de 960 px de ancho
+  web/img/trains/<id>.jpg   miniatura de 960 px de ancho (500 px si la foto es vertical)
   config/photos.json        {id: {src, file, author, license, license_url, source}}
 
 Uso:
@@ -31,6 +31,7 @@ TRAINS = ROOT / "config" / "trains.json"
 PHOTOS = ROOT / "config" / "photos.json"
 IMG_DIR = ROOT / "web" / "img" / "trains"
 WIDTH = 960
+PORTRAIT_WIDTH = 500  # Commons sirve miniaturas en tamaños fijos (500, 960…): las verticales, a 500
 UA = "japan-rail-explorer/0.1 (hobby project; https://github.com/imird-eidon/japan-rail)"
 FREE = re.compile(r"^(CC BY(-SA)? \d|CC0|Public domain|PD)", re.I)
 
@@ -63,6 +64,8 @@ def file_info(file, width=WIDTH):
     if page.get("missing"):
         raise LookupError(f"{file} no existe en Commons")
     ii = page["imageinfo"][0]
+    if width == WIDTH and ii.get("height", 0) > ii.get("width", 0) > 0:
+        return file_info(file, PORTRAIT_WIDTH)
     if ii.get("width", 0) <= width and width == WIDTH and ii.get("width", 0) > 1:
         # si el original es más estrecho, Commons devuelve el original (a veces pesadísimo): pedimos miniatura
         return file_info(file, ii["width"] - 1)

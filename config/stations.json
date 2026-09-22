@@ -155,5 +155,50 @@
     "facts": [
       "Justo después de esta estación, la Yurikamome da una vuelta en espiral para subir al Rainbow Bridge."
     ]
+  },
+  "kyoto": {
+    "summary": "La gran puerta de Kioto: Shinkansen, JR, metro y Kintetsu bajo un mismo techo.",
+    "facts": [
+      "El edificio actual (1997) es obra del arquitecto Hiroshi Hara; su gran escalinata tiene 171 peldaños y se ilumina con luces LED.",
+      "Kioto inauguró en 1895 el primer tranvía eléctrico comercial de Japón."
+    ]
+  },
+  "karasuma-oike": {
+    "facts": [
+      "Es la única estación donde se cruzan las dos líneas de metro de Kioto (Karasuma y Tōzai)."
+    ]
+  },
+  "inari": {
+    "summary": "Frente al santuario Fushimi Inari Taisha y sus miles de torii.",
+    "facts": [
+      "La estación está justo delante de la gran puerta del santuario."
+    ]
+  },
+  "arashiyama": {
+    "facts": [
+      "En la estación del Randen hay un «bosque de kimonos» con cientos de postes forrados con telas de kimono."
+    ]
+  },
+  "demachiyanagi": {
+    "summary": "Donde se unen los ríos Kamo y Takano; aquí empiezan el Eiden y la línea Keihan.",
+    "facts": [
+      "Junto a la estación se cruza el río sobre las famosas piedras con forma de tortuga del delta del Kamo."
+    ]
+  },
+  "uji": {
+    "facts": [
+      "Cerca está el templo Byōdō-in, el de la moneda de 10 yenes."
+    ]
+  },
+  "umekoji-kyotonishi": {
+    "summary": "Junto al Museo del Ferrocarril de Kioto.",
+    "facts": [
+      "El museo (2016) tiene una rotonda de locomotoras de vapor de 1914 y la antigua estación de madera de Nijō, trasladada aquí."
+    ]
+  },
+  "kurama": {
+    "facts": [
+      "Frente a la estación hay una gran cabeza de tengu, el ser de la montaña que según la leyenda vive en el monte Kurama."
+    ]
   }
 }

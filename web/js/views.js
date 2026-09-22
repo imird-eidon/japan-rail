@@ -1,5 +1,5 @@
 // Vistas del panel lateral. Cada función devuelve HTML (texto siempre escapado con esc).
-import { esc, textOn, neighbours, networkStats, groupOf, isShinkansen } from "./data.js";
+import { esc, textOn, neighbours, networkStats, groupOf, trainRegion } from "./data.js";
 
 const fmtKm = (n) => `${String(n).replace(".", ",")}<small> km</small>`;
 
@@ -38,7 +38,7 @@ export function homeView(net, { tab, hidden, fact }) {
   return `
     <section class="intro">
       <h1>Los trenes de Japón</h1>
-      <p>La red Shinkansen y, con todo detalle, el tren y el metro de Tokio. Toca una línea en el mapa o elige una de la lista.</p>
+      <p>La red Shinkansen y, con todo detalle, el tren y el metro de Tokio y Kioto. Toca una línea en el mapa o elige una de la lista.</p>
       <dl class="stats">
         <div><dt>Líneas</dt><dd>${st.lines}</dd></div>
         <div><dt>Estaciones</dt><dd>${st.stations}</dd></div>
@@ -66,20 +66,27 @@ function factCard(f) {
 function linesTab(net, hidden) {
   const chips = net.groups.map((g) => `
       <button type="button" class="chip" data-action="toggle-group" data-group="${esc(g.id)}" aria-pressed="${!hidden.has(g.id)}">${esc(g.name)}</button>`).join("");
-  const groups = net.groups.map((g) => {
-    const lines = net.lines.filter((l) => groupOf(l) === g.id);
-    return `
-      <section class="group ${hidden.has(g.id) ? "is-hidden" : ""}" data-group="${esc(g.id)}">
-        <h2 class="group-title">${esc(g.name)} <span class="ja">${esc(g.ja)}</span></h2>
-        <ul class="line-list">${lines.map((l) => `
+  const lineRow = (l) => `
           <li>${link("line", l.id, `
             ${badge(l)}
             <span class="ll-name">${esc(l.name)}<span class="ja">${esc(l.ja)}</span></span>
-            <span class="ll-meta">${l.stations.length} est. · ${fmtKm(l.length_km ?? l.drawn_km)}</span>`, "line-row")}</li>`).join("")}
-        </ul>
+            <span class="ll-meta">${l.stations.length} est. · ${fmtKm(l.length_km ?? l.drawn_km)}</span>`, "line-row")}</li>`;
+  const groups = net.groups.map((g) => {
+    const lines = net.lines.filter((l) => groupOf(l) === g.id);
+    const ops = [...new Set(lines.map((l) => l.operator))];
+    // Shinkansen: una sola lista; ciudades: subgrupos por operador
+    const body = g.id === "japan"
+      ? `<ul class="line-list">${lines.map(lineRow).join("")}</ul>`
+      : ops.map((op) => `
+        <h3 class="op-title">${esc(net.operators[op]?.name || op)} <span class="ja">${esc(net.operators[op]?.ja || "")}</span></h3>
+        <ul class="line-list">${lines.filter((l) => l.operator === op).map(lineRow).join("")}</ul>`).join("");
+    return `
+      <section class="group ${hidden.has(g.id) ? "is-hidden" : ""}" data-group="${esc(g.id)}">
+        <h2 class="region-title">${esc(g.name)} <span class="ja">${esc(g.ja || "")}</span></h2>
+        ${body}
       </section>`;
   }).join("");
-  return `<div class="chips" aria-label="Mostrar u ocultar grupos de líneas">${chips}</div>${groups}`;
+  return `<div class="chips" aria-label="Mostrar u ocultar regiones">${chips}</div>${groups}`;
 }
 
 function stationsTab(net) {
@@ -132,27 +139,25 @@ function historicOnLine(net, lineId) {
 const dot = (l) => `<span class="dot" style="--c:${l.color}" title="${esc(l.name)}"></span>`;
 
 function trainsTab(net) {
-  const isSk = (t) => t.lines.some((id) => isShinkansen(net.lineById.get(id)));
   const row = (t) => `
     <li>${link("train", t.id, `
       ${trainThumb(t)}
       <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${serviceText(t)}</span></span>
-      <span class="tr-lines">${t.lines.map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`;
+      <span class="tr-lines">${(t.lines.length ? t.lines : (t.history || []).map((h) => h.line))
+        .map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`;
   const current = net.trains.filter((t) => t.lines.length);
   const retired = net.trains.filter((t) => !t.lines.length).sort((a, b) => a.introduced - b.introduced);
-  const histRow = (t) => `
-    <li>${link("train", t.id, `
-      ${trainThumb(t)}
-      <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${serviceText(t)}</span></span>
-      <span class="tr-lines">${(t.history || []).map((h) => badge(net.lineById.get(h.line))).join("")}</span>`, "train-row")}</li>`;
-  return `
-    <h2 class="group-title">Shinkansen <span class="ja">新幹線</span></h2>
-    <ul class="train-list">${current.filter(isSk).map(row).join("")}</ul>
-    <h2 class="group-title">Tren y metro de Tokio</h2>
-    <ul class="train-list">${current.filter((t) => !isSk(t)).map(row).join("")}</ul>
+  const sections = net.groups.map((g) => {
+    const list = current.filter((t) => trainRegion(net, t) === g.id);
+    if (!list.length) return "";
+    const title = g.id === "japan" ? "Shinkansen" : `Tren y metro de ${g.name}`;
+    return `<h2 class="group-title">${esc(title)} <span class="ja">${esc(g.ja || "")}</span></h2>
+      <ul class="train-list">${list.map(row).join("")}</ul>`;
+  }).join("");
+  return `${sections}
     <h2 class="group-title">Históricos <span class="ja">引退車両</span></h2>
     <p class="muted group-note">Series que ya no circulan por estas líneas (algunas siguen en otras partes de Japón o del mundo).</p>
-    <ul class="train-list">${retired.map(histRow).join("")}</ul>`;
+    <ul class="train-list">${retired.map(row).join("")}</ul>`;
 }
 
 // ------------------------------------------------------------------ línea

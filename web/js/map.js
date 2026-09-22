@@ -4,9 +4,8 @@ import { esc, textOn, groupOf, isShinkansen } from "./data.js";
 const L = window.L;
 // Teselas estándar de OSM; el tono claro/oscuro se consigue con un filtro CSS (.basemap en app.css)
 const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-const TOKYO_BOUNDS = [[35.605, 139.66], [35.765, 139.84]]; // Tokio central (anillo Yamanote y alrededores)
-const JAPAN_BOUNDS = [[31.2, 129.6], [41.95, 141.2]];     // de Kagoshima a Hakodate
-const MAX_BOUNDS = [[20, 118], [50, 156]];                // no dejar que el mapa se vaya muy lejos
+const JAPAN_BOUNDS = [[31.2, 129.6], [41.95, 141.2]]; // de Kagoshima a Hakodate
+const MAX_BOUNDS = [[20, 118], [50, 156]];           // no dejar que el mapa se vaya muy lejos
 const STATION_MIN_ZOOM = 12;
 const LABEL_MIN_ZOOM = 12;
 
@@ -145,16 +144,18 @@ export function createMap(el, net, { onLine, onStation }) {
     options: { position: "topright" },
     onAdd() {
       const box = L.DomUtil.create("div", "leaflet-bar center-control");
-      box.innerHTML = `
-        <a href="#" role="button" data-go="tokyo" title="Centrar en Tokio" aria-label="Centrar en Tokio">Tokio</a>
-        <a href="#" role="button" data-go="japan" title="Ver todo Japón" aria-label="Ver todo Japón">Japón</a>`;
+      // un botón por ciudad con «bounds» en lines.json → regions, más «Japón»
+      const cities = Object.entries(net.regions || {}).filter(([, r]) => r.bounds);
+      box.innerHTML = cities.map(([id, r]) =>
+        `<a href="#" role="button" data-go="${esc(id)}" title="Centrar en ${esc(r.name)}" aria-label="Centrar en ${esc(r.name)}">${esc(r.name)}</a>`).join("") +
+        `<a href="#" role="button" data-go="japan" title="Ver todo Japón" aria-label="Ver todo Japón">Japón</a>`;
       L.DomEvent.disableClickPropagation(box);
       L.DomEvent.on(box, "click", (e) => {
         const a = e.target.closest("a[data-go]");
         if (!a) return;
         L.DomEvent.preventDefault(e);
-        if (a.dataset.go === "tokyo") api.showTokyo();
-        else api.showJapan();
+        if (a.dataset.go === "japan") api.showJapan();
+        else api.showRegion(a.dataset.go);
       });
       return box;
     },
@@ -179,9 +180,12 @@ export function createMap(el, net, { onLine, onStation }) {
       state.focusLine = state.focusStation = state.focusLines = null;
       setPulse(null);
       render();
-      if (fit) map.fitBounds(TOKYO_BOUNDS, { animate: false });
+      if (fit) map.fitBounds(net.regions.tokyo.bounds, { animate: false });
     },
-    showTokyo() { map.flyToBounds(TOKYO_BOUNDS, { duration: 0.8 }); },
+    showRegion(id) {
+      const b = net.regions?.[id]?.bounds;
+      if (b) map.flyToBounds(b, { duration: 0.8 });
+    },
     showJapan() { map.flyToBounds(JAPAN_BOUNDS, { padding: pad(), duration: 0.8 }); },
     /** Resalta varias líneas (p. ej. las de un tren) y encuadra el conjunto. */
     focusLines(ids, { animate = true } = {}) {

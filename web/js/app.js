@@ -9,7 +9,7 @@ const panel = document.getElementById("panel");
 const input = document.getElementById("search");
 const results = document.getElementById("search-results");
 
-const HIDDEN_KEY = "jre.hiddenGroups";
+const HIDDEN_KEY = "jre.hiddenRegions";
 const ui = {
   hidden: new Set(readStored(HIDDEN_KEY, [])),
   facts: [],
