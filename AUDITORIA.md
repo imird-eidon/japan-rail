@@ -57,11 +57,10 @@
 
 ## Nagoya
 
-### Líneas que faltan (21)
+### Líneas que faltan (19)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
-| ひだ | Hida | 13/13 | 下呂、久々野、尾張一宮、猪谷、白川口 |
 | 三岐鉄道北勢線 | Sangi Railway Hokusei Line | 13/13 | 七和、在良、大泉、星川、東員 |
 | 四日市あすなろう鉄道八王子線 | Yokkaichi Asunarou Railway Hachiōji Line | 4/4 | あすなろう四日市、日永、西日野、赤堀 |
 | 四日市あすなろう鉄道内部線 | Yokkaichi Asunarou Railway Utsube Line | 8/8 | あすなろう四日市、内部、南日永、小古曽、日永 |
@@ -81,20 +80,17 @@
 | 名古屋鉄道三河線 | Meitetsu Mikawa Line | 19/22 | 三河八橋、三河高浜、上挙母、刈谷、刈谷市 |
 | 名古屋鉄道広見線 | Meitetsu Hiromi Line | 6/7 | 可児川、善師野、富岡前、新可児、日本ライン今渡 |
 | 東海交通事業城北線 | Tōkai Transport Service Jōhoku Line | 5/6 | 勝川、小田井、尾張星の宮、枇杷島、比良 |
-| しなの | Shinano | 11/15 | 上松、中津川、南木曽、塩尻、多治見 |
 
-### Estaciones que faltan en líneas que ya están (4)
+### Estaciones que faltan en líneas que ya están (2)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
-| μSKY Limited Express | μSKY Limited Express | 1/2 | 名鉄名古屋 |
 | 名古屋鉄道築港線 | Meitetsu Chikkō Line | 1/2 | 東名古屋港 |
-| しらさぎ |  | 3/8 | 大垣、尾張一宮、岐阜 |
 | 名古屋鉄道名古屋本線 | Meitetsu Nagoya Main Line | 1/60 | 名鉄名古屋 |
 
 ## Fukuoka
 
-### Líneas que faltan (10)
+### Líneas que faltan (7)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
@@ -103,37 +99,26 @@
 | 門司港 | JA: Mojikō => Hakata | 29/32 | ししぶ、スペースワールド、九州工大前、九産大前、八幡 |
 | 博多 | JA: Hakata => Mojikō | 29/32 | ししぶ、スペースワールド、九州工大前、九産大前、八幡 |
 | JR鹿児島本線 |  | 85/96 | けやき台、ししぶ、スペースワールド、上伊集院、串木野 |
-| ゆふ | Yufu | 11/13 | 久留米高校前、二日市、別府、向之原、大分 |
 | JR鹿児島本線 区快 | JR Kagoshima Line Rapid | 37/44 | 二日市、八代、千丁、南瀬高、南福岡 |
 | JR篠栗線 | Sasaguri Line | 10/12 | 九郎原、原町、吉塚、城戸南蔵院前、柚須 |
-| みどり | Midori | 7/9 | 二日市、佐世保、佐賀、早岐、有田 |
-| ハウステンボス | Huis ten Bosch | 7/10 | ハウステンボス、二日市、佐賀、吉野ヶ里公園、早岐 |
 
-### Estaciones que faltan en líneas que ya están (2)
+### Estaciones que faltan en líneas que ya están (1)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
-| ソニック |  | 2/4 | 別府、大分 |
 | 西日本鉄道天神大牟田線 ) | Nishitetsu Tenjin Omuta Line | 1/50 | ２１ |
 
 ## Sapporo
 
-### Líneas que faltan (5)
+### Líneas que faltan (0)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
-| 宗谷 | Sōya | 13/14 | 南稚内、名寄、和寒、士別、天塩中川 |
-| オホーツク | Okhotsk | 11/12 | 上川、丸瀬布、女満別、岩見沢、旭川 |
-| JR函館本線 | JR Hakodate Main Line | 22/27 | ほしみ、上幌向、南小樽、厚別、大麻 |
-| 北斗 | Hokuto | 11/14 | 五稜郭、伊達紋別、八雲、函館、大沼公園 |
-| おおぞら | Ōzora: Kushino => Sapporo | 7/11 | トマム、帯広、新得、池田、浦幌 |
 
-### Estaciones que faltan en líneas que ya están (2)
+### Estaciones que faltan en líneas que ya están (0)
 
 | Línea (OSM) | Nombre en inglés | Faltan | Ejemplos |
 |---|---|--:|---|
-| JR千歳線 | JR Chitose Line | 4/18 | サッポロビール庭園、植苗、沼ノ端、苫小牧 |
-| 札幌市電 | Sapporo Streetcar Outer Loop | 1/24 | 中央図書館前 |
 
 ## Sendai
 

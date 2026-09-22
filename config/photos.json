@@ -368,6 +368,69 @@
     "source": "https://commons.wikimedia.org/wiki/File:Keihin-tohoku_209_series.jpg",
     "thumb": "img/trains/thumb/jr-209.webp"
   },
+  "jrh-721": {
+    "src": "img/trains/jrh-721.webp",
+    "thumb": "img/trains/thumb/jrh-721.webp",
+    "file": "File:JRH Series721 F4103.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:JRH_Series721_F4103.jpg"
+  },
+  "jrh-731": {
+    "src": "img/trains/jrh-731.webp",
+    "thumb": "img/trains/thumb/jrh-731.webp",
+    "file": "File:731 series G116 Otaru 20090830.jpg",
+    "author": "DAJF",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:731_series_G116_Otaru_20090830.jpg"
+  },
+  "jrh-733": {
+    "src": "img/trains/jrh-733.webp",
+    "thumb": "img/trains/thumb/jrh-733.webp",
+    "file": "File:JRH Series733 B107.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:JRH_Series733_B107.jpg"
+  },
+  "jrh-735": {
+    "src": "img/trains/jrh-735.webp",
+    "thumb": "img/trains/thumb/jrh-735.webp",
+    "file": "File:JR HOKKAIDO EC735 A-101 TRAIN.jpg",
+    "author": "JAL EXPRESS",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_HOKKAIDO_EC735_A-101_TRAIN.jpg"
+  },
+  "jrh-785": {
+    "src": "img/trains/jrh-785.webp",
+    "thumb": "img/trains/thumb/jrh-785.webp",
+    "file": "File:JR Hokkaido 785 series EMU 007.JPG",
+    "author": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Hokkaido_785_series_EMU_007.JPG"
+  },
+  "jrh-789": {
+    "src": "img/trains/jrh-789.webp",
+    "thumb": "img/trains/thumb/jrh-789.webp",
+    "file": "File:JR 789-0 ライラック Lilac, 大麻駅 (20251031) (54909896040) - cropped.jpg",
+    "author": "Takeshi Aida from Hong Kong, Hong Kong",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_789-0_%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF_Lilac,_%E5%A4%A7%E9%BA%BB%E9%A7%85_(20251031)_(54909896040)_-_cropped.jpg"
+  },
+  "jrh-kiha201": {
+    "src": "img/trains/jrh-kiha201.webp",
+    "thumb": "img/trains/thumb/jrh-kiha201.webp",
+    "file": "File:JR Hokkaido 201 series DMU 013.JPG",
+    "author": "天然ガス ( Tennen-Gas )",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Hokkaido_201_series_DMU_013.JPG"
+  },
   "jrw-221": {
     "src": "img/trains/jrw-221.webp",
     "file": "File:JR West 221 Yamatoji rapid.jpg",
@@ -538,6 +601,15 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kobe_Subway_6640_at_Seishin-minami_Station.jpg"
+  },
+  "kokutetsu-711": {
+    "src": "img/trains/kokutetsu-711.webp",
+    "thumb": "img/trains/thumb/kokutetsu-711.webp",
+    "file": "File:JNR 711 series EMU 029.JPG",
+    "author": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JNR_711_series_EMU_029.JPG"
   },
   "ks-10": {
     "src": "img/trains/ks-10.webp",
@@ -827,6 +899,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sagano_scenic_railway_hotsukyo.jpg",
     "thumb": "img/trains/thumb/sagano-torokko.webp"
   },
+  "sapporo-1100": {
+    "src": "img/trains/sapporo-1100.webp",
+    "thumb": "img/trains/thumb/sapporo-1100.webp",
+    "file": "File:Sapporo Street Car Type 1100 1102 Sirius 2020-3-23.jpg",
+    "author": "Rsa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Street_Car_Type_1100_1102_Sirius_2020-3-23.jpg"
+  },
+  "sapporo-3300": {
+    "src": "img/trains/sapporo-3300.webp",
+    "thumb": "img/trains/thumb/sapporo-3300.webp",
+    "file": "File:Sapporo Tram Type 3300 011.JPG",
+    "author": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Tram_Type_3300_011.JPG"
+  },
   "sapporo-5000": {
     "src": "img/trains/sapporo-5000.webp",
     "thumb": "img/trains/thumb/sapporo-5000.webp",
@@ -836,6 +926,15 @@
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:ST_SN5000_20061102_001.jpg"
   },
+  "sapporo-7000": {
+    "src": "img/trains/sapporo-7000.webp",
+    "thumb": "img/trains/thumb/sapporo-7000.webp",
+    "file": "File:Sapporo Municipal Subway 7000 series running Toho Line.jpg",
+    "author": "Kuriki at Japanese Wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Municipal_Subway_7000_series_running_Toho_Line.jpg"
+  },
   "sapporo-8000": {
     "src": "img/trains/sapporo-8000.webp",
     "thumb": "img/trains/thumb/sapporo-8000.webp",
@@ -844,6 +943,15 @@
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Subway_8901_20080601_t09_2.jpg"
+  },
+  "sapporo-8500": {
+    "src": "img/trains/sapporo-8500.webp",
+    "thumb": "img/trains/thumb/sapporo-8500.webp",
+    "file": "File:Sapporo Tram Type 8500 013.JPG",
+    "author": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Tram_Type_8500_013.JPG"
   },
   "sapporo-9000": {
     "src": "img/trains/sapporo-9000.webp",

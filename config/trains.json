@@ -2996,5 +2996,289 @@
       }
     ],
     "photo_file": "File:Botchan-ressha.jpg"
+  },
+  {
+    "id": "jrh-721",
+    "name": "JR Hokkaidō serie 721",
+    "operator": "jr-hokkaido",
+    "introduced": 1988,
+    "cars": 3,
+    "summary": "El primer tren de cercanías moderno de Sapporo; durante años fue el del rápido «Airport».",
+    "runs": [
+      {
+        "line": "hakodate-s"
+      },
+      {
+        "line": "hakodate-a"
+      },
+      {
+        "line": "chitose"
+      },
+      {
+        "line": "chitose-airport"
+      },
+      {
+        "line": "sassho"
+      }
+    ],
+    "facts": [
+      "Lleva puertas con antecámara y calefacción reforzada: en Hokkaidō el frío manda en el diseño."
+    ],
+    "wiki": "721 series"
+  },
+  {
+    "id": "jrh-731",
+    "name": "JR Hokkaidō serie 731",
+    "operator": "jr-hokkaido",
+    "introduced": 1996,
+    "cars": 3,
+    "summary": "El tren urbano de Sapporo desde 1996, con puertas que sólo se abren si se pulsa el botón.",
+    "runs": [
+      {
+        "line": "hakodate-s"
+      },
+      {
+        "line": "hakodate-a"
+      },
+      {
+        "line": "chitose"
+      },
+      {
+        "line": "sassho"
+      }
+    ],
+    "facts": [
+      "Puede circular acoplado a los diésel de la serie Kiha 201, algo muy poco habitual en el mundo."
+    ],
+    "wiki": "731 series"
+  },
+  {
+    "id": "jrh-733",
+    "name": "JR Hokkaidō serie 733",
+    "operator": "jr-hokkaido",
+    "introduced": 2012,
+    "cars": 3,
+    "summary": "El tren más numeroso del área de Sapporo; la subserie 3000 hace el rápido del aeropuerto.",
+    "runs": [
+      {
+        "line": "hakodate-s"
+      },
+      {
+        "line": "hakodate-a"
+      },
+      {
+        "line": "chitose"
+      },
+      {
+        "line": "chitose-airport"
+      },
+      {
+        "line": "sassho"
+      }
+    ],
+    "facts": [
+      "Las unidades del aeropuerto llevan espacio para maletas junto a las puertas."
+    ],
+    "wiki": "733 series"
+  },
+  {
+    "id": "jrh-735",
+    "name": "JR Hokkaidō serie 735",
+    "operator": "jr-hokkaido",
+    "introduced": 2012,
+    "cars": 3,
+    "summary": "Sólo se construyeron dos trenes: fueron el ensayo en aluminio de JR Hokkaidō.",
+    "runs": [
+      {
+        "line": "hakodate-s"
+      },
+      {
+        "line": "hakodate-a"
+      },
+      {
+        "line": "chitose"
+      }
+    ],
+    "facts": [
+      "Es el primer tren de caja de aluminio de JR Hokkaidō; se construyó en 2010 y entró en servicio en 2012."
+    ],
+    "wiki": "735 series"
+  },
+  {
+    "id": "jrh-kiha201",
+    "name": "JR Hokkaidō Kiha 201",
+    "operator": "jr-hokkaido",
+    "introduced": 1997,
+    "cars": 3,
+    "summary": "Un diésel con prestaciones de tren eléctrico, para las líneas sin catenaria de Sapporo.",
+    "runs": [
+      {
+        "line": "hakodate-s"
+      }
+    ],
+    "facts": [
+      "Se acopla a los eléctricos de la serie 731 y ambos se mandan desde una sola cabina.",
+      "Sólo se construyeron cuatro composiciones."
+    ],
+    "wiki": "KiHa 201 series"
+  },
+  {
+    "id": "jrh-789",
+    "name": "JR Hokkaidō serie 789",
+    "operator": "jr-hokkaido",
+    "introduced": 2002,
+    "cars": 5,
+    "summary": "El tren de los expresos «Kamui» y «Lilac» entre Sapporo y Asahikawa.",
+    "runs": [
+      {
+        "line": "hakodate-a"
+      }
+    ],
+    "facts": [
+      "La serie 0 nació para los trenes del túnel de Seikan; la 1000, de 2007, para el corredor de Sapporo."
+    ],
+    "wiki": "789 series"
+  },
+  {
+    "id": "kokutetsu-711",
+    "name": "Serie 711 «el tren rojo»",
+    "operator": "jr-hokkaido",
+    "introduced": 1968,
+    "retired": true,
+    "cars": 3,
+    "summary": "El primer tren eléctrico de Hokkaidō: 47 años de servicio, de 1968 a 2015.",
+    "history": [
+      {
+        "line": "hakodate-s",
+        "years": [
+          1968,
+          2015
+        ]
+      },
+      {
+        "line": "hakodate-a",
+        "years": [
+          1968,
+          2015
+        ]
+      },
+      {
+        "line": "chitose",
+        "years": [
+          1968,
+          2012
+        ]
+      }
+    ],
+    "facts": [
+      "Se estrenó con la electrificación de Otaru–Takikawa, en 1968, y fue el primer tren de corriente alterna de serie de Japón.",
+      "Hizo su último servicio el 13 de marzo de 2015; su color rojo le dio el apodo de «akadensha»."
+    ],
+    "wiki": "711 series"
+  },
+  {
+    "id": "jrh-785",
+    "name": "JR Hokkaidō serie 785",
+    "operator": "jr-hokkaido",
+    "introduced": 1990,
+    "retired": true,
+    "cars": 4,
+    "summary": "Expreso «Super White Arrow» de Sapporo a Asahikawa; dejó el servicio en 2016.",
+    "history": [
+      {
+        "line": "hakodate-a",
+        "years": [
+          1990,
+          2016
+        ]
+      },
+      {
+        "line": "chitose",
+        "years": [
+          1990,
+          2016
+        ]
+      },
+      {
+        "line": "chitose-airport",
+        "years": [
+          1990,
+          2016
+        ]
+      }
+    ],
+    "facts": [
+      "Terminó su carrera en marzo de 2016, en los trenes del aeropuerto de New Chitose."
+    ],
+    "wiki": "785 series"
+  },
+  {
+    "id": "sapporo-7000",
+    "name": "Metro de Sapporo serie 7000",
+    "operator": "sapporo-city",
+    "introduced": 1988,
+    "retired": true,
+    "cars": 4,
+    "summary": "Fue el tren de la línea Tōhō desde su apertura, en 1988, hasta 2016.",
+    "history": [
+      {
+        "line": "sapporo-toho",
+        "years": [
+          1988,
+          2016
+        ]
+      }
+    ],
+    "facts": [
+      "Hizo su último viaje el 25 de junio de 2016, sustituido por la serie 9000."
+    ],
+    "photo_file": "File:Sapporo Municipal Subway 7000 series running Toho Line.jpg"
+  },
+  {
+    "id": "sapporo-3300",
+    "name": "Tranvía de Sapporo 3300",
+    "operator": "sapporo-city",
+    "introduced": 1998,
+    "cars": 1,
+    "summary": "Tranvía de los años 80 reconstruido en 1998 con equipo eléctrico nuevo.",
+    "runs": [
+      {
+        "line": "sapporo-tram"
+      }
+    ],
+    "facts": [],
+    "photo_file": "File:Sapporo Tram Type 3300 011.JPG"
+  },
+  {
+    "id": "sapporo-8500",
+    "name": "Tranvía de Sapporo 8500",
+    "operator": "sapporo-city",
+    "introduced": 1985,
+    "cars": 1,
+    "summary": "La primera serie del tranvía de Sapporo con control por chopper.",
+    "runs": [
+      {
+        "line": "sapporo-tram"
+      }
+    ],
+    "facts": [],
+    "photo_file": "File:Sapporo Tram Type 8500 013.JPG"
+  },
+  {
+    "id": "sapporo-1100",
+    "name": "Tranvía de Sapporo 1100 «Sirius»",
+    "operator": "sapporo-city",
+    "introduced": 2018,
+    "cars": 1,
+    "summary": "El tranvía moderno de un solo coche, en servicio desde octubre de 2018.",
+    "runs": [
+      {
+        "line": "sapporo-tram"
+      }
+    ],
+    "facts": [
+      "Su apodo, «Sirius», sigue la costumbre de Sapporo de poner nombres de estrellas a sus tranvías."
+    ],
+    "photo_file": "File:Sapporo Street Car Type 1100 1102 Sirius 2020-3-23.jpg"
   }
 ]

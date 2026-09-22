@@ -5175,7 +5175,8 @@
       "operator": "sapporo-city",
       "type": "tram",
       "osm": [
-        8888444
+        8888444,
+        8888445
       ],
       "region": "sapporo",
       "trains": [],
@@ -5186,6 +5187,98 @@
       "loop": true
     },
     {
+      "id": "hakodate-s",
+      "code": "S",
+      "color": "#E5006E",
+      "name": "JR Hakodate (Otaru–Sapporo)",
+      "ja": "函館本線",
+      "en": "JR Hakodate Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"函館本線\"]",
+        "bbox": [
+          43.03,
+          140.98,
+          43.25,
+          141.365
+        ]
+      },
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Es el tramo de cercanías con más viajeros de Hokkaidō.",
+        "Aquí nació el ferrocarril de la isla: en 1880 se abrió la línea entre Temiya (Otaru) y Sapporo, la tercera de Japón.",
+        "Entre Zenibako y Otaru la vía va pegada al mar de Ishikari, con el agua a unos metros de la ventanilla."
+      ],
+      "station_order": [
+        "小樽",
+        "南小樽",
+        "小樽築港",
+        "朝里",
+        "銭函",
+        "ほしみ",
+        "星置",
+        "稲穂",
+        "手稲",
+        "稲積公園",
+        "発寒",
+        "発寒中央",
+        "琴似",
+        "桑園",
+        "札幌"
+      ],
+      "opened": 1880,
+      "length_km": 33.8
+    },
+    {
+      "id": "hakodate-a",
+      "code": "A",
+      "color": "#E5006E",
+      "name": "JR Hakodate (Sapporo–Iwamizawa)",
+      "ja": "函館本線",
+      "en": "JR Hakodate Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"函館本線\"]",
+        "bbox": [
+          42.98,
+          141.345,
+          43.215,
+          141.78
+        ]
+      },
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Se abrió en 1882, al prolongar el ferrocarril de Horonai desde Sapporo hasta Iwamizawa.",
+        "La línea principal sigue hacia Asahikawa; este es su tramo de cercanías al este de Sapporo."
+      ],
+      "station_order": [
+        "札幌",
+        "苗穂",
+        "白石",
+        "厚別",
+        "森林公園",
+        "大麻",
+        "野幌",
+        "高砂",
+        "江別",
+        "豊幌",
+        "幌向",
+        "上幌向",
+        "岩見沢"
+      ],
+      "skip_stations": [
+        "峰延"
+      ],
+      "opened": 1882,
+      "length_km": 40.6
+    },
+    {
       "id": "chitose",
       "code": "H",
       "color": "#0072BC",
@@ -5194,14 +5287,79 @@
       "en": "JR Chitose Line",
       "operator": "jr-hokkaido",
       "type": "commuter",
-      "osm": [
-        14986869
+      "osm": [],
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Es la línea del aeropuerto de New Chitose, la puerta de entrada a Hokkaidō.",
+        "Abrió en 1926 como línea privada de la Compañía de Ferrocarriles de Hokkaidō."
+      ],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"千歳線\"]",
+        "bbox": [
+          42.6,
+          141.2,
+          43.1,
+          141.75
+        ]
+      },
+      "station_order": [
+        "沼ノ端",
+        "植苗",
+        "美々",
+        "南千歳",
+        "千歳",
+        "長都",
+        "サッポロビール庭園",
+        "恵庭",
+        "恵み野",
+        "島松",
+        "北広島",
+        "上野幌",
+        "新札幌",
+        "平和",
+        "白石",
+        "苗穂",
+        "札幌"
+      ],
+      "skip_stations": [
+        "新千歳空港"
+      ],
+      "opened": 1926,
+      "length_km": 56.6
+    },
+    {
+      "id": "chitose-airport",
+      "code": "AP",
+      "color": "#0072BC",
+      "name": "JR Chitose (ramal del aeropuerto)",
+      "ja": "千歳線（空港支線）",
+      "en": "Chitose Line Airport Branch",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"千歳線\"]",
+        "bbox": [
+          42.775,
+          141.655,
+          42.805,
+          141.705
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "南千歳",
+        "新千歳空港"
       ],
       "region": "sapporo",
       "trains": [],
       "facts": [
-        "Es la línea del aeropuerto de New Chitose, la puerta de entrada a Hokkaidō."
-      ]
+        "Los trenes entran bajo la terminal: la estación está justo debajo del vestíbulo del aeropuerto.",
+        "Es la estación de aeropuerto más al norte y más al este de Japón, y también la estación subterránea más oriental del país."
+      ],
+      "opened": 1992,
+      "length_km": 2.6
     },
     {
       "id": "sassho",
@@ -5217,7 +5375,12 @@
       ],
       "region": "sapporo",
       "trains": [],
-      "facts": []
+      "facts": [
+        "Se llama Gakuentoshi («ciudad universitaria») por las universidades del norte de Sapporo.",
+        "En 2020 se cerró el tramo sin electrificar más allá de Hokkaidō-Iryōdaigaku."
+      ],
+      "opened": 1931,
+      "length_km": 28.9
     },
     {
       "id": "sendai-namboku",

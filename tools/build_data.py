@@ -173,7 +173,11 @@ def fetch_relation(rel_id, refresh):
     if path.exists() and not refresh:
         return load_json(path)
     log(f"  descargando relación {rel_id}…")
-    data = overpass(f"[out:json][timeout:120];relation({rel_id});out geom;relation({rel_id});node(r);out;")
+    # las relaciones de línea (no de servicio) a veces no llevan paradas como miembros:
+    # pedimos también las estaciones que están sobre sus vías, como respaldo
+    data = overpass(f"[out:json][timeout:240];relation({rel_id})->.r;.r out geom;node(r.r);out;way(r.r)->.w;"
+                    '(node(around.w:60)["railway"~"^(station|halt|stop)$"];'
+                    ' node(around.w:60)["public_transport"="stop_position"];);out;')
     if not any(e["type"] == "relation" for e in data.get("elements", [])):
         raise RuntimeError(f"La relación {rel_id} no existe o vino vacía")
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
@@ -186,8 +190,11 @@ def fetch_ways(line, refresh):
     import hashlib
     q = line["osm_ways"]
     bbox = ",".join(str(x) for x in q["bbox"])
-    query = (f'[out:json][timeout:120];{q["filter"]}({bbox})->.w;.w out geom;'
+    query = (f'[out:json][timeout:180];{q["filter"]}({bbox})->.w;.w out geom;'
              'node(w.w)["name"]->.n;.n out;')
+    if q.get("nearby"):  # estaciones mapeadas junto a la vía y no sobre ella
+        query += ('(node(around.w:80)["railway"~"^(station|halt|stop)$"];'
+                  ' node(around.w:80)["public_transport"="stop_position"];);out;')
     key = hashlib.sha1(query.encode()).hexdigest()[:12]
     path = CACHE / f"ways-{line['id']}-{key}.json"
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -302,6 +309,14 @@ def parse_relation(data):
         elif m["type"] == "node" and m.get("role", "").startswith("stop"):
             n = nodes.get(m["ref"])
             if n:
+                stops.append(n)
+    if not stops:  # relación sólo de trazado: las paradas son las estaciones que hay junto a sus vías
+        for n in nodes.values():
+            t = n.get("tags", {})
+            name = t.get("name", "")
+            if not name or "信号場" in name:  # los apartaderos no son paradas
+                continue
+            if t.get("railway") in ("station", "halt", "stop") or t.get("public_transport") == "stop_position":
                 stops.append(n)
     return rel, segments, stops
 
@@ -477,6 +492,10 @@ def main():
                 stops.append({"ja": ja, "en": en, "pt": (s["lat"], s["lon"]),
                               "code": normalize_code(t.get("ref"), line["code"])})
 
+        if line.get("skip_stations"):  # paradas que la caja de vías arrastra de más (líneas que siguen más allá)
+            skip = {ja_key(n) for n in line["skip_stations"]}
+            stops = [st for st in stops if ja_key(st["ja"]) not in skip]
+
         for st in stops:  # las correcciones de código se aplican ya, para que order=code las tenga en cuenta
             st["code"] = code_fixes.get(line["id"], {}).get(st["ja"], st["code"])
         chains = merge_chains(chains_raw)
@@ -520,7 +539,7 @@ def main():
         for tid in line.get("trains", []):
             if tid not in train_ids:
                 warnings.append(f"{line['id']}: tren desconocido '{tid}'")
-        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways", "extra_nodes", "no_extrapolate", "station_order")},
+        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways", "extra_nodes", "no_extrapolate", "station_order", "skip_stations")},
                           "osm": line["osm"],
                           "stations": order,   # se sustituye por ids más abajo
                           "drawn_km": round(drawn_km, 1),
