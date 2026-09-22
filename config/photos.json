@@ -1,4 +1,31 @@
 {
+  "aonami-1000": {
+    "src": "img/trains/aonami-1000.webp",
+    "thumb": "img/trains/thumb/aonami-1000.webp",
+    "file": "File:Aonami-Line Type1000-1106.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aonami-Line_Type1000-1106.jpg"
+  },
+  "astram-7000": {
+    "src": "img/trains/astram-7000.webp",
+    "thumb": "img/trains/thumb/astram-7000.webp",
+    "file": "File:Ōmachi station 2024 2.jpg",
+    "author": "Smiley.toerist",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C5%8Cmachi_station_2024_2.jpg"
+  },
+  "botchan-ressha": {
+    "src": "img/trains/botchan-ressha.webp",
+    "thumb": "img/trains/thumb/botchan-ressha.webp",
+    "file": "File:Botchan-ressha.jpg",
+    "author": "Daichan",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Botchan-ressha.jpg"
+  },
   "chiba-monorail-0": {
     "src": "img/trains/chiba-monorail-0.webp",
     "thumb": "img/trains/thumb/chiba-monorail-0.webp",
@@ -7,6 +34,15 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chiba_Urban_Monorail_0_series_20120809.jpg"
+  },
+  "dencha": {
+    "src": "img/trains/dencha.webp",
+    "thumb": "img/trains/thumb/dencha.webp",
+    "file": "File:JR Kyushu BEC819 z311 20200720.jpg",
+    "author": "Rsa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Kyushu_BEC819_z311_20200720.jpg"
   },
   "e231-0": {
     "src": "img/trains/e231-0.webp",
@@ -161,6 +197,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:Enoden_Type_1000_at_Enoshima_Station.jpg",
     "thumb": "img/trains/thumb/enoden-1000.webp"
   },
+  "fukuoka-2000": {
+    "src": "img/trains/fukuoka-2000.webp",
+    "thumb": "img/trains/thumb/fukuoka-2000.webp",
+    "file": "File:Fukuokasubway2000.jpg",
+    "author": "Muyo at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Fukuokasubway2000.jpg"
+  },
+  "fukuoka-3000": {
+    "src": "img/trains/fukuoka-3000.webp",
+    "thumb": "img/trains/thumb/fukuoka-3000.webp",
+    "file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg",
+    "author": "SuFlyer",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Fukuoka_City_Subway_3000A_Series_at_Hashimoto_Depot.jpg"
+  },
   "hankai-mo161": {
     "src": "img/trains/hankai-mo161.webp",
     "thumb": "img/trains/thumb/hankai-mo161.webp",
@@ -241,6 +295,33 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series80000_Hinotori-10.jpg"
+  },
+  "hiroden-1000": {
+    "src": "img/trains/hiroden-1000.webp",
+    "thumb": "img/trains/thumb/hiroden-1000.webp",
+    "file": "File:Hiroden Series1000-1010.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiroden_Series1000-1010.jpg"
+  },
+  "hiroden-5100": {
+    "src": "img/trains/hiroden-5100.webp",
+    "thumb": "img/trains/thumb/hiroden-5100.webp",
+    "file": "File:Hiroden Green Mover T-5100 LRV.jpg",
+    "author": "Peter Broster",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiroden_Green_Mover_T-5100_LRV.jpg"
+  },
+  "hiroden-650": {
+    "src": "img/trains/hiroden-650.webp",
+    "thumb": "img/trains/thumb/hiroden-650.webp",
+    "file": "File:Hiroshima Electric Railway 650 series With A-Bomb Dome.jpg",
+    "author": "Gahukuro",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiroshima_Electric_Railway_650_series_With_A-Bomb_Dome.jpg"
   },
   "jnr-101": {
     "src": "img/trains/jnr-101.webp",
@@ -485,6 +566,51 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Subway_50_series.jpg",
     "thumb": "img/trains/thumb/ks-50.webp"
   },
+  "kumamoto-9700": {
+    "src": "img/trains/kumamoto-9700.webp",
+    "thumb": "img/trains/thumb/kumamoto-9700.webp",
+    "file": "File:Kumamoto City Tram 9702.jpg",
+    "author": "継之助",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_City_Tram_9702.jpg"
+  },
+  "linimo-100": {
+    "src": "img/trains/linimo-100.webp",
+    "thumb": "img/trains/thumb/linimo-100.webp",
+    "file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Linimo_approaching_Banpaku_Kinen_Koen,_towards_Fujigaoka_Station.jpg"
+  },
+  "meitetsu-2000": {
+    "src": "img/trains/meitetsu-2000.webp",
+    "thumb": "img/trains/thumb/meitetsu-2000.webp",
+    "file": "File:Nagoya Railway 2000.jpg",
+    "author": "Sui-setz",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Railway_2000.jpg"
+  },
+  "meitetsu-7000": {
+    "src": "img/trains/meitetsu-7000.webp",
+    "thumb": "img/trains/thumb/meitetsu-7000.webp",
+    "file": "File:Meitetsu 7000 Series EMU 011.JPG",
+    "author": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Meitetsu_7000_Series_EMU_011.JPG"
+  },
+  "meitetsu-9500": {
+    "src": "img/trains/meitetsu-9500.webp",
+    "thumb": "img/trains/thumb/meitetsu-9500.webp",
+    "file": "File:Meitetsu Express 9500 series.jpg",
+    "author": "ButuCC",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meitetsu_Express_9500_series.jpg"
+  },
   "monorail-10000": {
     "src": "img/trains/monorail-10000.webp",
     "file": "File:Tokyo-Monorail-Type10000-10081F.jpg",
@@ -494,6 +620,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:Tokyo-Monorail-Type10000-10081F.jpg",
     "thumb": "img/trains/thumb/monorail-10000.webp"
   },
+  "nagoya-n1000": {
+    "src": "img/trains/nagoya-n1000.webp",
+    "thumb": "img/trains/thumb/nagoya-n1000.webp",
+    "file": "File:Nagoya Series-N1000-N1114.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Series-N1000-N1114.jpg"
+  },
+  "nagoya-n3000": {
+    "src": "img/trains/nagoya-n3000.webp",
+    "thumb": "img/trains/thumb/nagoya-n3000.webp",
+    "file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg",
+    "author": "船 長",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Municipal_Subway_N3000_series_2010-09-07.jpg"
+  },
   "nankai-8300": {
     "src": "img/trains/nankai-8300.webp",
     "thumb": "img/trains/thumb/nankai-8300.webp",
@@ -502,6 +646,15 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Nankai_Series8300-8415.jpg"
+  },
+  "nishitetsu-9000": {
+    "src": "img/trains/nishitetsu-9000.webp",
+    "thumb": "img/trains/thumb/nishitetsu-9000.webp",
+    "file": "File:Nishitetsu Series9000-9007.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nishitetsu_Series9000-9007.jpg"
   },
   "nt-300": {
     "src": "img/trains/nt-300.webp",
@@ -538,6 +691,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:OER-Series5000-5451.jpg",
     "thumb": "img/trains/thumb/odakyu-5000.webp"
+  },
+  "okaden-9200": {
+    "src": "img/trains/okaden-9200.webp",
+    "thumb": "img/trains/thumb/okaden-9200.webp",
+    "file": "File:Okaden Type9200-9201B.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Okaden_Type9200-9201B.jpg"
   },
   "osaka-30000": {
     "src": "img/trains/osaka-30000.webp",
@@ -665,6 +827,42 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sagano_scenic_railway_hotsukyo.jpg",
     "thumb": "img/trains/thumb/sagano-torokko.webp"
   },
+  "sapporo-5000": {
+    "src": "img/trains/sapporo-5000.webp",
+    "thumb": "img/trains/thumb/sapporo-5000.webp",
+    "file": "File:ST SN5000 20061102 001.jpg",
+    "author": "出々 吾壱",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:ST_SN5000_20061102_001.jpg"
+  },
+  "sapporo-8000": {
+    "src": "img/trains/sapporo-8000.webp",
+    "thumb": "img/trains/thumb/sapporo-8000.webp",
+    "file": "File:Sapporo Subway 8901 20080601 t09 2.jpg",
+    "author": "bellz_asamidou",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_Subway_8901_20080601_t09_2.jpg"
+  },
+  "sapporo-9000": {
+    "src": "img/trains/sapporo-9000.webp",
+    "thumb": "img/trains/thumb/sapporo-9000.webp",
+    "file": "File:Sapporo 9000 9001 Odori 20150521.jpg",
+    "author": "bellz_asamidou",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sapporo_9000_9001_Odori_20150521.jpg"
+  },
+  "sapporo-a1200": {
+    "src": "img/trains/sapporo-a1200.webp",
+    "thumb": "img/trains/thumb/sapporo-a1200.webp",
+    "file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg",
+    "author": "t-konno",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%BA%A4%E9%80%9A%E5%B1%80A1200%E5%BD%A2%E9%9B%BB%E8%BB%8A_A1201%E3%83%9D%E3%83%A9%E3%83%AA%E3%82%B9%EF%BC%88Polaris_A1201)_-_Panoramio_113919797.jpg"
+  },
   "seibu-001": {
     "src": "img/trains/seibu-001.webp",
     "file": "File:Seibu001series.jpg",
@@ -691,6 +889,24 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Seibu-Series40000_40104_Haijima-Liner-4.jpg",
     "thumb": "img/trains/thumb/seibu-40000.webp"
+  },
+  "sendai-1000n": {
+    "src": "img/trains/sendai-1000n.webp",
+    "thumb": "img/trains/thumb/sendai-1000n.webp",
+    "file": "File:Sendai Subway 1000 series ②.jpg",
+    "author": "七厩拓",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sendai_Subway_1000_series_%E2%91%A1.jpg"
+  },
+  "sendai-2000": {
+    "src": "img/trains/sendai-2000.webp",
+    "thumb": "img/trains/thumb/sendai-2000.webp",
+    "file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sendai-City-Subway_Tozai-Line-Series2504.jpg"
   },
   "shimakaze": {
     "src": "img/trains/shimakaze.webp",
@@ -1249,6 +1465,15 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Tkk5000.JPG",
     "thumb": "img/trains/thumb/tokyu-5000-1954.webp"
+  },
+  "toyama-portram": {
+    "src": "img/trains/toyama-portram.webp",
+    "thumb": "img/trains/thumb/toyama-portram.webp",
+    "file": "File:Toyama Light Rail TLR0600.JPG",
+    "author": "Toshinori baba",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyama_Light_Rail_TLR0600.JPG"
   },
   "twr-70-000": {
     "src": "img/trains/twr-70-000.webp",

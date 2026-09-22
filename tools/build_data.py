@@ -529,24 +529,34 @@ def main():
 
     # ids estables (se asignan en el orden de lines.json, así Tokio conserva los suyos)
     region_of = {l["id"]: l.get("region", "japan") for l in cfg["lines"]}
+    areas = [(p["id"], p["bounds"]) for p in cfg.get("places", [])] + \
+            [(r, v["bounds"]) for r, v in cfg.get("regions", {}).items() if v.get("bounds")]
+
+    MARGIN = 0.25  # las cajas de places/regions encuadran el centro urbano: aquí interesa el área metropolitana
+
+    def place_of(pos):
+        """Ciudad (de places/regions) que contiene esa posición, para desempatar nombres repetidos."""
+        hits = [(haversine_m(pos, ((s_ + n_) / 2, (w + e) / 2)), pid)
+                for pid, ((s_, w), (n_, e)) in areas
+                if s_ - MARGIN <= pos[0] <= n_ + MARGIN and w - MARGIN <= pos[1] <= e + MARGIN]
+        return min(hits)[1] if hits else None  # la ciudad más cercana: Kōbe y Ōsaka se solapan
     used = {}
     for c in clusters:
         if not c["en"]:
             warnings.append(f"«{c['ja']}» no tiene nombre en romaji (añádelo en overrides.json)")
         en = c["en"].most_common(1)[0][0] if c["en"] else c["ja"]
         base = slugify(en) or f"st-{len(used)}"
+        c["pos"] = (sum(p[0] for p in c["pts"]) / len(c["pts"]), sum(p[1] for p in c["pts"]) / len(c["pts"]))
         sid = base
         if sid in used:  # mismo nombre en otra ciudad (p. ej. Ōmiya en Saitama y en Kioto)
-            sid = f"{base}-{region_of[next(iter(c['lines']))]}"
+            suffix = place_of(c["pos"]) or region_of[next(iter(c["lines"]))]
+            sid = base if base == suffix or base.endswith(f"-{suffix}") else f"{base}-{suffix}"
         n = 2
         while sid in used:
             sid = f"{base}-{n}"
             n += 1
         used[sid] = c
         c["id"], c["en_name"] = sid, en
-        lat = sum(p[0] for p in c["pts"]) / len(c["pts"])
-        lon = sum(p[1] for p in c["pts"]) / len(c["pts"])
-        c["pos"] = (lat, lon)
 
     stations = {}
     for c in clusters:
@@ -579,6 +589,9 @@ def main():
 
     for l in out_lines:
         l["stations"] = [c["id"] for c in l["stations"]]
+        if not l.get("summary") and l["stations"]:  # resumen automático para las líneas sin texto propio
+            a, b = stations[l["stations"][0]]["name"], stations[l["stations"][-1]]["name"]
+            l["summary"] = f"Recorrido circular con {len(l['stations'])} paradas, desde {a}." if l.get("loop") else f"De {a} a {b}."
 
     resolve_trains(trains, out_lines, stations, warnings)
     photos = load_json(CONFIG / "photos.json") if (CONFIG / "photos.json").exists() else {}
@@ -593,6 +606,7 @@ def main():
         "region": "Japón",
         "attribution": "Trazados y estaciones © colaboradores de OpenStreetMap (ODbL)",
         "regions": cfg.get("regions", {}),
+        "places": cfg.get("places", []),
         "operators": cfg["operators"],
         "types": cfg["types"],
         "lines": out_lines,

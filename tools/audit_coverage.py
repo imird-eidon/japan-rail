@@ -23,6 +23,22 @@ from build_data import CACHE, CONFIG, JA_ALIASES, OUT as NETWORK, ROOT, haversin
 ZONES = {
     "tokyo": (35.25, 139.10, 36.15, 140.40),
     "kansai": (34.45, 135.05, 35.15, 136.05),
+    "nagoya": (34.85, 136.60, 35.40, 137.25),
+    "fukuoka": (33.45, 130.25, 33.75, 130.60),
+    "sapporo": (42.95, 141.20, 43.15, 141.55),
+    "sendai": (38.15, 140.75, 38.35, 141.10),
+    "hiroshima": (34.28, 132.25, 34.52, 132.60),
+    # ciudades con tranvía
+    "nagasaki": (32.70, 129.83, 32.80, 129.92),
+    "kumamoto": (32.77, 130.66, 32.83, 130.78),
+    "kagoshima": (31.53, 130.51, 31.62, 130.58),
+    "hakodate": (41.75, 140.70, 41.81, 140.80),
+    "okayama": (34.64, 133.89, 34.69, 133.95),
+    "kochi": (33.52, 133.40, 33.60, 133.68),
+    "toyama": (36.68, 137.18, 36.78, 137.25),
+    "matsuyama": (33.82, 132.74, 33.86, 132.80),
+    "toyohashi": (34.72, 137.37, 34.78, 137.42),
+    "fukui": (35.95, 136.15, 36.10, 136.25),
 }
 # servicios que no son líneas (expresos, trenes directos, turísticos de temporada…)
 SERVICE_RE = re.compile(r"特急|急行|快速|ライナー|直通|臨時|区間|準急|通勤|新幹線|のぞみ|ひかり|こだま|はやぶさ|やまびこ|"
@@ -54,7 +70,11 @@ def fetch_zone(zone, bbox, refresh):
     return data
 
 
-ZONE_NAMES = {"tokyo": "Área de Tokio (Tokio, Kanagawa, Saitama, Chiba)", "kansai": "Kansai (Kioto, Ōsaka, Kōbe, Nara, Shiga)"}
+ZONE_NAMES = {"tokyo": "Área de Tokio (Tokio, Kanagawa, Saitama, Chiba)", "kansai": "Kansai (Kioto, Ōsaka, Kōbe, Nara, Shiga)",
+              "nagoya": "Nagoya", "fukuoka": "Fukuoka", "sapporo": "Sapporo", "sendai": "Sendai", "hiroshima": "Hiroshima",
+              "nagasaki": "Nagasaki", "kumamoto": "Kumamoto", "kagoshima": "Kagoshima", "hakodate": "Hakodate",
+              "okayama": "Okayama", "kochi": "Kōchi", "toyama": "Toyama", "matsuyama": "Matsuyama",
+              "toyohashi": "Toyohashi", "fukui": "Fukui"}
 
 
 def write_report(out):

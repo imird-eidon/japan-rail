@@ -588,8 +588,116 @@
               "name": "Hiroshima: tranvía (Hiroden), la mayor red de tranvía de Japón"
             },
             {
-              "region": "nagasaki",
-              "name": "Nagasaki, Kumamoto, Kagoshima, Hakodate y otros tranvías"
+              "region": "tranvias",
+              "name": "Tranvías de Nagasaki, Kumamoto, Kagoshima, Hakodate, Okayama, Kōchi, Toyama, Matsuyama, Toyohashi y Fukui"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fase 3b · Completar las ciudades de la fase 3",
+      "why": "Detectado por la auditoría: ramales y líneas regionales de esas ciudades.",
+      "groups": [
+        {
+          "title": "Nagoya y alrededores",
+          "items": [
+            {
+              "lines": [
+                "meitetsu-mikawa",
+                "meitetsu-nishio",
+                "meitetsu-bisai",
+                "meitetsu-tsushima",
+                "meitetsu-takehana",
+                "meitetsu-hiromi",
+                "meitetsu-kakamigahara"
+              ],
+              "name": "Ramales de Meitetsu (Mikawa, Nishio, Bisai, Tsushima, Takehana, Hiromi, Kakamigahara)"
+            },
+            {
+              "lines": [
+                "aichi-loop",
+                "johoku",
+                "taketoyo",
+                "taita"
+              ],
+              "name": "Aichi Loop, Jōhoku, JR Taketoyo y JR Taita"
+            },
+            {
+              "lines": [
+                "yokkaichi-utsube",
+                "yokkaichi-hachioji",
+                "sangi",
+                "sangi-hokusei",
+                "kintetsu-yunoyama",
+                "kintetsu-suzuka"
+              ],
+              "name": "Yokkaichi Asunarou, Sangi Railway y ramales de Kintetsu (Yunoyama, Suzuka)"
+            },
+            {
+              "lines": [
+                "chuo-west"
+              ],
+              "name": "JR Chūō West (Nagoya–Nakatsugawa)"
+            }
+          ]
+        },
+        {
+          "title": "Fukuoka, Hiroshima y otras",
+          "items": [
+            {
+              "lines": [
+                "kagoshima-main-fukuoka",
+                "sasaguri",
+                "fukuhoku-yutaka"
+              ],
+              "name": "JR en Fukuoka: Kagoshima principal (Hakata–Mojikō), Sasaguri y Fukuhoku Yutaka"
+            },
+            {
+              "lines": [
+                "sanyo-hiroshima",
+                "kure",
+                "geibi"
+              ],
+              "name": "JR en Hiroshima: Sanyō, Kure y Geibi"
+            },
+            {
+              "lines": [
+                "hakodate-main",
+                "isaribi"
+              ],
+              "name": "JR Hakodate principal (Sapporo–Otaru) e Isaribi (Hakodate)"
+            },
+            {
+              "lines": [
+                "nagasaki-main",
+                "omura"
+              ],
+              "name": "JR en Nagasaki: principal y Ōmura"
+            },
+            {
+              "lines": [
+                "hohi",
+                "misumi"
+              ],
+              "name": "JR en Kumamoto: Hōhi y Misumi"
+            },
+            {
+              "lines": [
+                "yosan",
+                "uno",
+                "kibi",
+                "ako",
+                "seto-ohashi"
+              ],
+              "name": "JR en Shikoku y Okayama: Yosan, Uno, Kibi, Akō y Seto-Ōhashi"
+            },
+            {
+              "lines": [
+                "rifu",
+                "iida"
+              ],
+              "name": "Ramal de Rifu (Sendai) y JR Iida (Toyohashi)"
             }
           ]
         }

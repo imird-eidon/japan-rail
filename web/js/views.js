@@ -38,7 +38,7 @@ export function homeView(net, { tab, hidden, fact }) {
   return `
     <section class="intro">
       <h1>Los trenes de Japón</h1>
-      <p>La red Shinkansen y, con todo detalle, el tren y el metro de Tokio y Kioto. Toca una línea en el mapa o elige una de la lista.</p>
+      <p>La red Shinkansen y, con todo detalle, el tren, el metro y el tranvía de las principales ciudades de Japón. Toca una línea en el mapa o elige una de la lista.</p>
       <dl class="stats">
         <div><dt>Líneas</dt><dd>${st.lines}</dd></div>
         <div><dt>Estaciones</dt><dd>${st.stations}</dd></div>

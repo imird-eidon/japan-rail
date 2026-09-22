@@ -3,15 +3,17 @@
 Mapa interactivo de las líneas de tren y metro de Japón, con estaciones, trenes y datos curiosos.
 Ahora cubre **toda la red Shinkansen** (10 líneas), **Tokio y alrededores** (111 líneas: JR East, Tokyo Metro,
 Toei, Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei, Tsukuba Express, Sōtetsu, Yokohama, monorraíles de Tama,
-Shōnan y Chiba…), **Kioto** (19 líneas), **Ōsaka** (51) y **Kōbe** (15); en total 206 líneas,
-2500 estaciones y 145 series de trenes. La idea es ir ampliando poco a poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
+Shōnan y Chiba…), **Kioto** (19), **Ōsaka** (51), **Kōbe** (15), **Nagoya** (17), **Fukuoka** (8), **Sapporo** (6),
+**Sendai** (5), **Hiroshima** (11) y los **tranvías de otras diez ciudades** (27: Nagasaki, Kumamoto, Kagoshima,
+Hakodate, Okayama, Kōchi, Toyama, Matsuyama, Toyohashi y Fukui); en total 280 líneas,
+3533 estaciones y 170 series de trenes. La idea es ir ampliando poco a poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
 - Ficha de cada estación (líneas, estación anterior/siguiente en cada línea, transbordos a pie).
-- Ficha de cada serie de tren, con foto (Shinkansen), por qué líneas y tramos circula y en qué estaciones pasa.
+- Ficha de cada serie de tren, con foto, por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
-- Botones para centrar el mapa en cada ciudad o en todo Japón.
+- Menú «Ir a…» para centrar el mapa en cualquiera de las 19 ciudades o en todo Japón.
 - Buscador (español, romaji o japonés: `shinjuku`, `新宿`, `JY`…), filtros por operador, modo oscuro y móvil.
 - Enlaces compartibles: `#/line/yamanote`, `#/station/shinjuku`, `#/train/e235-0`.
 
@@ -160,6 +162,7 @@ y sirve para detectar líneas o estaciones que faltan. El inventario se regenera
 - [x] Kioto
 - [x] Ōsaka, Kōbe y resto de Kansai (fase 2)
 - [x] Fotos de todos los trenes y trenes históricos con sus años de servicio
+- [x] Nagoya, Fukuoka, Sapporo, Sendai, Hiroshima y los tranvías de otras ciudades (fase 3)
 - [ ] Fotos de estaciones
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno
 - [ ] Viajeros diarios por estación

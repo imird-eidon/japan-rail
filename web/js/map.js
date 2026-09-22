@@ -141,28 +141,39 @@ export function createMap(el, net, { onLine, onStation }) {
   map.on("zoomend", render);
   darkQuery.addEventListener("change", render);
 
-  // ---------------------------------------------------------------- botones de centrado
-  const CenterControl = L.Control.extend({
+  // ---------------------------------------------------------------- menú «Ir a…»
+  // Lugares: todo Japón, cada región con «bounds» y los lugares extra de lines.json → places (ciudades con tranvía…)
+  const places = [
+    { id: "japan", name: "Todo Japón", ja: "日本", bounds: JAPAN_BOUNDS },
+    ...Object.entries(net.regions || {}).filter(([, r]) => r.bounds).map(([id, r]) => ({ id, ...r })),
+    ...(net.places || []),
+  ];
+  const GoControl = L.Control.extend({
     options: { position: "topright" },
     onAdd() {
-      const box = L.DomUtil.create("div", "leaflet-bar center-control");
-      // un botón por ciudad con «bounds» en lines.json → regions, más «Japón»
-      const cities = Object.entries(net.regions || {}).filter(([, r]) => r.bounds);
-      box.innerHTML = cities.map(([id, r]) =>
-        `<a href="#" role="button" data-go="${esc(id)}" title="Centrar en ${esc(r.name)}" aria-label="Centrar en ${esc(r.name)}">${esc(r.name)}</a>`).join("") +
-        `<a href="#" role="button" data-go="japan" title="Ver todo Japón" aria-label="Ver todo Japón">Japón</a>`;
+      const box = L.DomUtil.create("div", "leaflet-bar go-control");
+      box.innerHTML = `
+        <button type="button" class="go-toggle" aria-haspopup="true" aria-expanded="false" title="Centrar el mapa en…">Ir a ▾</button>
+        <ul class="go-menu" role="menu" hidden>${places.map((p) => `
+          <li role="none"><button type="button" role="menuitem" data-go="${esc(p.id)}">${esc(p.name)} <span class="ja">${esc(p.ja || "")}</span></button></li>`).join("")}
+        </ul>`;
+      const toggle = box.querySelector(".go-toggle"), menu = box.querySelector(".go-menu");
+      const open = (v) => { menu.hidden = !v; toggle.setAttribute("aria-expanded", String(v)); };
       L.DomEvent.disableClickPropagation(box);
-      L.DomEvent.on(box, "click", (e) => {
-        const a = e.target.closest("a[data-go]");
-        if (!a) return;
-        L.DomEvent.preventDefault(e);
-        if (a.dataset.go === "japan") api.showJapan();
-        else api.showRegion(a.dataset.go);
+      L.DomEvent.disableScrollPropagation(box);
+      toggle.addEventListener("click", () => open(menu.hidden));
+      menu.addEventListener("click", (e) => {
+        const b = e.target.closest("[data-go]");
+        if (!b) return;
+        open(false);
+        api.showPlace(b.dataset.go);
       });
+      document.addEventListener("click", (e) => { if (!box.contains(e.target)) open(false); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") open(false); });
       return box;
     },
   });
-  new CenterControl().addTo(map);
+  new GoControl().addTo(map);
 
   // ---------------------------------------------------------------- API
   const pad = () => (matchMedia("(max-width: 820px)").matches ? [20, 20] : [40, 40]);
@@ -184,11 +195,10 @@ export function createMap(el, net, { onLine, onStation }) {
       render();
       if (fit) map.fitBounds(net.regions.tokyo.bounds, { animate: false });
     },
-    showRegion(id) {
-      const b = net.regions?.[id]?.bounds;
-      if (b) map.flyToBounds(b, { duration: 0.8 });
+    showPlace(id) {
+      const p = places.find((x) => x.id === id);
+      if (p) map.flyToBounds(p.bounds, { padding: id === "japan" ? pad() : [0, 0], duration: 0.8 });
     },
-    showJapan() { map.flyToBounds(JAPAN_BOUNDS, { padding: pad(), duration: 0.8 }); },
     /** Resalta varias líneas (p. ej. las de un tren) y encuadra el conjunto. */
     focusLines(ids, { animate = true } = {}) {
       state.focusLine = state.focusStation = null;

@@ -298,12 +298,23 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
 }
 .stn-label::before { display: none; }
 /* el <span> interno se anima: el contenedor ya lleva el transform de posición de Leaflet */
-/* botones de centrado (Tokio / Japón) */
-.center-control a {
-  width: auto !important; min-width: 40px; padding: 0 8px; font: 700 13px/30px var(--font) !important;
-  color: var(--text) !important; background: var(--surface) !important;
+/* menú «Ir a…» */
+.go-control { background: var(--surface); }
+.go-toggle {
+  font: 700 13px/30px var(--font); padding: 0 10px; border: 0; background: var(--surface); color: var(--text);
+  cursor: pointer; border-radius: 4px; min-width: 64px;
 }
-.center-control a:hover { background: var(--surface-2) !important; }
+.go-toggle:hover { background: var(--surface-2); }
+.go-menu {
+  list-style: none; margin: 0; padding: 4px; max-height: 60vh; overflow-y: auto; min-width: 170px;
+  border-top: 1px solid var(--border);
+}
+.go-menu button {
+  display: block; width: 100%; text-align: left; border: 0; background: none; color: var(--text);
+  font: 500 13px/1.3 var(--font); padding: 6px 8px; border-radius: 6px; cursor: pointer;
+}
+.go-menu button:hover, .go-menu button:focus-visible { background: var(--surface-2); }
+.go-menu .ja { font-size: 11px; }
 .leaflet-bar a { background: var(--surface); color: var(--text); border-color: var(--border); }
 
 .pulse span {

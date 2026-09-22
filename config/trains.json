@@ -2606,5 +2606,395 @@
         "line": "randen-kitano"
       }
     ]
+  },
+  {
+    "id": "nagoya-n1000",
+    "name": "Metro de Nagoya serie N1000",
+    "operator": "nagoya-subway",
+    "introduced": 2007,
+    "cars": 6,
+    "wiki": "Nagoya Municipal Subway N1000 series",
+    "summary": "El tren amarillo de la línea Higashiyama.",
+    "runs": [
+      {
+        "line": "nagoya-higashiyama"
+      }
+    ]
+  },
+  {
+    "id": "nagoya-n3000",
+    "name": "Metro de Nagoya serie N3000",
+    "operator": "nagoya-subway",
+    "introduced": 2012,
+    "cars": 6,
+    "summary": "Tren de la línea Tsurumai; el primero de Nagoya con caja de aluminio y acero inoxidable mezclados.",
+    "runs": [
+      {
+        "line": "nagoya-tsurumai"
+      }
+    ],
+    "photo_file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg"
+  },
+  {
+    "id": "meitetsu-2000",
+    "name": "Meitetsu 2000 «μSKY»",
+    "operator": "meitetsu",
+    "introduced": 2004,
+    "cars": 4,
+    "wiki": "Meitetsu 2000 series",
+    "summary": "El expreso rojo al aeropuerto de Centrair, con asientos reservados y sitio para maletas.",
+    "runs": [
+      {
+        "line": "meitetsu-airport"
+      },
+      {
+        "line": "meitetsu-tokoname"
+      },
+      {
+        "line": "meitetsu-main"
+      }
+    ]
+  },
+  {
+    "id": "meitetsu-9500",
+    "name": "Meitetsu serie 9500",
+    "operator": "meitetsu",
+    "introduced": 2019,
+    "cars": 4,
+    "summary": "Tren de cercanías reciente de Meitetsu, en el rojo característico de la compañía.",
+    "runs": [
+      {
+        "line": "meitetsu-main"
+      },
+      {
+        "line": "meitetsu-inuyama"
+      }
+    ],
+    "photo_file": "File:Meitetsu Express 9500 series.jpg"
+  },
+  {
+    "id": "meitetsu-7000",
+    "name": "Meitetsu 7000 «Panorama Car»",
+    "operator": "meitetsu",
+    "introduced": 1961,
+    "retired": 2009,
+    "wiki": "Meitetsu 7000 series",
+    "summary": "El tren con mirador panorámico delante del todo: los pasajeros viajaban donde suele ir el maquinista, que iba en una cabina elevada.",
+    "facts": [
+      "Ganó el premio Blue Ribbon en 1962 y circuló casi medio siglo."
+    ],
+    "history": [
+      {
+        "line": "meitetsu-main",
+        "years": [
+          1961,
+          2009
+        ]
+      }
+    ]
+  },
+  {
+    "id": "linimo-100",
+    "name": "Linimo serie 100",
+    "operator": "linimo",
+    "introduced": 2005,
+    "cars": 3,
+    "summary": "Tren de levitación magnética sin conductor: flota unos 8 mm sobre la vía.",
+    "runs": [
+      {
+        "line": "linimo"
+      }
+    ],
+    "photo_file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg"
+  },
+  {
+    "id": "aonami-1000",
+    "name": "Aonami serie 1000",
+    "operator": "aonami",
+    "introduced": 2004,
+    "cars": 4,
+    "summary": "El tren de la línea Aonami, basado en los modelos de JR East.",
+    "runs": [
+      {
+        "line": "aonami"
+      }
+    ],
+    "photo_file": "File:Aonami-Line Type1000-1106.jpg"
+  },
+  {
+    "id": "fukuoka-3000",
+    "name": "Metro de Fukuoka serie 3000",
+    "operator": "fukuoka-subway",
+    "introduced": 2005,
+    "cars": 4,
+    "summary": "Tren de motor lineal de la línea Nanakuma.",
+    "runs": [
+      {
+        "line": "fukuoka-nanakuma"
+      }
+    ],
+    "photo_file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg"
+  },
+  {
+    "id": "fukuoka-2000",
+    "name": "Metro de Fukuoka serie 2000",
+    "operator": "fukuoka-subway",
+    "introduced": 1993,
+    "cars": 6,
+    "summary": "Tren de las líneas Kūkō y Hakozaki; entra también en la línea JR Chikuhi.",
+    "runs": [
+      {
+        "line": "fukuoka-kuko"
+      },
+      {
+        "line": "fukuoka-hakozaki"
+      },
+      {
+        "line": "chikuhi"
+      }
+    ],
+    "photo_file": "File:Fukuokasubway2000.jpg"
+  },
+  {
+    "id": "nishitetsu-9000",
+    "name": "Nishitetsu serie 9000",
+    "operator": "nishitetsu",
+    "introduced": 2017,
+    "cars": 3,
+    "summary": "Tren de cercanías de la línea Tenjin-Ōmuta.",
+    "runs": [
+      {
+        "line": "nishitetsu-omuta"
+      }
+    ],
+    "photo_file": "File:Nishitetsu Series9000-9007.jpg"
+  },
+  {
+    "id": "dencha",
+    "name": "Serie BEC819 «DENCHA»",
+    "operator": "jr-kyushu",
+    "introduced": 2016,
+    "cars": 2,
+    "wiki": "BEC819 series",
+    "summary": "Tren eléctrico de baterías: circula sin catenaria y se recarga en las estaciones electrificadas.",
+    "runs": [
+      {
+        "line": "kashii"
+      }
+    ]
+  },
+  {
+    "id": "sapporo-5000",
+    "name": "Metro de Sapporo serie 5000",
+    "operator": "sapporo-city",
+    "introduced": 1995,
+    "cars": 6,
+    "summary": "El tren de la línea Namboku, sobre neumáticos y con guía central.",
+    "runs": [
+      {
+        "line": "sapporo-namboku"
+      }
+    ],
+    "photo_file": "File:ST SN5000 20061102 001.jpg"
+  },
+  {
+    "id": "sapporo-8000",
+    "name": "Metro de Sapporo serie 8000",
+    "operator": "sapporo-city",
+    "introduced": 1998,
+    "cars": 7,
+    "summary": "El tren de la línea Tōzai.",
+    "runs": [
+      {
+        "line": "sapporo-tozai"
+      }
+    ],
+    "photo_file": "File:Sapporo Subway 8901 20080601 t09 2.jpg"
+  },
+  {
+    "id": "sapporo-9000",
+    "name": "Metro de Sapporo serie 9000",
+    "operator": "sapporo-city",
+    "introduced": 2015,
+    "cars": 4,
+    "summary": "El tren de la línea Tōhō.",
+    "runs": [
+      {
+        "line": "sapporo-toho"
+      }
+    ],
+    "photo_file": "File:Sapporo 9000 9001 Odori 20150521.jpg"
+  },
+  {
+    "id": "sapporo-a1200",
+    "name": "Sapporo A1200 «Polaris»",
+    "operator": "sapporo-city",
+    "introduced": 2013,
+    "cars": 1,
+    "summary": "Tranvía articulado de piso bajo, pensado para la nieve de Sapporo.",
+    "runs": [
+      {
+        "line": "sapporo-tram"
+      }
+    ],
+    "photo_file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg"
+  },
+  {
+    "id": "sendai-2000",
+    "name": "Metro de Sendai serie 2000",
+    "operator": "sendai-subway",
+    "introduced": 2015,
+    "cars": 4,
+    "summary": "Tren de motor lineal de la línea Tōzai.",
+    "runs": [
+      {
+        "line": "sendai-tozai"
+      }
+    ],
+    "photo_file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg"
+  },
+  {
+    "id": "sendai-1000n",
+    "name": "Metro de Sendai serie 1000N",
+    "operator": "sendai-subway",
+    "introduced": 1987,
+    "cars": 4,
+    "summary": "El tren de la línea Namboku desde su inauguración, renovado en los años 2000.",
+    "runs": [
+      {
+        "line": "sendai-namboku"
+      }
+    ],
+    "photo_file": "File:Sendai Subway 1000 series ②.jpg"
+  },
+  {
+    "id": "hiroden-5100",
+    "name": "Hiroden 5100 «Green Mover Max»",
+    "operator": "hiroden",
+    "introduced": 2005,
+    "cars": 1,
+    "summary": "Tranvía articulado de cinco cuerpos y piso bajo, fabricado en Japón.",
+    "runs": [
+      {
+        "line": "hiroden-2"
+      },
+      {
+        "line": "hiroden-1"
+      }
+    ],
+    "photo_file": "File:Hiroden Green Mover T-5100 LRV.jpg"
+  },
+  {
+    "id": "hiroden-1000",
+    "name": "Hiroden 1000 «Green Mover LEX»",
+    "operator": "hiroden",
+    "introduced": 2013,
+    "cars": 1,
+    "summary": "Tranvía de piso bajo más corto, para las líneas del centro.",
+    "runs": [
+      {
+        "line": "hiroden-1"
+      },
+      {
+        "line": "hiroden-3"
+      },
+      {
+        "line": "hiroden-5"
+      }
+    ],
+    "photo_file": "File:Hiroden Series1000-1010.jpg"
+  },
+  {
+    "id": "hiroden-650",
+    "name": "Hiroden serie 650 (supervivientes de la bomba)",
+    "operator": "hiroden",
+    "introduced": 1942,
+    "cars": 1,
+    "summary": "Tranvías de 1942 que sobrevivieron a la bomba atómica de 1945 y que aún circulan en días señalados.",
+    "facts": [
+      "Tres días después del bombardeo, el tranvía de Hiroshima ya había reanudado parte del servicio."
+    ],
+    "runs": [
+      {
+        "line": "hiroden-1"
+      }
+    ],
+    "photo_file": "File:Hiroshima Electric Railway 650 series With A-Bomb Dome.jpg"
+  },
+  {
+    "id": "astram-7000",
+    "name": "Astram serie 7000",
+    "operator": "astram",
+    "introduced": 2015,
+    "cars": 6,
+    "summary": "Tren automático sin conductor de la línea Astram.",
+    "runs": [
+      {
+        "line": "astram"
+      }
+    ],
+    "photo_file": "File:Ōmachi station 2024 2.jpg"
+  },
+  {
+    "id": "kumamoto-9700",
+    "name": "Kumamoto serie 9700",
+    "operator": "kumamoto-city",
+    "introduced": 1997,
+    "cars": 1,
+    "summary": "El primer tranvía de piso bajo de Japón (1997), de diseño alemán.",
+    "runs": [
+      {
+        "line": "kumamoto-a"
+      },
+      {
+        "line": "kumamoto-b"
+      }
+    ],
+    "photo_file": "File:Kumamoto City Tram 9702.jpg"
+  },
+  {
+    "id": "okaden-9200",
+    "name": "Okayama 9200 «MOMO»",
+    "operator": "okaden",
+    "introduced": 2002,
+    "cars": 1,
+    "summary": "Tranvía de piso bajo diseñado por Eiji Mitooka, el del tren de lujo Nanatsuboshi.",
+    "runs": [
+      {
+        "line": "okayama-higashiyama"
+      },
+      {
+        "line": "okayama-seikibashi"
+      }
+    ],
+    "photo_file": "File:Okaden Type9200-9201B.jpg"
+  },
+  {
+    "id": "toyama-portram",
+    "name": "Portram TLR0600",
+    "operator": "toyama-chitetsu",
+    "introduced": 2006,
+    "cars": 1,
+    "summary": "Tranvía de piso bajo con siete colores distintos, uno por unidad.",
+    "runs": [
+      {
+        "line": "toyama-port"
+      }
+    ],
+    "photo_file": "File:Toyama Light Rail TLR0600.JPG"
+  },
+  {
+    "id": "botchan-ressha",
+    "name": "«Botchan Ressha»",
+    "operator": "iyotetsu",
+    "introduced": 2001,
+    "cars": 1,
+    "summary": "Réplica de la locomotora de vapor de 1888 que sale en la novela «Botchan»; en realidad es diésel.",
+    "runs": [
+      {
+        "line": "iyotetsu-loop"
+      }
+    ],
+    "photo_file": "File:Botchan-ressha.jpg"
   }
 ]

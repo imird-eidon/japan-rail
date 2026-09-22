@@ -252,6 +252,86 @@
     "kobe-kosoku": {
       "name": "Kōbe Kōsoku",
       "ja": "神戸高速鉄道"
+    },
+    "nagoya-subway": {
+      "name": "Metro de Nagoya",
+      "ja": "名古屋市営地下鉄"
+    },
+    "meitetsu": {
+      "name": "Meitetsu",
+      "ja": "名古屋鉄道"
+    },
+    "aonami": {
+      "name": "Aonami Line",
+      "ja": "名古屋臨海高速鉄道"
+    },
+    "linimo": {
+      "name": "Aichi Rapid Transit",
+      "ja": "愛知高速交通"
+    },
+    "fukuoka-subway": {
+      "name": "Metro de Fukuoka",
+      "ja": "福岡市地下鉄"
+    },
+    "nishitetsu": {
+      "name": "Nishitetsu",
+      "ja": "西日本鉄道"
+    },
+    "sapporo-city": {
+      "name": "Transporte de Sapporo",
+      "ja": "札幌市交通局"
+    },
+    "sendai-subway": {
+      "name": "Metro de Sendai",
+      "ja": "仙台市地下鉄"
+    },
+    "hiroden": {
+      "name": "Hiroden",
+      "ja": "広島電鉄"
+    },
+    "astram": {
+      "name": "Astram",
+      "ja": "広島高速交通"
+    },
+    "nagasaki-tram": {
+      "name": "Tranvía de Nagasaki",
+      "ja": "長崎電気軌道"
+    },
+    "kumamoto-city": {
+      "name": "Tranvía de Kumamoto",
+      "ja": "熊本市電"
+    },
+    "kagoshima-city": {
+      "name": "Tranvía de Kagoshima",
+      "ja": "鹿児島市電"
+    },
+    "hakodate-city": {
+      "name": "Tranvía de Hakodate",
+      "ja": "函館市電"
+    },
+    "okaden": {
+      "name": "Okayama Dentetsu",
+      "ja": "岡山電気軌道"
+    },
+    "tosaden": {
+      "name": "Tosaden Kōtsū",
+      "ja": "とさでん交通"
+    },
+    "toyama-chitetsu": {
+      "name": "Toyama Chihō Railway",
+      "ja": "富山地方鉄道"
+    },
+    "iyotetsu": {
+      "name": "Iyotetsu",
+      "ja": "伊予鉄道"
+    },
+    "toyotetsu": {
+      "name": "Toyohashi Railroad",
+      "ja": "豊橋鉄道"
+    },
+    "fukutetsu": {
+      "name": "Fukui Railway",
+      "ja": "福井鉄道"
     }
   },
   "types": {
@@ -263,7 +343,8 @@
     "shinkansen": "Shinkansen",
     "mini-shinkansen": "Mini-shinkansen",
     "local": "Tren local",
-    "tourist": "Turístico"
+    "tourist": "Turístico",
+    "maglev": "Maglev"
   },
   "lines": [
     {
@@ -4596,6 +4677,1275 @@
       "trains": [],
       "summary": "De Yamashita a Nissei-Chūō.",
       "facts": []
+    },
+    {
+      "id": "nagoya-higashiyama",
+      "code": "H",
+      "color": "#FAB123",
+      "name": "Metro de Nagoya: Higashiyama",
+      "ja": "東山線",
+      "en": "Higashiyama Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        421984
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Se inauguró en 1957: fue el tercer metro de Japón, tras Tokio y Ōsaka."
+      ],
+      "opened": 1957,
+      "summary": "De Takabata a Fujigaoka por Nagoya y Sakae: la línea más usada de la ciudad."
+    },
+    {
+      "id": "nagoya-meijo",
+      "code": "M",
+      "color": "#B074D6",
+      "name": "Metro de Nagoya: Meijō",
+      "ja": "名城線",
+      "en": "Meijō Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        1905460
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Es el único metro circular de Japón: sus trenes dan vueltas completas en los dos sentidos."
+      ],
+      "loop": true
+    },
+    {
+      "id": "nagoya-meiko",
+      "code": "E",
+      "color": "#8E5FB0",
+      "name": "Metro de Nagoya: Meikō",
+      "ja": "名港線",
+      "en": "Meikō Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        7712570
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagoya-tsurumai",
+      "code": "T",
+      "color": "#009BBF",
+      "name": "Metro de Nagoya: Tsurumai",
+      "ja": "鶴舞線",
+      "en": "Tsurumai Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        1920724
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagoya-sakuradori",
+      "code": "S",
+      "color": "#C92F44",
+      "name": "Metro de Nagoya: Sakura-dōri",
+      "ja": "桜通線",
+      "en": "Sakura-dōri Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        6566407
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagoya-kamiiida",
+      "code": "K",
+      "color": "#EA7AB2",
+      "name": "Metro de Nagoya: Kamiiida",
+      "ja": "上飯田線",
+      "en": "Kamiiida Line",
+      "operator": "nagoya-subway",
+      "type": "metro",
+      "osm": [
+        6566412
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-main",
+      "code": "NH",
+      "color": "#D12027",
+      "name": "Meitetsu principal",
+      "ja": "名鉄名古屋本線",
+      "en": "Meitetsu Nagoya Main Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11851628
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "La estación de Meitetsu Nagoya tiene solo tres andenes para decenas de destinos: los trenes llegan y salen casi sin pausa, y hay que fijarse bien en los carteles de color."
+      ]
+    },
+    {
+      "id": "meitetsu-tokoname",
+      "code": "TA",
+      "color": "#2388C8",
+      "name": "Meitetsu Tokoname",
+      "ja": "名鉄常滑線",
+      "en": "Meitetsu Tokoname Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11862685
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-airport",
+      "code": "TA",
+      "color": "#57A7DA",
+      "name": "Meitetsu Aeropuerto",
+      "ja": "名鉄空港線",
+      "en": "Meitetsu Airport Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11852485
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Lleva al aeropuerto de Chūbu Centrair, en una isla artificial; el expreso μSKY hace el trayecto desde Nagoya en menos de 30 minutos."
+      ]
+    },
+    {
+      "id": "meitetsu-inuyama",
+      "code": "IY",
+      "color": "#68A877",
+      "name": "Meitetsu Inuyama",
+      "ja": "名鉄犬山線",
+      "en": "Meitetsu Inuyama Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11725278
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Lleva a Inuyama, con uno de los doce castillos japoneses que conservan su torre original."
+      ]
+    },
+    {
+      "id": "meitetsu-seto",
+      "code": "ST",
+      "color": "#C9A227",
+      "name": "Meitetsu Seto",
+      "ja": "名鉄瀬戸線",
+      "en": "Meitetsu Seto Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11712441
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Está aislada del resto de la red Meitetsu; sale de Sakaemachi, en el centro de Nagoya."
+      ]
+    },
+    {
+      "id": "meitetsu-komaki",
+      "code": "KM",
+      "color": "#E893BE",
+      "name": "Meitetsu Komaki",
+      "ja": "名鉄小牧線",
+      "en": "Meitetsu Komaki Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11852430
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-kowa",
+      "code": "KC",
+      "color": "#5BB8E8",
+      "name": "Meitetsu Kōwa",
+      "ja": "名鉄河和線",
+      "en": "Meitetsu Kōwa Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11862791
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-toyota",
+      "code": "TT",
+      "color": "#A9AE6E",
+      "name": "Meitetsu Toyota",
+      "ja": "名鉄豊田線",
+      "en": "Meitetsu Toyota Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [
+        11865470
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Enlaza con el metro Tsurumai y llega a Toyota, la ciudad de la marca de coches."
+      ]
+    },
+    {
+      "id": "kintetsu-nagoya",
+      "code": "E",
+      "color": "#153F97",
+      "name": "Kintetsu Nagoya",
+      "ja": "近鉄名古屋線",
+      "en": "Kintetsu Nagoya Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11949878
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "aonami",
+      "code": "AN",
+      "color": "#1B3C8C",
+      "name": "Aonami Line",
+      "ja": "あおなみ線",
+      "en": "Aonami Line",
+      "operator": "aonami",
+      "type": "commuter",
+      "osm": [
+        9892401
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Su última estación, Kinjō-futō, está junto al museo ferroviario de JR Central, donde se expone el maglev experimental."
+      ]
+    },
+    {
+      "id": "linimo",
+      "code": "L",
+      "color": "#0067C0",
+      "name": "Linimo",
+      "ja": "リニモ",
+      "en": "Linimo",
+      "operator": "linimo",
+      "type": "maglev",
+      "osm": [
+        9171166
+      ],
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Es un maglev: el tren levita sobre la vía sin tocarla, sin ruedas ni conductor.",
+        "Se construyó para la Exposición Universal de Aichi 2005 y fue el primer maglev comercial de Japón."
+      ],
+      "opened": 2005
+    },
+    {
+      "id": "fukuoka-kuko",
+      "code": "K",
+      "color": "#F0642D",
+      "name": "Metro de Fukuoka: Kūkō",
+      "ja": "空港線",
+      "en": "Kūkō Line",
+      "operator": "fukuoka-subway",
+      "type": "metro",
+      "osm": [
+        1871204
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Del aeropuerto de Fukuoka a Hakata hay solo 5 minutos de metro: es de los aeropuertos mejor comunicados del mundo."
+      ]
+    },
+    {
+      "id": "fukuoka-hakozaki",
+      "code": "H",
+      "color": "#0077CC",
+      "name": "Metro de Fukuoka: Hakozaki",
+      "ja": "箱崎線",
+      "en": "Hakozaki Line",
+      "operator": "fukuoka-subway",
+      "type": "metro",
+      "osm": [
+        1871205
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "fukuoka-nanakuma",
+      "code": "N",
+      "color": "#008000",
+      "name": "Metro de Fukuoka: Nanakuma",
+      "ja": "七隈線",
+      "en": "Nanakuma Line",
+      "operator": "fukuoka-subway",
+      "type": "metro",
+      "osm": [
+        1871203
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Se prolongó hasta Hakata en 2023; usa trenes pequeños de motor lineal."
+      ]
+    },
+    {
+      "id": "nishitetsu-omuta",
+      "code": "T",
+      "color": "#0059A6",
+      "name": "Nishitetsu Tenjin-Ōmuta",
+      "ja": "西鉄天神大牟田線",
+      "en": "Nishitetsu Tenjin Ōmuta Line",
+      "operator": "nishitetsu",
+      "type": "commuter",
+      "osm": [
+        11485954
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Es la mayor red ferroviaria privada de Kyūshū; su tren turístico «The Rail Kitchen Chikugo» sirve comidas a bordo."
+      ]
+    },
+    {
+      "id": "nishitetsu-kaizuka",
+      "code": "NK",
+      "color": "#F2A03D",
+      "name": "Nishitetsu Kaizuka",
+      "ja": "西鉄貝塚線",
+      "en": "Nishitetsu Kaizuka Line",
+      "operator": "nishitetsu",
+      "type": "commuter",
+      "osm": [
+        9436788
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nishitetsu-dazaifu",
+      "code": "D",
+      "color": "#66B3A6",
+      "name": "Nishitetsu Dazaifu",
+      "ja": "西鉄太宰府線",
+      "en": "Nishitetsu Dazaifu Line",
+      "operator": "nishitetsu",
+      "type": "commuter",
+      "osm": [
+        11827541
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Lleva al santuario Dazaifu Tenmangū, dedicado al dios de los estudios."
+      ]
+    },
+    {
+      "id": "chikuhi",
+      "code": "JK",
+      "color": "#8F3E97",
+      "name": "JR Chikuhi",
+      "ja": "筑肥線",
+      "en": "JR Chikuhi Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [
+        11509342
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Sus trenes entran en el metro de Fukuoka y siguen hasta el aeropuerto."
+      ]
+    },
+    {
+      "id": "kashii",
+      "code": "JD",
+      "color": "#0095D9",
+      "name": "JR Kashii",
+      "ja": "香椎線",
+      "en": "JR Kashii Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [
+        11334924
+      ],
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "No tiene catenaria: la recorren trenes eléctricos de baterías (los DENCHA), que se recargan en las estaciones con cable."
+      ]
+    },
+    {
+      "id": "sapporo-namboku",
+      "code": "N",
+      "color": "#008800",
+      "name": "Metro de Sapporo: Namboku",
+      "ja": "南北線",
+      "en": "Namboku Line",
+      "operator": "sapporo-city",
+      "type": "metro",
+      "osm": [
+        1827998
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Los trenes del metro de Sapporo ruedan sobre neumáticos y se guían por un carril central.",
+        "Buena parte del tramo exterior va bajo una cubierta, para protegerlo de la nieve."
+      ],
+      "opened": 1971
+    },
+    {
+      "id": "sapporo-tozai",
+      "code": "T",
+      "color": "#F58220",
+      "name": "Metro de Sapporo: Tōzai",
+      "ja": "東西線",
+      "en": "Tōzai Line",
+      "operator": "sapporo-city",
+      "type": "metro",
+      "osm": [
+        1827997
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sapporo-toho",
+      "code": "H",
+      "color": "#1E64C8",
+      "name": "Metro de Sapporo: Tōhō",
+      "ja": "東豊線",
+      "en": "Tōhō Line",
+      "operator": "sapporo-city",
+      "type": "metro",
+      "osm": [
+        1827999
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sapporo-tram",
+      "code": "SC",
+      "color": "#2E8B57",
+      "name": "Tranvía de Sapporo",
+      "ja": "札幌市電",
+      "en": "Sapporo Streetcar",
+      "operator": "sapporo-city",
+      "type": "tram",
+      "osm": [
+        8888444
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "El bucle se cerró en 2015, uniendo los dos extremos por delante de la estación de Sapporo.",
+        "En invierno circulan los «sasara», tranvías quitanieves con grandes escobas de bambú giratorias."
+      ],
+      "loop": true
+    },
+    {
+      "id": "chitose",
+      "code": "H",
+      "color": "#0072BC",
+      "name": "JR Chitose",
+      "ja": "千歳線",
+      "en": "JR Chitose Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [
+        14986869
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Es la línea del aeropuerto de New Chitose, la puerta de entrada a Hokkaidō."
+      ]
+    },
+    {
+      "id": "sassho",
+      "code": "G",
+      "color": "#32B372",
+      "name": "JR Gakuentoshi (Sasshō)",
+      "ja": "札沼線",
+      "en": "JR Gakuentoshi Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [
+        11843521
+      ],
+      "region": "sapporo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sendai-namboku",
+      "code": "N",
+      "color": "#2E8B85",
+      "name": "Metro de Sendai: Namboku",
+      "ja": "仙台市地下鉄南北線",
+      "en": "Sendai Namboku Line",
+      "operator": "sendai-subway",
+      "type": "metro",
+      "osm": [
+        7732237
+      ],
+      "region": "sendai",
+      "trains": [],
+      "facts": [],
+      "opened": 1987
+    },
+    {
+      "id": "sendai-tozai",
+      "code": "T",
+      "color": "#0092D6",
+      "name": "Metro de Sendai: Tōzai",
+      "ja": "仙台市地下鉄東西線",
+      "en": "Sendai Tōzai Line",
+      "operator": "sendai-subway",
+      "type": "metro",
+      "osm": [
+        5759467
+      ],
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Usa trenes pequeños de motor lineal para atravesar las colinas con túneles más estrechos."
+      ],
+      "opened": 2015
+    },
+    {
+      "id": "senseki",
+      "code": "JR",
+      "color": "#00AAEE",
+      "name": "JR Senseki",
+      "ja": "仙石線",
+      "en": "JR Senseki Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        1862832
+      ],
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Une Sendai con Matsushima, una de las tres vistas más célebres de Japón."
+      ]
+    },
+    {
+      "id": "senzan",
+      "code": "JR",
+      "color": "#4E9A06",
+      "name": "JR Senzan",
+      "ja": "仙山線",
+      "en": "JR Senzan Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        12467357
+      ],
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Cruza las montañas entre Sendai y Yamagata."
+      ]
+    },
+    {
+      "id": "sendai-airport",
+      "code": "SAT",
+      "color": "#E4007F",
+      "name": "Sendai Airport Access",
+      "ja": "仙台空港アクセス線",
+      "en": "Sendai Airport Access Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        11730951
+      ],
+      "region": "sendai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-1",
+      "code": "1",
+      "color": "#F56400",
+      "name": "Hiroden: línea 1",
+      "ja": "広島電鉄1号線",
+      "en": "Hiroden Route 1",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390152
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "La red de Hiroden es la mayor red de tranvías de Japón."
+      ]
+    },
+    {
+      "id": "hiroden-2",
+      "code": "2",
+      "color": "#E60012",
+      "name": "Hiroden: línea 2",
+      "ja": "広島電鉄2号線",
+      "en": "Hiroden Route 2",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390151
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Llega hasta Miyajimaguchi, el embarcadero para la isla de Miyajima y su torii sobre el agua."
+      ]
+    },
+    {
+      "id": "hiroden-3",
+      "code": "3",
+      "color": "#13349B",
+      "name": "Hiroden: línea 3",
+      "ja": "広島電鉄3号線",
+      "en": "Hiroden Route 3",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        17862440
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-5",
+      "code": "5",
+      "color": "#53C76C",
+      "name": "Hiroden: línea 5",
+      "ja": "広島電鉄5号線",
+      "en": "Hiroden Route 5",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390150
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-6",
+      "code": "6",
+      "color": "#E8C500",
+      "name": "Hiroden: línea 6",
+      "ja": "広島電鉄6号線",
+      "en": "Hiroden Route 6",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390148
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-7",
+      "code": "7",
+      "color": "#316631",
+      "name": "Hiroden: línea 7",
+      "ja": "広島電鉄7号線",
+      "en": "Hiroden Route 7",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390147
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-8",
+      "code": "8",
+      "color": "#FF61D2",
+      "name": "Hiroden: línea 8",
+      "ja": "広島電鉄8号線",
+      "en": "Hiroden Route 8",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        1390138
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-9",
+      "code": "9",
+      "color": "#666666",
+      "name": "Hiroden: línea 9 (Hakushima)",
+      "ja": "広島電鉄9号線",
+      "en": "Hiroden Route 9",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        49277
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hiroden-loop",
+      "code": "L",
+      "color": "#7B4CC2",
+      "name": "Hiroden: línea circular",
+      "ja": "広島電鉄循環線",
+      "en": "Hiroden Loop Line",
+      "operator": "hiroden",
+      "type": "tram",
+      "osm": [
+        20297846
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [],
+      "loop": true
+    },
+    {
+      "id": "astram",
+      "code": "A",
+      "color": "#F08300",
+      "name": "Astram",
+      "ja": "アストラムライン",
+      "en": "Astram Line",
+      "operator": "astram",
+      "type": "agt",
+      "osm": [
+        4598702
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Se inauguró en 1994 para los Juegos Asiáticos de Hiroshima."
+      ],
+      "opened": 1994
+    },
+    {
+      "id": "kabe",
+      "code": "B",
+      "color": "#09C0B0",
+      "name": "JR Kabe",
+      "ja": "可部線",
+      "en": "JR Kabe Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        1855479
+      ],
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagasaki-1",
+      "code": "1",
+      "color": "#0057B8",
+      "name": "Nagasaki: línea 1",
+      "ja": "長崎電気軌道1号系統",
+      "en": "Nagasaki Tram Route 1",
+      "operator": "nagasaki-tram",
+      "type": "tram",
+      "osm": [
+        20235161
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "El tranvía de Nagasaki tiene tarifa plana: se paga lo mismo se viaje lo que se viaje."
+      ]
+    },
+    {
+      "id": "nagasaki-2",
+      "code": "2",
+      "color": "#8E8E8E",
+      "name": "Nagasaki: línea 2",
+      "ja": "長崎電気軌道2号系統",
+      "en": "Nagasaki Tram Route 2",
+      "operator": "nagasaki-tram",
+      "type": "tram",
+      "osm": [
+        20248469
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagasaki-3",
+      "code": "3",
+      "color": "#E60012",
+      "name": "Nagasaki: línea 3",
+      "ja": "長崎電気軌道3号系統",
+      "en": "Nagasaki Tram Route 3",
+      "operator": "nagasaki-tram",
+      "type": "tram",
+      "osm": [
+        20246072
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagasaki-4",
+      "code": "4",
+      "color": "#E8C500",
+      "name": "Nagasaki: línea 4",
+      "ja": "長崎電気軌道4号系統",
+      "en": "Nagasaki Tram Route 4",
+      "operator": "nagasaki-tram",
+      "type": "tram",
+      "osm": [
+        20248467
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nagasaki-5",
+      "code": "5",
+      "color": "#00A650",
+      "name": "Nagasaki: línea 5",
+      "ja": "長崎電気軌道5号系統",
+      "en": "Nagasaki Tram Route 5",
+      "operator": "nagasaki-tram",
+      "type": "tram",
+      "osm": [
+        20247060
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kumamoto-a",
+      "code": "A",
+      "color": "#E60012",
+      "name": "Kumamoto: línea A",
+      "ja": "熊本市電A系統",
+      "en": "Kumamoto Tram A",
+      "operator": "kumamoto-city",
+      "type": "tram",
+      "osm": [
+        2578716
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Kumamoto estrenó en 1997 el primer tranvía de piso bajo de Japón."
+      ]
+    },
+    {
+      "id": "kumamoto-b",
+      "code": "B",
+      "color": "#0057B8",
+      "name": "Kumamoto: línea B",
+      "ja": "熊本市電B系統",
+      "en": "Kumamoto Tram B",
+      "operator": "kumamoto-city",
+      "type": "tram",
+      "osm": [
+        2578717
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kagoshima-1",
+      "code": "1",
+      "color": "#0057B8",
+      "name": "Kagoshima: línea 1",
+      "ja": "鹿児島市電1系統",
+      "en": "Kagoshima Tram 1",
+      "operator": "kagoshima-city",
+      "type": "tram",
+      "osm": [
+        12771495
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Buena parte de su recorrido va sobre césped, plantado para reducir el calor y el ruido."
+      ]
+    },
+    {
+      "id": "kagoshima-2",
+      "code": "2",
+      "color": "#E60012",
+      "name": "Kagoshima: línea 2",
+      "ja": "鹿児島市電2系統",
+      "en": "Kagoshima Tram 2",
+      "operator": "kagoshima-city",
+      "type": "tram",
+      "osm": [
+        12771496
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hakodate-2",
+      "code": "2",
+      "color": "#E60012",
+      "name": "Hakodate: línea 2",
+      "ja": "函館市電2系統",
+      "en": "Hakodate Tram 2",
+      "operator": "hakodate-city",
+      "type": "tram",
+      "osm": [
+        16636890
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "El tranvía de Hakodate circula desde 1913 y aún conserva un coche antiguo, el «Haikara-gō», para turistas."
+      ]
+    },
+    {
+      "id": "hakodate-5",
+      "code": "5",
+      "color": "#0057B8",
+      "name": "Hakodate: línea 5",
+      "ja": "函館市電5系統",
+      "en": "Hakodate Tram 5",
+      "operator": "hakodate-city",
+      "type": "tram",
+      "osm": [
+        16636889
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "okayama-higashiyama",
+      "code": "H",
+      "color": "#E60012",
+      "name": "Okayama: línea Higashiyama",
+      "ja": "岡電東山線",
+      "en": "Okayama Higashiyama Line",
+      "operator": "okaden",
+      "type": "tram",
+      "osm": [
+        12332842
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Por aquí circula el MOMO, tranvía de piso bajo diseñado por Eiji Mitooka, el del Nanatsuboshi."
+      ]
+    },
+    {
+      "id": "okayama-seikibashi",
+      "code": "S",
+      "color": "#00A650",
+      "name": "Okayama: línea Seikibashi",
+      "ja": "岡電清輝橋線",
+      "en": "Okayama Seikibashi Line",
+      "operator": "okaden",
+      "type": "tram",
+      "osm": [
+        12332839
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tosaden-ino",
+      "code": "伊野",
+      "color": "#0068B9",
+      "name": "Tosaden: línea Ino",
+      "ja": "とさでん伊野線",
+      "en": "Tosaden Ino Line",
+      "operator": "tosaden",
+      "type": "tram",
+      "osm": [
+        1953756
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "La red de Kōchi funciona desde 1904: es la línea de tranvía en servicio más antigua de Japón."
+      ]
+    },
+    {
+      "id": "tosaden-gomen",
+      "code": "後免",
+      "color": "#E8730C",
+      "name": "Tosaden: línea Gomen",
+      "ja": "とさでん後免線",
+      "en": "Tosaden Gomen Line",
+      "operator": "tosaden",
+      "type": "tram",
+      "osm": [
+        1953757
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tosaden-sanbashi",
+      "code": "桟橋",
+      "color": "#00A650",
+      "name": "Tosaden: línea Sanbashi",
+      "ja": "とさでん桟橋線",
+      "en": "Tosaden Sanbashi Line",
+      "operator": "tosaden",
+      "type": "tram",
+      "osm": [
+        1953758
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "toyama-port",
+      "code": "P",
+      "color": "#0068B9",
+      "name": "Toyama: línea del puerto (Portram)",
+      "ja": "富山港線",
+      "en": "Toyama Portram",
+      "operator": "toyama-chitetsu",
+      "type": "tram",
+      "osm": [
+        1895506
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "El Portram (2006) fue el primer tranvía moderno de piso bajo construido de cero en Japón; en 2020 se unió con el tranvía del centro."
+      ],
+      "opened": 2006
+    },
+    {
+      "id": "toyama-main",
+      "code": "T",
+      "color": "#0068B9",
+      "name": "Toyama Chihō: línea principal",
+      "ja": "富山地方鉄道本線",
+      "en": "Toyama Chihō Main Line",
+      "operator": "toyama-chitetsu",
+      "type": "commuter",
+      "osm": [
+        1871696
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Lleva a Unazuki-Onsen, donde arranca el tren de la garganta de Kurobe."
+      ]
+    },
+    {
+      "id": "toyama-tateyama",
+      "code": "T",
+      "color": "#55AE04",
+      "name": "Toyama Chihō: línea Tateyama",
+      "ja": "立山線",
+      "en": "Tateyama Line",
+      "operator": "toyama-chitetsu",
+      "type": "commuter",
+      "osm": [
+        11911641
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Lleva a Tateyama, punto de partida de la ruta alpina de Tateyama-Kurobe y sus murallas de nieve."
+      ]
+    },
+    {
+      "id": "iyotetsu-loop",
+      "code": "1",
+      "color": "#008F4D",
+      "name": "Matsuyama: tranvía circular",
+      "ja": "伊予鉄道環状線",
+      "en": "Iyotetsu Loop Line",
+      "operator": "iyotetsu",
+      "type": "tram",
+      "osm": [
+        2309633
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Por estas vías circula el «Botchan Ressha», una réplica de la locomotora de vapor que aparece en la novela de Natsume Sōseki."
+      ],
+      "loop": true
+    },
+    {
+      "id": "iyotetsu-honmachi",
+      "code": "6",
+      "color": "#7A5B3A",
+      "name": "Matsuyama: línea Honmachi",
+      "ja": "伊予鉄道本町線",
+      "en": "Iyotetsu Honmachi Line",
+      "operator": "iyotetsu",
+      "type": "tram",
+      "osm": [
+        5335064
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "iyotetsu-takahama",
+      "code": "IY",
+      "color": "#8BC63E",
+      "name": "Iyotetsu Takahama",
+      "ja": "伊予鉄道高浜線",
+      "en": "Iyotetsu Takahama Line",
+      "operator": "iyotetsu",
+      "type": "commuter",
+      "osm": [
+        2309774
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "iyotetsu-yokogawara",
+      "code": "IY",
+      "color": "#00BAF1",
+      "name": "Iyotetsu Yokogawara",
+      "ja": "伊予鉄道横河原線",
+      "en": "Iyotetsu Yokogawara Line",
+      "operator": "iyotetsu",
+      "type": "commuter",
+      "osm": [
+        2309682
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "iyotetsu-gunchu",
+      "code": "IY",
+      "color": "#F36E21",
+      "name": "Iyotetsu Gunchū",
+      "ja": "伊予鉄道郡中線",
+      "en": "Iyotetsu Gunchū Line",
+      "operator": "iyotetsu",
+      "type": "commuter",
+      "osm": [
+        2309730
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "toyohashi-azumada",
+      "code": "T",
+      "color": "#E60012",
+      "name": "Toyohashi: tranvía Azumada",
+      "ja": "豊橋鉄道東田本線",
+      "en": "Toyohashi Azumada Line",
+      "operator": "toyotetsu",
+      "type": "tram",
+      "osm": [
+        10272170
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "toyohashi-atsumi",
+      "code": "A",
+      "color": "#00A650",
+      "name": "Toyohashi Atsumi",
+      "ja": "豊橋鉄道渥美線",
+      "en": "Toyohashi Atsumi Line",
+      "operator": "toyotetsu",
+      "type": "commuter",
+      "osm": [
+        10017318
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "fukui-fukubu",
+      "code": "F",
+      "color": "#008000",
+      "name": "Fukui: línea Fukubu",
+      "ja": "福井鉄道福武線",
+      "en": "Fukui Railway Fukubu Line",
+      "operator": "fukutetsu",
+      "type": "tram",
+      "osm": [
+        1895507
+      ],
+      "region": "tranvias",
+      "trains": [],
+      "facts": [
+        "Combina tramos de tren interurbano con otros de tranvía por el centro de Fukui."
+      ]
     }
   ],
   "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas). 'order': 'code' ordena por el código de estación (cuando OSM trae todos).",
@@ -4659,6 +6009,232 @@
           135.28
         ]
       ]
+    },
+    "nagoya": {
+      "name": "Nagoya",
+      "ja": "名古屋",
+      "bounds": [
+        [
+          35.1,
+          136.83
+        ],
+        [
+          35.22,
+          136.97
+        ]
+      ]
+    },
+    "fukuoka": {
+      "name": "Fukuoka",
+      "ja": "福岡",
+      "bounds": [
+        [
+          33.56,
+          130.36
+        ],
+        [
+          33.63,
+          130.46
+        ]
+      ]
+    },
+    "sapporo": {
+      "name": "Sapporo",
+      "ja": "札幌",
+      "bounds": [
+        [
+          43.02,
+          141.31
+        ],
+        [
+          43.1,
+          141.4
+        ]
+      ]
+    },
+    "sendai": {
+      "name": "Sendai",
+      "ja": "仙台",
+      "bounds": [
+        [
+          38.22,
+          140.84
+        ],
+        [
+          38.29,
+          140.94
+        ]
+      ]
+    },
+    "hiroshima": {
+      "name": "Hiroshima",
+      "ja": "広島",
+      "bounds": [
+        [
+          34.36,
+          132.42
+        ],
+        [
+          34.42,
+          132.5
+        ]
+      ]
+    },
+    "tranvias": {
+      "name": "Tranvías de otras ciudades",
+      "ja": "路面電車"
     }
-  }
+  },
+  "places": [
+    {
+      "id": "nagasaki",
+      "name": "Nagasaki",
+      "ja": "長崎",
+      "bounds": [
+        [
+          32.72,
+          129.85
+        ],
+        [
+          32.79,
+          129.9
+        ]
+      ]
+    },
+    {
+      "id": "kumamoto",
+      "name": "Kumamoto",
+      "ja": "熊本",
+      "bounds": [
+        [
+          32.78,
+          130.68
+        ],
+        [
+          32.82,
+          130.75
+        ]
+      ]
+    },
+    {
+      "id": "kagoshima",
+      "name": "Kagoshima",
+      "ja": "鹿児島",
+      "bounds": [
+        [
+          31.55,
+          130.53
+        ],
+        [
+          31.61,
+          130.57
+        ]
+      ]
+    },
+    {
+      "id": "hakodate",
+      "name": "Hakodate",
+      "ja": "函館",
+      "bounds": [
+        [
+          41.76,
+          140.71
+        ],
+        [
+          41.8,
+          140.78
+        ]
+      ]
+    },
+    {
+      "id": "okayama",
+      "name": "Okayama",
+      "ja": "岡山",
+      "bounds": [
+        [
+          34.65,
+          133.9
+        ],
+        [
+          34.68,
+          133.94
+        ]
+      ]
+    },
+    {
+      "id": "kochi",
+      "name": "Kōchi",
+      "ja": "高知",
+      "bounds": [
+        [
+          33.53,
+          133.45
+        ],
+        [
+          33.58,
+          133.62
+        ]
+      ]
+    },
+    {
+      "id": "toyama",
+      "name": "Toyama",
+      "ja": "富山",
+      "bounds": [
+        [
+          36.69,
+          137.19
+        ],
+        [
+          36.77,
+          137.24
+        ]
+      ]
+    },
+    {
+      "id": "matsuyama",
+      "name": "Matsuyama",
+      "ja": "松山",
+      "bounds": [
+        [
+          33.82,
+          132.73
+        ],
+        [
+          33.86,
+          132.79
+        ]
+      ]
+    },
+    {
+      "id": "toyohashi",
+      "name": "Toyohashi",
+      "ja": "豊橋",
+      "bounds": [
+        [
+          34.73,
+          137.37
+        ],
+        [
+          34.77,
+          137.41
+        ]
+      ]
+    },
+    {
+      "id": "fukui",
+      "name": "Fukui",
+      "ja": "福井",
+      "bounds": [
+        [
+          35.95,
+          136.17
+        ],
+        [
+          36.07,
+          136.24
+        ]
+      ]
+    }
+  ]
 }
