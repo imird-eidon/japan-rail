@@ -4,18 +4,18 @@
 
 ## Resumen
 
-**Progreso de la hoja de ruta: 27 de 83 tareas.**
+**Progreso de la hoja de ruta: 29 de 84 tareas.**
 
 | Región | Líneas | Estaciones | Trenes actuales | Trenes históricos |
 |---|--:|--:|--:|--:|
 | Shinkansen 新幹線 | 10 | 118 | 12 | 8 |
-| Tokio 東京 | 63 | 1052 | 59 | 23 |
+| Tokio 東京 | 64 | 1059 | 60 | 23 |
 | Kioto 京都 | 15 | 218 | 16 | 2 |
-| **Total** | **88** | **1374** | **87** | **33** |
+| **Total** | **89** | **1381** | **88** | **33** |
 
-- Fotos de trenes: **120 de 120** (100 %).
-- Estaciones con datos curiosos: **47 de 1374** (3 %).
-- Datos curiosos en total: **258**.
+- Fotos de trenes: **121 de 121** (100 %).
+- Estaciones con datos curiosos: **47 de 1381** (3 %).
+- Datos curiosos en total: **261**.
 
 ## Lo que hay
 
@@ -98,6 +98,7 @@
 | SO | [Sōtetsu principal](https://japanrail.alvaroom.org/#/line/sotetsu) | Sōtetsu | 18 | Sōtetsu serie 20000, Sōtetsu serie 12000 | — | 1 |
 | TT | [Monorraíl de Tama](https://japanrail.alvaroom.org/#/line/tama-monorail) | Tama Monorail | 19 | Monorraíl de Tama serie 1000 | — | 0 |
 | EN | [Enoden](https://japanrail.alvaroom.org/#/line/enoden) | Enoden | 15 | Enoden serie 1000 | — | 2 |
+| SMR | [Shōnan Monorail](https://japanrail.alvaroom.org/#/line/shonan-monorail) | Shōnan Monorail | 8 | Shōnan Monorail serie 5000 | — | 3 |
 | B | [Metro de Yokohama: línea Azul](https://japanrail.alvaroom.org/#/line/yokohama-blue) | Metro de Yokohama | 32 | Metro de Yokohama serie 3000, Metro de Yokohama serie 4000 | — | 0 |
 | G | [Metro de Yokohama: línea Verde](https://japanrail.alvaroom.org/#/line/yokohama-green) | Metro de Yokohama | 10 | Metro de Yokohama serie 10000 | — | 0 |
 | MM | [Línea Minatomirai](https://japanrail.alvaroom.org/#/line/minatomirai) | Minatomirai | 6 | Tōkyū serie 5000 | — | 1 |
@@ -129,10 +130,10 @@ Salen solos de los datos: son buenas tareas pequeñas para ir completando.
 - **Líneas sin trenes actuales** (5): [Nippori-Toneri Liner](https://japanrail.alvaroom.org/#/line/nippori-toneri), [Línea Hankyu Arashiyama](https://japanrail.alvaroom.org/#/line/hankyu-arashiyama), [Randen: línea Arashiyama](https://japanrail.alvaroom.org/#/line/randen-arashiyama), [Randen: línea Kitano](https://japanrail.alvaroom.org/#/line/randen-kitano), [Tōkyū Ōimachi](https://japanrail.alvaroom.org/#/line/tokyu-oimachi)
 - **Trenes sin foto** (0): ninguna 🎉
 - **Líneas con numeración incompleta** (1): [Odakyū Enoshima](https://japanrail.alvaroom.org/#/line/odakyu-enoshima)
-- **Trenes sin datos curiosos** (99 de 120).
-- **Líneas sin trenes históricos** (59 de 88):
+- **Trenes sin datos curiosos** (100 de 121).
+- **Líneas sin trenes históricos** (60 de 89):
   - Shinkansen: [Kyūshū Shinkansen](https://japanrail.alvaroom.org/#/line/kyushu-shinkansen), [Nishi-Kyūshū Shinkansen](https://japanrail.alvaroom.org/#/line/nishi-kyushu-shinkansen), [Hokkaidō Shinkansen](https://japanrail.alvaroom.org/#/line/hokkaido-shinkansen), [Hokuriku Shinkansen](https://japanrail.alvaroom.org/#/line/hokuriku-shinkansen)
-  - Tokio: [Línea Sōbu (rápido)](https://japanrail.alvaroom.org/#/line/sobu-rapid), [Línea Hanzōmon](https://japanrail.alvaroom.org/#/line/hanzomon), [Línea Namboku](https://japanrail.alvaroom.org/#/line/namboku), [Línea Fukutoshin](https://japanrail.alvaroom.org/#/line/fukutoshin), [Línea Ōedo](https://japanrail.alvaroom.org/#/line/oedo), [Nippori-Toneri Liner](https://japanrail.alvaroom.org/#/line/nippori-toneri), [Yurikamome](https://japanrail.alvaroom.org/#/line/yurikamome), [Monorraíl de Tokio](https://japanrail.alvaroom.org/#/line/tokyo-monorail), [Línea Rinkai](https://japanrail.alvaroom.org/#/line/rinkai), [Línea Keiyō](https://japanrail.alvaroom.org/#/line/keiyo), [Línea Jōban (rápido)](https://japanrail.alvaroom.org/#/line/joban-rapid), [Línea Jōban (local)](https://japanrail.alvaroom.org/#/line/joban-local), [Línea Musashino](https://japanrail.alvaroom.org/#/line/musashino), [Línea Nambu](https://japanrail.alvaroom.org/#/line/nambu), [Línea Yokohama](https://japanrail.alvaroom.org/#/line/yokohama-line), [Línea Tōkaidō (JT)](https://japanrail.alvaroom.org/#/line/tokaido-jt), [Línea Yokosuka](https://japanrail.alvaroom.org/#/line/yokosuka), [Línea Shōnan-Shinjuku](https://japanrail.alvaroom.org/#/line/shonan-shinjuku), [Línea Utsunomiya](https://japanrail.alvaroom.org/#/line/utsunomiya), [Línea Takasaki](https://japanrail.alvaroom.org/#/line/takasaki), [Línea Ōme](https://japanrail.alvaroom.org/#/line/ome), [Tōkyū Den-en-toshi](https://japanrail.alvaroom.org/#/line/tokyu-denentoshi), [Tōkyū Ōimachi](https://japanrail.alvaroom.org/#/line/tokyu-oimachi), [Tōkyū Ikegami](https://japanrail.alvaroom.org/#/line/tokyu-ikegami), [Tōkyū Tamagawa](https://japanrail.alvaroom.org/#/line/tokyu-tamagawa), [Tōkyū Setagaya](https://japanrail.alvaroom.org/#/line/tokyu-setagaya), [Odakyū Enoshima](https://japanrail.alvaroom.org/#/line/odakyu-enoshima), [Keiō](https://japanrail.alvaroom.org/#/line/keio), [Keiō Takao](https://japanrail.alvaroom.org/#/line/keio-takao), [Keiō Inokashira](https://japanrail.alvaroom.org/#/line/keio-inokashira), [Seibu Shinjuku](https://japanrail.alvaroom.org/#/line/seibu-shinjuku), [Tōbu Skytree](https://japanrail.alvaroom.org/#/line/tobu-skytree), [Tōbu Tōjō](https://japanrail.alvaroom.org/#/line/tobu-tojo), [Keikyū Aeropuerto](https://japanrail.alvaroom.org/#/line/keikyu-airport), [Keisei Oshiage](https://japanrail.alvaroom.org/#/line/keisei-oshiage), [Tsukuba Express](https://japanrail.alvaroom.org/#/line/tsukuba-express), [Sōtetsu principal](https://japanrail.alvaroom.org/#/line/sotetsu), [Monorraíl de Tama](https://japanrail.alvaroom.org/#/line/tama-monorail), [Enoden](https://japanrail.alvaroom.org/#/line/enoden), [Metro de Yokohama: línea Azul](https://japanrail.alvaroom.org/#/line/yokohama-blue), [Metro de Yokohama: línea Verde](https://japanrail.alvaroom.org/#/line/yokohama-green), [Línea Minatomirai](https://japanrail.alvaroom.org/#/line/minatomirai)
+  - Tokio: [Línea Sōbu (rápido)](https://japanrail.alvaroom.org/#/line/sobu-rapid), [Línea Hanzōmon](https://japanrail.alvaroom.org/#/line/hanzomon), [Línea Namboku](https://japanrail.alvaroom.org/#/line/namboku), [Línea Fukutoshin](https://japanrail.alvaroom.org/#/line/fukutoshin), [Línea Ōedo](https://japanrail.alvaroom.org/#/line/oedo), [Nippori-Toneri Liner](https://japanrail.alvaroom.org/#/line/nippori-toneri), [Yurikamome](https://japanrail.alvaroom.org/#/line/yurikamome), [Monorraíl de Tokio](https://japanrail.alvaroom.org/#/line/tokyo-monorail), [Línea Rinkai](https://japanrail.alvaroom.org/#/line/rinkai), [Línea Keiyō](https://japanrail.alvaroom.org/#/line/keiyo), [Línea Jōban (rápido)](https://japanrail.alvaroom.org/#/line/joban-rapid), [Línea Jōban (local)](https://japanrail.alvaroom.org/#/line/joban-local), [Línea Musashino](https://japanrail.alvaroom.org/#/line/musashino), [Línea Nambu](https://japanrail.alvaroom.org/#/line/nambu), [Línea Yokohama](https://japanrail.alvaroom.org/#/line/yokohama-line), [Línea Tōkaidō (JT)](https://japanrail.alvaroom.org/#/line/tokaido-jt), [Línea Yokosuka](https://japanrail.alvaroom.org/#/line/yokosuka), [Línea Shōnan-Shinjuku](https://japanrail.alvaroom.org/#/line/shonan-shinjuku), [Línea Utsunomiya](https://japanrail.alvaroom.org/#/line/utsunomiya), [Línea Takasaki](https://japanrail.alvaroom.org/#/line/takasaki), [Línea Ōme](https://japanrail.alvaroom.org/#/line/ome), [Tōkyū Den-en-toshi](https://japanrail.alvaroom.org/#/line/tokyu-denentoshi), [Tōkyū Ōimachi](https://japanrail.alvaroom.org/#/line/tokyu-oimachi), [Tōkyū Ikegami](https://japanrail.alvaroom.org/#/line/tokyu-ikegami), [Tōkyū Tamagawa](https://japanrail.alvaroom.org/#/line/tokyu-tamagawa), [Tōkyū Setagaya](https://japanrail.alvaroom.org/#/line/tokyu-setagaya), [Odakyū Enoshima](https://japanrail.alvaroom.org/#/line/odakyu-enoshima), [Keiō](https://japanrail.alvaroom.org/#/line/keio), [Keiō Takao](https://japanrail.alvaroom.org/#/line/keio-takao), [Keiō Inokashira](https://japanrail.alvaroom.org/#/line/keio-inokashira), [Seibu Shinjuku](https://japanrail.alvaroom.org/#/line/seibu-shinjuku), [Tōbu Skytree](https://japanrail.alvaroom.org/#/line/tobu-skytree), [Tōbu Tōjō](https://japanrail.alvaroom.org/#/line/tobu-tojo), [Keikyū Aeropuerto](https://japanrail.alvaroom.org/#/line/keikyu-airport), [Keisei Oshiage](https://japanrail.alvaroom.org/#/line/keisei-oshiage), [Tsukuba Express](https://japanrail.alvaroom.org/#/line/tsukuba-express), [Sōtetsu principal](https://japanrail.alvaroom.org/#/line/sotetsu), [Monorraíl de Tama](https://japanrail.alvaroom.org/#/line/tama-monorail), [Enoden](https://japanrail.alvaroom.org/#/line/enoden), [Shōnan Monorail](https://japanrail.alvaroom.org/#/line/shonan-monorail), [Metro de Yokohama: línea Azul](https://japanrail.alvaroom.org/#/line/yokohama-blue), [Metro de Yokohama: línea Verde](https://japanrail.alvaroom.org/#/line/yokohama-green), [Línea Minatomirai](https://japanrail.alvaroom.org/#/line/minatomirai)
   - Kioto: [Línea Karasuma](https://japanrail.alvaroom.org/#/line/karasuma), [Línea Tōzai (Kioto)](https://japanrail.alvaroom.org/#/line/kyoto-tozai), [Línea JR Kyōto](https://japanrail.alvaroom.org/#/line/jr-kyoto), [Línea Sagano](https://japanrail.alvaroom.org/#/line/sagano), [Línea Nara](https://japanrail.alvaroom.org/#/line/nara-line), [Línea Keihan Uji](https://japanrail.alvaroom.org/#/line/keihan-uji), [Línea Hankyu Arashiyama](https://japanrail.alvaroom.org/#/line/hankyu-arashiyama), [Línea Kintetsu Kyōto](https://japanrail.alvaroom.org/#/line/kintetsu-kyoto), [Randen: línea Arashiyama](https://japanrail.alvaroom.org/#/line/randen-arashiyama), [Randen: línea Kitano](https://japanrail.alvaroom.org/#/line/randen-kitano), [Eiden: línea Eizan](https://japanrail.alvaroom.org/#/line/eizan-main), [Eiden: línea Kurama](https://japanrail.alvaroom.org/#/line/eizan-kurama), [Tren turístico Sagano (Torokko)](https://japanrail.alvaroom.org/#/line/sagano-scenic)
 - **Grandes estaciones (3+ líneas) sin datos curiosos** (42): [Omiya](https://japanrail.alvaroom.org/#/station/omiya) (7), [Iidabashi](https://japanrail.alvaroom.org/#/station/iidabashi) (5), [Akabane](https://japanrail.alvaroom.org/#/station/akabane) (5), [Musashi-Kosugi](https://japanrail.alvaroom.org/#/station/musashi-kosugi) (5), [Osaki](https://japanrail.alvaroom.org/#/station/osaki) (4), [Kanda](https://japanrail.alvaroom.org/#/station/kanda) (4), [Yotsuya](https://japanrail.alvaroom.org/#/station/yotsuya) (4), [Ichigaya](https://japanrail.alvaroom.org/#/station/ichigaya) (4), [Urawa](https://japanrail.alvaroom.org/#/station/urawa) (4), [Totsuka](https://japanrail.alvaroom.org/#/station/totsuka) (4), [Gotanda](https://japanrail.alvaroom.org/#/station/gotanda) (3), [Yoyogi](https://japanrail.alvaroom.org/#/station/yoyogi) (3), [Yurakucho](https://japanrail.alvaroom.org/#/station/yurakucho) (3), [Ochanomizu](https://japanrail.alvaroom.org/#/station/ochanomizu) (3), [Nakano](https://japanrail.alvaroom.org/#/station/nakano) (3), [Ogikubo](https://japanrail.alvaroom.org/#/station/ogikubo) (3), [Tachikawa](https://japanrail.alvaroom.org/#/station/tachikawa) (3), [Kinshicho](https://japanrail.alvaroom.org/#/station/kinshicho) (3), [Nishi-Funabashi](https://japanrail.alvaroom.org/#/station/nishi-funabashi) (3), [Saitama-Shintoshin](https://japanrail.alvaroom.org/#/station/saitama-shintoshin) (3), [Oimachi](https://japanrail.alvaroom.org/#/station/oimachi) (3), [Kamata](https://japanrail.alvaroom.org/#/station/kamata) (3), [Kawasaki](https://japanrail.alvaroom.org/#/station/kawasaki) (3), [Nihombashi](https://japanrail.alvaroom.org/#/station/nihombashi) (3), [Aoyama-itchome](https://japanrail.alvaroom.org/#/station/aoyama-itchome) (3), [Omote-sando](https://japanrail.alvaroom.org/#/station/omote-sando) (3), [Shinjuku-sanchome](https://japanrail.alvaroom.org/#/station/shinjuku-sanchome) (3), [Kasumigaseki](https://japanrail.alvaroom.org/#/station/kasumigaseki) (3), [Hibiya](https://japanrail.alvaroom.org/#/station/hibiya) (3), [Minami-Senju](https://japanrail.alvaroom.org/#/station/minami-senju) (3), [Kudanshita](https://japanrail.alvaroom.org/#/station/kudanshita) (3), [Wakoshi](https://japanrail.alvaroom.org/#/station/wakoshi) (3), [Nagatacho](https://japanrail.alvaroom.org/#/station/nagatacho) (3), [Shin-kiba](https://japanrail.alvaroom.org/#/station/shin-kiba) (3), [Jimbocho](https://japanrail.alvaroom.org/#/station/jimbocho) (3), [Shin-Yokohama](https://japanrail.alvaroom.org/#/station/shin-yokohama) (3), [Shin-Osaka](https://japanrail.alvaroom.org/#/station/shin-osaka) (3), [Takasaki](https://japanrail.alvaroom.org/#/station/takasaki) (3), [Rokujizo](https://japanrail.alvaroom.org/#/station/rokujizo) (3), [Fujisawa](https://japanrail.alvaroom.org/#/station/fujisawa) (3), [Tamagawa](https://japanrail.alvaroom.org/#/station/tamagawa) (3), [Hiyoshi](https://japanrail.alvaroom.org/#/station/hiyoshi) (3)
 
@@ -140,7 +141,7 @@ Salen solos de los datos: son buenas tareas pequeñas para ir completando.
 
 Por fases. Las casillas de líneas, trenes y regiones se marcan solas cuando existen en los datos.
 
-### Fase 1 · Completar Tokio (26/26)
+### Fase 1 · Completar Tokio (27/27)
 
 _Muchas líneas de metro «se acaban» en el mapa donde en realidad siguen por redes privadas o por otras líneas de JR._
 
@@ -173,6 +174,7 @@ _Muchas líneas de metro «se acaban» en el mapa donde en realidad siguen por r
 - [x] Sōtetsu
 - [x] Monorraíl de Tama
 - [x] Enoden — Fujisawa–Kamakura, junto al mar
+- [x] Shōnan Monorail — monorraíl suspendido Ōfuna–Enoshima
 
 **Yokohama**
 
@@ -261,7 +263,7 @@ _Lo que hace único el tren en Japón, más allá del día a día._
 - [ ] Prolongación del Hokkaidō Shinkansen a Sapporo (en obras)
 - [ ] Prolongación del Hokuriku Shinkansen de Tsuruga a Ōsaka (proyecto)
 
-### Fase 6 · Funciones de la web (0/9)
+### Fase 6 · Funciones de la web (1/9)
 
 **Explorar**
 
@@ -276,7 +278,7 @@ _Lo que hace único el tren en Japón, más allá del día a día._
 - [ ] URLs con versión en JS/CSS para que Cloudflare nunca sirva una versión vieja
 - [ ] Vista previa al compartir enlaces (Open Graph: imagen y descripción)
 - [ ] Interfaz también en inglés
-- [ ] Reducir el peso de las fotos (WebP) cuando crezca el número
+- [x] Reducir el peso de las fotos (WebP + miniaturas)
 
 ### Fase 7 · Contenido (0/4)
 

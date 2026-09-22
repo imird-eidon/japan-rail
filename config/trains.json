@@ -2095,5 +2095,19 @@
         "line": "enoden"
       }
     ]
+  },
+  {
+    "id": "shonan-monorail-5000",
+    "name": "Shōnan Monorail serie 5000",
+    "operator": "shonan-monorail",
+    "introduced": 2004,
+    "cars": 3,
+    "photo_file": "File:Shonan-Monorail Series5000-5608.jpg",
+    "summary": "El tren colgante actual, de tres coches, con grandes ventanas delanteras desde las que se ve el trazado.",
+    "runs": [
+      {
+        "line": "shonan-monorail"
+      }
+    ]
   }
 ]

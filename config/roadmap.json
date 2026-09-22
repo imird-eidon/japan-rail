@@ -135,6 +135,10 @@
             {
               "line": "enoden",
               "name": "Enoden — Fujisawa–Kamakura, junto al mar"
+            },
+            {
+              "line": "shonan-monorail",
+              "name": "Shōnan Monorail — monorraíl suspendido Ōfuna–Enoshima"
             }
           ]
         },
@@ -426,7 +430,8 @@
               "task": "Interfaz también en inglés"
             },
             {
-              "task": "Reducir el peso de las fotos (WebP) cuando crezca el número"
+              "task": "Reducir el peso de las fotos (WebP + miniaturas)",
+              "done": true
             }
           ]
         }

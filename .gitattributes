@@ -3,3 +3,4 @@
 *.jpg binary
 web/data/network.json -diff linguist-generated
 web/vendor/** -text
+*.webp binary

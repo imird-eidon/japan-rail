@@ -104,7 +104,7 @@ function stationsTab(net) {
 
 /** Miniatura de la foto del tren o, si no hay, el icono. */
 const trainThumb = (t, cls = "thumb") =>
-  t.photo ? `<img class="${cls}" src="${esc(t.photo.src)}" alt="" loading="lazy" decoding="async">`
+  t.photo ? `<img class="${cls}" src="${esc(t.photo.thumb || t.photo.src)}" alt="" loading="lazy" decoding="async">`
           : `<span class="${cls} no-photo">${trainIcon(cls === "thumb" ? 18 : 28)}</span>`;
 
 /** Años en una línea: «1963–1988», «hasta 1986», «desde 1954» (cuando solo se conoce uno). */

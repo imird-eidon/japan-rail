@@ -7,14 +7,16 @@ Para cada tren de config/trains.json con:
   "photo_search": "texto"           → busca en Commons y toma la primera foto con licencia libre
                                        (revísala: conviene fijarla luego con photo_file).
 
-Resultado:
-  web/img/trains/<id>.jpg   miniatura de 960 px de ancho (500 px si la foto es vertical)
-  config/photos.json        {id: {src, file, author, license, license_url, source}}
+Resultado (necesita `cwebp`: apt install webp):
+  web/img/trains/<id>.webp        foto de hasta 800 px de ancho (ficha del tren)
+  web/img/trains/thumb/<id>.webp  miniatura de 360 px (listas y tarjetas)
+  config/photos.json              {id: {src, thumb, file, author, license, license_url, source}}
 
 Uso:
     python3 tools/fetch_photos.py            # solo las que faltan
     python3 tools/fetch_photos.py --refresh  # vuelve a descargarlas todas
     python3 tools/fetch_photos.py sk-e5      # solo esos ids
+    python3 tools/fetch_photos.py --convert  # pasa a WebP las .jpg que queden (sin volver a descargar)
 
 Solo se aceptan licencias libres (CC BY, CC BY-SA, CC0, dominio público).
 """
@@ -22,6 +24,7 @@ import argparse
 import html
 import json
 import re
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -32,7 +35,10 @@ ROOT = Path(__file__).resolve().parent.parent
 TRAINS = ROOT / "config" / "trains.json"
 PHOTOS = ROOT / "config" / "photos.json"
 IMG_DIR = ROOT / "web" / "img" / "trains"
-WIDTH = 960
+WIDTH = 960           # tamaño que se descarga de Commons
+FULL_WIDTH = 800      # tamaño publicado (el panel mide 400 px; 800 para pantallas de alta densidad)
+THUMB_WIDTH = 360     # miniaturas de listas y tarjetas
+QUALITY = "75"
 PORTRAIT_WIDTH = 500  # Commons sirve miniaturas en tamaños fijos (500, 960…): las verticales, a 500
 UA = "japan-rail-explorer/0.1 (hobby project; https://github.com/imird-eidon/japan-rail)"
 FREE = re.compile(r"^(CC BY(-SA)? \d|CC0|Public domain|PD)", re.I)
@@ -104,15 +110,37 @@ def download(url, path):
         path.write_bytes(r.read())
 
 
+def to_webp(src, tid):
+    """Convierte la descarga a WebP (foto y miniatura) y borra el original."""
+    thumb_dir = IMG_DIR / "thumb"
+    thumb_dir.mkdir(exist_ok=True)
+    full, thumb = IMG_DIR / f"{tid}.webp", thumb_dir / f"{tid}.webp"
+    for out, width in ((full, FULL_WIDTH), (thumb, THUMB_WIDTH)):
+        subprocess.run(["cwebp", "-quiet", "-q", QUALITY, "-m", "6", "-metadata", "none",
+                        "-resize", str(width), "0", str(src), "-o", str(out)], check=True)
+    src.unlink()
+    return {"src": f"img/trains/{full.name}", "thumb": f"img/trains/thumb/{thumb.name}"}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ids", nargs="*")
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--convert", action="store_true", help="convierte a WebP las .jpg existentes")
     args = ap.parse_args()
 
     trains = json.loads(TRAINS.read_text(encoding="utf-8"))
     photos = json.loads(PHOTOS.read_text(encoding="utf-8")) if PHOTOS.exists() else {}
     IMG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if args.convert:
+        for jpg in sorted(IMG_DIR.glob("*.jpg")):
+            tid = jpg.stem
+            if tid in photos:
+                photos[tid].update(to_webp(jpg, tid))
+        PHOTOS.write_text(json.dumps(dict(sorted(photos.items())), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"convertidas; {sum(1 for p in photos.values() if p['src'].endswith('.webp'))} fotos en WebP")
+        return
 
     for t in trains:
         tid = t["id"]
@@ -132,10 +160,11 @@ def main():
             if not FREE.match(info["license"]):
                 print(f"  {tid}: {file} tiene licencia «{info['license']}», no se usa", file=sys.stderr)
                 continue
-            out = IMG_DIR / f"{tid}.jpg"
+            out = IMG_DIR / f"{tid}.download"
             download(info.pop("thumb"), out)
-            photos[tid] = {"src": f"img/trains/{out.name}", **info}
-            print(f"  {tid}: {info['file']} · {info['license']} · {info['author'][:60]} ({out.stat().st_size // 1024} KB)")
+            photos[tid] = {**to_webp(out, tid), **info}
+            size = (IMG_DIR / f"{tid}.webp").stat().st_size // 1024
+            print(f"  {tid}: {info['file']} · {info['license']} · {info['author'][:60]} ({size} KB)")
             time.sleep(1)
         except Exception as e:  # una foto que falla no debe parar el resto
             print(f"  {tid}: error {e}", file=sys.stderr)

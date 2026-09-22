@@ -35,7 +35,7 @@ web/               ← la web estática (lo que se publica)
   js/views.js      fichas del panel lateral
   js/data.js       carga de datos y consultas
   data/network.json  (generado, no editar)
-  img/trains/      fotos de trenes (generadas)
+  img/trains/      fotos de trenes en WebP (800 px) y miniaturas en thumb/ (360 px), generadas
   vendor/leaflet/  Leaflet 1.9.4 (local, sin CDN)
 ```
 
@@ -122,9 +122,12 @@ Para la foto: `wiki` (artículo de la Wikipedia en inglés; se usa su imagen pri
 (`"File:…jpg"` de Wikimedia Commons, para elegir una concreta). Después:
 
 ```bash
-python3 tools/fetch_photos.py sk-e6   # descarga la foto y guarda autor y licencia
+python3 tools/fetch_photos.py sk-e6   # descarga la foto, la pasa a WebP y guarda autor y licencia
 python3 tools/build_data.py
 ```
+
+`fetch_photos.py` necesita `cwebp` (`apt install webp`): guarda cada foto en WebP a 800 px y una miniatura
+de 360 px para listas y tarjetas.
 
 Solo se aceptan licencias libres; la autoría y la licencia se muestran bajo cada foto.
 

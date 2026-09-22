@@ -155,6 +155,11 @@
       "name": "Minatomirai",
       "ja": "横浜高速鉄道",
       "url": "https://www.mm21railway.co.jp/"
+    },
+    "shonan-monorail": {
+      "name": "Shōnan Monorail",
+      "ja": "湘南モノレール",
+      "url": "https://www.shonan-monorail.co.jp/"
     }
   },
   "types": {
@@ -2150,6 +2155,29 @@
       ],
       "trains": [],
       "region": "tokyo"
+    },
+    {
+      "id": "shonan-monorail",
+      "code": "SMR",
+      "color": "#E60012",
+      "name": "Shōnan Monorail",
+      "ja": "湘南モノレール",
+      "en": "Shōnan Monorail",
+      "operator": "shonan-monorail",
+      "type": "monorail",
+      "osm": [
+        7715259
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "opened": 1970,
+      "length_km": 6.6,
+      "summary": "Monorraíl suspendido de Ōfuna a Shōnan-Enoshima: los trenes van colgados de una viga, por encima de calles y colinas.",
+      "facts": [
+        "Es de tipo SAFEGE: el tren cuelga de una viga hueca por la que ruedan sus bogies. En Japón solo hay otro igual, el de Chiba.",
+        "Casi toda la línea es de vía única, con cruces en las estaciones, y tiene fuertes pendientes y túneles: se nota como una atracción.",
+        "Con el Enoden y Odakyū forma el trío de trenes para llegar a la isla de Enoshima."
+      ]
     },
     {
       "id": "yokohama-blue",
