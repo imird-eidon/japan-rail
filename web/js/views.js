@@ -107,7 +107,8 @@ const trainThumb = (t, cls = "thumb") =>
   t.photo ? `<img class="${cls}" src="${esc(t.photo.src)}" alt="" loading="lazy" decoding="async">`
           : `<span class="${cls} no-photo">${trainIcon(cls === "thumb" ? 18 : 28)}</span>`;
 
-const yearsText = ([a, b]) => `${a}–${b}`;
+/** Años en una línea: «1963–1988», «hasta 1986», «desde 1954» (cuando solo se conoce uno). */
+const yearsText = ([a, b] = []) => (a && b ? `${a}–${b}` : b ? `hasta ${b}` : a ? `desde ${a}` : "");
 /** Años de servicio de un tren en su conjunto (1963–1988, o «desde 2015»). */
 const serviceText = (t) => (t.retired ? `${t.introduced}–${t.retired}` : `desde ${t.introduced}`);
 
@@ -129,7 +130,7 @@ function historicOnLine(net, lineId) {
   const rows = net.trains
     .map((t) => ({ t, h: (t.history || []).find((h) => h.line === lineId) }))
     .filter((x) => x.h)
-    .sort((a, b) => a.h.years[0] - b.h.years[0]);
+    .sort((a, b) => (a.h.years[0] || a.t.introduced) - (b.h.years[0] || b.t.introduced));
   return trainCards(net, rows.map((x) => x.t.id), {
     historic: true,
     meta: (t) => yearsText(rows.find((x) => x.t === t).h.years),

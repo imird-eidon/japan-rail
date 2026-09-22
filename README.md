@@ -1,9 +1,10 @@
 # Japan Rail Explorer
 
 Mapa interactivo de las líneas de tren y metro de Japón, con estaciones, trenes y datos curiosos.
-Ahora cubre **toda la red Shinkansen** (10 líneas), **el tren y metro de Tokio** (24 líneas) y **Kioto** (15 líneas:
+Ahora cubre **toda la red Shinkansen** (10 líneas), **Tokio y alrededores** (63 líneas: JR East, Tokyo Metro, Toei,
+Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei, Tsukuba Express, Sōtetsu, Yokohama…) y **Kioto** (15 líneas:
 metro, JR, Keihan, Hankyu, Kintetsu, Randen, Eiden y el tren turístico Sagano); la idea es ir ampliando poco a
-poco al resto del país.
+poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
@@ -149,7 +150,7 @@ Se regenera al ejecutar `tools/build_data.py`; la lista de pendientes se edita e
 ## Hoja de ruta (resumen)
 
 - [x] Red Shinkansen completa, con fotos de los trenes
-- [ ] Líneas privadas de Tokio (Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei)
+- [x] Completar Tokio: JR East restantes, compañías privadas y Yokohama (fase 1)
 - [x] Kioto
 - [ ] Ōsaka / resto de Kansai
 - [x] Fotos de todos los trenes y trenes históricos con sus años de servicio

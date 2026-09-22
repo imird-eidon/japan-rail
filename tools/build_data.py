@@ -390,7 +390,7 @@ def resolve_trains(trains, lines, stations, warnings):
             if (res := resolve(t, r)):
                 past.append(res[0])
                 past_served += [x for x in res[1] if x not in past_served]
-        t["history"] = sorted(past, key=lambda h: h["years"][0])
+        t["history"] = sorted(past, key=lambda h: h["years"][0] or t.get("introduced", 0))
         for sid in past_served:
             stations[sid].setdefault("past_trains", []).append(t["id"])
 
@@ -434,8 +434,8 @@ def main():
         # 'osm': relaciones que aportan trazado y paradas (la 1.ª fija el orden; las demás, p. ej. ramales, añaden)
         # 'extra_stops': relaciones de otros servicios de las que solo se toman paradas que falten
         sources = [(r, True) for r in line["osm"]] + [(r, False) for r in line.get("extra_stops", [])]
-        if "osm_ways" in line:
-            sources.append(("ways", True))
+        if "osm_ways" in line:  # stops_only: el trazado sale de la relación y de las vías solo las paradas
+            sources.append(("ways", not line["osm_ways"].get("stops_only")))
         for rel_id, use_geometry in sources:
             if rel_id == "ways":
                 segs, rel_stops = parse_ways(fetch_ways(line, args.refresh))
@@ -462,6 +462,8 @@ def main():
                 stops.append({"ja": ja, "en": en, "pt": (s["lat"], s["lon"]),
                               "code": normalize_code(t.get("ref"), line["code"])})
 
+        for st in stops:  # las correcciones de código se aplican ya, para que order=code las tenga en cuenta
+            st["code"] = code_fixes.get(line["id"], {}).get(st["ja"], st["code"])
         chains = merge_chains(chains_raw)
         if "section" in line:
             stops, chains = cut_section(line, stops, chains, warnings)

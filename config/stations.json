@@ -200,5 +200,85 @@
     "facts": [
       "Frente a la estación hay una gran cabeza de tengu, el ser de la montaña que según la leyenda vive en el monte Kurama."
     ]
+  },
+  "yokohama": {
+    "summary": "La gran estación de Yokohama: JR, Tōkyū, Keikyū, Sōtetsu, Minatomirai y metro.",
+    "facts": [
+      "La estación actual es ya la tercera: las dos primeras quedaron en otros emplazamientos de la ciudad.",
+      "Lleva en obras casi sin interrupción desde hace décadas: la llaman la «Sagrada Familia de Japón»."
+    ]
+  },
+  "kamakura": {
+    "summary": "La antigua capital samurái: templos, el gran Buda y la playa.",
+    "facts": [
+      "Aquí terminan la línea Yokosuka de JR y el Enoden, que sigue junto al mar hasta Fujisawa."
+    ]
+  },
+  "hase": {
+    "facts": [
+      "Es la estación del gran Buda de bronce de Kamakura (Kōtoku-in), de más de 11 m de altura."
+    ]
+  },
+  "kamakurakokomae": {
+    "facts": [
+      "Su paso a nivel, con el mar al fondo, es famoso por la apertura del anime «Slam Dunk»."
+    ]
+  },
+  "maihama": {
+    "summary": "La estación de Tokyo Disney Resort; enlaza con el monorraíl Disney Resort Line."
+  },
+  "ofuna": {
+    "facts": [
+      "Desde el tren se ve una enorme estatua blanca de la diosa Kannon, de 25 m, asomando sobre una colina."
+    ]
+  },
+  "kichijoji": {
+    "facts": [
+      "Junto al parque Inokashira; muy cerca, ya en Mitaka, está el Museo Ghibli."
+    ]
+  },
+  "shimo-kitazawa": {
+    "facts": [
+      "En 2013 la línea Odakyū pasó a ser subterránea aquí, y las vías liberadas se convirtieron en paseos y tiendas."
+    ]
+  },
+  "naka-meguro": {
+    "facts": [
+      "El río Meguro, a dos pasos, es uno de los lugares más famosos de Tokio para ver los cerezos en flor."
+    ]
+  },
+  "motomachi-chukagai": {
+    "summary": "El barrio chino de Yokohama, el mayor de Japón."
+  },
+  "takaosanguchi": {
+    "summary": "A los pies del monte Takao, la montaña más visitada del mundo según algunas estimaciones.",
+    "facts": [
+      "El edificio de la estación, de madera, lo diseñó el arquitecto Kengo Kuma."
+    ]
+  },
+  "tsukuba": {
+    "facts": [
+      "Tsukuba es la «ciudad de la ciencia»: aquí está el centro espacial de JAXA."
+    ]
+  },
+  "odawara": {
+    "facts": [
+      "Desde el andén se ve el castillo de Odawara; también es la puerta de Hakone."
+    ]
+  },
+  "miyanosaka": {
+    "facts": [
+      "Junto a la estación está el templo Gōtoku-ji, lleno de figuritas del gato de la suerte (maneki-neko)."
+    ]
+  },
+  "hon-kawagoe": {
+    "facts": [
+      "Kawagoe es la «pequeña Edo», con calles de antiguas casas-almacén de barro."
+    ]
+  },
+  "katase-enoshima": {
+    "facts": [
+      "El edificio de la estación imita el palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
+    ]
   }
 }

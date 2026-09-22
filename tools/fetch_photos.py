@@ -4,6 +4,8 @@
 Para cada tren de config/trains.json con:
   "photo_file": "File:Nombre.jpg"   → usa ese fichero de Commons (recomendado: control total), o
   "wiki": "Título del artículo"     → usa la imagen principal del artículo en la Wikipedia en inglés.
+  "photo_search": "texto"           → busca en Commons y toma la primera foto con licencia libre
+                                       (revísala: conviene fijarla luego con photo_file).
 
 Resultado:
   web/img/trains/<id>.jpg   miniatura de 960 px de ancho (500 px si la foto es vertical)
@@ -49,6 +51,21 @@ def lead_image(title):
     page = d["query"]["pages"][0]
     name = page.get("pageimage")
     return f"File:{name}" if name else None
+
+
+def search_file(query):
+    d = api("commons.wikimedia.org", action="query", list="search", srsearch=f"{query} filetype:bitmap",
+            srnamespace=6, srlimit=10)
+    for hit in d["query"]["search"]:
+        title = hit["title"]
+        if not re.search(r"\.(jpe?g|png)$", title, re.I) or re.search(r"(?i)logo|inside|interior|seat|sign|map|LED|display|headmark", title):
+            continue
+        try:
+            if FREE.match(file_info(title)["license"]):
+                return title
+        except LookupError:
+            continue
+    return None
 
 
 def clean(s):
@@ -101,14 +118,15 @@ def main():
         tid = t["id"]
         if args.ids and tid not in args.ids:
             continue
-        if not (t.get("photo_file") or t.get("wiki")):
+        if not (t.get("photo_file") or t.get("wiki") or t.get("photo_search")):
             continue
         if tid in photos and not args.refresh and not args.ids:
             continue
         try:
-            file = t.get("photo_file") or lead_image(t["wiki"])
+            file = t.get("photo_file") or (t.get("photo_search") and search_file(t["photo_search"])) \
+                or (t.get("wiki") and lead_image(t["wiki"]))
             if not file:
-                print(f"  {tid}: el artículo «{t['wiki']}» no tiene imagen principal", file=sys.stderr)
+                print(f"  {tid}: no encuentro foto (wiki/photo_search)", file=sys.stderr)
                 continue
             info = file_info(file)
             if not FREE.match(info["license"]):

@@ -90,6 +90,71 @@
       "name": "Sagano Scenic Railway",
       "ja": "嵯峨野観光鉄道",
       "url": "https://www.sagano-kanko.co.jp/"
+    },
+    "tokyu": {
+      "name": "Tōkyū",
+      "ja": "東急電鉄",
+      "url": "https://www.tokyu.co.jp/"
+    },
+    "odakyu": {
+      "name": "Odakyū",
+      "ja": "小田急電鉄",
+      "url": "https://www.odakyu.jp/"
+    },
+    "keio": {
+      "name": "Keiō",
+      "ja": "京王電鉄",
+      "url": "https://www.keio.co.jp/"
+    },
+    "seibu": {
+      "name": "Seibu",
+      "ja": "西武鉄道",
+      "url": "https://www.seiburailway.jp/"
+    },
+    "tobu": {
+      "name": "Tōbu",
+      "ja": "東武鉄道",
+      "url": "https://www.tobu.co.jp/"
+    },
+    "keikyu": {
+      "name": "Keikyū",
+      "ja": "京急電鉄",
+      "url": "https://www.keikyu.co.jp/"
+    },
+    "keisei": {
+      "name": "Keisei",
+      "ja": "京成電鉄",
+      "url": "https://www.keisei.co.jp/"
+    },
+    "mir": {
+      "name": "Tsukuba Express",
+      "ja": "首都圏新都市鉄道",
+      "url": "https://www.mir.co.jp/"
+    },
+    "sotetsu": {
+      "name": "Sōtetsu",
+      "ja": "相模鉄道",
+      "url": "https://www.sotetsu.co.jp/"
+    },
+    "tama-monorail": {
+      "name": "Tama Monorail",
+      "ja": "多摩モノレール",
+      "url": "https://www.tama-monorail.co.jp/"
+    },
+    "enoden": {
+      "name": "Enoden",
+      "ja": "江ノ島電鉄",
+      "url": "https://www.enoden.co.jp/"
+    },
+    "yokohama-subway": {
+      "name": "Metro de Yokohama",
+      "ja": "横浜市営地下鉄",
+      "url": "https://www.city.yokohama.lg.jp/kotsu/"
+    },
+    "minatomirai": {
+      "name": "Minatomirai",
+      "ja": "横浜高速鉄道",
+      "url": "https://www.mm21railway.co.jp/"
     }
   },
   "types": {
@@ -1312,6 +1377,838 @@
         "Su quinto coche, «The Rich», no tiene ventanas: es completamente abierto.",
         "No circula en pleno invierno; es famoso en primavera (cerezos) y otoño (arces)."
       ]
+    },
+    {
+      "id": "keiyo",
+      "code": "JE",
+      "color": "#C9252F",
+      "name": "Línea Keiyō",
+      "ja": "京葉線",
+      "en": "Keiyō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        5326726
+      ],
+      "opened": 1986,
+      "summary": "De Tokio a Soga (Chiba) por la bahía: la línea de Maihama y Tokyo Disney Resort.",
+      "facts": [
+        "En la estación de Tokio sus andenes están tan lejos del resto que el transbordo a pie puede llevar más de 10 minutos.",
+        "Buena parte del trazado va sobre terrenos ganados al mar."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "joban-rapid",
+      "code": "JJ",
+      "color": "#00B261",
+      "name": "Línea Jōban (rápido)",
+      "ja": "常磐線快速",
+      "en": "Jōban Line (Rapid)",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        10757873
+      ],
+      "opened": 1896,
+      "summary": "De Ueno (y Shinagawa) a Toride, hacia el noreste de Tokio.",
+      "facts": [
+        "Desde 2015 muchos trenes siguen por la Ueno-Tokyo Line hasta Shinagawa."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "joban-local",
+      "code": "JL",
+      "color": "#8A9A91",
+      "name": "Línea Jōban (local)",
+      "ja": "常磐線各駅停車",
+      "en": "Jōban Line (Local)",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        10927698
+      ],
+      "summary": "De Kita-Senju a Abiko parando en todas las estaciones; sus trenes siguen por el metro Chiyoda.",
+      "facts": [
+        "Casi todos sus trenes entran en la línea Chiyoda de Tokyo Metro, que continúa la línea hacia el centro."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "musashino",
+      "code": "JM",
+      "color": "#EB5C01",
+      "name": "Línea Musashino",
+      "ja": "武蔵野線",
+      "en": "Musashino Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        9486466
+      ],
+      "opened": 1973,
+      "summary": "El gran anillo exterior de Tokio: de Fuchū-Hommachi a Nishi-Funabashi sin pasar por el centro.",
+      "facts": [
+        "Se construyó sobre todo para trenes de mercancías que así evitaban el centro de Tokio.",
+        "Con viento fuerte es de las primeras en interrumpirse: muchos tramos van en viaductos altos."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "nambu",
+      "code": "JN",
+      "color": "#F7C600",
+      "name": "Línea Nambu",
+      "ja": "南武線",
+      "en": "Nambu Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        1834403
+      ],
+      "opened": 1927,
+      "length_km": 35.5,
+      "summary": "De Kawasaki a Tachikawa, en diagonal por el oeste de Tokio, cruzando todas las líneas radiales.",
+      "facts": [
+        "La construyó una compañía privada para transportar grava del río Tama; JNR la nacionalizó en 1944."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "yokohama-line",
+      "code": "JH",
+      "color": "#7FC342",
+      "name": "Línea Yokohama",
+      "ja": "横浜線",
+      "en": "Yokohama Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        18100867
+      ],
+      "opened": 1908,
+      "length_km": 42.6,
+      "summary": "De Higashi-Kanagawa a Hachiōji por Shin-Yokohama (Shinkansen) y Machida.",
+      "facts": [
+        "Se construyó para llevar la seda de Hachiōji al puerto de Yokohama: la llaman la «ruta de la seda» japonesa."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokaido-jt",
+      "code": "JT",
+      "color": "#F68B1E",
+      "name": "Línea Tōkaidō (JT)",
+      "ja": "東海道線",
+      "en": "Tōkaidō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        12014185
+      ],
+      "section": [
+        "東京",
+        "熱海"
+      ],
+      "opened": 1872,
+      "length_km": 104.6,
+      "summary": "De Tokio a Odawara y Atami por Yokohama: el heredero del primer ferrocarril de Japón.",
+      "facts": [
+        "Su tramo Shimbashi–Yokohama fue el primer ferrocarril de Japón, en 1872.",
+        "Desde 2015, con la Ueno-Tokyo Line, sus trenes siguen hasta Utsunomiya y Takasaki."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "yokosuka",
+      "code": "JO",
+      "color": "#0067C0",
+      "name": "Línea Yokosuka",
+      "ja": "横須賀線",
+      "en": "Yokosuka Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        9477155
+      ],
+      "opened": 1889,
+      "summary": "De Tokio a Kurihama por Yokohama y Kamakura; continúa la Sōbu rápida hacia Chiba.",
+      "facts": [
+        "Se construyó en 1889 para dar servicio a la base naval de Yokosuka.",
+        "Es la línea para ir a Kamakura y su gran Buda."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "shonan-shinjuku",
+      "code": "JS",
+      "color": "#E21F26",
+      "name": "Línea Shōnan-Shinjuku",
+      "ja": "湘南新宿ライン",
+      "en": "Shōnan-Shinjuku Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        4673470
+      ],
+      "section": [
+        "大宮",
+        "大船"
+      ],
+      "opened": 2001,
+      "summary": "Servicio que une el norte (Ōmiya) y el sur (Yokohama, Ōfuna) pasando por Ikebukuro, Shinjuku y Shibuya sin entrar en Tokio.",
+      "facts": [
+        "Usa vías que antes solo llevaban mercancías (la «línea Yamanote de mercancías»)."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "utsunomiya",
+      "code": "JU",
+      "color": "#F68B1E",
+      "name": "Línea Utsunomiya",
+      "ja": "宇都宮線",
+      "en": "Utsunomiya Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        12210362
+      ],
+      "opened": 1885,
+      "summary": "De Tokio a Utsunomiya y Kuroiso, hacia el norte, por Ōmiya.",
+      "facts": [
+        "Utsunomiya es la ciudad de los gyōza: tiene hasta una estatua de gyōza frente a la estación."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "takasaki",
+      "code": "JU",
+      "color": "#F4A020",
+      "name": "Línea Takasaki",
+      "ja": "高崎線",
+      "en": "Takasaki Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        5430810
+      ],
+      "opened": 1883,
+      "summary": "De Ueno a Takasaki por Ōmiya y Kumagaya.",
+      "facts": [
+        "Su primer tramo, Ueno–Kumagaya (1883), fue del primer ferrocarril privado de Japón, Nippon Railway."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "ome",
+      "code": "JC",
+      "color": "#F15A22",
+      "name": "Línea Ōme",
+      "ja": "青梅線",
+      "en": "Ōme Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        11814887
+      ],
+      "opened": 1894,
+      "length_km": 37.2,
+      "summary": "De Tachikawa a Okutama, adentrándose en las montañas del oeste de Tokio.",
+      "facts": [
+        "Su tramo final, entre Ōme y Okutama, recorre valles y bosques sin salir de la prefectura de Tokio."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-toyoko",
+      "code": "TY",
+      "color": "#DA0442",
+      "name": "Tōkyū Tōyoko",
+      "ja": "東急東横線",
+      "en": "Tōkyū Tōyoko Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        9288982
+      ],
+      "opened": 1926,
+      "length_km": 24.2,
+      "summary": "Shibuya–Yokohama; sigue por la Minatomirai hasta Motomachi-Chūkagai y, al otro lado, por el metro Fukutoshin.",
+      "facts": [
+        "Su nombre junta 東 (Tokio) y 横 (Yokohama).",
+        "En 2013 su estación de Shibuya pasó a ser subterránea, compartida con la línea Fukutoshin."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-denentoshi",
+      "code": "DT",
+      "color": "#20A288",
+      "name": "Tōkyū Den-en-toshi",
+      "ja": "東急田園都市線",
+      "en": "Tōkyū Den-en-toshi Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        9341815
+      ],
+      "length_km": 31.5,
+      "summary": "De Shibuya a Chūō-Rinkan; continúa hacia el centro por el metro Hanzōmon.",
+      "facts": [
+        "Su nombre significa «ciudad jardín»: la compañía urbanizó a la vez los barrios residenciales que atraviesa.",
+        "Es una de las líneas más saturadas de Tokio en hora punta."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-meguro",
+      "code": "MG",
+      "color": "#009CD2",
+      "name": "Tōkyū Meguro",
+      "ja": "東急目黒線",
+      "en": "Tōkyū Meguro Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        9340969
+      ],
+      "summary": "De Meguro a Hiyoshi (y Shin-Yokohama); comparte trenes con las líneas Namboku y Mita.",
+      "facts": [
+        "Tiene puertas de andén y conducción automática en todas sus estaciones."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-oimachi",
+      "code": "OM",
+      "color": "#F18C43",
+      "name": "Tōkyū Ōimachi",
+      "ja": "東急大井町線",
+      "en": "Tōkyū Ōimachi Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        9341647
+      ],
+      "opened": 1927,
+      "summary": "De Ōimachi a Mizonokuchi por Jiyūgaoka y Futako-Tamagawa.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo",
+      "section": [
+        "大井町",
+        "二子玉川"
+      ],
+      "length_km": 10.4
+    },
+    {
+      "id": "tokyu-ikegami",
+      "code": "IK",
+      "color": "#EE86A7",
+      "name": "Tōkyū Ikegami",
+      "ja": "東急池上線",
+      "en": "Tōkyū Ikegami Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        9342008
+      ],
+      "opened": 1922,
+      "summary": "Gotanda–Kamata con trenes de tres coches: la línea «de barrio» de Tōkyū.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-tamagawa",
+      "code": "TM",
+      "color": "#AE0378",
+      "name": "Tōkyū Tamagawa",
+      "ja": "東急多摩川線",
+      "en": "Tōkyū Tamagawa Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        5375679
+      ],
+      "summary": "Corto ramal de Tamagawa a Kamata.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tokyu-setagaya",
+      "code": "SG",
+      "color": "#FCC70D",
+      "name": "Tōkyū Setagaya",
+      "ja": "東急世田谷線",
+      "en": "Tōkyū Setagaya Line",
+      "operator": "tokyu",
+      "type": "tram",
+      "osm": [
+        7215409
+      ],
+      "opened": 1925,
+      "length_km": 5.0,
+      "summary": "Tranvía de Sangen-Jaya a Shimo-Takaido, uno de los dos que quedan en Tokio.",
+      "facts": [
+        "Junto con el Arakawa es uno de los dos tranvías que sobreviven en Tokio.",
+        "En la estación Miyanosaka está el templo Gōtoku-ji, cuna del gato de la suerte (maneki-neko)."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "odakyu-odawara",
+      "code": "OH",
+      "color": "#1D6FB8",
+      "name": "Odakyū Odawara",
+      "ja": "小田急小田原線",
+      "en": "Odakyū Odawara Line",
+      "operator": "odakyu",
+      "type": "commuter",
+      "osm": [
+        9483158
+      ],
+      "opened": 1927,
+      "length_km": 82.5,
+      "summary": "De Shinjuku a Odawara, puerta de Hakone; por aquí circula el famoso Romancecar.",
+      "facts": [
+        "Se inauguró de golpe, en 1927, toda la línea entre Shinjuku y Odawara.",
+        "Los Romancecar siguen desde Odawara por la vía de Hakone Tozan hasta Hakone-Yumoto."
+      ],
+      "trains": [],
+      "region": "tokyo",
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"小田原線\"]",
+        "bbox": [
+          35.2,
+          139.1,
+          35.8,
+          139.75
+        ],
+        "stops_only": true
+      },
+      "order": "geometry"
+    },
+    {
+      "id": "odakyu-enoshima",
+      "code": "OE",
+      "color": "#3D8FD1",
+      "name": "Odakyū Enoshima",
+      "ja": "小田急江ノ島線",
+      "en": "Odakyū Enoshima Line",
+      "operator": "odakyu",
+      "type": "commuter",
+      "osm": [
+        14489075
+      ],
+      "opened": 1929,
+      "length_km": 27.6,
+      "summary": "De Sagami-Ōno a Katase-Enoshima, junto a la isla de Enoshima.",
+      "facts": [
+        "La estación de Katase-Enoshima tiene forma de palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keio",
+      "code": "KO",
+      "color": "#DD0077",
+      "name": "Keiō",
+      "ja": "京王線",
+      "en": "Keiō Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        11271039
+      ],
+      "opened": 1913,
+      "length_km": 37.9,
+      "summary": "De Shinjuku a Keiō-Hachiōji; con sus ramales llega al monte Takao.",
+      "facts": [
+        "Usa un ancho de vía poco común (1372 mm), el mismo que la línea Toei Shinjuku con la que comparte trenes.",
+        "Su estación de Shinjuku está bajo tierra, bajo los grandes almacenes Keiō."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keio-takao",
+      "code": "KO",
+      "color": "#E4579E",
+      "name": "Keiō Takao",
+      "ja": "京王高尾線",
+      "en": "Keiō Takao Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        14306815
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "length_km": 8.6,
+      "summary": "Ramal de Kitano a Takaosanguchi, a los pies del monte Takao.",
+      "facts": [
+        "Muchos trenes salen directos desde Shinjuku: en menos de una hora se pasa del centro de Tokio a la montaña."
+      ]
+    },
+    {
+      "id": "keio-inokashira",
+      "code": "IN",
+      "color": "#3A56A6",
+      "name": "Keiō Inokashira",
+      "ja": "京王井の頭線",
+      "en": "Keiō Inokashira Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        11602038
+      ],
+      "opened": 1933,
+      "length_km": 12.7,
+      "summary": "De Shibuya a Kichijōji, junto al parque Inokashira.",
+      "facts": [
+        "Cada tren lleva el frontal de uno de siete colores distintos: el «arcoíris» del Inokashira."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "seibu-ikebukuro",
+      "code": "SI",
+      "color": "#ED772D",
+      "name": "Seibu Ikebukuro",
+      "ja": "西武池袋線",
+      "en": "Seibu Ikebukuro Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        9477760
+      ],
+      "opened": 1915,
+      "length_km": 57.8,
+      "summary": "De Ikebukuro a Hannō; sus Laview siguen hacia Chichibu, en las montañas.",
+      "facts": [
+        "El expreso limitado Laview, con ventanas enormes, lleva a Chichibu."
+      ],
+      "trains": [],
+      "region": "tokyo",
+      "order": "code"
+    },
+    {
+      "id": "seibu-shinjuku",
+      "code": "SS",
+      "color": "#00A6BF",
+      "name": "Seibu Shinjuku",
+      "ja": "西武新宿線",
+      "en": "Seibu Shinjuku Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        9506864
+      ],
+      "opened": 1927,
+      "length_km": 47.5,
+      "summary": "De Seibu-Shinjuku a Hon-Kawagoe, la «pequeña Edo» de casas de almacén.",
+      "facts": [
+        "Su estación Seibu-Shinjuku está separada de la gran estación de Shinjuku, a unos 5 minutos a pie."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tobu-skytree",
+      "code": "TS",
+      "color": "#0F6CC3",
+      "name": "Tōbu Skytree",
+      "ja": "東武スカイツリーライン",
+      "en": "Tōbu Skytree Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        5392090
+      ],
+      "opened": 1899,
+      "length_km": 41.0,
+      "summary": "De Asakusa a Tōbu-Dōbutsu-Kōen pasando junto al Tokyo Skytree; puerta hacia Nikkō.",
+      "facts": [
+        "Nada más salir de Asakusa cruza el río Sumida con la Skytree de fondo.",
+        "Los expresos SPACIA X siguen hasta Nikkō y Kinugawa."
+      ],
+      "trains": [],
+      "region": "tokyo",
+      "extra_stops": [
+        11065584
+      ],
+      "order": "code",
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"伊勢崎線|スカイツリーライン\"]",
+        "bbox": [
+          35.69,
+          139.78,
+          36.07,
+          139.82
+        ],
+        "stops_only": true
+      }
+    },
+    {
+      "id": "tobu-tojo",
+      "code": "TJ",
+      "color": "#004DA3",
+      "name": "Tōbu Tōjō",
+      "ja": "東武東上線",
+      "en": "Tōbu Tōjō Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        10032085
+      ],
+      "opened": 1914,
+      "length_km": 75.0,
+      "summary": "De Ikebukuro a Yorii por Kawagoe, hacia el noroeste de Saitama.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keikyu-main",
+      "code": "KK",
+      "color": "#00A7E3",
+      "name": "Keikyū principal",
+      "ja": "京急本線",
+      "en": "Keikyū Main Line",
+      "operator": "keikyu",
+      "type": "commuter",
+      "osm": [
+        9498719
+      ],
+      "length_km": 56.7,
+      "summary": "De Shinagawa a Uraga por Yokohama, con trenes rojos a 120 km/h.",
+      "facts": [
+        "Entre Shinagawa y Yokohama sus trenes rojos llegan a 120 km/h, compitiendo con JR en el mismo corredor.",
+        "Comparte trenes con el metro Asakusa y la red Keisei: se puede ir de Haneda a Narita sin cambiar."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keikyu-airport",
+      "code": "KK",
+      "color": "#35B8E8",
+      "name": "Keikyū Aeropuerto",
+      "ja": "京急空港線",
+      "en": "Keikyū Airport Line",
+      "operator": "keikyu",
+      "type": "commuter",
+      "osm": [
+        3340251
+      ],
+      "length_km": 6.5,
+      "summary": "De Keikyū-Kamata al aeropuerto de Haneda.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keisei-main",
+      "code": "KS",
+      "color": "#005AAA",
+      "name": "Keisei principal",
+      "ja": "京成本線",
+      "en": "Keisei Main Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        9479857
+      ],
+      "opened": 1912,
+      "length_km": 69.3,
+      "summary": "De Keisei-Ueno al aeropuerto de Narita; el Skyliner va por la Narita Sky Access, más directa.",
+      "facts": [
+        "El Skyliner llega a 160 km/h en la Narita Sky Access: el tren convencional (no Shinkansen) más rápido de Japón."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "keisei-oshiage",
+      "code": "KS",
+      "color": "#2E7BC4",
+      "name": "Keisei Oshiage",
+      "ja": "京成押上線",
+      "en": "Keisei Oshiage Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        9480126
+      ],
+      "length_km": 5.7,
+      "summary": "Oshiage–Aoto: el enlace entre el metro Asakusa y la red Keisei.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tsukuba-express",
+      "code": "TX",
+      "color": "#1E3F95",
+      "name": "Tsukuba Express",
+      "ja": "つくばエクスプレス",
+      "en": "Tsukuba Express",
+      "operator": "mir",
+      "type": "commuter",
+      "osm": [
+        4589046
+      ],
+      "opened": 2005,
+      "length_km": 58.3,
+      "summary": "De Akihabara a Tsukuba, la ciudad de la ciencia, a 130 km/h y sin pasos a nivel.",
+      "facts": [
+        "Al norte de Moriya pasa de corriente continua a alterna para no perturbar un observatorio geomagnético cercano (Kakioka).",
+        "Tiene puertas de andén en todas las estaciones y conducción automática."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "sotetsu",
+      "code": "SO",
+      "color": "#0C1E56",
+      "name": "Sōtetsu principal",
+      "ja": "相鉄本線",
+      "en": "Sōtetsu Main Line",
+      "operator": "sotetsu",
+      "type": "commuter",
+      "osm": [
+        10358686
+      ],
+      "length_km": 24.6,
+      "summary": "De Yokohama a Ebina; desde 2019–2023 enlaza con JR y Tōkyū hacia el centro de Tokio.",
+      "facts": [
+        "Sus trenes nuevos van pintados de «Yokohama Navy Blue», un azul marino muy oscuro."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "tama-monorail",
+      "code": "TT",
+      "color": "#E86A10",
+      "name": "Monorraíl de Tama",
+      "ja": "多摩モノレール",
+      "en": "Tama Monorail",
+      "operator": "tama-monorail",
+      "type": "monorail",
+      "osm": [
+        3417185
+      ],
+      "opened": 1998,
+      "length_km": 16.0,
+      "summary": "Monorraíl norte–sur de Kamikitadai a Tama-Center, por Tachikawa.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "enoden",
+      "code": "EN",
+      "color": "#1E7D4F",
+      "name": "Enoden",
+      "ja": "江ノ島電鉄",
+      "en": "Enoshima Electric Railway",
+      "operator": "enoden",
+      "type": "tram",
+      "osm": [
+        9499956
+      ],
+      "opened": 1902,
+      "length_km": 10.0,
+      "summary": "De Fujisawa a Kamakura junto al mar, entre casas, calles y playas.",
+      "facts": [
+        "Entre Enoshima y Koshigoe circula por medio de la calle, entre coches y peatones.",
+        "El paso a nivel de Kamakura-Kōkōmae, con el mar de fondo, es famoso por el anime «Slam Dunk»."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "yokohama-blue",
+      "code": "B",
+      "color": "#005BA5",
+      "name": "Metro de Yokohama: línea Azul",
+      "ja": "ブルーライン",
+      "en": "Yokohama Blue Line",
+      "operator": "yokohama-subway",
+      "type": "metro",
+      "osm": [
+        1905261
+      ],
+      "opened": 1972,
+      "length_km": 40.4,
+      "summary": "De Azamino a Shōnandai por Shin-Yokohama y el centro de Yokohama.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "yokohama-green",
+      "code": "G",
+      "color": "#048D58",
+      "name": "Metro de Yokohama: línea Verde",
+      "ja": "グリーンライン",
+      "en": "Yokohama Green Line",
+      "operator": "yokohama-subway",
+      "type": "metro",
+      "osm": [
+        7732275
+      ],
+      "opened": 2008,
+      "length_km": 13.0,
+      "summary": "De Hiyoshi a Nakayama, con trenes de motor lineal.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "minatomirai",
+      "code": "MM",
+      "color": "#0F3C85",
+      "name": "Línea Minatomirai",
+      "ja": "みなとみらい線",
+      "en": "Minatomirai Line",
+      "operator": "minatomirai",
+      "type": "metro",
+      "osm": [
+        1905260
+      ],
+      "opened": 2004,
+      "length_km": 4.1,
+      "summary": "De Yokohama a Motomachi-Chūkagai (el barrio chino) por Minato Mirai; continúa la Tōkyū Tōyoko.",
+      "facts": [
+        "Cada una de sus estaciones la diseñó un arquitecto distinto."
+      ],
+      "trains": [],
+      "region": "tokyo"
     }
   ],
   "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas). 'order': 'code' ordena por el código de estación (cuando OSM trae todos).",

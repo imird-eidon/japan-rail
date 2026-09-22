@@ -26,7 +26,28 @@
     "八瀬比叡山口": "Yase-Hieizanguchi",
     "茶山・京都芸術大学": "Chayama-Kyoto Geijutsu Daigaku",
     "木野": "Kino",
-    "等持院・立命館大学衣笠キャンパス前": "Tojiin-Ritsumeikan Univ."
+    "等持院・立命館大学衣笠キャンパス前": "Tojiin-Ritsumeikan Univ.",
+    "辻堂": "Tsujido",
+    "蒲須坂": "Kamasusaka",
+    "野崎": "Nozaki",
+    "相武台前": "Sobudai-mae",
+    "座間": "Zama",
+    "厚木": "Atsugi",
+    "本厚木": "Hon-Atsugi",
+    "明大前": "Meidaimae",
+    "八幡山": "Hachimanyama",
+    "調布": "Chofu",
+    "西調布": "Nishi-Chofu",
+    "百草園": "Mogusaen",
+    "牛田": "Ushida",
+    "谷塚": "Yatsuka",
+    "北春日部": "Kita-Kasukabe",
+    "東武動物公園": "Tobu-Dobutsu-Koen",
+    "京王片倉": "Keio-Katakura",
+    "山田": "Yamada",
+    "めじろ台": "Mejirodai",
+    "狭間": "Hazama",
+    "高尾山口": "Takaosanguchi"
   },
   "station_codes": {
     "oedo": {
@@ -60,6 +81,69 @@
       "北野白梅町": "B09",
       "等持院・立命館大学衣笠キャンパス前": "B08",
       "帷子ノ辻": "A08"
+    },
+    "shonan-shinjuku": {
+      "大崎": "JS17"
+    },
+    "tokyu-denentoshi": {
+      "二子玉川": "DT07"
+    },
+    "seibu-ikebukuro": {
+      "池袋": "SI01",
+      "椎名町": "SI02",
+      "東長崎": "SI03",
+      "桜台": "SI05",
+      "練馬": "SI06",
+      "中村橋": "SI07",
+      "富士見台": "SI08",
+      "練馬高野台": "SI09",
+      "大泉学園": "SI11",
+      "小手指": "SI19",
+      "狭山ヶ丘": "SI20",
+      "仏子": "SI24",
+      "元加治": "SI25"
+    },
+    "sotetsu": {
+      "平沼橋": "SO02"
+    },
+    "tobu-skytree": {
+      "浅草": "TS01",
+      "とうきょうスカイツリー": "TS02",
+      "押上": "TS03",
+      "曳舟": "TS04",
+      "東向島": "TS05",
+      "鐘ヶ淵": "TS06",
+      "堀切": "TS07",
+      "牛田": "TS08",
+      "北千住": "TS09",
+      "小菅": "TS10",
+      "五反野": "TS11",
+      "梅島": "TS12",
+      "西新井": "TS13",
+      "竹ノ塚": "TS14",
+      "谷塚": "TS15",
+      "草加": "TS16",
+      "獨協大学前": "TS17",
+      "新田": "TS18",
+      "蒲生": "TS19",
+      "新越谷": "TS20",
+      "越谷": "TS21",
+      "北越谷": "TS22",
+      "大袋": "TS23",
+      "せんげん台": "TS24",
+      "武里": "TS25",
+      "一ノ割": "TS26",
+      "春日部": "TS27",
+      "北春日部": "TS28",
+      "姫宮": "TS29",
+      "東武動物公園": "TS30"
+    },
+    "ome": {
+      "西立川": "JC51",
+      "東中神": "JC52"
+    },
+    "takasaki": {
+      "大宮": "JU07"
     }
   },
   "stop_nodes": {

@@ -41,7 +41,8 @@ export const trainRegion = (net, t) => {
 
 /** Minúsculas y sin acentos/macrones, para comparar textos. */
 export const norm = (s) =>
-  String(s ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  String(s ?? "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+    .replace(/[\s\-'’・.()]/g, ""); // «Shin-Ōkubo» = «shinokubo», «San'yō» = «sanyo»
 
 export const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);

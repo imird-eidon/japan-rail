@@ -1,5 +1,5 @@
 {
-  "_comment": "Lista de pendientes para INVENTARIO.md. Elementos con 'line', 'train' o 'region' se marcan solos cuando ese id existe en los datos; los demás ('task') se marcan a mano con \"done\": true. 'osm' es una pista para buscar la relación en OpenStreetMap.",
+  "_comment": "Lista de pendientes para INVENTARIO.md. Elementos con 'line', 'lines' (todas), 'train' o 'region' se marcan solos cuando ese id existe en los datos; los demás ('task') se marcan a mano con \"done\": true. 'osm' es una pista para buscar la relación en OpenStreetMap.",
   "phases": [
     {
       "title": "Fase 1 · Completar Tokio",
@@ -8,42 +8,150 @@
         {
           "title": "JR East que faltan",
           "items": [
-            { "line": "keiyo", "name": "Línea Keiyō (JE) — Tokio–Soga, hacia Disneyland" },
-            { "line": "joban", "name": "Línea Jōban (JJ/JL) — Ueno/Shinagawa–Toride" },
-            { "line": "musashino", "name": "Línea Musashino (JM) — el anillo exterior" },
-            { "line": "nambu", "name": "Línea Nambu (JN)" },
-            { "line": "yokohama-line", "name": "Línea Yokohama (JH)" },
-            { "line": "tokaido-jt", "name": "Línea Tōkaidō (JT) — Tokio–Odawara/Atami" },
-            { "line": "yokosuka", "name": "Línea Yokosuka (JO) — hacia Kamakura" },
-            { "line": "shonan-shinjuku", "name": "Línea Shōnan-Shinjuku (JS)" },
-            { "line": "utsunomiya-takasaki", "name": "Líneas Utsunomiya y Takasaki / Ueno-Tokyo Line (JU)" },
-            { "line": "ome", "name": "Línea Ōme (JC) — hacia las montañas de Okutama" }
+            {
+              "line": "keiyo",
+              "name": "Línea Keiyō (JE) — Tokio–Soga, hacia Disneyland"
+            },
+            {
+              "name": "Línea Jōban (JJ/JL) — Ueno/Shinagawa–Toride",
+              "lines": [
+                "joban-rapid",
+                "joban-local"
+              ]
+            },
+            {
+              "line": "musashino",
+              "name": "Línea Musashino (JM) — el anillo exterior"
+            },
+            {
+              "line": "nambu",
+              "name": "Línea Nambu (JN)"
+            },
+            {
+              "line": "yokohama-line",
+              "name": "Línea Yokohama (JH)"
+            },
+            {
+              "line": "tokaido-jt",
+              "name": "Línea Tōkaidō (JT) — Tokio–Odawara/Atami"
+            },
+            {
+              "line": "yokosuka",
+              "name": "Línea Yokosuka (JO) — hacia Kamakura"
+            },
+            {
+              "line": "shonan-shinjuku",
+              "name": "Línea Shōnan-Shinjuku (JS)"
+            },
+            {
+              "name": "Líneas Utsunomiya y Takasaki / Ueno-Tokyo Line (JU)",
+              "lines": [
+                "utsunomiya",
+                "takasaki"
+              ]
+            },
+            {
+              "line": "ome",
+              "name": "Línea Ōme (JC) — hacia las montañas de Okutama"
+            }
           ]
         },
         {
           "title": "Compañías privadas de Tokio",
           "items": [
-            { "line": "tokyu-toyoko", "name": "Tōkyū Tōyoko — Shibuya–Yokohama" },
-            { "line": "tokyu-denentoshi", "name": "Tōkyū Den-en-toshi" },
-            { "line": "tokyu-meguro", "name": "Tōkyū Meguro, Ōimachi, Ikegami y Tamagawa" },
-            { "line": "tokyu-setagaya", "name": "Tōkyū Setagaya (tranvía)" },
-            { "line": "odakyu-odawara", "name": "Odakyū Odawara (y el Romancecar) — Shinjuku–Hakone" },
-            { "line": "keio", "name": "Keiō e Inokashira" },
-            { "line": "seibu-ikebukuro", "name": "Seibu Ikebukuro y Shinjuku" },
-            { "line": "tobu-skytree", "name": "Tōbu Skytree y Tōjō" },
-            { "line": "keikyu-main", "name": "Keikyū principal y del aeropuerto de Haneda" },
-            { "line": "keisei-main", "name": "Keisei principal y Skyliner (Narita)" },
-            { "line": "tsukuba-express", "name": "Tsukuba Express — Akihabara–Tsukuba" },
-            { "line": "sotetsu", "name": "Sōtetsu" },
-            { "line": "tama-monorail", "name": "Monorraíl de Tama" },
-            { "line": "enoden", "name": "Enoden — Fujisawa–Kamakura, junto al mar" }
+            {
+              "line": "tokyu-toyoko",
+              "name": "Tōkyū Tōyoko — Shibuya–Yokohama"
+            },
+            {
+              "line": "tokyu-denentoshi",
+              "name": "Tōkyū Den-en-toshi"
+            },
+            {
+              "name": "Tōkyū Meguro, Ōimachi, Ikegami y Tamagawa",
+              "lines": [
+                "tokyu-meguro",
+                "tokyu-oimachi",
+                "tokyu-ikegami",
+                "tokyu-tamagawa"
+              ]
+            },
+            {
+              "line": "tokyu-setagaya",
+              "name": "Tōkyū Setagaya (tranvía)"
+            },
+            {
+              "line": "odakyu-odawara",
+              "name": "Odakyū Odawara (y el Romancecar) — Shinjuku–Hakone"
+            },
+            {
+              "name": "Keiō, Takao e Inokashira",
+              "lines": [
+                "keio",
+                "keio-takao",
+                "keio-inokashira"
+              ]
+            },
+            {
+              "name": "Seibu Ikebukuro y Shinjuku",
+              "lines": [
+                "seibu-ikebukuro",
+                "seibu-shinjuku"
+              ]
+            },
+            {
+              "name": "Tōbu Skytree y Tōjō",
+              "lines": [
+                "tobu-skytree",
+                "tobu-tojo"
+              ]
+            },
+            {
+              "name": "Keikyū principal y del aeropuerto de Haneda",
+              "lines": [
+                "keikyu-main",
+                "keikyu-airport"
+              ]
+            },
+            {
+              "name": "Keisei principal y Skyliner (Narita)",
+              "lines": [
+                "keisei-main",
+                "keisei-oshiage"
+              ]
+            },
+            {
+              "line": "tsukuba-express",
+              "name": "Tsukuba Express — Akihabara–Tsukuba"
+            },
+            {
+              "line": "sotetsu",
+              "name": "Sōtetsu"
+            },
+            {
+              "line": "tama-monorail",
+              "name": "Monorraíl de Tama"
+            },
+            {
+              "line": "enoden",
+              "name": "Enoden — Fujisawa–Kamakura, junto al mar"
+            }
           ]
         },
         {
           "title": "Yokohama",
           "items": [
-            { "line": "yokohama-blue", "name": "Metro de Yokohama: líneas Azul y Verde" },
-            { "line": "minatomirai", "name": "Línea Minatomirai" }
+            {
+              "name": "Metro de Yokohama: líneas Azul y Verde",
+              "lines": [
+                "yokohama-blue",
+                "yokohama-green"
+              ]
+            },
+            {
+              "line": "minatomirai",
+              "name": "Línea Minatomirai"
+            }
           ]
         }
       ]
@@ -55,33 +163,82 @@
         {
           "title": "Ōsaka",
           "items": [
-            { "region": "osaka", "name": "Región «Ōsaka» con su botón en el mapa" },
-            { "line": "osaka-loop", "name": "JR Ōsaka Loop Line (el «Yamanote» de Ōsaka)" },
-            { "line": "midosuji", "name": "Osaka Metro Midōsuji" },
-            { "line": "osaka-metro-rest", "name": "Resto de Osaka Metro (Tanimachi, Yotsubashi, Chūō, Sennichimae, Sakaisuji, Nagahori Tsurumi-ryokuchi, Imazatosuji, New Tram)" },
-            { "line": "nankai-main", "name": "Nankai (y el Rapi:t al aeropuerto de Kansai)" },
-            { "line": "hanshin-main", "name": "Hanshin — Ōsaka–Kōbe" },
-            { "line": "hankyu-kobe", "name": "Hankyu Kōbe y Takarazuka" },
-            { "line": "kintetsu-nara", "name": "Kintetsu Nara y Ōsaka" },
-            { "line": "osaka-monorail", "name": "Monorraíl de Ōsaka" },
-            { "line": "hankai-tram", "name": "Tranvía Hankai" }
+            {
+              "region": "osaka",
+              "name": "Región «Ōsaka» con su botón en el mapa"
+            },
+            {
+              "line": "osaka-loop",
+              "name": "JR Ōsaka Loop Line (el «Yamanote» de Ōsaka)"
+            },
+            {
+              "line": "midosuji",
+              "name": "Osaka Metro Midōsuji"
+            },
+            {
+              "line": "osaka-metro-rest",
+              "name": "Resto de Osaka Metro (Tanimachi, Yotsubashi, Chūō, Sennichimae, Sakaisuji, Nagahori Tsurumi-ryokuchi, Imazatosuji, New Tram)"
+            },
+            {
+              "line": "nankai-main",
+              "name": "Nankai (y el Rapi:t al aeropuerto de Kansai)"
+            },
+            {
+              "line": "hanshin-main",
+              "name": "Hanshin — Ōsaka–Kōbe"
+            },
+            {
+              "line": "hankyu-kobe",
+              "name": "Hankyu Kōbe y Takarazuka"
+            },
+            {
+              "line": "kintetsu-nara",
+              "name": "Kintetsu Nara y Ōsaka"
+            },
+            {
+              "line": "osaka-monorail",
+              "name": "Monorraíl de Ōsaka"
+            },
+            {
+              "line": "hankai-tram",
+              "name": "Tranvía Hankai"
+            }
           ]
         },
         {
           "title": "Kōbe y alrededores",
           "items": [
-            { "line": "kobe-seishin", "name": "Metro de Kōbe" },
-            { "line": "port-liner", "name": "Port Liner y Rokkō Liner" },
-            { "line": "jr-kobe", "name": "Línea JR Kōbe (A)" }
+            {
+              "line": "kobe-seishin",
+              "name": "Metro de Kōbe"
+            },
+            {
+              "line": "port-liner",
+              "name": "Port Liner y Rokkō Liner"
+            },
+            {
+              "line": "jr-kobe",
+              "name": "Línea JR Kōbe (A)"
+            }
           ]
         },
         {
           "title": "Kioto: lo que falta",
           "items": [
-            { "line": "keihan-keishin", "name": "Keihan Keishin e Ishiyama-Sakamoto (hacia el lago Biwa)" },
-            { "line": "kosei", "name": "JR Kosei y Biwako (B / A)" },
-            { "task": "Randen: añadir sus tranvías (series actuales e históricas)" },
-            { "task": "Nippori-Toneri y Randen: trenes que circulan" }
+            {
+              "line": "keihan-keishin",
+              "name": "Keihan Keishin e Ishiyama-Sakamoto (hacia el lago Biwa)"
+            },
+            {
+              "line": "kosei",
+              "name": "JR Kosei y Biwako (B / A)"
+            },
+            {
+              "task": "Randen: añadir sus tranvías (series actuales e históricas)"
+            },
+            {
+              "task": "Nippori-Toneri y Randen: trenes que circulan"
+            }
           ]
         }
       ]
@@ -93,12 +250,30 @@
         {
           "title": "Ciudades",
           "items": [
-            { "region": "nagoya", "name": "Nagoya: metro y Meitetsu" },
-            { "region": "fukuoka", "name": "Fukuoka: metro, Nishitetsu" },
-            { "region": "sapporo", "name": "Sapporo: metro de ruedas de goma y tranvía" },
-            { "region": "sendai", "name": "Sendai: metro" },
-            { "region": "hiroshima", "name": "Hiroshima: tranvía (Hiroden), la mayor red de tranvía de Japón" },
-            { "region": "nagasaki", "name": "Nagasaki, Kumamoto, Kagoshima, Hakodate y otros tranvías" }
+            {
+              "region": "nagoya",
+              "name": "Nagoya: metro y Meitetsu"
+            },
+            {
+              "region": "fukuoka",
+              "name": "Fukuoka: metro, Nishitetsu"
+            },
+            {
+              "region": "sapporo",
+              "name": "Sapporo: metro de ruedas de goma y tranvía"
+            },
+            {
+              "region": "sendai",
+              "name": "Sendai: metro"
+            },
+            {
+              "region": "hiroshima",
+              "name": "Hiroshima: tranvía (Hiroden), la mayor red de tranvía de Japón"
+            },
+            {
+              "region": "nagasaki",
+              "name": "Nagasaki, Kumamoto, Kagoshima, Hakodate y otros tranvías"
+            }
           ]
         }
       ]
@@ -110,24 +285,63 @@
         {
           "title": "Líneas turísticas y de montaña",
           "items": [
-            { "line": "hakone-tozan", "name": "Hakone Tozan — zigzags de montaña" },
-            { "line": "kurobe", "name": "Ferrocarril de la garganta de Kurobe" },
-            { "line": "oigawa", "name": "Ōigawa — trenes de vapor y Abt" },
-            { "line": "gono", "name": "Línea Gonō, junto al mar de Japón" },
-            { "line": "tadami", "name": "Línea Tadami" },
-            { "line": "fujikyu", "name": "Fujikyū — hacia el monte Fuji" }
+            {
+              "line": "hakone-tozan",
+              "name": "Hakone Tozan — zigzags de montaña"
+            },
+            {
+              "line": "kurobe",
+              "name": "Ferrocarril de la garganta de Kurobe"
+            },
+            {
+              "line": "oigawa",
+              "name": "Ōigawa — trenes de vapor y Abt"
+            },
+            {
+              "line": "gono",
+              "name": "Línea Gonō, junto al mar de Japón"
+            },
+            {
+              "line": "tadami",
+              "name": "Línea Tadami"
+            },
+            {
+              "line": "fujikyu",
+              "name": "Fujikyū — hacia el monte Fuji"
+            }
           ]
         },
         {
           "title": "Expresos limitados y nocturnos",
           "items": [
-            { "train": "sunrise-izumo", "name": "Sunrise Izumo / Seto — el último tren nocturno regular" },
-            { "train": "romancecar", "name": "Odakyū Romancecar" },
-            { "train": "narita-express", "name": "Narita Express" },
-            { "train": "haruka", "name": "Haruka (aeropuerto de Kansai)" },
-            { "train": "thunderbird", "name": "Thunderbird" },
-            { "train": "hinotori", "name": "Kintetsu Hinotori" },
-            { "train": "sl-yamaguchi", "name": "Trenes de vapor (SL Yamaguchi, SL Taiju…)" }
+            {
+              "train": "sunrise-izumo",
+              "name": "Sunrise Izumo / Seto — el último tren nocturno regular"
+            },
+            {
+              "train": "romancecar",
+              "name": "Odakyū Romancecar"
+            },
+            {
+              "train": "narita-express",
+              "name": "Narita Express"
+            },
+            {
+              "train": "haruka",
+              "name": "Haruka (aeropuerto de Kansai)"
+            },
+            {
+              "train": "thunderbird",
+              "name": "Thunderbird"
+            },
+            {
+              "train": "hinotori",
+              "name": "Kintetsu Hinotori"
+            },
+            {
+              "train": "sl-yamaguchi",
+              "name": "Trenes de vapor (SL Yamaguchi, SL Taiju…)"
+            }
           ]
         }
       ]
@@ -138,19 +352,40 @@
         {
           "title": "Servicios y ramales",
           "items": [
-            { "task": "Servicios (Nozomi, Hikari, Kodama, Hayabusa…) y en qué estaciones para cada uno" },
-            { "line": "hakata-minami", "name": "Ramal Hakata-Minami" },
-            { "line": "gala-yuzawa", "name": "Ramal de Gala-Yuzawa (estación de esquí)" },
-            { "train": "sk-e2", "name": "Serie E2 (actual/histórico, fechas por confirmar)" },
-            { "train": "sk-923", "name": "Doctor Yellow (923), el tren amarillo de inspección" }
+            {
+              "task": "Servicios (Nozomi, Hikari, Kodama, Hayabusa…) y en qué estaciones para cada uno"
+            },
+            {
+              "line": "hakata-minami",
+              "name": "Ramal Hakata-Minami"
+            },
+            {
+              "line": "gala-yuzawa",
+              "name": "Ramal de Gala-Yuzawa (estación de esquí)"
+            },
+            {
+              "train": "sk-e2",
+              "name": "Serie E2 (actual/histórico, fechas por confirmar)"
+            },
+            {
+              "train": "sk-923",
+              "name": "Doctor Yellow (923), el tren amarillo de inspección"
+            }
           ]
         },
         {
           "title": "En obras o proyectadas",
           "items": [
-            { "line": "chuo-shinkansen", "name": "Chūō Shinkansen (maglev) — Shinagawa–Nagoya, en construcción" },
-            { "task": "Prolongación del Hokkaidō Shinkansen a Sapporo (en obras)" },
-            { "task": "Prolongación del Hokuriku Shinkansen de Tsuruga a Ōsaka (proyecto)" }
+            {
+              "line": "chuo-shinkansen",
+              "name": "Chūō Shinkansen (maglev) — Shinagawa–Nagoya, en construcción"
+            },
+            {
+              "task": "Prolongación del Hokkaidō Shinkansen a Sapporo (en obras)"
+            },
+            {
+              "task": "Prolongación del Hokuriku Shinkansen de Tsuruga a Ōsaka (proyecto)"
+            }
           ]
         }
       ]
@@ -161,20 +396,38 @@
         {
           "title": "Explorar",
           "items": [
-            { "task": "Buscar ruta entre dos estaciones (transbordos, líneas)" },
-            { "task": "Línea del tiempo: aperturas de líneas y trenes por año" },
-            { "task": "Récords: estación más profunda, línea más antigua, tren más rápido…" },
-            { "task": "Página de cada compañía (operador)" },
-            { "task": "Estaciones: año de apertura y viajeros diarios" }
+            {
+              "task": "Buscar ruta entre dos estaciones (transbordos, líneas)"
+            },
+            {
+              "task": "Línea del tiempo: aperturas de líneas y trenes por año"
+            },
+            {
+              "task": "Récords: estación más profunda, línea más antigua, tren más rápido…"
+            },
+            {
+              "task": "Página de cada compañía (operador)"
+            },
+            {
+              "task": "Estaciones: año de apertura y viajeros diarios"
+            }
           ]
         },
         {
           "title": "Técnico",
           "items": [
-            { "task": "URLs con versión en JS/CSS para que Cloudflare nunca sirva una versión vieja" },
-            { "task": "Vista previa al compartir enlaces (Open Graph: imagen y descripción)" },
-            { "task": "Interfaz también en inglés" },
-            { "task": "Reducir el peso de las fotos (WebP) cuando crezca el número" }
+            {
+              "task": "URLs con versión en JS/CSS para que Cloudflare nunca sirva una versión vieja"
+            },
+            {
+              "task": "Vista previa al compartir enlaces (Open Graph: imagen y descripción)"
+            },
+            {
+              "task": "Interfaz también en inglés"
+            },
+            {
+              "task": "Reducir el peso de las fotos (WebP) cuando crezca el número"
+            }
           ]
         }
       ]
@@ -185,10 +438,18 @@
         {
           "title": "Textos y fotos",
           "items": [
-            { "task": "Fotos de estaciones (Wikimedia Commons)" },
-            { "task": "Más datos curiosos de estaciones (ver huecos detectados)" },
-            { "task": "Datos curiosos para los trenes que no tienen" },
-            { "task": "Trenes históricos para las líneas que no tienen (ver huecos detectados)" }
+            {
+              "task": "Fotos de estaciones (Wikimedia Commons)"
+            },
+            {
+              "task": "Más datos curiosos de estaciones (ver huecos detectados)"
+            },
+            {
+              "task": "Datos curiosos para los trenes que no tienen"
+            },
+            {
+              "task": "Trenes históricos para las líneas que no tienen (ver huecos detectados)"
+            }
           ]
         }
       ]

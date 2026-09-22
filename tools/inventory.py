@@ -91,7 +91,7 @@ def main():
         w("|---|---|---|--:|---|---|--:|")
         for l in ls:
             cur = ", ".join(t["name"] for t in cur_by_line[l["id"]]) or "—"
-            hist = ", ".join(t["name"] for t in sorted(hist_by_line[l["id"]], key=lambda t: t["introduced"])) or "—"
+            hist = ", ".join(t["name"] for t in sorted(hist_by_line[l["id"]], key=lambda t: t.get("introduced", 0))) or "—"
             w(f"| {l['code']} | {link('line', l['id'], l['name'])} | {ops.get(l['operator'], {}).get('name', l['operator'])} "
               f"| {len(l['stations'])} | {cur} | {hist} | {len(l.get('facts', []))} |")
         w("")
@@ -154,6 +154,8 @@ def main():
 def is_done(it, line_by_id, train_ids, regions, lines):
     if "line" in it:
         return it["line"] in line_by_id
+    if "lines" in it:
+        return all(l in line_by_id for l in it["lines"])
     if "train" in it:
         return it["train"] in train_ids
     if "region" in it:
