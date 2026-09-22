@@ -293,6 +293,274 @@
       ]
     },
     {
+      "title": "Fase 2b · Completar Tokio y Kansai (huecos detectados)",
+      "why": "Salen de la auditoría contra OpenStreetMap (AUDITORIA.md): ramales y líneas urbanas que faltan en las zonas ya hechas.",
+      "groups": [
+        {
+          "title": "Tokio · ramales de compañías que ya están",
+          "items": [
+            {
+              "lines": [
+                "keikyu-kurihama",
+                "keikyu-zushi",
+                "keikyu-daishi"
+              ],
+              "name": "Keikyū Kurihama (hasta Misakiguchi), Zushi y Daishi"
+            },
+            {
+              "lines": [
+                "keisei-kanamachi"
+              ],
+              "name": "Keisei Kanamachi — Shibamata (Tora-san)"
+            },
+            {
+              "lines": [
+                "keisei-chiba",
+                "keisei-chihara",
+                "keisei-matsudo"
+              ],
+              "name": "Keisei Chiba, Chihara y Matsudo (ex Shin-Keisei)"
+            },
+            {
+              "lines": [
+                "hokuso",
+                "keisei-higashi-narita",
+                "shibayama"
+              ],
+              "name": "Hokusō / Narita Sky Access, Keisei Higashi-Narita y Shibayama"
+            },
+            {
+              "lines": [
+                "keio-new",
+                "keio-sagamihara",
+                "keio-keibajo",
+                "keio-dobutsuen"
+              ],
+              "name": "Keiō Nueva Línea (Hatsudai, Hatagaya), Sagamihara, Keibajō y Dōbutsuen"
+            },
+            {
+              "line": "odakyu-tama",
+              "name": "Odakyū Tama"
+            },
+            {
+              "lines": [
+                "seibu-haijima",
+                "seibu-kokubunji",
+                "seibu-tamako",
+                "seibu-tamagawa",
+                "seibu-sayama",
+                "seibu-yamaguchi",
+                "seibu-seibuen",
+                "seibu-yurakucho",
+                "seibu-toshima"
+              ],
+              "name": "Seibu: Haijima, Kokubunji, Tamako, Tamagawa, Sayama, Yamaguchi, Seibu-en, Yūrakuchō y Toshima (estudio de Harry Potter)"
+            },
+            {
+              "lines": [
+                "tobu-kameido",
+                "tobu-daishi",
+                "tobu-urban-park",
+                "tobu-ogose"
+              ],
+              "name": "Tōbu Kameido, Daishi, Urban Park y Ogose"
+            },
+            {
+              "lines": [
+                "tokyu-kodomonokuni",
+                "tokyu-shin-yokohama",
+                "sotetsu-izumino",
+                "sotetsu-shin-yokohama"
+              ],
+              "name": "Tōkyū Kodomonokuni y Shin-Yokohama; Sōtetsu Izumino y Shin-Yokohama"
+            },
+            {
+              "line": "chiyoda-branch",
+              "name": "Tokyo Metro Chiyoda: ramal de Kita-Ayase"
+            },
+            {
+              "lines": [
+                "tsurumi",
+                "nambu-branch",
+                "sagami",
+                "itsukaichi",
+                "hachiko",
+                "kawagoe"
+              ],
+              "name": "JR Tsurumi, ramal Nambu, Sagami, Itsukaichi, Hachikō y Kawagoe"
+            }
+          ]
+        },
+        {
+          "title": "Tokio · otras compañías del área metropolitana",
+          "items": [
+            {
+              "lines": [
+                "saitama-rapid",
+                "toyo-rapid"
+              ],
+              "name": "Saitama Rapid Railway y Tōyō Rapid (continúan las líneas Namboku y Tōzai)"
+            },
+            {
+              "lines": [
+                "new-shuttle",
+                "kanazawa-seaside",
+                "disney-resort-line"
+              ],
+              "name": "New Shuttle, Kanazawa Seaside Line y Disney Resort Line"
+            },
+            {
+              "lines": [
+                "ryutetsu",
+                "yamaman"
+              ],
+              "name": "Ryūtetsu (Nagareyama) y Yamaman Yukarigaoka"
+            }
+          ]
+        },
+        {
+          "title": "Kansai · ramales de compañías que ya están",
+          "items": [
+            {
+              "lines": [
+                "hanwa",
+                "hanwa-branch",
+                "jr-takarazuka",
+                "katamachi",
+                "yamatoji",
+                "jr-tozai",
+                "osaka-higashi",
+                "sakurai"
+              ],
+              "name": "JR West: Hanwa, Takarazuka, Gakkentoshi (Katamachi), Yamatoji, JR Tōzai, Osaka Higashi y Sakurai"
+            },
+            {
+              "lines": [
+                "kintetsu-minami-osaka",
+                "kintetsu-nagano",
+                "kintetsu-domyoji",
+                "kintetsu-gose",
+                "kintetsu-keihanna",
+                "kintetsu-ikoma",
+                "kintetsu-tenri",
+                "kintetsu-tawaramoto",
+                "kintetsu-shigi"
+              ],
+              "name": "Kintetsu: Minami-Ōsaka, Nagano, Dōmyōji, Gose, Keihanna, Ikoma, Tenri, Tawaramoto y Shigi"
+            },
+            {
+              "lines": [
+                "hankyu-senri",
+                "hankyu-imazu",
+                "hankyu-itami",
+                "hankyu-minoo",
+                "hankyu-koyo"
+              ],
+              "name": "Hankyu: Senri, Imazu, Itami, Minoo y Kōyō"
+            },
+            {
+              "lines": [
+                "hanshin-mukogawa",
+                "kobe-kosoku"
+              ],
+              "name": "Hanshin Mukogawa y Kōbe Kōsoku"
+            },
+            {
+              "lines": [
+                "nankai-semboku",
+                "nankai-shiomibashi",
+                "nankai-takashinohama"
+              ],
+              "name": "Nankai: Semboku, Shiomibashi y Takashinohama"
+            },
+            {
+              "lines": [
+                "keihan-katano",
+                "keihan-nakanoshima"
+              ],
+              "name": "Keihan Katano y Nakanoshima"
+            },
+            {
+              "line": "osaka-monorail-saito",
+              "name": "Monorraíl de Ōsaka: ramal de Saito"
+            }
+          ]
+        },
+        {
+          "title": "Kansai · otras compañías",
+          "items": [
+            {
+              "lines": [
+                "kobe-electric-arima",
+                "kobe-electric-sanda",
+                "kobe-electric-ao",
+                "kobe-electric-koen-toshi"
+              ],
+              "name": "Kōbe Dentetsu (Arima, Sanda, Ao y Kōen-toshi)"
+            },
+            {
+              "line": "sanyo-electric",
+              "name": "Sanyō Dentetsu (Kōbe–Himeji)"
+            },
+            {
+              "lines": [
+                "nose-myoken",
+                "nose-nissei"
+              ],
+              "name": "Nose Dentetsu (Myōken y Nissei)"
+            }
+          ]
+        },
+        {
+          "title": "Periferia (más lejos; mejor para fases posteriores)",
+          "items": [
+            {
+              "lines": [
+                "sobu-main",
+                "narita-line",
+                "uchibo",
+                "sotobo",
+                "togane",
+                "kururi"
+              ],
+              "name": "JR en Chiba: Sōbu principal, Narita, Uchibō, Sotobō, Tōgane y Kururi"
+            },
+            {
+              "lines": [
+                "gotemba",
+                "joban-far",
+                "tohoku-far"
+              ],
+              "name": "JR Gotemba y tramos lejanos de la Jōban y la Tōhoku"
+            },
+            {
+              "lines": [
+                "kanto-joso",
+                "kanto-ryugasaki",
+                "daiyuzan"
+              ],
+              "name": "Kantō Railway (Jōsō, Ryūgasaki) e Izuhakone Daiyūzan"
+            },
+            {
+              "lines": [
+                "seibu-chichibu",
+                "tobu-nikko",
+                "tobu-isesaki"
+              ],
+              "name": "Seibu Chichibu, Tōbu Nikkō e Isesaki (hacia Nikkō y Chichibu)"
+            },
+            {
+              "lines": [
+                "isumi",
+                "kominato"
+              ],
+              "name": "Isumi y Kominato (trenes rurales de Chiba)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Fase 3 · Otras ciudades",
       "why": "Una ciudad por vez, empezando por las de redes más interesantes.",
       "groups": [

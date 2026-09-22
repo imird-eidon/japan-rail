@@ -4,7 +4,7 @@
 
 ## Resumen
 
-**Progreso de la hoja de ruta: 50 de 85 tareas.**
+**Progreso de la hoja de ruta: 50 de 114 tareas.**
 
 | Región | Líneas | Estaciones | Trenes actuales | Trenes históricos |
 |---|--:|--:|--:|--:|
@@ -188,6 +188,8 @@ Salen solos de los datos: son buenas tareas pequeñas para ir completando.
 
 ## Lo que queda
 
+La lista de huecos respecto a OpenStreetMap está en [AUDITORIA.md](AUDITORIA.md) (`tools/audit_coverage.py`).
+
 Por fases. Las casillas de líneas, trenes y regiones se marcan solas cuando existen en los datos.
 
 ### Fase 1 · Completar Tokio (27/27)
@@ -263,6 +265,54 @@ _Kioto ya llega hasta Ōsaka y Nara por varias líneas; falta el centro de Ōsak
 **Otros**
 
 - [x] Monorraíl de Chiba — el monorraíl suspendido más largo del mundo
+
+### Fase 2b · Completar Tokio y Kansai (huecos detectados) (0/29)
+
+_Salen de la auditoría contra OpenStreetMap (AUDITORIA.md): ramales y líneas urbanas que faltan en las zonas ya hechas._
+
+**Tokio · ramales de compañías que ya están**
+
+- [ ] Keikyū Kurihama (hasta Misakiguchi), Zushi y Daishi
+- [ ] Keisei Kanamachi — Shibamata (Tora-san)
+- [ ] Keisei Chiba, Chihara y Matsudo (ex Shin-Keisei)
+- [ ] Hokusō / Narita Sky Access, Keisei Higashi-Narita y Shibayama
+- [ ] Keiō Nueva Línea (Hatsudai, Hatagaya), Sagamihara, Keibajō y Dōbutsuen
+- [ ] Odakyū Tama
+- [ ] Seibu: Haijima, Kokubunji, Tamako, Tamagawa, Sayama, Yamaguchi, Seibu-en, Yūrakuchō y Toshima (estudio de Harry Potter)
+- [ ] Tōbu Kameido, Daishi, Urban Park y Ogose
+- [ ] Tōkyū Kodomonokuni y Shin-Yokohama; Sōtetsu Izumino y Shin-Yokohama
+- [ ] Tokyo Metro Chiyoda: ramal de Kita-Ayase
+- [ ] JR Tsurumi, ramal Nambu, Sagami, Itsukaichi, Hachikō y Kawagoe
+
+**Tokio · otras compañías del área metropolitana**
+
+- [ ] Saitama Rapid Railway y Tōyō Rapid (continúan las líneas Namboku y Tōzai)
+- [ ] New Shuttle, Kanazawa Seaside Line y Disney Resort Line
+- [ ] Ryūtetsu (Nagareyama) y Yamaman Yukarigaoka
+
+**Kansai · ramales de compañías que ya están**
+
+- [ ] JR West: Hanwa, Takarazuka, Gakkentoshi (Katamachi), Yamatoji, JR Tōzai, Osaka Higashi y Sakurai
+- [ ] Kintetsu: Minami-Ōsaka, Nagano, Dōmyōji, Gose, Keihanna, Ikoma, Tenri, Tawaramoto y Shigi
+- [ ] Hankyu: Senri, Imazu, Itami, Minoo y Kōyō
+- [ ] Hanshin Mukogawa y Kōbe Kōsoku
+- [ ] Nankai: Semboku, Shiomibashi y Takashinohama
+- [ ] Keihan Katano y Nakanoshima
+- [ ] Monorraíl de Ōsaka: ramal de Saito
+
+**Kansai · otras compañías**
+
+- [ ] Kōbe Dentetsu (Arima, Sanda, Ao y Kōen-toshi)
+- [ ] Sanyō Dentetsu (Kōbe–Himeji)
+- [ ] Nose Dentetsu (Myōken y Nissei)
+
+**Periferia (más lejos; mejor para fases posteriores)**
+
+- [ ] JR en Chiba: Sōbu principal, Narita, Uchibō, Sotobō, Tōgane y Kururi
+- [ ] JR Gotemba y tramos lejanos de la Jōban y la Tōhoku
+- [ ] Kantō Railway (Jōsō, Ryūgasaki) e Izuhakone Daiyūzan
+- [ ] Seibu Chichibu, Tōbu Nikkō e Isesaki (hacia Nikkō y Chichibu)
+- [ ] Isumi y Kominato (trenes rurales de Chiba)
 
 ### Fase 3 · Otras ciudades (0/6)
 

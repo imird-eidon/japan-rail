@@ -128,6 +128,7 @@ def main():
 
     # ---------------------------------------------------------------- lo que queda
     w("## Lo que queda\n")
+    w("La lista de huecos respecto a OpenStreetMap está en [AUDITORIA.md](AUDITORIA.md) (`tools/audit_coverage.py`).\n")
     w("Por fases. Las casillas de líneas, trenes y regiones se marcan solas cuando existen en los datos.\n")
     train_ids = {t["id"] for t in trains}
     total = done_n = 0
