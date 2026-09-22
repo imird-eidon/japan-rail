@@ -375,8 +375,8 @@
               "name": "Tōkyū Kodomonokuni y Shin-Yokohama; Sōtetsu Izumino y Shin-Yokohama"
             },
             {
-              "line": "chiyoda-branch",
-              "name": "Tokyo Metro Chiyoda: ramal de Kita-Ayase"
+              "task": "Tokyo Metro Chiyoda: ramal de Kita-Ayase",
+              "done": true
             },
             {
               "lines": [

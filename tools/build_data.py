@@ -71,7 +71,7 @@ def slugify(s):
 JA_ALIASES = {"新線新宿": "新宿"}
 
 
-PLATFORM_RE = re.compile(r"(\d+\s*番(線|のりば|ホーム)?|のりば|方面|ホーム)")
+PLATFORM_RE = re.compile(r"(\d+\s*(番|号)(線|のりば|ホーム)?|のりば|方面|ホーム)")
 
 
 def normalize_ja(name):

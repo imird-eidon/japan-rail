@@ -66,7 +66,55 @@
     "草津": "Kusatsu",
     "長浜": "Nagahama",
     "我孫子道": "Abikomichi",
-    "宿院": "Shukuin"
+    "宿院": "Shukuin",
+    "小島新田": "Kojimashinden",
+    "京王多摩センター": "Keio-Tama-Center",
+    "小田急多摩センター": "Odakyu-Tama-Center",
+    "唐木田": "Karakida",
+    "八木崎": "Yagisaki",
+    "香川": "Kagawa",
+    "北八王子": "Kita-Hachioji",
+    "小宮": "Komiya",
+    "東福生": "Higashi-Fussa",
+    "金子": "Kaneko",
+    "毛呂": "Moro",
+    "明覚": "Myokaku",
+    "竹沢": "Takezawa",
+    "折原": "Orihara",
+    "児玉": "Kodama",
+    "松久": "Matsuhisa",
+    "群馬藤岡": "Gumma-Fujioka",
+    "北藤岡": "Kita-Fujioka",
+    "加茂宮": "Kamonomiya",
+    "東宮原": "Higashi-Miyahara",
+    "今羽": "Konba",
+    "吉野原": "Yoshinohara",
+    "原市": "Haraichi",
+    "沼南": "Shonan",
+    "志久": "Shiku",
+    "伊奈中央": "Ina-Chuo",
+    "我孫子町": "Abikocho",
+    "杉本町": "Sugimotocho",
+    "浅香": "Asaka",
+    "堺市": "Sakaishi",
+    "百舌鳥": "Mozu",
+    "津久野": "Tsukuno",
+    "北信太": "Kitashinoda",
+    "下松": "Shimomatsu",
+    "熊取": "Kumatori",
+    "長滝": "Nagataki",
+    "新家": "Shinge",
+    "和泉砂川": "Izumi-Sunagawa",
+    "和泉鳥取": "Izumi-Tottori",
+    "山中渓": "Yamanakadani",
+    "紀伊": "Kii",
+    "六十谷": "Musota",
+    "紀伊中ノ島": "Kii-Nakanoshima",
+    "和歌山": "Wakayama",
+    "JR淡路": "JR-Awaji",
+    "花隈": "Hanakuma",
+    "須磨寺": "Sumadera",
+    "山陽明石": "Sanyo-Akashi"
   },
   "station_codes": {
     "oedo": {
@@ -174,6 +222,12 @@
     },
     "nankai-koya": {
       "帝塚山": "NK51"
+    },
+    "tokyu-ikegami": {
+      "旗の台": "IK05"
+    },
+    "utsunomiya": {
+      "大宮": "JU07"
     }
   },
   "stop_nodes": {

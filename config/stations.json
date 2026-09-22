@@ -358,5 +358,64 @@
     "facts": [
       "Se llama igual que la estación de la Expo 70 de Ōsaka, pero recuerda otra exposición: la de Tsukuba de 1985."
     ]
+  },
+  "shibamata": {
+    "summary": "El barrio de Tora-san: calle comercial antigua, el templo Taishakuten y el río Edo.",
+    "facts": [
+      "Frente a la estación hay una estatua de Tora-san, el protagonista de «Otoko wa tsurai yo», y de su hermana Sakura."
+    ]
+  },
+  "umi-shibaura": {
+    "facts": [
+      "Está dentro de una fábrica de Toshiba: sin pase no se puede salir, salvo a un pequeño parque con vistas a la bahía."
+    ]
+  },
+  "toshimaen": {
+    "facts": [
+      "Junto a la estación está el Warner Bros. Studio Tour Tokyo – The Making of Harry Potter (2023)."
+    ]
+  },
+  "tetsudo-hakubutsukan": {
+    "summary": "La estación del Museo del Ferrocarril de Saitama (JR East)."
+  },
+  "hakkeijima": {
+    "summary": "La isla del parque acuático Hakkeijima Sea Paradise."
+  },
+  "horyuji": {
+    "facts": [
+      "El templo Hōryū-ji conserva los edificios de madera más antiguos del mundo (siglo VII)."
+    ]
+  },
+  "miwa": {
+    "facts": [
+      "Junto al santuario Ōmiwa, cuyo objeto de culto es la propia montaña Miwa."
+    ]
+  },
+  "arima-onsen": {
+    "summary": "Arima Onsen, uno de los balnearios más antiguos de Japón, al otro lado de las montañas Rokkō."
+  },
+  "tama-dobutsukoen": {
+    "summary": "La estación del zoo de Tama."
+  },
+  "kodomonokuni": {
+    "summary": "«El país de los niños», un gran parque infantil de Yokohama."
+  },
+  "urawa-misono": {
+    "facts": [
+      "Estación del estadio de Saitama, casa de los Urawa Red Diamonds."
+    ]
+  },
+  "kawasakidaishi": {
+    "facts": [
+      "A pocos pasos del templo Kawasaki Daishi, famoso por sus millones de visitantes en Año Nuevo."
+    ]
+  },
+  "minoh": {
+    "facts": [
+      "Desde la estación sale el paseo hacia la cascada de Minoo, lleno de puestos de hojas de arce fritas."
+    ]
+  },
+  "seibukyujo-mae": {
+    "summary": "Estación del estadio de los Saitama Seibu Lions (Belluna Dome)."
   }
 }

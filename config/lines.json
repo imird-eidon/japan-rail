@@ -200,6 +200,58 @@
       "name": "Chiba Monorail",
       "ja": "千葉都市モノレール",
       "url": "https://chiba-monorail.co.jp/"
+    },
+    "shibayama": {
+      "name": "Shibayama Railway",
+      "ja": "芝山鉄道"
+    },
+    "hokuso": {
+      "name": "Hokusō",
+      "ja": "北総鉄道"
+    },
+    "saitama-rapid": {
+      "name": "Saitama Rapid Railway",
+      "ja": "埼玉高速鉄道"
+    },
+    "toyo-rapid": {
+      "name": "Tōyō Rapid",
+      "ja": "東葉高速鉄道"
+    },
+    "new-shuttle": {
+      "name": "New Shuttle",
+      "ja": "埼玉新都市交通"
+    },
+    "seaside-line": {
+      "name": "Yokohama Seaside Line",
+      "ja": "横浜シーサイドライン"
+    },
+    "maihama-resort": {
+      "name": "Maihama Resort Line",
+      "ja": "舞浜リゾートライン"
+    },
+    "ryutetsu": {
+      "name": "Ryūtetsu",
+      "ja": "流鉄"
+    },
+    "yamaman": {
+      "name": "Yamaman",
+      "ja": "山万"
+    },
+    "kobe-electric": {
+      "name": "Kōbe Dentetsu",
+      "ja": "神戸電鉄"
+    },
+    "sanyo": {
+      "name": "Sanyō Dentetsu",
+      "ja": "山陽電気鉄道"
+    },
+    "nose": {
+      "name": "Nose Dentetsu",
+      "ja": "能勢電鉄"
+    },
+    "kobe-kosoku": {
+      "name": "Kōbe Kōsoku",
+      "ja": "神戸高速鉄道"
     }
   },
   "types": {
@@ -475,7 +527,8 @@
       "operator": "tokyo-metro",
       "type": "metro",
       "osm": [
-        443284
+        443284,
+        8026053
       ],
       "opened": 1969,
       "length_km": 24.0,
@@ -1635,7 +1688,9 @@
         "Utsunomiya es la ciudad de los gyōza: tiene hasta una estatua de gyōza frente a la estación."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "tokyo",
+      "order": "geometry",
+      "no_extrapolate": true
     },
     {
       "id": "takasaki",
@@ -1779,7 +1834,8 @@
       "summary": "Gotanda–Kamata con trenes de tres coches: la línea «de barrio» de Tōkyū.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "tokyo",
+      "order": "code"
     },
     {
       "id": "tokyu-tamagawa",
@@ -3011,6 +3067,1535 @@
       "facts": [],
       "trains": [],
       "region": "tokyo"
+    },
+    {
+      "id": "keikyu-kurihama",
+      "code": "KK",
+      "color": "#4FB6E0",
+      "name": "Keikyū Kurihama",
+      "ja": "京急久里浜線",
+      "en": "Keikyū Kurihama Line",
+      "operator": "keikyu",
+      "type": "commuter",
+      "osm": [
+        21320563
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Horinouchi a Misakiguchi, en la punta de la península de Miura.",
+      "facts": [
+        "Keikyū vende un billete especial «Misaki Maguro» que incluye el viaje y una comida de atún en el puerto de Misaki."
+      ],
+      "section": [
+        "堀ノ内",
+        "三崎口"
+      ],
+      "extra_stops": [
+        21320561
+      ],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"久里浜線\"]",
+        "bbox": [
+          35.13,
+          139.6,
+          35.25,
+          139.72
+        ],
+        "stops_only": true
+      },
+      "order": "geometry"
+    },
+    {
+      "id": "keikyu-zushi",
+      "code": "KK",
+      "color": "#6BC3E8",
+      "name": "Keikyū Zushi",
+      "ja": "京急逗子線",
+      "en": "Keikyū Zushi Line",
+      "operator": "keikyu",
+      "type": "commuter",
+      "osm": [
+        9499867
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Kanazawa-hakkei a Zushi-Hayama, junto a las playas de Zushi.",
+      "facts": []
+    },
+    {
+      "id": "keikyu-daishi",
+      "code": "KK",
+      "color": "#2A9FD6",
+      "name": "Keikyū Daishi",
+      "ja": "京急大師線",
+      "en": "Keikyū Daishi Line",
+      "operator": "keikyu",
+      "type": "commuter",
+      "osm": [
+        9499381
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Keikyū-Kawasaki a Kojimashinden, por Kawasaki-Daishi.",
+      "facts": [
+        "Lleva al templo Kawasaki Daishi, uno de los más visitados de Japón en Año Nuevo."
+      ]
+    },
+    {
+      "id": "keisei-kanamachi",
+      "code": "KS",
+      "color": "#2F6FB7",
+      "name": "Keisei Kanamachi",
+      "ja": "京成金町線",
+      "en": "Keisei Kanamachi Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        9480251
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Corto ramal de Keisei-Takasago a Keisei-Kanamachi por Shibamata.",
+      "facts": [
+        "Shibamata es el barrio de Tora-san, el vagabundo de «Otoko wa tsurai yo», una de las sagas más largas de la historia del cine; hay una estatua suya frente a la estación."
+      ]
+    },
+    {
+      "id": "keisei-chiba",
+      "code": "KS",
+      "color": "#1F5DA8",
+      "name": "Keisei Chiba",
+      "ja": "京成千葉線",
+      "en": "Keisei Chiba Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        2060618
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Keisei-Tsudanuma a Chiba-Chūō.",
+      "facts": []
+    },
+    {
+      "id": "keisei-chihara",
+      "code": "KS",
+      "color": "#4A7FC1",
+      "name": "Keisei Chihara",
+      "ja": "京成千原線",
+      "en": "Keisei Chihara Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        2060696
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Chiba-Chūō a Chiharadai.",
+      "facts": []
+    },
+    {
+      "id": "keisei-matsudo",
+      "code": "SL",
+      "color": "#E95098",
+      "name": "Keisei Matsudo",
+      "ja": "京成松戸線",
+      "en": "Keisei Matsudo Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        11502414
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Keisei-Tsudanuma a Matsudo; antes era la compañía Shin-Keisei.",
+      "facts": [
+        "Hasta 2025 fue la compañía Shin-Keisei, con sus trenes rosas; en abril de 2025 se integró en Keisei."
+      ]
+    },
+    {
+      "id": "hokuso",
+      "code": "HS",
+      "color": "#00A0E9",
+      "name": "Hokusō / Narita Sky Access",
+      "ja": "北総線",
+      "en": "Hokusō Line",
+      "operator": "hokuso",
+      "type": "commuter",
+      "osm": [
+        3340250
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Keisei-Takasago a Imba-Nihon-idai por la Chiba New Town; por sus vías corre el Skyliner hacia Narita.",
+      "facts": [
+        "Tiene fama de ser una de las líneas más caras de Japón por kilómetro."
+      ],
+      "opened": 1979
+    },
+    {
+      "id": "keisei-higashi-narita",
+      "code": "KS",
+      "color": "#5C7CB5",
+      "name": "Keisei Higashi-Narita",
+      "ja": "京成東成田線",
+      "en": "Keisei Higashi-Narita Line",
+      "operator": "keisei",
+      "type": "commuter",
+      "osm": [
+        3347989
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Ramal de Keisei-Narita a Higashi-Narita, la antigua estación del aeropuerto.",
+      "facts": []
+    },
+    {
+      "id": "shibayama",
+      "code": "SR",
+      "color": "#1B8F5A",
+      "name": "Shibayama Railway",
+      "ja": "芝山鉄道線",
+      "en": "Shibayama Railway Line",
+      "operator": "shibayama",
+      "type": "commuter",
+      "osm": [
+        9486564
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Higashi-Narita a Shibayama-Chiyoda, junto al aeropuerto de Narita.",
+      "facts": [
+        "Con 2,2 km es uno de los ferrocarriles más cortos de Japón."
+      ]
+    },
+    {
+      "id": "keio-new",
+      "code": "KO",
+      "color": "#E77FB0",
+      "name": "Keiō Nueva Línea",
+      "ja": "京王新線",
+      "en": "Keiō New Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        10056053
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Vía subterránea paralela a la Keiō entre Shinjuku y Sasazuka, con Hatsudai y Hatagaya; sus trenes siguen por el metro Toei Shinjuku.",
+      "facts": []
+    },
+    {
+      "id": "keio-sagamihara",
+      "code": "KO",
+      "color": "#E05599",
+      "name": "Keiō Sagamihara",
+      "ja": "京王相模原線",
+      "en": "Keiō Sagamihara Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        11299750
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Chōfu a Hashimoto por la Tama New Town.",
+      "facts": []
+    },
+    {
+      "id": "keio-keibajo",
+      "code": "KO",
+      "color": "#E893BE",
+      "name": "Keiō Keibajō",
+      "ja": "京王競馬場線",
+      "en": "Keiō Keibajō Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        11688125
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Ramal de una sola parada al hipódromo de Tokio (Fuchū).",
+      "facts": [
+        "Se construyó para llevar al público del hipódromo; en días de carreras se llena."
+      ]
+    },
+    {
+      "id": "keio-dobutsuen",
+      "code": "KO",
+      "color": "#E893BE",
+      "name": "Keiō Dōbutsuen",
+      "ja": "京王動物園線",
+      "en": "Keiō Dōbutsuen Line",
+      "operator": "keio",
+      "type": "commuter",
+      "osm": [
+        11270762
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Ramal de Takahatafudō al zoo de Tama.",
+      "facts": [
+        "Su nombre significa «línea del zoo»: termina en la puerta del zoo de Tama."
+      ]
+    },
+    {
+      "id": "odakyu-tama",
+      "code": "OT",
+      "color": "#3A8FD4",
+      "name": "Odakyū Tama",
+      "ja": "小田急多摩線",
+      "en": "Odakyū Tama Line",
+      "operator": "odakyu",
+      "type": "commuter",
+      "osm": [
+        9504629
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Shin-Yurigaoka a Karakida por la Tama New Town.",
+      "facts": []
+    },
+    {
+      "id": "seibu-haijima",
+      "code": "SS",
+      "color": "#3DB8CC",
+      "name": "Seibu Haijima",
+      "ja": "西武拝島線",
+      "en": "Seibu Haijima Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        9507232
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Kodaira a Haijima.",
+      "facts": []
+    },
+    {
+      "id": "seibu-kokubunji",
+      "code": "SK",
+      "color": "#3CB44B",
+      "name": "Seibu Kokubunji",
+      "ja": "西武国分寺線",
+      "en": "Seibu Kokubunji Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        1947329
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Kokubunji a Higashi-Murayama.",
+      "facts": []
+    },
+    {
+      "id": "seibu-tamako",
+      "code": "ST",
+      "color": "#FAAA27",
+      "name": "Seibu Tamako",
+      "ja": "西武多摩湖線",
+      "en": "Seibu Tamako Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        1947331
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Kokubunji al lago Tama.",
+      "facts": []
+    },
+    {
+      "id": "seibu-tamagawa",
+      "code": "SW",
+      "color": "#EF810F",
+      "name": "Seibu Tamagawa",
+      "ja": "西武多摩川線",
+      "en": "Seibu Tamagawa Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        11727092
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Musashi-Sakai a Koremasa; no toca ninguna otra línea de Seibu.",
+      "facts": [
+        "Está aislada del resto de la red Seibu: sus trenes llegan por las vías de JR para las revisiones."
+      ]
+    },
+    {
+      "id": "seibu-sayama",
+      "code": "SI",
+      "color": "#F29A5D",
+      "name": "Seibu Sayama",
+      "ja": "西武狭山線",
+      "en": "Seibu Sayama Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        11587709
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Nishi-Tokorozawa a Seibu-Kyūjōmae, el estadio de los Saitama Seibu Lions.",
+      "facts": []
+    },
+    {
+      "id": "seibu-yamaguchi",
+      "code": "SY",
+      "color": "#EF473D",
+      "name": "Seibu Yamaguchi (Leo Liner)",
+      "ja": "西武山口線",
+      "en": "Seibu Yamaguchi Line",
+      "operator": "seibu",
+      "type": "agt",
+      "osm": [
+        9338169
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Tren automático sobre neumáticos del lago Tama al estadio de los Lions.",
+      "facts": [
+        "Lo llaman «Leo Liner» por el león de los Seibu Lions."
+      ]
+    },
+    {
+      "id": "seibu-seibuen",
+      "code": "SK",
+      "color": "#6CC24A",
+      "name": "Seibu Seibu-en",
+      "ja": "西武園線",
+      "en": "Seibu Seibu-en Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        5486513
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Ramal de Higashi-Murayama a Seibu-en.",
+      "facts": []
+    },
+    {
+      "id": "seibu-yurakucho",
+      "code": "SI",
+      "color": "#F29A5D",
+      "name": "Seibu Yūrakuchō",
+      "ja": "西武有楽町線",
+      "en": "Seibu Yūrakuchō Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        5486515
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Enlace subterráneo de Nerima a Kotake-mukaihara: une la Seibu Ikebukuro con el metro Yūrakuchō y Fukutoshin.",
+      "facts": []
+    },
+    {
+      "id": "seibu-toshima",
+      "code": "SI",
+      "color": "#F29A5D",
+      "name": "Seibu Toshima",
+      "ja": "西武豊島線",
+      "en": "Seibu Toshima Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [
+        10961873
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Ramal de una parada de Nerima a Toshimaen.",
+      "facts": [
+        "El parque de atracciones Toshimaen cerró en 2020; en su lugar abrió en 2023 el Warner Bros. Studio Tour Tokyo – The Making of Harry Potter."
+      ]
+    },
+    {
+      "id": "tobu-kameido",
+      "code": "TS",
+      "color": "#5B8FD6",
+      "name": "Tōbu Kameido",
+      "ja": "東武亀戸線",
+      "en": "Tōbu Kameido Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        5219681
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Hikifune a Kameido con trenes de dos coches.",
+      "facts": []
+    },
+    {
+      "id": "tobu-daishi",
+      "code": "TS",
+      "color": "#5B8FD6",
+      "name": "Tōbu Daishi",
+      "ja": "東武大師線",
+      "en": "Tōbu Daishi Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        5219659
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Una sola parada: de Nishiarai a Daishimae.",
+      "facts": [
+        "Lleva al templo Nishiarai Daishi; con 1 km es de las líneas más cortas de Tokio."
+      ]
+    },
+    {
+      "id": "tobu-urban-park",
+      "code": "TD",
+      "color": "#00A0DE",
+      "name": "Tōbu Urban Park",
+      "ja": "東武アーバンパークライン",
+      "en": "Tōbu Urban Park Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        14309204
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Arco de Ōmiya a Funabashi pasando por Kasukabe y Kashiwa (antigua línea Noda).",
+      "facts": [],
+      "extra_stops": [
+        9486543
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "tobu-ogose",
+      "code": "TJ",
+      "color": "#3C6FB6",
+      "name": "Tōbu Ogose",
+      "ja": "東武越生線",
+      "en": "Tōbu Ogose Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [
+        11700879
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Sakado a Ogose, al pie de las montañas de Saitama.",
+      "facts": []
+    },
+    {
+      "id": "tokyu-kodomonokuni",
+      "code": "KD",
+      "color": "#0068B7",
+      "name": "Tōkyū Kodomonokuni",
+      "ja": "東急こどもの国線",
+      "en": "Tōkyū Kodomonokuni Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        5219728
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Nagatsuta a Kodomonokuni, «el país de los niños».",
+      "facts": [
+        "Termina en Kodomo no Kuni, un gran parque infantil creado en 1965 por la boda del entonces príncipe heredero."
+      ]
+    },
+    {
+      "id": "tokyu-shin-yokohama",
+      "code": "SH",
+      "color": "#5AA2C9",
+      "name": "Tōkyū Shin-Yokohama",
+      "ja": "東急新横浜線",
+      "en": "Tōkyū Shin-Yokohama Line",
+      "operator": "tokyu",
+      "type": "commuter",
+      "osm": [
+        14681766
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Hiyoshi a Shin-Yokohama, la estación del Shinkansen.",
+      "facts": [
+        "Abrió en marzo de 2023 y une las redes de Tōkyū y Sōtetsu por Shin-Yokohama."
+      ],
+      "opened": 2023
+    },
+    {
+      "id": "sotetsu-izumino",
+      "code": "SO",
+      "color": "#3452A0",
+      "name": "Sōtetsu Izumino",
+      "ja": "相鉄いずみ野線",
+      "en": "Sōtetsu Izumino Line",
+      "operator": "sotetsu",
+      "type": "commuter",
+      "osm": [
+        1968180
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Futamatagawa a Shōnandai.",
+      "facts": [],
+      "section": [
+        "二俣川",
+        "湘南台"
+      ]
+    },
+    {
+      "id": "sotetsu-shin-yokohama",
+      "code": "SO",
+      "color": "#5B6FB5",
+      "name": "Sōtetsu Shin-Yokohama",
+      "ja": "相鉄新横浜線",
+      "en": "Sōtetsu Shin-Yokohama Line",
+      "operator": "sotetsu",
+      "type": "commuter",
+      "osm": [
+        14681763
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Nishiya a Shin-Yokohama por Hazawa-Yokohama-Kokudai; enlaza con JR y con Tōkyū.",
+      "facts": [],
+      "opened": 2019
+    },
+    {
+      "id": "tsurumi",
+      "code": "JI",
+      "color": "#F2C400",
+      "name": "JR Tsurumi",
+      "ja": "鶴見線",
+      "en": "JR Tsurumi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        11776970,
+        11777029,
+        11776971
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Línea industrial de Tsurumi a la zona portuaria de Kawasaki, con ramales a Umi-Shibaura y Ōkawa.",
+      "facts": [
+        "La estación de Umi-Shibaura está dentro de una fábrica de Toshiba: solo se puede salir a un pequeño parque junto al mar."
+      ]
+    },
+    {
+      "id": "nambu-branch",
+      "code": "JN",
+      "color": "#F7D73B",
+      "name": "JR Nambu (ramal Hama-Kawasaki)",
+      "ja": "南武支線",
+      "en": "JR Nambu Branch Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        14284669
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Shitte a Hama-Kawasaki.",
+      "facts": []
+    },
+    {
+      "id": "sagami",
+      "code": "相模",
+      "color": "#0F9793",
+      "name": "JR Sagami",
+      "ja": "相模線",
+      "en": "JR Sagami Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        1942949
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Chigasaki a Hashimoto, de norte a sur por Kanagawa.",
+      "facts": []
+    },
+    {
+      "id": "itsukaichi",
+      "code": "JC",
+      "color": "#F58A56",
+      "name": "JR Itsukaichi",
+      "ja": "五日市線",
+      "en": "JR Itsukaichi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        1984869
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Haijima a Musashi-Itsukaichi, en el valle del Akigawa.",
+      "facts": []
+    },
+    {
+      "id": "hachiko",
+      "code": "八高",
+      "color": "#A8A39D",
+      "name": "JR Hachikō",
+      "ja": "八高線",
+      "en": "JR Hachikō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        14323630,
+        21268982
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Hachiōji a Takasaki por el oeste de Saitama.",
+      "facts": [
+        "Su nombre junta la primera sílaba de sus extremos: Hachiōji y Takasaki. Al norte de Komagawa no está electrificada."
+      ],
+      "extra_stops": [
+        223040
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "kawagoe",
+      "code": "川越",
+      "color": "#00B48D",
+      "name": "JR Kawagoe",
+      "ja": "川越線",
+      "en": "JR Kawagoe Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        11953294
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "De Ōmiya a Komagawa por Kawagoe; muchos trenes vienen de la Saikyō.",
+      "facts": []
+    },
+    {
+      "id": "saitama-rapid",
+      "code": "SR",
+      "color": "#3564AF",
+      "name": "Saitama Rapid Railway",
+      "ja": "埼玉高速鉄道線",
+      "en": "Saitama Rapid Railway",
+      "operator": "saitama-rapid",
+      "type": "commuter",
+      "osm": [
+        7002081
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Continúa la línea Namboku de Akabane-Iwabuchi a Urawa-Misono.",
+      "facts": [
+        "Urawa-Misono es la estación del estadio de Saitama, el de los Urawa Reds."
+      ],
+      "opened": 2001
+    },
+    {
+      "id": "toyo-rapid",
+      "code": "TR",
+      "color": "#02AC39",
+      "name": "Tōyō Rapid",
+      "ja": "東葉高速線",
+      "en": "Tōyō Rapid Railway",
+      "operator": "toyo-rapid",
+      "type": "commuter",
+      "osm": [
+        9283468
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Continúa la línea Tōzai de Nishi-Funabashi a Tōyō-Katsutadai.",
+      "facts": [],
+      "opened": 1996
+    },
+    {
+      "id": "new-shuttle",
+      "code": "NS",
+      "color": "#10A899",
+      "name": "New Shuttle",
+      "ja": "ニューシャトル",
+      "en": "New Shuttle",
+      "operator": "new-shuttle",
+      "type": "agt",
+      "osm": [
+        9346453
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Tren automático de Ōmiya a Uchijuku sobre el viaducto del Shinkansen.",
+      "facts": [
+        "Su segunda estación, Tetsudō-Hakubutsukan, está junto al Museo del Ferrocarril de Saitama."
+      ],
+      "opened": 1983
+    },
+    {
+      "id": "kanazawa-seaside",
+      "code": "SL",
+      "color": "#004EA2",
+      "name": "Kanazawa Seaside Line",
+      "ja": "金沢シーサイドライン",
+      "en": "Kanazawa Seaside Line",
+      "operator": "seaside-line",
+      "type": "agt",
+      "osm": [
+        5503502
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Tren automático de Shin-Sugita a Kanazawa-hakkei junto al mar.",
+      "facts": [
+        "Para en Hakkeijima, la isla del parque acuático Sea Paradise."
+      ],
+      "opened": 1989
+    },
+    {
+      "id": "disney-resort-line",
+      "code": "DL",
+      "color": "#4AA3DF",
+      "name": "Disney Resort Line",
+      "ja": "ディズニーリゾートライン",
+      "en": "Disney Resort Line",
+      "operator": "maihama-resort",
+      "type": "monorail",
+      "osm": [
+        3941253
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Monorraíl circular entre Maihama y los parques de Tokyo Disney Resort.",
+      "facts": [
+        "Sus ventanas y las agarraderas de los coches tienen forma de cabeza de Mickey."
+      ],
+      "loop": true,
+      "opened": 2001
+    },
+    {
+      "id": "ryutetsu",
+      "code": "RN",
+      "color": "#FF6600",
+      "name": "Ryūtetsu Nagareyama",
+      "ja": "流山線",
+      "en": "Ryūtetsu Nagareyama Line",
+      "operator": "ryutetsu",
+      "type": "commuter",
+      "osm": [
+        11588621
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Pequeño ferrocarril de Mabashi a Nagareyama.",
+      "facts": [
+        "Con 5,7 km, cada uno de sus trenes lleva un nombre y un color distintos."
+      ]
+    },
+    {
+      "id": "yamaman",
+      "code": "YM",
+      "color": "#5A9E3A",
+      "name": "Yamaman Yukarigaoka",
+      "ja": "山万ユーカリが丘線",
+      "en": "Yamaman Yukarigaoka Line",
+      "operator": "yamaman",
+      "type": "agt",
+      "osm": [
+        9603907
+      ],
+      "region": "tokyo",
+      "trains": [],
+      "summary": "Bucle automático sobre neumáticos que da servicio a la urbanización de Yukarigaoka.",
+      "facts": [
+        "La explota la inmobiliaria que construyó el barrio: es su propio tren privado."
+      ],
+      "loop": true
+    },
+    {
+      "id": "hanwa",
+      "code": "R",
+      "color": "#F79C1F",
+      "name": "JR Hanwa",
+      "ja": "阪和線",
+      "en": "JR Hanwa Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11000345
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Tennōji a Wakayama; por aquí van el Haruka al aeropuerto de Kansai y los expresos a Shirahama.",
+      "facts": []
+    },
+    {
+      "id": "hanwa-branch",
+      "code": "R",
+      "color": "#F9B85C",
+      "name": "JR Hanwa (ramal Higashi-Hagoromo)",
+      "ja": "阪和線 東羽衣支線",
+      "en": "JR Hanwa Branch Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        10956742
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "Ramal de una parada de Ōtori a Higashi-Hagoromo.",
+      "facts": []
+    },
+    {
+      "id": "jr-takarazuka",
+      "code": "G",
+      "color": "#FFC20E",
+      "name": "JR Takarazuka",
+      "ja": "JR宝塚線",
+      "en": "JR Takarazuka Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11808856
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Ōsaka a Takarazuka, Sanda y Sasayamaguchi.",
+      "facts": []
+    },
+    {
+      "id": "katamachi",
+      "code": "H",
+      "color": "#EE3689",
+      "name": "JR Gakkentoshi (Katamachi)",
+      "ja": "学研都市線",
+      "en": "JR Gakkentoshi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11815533
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Kyōbashi a Kizu por la ciudad científica de Kansai; continúa por la JR Tōzai.",
+      "facts": []
+    },
+    {
+      "id": "yamatoji",
+      "code": "Q",
+      "color": "#02AD73",
+      "name": "JR Yamatoji",
+      "ja": "大和路線",
+      "en": "JR Yamatoji Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11810048
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De JR-Namba a Nara por Tennōji y el valle del Yamato.",
+      "facts": [
+        "Tiene estación en Hōryūji, el templo con los edificios de madera más antiguos del mundo."
+      ]
+    },
+    {
+      "id": "jr-tozai",
+      "code": "H",
+      "color": "#FF5DA2",
+      "name": "JR Tōzai",
+      "ja": "JR東西線",
+      "en": "JR Tōzai Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11816511
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "Túnel bajo el centro de Ōsaka de Kyōbashi a Amagasaki, por Kitashinchi.",
+      "facts": [],
+      "opened": 1997
+    },
+    {
+      "id": "osaka-higashi",
+      "code": "F",
+      "color": "#447694",
+      "name": "JR Osaka Higashi",
+      "ja": "おおさか東線",
+      "en": "JR Osaka Higashi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        3344075
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Ōsaka a Kyūhōji por el este de la ciudad.",
+      "facts": [
+        "Se completó por etapas: llegó a Shin-Ōsaka en 2019 y a la estación de Ōsaka en 2023."
+      ]
+    },
+    {
+      "id": "sakurai",
+      "code": "U",
+      "color": "#D02332",
+      "name": "JR Sakurai (Man'yō Mahoroba)",
+      "ja": "桜井線",
+      "en": "JR Sakurai Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11533186
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Nara a Takada por la antigua ruta de Yamato.",
+      "facts": [
+        "Pasa por Miwa, junto al santuario Ōmiwa, considerado uno de los más antiguos de Japón."
+      ]
+    },
+    {
+      "id": "kintetsu-minami-osaka",
+      "code": "F",
+      "color": "#028E46",
+      "name": "Kintetsu Minami-Ōsaka",
+      "ja": "近鉄南大阪線",
+      "en": "Kintetsu Minami-Ōsaka Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11942103
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Ōsaka-Abenobashi a Kashiharajingū-mae; continúa hacia Yoshino.",
+      "facts": [
+        "Usa vía estrecha (1067 mm), no la estándar de las líneas Nara y Ōsaka de Kintetsu."
+      ]
+    },
+    {
+      "id": "kintetsu-nagano",
+      "code": "O",
+      "color": "#3AA56B",
+      "name": "Kintetsu Nagano",
+      "ja": "近鉄長野線",
+      "en": "Kintetsu Nagano Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11944238
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Furuichi a Kawachi-Nagano.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-domyoji",
+      "code": "N",
+      "color": "#5DB47E",
+      "name": "Kintetsu Dōmyōji",
+      "ja": "近鉄道明寺線",
+      "en": "Kintetsu Dōmyōji Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11942335
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Kashiwara a Dōmyōji.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-gose",
+      "code": "P",
+      "color": "#4CAD75",
+      "name": "Kintetsu Gose",
+      "ja": "近鉄御所線",
+      "en": "Kintetsu Gose Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11949787
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Shakudo a Kintetsu-Gose.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-keihanna",
+      "code": "C",
+      "color": "#65C03A",
+      "name": "Kintetsu Keihanna",
+      "ja": "近鉄けいはんな線",
+      "en": "Kintetsu Keihanna Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        1864803
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "Continúa la línea Chūō de Osaka Metro desde Nagata hasta Gakken-Nara-Tomigaoka.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-ikoma",
+      "code": "G",
+      "color": "#E0617A",
+      "name": "Kintetsu Ikoma",
+      "ja": "近鉄生駒線",
+      "en": "Kintetsu Ikoma Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11962099
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Ikoma a Ōji.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-tenri",
+      "code": "H",
+      "color": "#FAB202",
+      "name": "Kintetsu Tenri",
+      "ja": "近鉄天理線",
+      "en": "Kintetsu Tenri Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11965678
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Hirahata a Tenri.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-tawaramoto",
+      "code": "I",
+      "color": "#F2C050",
+      "name": "Kintetsu Tawaramoto",
+      "ja": "近鉄田原本線",
+      "en": "Kintetsu Tawaramoto Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11965804
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Shin-Ōji a Nishi-Tawaramoto.",
+      "facts": []
+    },
+    {
+      "id": "kintetsu-shigi",
+      "code": "J",
+      "color": "#4694D1",
+      "name": "Kintetsu Shigi",
+      "ja": "近鉄信貴線",
+      "en": "Kintetsu Shigi Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11955065
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Kawachi-Yamamoto a Shigisanguchi, al pie del monte Shigi.",
+      "facts": []
+    },
+    {
+      "id": "hankyu-senri",
+      "code": "HK",
+      "color": "#21AB36",
+      "name": "Hankyu Senri",
+      "ja": "阪急千里線",
+      "en": "Hankyu Senri Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        1872144
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Tenjimbashisuji 6-chōme a Kita-Senri; comparte trenes con el metro Sakaisuji.",
+      "facts": []
+    },
+    {
+      "id": "hankyu-imazu",
+      "code": "HK",
+      "color": "#3A8FD0",
+      "name": "Hankyu Imazu",
+      "ja": "阪急今津線",
+      "en": "Hankyu Imazu Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11982174,
+        11982163
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Takarazuka a Imazu por Nishinomiya-Kitaguchi.",
+      "facts": [
+        "Inspiró la novela «Hankyū Densha», con historias cruzadas de sus viajeros, llevada al cine en 2011."
+      ]
+    },
+    {
+      "id": "hankyu-itami",
+      "code": "HK",
+      "color": "#5C9FD8",
+      "name": "Hankyu Itami",
+      "ja": "阪急伊丹線",
+      "en": "Hankyu Itami Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        6024245
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Tsukaguchi a Itami.",
+      "facts": []
+    },
+    {
+      "id": "hankyu-minoo",
+      "code": "HK",
+      "color": "#F58A56",
+      "name": "Hankyu Minoo",
+      "ja": "阪急箕面線",
+      "en": "Hankyu Minoo Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11985116
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Ishibashi-Handai-mae a Minoo.",
+      "facts": [
+        "Lleva al parque de Minoo, famoso por su cascada y por las hojas de arce fritas (momiji tempura)."
+      ]
+    },
+    {
+      "id": "hankyu-koyo",
+      "code": "HK",
+      "color": "#7AB2E0",
+      "name": "Hankyu Kōyō",
+      "ja": "阪急甲陽線",
+      "en": "Hankyu Kōyō Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11984994
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Shukugawa a Kōyōen.",
+      "facts": []
+    },
+    {
+      "id": "hanshin-mukogawa",
+      "code": "HS",
+      "color": "#F7A24A",
+      "name": "Hanshin Mukogawa",
+      "ja": "阪神武庫川線",
+      "en": "Hanshin Mukogawa Line",
+      "operator": "hanshin",
+      "type": "commuter",
+      "osm": [
+        11970484
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Mukogawa a Mukogawa-Danchi-mae junto al río.",
+      "facts": []
+    },
+    {
+      "id": "kobe-kosoku",
+      "code": "HS",
+      "color": "#2B4EA2",
+      "name": "Kōbe Kōsoku",
+      "ja": "神戸高速線",
+      "en": "Kōbe Kōsoku Line",
+      "operator": "kobe-kosoku",
+      "type": "commuter",
+      "osm": [
+        6037546
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "Túnel bajo Kōbe de Kōbe-Sannomiya a Nishidai.",
+      "facts": [
+        "La compañía no tiene trenes propios: por sus vías pasan Hankyu, Hanshin, Sanyō y Kōbe Dentetsu."
+      ],
+      "extra_stops": [
+        11974981
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "nankai-semboku",
+      "code": "SB",
+      "color": "#1F9FD6",
+      "name": "Nankai Semboku",
+      "ja": "南海泉北線",
+      "en": "Nankai Semboku Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        9583674
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Nakamozu a Izumi-Chūō por la Semboku New Town.",
+      "facts": [
+        "Hasta abril de 2025 fue una compañía aparte (Semboku Rapid Railway); ahora es de Nankai."
+      ]
+    },
+    {
+      "id": "nankai-shiomibashi",
+      "code": "NK",
+      "color": "#4DB36A",
+      "name": "Nankai Shiomibashi",
+      "ja": "南海汐見橋線",
+      "en": "Nankai Shiomibashi Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        11999471
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "Ramal de Kishinosato-Tamade a Shiomibashi con trenes de dos coches, en pleno Ōsaka.",
+      "facts": [
+        "Sus estaciones de madera y su escaso tráfico le dan un aire de línea rural en mitad de la ciudad."
+      ]
+    },
+    {
+      "id": "nankai-takashinohama",
+      "code": "NK",
+      "color": "#4D8FCF",
+      "name": "Nankai Takashinohama",
+      "ja": "南海高師浜線",
+      "en": "Nankai Takashinohama Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        11984576
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "Ramal de Hagoromo a Takashinohama.",
+      "facts": []
+    },
+    {
+      "id": "keihan-katano",
+      "code": "KH",
+      "color": "#5BA094",
+      "name": "Keihan Katano",
+      "ja": "京阪交野線",
+      "en": "Keihan Katano Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [
+        11981443
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Hirakatashi a Kisaichi.",
+      "facts": []
+    },
+    {
+      "id": "keihan-nakanoshima",
+      "code": "KH",
+      "color": "#2E8C73",
+      "name": "Keihan Nakanoshima",
+      "ja": "京阪中之島線",
+      "en": "Keihan Nakanoshima Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Temmabashi a Nakanoshima, bajo la isla entre los ríos Dōjima y Tosabori.",
+      "facts": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"中之島線\"]",
+        "bbox": [
+          34.67,
+          135.47,
+          34.7,
+          135.53
+        ]
+      },
+      "extra_nodes": [
+        7946437471
+      ],
+      "station_order": [
+        "天満橋",
+        "なにわ橋",
+        "大江橋",
+        "渡辺橋",
+        "中之島"
+      ],
+      "opened": 2008
+    },
+    {
+      "id": "osaka-monorail-saito",
+      "code": "MO",
+      "color": "#5A73C8",
+      "name": "Monorraíl de Ōsaka (ramal de Saito)",
+      "ja": "大阪モノレール彩都線",
+      "en": "Osaka Monorail Saito Line",
+      "operator": "osaka-monorail",
+      "type": "monorail",
+      "osm": [
+        7709848
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Banpaku-kinen-kōen a Saito-nishi.",
+      "facts": []
+    },
+    {
+      "id": "kobe-electric-arima",
+      "code": "KB",
+      "color": "#DD0033",
+      "name": "Kōbe Dentetsu Arima",
+      "ja": "神戸電鉄有馬線",
+      "en": "Kōbe Dentetsu Arima Line",
+      "operator": "kobe-electric",
+      "type": "commuter",
+      "osm": [
+        9407547
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Shinkaichi al onsen de Arima, subiendo las montañas Rokkō.",
+      "facts": [
+        "Sube pendientes de hasta el 50 ‰ para llegar a Arima, uno de los balnearios más antiguos de Japón."
+      ]
+    },
+    {
+      "id": "kobe-electric-sanda",
+      "code": "KB",
+      "color": "#E4476A",
+      "name": "Kōbe Dentetsu Sanda",
+      "ja": "神戸電鉄三田線",
+      "en": "Kōbe Dentetsu Sanda Line",
+      "operator": "kobe-electric",
+      "type": "commuter",
+      "osm": [
+        11978782
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Arimaguchi a Sanda.",
+      "facts": []
+    },
+    {
+      "id": "kobe-electric-ao",
+      "code": "KB",
+      "color": "#E86C88",
+      "name": "Kōbe Dentetsu Ao",
+      "ja": "神戸電鉄粟生線",
+      "en": "Kōbe Dentetsu Ao Line",
+      "operator": "kobe-electric",
+      "type": "commuter",
+      "osm": [
+        11984406
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Suzurandai a Ao, hacia Miki y Ono.",
+      "facts": []
+    },
+    {
+      "id": "kobe-electric-koen-toshi",
+      "code": "KB",
+      "color": "#EC8FA4",
+      "name": "Kōbe Dentetsu Kōen-toshi",
+      "ja": "神戸電鉄公園都市線",
+      "en": "Kōbe Dentetsu Kōen-toshi Line",
+      "operator": "kobe-electric",
+      "type": "commuter",
+      "osm": [
+        9407558
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Yokoyama a Woody Town-chūō.",
+      "facts": []
+    },
+    {
+      "id": "sanyo-electric",
+      "code": "SY",
+      "color": "#FA2B08",
+      "name": "Sanyō Dentetsu",
+      "ja": "山陽電気鉄道本線",
+      "en": "Sanyō Electric Railway Main Line",
+      "operator": "sanyo",
+      "type": "commuter",
+      "osm": [
+        11970931
+      ],
+      "region": "kobe",
+      "trains": [],
+      "summary": "De Nishidai (Kōbe) a Sanyō-Himeji, junto al mar de Seto.",
+      "facts": [
+        "Entre Suma y Shioya corre pegado a la playa, junto a la JR; al final, en Himeji, se ve el castillo."
+      ]
+    },
+    {
+      "id": "nose-myoken",
+      "code": "NS",
+      "color": "#7A2E3B",
+      "name": "Nose Dentetsu Myōken",
+      "ja": "能勢電鉄妙見線",
+      "en": "Nose Dentetsu Myōken Line",
+      "operator": "nose",
+      "type": "commuter",
+      "osm": [
+        11981613
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Kawanishi-Noseguchi a Myōkenguchi, al pie del monte Myōken.",
+      "facts": [
+        "En Myōkenguchi enlaza con un funicular y un telesilla que suben al templo del monte Myōken."
+      ]
+    },
+    {
+      "id": "nose-nissei",
+      "code": "NS",
+      "color": "#BD2B3F",
+      "name": "Nose Dentetsu Nissei",
+      "ja": "能勢電鉄日生線",
+      "en": "Nose Dentetsu Nissei Line",
+      "operator": "nose",
+      "type": "commuter",
+      "osm": [
+        11981650
+      ],
+      "region": "osaka",
+      "trains": [],
+      "summary": "De Yamashita a Nissei-Chūō.",
+      "facts": []
     }
   ],
   "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas). 'order': 'code' ordena por el código de estación (cuando OSM trae todos).",

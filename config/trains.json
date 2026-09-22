@@ -135,7 +135,12 @@
     "introduced": 2010,
     "cars": 10,
     "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai.",
-    "wiki": "Tokyo Metro 15000 series"
+    "wiki": "Tokyo Metro 15000 series",
+    "runs": [
+      {
+        "line": "toyo-rapid"
+      }
+    ]
   },
   {
     "id": "tm-16000",
@@ -152,7 +157,12 @@
     "operator": "tokyo-metro",
     "introduced": 2021,
     "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón.",
-    "wiki": "Tokyo Metro 17000 series"
+    "wiki": "Tokyo Metro 17000 series",
+    "runs": [
+      {
+        "line": "seibu-yurakucho"
+      }
+    ]
   },
   {
     "id": "tm-18000",
@@ -171,7 +181,12 @@
     "introduced": 1991,
     "cars": 6,
     "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio.",
-    "wiki": "Tokyo Metro 9000 series"
+    "wiki": "Tokyo Metro 9000 series",
+    "runs": [
+      {
+        "line": "saitama-rapid"
+      }
+    ]
   },
   {
     "id": "toei-5500",
@@ -1218,6 +1233,15 @@
     "runs": [
       {
         "line": "jr-kyoto"
+      },
+      {
+        "line": "jr-tozai"
+      },
+      {
+        "line": "katamachi"
+      },
+      {
+        "line": "jr-takarazuka"
       }
     ]
   },
@@ -1577,6 +1601,9 @@
     "runs": [
       {
         "line": "tokyu-meguro"
+      },
+      {
+        "line": "tokyu-shin-yokohama"
       }
     ],
     "photo_file": "File:Tokyu-Series3020-3821.jpg"
@@ -1683,6 +1710,12 @@
       },
       {
         "line": "keio-takao"
+      },
+      {
+        "line": "keio-sagamihara"
+      },
+      {
+        "line": "keio-new"
       }
     ]
   },
@@ -1731,6 +1764,9 @@
       },
       {
         "line": "seibu-shinjuku"
+      },
+      {
+        "line": "seibu-yurakucho"
       }
     ]
   },
@@ -1838,6 +1874,15 @@
       },
       {
         "line": "asakusa"
+      },
+      {
+        "line": "keikyu-kurihama"
+      },
+      {
+        "line": "keikyu-zushi"
+      },
+      {
+        "line": "keikyu-daishi"
       }
     ]
   },
@@ -1872,6 +1917,9 @@
     "runs": [
       {
         "line": "keisei-main"
+      },
+      {
+        "line": "hokuso"
       }
     ]
   },
@@ -1892,6 +1940,9 @@
       },
       {
         "line": "asakusa"
+      },
+      {
+        "line": "hokuso"
       }
     ]
   },
@@ -1926,6 +1977,15 @@
       },
       {
         "line": "tokyu-meguro"
+      },
+      {
+        "line": "sotetsu-shin-yokohama"
+      },
+      {
+        "line": "tokyu-shin-yokohama"
+      },
+      {
+        "line": "sotetsu-izumino"
       }
     ]
   },
@@ -1943,6 +2003,9 @@
       },
       {
         "line": "saikyo"
+      },
+      {
+        "line": "sotetsu-shin-yokohama"
       }
     ]
   },
@@ -2175,6 +2238,9 @@
     "runs": [
       {
         "line": "jr-kyoto"
+      },
+      {
+        "line": "hanwa"
       }
     ]
   },
@@ -2235,6 +2301,9 @@
     "runs": [
       {
         "line": "sakaisuji"
+      },
+      {
+        "line": "hankyu-senri"
       }
     ]
   },
@@ -2394,6 +2463,9 @@
     "runs": [
       {
         "line": "osaka-monorail"
+      },
+      {
+        "line": "osaka-monorail-saito"
       }
     ]
   },
