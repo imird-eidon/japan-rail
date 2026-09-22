@@ -47,7 +47,26 @@
     "山田": "Yamada",
     "めじろ台": "Mejirodai",
     "狭間": "Hazama",
-    "高尾山口": "Takaosanguchi"
+    "高尾山口": "Takaosanguchi",
+    "ポートタウン西": "Port Town-nishi",
+    "フェリーターミナル": "Ferry Terminal",
+    "南港東": "Nanko-higashi",
+    "南港口": "Nanko-guchi",
+    "平林": "Hirabayashi",
+    "淀川": "Yodogawa",
+    "千船": "Chibune",
+    "杭瀬": "Kuise",
+    "尼崎": "Amagasaki",
+    "大谷": "Otani",
+    "大津": "Otsu",
+    "膳所": "Zeze",
+    "石山": "Ishiyama",
+    "瀬田": "Seta",
+    "南草津": "Minami-Kusatsu",
+    "草津": "Kusatsu",
+    "長浜": "Nagahama",
+    "我孫子道": "Abikomichi",
+    "宿院": "Shukuin"
   },
   "station_codes": {
     "oedo": {
@@ -144,11 +163,24 @@
     },
     "takasaki": {
       "大宮": "JU07"
+    },
+    "biwako": {
+      "大津": "A29"
+    },
+    "keihan-keishin": {
+      "京阪山科": "OT31",
+      "四宮": "OT32",
+      "上栄町": "OT35"
+    },
+    "nankai-koya": {
+      "帝塚山": "NK51"
     }
   },
   "stop_nodes": {
     "3964247078": "茶山・京都芸術大学",
-    "7587151151": "木野"
+    "7587151151": "木野",
+    "7045946293": "我孫子道",
+    "7046009195": "宿院"
   },
   "ja_aliases": {
     "近鉄京都": "京都"

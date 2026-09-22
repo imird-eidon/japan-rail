@@ -1,4 +1,13 @@
 {
+  "chiba-monorail-0": {
+    "src": "img/trains/chiba-monorail-0.webp",
+    "thumb": "img/trains/thumb/chiba-monorail-0.webp",
+    "file": "File:Chiba Urban Monorail 0 series 20120809.jpg",
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chiba_Urban_Monorail_0_series_20120809.jpg"
+  },
   "e231-0": {
     "src": "img/trains/e231-0.webp",
     "file": "File:E231-0 Series Musashino Line of JR East.jpg",
@@ -152,6 +161,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:Enoden_Type_1000_at_Enoshima_Station.jpg",
     "thumb": "img/trains/thumb/enoden-1000.webp"
   },
+  "hankai-mo161": {
+    "src": "img/trains/hankai-mo161.webp",
+    "thumb": "img/trains/thumb/hankai-mo161.webp",
+    "file": "File:Hankai mo161.jpg",
+    "author": "高崎の鉄塊",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hankai_mo161.jpg"
+  },
+  "hankyu-1000": {
+    "src": "img/trains/hankyu-1000.webp",
+    "thumb": "img/trains/thumb/hankyu-1000.webp",
+    "file": "File:Hankyu-Series1000-1110.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hankyu-Series1000-1110.jpg"
+  },
   "hankyu-1300": {
     "src": "img/trains/hankyu-1300.webp",
     "file": "File:Hankyu Series1300-1312.jpg",
@@ -178,6 +205,42 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hankyu-Series9300-Kyoto-Line-GionHM.jpg",
     "thumb": "img/trains/thumb/hankyu-9300.webp"
+  },
+  "hanshin-1000": {
+    "src": "img/trains/hanshin-1000.webp",
+    "thumb": "img/trains/thumb/hanshin-1000.webp",
+    "file": "File:Hanshin-Series1000-1606.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanshin-Series1000-1606.jpg"
+  },
+  "hanshin-5700": {
+    "src": "img/trains/hanshin-5700.webp",
+    "thumb": "img/trains/thumb/hanshin-5700.webp",
+    "file": "File:Hanshin-Series5700-5717.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanshin-Series5700-5717.jpg"
+  },
+  "haruka": {
+    "src": "img/trains/haruka.webp",
+    "thumb": "img/trains/thumb/haruka.webp",
+    "file": "File:JR West 281 Haruka.jpg",
+    "author": "Sui-setz",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_West_281_Haruka.jpg"
+  },
+  "hinotori": {
+    "src": "img/trains/hinotori.webp",
+    "thumb": "img/trains/thumb/hinotori.webp",
+    "file": "File:Kintetsu Series80000 Hinotori-10.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series80000_Hinotori-10.jpg"
   },
   "jnr-101": {
     "src": "img/trains/jnr-101.webp",
@@ -260,6 +323,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Series321-D11.jpg",
     "thumb": "img/trains/thumb/jrw-321.webp"
   },
+  "jrw-323": {
+    "src": "img/trains/jrw-323.webp",
+    "thumb": "img/trains/thumb/jrw-323.webp",
+    "file": "File:Series323-LS21.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Series323-LS21.jpg"
+  },
   "keihan-13000": {
     "src": "img/trains/keihan-13000.webp",
     "file": "File:Keihan-Series13000.jpg",
@@ -277,6 +349,15 @@
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:Keihan_3000_8081.jpg",
     "thumb": "img/trains/thumb/keihan-3000.webp"
+  },
+  "keihan-800": {
+    "src": "img/trains/keihan-800.webp",
+    "thumb": "img/trains/thumb/keihan-800.webp",
+    "file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg",
+    "author": "城山",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E5%A4%A7%E6%B4%A5%E9%A7%85%E5%89%8D%E4%BA%A4%E5%B7%AE%E7%82%B9%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%96%E3%82%92%E9%80%B2%E3%82%80%E4%BA%AC%E9%98%AA800%E7%B3%BB%EF%BC%882006%E5%B9%B49%E6%9C%8824%E6%97%A5%EF%BC%89.jpg"
   },
   "keihan-8000": {
     "src": "img/trains/keihan-8000.webp",
@@ -368,6 +449,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series3220-3123.jpg",
     "thumb": "img/trains/thumb/kintetsu-3220.webp"
   },
+  "kobe-6000": {
+    "src": "img/trains/kobe-6000.webp",
+    "thumb": "img/trains/thumb/kobe-6000.webp",
+    "file": "File:Kobe Subway 6640 at Seishin-minami Station.jpg",
+    "author": "KishujiRapid",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kobe_Subway_6640_at_Seishin-minami_Station.jpg"
+  },
   "ks-10": {
     "src": "img/trains/ks-10.webp",
     "file": "File:Kyoto Subway series 10 batch 1 and 6.JPG",
@@ -404,6 +494,33 @@
     "source": "https://commons.wikimedia.org/wiki/File:Tokyo-Monorail-Type10000-10081F.jpg",
     "thumb": "img/trains/thumb/monorail-10000.webp"
   },
+  "nankai-8300": {
+    "src": "img/trains/nankai-8300.webp",
+    "thumb": "img/trains/thumb/nankai-8300.webp",
+    "file": "File:Nankai Series8300-8415.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nankai_Series8300-8415.jpg"
+  },
+  "nt-300": {
+    "src": "img/trains/nt-300.webp",
+    "thumb": "img/trains/thumb/nt-300.webp",
+    "file": "File:Nippori-Toneri-Liner Type300-14.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nippori-Toneri-Liner_Type300-14.jpg"
+  },
+  "nt-330": {
+    "src": "img/trains/nt-330.webp",
+    "thumb": "img/trains/thumb/nt-330.webp",
+    "file": "File:Nippori-Toneri-Liner Type330-39.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nippori-Toneri-Liner_Type330-39.jpg"
+  },
   "odakyu-4000": {
     "src": "img/trains/odakyu-4000.webp",
     "file": "File:Odakyu-Series4000 4551.jpg",
@@ -421,6 +538,87 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:OER-Series5000-5451.jpg",
     "thumb": "img/trains/thumb/odakyu-5000.webp"
+  },
+  "osaka-30000": {
+    "src": "img/trains/osaka-30000.webp",
+    "thumb": "img/trains/thumb/osaka-30000.webp",
+    "file": "File:Osaka Subway 32601F 20090918.jpg",
+    "author": "ja:user:Series207",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka_Subway_32601F_20090918.jpg"
+  },
+  "osaka-400": {
+    "src": "img/trains/osaka-400.webp",
+    "thumb": "img/trains/thumb/osaka-400.webp",
+    "file": "File:Osaka-Metro Series400-409-01.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka-Metro_Series400-409-01.jpg"
+  },
+  "osaka-66": {
+    "src": "img/trains/osaka-66.webp",
+    "thumb": "img/trains/thumb/osaka-66.webp",
+    "file": "File:大阪市営66系電車.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%98%AA%E5%B8%82%E5%96%B666%E7%B3%BB%E9%9B%BB%E8%BB%8A.jpg"
+  },
+  "osaka-70": {
+    "src": "img/trains/osaka-70.webp",
+    "thumb": "img/trains/thumb/osaka-70.webp",
+    "file": "File:Osaka subway New70.jpg",
+    "author": "Z-panta",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka_subway_New70.jpg"
+  },
+  "osaka-monorail-3000": {
+    "src": "img/trains/osaka-monorail-3000.webp",
+    "thumb": "img/trains/thumb/osaka-monorail-3000.webp",
+    "file": "File:Osaka Monorail 3000 series.jpg",
+    "author": "もんじゃ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka_Monorail_3000_series.jpg"
+  },
+  "port-liner-2000": {
+    "src": "img/trains/port-liner-2000.webp",
+    "thumb": "img/trains/thumb/port-liner-2000.webp",
+    "file": "File:Port Liner 2102 at Naka Koen Station.JPG",
+    "author": "KishujiRapid",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_Liner_2102_at_Naka_Koen_Station.JPG"
+  },
+  "port-liner-8000": {
+    "src": "img/trains/port-liner-8000.webp",
+    "thumb": "img/trains/thumb/port-liner-8000.webp",
+    "file": "File:Port Liner at Sannomiya Station.jpg",
+    "author": "Hideyuki KAMON",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_Liner_at_Sannomiya_Station.jpg"
+  },
+  "randen-trams": {
+    "src": "img/trains/randen-trams.webp",
+    "thumb": "img/trains/thumb/randen-trams.webp",
+    "file": "File:Keifuku Randen 631 at Arashiyama Station 20110410 (8407859706).jpg",
+    "author": "Kzaral",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keifuku_Randen_631_at_Arashiyama_Station_20110410_(8407859706).jpg"
+  },
+  "rapit": {
+    "src": "img/trains/rapit.webp",
+    "thumb": "img/trains/thumb/rapit.webp",
+    "file": "File:Nankai50000Series01.jpg",
+    "author": "Kansai explorer(talk / Contributions) at the Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Nankai50000Series01.jpg"
   },
   "romancecar": {
     "src": "img/trains/romancecar.webp",
@@ -493,6 +691,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Seibu-Series40000_40104_Haijima-Liner-4.jpg",
     "thumb": "img/trains/thumb/seibu-40000.webp"
+  },
+  "shimakaze": {
+    "src": "img/trains/shimakaze.webp",
+    "thumb": "img/trains/thumb/shimakaze.webp",
+    "file": "File:KINTETSU50000 1.JPG",
+    "author": "Oka21000",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KINTETSU50000_1.JPG"
   },
   "shonan-monorail-5000": {
     "src": "img/trains/shonan-monorail-5000.webp",
@@ -727,6 +934,15 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Tama_Intercity_Monorail_1000_Series_1106F_set.jpg",
     "thumb": "img/trains/thumb/tama-monorail-1000.webp"
+  },
+  "thunderbird": {
+    "src": "img/trains/thunderbird.webp",
+    "thumb": "img/trains/thumb/thunderbird.webp",
+    "file": "File:JRW Series683-4000R.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRW_Series683-4000R.jpg"
   },
   "tm-01": {
     "src": "img/trains/tm-01.webp",

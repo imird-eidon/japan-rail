@@ -280,5 +280,83 @@
     "facts": [
       "El edificio de la estación imita el palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
     ]
+  },
+  "osaka": {
+    "summary": "La gran estación de Ōsaka; junto con las de Umeda forma el mayor nudo ferroviario del oeste de Japón.",
+    "facts": [
+      "Una enorme cubierta de cristal y acero (2011) cubre todos sus andenes."
+    ]
+  },
+  "tennoji": {
+    "facts": [
+      "Enfrente se alza Abeno Harukas (300 m), el rascacielos más alto de Japón entre 2014 y 2023."
+    ]
+  },
+  "namba": {
+    "facts": [
+      "A pocos pasos están Dōtonbori y el famoso cartel del corredor de Glico."
+    ]
+  },
+  "shinsaibashi": {
+    "facts": [
+      "El andén de la Midōsuji conserva su bóveda y sus lámparas de araña de los años 30."
+    ]
+  },
+  "koshien": {
+    "facts": [
+      "Es la estación del estadio de Kōshien (1924), casa de los Hanshin Tigers y del torneo nacional de béisbol escolar."
+    ]
+  },
+  "takarazuka": {
+    "facts": [
+      "Sede del teatro Takarazuka, compañía de musicales formada solo por mujeres."
+    ]
+  },
+  "kintetsu-nara": {
+    "facts": [
+      "A pocos minutos del parque de Nara, con sus ciervos sueltos, y del templo Tōdai-ji."
+    ]
+  },
+  "kansai-airport": {
+    "summary": "El aeropuerto internacional de Kansai, construido sobre una isla artificial en la bahía de Ōsaka (1994)."
+  },
+  "sannomiya": {
+    "summary": "El centro de Kōbe: JR, Hankyu, Hanshin, metro y Port Liner a pocos pasos."
+  },
+  "yumeshima": {
+    "summary": "La isla artificial donde se celebró la Exposición Universal de Ōsaka 2025."
+  },
+  "tsuruhashi": {
+    "facts": [
+      "Es el barrio coreano de Ōsaka: al bajar del tren se huele el yakiniku."
+    ]
+  },
+  "ebisucho": {
+    "facts": [
+      "Junto a la torre Tsūtenkaku y el barrio de Shinsekai, cuna de los kushikatsu."
+    ]
+  },
+  "gokurakubashi": {
+    "facts": [
+      "Aquí empieza el funicular que sube al monte Kōya (Kōyasan), con decenas de templos budistas."
+    ]
+  },
+  "biwako-hamaotsu": {
+    "facts": [
+      "Frente a la estación, los trenes de Keihan cruzan la gran intersección por medio de la calle, como tranvías."
+    ]
+  },
+  "universal-city": {
+    "summary": "La estación de Universal Studios Japan."
+  },
+  "bampakukinenkoen": {
+    "facts": [
+      "Aquí está la Torre del Sol de Tarō Okamoto, símbolo de la Expo 70."
+    ]
+  },
+  "bampaku-kinenkoen": {
+    "facts": [
+      "Se llama igual que la estación de la Expo 70 de Ōsaka, pero recuerda otra exposición: la de Tsukuba de 1985."
+    ]
   }
 }

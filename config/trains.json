@@ -543,6 +543,13 @@
           1985,
           1990
         ]
+      },
+      {
+        "line": "osaka-loop",
+        "years": [
+          1969,
+          2017
+        ]
       }
     ],
     "photo_file": "File:JNR103 198508 Uguisudani.jpg"
@@ -568,6 +575,13 @@
         "years": [
           1982,
           2001
+        ]
+      },
+      {
+        "line": "osaka-loop",
+        "years": [
+          null,
+          2019
         ]
       }
     ],
@@ -1144,6 +1158,15 @@
     "runs": [
       {
         "line": "jr-kyoto"
+      },
+      {
+        "line": "jr-kobe"
+      },
+      {
+        "line": "biwako"
+      },
+      {
+        "line": "kosei"
       }
     ]
   },
@@ -1157,6 +1180,15 @@
     "runs": [
       {
         "line": "jr-kyoto"
+      },
+      {
+        "line": "jr-kobe"
+      },
+      {
+        "line": "biwako"
+      },
+      {
+        "line": "kosei"
       }
     ]
   },
@@ -1275,6 +1307,12 @@
     "runs": [
       {
         "line": "kintetsu-kyoto"
+      },
+      {
+        "line": "kintetsu-nara"
+      },
+      {
+        "line": "kintetsu-namba"
       }
     ]
   },
@@ -2107,6 +2145,393 @@
     "runs": [
       {
         "line": "shonan-monorail"
+      }
+    ]
+  },
+  {
+    "id": "jrw-323",
+    "name": "Serie 323",
+    "operator": "jr-west",
+    "introduced": 2016,
+    "cars": 8,
+    "wiki": "323 series",
+    "summary": "El tren naranja del anillo de Ōsaka desde 2016; sustituyó a los veteranos 103 y 201.",
+    "facts": [
+      "Tiene solo tres puertas por lado, alineadas con las puertas de andén que se van instalando en el anillo."
+    ],
+    "runs": [
+      {
+        "line": "osaka-loop"
+      }
+    ]
+  },
+  {
+    "id": "haruka",
+    "name": "Serie 281 «Haruka»",
+    "operator": "jr-west",
+    "introduced": 1994,
+    "wiki": "281 series",
+    "summary": "Expreso limitado entre Kioto, Shin-Ōsaka y el aeropuerto de Kansai, desde su apertura en 1994.",
+    "runs": [
+      {
+        "line": "jr-kyoto"
+      }
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Serie 683 «Thunderbird»",
+    "operator": "jr-west",
+    "introduced": 2001,
+    "wiki": "683 series",
+    "summary": "Expreso limitado de Ōsaka y Kioto a Tsuruga por la orilla del lago Biwa (línea Kosei), donde enlaza con el Hokuriku Shinkansen.",
+    "runs": [
+      {
+        "line": "jr-kyoto"
+      },
+      {
+        "line": "kosei"
+      }
+    ]
+  },
+  {
+    "id": "osaka-30000",
+    "name": "Osaka Metro serie 30000",
+    "operator": "osaka-metro",
+    "introduced": 2009,
+    "wiki": "Osaka Metro 30000 series",
+    "summary": "El tren de las líneas Midōsuji y Tanimachi; en la Midōsuji sustituyó a los veteranos serie 10.",
+    "runs": [
+      {
+        "line": "midosuji"
+      },
+      {
+        "line": "tanimachi"
+      }
+    ]
+  },
+  {
+    "id": "osaka-400",
+    "name": "Osaka Metro serie 400",
+    "operator": "osaka-metro",
+    "introduced": 2023,
+    "cars": 6,
+    "wiki": "Osaka Metro 400 series",
+    "summary": "Tren de aspecto futurista para la línea Chūō y la Expo 2025, con algunos asientos transversales.",
+    "runs": [
+      {
+        "line": "chuo-osaka"
+      }
+    ]
+  },
+  {
+    "id": "osaka-66",
+    "name": "Osaka Metro serie 66",
+    "operator": "osaka-metro",
+    "introduced": 1990,
+    "cars": 8,
+    "wiki": "Osaka Municipal Subway 66 series",
+    "summary": "El tren de la Sakaisuji, que comparte vías con Hankyu hasta Kioto.",
+    "runs": [
+      {
+        "line": "sakaisuji"
+      }
+    ]
+  },
+  {
+    "id": "osaka-70",
+    "name": "Osaka Metro serie 70",
+    "operator": "osaka-metro",
+    "introduced": 1990,
+    "cars": 4,
+    "wiki": "Osaka Municipal Subway 70 series",
+    "summary": "Tren pequeño de motor lineal para la Nagahori Tsurumi-ryokuchi.",
+    "runs": [
+      {
+        "line": "nagahori"
+      }
+    ]
+  },
+  {
+    "id": "rapit",
+    "name": "Nankai 50000 «Rapi:t»",
+    "operator": "nankai",
+    "introduced": 1994,
+    "cars": 6,
+    "wiki": "Nankai 50000 series",
+    "summary": "El expreso al aeropuerto de Kansai, azul y de morro redondeado, con ventanas ovaladas: parece salido de un anime retro-futurista.",
+    "runs": [
+      {
+        "line": "nankai-main",
+        "from": "なんば",
+        "to": "泉佐野"
+      },
+      {
+        "line": "nankai-airport"
+      }
+    ]
+  },
+  {
+    "id": "nankai-8300",
+    "name": "Nankai serie 8300",
+    "operator": "nankai",
+    "introduced": 2015,
+    "wiki": "Nankai 8300 series",
+    "summary": "Tren de cercanías moderno de Nankai.",
+    "runs": [
+      {
+        "line": "nankai-main"
+      },
+      {
+        "line": "nankai-koya"
+      }
+    ]
+  },
+  {
+    "id": "hanshin-5700",
+    "name": "Hanshin 5700 «Jet Silver»",
+    "operator": "hanshin",
+    "introduced": 2015,
+    "cars": 4,
+    "wiki": "Hanshin 5700 series",
+    "summary": "Tren local de gran aceleración (los «jet cars» de Hanshin arrancan muy rápido para dejar paso a los expresos).",
+    "facts": [
+      "Ganó el premio Blue Ribbon en 2016."
+    ],
+    "runs": [
+      {
+        "line": "hanshin-main"
+      }
+    ]
+  },
+  {
+    "id": "hanshin-1000",
+    "name": "Hanshin serie 1000",
+    "operator": "hanshin",
+    "introduced": 2007,
+    "wiki": "Hanshin 1000 series",
+    "summary": "El tren que une Kōbe y Nara a través de la Hanshin Namba y la red Kintetsu.",
+    "runs": [
+      {
+        "line": "hanshin-main"
+      },
+      {
+        "line": "hanshin-namba"
+      },
+      {
+        "line": "kintetsu-namba"
+      },
+      {
+        "line": "kintetsu-nara"
+      }
+    ]
+  },
+  {
+    "id": "hankyu-1000",
+    "name": "Hankyu serie 1000",
+    "operator": "hankyu",
+    "introduced": 2013,
+    "cars": 8,
+    "wiki": "Hankyu 1000 series",
+    "summary": "Gemelo del 1300 de la línea Kioto, para las líneas Kōbe y Takarazuka; siempre en granate.",
+    "runs": [
+      {
+        "line": "hankyu-kobe"
+      },
+      {
+        "line": "hankyu-takarazuka"
+      }
+    ]
+  },
+  {
+    "id": "hinotori",
+    "name": "Kintetsu 80000 «Hinotori»",
+    "operator": "kintetsu",
+    "introduced": 2020,
+    "cars": 8,
+    "wiki": "Kintetsu 80000 series",
+    "summary": "Expreso de lujo rojo metalizado entre Ōsaka-Namba y Nagoya, con asientos «premium» en los extremos.",
+    "facts": [
+      "Ganó el premio Blue Ribbon en 2021."
+    ],
+    "runs": [
+      {
+        "line": "kintetsu-namba"
+      },
+      {
+        "line": "kintetsu-osaka"
+      }
+    ]
+  },
+  {
+    "id": "shimakaze",
+    "name": "Kintetsu 50000 «Shimakaze»",
+    "operator": "kintetsu",
+    "introduced": 2013,
+    "cars": 6,
+    "wiki": "Kintetsu 50000 series",
+    "summary": "Expreso turístico al santuario de Ise y Kashikojima, con coche cafetería de dos pisos.",
+    "facts": [
+      "Ganó el premio Blue Ribbon en 2014."
+    ],
+    "runs": [
+      {
+        "line": "kintetsu-namba"
+      },
+      {
+        "line": "kintetsu-osaka"
+      }
+    ]
+  },
+  {
+    "id": "osaka-monorail-3000",
+    "name": "Monorraíl de Ōsaka serie 3000",
+    "operator": "osaka-monorail",
+    "introduced": 2018,
+    "cars": 4,
+    "wiki": "Osaka Monorail 3000 series",
+    "summary": "El monorraíl más moderno de la línea, fabricado por Hitachi.",
+    "runs": [
+      {
+        "line": "osaka-monorail"
+      }
+    ]
+  },
+  {
+    "id": "hankai-mo161",
+    "name": "Hankai Mo 161",
+    "operator": "hankai",
+    "introduced": 1928,
+    "cars": 1,
+    "summary": "Tranvía de 1928 que sigue en servicio: uno de los más antiguos de Japón que aún lleva pasajeros a diario.",
+    "runs": [
+      {
+        "line": "hankai"
+      }
+    ],
+    "photo_file": "File:Hankai mo161.jpg"
+  },
+  {
+    "id": "kobe-6000",
+    "name": "Metro de Kōbe serie 6000",
+    "operator": "kobe-subway",
+    "introduced": 2019,
+    "cars": 6,
+    "wiki": "Kobe Municipal Subway 6000 series",
+    "summary": "El tren actual de la línea Seishin-Yamate, que sustituyó a los de 1977.",
+    "runs": [
+      {
+        "line": "kobe-seishin"
+      }
+    ]
+  },
+  {
+    "id": "port-liner-2000",
+    "name": "Port Liner serie 2000",
+    "operator": "kobe-new-transit",
+    "introduced": 2006,
+    "cars": 6,
+    "wiki": "Kobe New Transit 2000 series",
+    "summary": "Tren automático que llegó con la prolongación al aeropuerto de Kōbe (2006).",
+    "runs": [
+      {
+        "line": "port-liner"
+      }
+    ]
+  },
+  {
+    "id": "keihan-800",
+    "name": "Keihan serie 800",
+    "operator": "keihan",
+    "introduced": 1997,
+    "cars": 4,
+    "summary": "Tren multiusos: metro en la Tōzai de Kioto, tren de montaña en Ōsakayama y tranvía por las calles de Ōtsu.",
+    "runs": [
+      {
+        "line": "keihan-keishin"
+      },
+      {
+        "line": "kyoto-tozai"
+      }
+    ],
+    "photo_file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg"
+  },
+  {
+    "id": "chiba-monorail-0",
+    "name": "Monorraíl de Chiba serie 0 «Urban Flyer»",
+    "operator": "chiba-monorail",
+    "introduced": 2012,
+    "cars": 2,
+    "summary": "Monorraíl colgante con frontal acristalado desde el que se ve la ciudad por debajo.",
+    "runs": [
+      {
+        "line": "chiba-monorail"
+      },
+      {
+        "line": "chiba-monorail-1"
+      }
+    ],
+    "photo_file": "File:Chiba Urban Monorail 0 series 20120809.jpg"
+  },
+  {
+    "id": "port-liner-8000",
+    "name": "Port Liner serie 8000",
+    "operator": "kobe-new-transit",
+    "introduced": 1981,
+    "retired": 2009,
+    "summary": "El primer tren sin conductor del mundo en servicio comercial regular (1981).",
+    "history": [
+      {
+        "line": "port-liner",
+        "years": [
+          1981,
+          2009
+        ]
+      }
+    ],
+    "photo_file": "File:Port Liner at Sannomiya Station.jpg"
+  },
+  {
+    "id": "nt-300",
+    "name": "Nippori-Toneri Liner serie 300",
+    "operator": "toei",
+    "introduced": 2008,
+    "cars": 5,
+    "photo_file": "File:Nippori-Toneri-Liner Type300-14.jpg",
+    "summary": "El tren automático original de la línea (2008), sobre ruedas de goma.",
+    "runs": [
+      {
+        "line": "nippori-toneri"
+      }
+    ]
+  },
+  {
+    "id": "nt-330",
+    "name": "Nippori-Toneri Liner serie 330",
+    "operator": "toei",
+    "introduced": 2015,
+    "cars": 5,
+    "photo_file": "File:Nippori-Toneri-Liner Type330-39.jpg",
+    "summary": "Versión de 2015 con más puertas y asientos laterales, pensada para la hora punta.",
+    "runs": [
+      {
+        "line": "nippori-toneri"
+      }
+    ]
+  },
+  {
+    "id": "randen-trams",
+    "name": "Tranvías del Randen",
+    "operator": "keifuku",
+    "cars": 1,
+    "photo_file": "File:Keifuku Randen 631 at Arashiyama Station 20110410 (8407859706).jpg",
+    "summary": "Tranvías de un solo coche pintados de morado «Kyō-murasaki»; algunos lucen un aire retro.",
+    "runs": [
+      {
+        "line": "randen-arashiyama"
+      },
+      {
+        "line": "randen-kitano"
       }
     ]
   }

@@ -110,7 +110,7 @@ const trainThumb = (t, cls = "thumb") =>
 /** Años en una línea: «1963–1988», «hasta 1986», «desde 1954» (cuando solo se conoce uno). */
 const yearsText = ([a, b] = []) => (a && b ? `${a}–${b}` : b ? `hasta ${b}` : a ? `desde ${a}` : "");
 /** Años de servicio de un tren en su conjunto (1963–1988, o «desde 2015»). */
-const serviceText = (t) => (t.retired ? `${t.introduced}–${t.retired}` : `desde ${t.introduced}`);
+const serviceText = (t) => (t.retired ? `${t.introduced}–${t.retired}` : t.introduced ? `desde ${t.introduced}` : "en servicio");
 
 /**
  * Tarjetas de trenes (foto + nombre).
@@ -147,7 +147,7 @@ function trainsTab(net) {
       <span class="tr-lines">${(t.lines.length ? t.lines : (t.history || []).map((h) => h.line))
         .map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`;
   const current = net.trains.filter((t) => t.lines.length);
-  const retired = net.trains.filter((t) => !t.lines.length).sort((a, b) => a.introduced - b.introduced);
+  const retired = net.trains.filter((t) => !t.lines.length).sort((a, b) => (a.introduced || 0) - (b.introduced || 0));
   const sections = net.groups.map((g) => {
     const list = current.filter((t) => trainRegion(net, t) === g.id);
     if (!list.length) return "";
@@ -203,7 +203,10 @@ export function lineView(net, line) {
 
 // ------------------------------------------------------------------ estación
 export function stationView(net, st) {
-  const codes = st.lines.map((x) => stationCode(net.lineById.get(x.line), x.code)).join("");
+  // un cartel por código (las líneas JR Kyōto y JR Kōbe comparten «A47» en Ōsaka, por ejemplo)
+  const seen = new Set();
+  const codes = st.lines.filter((x) => !x.code || !seen.has(x.code) && seen.add(x.code))
+    .map((x) => stationCode(net.lineById.get(x.line), x.code)).join("");
   const rows = st.lines.map((x) => {
     const line = net.lineById.get(x.line);
     const { prev, next } = neighbours(line, st.id);
@@ -272,7 +275,7 @@ export function trainView(net, t) {
     </header>
     ${t.summary ? `<p class="summary">${esc(t.summary)}</p>` : ""}
     <dl class="stats">
-      <div><dt>${t.retired ? "En servicio" : "Desde"}</dt><dd>${t.retired ? `${t.introduced}<small>–${t.retired}</small>` : t.introduced}</dd></div>
+      ${t.introduced ? `<div><dt>${t.retired ? "En servicio" : "Desde"}</dt><dd>${t.retired ? `${t.introduced}<small>–${t.retired}</small>` : t.introduced}</dd></div>` : ""}
       ${t.cars ? `<div><dt>Coches</dt><dd>${t.cars}</dd></div>` : ""}
       ${nStations ? `<div><dt>Estaciones</dt><dd>${nStations}</dd></div>` : ""}
       ${t.builder ? `<div class="wide"><dt>Fabricante</dt><dd class="small">${esc(t.builder)}</dd></div>` : ""}

@@ -60,7 +60,9 @@ export function createMap(el, net, { onLine, onStation }) {
   // ---------------------------------------------------------------- estaciones
   for (const st of net.stationList) {
     const marker = L.circleMarker([st.lat, st.lon], { renderer: stationRenderer, bubblingMouseEvents: false });
+    const seen = new Set();
     const codes = st.lines
+      .filter((x) => !x.code || !seen.has(x.code) && seen.add(x.code))
       .map((x) => [net.lineById.get(x.line), x.code])
       .map(([l, code]) => `<span class="badge" style="--c:${l.color};--t:${textOn(l.color)}">${esc(code || l.code)}</span>`)
       .join("");

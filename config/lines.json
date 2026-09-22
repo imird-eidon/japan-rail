@@ -160,6 +160,46 @@
       "name": "Shōnan Monorail",
       "ja": "湘南モノレール",
       "url": "https://www.shonan-monorail.co.jp/"
+    },
+    "osaka-metro": {
+      "name": "Osaka Metro",
+      "ja": "大阪メトロ",
+      "url": "https://subway.osakametro.co.jp/"
+    },
+    "nankai": {
+      "name": "Nankai",
+      "ja": "南海電鉄",
+      "url": "https://www.nankai.co.jp/"
+    },
+    "hanshin": {
+      "name": "Hanshin",
+      "ja": "阪神電車",
+      "url": "https://rail.hanshin.co.jp/"
+    },
+    "osaka-monorail": {
+      "name": "Osaka Monorail",
+      "ja": "大阪モノレール",
+      "url": "https://www.osaka-monorail.co.jp/"
+    },
+    "hankai": {
+      "name": "Hankai Tramway",
+      "ja": "阪堺電車",
+      "url": "https://www.hankai.co.jp/"
+    },
+    "kobe-subway": {
+      "name": "Metro de Kōbe",
+      "ja": "神戸市営地下鉄",
+      "url": "https://www.city.kobe.lg.jp/kotsu/"
+    },
+    "kobe-new-transit": {
+      "name": "Kobe New Transit",
+      "ja": "神戸新交通",
+      "url": "https://www.knt-liner.co.jp/"
+    },
+    "chiba-monorail": {
+      "name": "Chiba Monorail",
+      "ja": "千葉都市モノレール",
+      "url": "https://chiba-monorail.co.jp/"
     }
   },
   "types": {
@@ -2237,6 +2277,740 @@
       ],
       "trains": [],
       "region": "tokyo"
+    },
+    {
+      "id": "osaka-loop",
+      "code": "O",
+      "color": "#E80000",
+      "name": "JR Ōsaka Loop Line",
+      "ja": "大阪環状線",
+      "en": "Ōsaka Loop Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        10073682
+      ],
+      "loop": true,
+      "length_km": 21.7,
+      "summary": "El anillo de Ōsaka: Ōsaka (Umeda), Kyōbashi, Tsuruhashi, Tennōji, Nishikujō… en unos 40 minutos.",
+      "facts": [
+        "Muchos de sus trenes no dan la vuelta completa: siguen hacia Nara, Wakayama o el aeropuerto de Kansai.",
+        "En Tsuruhashi, el barrio coreano, el andén huele a yakiniku de los restaurantes de al lado."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "yumesaki",
+      "code": "P",
+      "color": "#1D2088",
+      "name": "JR Yumesaki",
+      "ja": "ゆめ咲線",
+      "en": "JR Yumesaki Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11683620
+      ],
+      "length_km": 4.1,
+      "summary": "De Nishikujō a Sakurajima: la línea de Universal Studios Japan.",
+      "facts": [
+        "Su nombre oficial es línea Sakurajima; «Yumesaki» (sueño que florece) es el apodo que se le dio al abrir USJ en 2001."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "midosuji",
+      "code": "M",
+      "color": "#E5171F",
+      "name": "Osaka Metro Midōsuji",
+      "ja": "御堂筋線",
+      "en": "Midōsuji Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        2411153
+      ],
+      "opened": 1933,
+      "length_km": 24.5,
+      "summary": "La línea más usada de Ōsaka: Shin-Ōsaka, Umeda, Shinsaibashi, Namba y Tennōji, bajo la gran avenida Midōsuji.",
+      "facts": [
+        "Fue el primer metro municipal de Japón (1933).",
+        "Estaciones como Umeda, Yodoyabashi o Shinsaibashi tienen altas bóvedas y lámparas de araña de los años 30.",
+        "Al norte sigue por la línea Kita-Osaka Kyūkō hasta Minoh."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "tanimachi",
+      "code": "T",
+      "color": "#522886",
+      "name": "Osaka Metro Tanimachi",
+      "ja": "谷町線",
+      "en": "Tanimachi Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        444907
+      ],
+      "opened": 1967,
+      "length_km": 28.1,
+      "summary": "La más larga de Osaka Metro: de Dainichi a Yao-Minami, pasando por Higashi-Umeda y Tennōji.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "yotsubashi",
+      "code": "Y",
+      "color": "#0078BA",
+      "name": "Osaka Metro Yotsubashi",
+      "ja": "四つ橋線",
+      "en": "Yotsubashi Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        8028854
+      ],
+      "opened": 1965,
+      "length_km": 11.4,
+      "summary": "De Nishi-Umeda a Suminoekōen, paralela a la Midōsuji.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "chuo-osaka",
+      "code": "C",
+      "color": "#019A66",
+      "name": "Osaka Metro Chūō",
+      "ja": "中央線",
+      "en": "Chūō Line (Osaka)",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        8028818
+      ],
+      "opened": 1961,
+      "summary": "Este–oeste, de Nagata a Yumeshima, la isla de la Expo 2025.",
+      "facts": [
+        "En enero de 2025 se prolongó hasta Yumeshima para la Exposición Universal de Ōsaka.",
+        "Al este sigue por la línea Kintetsu Keihanna hasta Nara."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "sennichimae",
+      "code": "S",
+      "color": "#E44D93",
+      "name": "Osaka Metro Sennichimae",
+      "ja": "千日前線",
+      "en": "Sennichimae Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        444891
+      ],
+      "opened": 1969,
+      "length_km": 12.6,
+      "summary": "De Nodahanshin a Minami-Tatsumi por Namba.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "sakaisuji",
+      "code": "K",
+      "color": "#814721",
+      "name": "Osaka Metro Sakaisuji",
+      "ja": "堺筋線",
+      "en": "Sakaisuji Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        444905
+      ],
+      "opened": 1969,
+      "length_km": 8.5,
+      "summary": "De Tenjimbashisuji 6-chōme a Tengachaya; sus trenes y los de Hankyu se intercambian hasta Kioto.",
+      "facts": [
+        "Es la única línea de Osaka Metro con catenaria en lugar de tercer carril, para poder compartir trenes con Hankyu."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "nagahori",
+      "code": "N",
+      "color": "#A9CC51",
+      "name": "Osaka Metro Nagahori Tsurumi-ryokuchi",
+      "ja": "長堀鶴見緑地線",
+      "en": "Nagahori Tsurumi-ryokuchi Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        444878
+      ],
+      "opened": 1990,
+      "length_km": 15.0,
+      "summary": "De Taishō a Kadoma-minami, con trenes pequeños de motor lineal.",
+      "facts": [
+        "Fue el primer metro de Japón con motores lineales; se inauguró para la Exposición de Flores y Plantas de 1990."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "imazatosuji",
+      "code": "I",
+      "color": "#EE7B1A",
+      "name": "Osaka Metro Imazatosuji",
+      "ja": "今里筋線",
+      "en": "Imazatosuji Line",
+      "operator": "osaka-metro",
+      "type": "metro",
+      "osm": [
+        8028827
+      ],
+      "opened": 2006,
+      "length_km": 11.9,
+      "summary": "La más nueva de Osaka Metro (2006), de Itakano a Imazato.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "new-tram",
+      "code": "P",
+      "color": "#00A0DE",
+      "name": "New Tram (Nankō Port Town)",
+      "ja": "ニュートラム",
+      "en": "New Tram",
+      "operator": "osaka-metro",
+      "type": "agt",
+      "osm": [
+        444913
+      ],
+      "opened": 1981,
+      "length_km": 7.9,
+      "summary": "Tren automático sin conductor por el puerto de Ōsaka, de Cosmosquare a Suminoekōen.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "nankai-main",
+      "code": "NK",
+      "color": "#0065AF",
+      "name": "Nankai principal",
+      "ja": "南海本線",
+      "en": "Nankai Main Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        11930463
+      ],
+      "opened": 1885,
+      "length_km": 64.2,
+      "summary": "De Namba a Wakayamashi bordeando la bahía de Ōsaka.",
+      "facts": [
+        "Nankai desciende del Hankai Railway de 1885: es la compañía ferroviaria privada más antigua de Japón que sigue funcionando."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "nankai-airport",
+      "code": "NK",
+      "color": "#6C7A89",
+      "name": "Nankai Aeropuerto",
+      "ja": "南海空港線",
+      "en": "Nankai Airport Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        9583743
+      ],
+      "section": [
+        "泉佐野",
+        "関西空港"
+      ],
+      "opened": 1994,
+      "length_km": 8.8,
+      "summary": "De Izumisano al aeropuerto de Kansai, sobre el mar.",
+      "facts": [
+        "Cruza al aeropuerto, construido en una isla artificial, por el puente Sky Gate Bridge R, de 3,75 km, con la autopista encima."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "nankai-koya",
+      "code": "NK",
+      "color": "#009A41",
+      "name": "Nankai Kōya",
+      "ja": "南海高野線",
+      "en": "Nankai Kōya Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [
+        11940316
+      ],
+      "length_km": 64.5,
+      "summary": "De Namba a Gokurakubashi, donde un funicular sube al monte Kōya, centro del budismo Shingon.",
+      "facts": [
+        "El último tramo sube por montañas con curvas y pendientes muy fuertes; el expreso «Kōya» usa trenes cortos preparados para ellas."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "hanshin-main",
+      "code": "HS",
+      "color": "#F39800",
+      "name": "Hanshin principal",
+      "ja": "阪神本線",
+      "en": "Hanshin Main Line",
+      "operator": "hanshin",
+      "type": "commuter",
+      "osm": [
+        11658109
+      ],
+      "opened": 1905,
+      "length_km": 32.1,
+      "summary": "De Ōsaka-Umeda a Motomachi (Kōbe) junto al mar, parando en el estadio de Kōshien.",
+      "facts": [
+        "Koshien, el estadio de los Hanshin Tigers y del famoso torneo de béisbol escolar, tiene su propia estación."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "hanshin-namba",
+      "code": "HS",
+      "color": "#F7B24C",
+      "name": "Hanshin Namba",
+      "ja": "阪神なんば線",
+      "en": "Hanshin Namba Line",
+      "operator": "hanshin",
+      "type": "commuter",
+      "osm": [
+        11923501
+      ],
+      "opened": 2009,
+      "length_km": 10.1,
+      "summary": "De Ōsaka-Namba a Amagasaki: desde 2009 une las redes de Kintetsu y Hanshin, y así Nara con Kōbe.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "hankyu-kobe",
+      "code": "HK",
+      "color": "#0D6FB8",
+      "name": "Hankyu Kōbe",
+      "ja": "阪急神戸本線",
+      "en": "Hankyu Kōbe Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11966252
+      ],
+      "opened": 1920,
+      "length_km": 32.3,
+      "summary": "De Ōsaka-Umeda a Kōbe-Sannomiya por la falda de las montañas Rokkō.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "hankyu-takarazuka",
+      "code": "HK",
+      "color": "#F26627",
+      "name": "Hankyu Takarazuka",
+      "ja": "阪急宝塚本線",
+      "en": "Hankyu Takarazuka Line",
+      "operator": "hankyu",
+      "type": "commuter",
+      "osm": [
+        11982564
+      ],
+      "opened": 1910,
+      "length_km": 24.5,
+      "summary": "De Ōsaka-Umeda a Takarazuka, la ciudad del célebre teatro musical femenino.",
+      "facts": [
+        "El fundador de Hankyu, Ichizō Kobayashi, creó la revista Takarazuka en 1914 para atraer viajeros a su línea."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "kintetsu-namba",
+      "code": "A",
+      "color": "#E0617A",
+      "name": "Kintetsu Namba",
+      "ja": "近鉄難波線",
+      "en": "Kintetsu Namba Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11955750
+      ],
+      "opened": 1970,
+      "length_km": 2.0,
+      "summary": "Corto tramo subterráneo de Ōsaka-Namba a Ōsaka-Uehommachi.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "kintetsu-nara",
+      "code": "A",
+      "color": "#D21644",
+      "name": "Kintetsu Nara",
+      "ja": "近鉄奈良線",
+      "en": "Kintetsu Nara Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11958106
+      ],
+      "opened": 1914,
+      "length_km": 26.7,
+      "summary": "De Fuse a Kintetsu-Nara atravesando el monte Ikoma; la forma más directa de ir de Ōsaka a Nara.",
+      "facts": [
+        "La estación de Kintetsu-Nara está a pocos minutos del parque de los ciervos."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "kintetsu-osaka",
+      "code": "D",
+      "color": "#4694D1",
+      "name": "Kintetsu Ōsaka",
+      "ja": "近鉄大阪線",
+      "en": "Kintetsu Ōsaka Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [
+        11962196
+      ],
+      "length_km": 108.9,
+      "summary": "De Ōsaka-Uehommachi a Ise-Nakagawa cruzando las montañas: el camino de los expresos hacia Nagoya e Ise.",
+      "facts": [
+        "Por aquí pasan el Hinotori (a Nagoya) y el Shimakaze (al santuario de Ise)."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "osaka-monorail",
+      "code": "MO",
+      "color": "#2E4FB5",
+      "name": "Monorraíl de Ōsaka",
+      "ja": "大阪モノレール",
+      "en": "Osaka Monorail",
+      "operator": "osaka-monorail",
+      "type": "monorail",
+      "osm": [
+        6011645
+      ],
+      "opened": 1990,
+      "length_km": 21.2,
+      "summary": "Del aeropuerto de Itami a Kadomashi, rodeando Ōsaka por el norte.",
+      "facts": [
+        "En Banpaku-kinen-kōen se ve la Torre del Sol de Tarō Okamoto, símbolo de la Expo de 1970."
+      ],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "hankai",
+      "code": "HN",
+      "color": "#18A15A",
+      "name": "Tranvía Hankai",
+      "ja": "阪堺線",
+      "en": "Hankai Tramway",
+      "operator": "hankai",
+      "type": "tram",
+      "osm": [
+        9603732
+      ],
+      "length_km": 14.1,
+      "summary": "El último tranvía de Ōsaka: de Ebisuchō (junto a la torre Tsūtenkaku) a Hamadera.",
+      "facts": [
+        "Todavía circula el tranvía Mo 161 de 1928, uno de los más antiguos de Japón en servicio regular."
+      ],
+      "trains": [],
+      "region": "osaka",
+      "order": "geometry"
+    },
+    {
+      "id": "hankai-uemachi",
+      "code": "HN",
+      "color": "#58B97F",
+      "name": "Tranvía Hankai: Uemachi",
+      "ja": "上町線",
+      "en": "Hankai Uemachi Line",
+      "operator": "hankai",
+      "type": "tram",
+      "osm": [
+        3969572
+      ],
+      "length_km": 4.6,
+      "summary": "Ramal del tranvía desde Tennōji-ekimae, a los pies del rascacielos Abeno Harukas.",
+      "facts": [],
+      "trains": [],
+      "region": "osaka"
+    },
+    {
+      "id": "jr-kobe",
+      "code": "A",
+      "color": "#0070C0",
+      "name": "Línea JR Kōbe",
+      "ja": "JR神戸線",
+      "en": "JR Kōbe Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        16784421
+      ],
+      "opened": 1874,
+      "summary": "De Ōsaka a Kōbe y Nishi-Akashi: el segundo ferrocarril de Japón (1874).",
+      "facts": [
+        "Entre Suma y Tarumi va pegada al mar, con el puente Akashi-Kaikyō al fondo.",
+        "Sus rápidos especiales circulan a 130 km/h, compitiendo con Hankyu y Hanshin."
+      ],
+      "trains": [],
+      "region": "kobe"
+    },
+    {
+      "id": "kobe-seishin",
+      "code": "S",
+      "color": "#00AE8E",
+      "name": "Metro de Kōbe: Seishin-Yamate",
+      "ja": "西神・山手線",
+      "en": "Seishin-Yamate Line",
+      "operator": "kobe-subway",
+      "type": "metro",
+      "osm": [
+        7720727
+      ],
+      "opened": 1977,
+      "length_km": 30.2,
+      "summary": "De Tanigami a Seishin-Chūō por Sannomiya y Shin-Kōbe (Shinkansen).",
+      "facts": [
+        "El tramo Tanigami–Shin-Kōbe atraviesa las montañas Rokkō por un túnel de más de 7 km."
+      ],
+      "trains": [],
+      "region": "kobe"
+    },
+    {
+      "id": "kobe-kaigan",
+      "code": "K",
+      "color": "#267DCE",
+      "name": "Metro de Kōbe: Kaigan",
+      "ja": "海岸線",
+      "en": "Kaigan Line",
+      "operator": "kobe-subway",
+      "type": "metro",
+      "osm": [
+        7712960
+      ],
+      "opened": 2001,
+      "length_km": 7.9,
+      "summary": "«Línea de la costa», de Sannomiya-Hanadokeimae a Shin-Nagata, con motor lineal.",
+      "facts": [],
+      "trains": [],
+      "region": "kobe"
+    },
+    {
+      "id": "port-liner",
+      "code": "P",
+      "color": "#3573BD",
+      "name": "Port Liner",
+      "ja": "ポートライナー",
+      "en": "Port Liner",
+      "operator": "kobe-new-transit",
+      "type": "agt",
+      "osm": [
+        6031863
+      ],
+      "opened": 1981,
+      "length_km": 10.8,
+      "summary": "Tren automático de Sannomiya a Port Island y el aeropuerto de Kōbe.",
+      "facts": [
+        "En 1981 fue el primer tren sin conductor del mundo en servicio comercial regular."
+      ],
+      "trains": [],
+      "region": "kobe"
+    },
+    {
+      "id": "rokko-liner",
+      "code": "R",
+      "color": "#3E754E",
+      "name": "Rokkō Liner",
+      "ja": "六甲ライナー",
+      "en": "Rokkō Liner",
+      "operator": "kobe-new-transit",
+      "type": "agt",
+      "osm": [
+        6015207
+      ],
+      "opened": 1990,
+      "length_km": 4.5,
+      "summary": "Tren automático de Sumiyoshi a la isla artificial de Rokkō.",
+      "facts": [],
+      "trains": [],
+      "region": "kobe"
+    },
+    {
+      "id": "keihan-keishin",
+      "code": "OT",
+      "color": "#1F9E6D",
+      "name": "Keihan Keishin",
+      "ja": "京津線",
+      "en": "Keihan Keishin Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|light_rail|tram\"][\"name\"~\"京津線\"]",
+        "bbox": [
+          34.95,
+          135.78,
+          35.1,
+          135.92
+        ]
+      },
+      "extra_nodes": [
+        339092778
+      ],
+      "no_extrapolate": true,
+      "opened": 1912,
+      "length_km": 7.5,
+      "summary": "De Misasagi a Biwako-Hamaōtsu; sus trenes entran en el metro Tōzai hasta el centro de Kioto.",
+      "facts": [
+        "Sus trenes de 4 coches van en metro, suben una pendiente de 61 ‰ (de las mayores de Japón en tren de adherencia) y acaban circulando por la calle en Ōtsu."
+      ],
+      "trains": [],
+      "region": "kyoto",
+      "station_order": [
+        "御陵",
+        "京阪山科",
+        "四宮",
+        "追分",
+        "大谷",
+        "上栄町",
+        "びわ湖浜大津"
+      ]
+    },
+    {
+      "id": "keihan-ishiyama",
+      "code": "OT",
+      "color": "#3FB28A",
+      "name": "Keihan Ishiyama-Sakamoto",
+      "ja": "石山坂本線",
+      "en": "Keihan Ishiyama-Sakamoto Line",
+      "operator": "keihan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|light_rail|tram\"][\"name\"~\"石山坂本線\"]",
+        "bbox": [
+          34.95,
+          135.78,
+          35.1,
+          135.92
+        ]
+      },
+      "order": "code",
+      "length_km": 14.1,
+      "summary": "Tranvía-tren junto al lago Biwa, de Ishiyamadera a Sakamoto-hieizanguchi.",
+      "facts": [
+        "En Sakamoto-hieizanguchi empieza el funicular de Sakamoto, el más largo de Japón, que sube al Enryaku-ji."
+      ],
+      "trains": [],
+      "region": "kyoto"
+    },
+    {
+      "id": "kosei",
+      "code": "B",
+      "color": "#00B2E5",
+      "name": "JR Kosei",
+      "ja": "湖西線",
+      "en": "JR Kosei Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11809992
+      ],
+      "opened": 1974,
+      "summary": "Por la orilla oeste del lago Biwa, de Kioto (Yamashina) hacia Ōmi-Shiotsu; ruta del Thunderbird.",
+      "facts": [
+        "Se construyó sin pasos a nivel para ir rápido, pero el viento del monte Hira (Hira-oroshi) obliga a menudo a parar los trenes."
+      ],
+      "trains": [],
+      "region": "kyoto"
+    },
+    {
+      "id": "biwako",
+      "code": "A",
+      "color": "#1F7FCB",
+      "name": "JR Biwako",
+      "ja": "琵琶湖線",
+      "en": "JR Biwako Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [
+        11789435
+      ],
+      "summary": "De Kioto a Maibara y Nagahama por la orilla sureste del lago Biwa.",
+      "facts": [],
+      "trains": [],
+      "region": "kyoto"
+    },
+    {
+      "id": "chiba-monorail",
+      "code": "CM",
+      "color": "#EA5413",
+      "name": "Monorraíl de Chiba (línea 2)",
+      "ja": "千葉都市モノレール2号線",
+      "en": "Chiba Urban Monorail Line 2",
+      "operator": "chiba-monorail",
+      "type": "monorail",
+      "osm": [
+        3952117
+      ],
+      "opened": 1988,
+      "summary": "Monorraíl suspendido de Chiba-Minato a Chishirodai.",
+      "facts": [
+        "Con sus dos líneas es el monorraíl suspendido más largo del mundo, según el Guinness.",
+        "Es de tipo SAFEGE, como el Shōnan Monorail: el tren cuelga de una viga hueca."
+      ],
+      "trains": [],
+      "region": "tokyo"
+    },
+    {
+      "id": "chiba-monorail-1",
+      "code": "CM",
+      "color": "#23AC38",
+      "name": "Monorraíl de Chiba (línea 1)",
+      "ja": "千葉都市モノレール1号線",
+      "en": "Chiba Urban Monorail Line 1",
+      "operator": "chiba-monorail",
+      "type": "monorail",
+      "osm": [
+        3952114
+      ],
+      "summary": "Corta línea de Chiba-Minato a Kenchō-mae, por el centro de Chiba.",
+      "facts": [],
+      "trains": [],
+      "region": "tokyo"
     }
   ],
   "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas). 'order': 'code' ordena por el código de estación (cuando OSM trae todos).",
@@ -2270,6 +3044,34 @@
         [
           35.075,
           135.83
+        ]
+      ]
+    },
+    "osaka": {
+      "name": "Ōsaka",
+      "ja": "大阪",
+      "bounds": [
+        [
+          34.6,
+          135.42
+        ],
+        [
+          34.76,
+          135.58
+        ]
+      ]
+    },
+    "kobe": {
+      "name": "Kōbe",
+      "ja": "神戸",
+      "bounds": [
+        [
+          34.64,
+          135.1
+        ],
+        [
+          34.74,
+          135.28
         ]
       ]
     }

@@ -180,32 +180,54 @@
               "name": "Osaka Metro Midōsuji"
             },
             {
-              "line": "osaka-metro-rest",
-              "name": "Resto de Osaka Metro (Tanimachi, Yotsubashi, Chūō, Sennichimae, Sakaisuji, Nagahori Tsurumi-ryokuchi, Imazatosuji, New Tram)"
+              "name": "Resto de Osaka Metro (Tanimachi, Yotsubashi, Chūō, Sennichimae, Sakaisuji, Nagahori Tsurumi-ryokuchi, Imazatosuji, New Tram)",
+              "lines": [
+                "tanimachi",
+                "yotsubashi",
+                "chuo-osaka",
+                "sennichimae",
+                "sakaisuji",
+                "nagahori",
+                "imazatosuji",
+                "new-tram"
+              ]
             },
             {
-              "line": "nankai-main",
-              "name": "Nankai (y el Rapi:t al aeropuerto de Kansai)"
+              "name": "Nankai (y el Rapi:t al aeropuerto de Kansai)",
+              "lines": [
+                "nankai-main",
+                "nankai-airport"
+              ]
             },
             {
               "line": "hanshin-main",
               "name": "Hanshin — Ōsaka–Kōbe"
             },
             {
-              "line": "hankyu-kobe",
-              "name": "Hankyu Kōbe y Takarazuka"
+              "name": "Hankyu Kōbe y Takarazuka",
+              "lines": [
+                "hankyu-kobe",
+                "hankyu-takarazuka"
+              ]
             },
             {
-              "line": "kintetsu-nara",
-              "name": "Kintetsu Nara y Ōsaka"
+              "name": "Kintetsu Nara y Ōsaka",
+              "lines": [
+                "kintetsu-nara",
+                "kintetsu-osaka",
+                "kintetsu-namba"
+              ]
             },
             {
               "line": "osaka-monorail",
               "name": "Monorraíl de Ōsaka"
             },
             {
-              "line": "hankai-tram",
-              "name": "Tranvía Hankai"
+              "name": "Tranvía Hankai",
+              "lines": [
+                "hankai",
+                "hankai-uemachi"
+              ]
             }
           ]
         },
@@ -213,12 +235,18 @@
           "title": "Kōbe y alrededores",
           "items": [
             {
-              "line": "kobe-seishin",
-              "name": "Metro de Kōbe"
+              "name": "Metro de Kōbe",
+              "lines": [
+                "kobe-seishin",
+                "kobe-kaigan"
+              ]
             },
             {
-              "line": "port-liner",
-              "name": "Port Liner y Rokkō Liner"
+              "name": "Port Liner y Rokkō Liner",
+              "lines": [
+                "port-liner",
+                "rokko-liner"
+              ]
             },
             {
               "line": "jr-kobe",
@@ -230,18 +258,35 @@
           "title": "Kioto: lo que falta",
           "items": [
             {
-              "line": "keihan-keishin",
-              "name": "Keihan Keishin e Ishiyama-Sakamoto (hacia el lago Biwa)"
+              "name": "Keihan Keishin e Ishiyama-Sakamoto (hacia el lago Biwa)",
+              "lines": [
+                "keihan-keishin",
+                "keihan-ishiyama"
+              ]
             },
             {
-              "line": "kosei",
-              "name": "JR Kosei y Biwako (B / A)"
+              "name": "JR Kosei y Biwako (B / A)",
+              "lines": [
+                "kosei",
+                "biwako"
+              ]
             },
             {
-              "task": "Randen: añadir sus tranvías (series actuales e históricas)"
+              "train": "randen-trams",
+              "name": "Randen: tranvías"
             },
             {
-              "task": "Nippori-Toneri y Randen: trenes que circulan"
+              "train": "nt-300",
+              "name": "Nippori-Toneri Liner: sus trenes"
+            }
+          ]
+        },
+        {
+          "title": "Otros",
+          "items": [
+            {
+              "line": "chiba-monorail",
+              "name": "Monorraíl de Chiba — el monorraíl suspendido más largo del mundo"
             }
           ]
         }

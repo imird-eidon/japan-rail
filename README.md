@@ -1,10 +1,10 @@
 # Japan Rail Explorer
 
 Mapa interactivo de las líneas de tren y metro de Japón, con estaciones, trenes y datos curiosos.
-Ahora cubre **toda la red Shinkansen** (10 líneas), **Tokio y alrededores** (63 líneas: JR East, Tokyo Metro, Toei,
-Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei, Tsukuba Express, Sōtetsu, Yokohama…) y **Kioto** (15 líneas:
-metro, JR, Keihan, Hankyu, Kintetsu, Randen, Eiden y el tren turístico Sagano); la idea es ir ampliando poco a
-poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
+Ahora cubre **toda la red Shinkansen** (10 líneas), **Tokio y alrededores** (66 líneas: JR East, Tokyo Metro,
+Toei, Tōkyū, Odakyū, Keiō, Seibu, Tōbu, Keikyū, Keisei, Tsukuba Express, Sōtetsu, Yokohama, monorraíles de Tama,
+Shōnan y Chiba…), **Kioto** (19 líneas), **Ōsaka** (24) y **Kōbe** (5); en total 124 líneas,
+1889 estaciones y 145 series de trenes. La idea es ir ampliando poco a poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
@@ -93,6 +93,8 @@ a veces limita peticiones (HTTP 429); el script reintenta solo.
      `stop_position` que hay sobre ellas.
    - `region`: `japan` (Shinkansen), `tokyo`, `kyoto`… Las regiones se definen arriba, en `regions`;
      las que tienen `bounds` tienen su botón en el mapa.
+   - `extra_nodes`: paradas sueltas por id de nodo OSM; `station_order`: orden explícito (nombres japoneses);
+     `no_extrapolate`: no deducir códigos en los extremos.
    - `trains`: series que recorren la línea entera.
 3. `python3 tools/build_data.py` y recarga la web. El script avisa de estaciones sin nombre, trenes
    desconocidos o claves de `stations.json` que no coinciden con ninguna estación.
@@ -155,7 +157,7 @@ Se regenera al ejecutar `tools/build_data.py`; la lista de pendientes se edita e
 - [x] Red Shinkansen completa, con fotos de los trenes
 - [x] Completar Tokio: JR East restantes, compañías privadas y Yokohama (fase 1)
 - [x] Kioto
-- [ ] Ōsaka / resto de Kansai
+- [x] Ōsaka, Kōbe y resto de Kansai (fase 2)
 - [x] Fotos de todos los trenes y trenes históricos con sus años de servicio
 - [ ] Fotos de estaciones
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno

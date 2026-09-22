@@ -106,7 +106,7 @@ def normalize_code(ref, line_code):
     return None
 
 
-def fill_codes(order, line_id, line_code):
+def fill_codes(order, line_id, line_code, extrapolate=True):
     """Rellena códigos que faltan cuando los vecinos permiten deducirlos (numeración correlativa)."""
     def num(c):
         code = c["lines"].get(line_id)
@@ -122,7 +122,7 @@ def fill_codes(order, line_id, line_code):
                 order[k]["lines"][line_id] = f"{line_code}{a + step * (k - i):02d}"
                 filled += 1
     # extremos: se extrapola si los dos códigos conocidos más cercanos son coherentes entre sí
-    if len(known) > 1:
+    if len(known) > 1 and extrapolate:
         for (i, (_, x)), (j, (_, y)), ks in ((known[0], known[1], range(known[0][0] - 1, -1, -1)),
                                              (known[-1], known[-2], range(known[-1][0] + 1, len(order)))):
             if abs(x - y) != abs(i - j):
@@ -197,6 +197,17 @@ def fetch_ways(line, refresh):
     data = overpass(query)
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     time.sleep(5)
+    return data
+
+
+def fetch_nodes(ids, refresh):
+    ids = sorted(ids)
+    path = CACHE / f"nodes-{'-'.join(map(str, ids))[:120]}.json"
+    if path.exists() and not refresh:
+        return load_json(path)
+    log(f"  descargando nodos {ids}…")
+    data = overpass(f"[out:json];node(id:{','.join(map(str, ids))});out;")
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     return data
 
 
@@ -436,9 +447,13 @@ def main():
         sources = [(r, True) for r in line["osm"]] + [(r, False) for r in line.get("extra_stops", [])]
         if "osm_ways" in line:  # stops_only: el trazado sale de la relación y de las vías solo las paradas
             sources.append(("ways", not line["osm_ways"].get("stops_only")))
+        if "extra_nodes" in line:  # paradas sueltas por id de nodo OSM (p. ej. un terminal que está en otra línea)
+            sources.append(("nodes", False))
         for rel_id, use_geometry in sources:
             if rel_id == "ways":
                 segs, rel_stops = parse_ways(fetch_ways(line, args.refresh))
+            elif rel_id == "nodes":
+                segs, rel_stops = [], fetch_nodes(line["extra_nodes"], args.refresh)["elements"]
             else:
                 rel, segs, rel_stops = parse_relation(fetch_relation(rel_id, args.refresh))
             if use_geometry:
@@ -469,6 +484,9 @@ def main():
             stops, chains = cut_section(line, stops, chains, warnings)
         if line.get("order") == "geometry":
             stops = order_along(stops, chains)
+        elif line.get("station_order"):  # orden explícito (nombres japoneses) para relaciones caóticas
+            pos = {ja_key(n): i for i, n in enumerate(line["station_order"])}
+            stops.sort(key=lambda st: pos.get(ja_key(st["ja"]), len(pos)))
         elif line.get("order") == "code":  # todas las paradas numeradas: el código manda (vías dobles, cuádruples…)
             stops.sort(key=lambda st: int(re.sub(r"\D", "", st["code"] or "999")))
 
@@ -489,7 +507,7 @@ def main():
             fix = code_fixes.get(line["id"], {}).get(c["ja"])
             if fix:
                 c["lines"][line["id"]] = fix
-        if (n := fill_codes(order, line["id"], line["code"])):
+        if (n := fill_codes(order, line["id"], line["code"], not line.get("no_extrapolate"))):
             log(f"    {n} códigos de estación deducidos por numeración correlativa")
         codes = [c["lines"].get(line["id"]) for c in order if c["lines"].get(line["id"])]
         if dup := sorted({x for x in codes if codes.count(x) > 1}):
@@ -502,7 +520,7 @@ def main():
         for tid in line.get("trains", []):
             if tid not in train_ids:
                 warnings.append(f"{line['id']}: tren desconocido '{tid}'")
-        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways")},
+        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways", "extra_nodes", "no_extrapolate", "station_order")},
                           "osm": line["osm"],
                           "stations": order,   # se sustituye por ids más abajo
                           "drawn_km": round(drawn_km, 1),
