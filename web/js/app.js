@@ -9,9 +9,9 @@ const panel = document.getElementById("panel");
 const input = document.getElementById("search");
 const results = document.getElementById("search-results");
 
-const HIDDEN_KEY = "jre.hiddenOps";
+const HIDDEN_KEY = "jre.hiddenGroups";
 const ui = {
-  hiddenOps: new Set(readStored(HIDDEN_KEY, [])),
+  hidden: new Set(readStored(HIDDEN_KEY, [])),
   facts: [],
   factIndex: 0,
 };
@@ -40,7 +40,7 @@ async function main() {
     onLine: (id) => go(id ? `#/line/${id}` : "#/"),
     onStation: (id) => go(`#/station/${id}`),
   });
-  map.setHiddenOperators(ui.hiddenOps);
+  map.setHidden(ui.hidden);
   window.addEventListener("hashchange", route);
   route({ initial: true });
 }
@@ -62,12 +62,12 @@ function route({ initial = false } = {}) {
   } else if (type === "train") {
     const t = net.trainById.get(id);
     html = t ? trainView(net, t) : notFoundView("ese tren");
-    if (t) { map.overview(); document.title = `${t.name} · Japan Rail Explorer`; }
+    if (t) { map.focusLines(t.lines, { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
   } else {
     const tab = ["stations", "trains"].includes(type) ? type : "lines";
-    html = homeView(net, { tab, hiddenOps: ui.hiddenOps, fact: ui.facts[ui.factIndex % ui.facts.length] });
+    html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });
     map.overview({ fit: initial });
-    document.title = "Japan Rail Explorer · Tokio";
+    document.title = "Japan Rail Explorer";
   }
 
   panel.innerHTML = html;
@@ -83,15 +83,15 @@ panel.addEventListener("click", (e) => {
     ui.factIndex++;
     const card = panel.querySelector(".fact-card");
     const tmp = document.createElement("div");
-    tmp.innerHTML = homeView(net, { tab: "lines", hiddenOps: ui.hiddenOps, fact: ui.facts[ui.factIndex % ui.facts.length] });
+    tmp.innerHTML = homeView(net, { tab: "lines", hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });
     card?.replaceWith(tmp.querySelector(".fact-card"));
-  } else if (btn.dataset.action === "toggle-op") {
-    const op = btn.dataset.op;
-    ui.hiddenOps.has(op) ? ui.hiddenOps.delete(op) : ui.hiddenOps.add(op);
-    store(HIDDEN_KEY, [...ui.hiddenOps]);
-    map.setHiddenOperators(ui.hiddenOps);
-    btn.setAttribute("aria-pressed", String(!ui.hiddenOps.has(op)));
-    panel.querySelector(`.group[data-op="${CSS.escape(op)}"]`)?.classList.toggle("is-hidden", ui.hiddenOps.has(op));
+  } else if (btn.dataset.action === "toggle-group") {
+    const g = btn.dataset.group;
+    if (ui.hidden.has(g)) ui.hidden.delete(g); else ui.hidden.add(g);
+    store(HIDDEN_KEY, [...ui.hidden]);
+    map.setHidden(ui.hidden);
+    btn.setAttribute("aria-pressed", String(!ui.hidden.has(g)));
+    panel.querySelector(`.group[data-group="${CSS.escape(g)}"]`)?.classList.toggle("is-hidden", ui.hidden.has(g));
   }
 });
 

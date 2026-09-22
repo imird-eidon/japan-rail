@@ -2,7 +2,14 @@
   "_comment": "Correcciones manuales a errores o huecos de OpenStreetMap. Claves por nombre japonés de la estación (tal como sale en la web). Mejor aún: corrígelo también en openstreetmap.org para que le sirva a todo el mundo.",
   "station_names_en": {
     "木場": "Kiba",
-    "新高島平": "Shin-takashimadaira"
+    "新高島平": "Shin-takashimadaira",
+    "川内": "Sendai (Kagoshima)",
+    "嬉野温泉": "Ureshino-Onsen",
+    "新大村": "Shin-Omura",
+    "諫早": "Isahaya",
+    "くりこま高原": "Kurikoma-Kogen",
+    "上越妙高": "Joetsu-Myoko",
+    "新庄": "Shinjo"
   },
   "station_codes": {
     "oedo": {

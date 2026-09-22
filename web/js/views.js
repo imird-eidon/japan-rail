@@ -1,7 +1,7 @@
 // Vistas del panel lateral. Cada función devuelve HTML (texto siempre escapado con esc).
-import { esc, textOn, neighbours, networkStats } from "./data.js";
+import { esc, textOn, neighbours, networkStats, groupOf, isShinkansen } from "./data.js";
 
-const fmtKm = (n) => `${String(n).replace(".", ",")} km`;
+const fmtKm = (n) => `${String(n).replace(".", ",")}<small> km</small>`;
 
 /** Icono de tren (SVG en línea, usa currentColor). */
 export const trainIcon = (size = 20) =>
@@ -26,20 +26,19 @@ const factList = (facts) =>
   facts?.length ? `<h3>Datos curiosos</h3><ul class="facts">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : "";
 
 // ------------------------------------------------------------------ inicio
-export function homeView(net, { tab, hiddenOps, fact }) {
+export function homeView(net, { tab, hidden, fact }) {
   const st = networkStats(net);
-  const ops = Object.entries(net.operators);
   const tabs = [["lines", "Líneas"], ["stations", "Estaciones"], ["trains", "Trenes"]];
 
   let body = "";
   if (tab === "stations") body = stationsTab(net);
   else if (tab === "trains") body = trainsTab(net);
-  else body = linesTab(net, ops, hiddenOps);
+  else body = linesTab(net, hidden);
 
   return `
     <section class="intro">
-      <h1>La red ferroviaria de Tokio</h1>
-      <p>Explora las líneas de tren y metro: toca una línea en el mapa o elige una de la lista.</p>
+      <h1>Los trenes de Japón</h1>
+      <p>La red Shinkansen y, con todo detalle, el tren y el metro de Tokio. Toca una línea en el mapa o elige una de la lista.</p>
       <dl class="stats">
         <div><dt>Líneas</dt><dd>${st.lines}</dd></div>
         <div><dt>Estaciones</dt><dd>${st.stations}</dd></div>
@@ -64,15 +63,14 @@ function factCard(f) {
     </aside>`;
 }
 
-function linesTab(net, ops, hiddenOps) {
-  const chips = ops.map(([id, op]) => `
-      <button type="button" class="chip" data-action="toggle-op" data-op="${esc(id)}" aria-pressed="${!hiddenOps.has(id)}">${esc(op.name)}</button>`).join("");
-  const groups = ops.map(([opId, op]) => {
-    const lines = net.lines.filter((l) => l.operator === opId);
-    if (!lines.length) return "";
+function linesTab(net, hidden) {
+  const chips = net.groups.map((g) => `
+      <button type="button" class="chip" data-action="toggle-group" data-group="${esc(g.id)}" aria-pressed="${!hidden.has(g.id)}">${esc(g.name)}</button>`).join("");
+  const groups = net.groups.map((g) => {
+    const lines = net.lines.filter((l) => groupOf(l) === g.id);
     return `
-      <section class="group ${hiddenOps.has(opId) ? "is-hidden" : ""}" data-op="${esc(opId)}">
-        <h2 class="group-title">${esc(op.name)} <span class="ja">${esc(op.ja)}</span></h2>
+      <section class="group ${hidden.has(g.id) ? "is-hidden" : ""}" data-group="${esc(g.id)}">
+        <h2 class="group-title">${esc(g.name)} <span class="ja">${esc(g.ja)}</span></h2>
         <ul class="line-list">${lines.map((l) => `
           <li>${link("line", l.id, `
             ${badge(l)}
@@ -81,7 +79,7 @@ function linesTab(net, ops, hiddenOps) {
         </ul>
       </section>`;
   }).join("");
-  return `<div class="chips" aria-label="Mostrar u ocultar operadores">${chips}</div>${groups}`;
+  return `<div class="chips" aria-label="Mostrar u ocultar grupos de líneas">${chips}</div>${groups}`;
 }
 
 function stationsTab(net) {
@@ -97,16 +95,37 @@ function stationsTab(net) {
     <ul class="station-list">${all.map((s) => `<li>${row(s)}</li>`).join("")}</ul>`;
 }
 
+/** Miniatura de la foto del tren o, si no hay, el icono. */
+const trainThumb = (t, cls = "thumb") =>
+  t.photo ? `<img class="${cls}" src="${esc(t.photo.src)}" alt="" loading="lazy" decoding="async">`
+          : `<span class="${cls} no-photo">${trainIcon(cls === "thumb" ? 18 : 28)}</span>`;
+
+/** Tarjetas de trenes (foto + nombre), con los Shinkansen primero. */
+function trainCards(net, ids) {
+  const trains = ids.map((id) => net.trainById.get(id)).filter(Boolean)
+    .sort((a, b) => (b.photo ? 1 : 0) - (a.photo ? 1 : 0));
+  if (!trains.length) return "";
+  return `<ul class="train-cards">${trains.map((t) => `<li>${link("train", t.id, `
+      ${trainThumb(t, "card-img")}
+      <span class="card-name">${esc(t.name)}</span>
+      <span class="card-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span>`, "train-card")}</li>`).join("")}</ul>`;
+}
+
 const dot = (l) => `<span class="dot" style="--c:${l.color}" title="${esc(l.name)}"></span>`;
 
 function trainsTab(net) {
-  return `<ul class="train-list">${net.trains.map((t) => `
+  const isSk = (t) => t.lines.some((id) => isShinkansen(net.lineById.get(id)));
+  const row = (t) => `
     <li>${link("train", t.id, `
-      <span class="tr-ico">${trainIcon()}</span>
-      <span class="tr-name">${esc(t.name)}</span>
-      <span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span>
-      <span class="tr-lines">${t.lines.map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`).join("")}
-  </ul>`;
+      ${trainThumb(t)}
+      <span class="tr-name">${esc(t.name)}<span class="tr-meta">${esc(net.operators[t.operator]?.name || "")} · ${t.introduced}</span></span>
+      <span class="tr-lines">${t.lines.map((id) => badge(net.lineById.get(id))).join("")}</span>`, "train-row")}</li>`;
+  const sk = net.trains.filter(isSk), rest = net.trains.filter((t) => !isSk(t));
+  return `
+    <h2 class="group-title">Shinkansen <span class="ja">新幹線</span></h2>
+    <ul class="train-list">${sk.map(row).join("")}</ul>
+    <h2 class="group-title">Tren y metro de Tokio</h2>
+    <ul class="train-list">${rest.map(row).join("")}</ul>`;
 }
 
 // ------------------------------------------------------------------ línea
@@ -124,7 +143,7 @@ export function lineView(net, line) {
       </li>`;
   }).join("");
 
-  const trains = (line.trains || []).map((id) => net.trainById.get(id)).filter(Boolean);
+  const trains = net.trains.filter((t) => t.lines.includes(line.id));
   return `
     ${back}
     <header class="entity-head" style="--c:${line.color}">
@@ -141,7 +160,7 @@ export function lineView(net, line) {
       <div><dt>Desde</dt><dd>${line.opened ?? "—"}</dd></div>
     </dl>
     ${factList(line.facts)}
-    ${trains.length ? `<h3>Trenes</h3><ul class="train-list compact">${trains.map((t) => `<li>${link("train", t.id, `<span class="tr-name">${esc(t.name)}</span><span class="tr-meta">desde ${t.introduced}</span>`, "train-row")}</li>`).join("")}</ul>` : ""}
+    ${trains.length ? `<h3>Trenes</h3>${trainCards(net, trains.map((t) => t.id))}` : ""}
     <h3>Recorrido${line.loop ? " (circular ↻)" : ""}</h3>
     <ol class="route ${line.loop ? "is-loop" : ""}" style="--c:${line.color}">${stops}</ol>
     <p class="source">Trazado: ${line.osm.map((id) => `<a href="https://www.openstreetmap.org/relation/${id}" target="_blank" rel="noopener">OSM ${id}</a>`).join(", ")}</p>`;
@@ -177,6 +196,7 @@ export function stationView(net, st) {
     ${st.summary ? `<p class="summary">${esc(st.summary)}</p>` : ""}
     <h3>${st.lines.length === 1 ? "Línea" : `${st.lines.length} líneas`}</h3>
     <ul class="serving-list">${rows}</ul>
+    ${st.trains?.length ? `<h3>Trenes que pasan por aquí</h3>${trainCards(net, st.trains)}` : ""}
     ${factList(st.facts)}
     ${near ? `<h3>Transbordo a pie</h3><ul class="station-list">${near}</ul>` : ""}
     <p class="source"><a href="https://www.openstreetmap.org/?mlat=${st.lat}&mlon=${st.lon}#map=17/${st.lat}/${st.lon}" target="_blank" rel="noopener">Ver en OpenStreetMap ↗</a></p>`;
@@ -185,10 +205,24 @@ export function stationView(net, st) {
 // ------------------------------------------------------------------ tren
 export function trainView(net, t) {
   const op = net.operators[t.operator];
+  const p = t.photo;
+  const runs = (t.runs || []).map((r) => {
+    const l = net.lineById.get(r.line);
+    const span = r.from ? `${esc(net.stations[r.from].name)} – ${esc(net.stations[r.to].name)}` : "toda la línea";
+    return `<li>${link("line", l.id, `${badge(l)}<span class="ll-name">${esc(l.name)}<span class="ja">${span}</span></span>`, "line-row")}</li>`;
+  }).join("");
+  const nStations = net.stationList.filter((s) => s.trains?.includes(t.id)).length;
   return `
     ${back}
+    ${p ? `
+    <figure class="photo">
+      <img src="${esc(p.src)}" alt="${esc(t.name)}" decoding="async">
+      <figcaption>Foto: ${esc(p.author)} ·
+        ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)} ·
+        <a href="${esc(p.source)}" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>
+    </figure>` : ""}
     <header class="entity-head">
-      <span class="train-icon">${trainIcon(34)}</span>
+      ${p ? "" : `<span class="train-icon">${trainIcon(34)}</span>`}
       <div>
         <h1>${esc(t.name)}</h1>
         <p class="sub">${esc(op?.name || "")}</p>
@@ -198,13 +232,11 @@ export function trainView(net, t) {
     <dl class="stats">
       <div><dt>En servicio</dt><dd>${t.introduced}</dd></div>
       ${t.cars ? `<div><dt>Coches</dt><dd>${t.cars}</dd></div>` : ""}
+      ${nStations ? `<div><dt>Estaciones</dt><dd>${nStations}</dd></div>` : ""}
       ${t.builder ? `<div class="wide"><dt>Fabricante</dt><dd class="small">${esc(t.builder)}</dd></div>` : ""}
     </dl>
     ${factList(t.facts)}
-    ${t.lines.length ? `<h3>Circula por</h3><ul class="line-list">${t.lines.map((id) => {
-      const l = net.lineById.get(id);
-      return `<li>${link("line", l.id, `${badge(l)}<span class="ll-name">${esc(l.name)}<span class="ja">${esc(l.ja)}</span></span>`, "line-row")}</li>`;
-    }).join("")}</ul>` : ""}`;
+    ${runs ? `<h3>Circula por</h3><ul class="line-list">${runs}</ul>` : ""}`;
 }
 
 export function notFoundView(what) {

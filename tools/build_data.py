@@ -174,29 +174,36 @@ def fetch_relation(rel_id, refresh):
 
 # ---------------------------------------------------------------- geometría
 def merge_chains(segments):
-    """Une tramos de vía que comparten extremos en cadenas lo más largas posible."""
-    chains = [list(s) for s in segments if len(s) >= 2]
-    merged = True
-    while merged:
-        merged = False
-        for i in range(len(chains)):
-            for j in range(i + 1, len(chains)):
-                a, b = chains[i], chains[j]
-                if a[-1] == b[0]:
-                    chains[i] = a + b[1:]
-                elif a[-1] == b[-1]:
-                    chains[i] = a + b[-2::-1]
-                elif a[0] == b[-1]:
-                    chains[i] = b + a[1:]
-                elif a[0] == b[0]:
-                    chains[i] = b[::-1] + a[1:]
-                else:
-                    continue
-                del chains[j]
-                merged = True
-                break
-            if merged:
-                break
+    """Une tramos de vía que comparten extremos en cadenas lo más largas posible.
+    Recorre un índice de extremos, así que escala bien con relaciones de miles de tramos."""
+    segs = [list(sg) for sg in segments if len(sg) >= 2]
+    ends = {}
+    for i, sg in enumerate(segs):
+        ends.setdefault(sg[0], []).append(i)
+        ends.setdefault(sg[-1], []).append(i)
+    used = [False] * len(segs)
+
+    def take(point):
+        for j in ends.get(point, []):
+            if not used[j]:
+                used[j] = True
+                sg = segs[j]
+                return sg if sg[0] == point else sg[::-1]
+        return None
+
+    chains = []
+    # empezar por extremos "sueltos" (grado impar) da cadenas más largas
+    order = sorted(range(len(segs)), key=lambda i: min(len(ends[segs[i][0]]), len(ends[segs[i][-1]])))
+    for i in order:
+        if used[i]:
+            continue
+        used[i] = True
+        chain = list(segs[i])
+        while (nxt := take(chain[-1])) is not None:
+            chain += nxt[1:]
+        while (prv := take(chain[0])) is not None:
+            chain = prv[::-1] + chain[1:]
+        chains.append(chain)
     return chains
 
 
@@ -246,6 +253,103 @@ def parse_relation(data):
     return rel, segments, stops
 
 
+def nearest_vertex(chain, pt):
+    best = min(range(len(chain)), key=lambda i: (chain[i][0] - pt[0]) ** 2 + ((chain[i][1] - pt[1]) * 0.81) ** 2)
+    return best, haversine_m(chain[best], pt)
+
+
+def cut_section(line, stops, chains, warnings, max_gap_m=3000):
+    """Recorta paradas y trazado al tramo line['section'] = [desde, hasta] (nombres japoneses)."""
+    a_ja, b_ja = line["section"]
+    idx = {ja_key(s["ja"]): i for i, s in enumerate(stops)}
+    if ja_key(a_ja) not in idx or ja_key(b_ja) not in idx:
+        warnings.append(f"{line['id']}: el tramo {a_ja}–{b_ja} no está en las paradas de la relación")
+        return stops, chains
+    ia, ib = idx[ja_key(a_ja)], idx[ja_key(b_ja)]
+    a_pt, b_pt = stops[ia]["pt"], stops[ib]["pt"]
+    # con varias relaciones (order=geometry) el orden aún no es fiable: se filtra después por posición
+    if line.get("order") != "geometry":
+        stops = stops[ia:ib + 1] if ia <= ib else stops[ib:ia + 1][::-1]
+    out = []
+    for ch in chains:
+        (i, da), (j, db) = nearest_vertex(ch, a_pt), nearest_vertex(ch, b_pt)
+        if da < max_gap_m and db < max_gap_m and i != j:
+            out.append(ch[i:j + 1] if i < j else ch[j:i + 1][::-1])
+    if not out:
+        warnings.append(f"{line['id']}: no se pudo recortar el trazado a {a_ja}–{b_ja}; se deja completo")
+        return stops, chains
+    return stops, out
+
+
+def stitch(chains):
+    """Encadena tramos sueltos por sus extremos más cercanos en un único recorrido
+    (solo para medir posiciones; el dibujo usa los tramos originales)."""
+    rest = sorted(chains, key=chain_length_km, reverse=True)
+    path = list(rest.pop(0))
+    while rest:
+        best = None
+        for k, ch in enumerate(rest):
+            for rev in (False, True):
+                c = ch[::-1] if rev else ch
+                for at_end in (True, False):
+                    d = haversine_m(path[-1], c[0]) if at_end else haversine_m(c[-1], path[0])
+                    if best is None or d < best[0]:
+                        best = (d, k, c, at_end)
+        _, k, c, at_end = best
+        rest.pop(k)
+        path = path + c if at_end else c + path
+    return path
+
+
+def order_along(stops, chains, max_off_m=1500):
+    """Ordena paradas por su posición a lo largo del tramo más largo; descarta las que quedan fuera."""
+    main = stitch(chains)
+    cum = [0.0]
+    for k in range(1, len(main)):
+        cum.append(cum[-1] + haversine_m(main[k - 1], main[k]))
+    placed = []
+    for s in stops:
+        i, d = nearest_vertex(main, s["pt"])
+        if d > max_off_m or (i == 0 and d > 800) or (i == len(main) - 1 and d > 800):
+            continue  # fuera del tramo
+        placed.append((cum[i], s))
+    return [s for _, s in sorted(placed, key=lambda x: x[0])]
+
+
+def resolve_trains(trains, lines, stations, warnings):
+    """Calcula por qué líneas y estaciones pasa cada tren.
+    Fuentes: 'runs' en trains.json ([{line, from?, to?}], nombres japoneses) y 'trains' en lines.json (línea entera)."""
+    by_id = {l["id"]: l for l in lines}
+    ja_to_idx = {l["id"]: {stations[sid]["ja"]: i for i, sid in enumerate(l["stations"])} for l in lines}
+    for t in trains:
+        runs = list(t.get("runs", []))
+        runs += [{"line": l["id"]} for l in lines if t["id"] in l.get("trains", []) and
+                 not any(r["line"] == l["id"] for r in runs)]
+        resolved, served = [], []
+        for r in runs:
+            line = by_id.get(r["line"])
+            if not line:
+                warnings.append(f"trains.json: {t['id']} usa la línea desconocida '{r['line']}'")
+                continue
+            idx = ja_to_idx[line["id"]]
+            a = idx.get(r.get("from"), 0)
+            b = idx.get(r.get("to"), len(line["stations"]) - 1)
+            for k in ("from", "to"):
+                if k in r and r[k] not in idx:
+                    warnings.append(f"trains.json: {t['id']}: «{r[k]}» no está en {line['id']}")
+            lo, hi = min(a, b), max(a, b)
+            ids = line["stations"][lo:hi + 1]
+            served += [x for x in ids if x not in served]
+            item = {"line": line["id"]}
+            if lo > 0 or hi < len(line["stations"]) - 1:
+                item.update({"from": line["stations"][lo], "to": line["stations"][hi]})
+            resolved.append(item)
+        t["runs"] = resolved
+        t["lines"] = [r["line"] for r in resolved]
+        for sid in served:
+            stations[sid].setdefault("trains", []).append(t["id"])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="ignora la caché y descarga de nuevo")
@@ -265,33 +369,48 @@ def main():
 
     for line in cfg["lines"]:
         log(f"· {line['id']}")
-        chains_raw, order = [], []
-        for rel_id in line["osm"]:  # la 1.ª fija el orden; las demás (ramales) añaden lo que falte
-            rel, segs, stops = parse_relation(fetch_relation(rel_id, args.refresh))
-            chains_raw += segs
-            for s in stops:
+        chains_raw, stops = [], []
+        seen = set()
+        # 'osm': relaciones que aportan trazado y paradas (la 1.ª fija el orden; las demás, p. ej. ramales, añaden)
+        # 'extra_stops': relaciones de otros servicios de las que solo se toman paradas que falten
+        sources = [(r, True) for r in line["osm"]] + [(r, False) for r in line.get("extra_stops", [])]
+        for rel_id, use_geometry in sources:
+            rel, segs, rel_stops = parse_relation(fetch_relation(rel_id, args.refresh))
+            if use_geometry:
+                chains_raw += segs
+            for s in rel_stops:
                 t = s.get("tags", {})
                 ja = normalize_ja(t.get("name", ""))
                 if not ja:
                     warnings.append(f"{line['id']}: parada sin nombre (nodo {s['id']})")
                     continue
-                en = strip_accents(names_en.get(ja) or t.get("name:en") or t.get("name:ja-Latn") or t.get("name:ja_rm") or "")
+                if ja_key(ja) in seen:
+                    continue
+                seen.add(ja_key(ja))
+                en = strip_accents(t.get("name:en") or t.get("name:ja-Latn") or t.get("name:ja_rm") or "")
                 en = re.sub(r"\s*[(\"'〈<].*?[)\"'〉>]\s*", " ", en).removesuffix(" Station").strip()
-                pt = (s["lat"], s["lon"])
-                code = normalize_code(t.get("ref"), line["code"])
-                # buscar cluster existente
-                cl = next((c for c in clusters if c["key"] == ja_key(ja) and
-                           haversine_m(c["pts"][0], pt) < MERGE_SAME_NAME_M), None)
-                if cl is None:
-                    cl = {"key": ja_key(ja), "ja": ja, "pts": [], "en": Counter(), "lines": OrderedDict()}
-                    clusters.append(cl)
-                cl["pts"].append(pt)
-                if en:
-                    cl["en"][en] += 1
-                if line["id"] not in cl["lines"] or (code and not cl["lines"][line["id"]]):
-                    cl["lines"][line["id"]] = code
-                if not any(o is cl for o in order):
-                    order.append(cl)
+                en = names_en.get(ja, en)  # la corrección manual se respeta tal cual
+                stops.append({"ja": ja, "en": en, "pt": (s["lat"], s["lon"]),
+                              "code": normalize_code(t.get("ref"), line["code"])})
+
+        chains = merge_chains(chains_raw)
+        if "section" in line:
+            stops, chains = cut_section(line, stops, chains, warnings)
+        if line.get("order") == "geometry":
+            stops = order_along(stops, chains)
+
+        order = []
+        for st in stops:
+            cl = next((c for c in clusters if c["key"] == ja_key(st["ja"]) and
+                       haversine_m(c["pts"][0], st["pt"]) < MERGE_SAME_NAME_M), None)
+            if cl is None:
+                cl = {"key": ja_key(st["ja"]), "ja": st["ja"], "pts": [], "en": Counter(), "lines": OrderedDict()}
+                clusters.append(cl)
+            cl["pts"].append(st["pt"])
+            if st["en"]:
+                cl["en"][st["en"]] += 1
+            cl["lines"][line["id"]] = st["code"]
+            order.append(cl)
 
         for c in order:
             fix = code_fixes.get(line["id"], {}).get(c["ja"])
@@ -303,15 +422,14 @@ def main():
         if dup := sorted({x for x in codes if codes.count(x) > 1}):
             warnings.append(f"{line['id']}: códigos repetidos {dup} (revisa OSM u overrides.json)")
         missing = sum(1 for c in order if not c["lines"].get(line["id"]))
-        if missing:
+        if missing and codes:  # líneas sin numeración (p. ej. Shinkansen) no avisan
             warnings.append(f"{line['id']}: {missing} estaciones sin código de numeración")
-        chains = merge_chains(chains_raw)
         drawn_km = sum(chain_length_km(c) for c in chains)
         chains = [[[round(la, 5), round(lo, 5)] for la, lo in simplify(c, SIMPLIFY_DEG)] for c in chains]
         for tid in line.get("trains", []):
             if tid not in train_ids:
                 warnings.append(f"{line['id']}: tren desconocido '{tid}'")
-        out_lines.append({**{k: v for k, v in line.items() if k != "osm"},
+        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops")},
                           "osm": line["osm"],
                           "stations": order,   # se sustituye por ids más abajo
                           "drawn_km": round(drawn_km, 1),
@@ -368,9 +486,16 @@ def main():
     for l in out_lines:
         l["stations"] = [c["id"] for c in l["stations"]]
 
+    resolve_trains(trains, out_lines, stations, warnings)
+    photos = load_json(CONFIG / "photos.json") if (CONFIG / "photos.json").exists() else {}
+    for t in trains:
+        t.pop("wiki", None)
+        if t["id"] in photos:
+            t["photo"] = photos[t["id"]]
+
     network = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "region": "Tokio",
+        "region": "Japón",
         "attribution": "Trazados y estaciones © colaboradores de OpenStreetMap (ODbL)",
         "operators": cfg["operators"],
         "types": cfg["types"],

@@ -190,5 +190,214 @@
     "introduced": 1996,
     "cars": 10,
     "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East."
+  },
+  {
+    "id": "sk-n700s",
+    "name": "Serie N700S",
+    "operator": "jr-central",
+    "introduced": 2020,
+    "cars": 16,
+    "wiki": "N700S Series Shinkansen",
+    "summary": "El Shinkansen más moderno del Tōkaidō y el San'yō. La «S» viene de «Supreme».",
+    "facts": [
+      "Lleva baterías que le permiten moverse por sí mismo a baja velocidad si se corta la corriente, algo inédito en un tren de alta velocidad.",
+      "Su diseño permite montar trenes de 8, 12 o 16 coches con los mismos componentes."
+    ],
+    "runs": [
+      {
+        "line": "tokaido-shinkansen"
+      },
+      {
+        "line": "sanyo-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-n700a",
+    "name": "Serie N700A",
+    "operator": "jr-central",
+    "introduced": 2013,
+    "cars": 16,
+    "wiki": "N700 Series Shinkansen",
+    "summary": "Versión mejorada («Advanced») del N700 de 2007, con la caja que se inclina en las curvas.",
+    "facts": [
+      "La caja se inclina hasta 1 grado para tomar las curvas del Tōkaidō más rápido sin molestar al pasajero."
+    ],
+    "runs": [
+      {
+        "line": "tokaido-shinkansen"
+      },
+      {
+        "line": "sanyo-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-n700-7000",
+    "name": "Serie N700 7000/8000",
+    "operator": "jr-west",
+    "introduced": 2011,
+    "cars": 8,
+    "wiki": "N700 Series Shinkansen",
+    "summary": "Versión de 8 coches de JR West y JR Kyushu para los Mizuho y Sakura entre Shin-Ōsaka y Kagoshima-Chūō.",
+    "runs": [
+      {
+        "line": "sanyo-shinkansen"
+      },
+      {
+        "line": "kyushu-shinkansen"
+      }
+    ],
+    "photo_file": "File:Series-N700-7000-S8 Sakura-540.jpg"
+  },
+  {
+    "id": "sk-n700s-8000",
+    "name": "Serie N700S 8000 (Kamome)",
+    "operator": "jr-kyushu",
+    "introduced": 2022,
+    "cars": 6,
+    "wiki": "Nishi Kyushu Shinkansen",
+    "summary": "N700S de 6 coches, blanco y rojo, exclusivo del Nishi-Kyūshū Shinkansen.",
+    "runs": [
+      {
+        "line": "nishi-kyushu-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-800",
+    "name": "Serie 800",
+    "operator": "jr-kyushu",
+    "introduced": 2004,
+    "cars": 6,
+    "wiki": "800 Series Shinkansen",
+    "summary": "El Shinkansen de JR Kyushu para los Tsubame, con un interior lleno de madera y detalles artesanales.",
+    "runs": [
+      {
+        "line": "kyushu-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-500",
+    "name": "Serie 500",
+    "operator": "jr-west",
+    "introduced": 1997,
+    "cars": 8,
+    "wiki": "500 Series Shinkansen",
+    "summary": "Su morro de 15 m y su cuerpo tubular lo convirtieron en un icono. Hoy hace servicios Kodama en el San'yō.",
+    "facts": [
+      "Fue el primer tren japonés en servicio comercial a 300 km/h (1997).",
+      "Entre 2015 y 2018 una unidad circuló decorada como el robot Eva-01 de «Evangelion»."
+    ],
+    "runs": [
+      {
+        "line": "sanyo-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-e5",
+    "name": "Serie E5",
+    "operator": "jr-east",
+    "introduced": 2011,
+    "cars": 10,
+    "wiki": "E5 Series Shinkansen",
+    "summary": "El verde de los Hayabusa: 320 km/h en el Tōhoku y llega hasta Hokkaidō.",
+    "facts": [
+      "Tiene «GranClass», una clase por encima de la primera (Green), con solo 18 asientos."
+    ],
+    "runs": [
+      {
+        "line": "tohoku-shinkansen"
+      },
+      {
+        "line": "hokkaido-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-h5",
+    "name": "Serie H5",
+    "operator": "jr-hokkaido",
+    "introduced": 2016,
+    "cars": 10,
+    "wiki": "H5 Series Shinkansen",
+    "summary": "Gemelo del E5 construido para JR Hokkaido; se distingue por la franja morada (lavanda).",
+    "runs": [
+      {
+        "line": "tohoku-shinkansen"
+      },
+      {
+        "line": "hokkaido-shinkansen"
+      }
+    ],
+    "photo_file": "File:JRH Series-H5 H1.jpg"
+  },
+  {
+    "id": "sk-e6",
+    "name": "Serie E6",
+    "operator": "jr-east",
+    "introduced": 2013,
+    "cars": 7,
+    "wiki": "E6 Series Shinkansen",
+    "summary": "El rojo de los Komachi. Es un tren más estrecho para caber en las vías del mini-shinkansen de Akita.",
+    "facts": [
+      "Su diseño es de Ken Okuyama, el diseñador de coches que trabajó para Ferrari."
+    ],
+    "runs": [
+      {
+        "line": "tohoku-shinkansen",
+        "from": "東京",
+        "to": "盛岡"
+      },
+      {
+        "line": "akita-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-e8",
+    "name": "Serie E8",
+    "operator": "jr-east",
+    "introduced": 2024,
+    "cars": 7,
+    "wiki": "E8 Series Shinkansen",
+    "summary": "El nuevo tren de los Tsubasa (Yamagata Shinkansen), en servicio desde marzo de 2024; sustituye a los E3.",
+    "runs": [
+      {
+        "line": "tohoku-shinkansen",
+        "from": "東京",
+        "to": "福島"
+      },
+      {
+        "line": "yamagata-shinkansen"
+      }
+    ]
+  },
+  {
+    "id": "sk-e7",
+    "name": "Serie E7 / W7",
+    "operator": "jr-east",
+    "introduced": 2014,
+    "cars": 12,
+    "wiki": "E7 Series Shinkansen",
+    "summary": "Azul y cobre, para el Hokuriku y el Jōetsu. JR West tiene su versión idéntica, la W7.",
+    "facts": [
+      "En 2019 un tifón inundó el depósito de Nagano y se perdieron 10 trenes E7/W7, un tercio de la flota."
+    ],
+    "runs": [
+      {
+        "line": "tohoku-shinkansen",
+        "from": "東京",
+        "to": "大宮"
+      },
+      {
+        "line": "joetsu-shinkansen"
+      },
+      {
+        "line": "hokuriku-shinkansen"
+      }
+    ]
   }
 ]

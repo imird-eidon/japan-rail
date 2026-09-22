@@ -13,10 +13,16 @@ function buildIndexes(net) {
   net.trainById = new Map(net.trains.map((t) => [t.id, t]));
   net.stationList = Object.values(net.stations);
 
-  for (const t of net.trains) t.lines = [];
-  for (const line of net.lines) {
-    for (const tid of line.trains || []) net.trainById.get(tid)?.lines.push(line.id);
-  }
+  // grupos del mapa y de la lista: el Shinkansen va aparte; el resto, por operador
+  const groupIds = [...new Set(net.lines.map(groupOf))];
+  net.groups = groupIds.map((id) => (id === SHINKANSEN
+    ? { id, name: "Shinkansen", ja: "新幹線" }
+    : { id, ...net.operators[id] }));
+  net.groups.sort((a, b) => (a.id === SHINKANSEN ? -1 : b.id === SHINKANSEN ? 1 : 0));
+
+  // build_data.py ya calcula t.lines y st.trains; esto es solo por si faltan
+  for (const t of net.trains) t.lines ??= [];
+  for (const s of net.stationList) s.trains ??= [];
   for (const s of net.stationList) {
     s.lineIds = s.lines.map((l) => l.line);
     s._search = norm(`${s.name} ${s.ja} ${s.lines.map((l) => l.code || "").join(" ")}`);
@@ -24,6 +30,11 @@ function buildIndexes(net) {
   for (const l of net.lines) l._search = norm(`${l.name} ${l.en} ${l.ja} ${l.code} ${l.id}`);
   for (const t of net.trains) t._search = norm(`${t.name} ${t.id}`);
 }
+
+export const SHINKANSEN = "shinkansen";
+export const isShinkansen = (line) => line.type === "shinkansen" || line.type === "mini-shinkansen";
+/** Grupo de una línea para filtros y listados. */
+export const groupOf = (line) => (isShinkansen(line) ? SHINKANSEN : line.operator);
 
 /** Minúsculas y sin acentos/macrones, para comparar textos. */
 export const norm = (s) =>

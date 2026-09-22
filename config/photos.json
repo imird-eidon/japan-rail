@@ -1,0 +1,90 @@
+{
+  "sk-500": {
+    "src": "img/trains/sk-500.jpg",
+    "file": "File:JRW-500-nozomi.jpg",
+    "author": "Mitsuki-2368",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg"
+  },
+  "sk-800": {
+    "src": "img/trains/sk-800.jpg",
+    "file": "File:Kyushu Shinkansen 800 series Shin-Minamata 20041123.jpg",
+    "author": "MK Products",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyushu_Shinkansen_800_series_Shin-Minamata_20041123.jpg"
+  },
+  "sk-e5": {
+    "src": "img/trains/sk-e5.jpg",
+    "file": "File:Series-E5-U15 Yamabiko-50.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series-E5-U15_Yamabiko-50.jpg"
+  },
+  "sk-e6": {
+    "src": "img/trains/sk-e6.jpg",
+    "file": "File:Series-E6 Z14 Komachi.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series-E6_Z14_Komachi.jpg"
+  },
+  "sk-e7": {
+    "src": "img/trains/sk-e7.jpg",
+    "file": "File:JRW-Series-W7 W3.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRW-Series-W7_W3.jpg"
+  },
+  "sk-e8": {
+    "src": "img/trains/sk-e8.jpg",
+    "file": "File:JR東E8系G2編成.jpg",
+    "author": "みどりがおか",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR%E6%9D%B1E8%E7%B3%BBG2%E7%B7%A8%E6%88%90.jpg"
+  },
+  "sk-h5": {
+    "src": "img/trains/sk-h5.jpg",
+    "file": "File:JRH Series-H5 H1.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRH_Series-H5_H1.jpg"
+  },
+  "sk-n700-7000": {
+    "src": "img/trains/sk-n700-7000.jpg",
+    "file": "File:Series-N700-7000-S8 Sakura-540.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series-N700-7000-S8_Sakura-540.jpg"
+  },
+  "sk-n700a": {
+    "src": "img/trains/sk-n700a.jpg",
+    "file": "File:Series-N700A-F20.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series-N700A-F20.jpg"
+  },
+  "sk-n700s": {
+    "src": "img/trains/sk-n700s.jpg",
+    "file": "File:JR Series-N700S-J30 Nozomi-4.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Series-N700S-J30_Nozomi-4.jpg"
+  },
+  "sk-n700s-8000": {
+    "src": "img/trains/sk-n700s-8000.jpg",
+    "file": "File:N700S-Y4 Kamome-29.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:N700S-Y4_Kamome-29.jpg"
+  }
+}

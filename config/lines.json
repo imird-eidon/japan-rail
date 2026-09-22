@@ -1,27 +1,85 @@
 {
   "_comment": "Catálogo de líneas. 'osm' son relaciones route de OpenStreetMap: la primera define el orden de estaciones; las demás solo añaden trazado (ramales). Para añadir una línea: busca su relación en openstreetmap.org, añade una entrada y ejecuta tools/build_data.py.",
   "operators": {
-    "jr-east":        { "name": "JR East", "ja": "JR東日本", "url": "https://www.jreast.co.jp/" },
-    "tokyo-metro":    { "name": "Tokyo Metro", "ja": "東京メトロ", "url": "https://www.tokyometro.jp/" },
-    "toei":           { "name": "Toei", "ja": "都営交通", "url": "https://www.kotsu.metro.tokyo.jp/" },
-    "yurikamome":     { "name": "Yurikamome", "ja": "ゆりかもめ", "url": "https://www.yurikamome.co.jp/" },
-    "tokyo-monorail": { "name": "Tokyo Monorail", "ja": "東京モノレール", "url": "https://www.tokyo-monorail.co.jp/" },
-    "twr":            { "name": "Tokyo Waterfront (TWR)", "ja": "東京臨海高速鉄道", "url": "https://www.twr.co.jp/" }
+    "jr-east": {
+      "name": "JR East",
+      "ja": "JR東日本",
+      "url": "https://www.jreast.co.jp/"
+    },
+    "tokyo-metro": {
+      "name": "Tokyo Metro",
+      "ja": "東京メトロ",
+      "url": "https://www.tokyometro.jp/"
+    },
+    "toei": {
+      "name": "Toei",
+      "ja": "都営交通",
+      "url": "https://www.kotsu.metro.tokyo.jp/"
+    },
+    "yurikamome": {
+      "name": "Yurikamome",
+      "ja": "ゆりかもめ",
+      "url": "https://www.yurikamome.co.jp/"
+    },
+    "tokyo-monorail": {
+      "name": "Tokyo Monorail",
+      "ja": "東京モノレール",
+      "url": "https://www.tokyo-monorail.co.jp/"
+    },
+    "twr": {
+      "name": "Tokyo Waterfront (TWR)",
+      "ja": "東京臨海高速鉄道",
+      "url": "https://www.twr.co.jp/"
+    },
+    "jr-central": {
+      "name": "JR Central",
+      "ja": "JR東海",
+      "url": "https://global.jr-central.co.jp/"
+    },
+    "jr-west": {
+      "name": "JR West",
+      "ja": "JR西日本",
+      "url": "https://www.westjr.co.jp/"
+    },
+    "jr-kyushu": {
+      "name": "JR Kyushu",
+      "ja": "JR九州",
+      "url": "https://www.jrkyushu.co.jp/"
+    },
+    "jr-hokkaido": {
+      "name": "JR Hokkaido",
+      "ja": "JR北海道",
+      "url": "https://www.jrhokkaido.co.jp/"
+    }
   },
   "types": {
     "commuter": "Cercanías",
-    "metro":    "Metro",
-    "tram":     "Tranvía",
-    "agt":      "Automático (AGT)",
-    "monorail": "Monorraíl"
+    "metro": "Metro",
+    "tram": "Tranvía",
+    "agt": "Automático (AGT)",
+    "monorail": "Monorraíl",
+    "shinkansen": "Shinkansen",
+    "mini-shinkansen": "Mini-shinkansen"
   },
   "lines": [
     {
-      "id": "yamanote", "code": "JY", "color": "#80C241",
-      "name": "Línea Yamanote", "ja": "山手線", "en": "Yamanote Line",
-      "operator": "jr-east", "type": "commuter", "osm": [1972920],
-      "opened": 1885, "length_km": 34.5, "loop": true,
-      "trains": ["e235-0"],
+      "id": "yamanote",
+      "code": "JY",
+      "color": "#80C241",
+      "name": "Línea Yamanote",
+      "ja": "山手線",
+      "en": "Yamanote Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        1972920
+      ],
+      "opened": 1885,
+      "length_km": 34.5,
+      "loop": true,
+      "trains": [
+        "e235-0"
+      ],
       "summary": "La línea circular más famosa de Tokio: une Shinjuku, Shibuya, Ikebukuro, Ueno y Tokio en una vuelta de unos 60 minutos.",
       "facts": [
         "El anillo completo quedó cerrado en 1925, cuando se unió el tramo entre Kanda y Ueno.",
@@ -33,11 +91,22 @@
       ]
     },
     {
-      "id": "chuo-rapid", "code": "JC", "color": "#F15A22",
-      "name": "Línea Chūō (rápido)", "ja": "中央線快速", "en": "Chūō Line (Rapid)",
-      "operator": "jr-east", "type": "commuter", "osm": [10363876],
-      "opened": 1889, "length_km": 53.1,
-      "trains": ["e233-0"],
+      "id": "chuo-rapid",
+      "code": "JC",
+      "color": "#F15A22",
+      "name": "Línea Chūō (rápido)",
+      "ja": "中央線快速",
+      "en": "Chūō Line (Rapid)",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        10363876
+      ],
+      "opened": 1889,
+      "length_km": 53.1,
+      "trains": [
+        "e233-0"
+      ],
       "summary": "Cruza Tokio de este a oeste, de la estación de Tokio a Takao, a los pies de las montañas.",
       "facts": [
         "Entre Higashi-Nakano y Tachikawa hay una recta de unos 24,7 km, una de las más largas de Japón.",
@@ -46,11 +115,22 @@
       ]
     },
     {
-      "id": "chuo-sobu", "code": "JB", "color": "#FFD400",
-      "name": "Línea Chūō-Sōbu (local)", "ja": "中央・総武線各駅停車", "en": "Chūō-Sōbu Line",
-      "operator": "jr-east", "type": "commuter", "osm": [10312043],
-      "opened": 1894, "length_km": 60.2,
-      "trains": ["e231-500"],
+      "id": "chuo-sobu",
+      "code": "JB",
+      "color": "#FFD400",
+      "name": "Línea Chūō-Sōbu (local)",
+      "ja": "中央・総武線各駅停車",
+      "en": "Chūō-Sōbu Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        10312043
+      ],
+      "opened": 1894,
+      "length_km": 60.2,
+      "trains": [
+        "e231-500"
+      ],
       "summary": "La amarilla: tren que para en todas las estaciones entre Mitaka y Chiba, atravesando el centro por Shinjuku y Akihabara.",
       "facts": [
         "Sus trenes E231-500 son los que circulaban antes por la Yamanote; se trasladaron aquí al llegar los E235.",
@@ -58,11 +138,22 @@
       ]
     },
     {
-      "id": "keihin-tohoku", "code": "JK", "color": "#00B2E5",
-      "name": "Línea Keihin-Tōhoku / Negishi", "ja": "京浜東北線・根岸線", "en": "Keihin-Tōhoku Line",
-      "operator": "jr-east", "type": "commuter", "osm": [5195691],
-      "opened": 1914, "length_km": 81.2,
-      "trains": ["e233-1000"],
+      "id": "keihin-tohoku",
+      "code": "JK",
+      "color": "#00B2E5",
+      "name": "Línea Keihin-Tōhoku / Negishi",
+      "ja": "京浜東北線・根岸線",
+      "en": "Keihin-Tōhoku Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        5195691
+      ],
+      "opened": 1914,
+      "length_km": 81.2,
+      "trains": [
+        "e233-1000"
+      ],
       "summary": "Une Saitama (Ōmiya), Tokio y Yokohama (Ōfuna). Entre Tabata y Tamachi corre pegada a la Yamanote.",
       "facts": [
         "Su nombre junta 京 (Tokio), 浜 (Yokohama) y 東北 (Tōhoku, el norte).",
@@ -71,11 +162,22 @@
       ]
     },
     {
-      "id": "saikyo", "code": "JA", "color": "#00AC9A",
-      "name": "Línea Saikyō", "ja": "埼京線", "en": "Saikyō Line",
-      "operator": "jr-east", "type": "commuter", "osm": [21361897],
-      "opened": 1985, "length_km": 36.9,
-      "trains": ["e233-7000"],
+      "id": "saikyo",
+      "code": "JA",
+      "color": "#00AC9A",
+      "name": "Línea Saikyō",
+      "ja": "埼京線",
+      "en": "Saikyō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        21361897
+      ],
+      "opened": 1985,
+      "length_km": 36.9,
+      "trains": [
+        "e233-7000"
+      ],
       "summary": "Une Saitama con Shinjuku, Shibuya y Ōsaki. Continúa por la línea Rinkai hasta Odaiba.",
       "facts": [
         "Su nombre sale de 埼 (Saitama) + 京 (Tokio).",
@@ -83,11 +185,22 @@
       ]
     },
     {
-      "id": "sobu-rapid", "code": "JO", "color": "#0067C0",
-      "name": "Línea Sōbu (rápido)", "ja": "総武快速線", "en": "Sōbu Line (Rapid)",
-      "operator": "jr-east", "type": "commuter", "osm": [9475339],
-      "opened": 1972, "length_km": 39.2,
-      "trains": ["e235-1000"],
+      "id": "sobu-rapid",
+      "code": "JO",
+      "color": "#0067C0",
+      "name": "Línea Sōbu (rápido)",
+      "ja": "総武快速線",
+      "en": "Sōbu Line (Rapid)",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [
+        9475339
+      ],
+      "opened": 1972,
+      "length_km": 39.2,
+      "trains": [
+        "e235-1000"
+      ],
       "summary": "Rápido entre Tokio y Chiba. Es la vía directa hacia el aeropuerto de Narita (Narita Express).",
       "facts": [
         "En la estación de Tokio sus andenes están a unos 5 pisos bajo tierra: la parte más profunda de la estación.",
@@ -95,11 +208,22 @@
       ]
     },
     {
-      "id": "ginza", "code": "G", "color": "#F39700",
-      "name": "Línea Ginza", "ja": "銀座線", "en": "Ginza Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443281],
-      "opened": 1927, "length_km": 14.2,
-      "trains": ["tm-1000"],
+      "id": "ginza",
+      "code": "G",
+      "color": "#F39700",
+      "name": "Línea Ginza",
+      "ja": "銀座線",
+      "en": "Ginza Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443281
+      ],
+      "opened": 1927,
+      "length_km": 14.2,
+      "trains": [
+        "tm-1000"
+      ],
       "summary": "El primer metro de Asia (1927). Recorre Asakusa, Ueno, Ginza y Shibuya.",
       "facts": [
         "Se inauguró el 30 de diciembre de 1927 entre Ueno y Asakusa: 2,2 km.",
@@ -109,11 +233,23 @@
       ]
     },
     {
-      "id": "marunouchi", "code": "M", "color": "#E60012",
-      "name": "Línea Marunouchi", "ja": "丸ノ内線", "en": "Marunouchi Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443282, 8015931],
-      "opened": 1954, "length_km": 27.4,
-      "trains": ["tm-2000"],
+      "id": "marunouchi",
+      "code": "M",
+      "color": "#E60012",
+      "name": "Línea Marunouchi",
+      "ja": "丸ノ内線",
+      "en": "Marunouchi Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443282,
+        8015931
+      ],
+      "opened": 1954,
+      "length_km": 27.4,
+      "trains": [
+        "tm-2000"
+      ],
       "summary": "La roja: traza una U entre Ikebukuro y Ogikubo pasando por Tokio y Shinjuku, con un ramal a Hōnanchō.",
       "facts": [
         "En Ochanomizu, Korakuen y Yotsuya sale a la superficie y se ve cruzar el río Kanda.",
@@ -121,11 +257,22 @@
       ]
     },
     {
-      "id": "hibiya", "code": "H", "color": "#9CAEB7",
-      "name": "Línea Hibiya", "ja": "日比谷線", "en": "Hibiya Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443272],
-      "opened": 1961, "length_km": 20.3,
-      "trains": ["tm-13000"],
+      "id": "hibiya",
+      "code": "H",
+      "color": "#9CAEB7",
+      "name": "Línea Hibiya",
+      "ja": "日比谷線",
+      "en": "Hibiya Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443272
+      ],
+      "opened": 1961,
+      "length_km": 20.3,
+      "trains": [
+        "tm-13000"
+      ],
       "summary": "Une Naka-Meguro con Kita-Senju pasando por Roppongi, Ginza y Ueno.",
       "facts": [
         "Toranomon Hills (2020) fue su primera estación nueva en más de 50 años.",
@@ -133,11 +280,22 @@
       ]
     },
     {
-      "id": "tozai", "code": "T", "color": "#00A7DB",
-      "name": "Línea Tōzai", "ja": "東西線", "en": "Tōzai Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [5371620],
-      "opened": 1964, "length_km": 30.8,
-      "trains": ["tm-15000"],
+      "id": "tozai",
+      "code": "T",
+      "color": "#00A7DB",
+      "name": "Línea Tōzai",
+      "ja": "東西線",
+      "en": "Tōzai Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        5371620
+      ],
+      "opened": 1964,
+      "length_km": 30.8,
+      "trains": [
+        "tm-15000"
+      ],
       "summary": "Atraviesa Tokio de este (東) a oeste (西), de Nakano a Nishi-Funabashi, en Chiba.",
       "facts": [
         "Antes de 2020 era la línea más saturada de Tokio: casi el 200 % de ocupación entre Kiba y Monzen-nakachō en hora punta.",
@@ -146,11 +304,22 @@
       ]
     },
     {
-      "id": "chiyoda", "code": "C", "color": "#009944",
-      "name": "Línea Chiyoda", "ja": "千代田線", "en": "Chiyoda Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443284],
-      "opened": 1969, "length_km": 24.0,
-      "trains": ["tm-16000"],
+      "id": "chiyoda",
+      "code": "C",
+      "color": "#009944",
+      "name": "Línea Chiyoda",
+      "ja": "千代田線",
+      "en": "Chiyoda Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443284
+      ],
+      "opened": 1969,
+      "length_km": 24.0,
+      "trains": [
+        "tm-16000"
+      ],
       "summary": "Diagonal de Yoyogi-Uehara a Ayase: Omotesandō, Kasumigaseki, Ōtemachi y Kita-Senju.",
       "facts": [
         "Kokkai-gijidōmae, junto al Parlamento, es una de sus estaciones más profundas: casi 38 m.",
@@ -158,11 +327,22 @@
       ]
     },
     {
-      "id": "yurakucho", "code": "Y", "color": "#D7C447",
-      "name": "Línea Yūrakuchō", "ja": "有楽町線", "en": "Yūrakuchō Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443269],
-      "opened": 1974, "length_km": 28.3,
-      "trains": ["tm-17000"],
+      "id": "yurakucho",
+      "code": "Y",
+      "color": "#D7C447",
+      "name": "Línea Yūrakuchō",
+      "ja": "有楽町線",
+      "en": "Yūrakuchō Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443269
+      ],
+      "opened": 1974,
+      "length_km": 28.3,
+      "trains": [
+        "tm-17000"
+      ],
       "summary": "Une Wakōshi, en Saitama, con Shin-Kiba, en la bahía, pasando por Ikebukuro y Yūrakuchō.",
       "facts": [
         "Hay en obras una extensión desde Toyosu hacia Sumiyoshi (ramal hacia el este).",
@@ -170,11 +350,22 @@
       ]
     },
     {
-      "id": "hanzomon", "code": "Z", "color": "#9B7CB6",
-      "name": "Línea Hanzōmon", "ja": "半蔵門線", "en": "Hanzōmon Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [443279],
-      "opened": 1978, "length_km": 16.8,
-      "trains": ["tm-18000"],
+      "id": "hanzomon",
+      "code": "Z",
+      "color": "#9B7CB6",
+      "name": "Línea Hanzōmon",
+      "ja": "半蔵門線",
+      "en": "Hanzōmon Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        443279
+      ],
+      "opened": 1978,
+      "length_km": 16.8,
+      "trains": [
+        "tm-18000"
+      ],
       "summary": "De Shibuya a Oshiage, junto al Tokyo Skytree.",
       "facts": [
         "Su letra es la Z porque la H ya era de la Hibiya.",
@@ -182,11 +373,22 @@
       ]
     },
     {
-      "id": "namboku", "code": "N", "color": "#00ADA9",
-      "name": "Línea Namboku", "ja": "南北線", "en": "Namboku Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [7730199],
-      "opened": 1991, "length_km": 21.3,
-      "trains": ["tm-9000"],
+      "id": "namboku",
+      "code": "N",
+      "color": "#00ADA9",
+      "name": "Línea Namboku",
+      "ja": "南北線",
+      "en": "Namboku Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        7730199
+      ],
+      "opened": 1991,
+      "length_km": 21.3,
+      "trains": [
+        "tm-9000"
+      ],
       "summary": "De sur (南) a norte (北): Meguro–Akabane-iwabuchi.",
       "facts": [
         "Fue la primera línea de Tokyo Metro con puertas de andén en todas sus estaciones desde el primer día.",
@@ -195,11 +397,22 @@
       ]
     },
     {
-      "id": "fukutoshin", "code": "F", "color": "#BB641D",
-      "name": "Línea Fukutoshin", "ja": "副都心線", "en": "Fukutoshin Line",
-      "operator": "tokyo-metro", "type": "metro", "osm": [5375678],
-      "opened": 2008, "length_km": 20.2,
-      "trains": ["tm-17000"],
+      "id": "fukutoshin",
+      "code": "F",
+      "color": "#BB641D",
+      "name": "Línea Fukutoshin",
+      "ja": "副都心線",
+      "en": "Fukutoshin Line",
+      "operator": "tokyo-metro",
+      "type": "metro",
+      "osm": [
+        5375678
+      ],
+      "opened": 2008,
+      "length_km": 20.2,
+      "trains": [
+        "tm-17000"
+      ],
       "summary": "La más nueva de Tokyo Metro: une los «subcentros» (副都心) de Ikebukuro, Shinjuku y Shibuya.",
       "facts": [
         "Su estación de Shibuya, con una gran bóveda ovalada, la diseñó el arquitecto Tadao Andō.",
@@ -207,11 +420,22 @@
       ]
     },
     {
-      "id": "asakusa", "code": "A", "color": "#E85298",
-      "name": "Línea Asakusa", "ja": "浅草線", "en": "Asakusa Line",
-      "operator": "toei", "type": "metro", "osm": [3302734],
-      "opened": 1960, "length_km": 18.3,
-      "trains": ["toei-5500"],
+      "id": "asakusa",
+      "code": "A",
+      "color": "#E85298",
+      "name": "Línea Asakusa",
+      "ja": "浅草線",
+      "en": "Asakusa Line",
+      "operator": "toei",
+      "type": "metro",
+      "osm": [
+        3302734
+      ],
+      "opened": 1960,
+      "length_km": 18.3,
+      "trains": [
+        "toei-5500"
+      ],
       "summary": "Nishi-Magome–Oshiage. Gracias a los servicios directos con Keikyū y Keisei, une los aeropuertos de Haneda y Narita.",
       "facts": [
         "Fue el primer metro japonés con servicio directo sobre vías de una compañía privada (Keisei, 1960).",
@@ -219,11 +443,22 @@
       ]
     },
     {
-      "id": "mita", "code": "I", "color": "#0079C2",
-      "name": "Línea Mita", "ja": "三田線", "en": "Mita Line",
-      "operator": "toei", "type": "metro", "osm": [443286],
-      "opened": 1968, "length_km": 26.5,
-      "trains": ["toei-6500"],
+      "id": "mita",
+      "code": "I",
+      "color": "#0079C2",
+      "name": "Línea Mita",
+      "ja": "三田線",
+      "en": "Mita Line",
+      "operator": "toei",
+      "type": "metro",
+      "osm": [
+        443286
+      ],
+      "opened": 1968,
+      "length_km": 26.5,
+      "trains": [
+        "toei-6500"
+      ],
       "summary": "Meguro–Nishi-Takashimadaira, pasando por Ōtemachi y Sugamo.",
       "facts": [
         "Su letra es la I porque la M ya era de la Marunouchi.",
@@ -231,22 +466,44 @@
       ]
     },
     {
-      "id": "shinjuku", "code": "S", "color": "#6CBB5A",
-      "name": "Línea Shinjuku", "ja": "新宿線", "en": "Shinjuku Line",
-      "operator": "toei", "type": "metro", "osm": [8019858],
-      "opened": 1978, "length_km": 23.5,
-      "trains": ["toei-10-300"],
+      "id": "shinjuku",
+      "code": "S",
+      "color": "#6CBB5A",
+      "name": "Línea Shinjuku",
+      "ja": "新宿線",
+      "en": "Shinjuku Line",
+      "operator": "toei",
+      "type": "metro",
+      "osm": [
+        8019858
+      ],
+      "opened": 1978,
+      "length_km": 23.5,
+      "trains": [
+        "toei-10-300"
+      ],
       "summary": "De Shinjuku a Motoyawata (Chiba). Continúa por la red Keiō hacia el oeste.",
       "facts": [
         "Usa un ancho de vía muy raro, 1372 mm: el mismo que Keiō, para poder compartir trenes."
       ]
     },
     {
-      "id": "oedo", "code": "E", "color": "#B6007A",
-      "name": "Línea Ōedo", "ja": "大江戸線", "en": "Ōedo Line",
-      "operator": "toei", "type": "metro", "osm": [3355612],
-      "opened": 1991, "length_km": 40.7,
-      "trains": ["toei-12-000"],
+      "id": "oedo",
+      "code": "E",
+      "color": "#B6007A",
+      "name": "Línea Ōedo",
+      "ja": "大江戸線",
+      "en": "Ōedo Line",
+      "operator": "toei",
+      "type": "metro",
+      "osm": [
+        3355612
+      ],
+      "opened": 1991,
+      "length_km": 40.7,
+      "trains": [
+        "toei-12-000"
+      ],
       "summary": "La más larga del metro de Tokio: un anillo en forma de «6» que sale de Hikarigaoka.",
       "facts": [
         "Su estación de Roppongi es la más profunda del metro de Tokio: 42,3 m bajo el suelo.",
@@ -256,11 +513,22 @@
       ]
     },
     {
-      "id": "arakawa", "code": "SA", "color": "#E86F9A",
-      "name": "Tranvía Arakawa (Tokyo Sakura Tram)", "ja": "都電荒川線", "en": "Toden Arakawa Line",
-      "operator": "toei", "type": "tram", "osm": [1952418],
-      "opened": 1911, "length_km": 12.2,
-      "trains": ["toei-8900"],
+      "id": "arakawa",
+      "code": "SA",
+      "color": "#E86F9A",
+      "name": "Tranvía Arakawa (Tokyo Sakura Tram)",
+      "ja": "都電荒川線",
+      "en": "Toden Arakawa Line",
+      "operator": "toei",
+      "type": "tram",
+      "osm": [
+        1952418
+      ],
+      "opened": 1911,
+      "length_km": 12.2,
+      "trains": [
+        "toei-8900"
+      ],
       "summary": "El último tranvía público de Tokio: 30 paradas entre Minowabashi y Waseda.",
       "facts": [
         "Llegó a haber más de 40 líneas de tranvía en Tokio; esta es la única que sobrevive de la red Toden.",
@@ -269,10 +537,19 @@
       ]
     },
     {
-      "id": "nippori-toneri", "code": "NT", "color": "#E85298",
-      "name": "Nippori-Toneri Liner", "ja": "日暮里・舎人ライナー", "en": "Nippori-Toneri Liner",
-      "operator": "toei", "type": "agt", "osm": [3423146],
-      "opened": 2008, "length_km": 9.7,
+      "id": "nippori-toneri",
+      "code": "NT",
+      "color": "#E85298",
+      "name": "Nippori-Toneri Liner",
+      "ja": "日暮里・舎人ライナー",
+      "en": "Nippori-Toneri Liner",
+      "operator": "toei",
+      "type": "agt",
+      "osm": [
+        3423146
+      ],
+      "opened": 2008,
+      "length_km": 9.7,
       "trains": [],
       "summary": "Tren automático sin conductor sobre ruedas de goma, de Nippori a Minumadai-shinsuikōen.",
       "facts": [
@@ -280,11 +557,22 @@
       ]
     },
     {
-      "id": "yurikamome", "code": "U", "color": "#1662B8",
-      "name": "Yurikamome", "ja": "ゆりかもめ", "en": "Yurikamome",
-      "operator": "yurikamome", "type": "agt", "osm": [3300716],
-      "opened": 1995, "length_km": 14.7,
-      "trains": ["yurikamome-7300"],
+      "id": "yurikamome",
+      "code": "U",
+      "color": "#1662B8",
+      "name": "Yurikamome",
+      "ja": "ゆりかもめ",
+      "en": "Yurikamome",
+      "operator": "yurikamome",
+      "type": "agt",
+      "osm": [
+        3300716
+      ],
+      "opened": 1995,
+      "length_km": 14.7,
+      "trains": [
+        "yurikamome-7300"
+      ],
       "summary": "Sin conductor, de Shimbashi a Toyosu por Odaiba, cruzando el Rainbow Bridge.",
       "facts": [
         "Para subir al Rainbow Bridge da una vuelta completa en espiral en Shibaura.",
@@ -292,11 +580,22 @@
       ]
     },
     {
-      "id": "tokyo-monorail", "code": "MO", "color": "#0079C2",
-      "name": "Monorraíl de Tokio", "ja": "東京モノレール", "en": "Tokyo Monorail",
-      "operator": "tokyo-monorail", "type": "monorail", "osm": [3417174],
-      "opened": 1964, "length_km": 17.8,
-      "trains": ["monorail-10000"],
+      "id": "tokyo-monorail",
+      "code": "MO",
+      "color": "#0079C2",
+      "name": "Monorraíl de Tokio",
+      "ja": "東京モノレール",
+      "en": "Tokyo Monorail",
+      "operator": "tokyo-monorail",
+      "type": "monorail",
+      "osm": [
+        3417174
+      ],
+      "opened": 1964,
+      "length_km": 17.8,
+      "trains": [
+        "monorail-10000"
+      ],
       "summary": "Une Hamamatsuchō con el aeropuerto de Haneda en unos 20 minutos.",
       "facts": [
         "Se inauguró el 17 de septiembre de 1964, justo antes de los Juegos Olímpicos de Tokio.",
@@ -304,16 +603,298 @@
       ]
     },
     {
-      "id": "rinkai", "code": "R", "color": "#00418E",
-      "name": "Línea Rinkai", "ja": "りんかい線", "en": "Rinkai Line",
-      "operator": "twr", "type": "commuter", "osm": [7963668],
-      "opened": 1996, "length_km": 12.2,
-      "trains": ["twr-70-000"],
+      "id": "rinkai",
+      "code": "R",
+      "color": "#00418E",
+      "name": "Línea Rinkai",
+      "ja": "りんかい線",
+      "en": "Rinkai Line",
+      "operator": "twr",
+      "type": "commuter",
+      "osm": [
+        7963668
+      ],
+      "opened": 1996,
+      "length_km": 12.2,
+      "trains": [
+        "twr-70-000"
+      ],
       "summary": "De Ōsaki a Shin-Kiba bajo la bahía, con parada en Odaiba y Tokyo Big Sight.",
       "facts": [
         "Casi todo su trazado es subterráneo; pasa bajo el canal de Tokio.",
         "Muchos trenes siguen por la línea Saikyō hacia Shinjuku y Saitama."
       ]
+    },
+    {
+      "id": "tokaido-shinkansen",
+      "code": "東海",
+      "color": "#0072BC",
+      "name": "Tōkaidō Shinkansen",
+      "ja": "東海道新幹線",
+      "en": "Tōkaidō Shinkansen",
+      "operator": "jr-central",
+      "type": "shinkansen",
+      "osm": [
+        9802525
+      ],
+      "opened": 1964,
+      "length_km": 515.4,
+      "summary": "La línea de alta velocidad más transitada del mundo: Tokio–Nagoya–Kioto–Shin-Ōsaka.",
+      "facts": [
+        "Se inauguró el 1 de octubre de 1964, nueve días antes de los Juegos Olímpicos de Tokio: fue el primer tren de alta velocidad del mundo.",
+        "En hora punta salen de Tokio hasta 12 Nozomi por hora.",
+        "Yendo hacia Ōsaka, el monte Fuji se ve a la derecha (asiento E), sobre todo entre Mishima y Shin-Fuji.",
+        "Su retraso medio por tren ronda el minuto al año, incluidos tifones y nevadas.",
+        "El «Doctor Yellow», el tren amarillo que medía el estado de la vía, se retiró del Tōkaidō en enero de 2025; verlo pasar se consideraba de buena suerte."
+      ],
+      "trains": []
+    },
+    {
+      "id": "sanyo-shinkansen",
+      "code": "山陽",
+      "color": "#1D3F8F",
+      "name": "San'yō Shinkansen",
+      "ja": "山陽新幹線",
+      "en": "San'yō Shinkansen",
+      "operator": "jr-west",
+      "type": "shinkansen",
+      "osm": [
+        16792811
+      ],
+      "opened": 1972,
+      "length_km": 553.7,
+      "summary": "Continúa el Tōkaidō desde Shin-Ōsaka hasta Hakata (Fukuoka), pasando por Kōbe, Okayama e Hiroshima.",
+      "facts": [
+        "Casi la mitad del recorrido va en túnel.",
+        "Shin-Kōbe está encajada entre dos túneles, al pie del monte Rokkō.",
+        "Pasa a la isla de Kyūshū por el túnel Shin-Kanmon (18,7 km), bajo el estrecho de Kanmon.",
+        "En 1997 el serie 500 fue aquí el primer tren japonés en servicio comercial a 300 km/h."
+      ],
+      "trains": []
+    },
+    {
+      "id": "kyushu-shinkansen",
+      "code": "九州",
+      "color": "#D7282F",
+      "name": "Kyūshū Shinkansen",
+      "ja": "九州新幹線",
+      "en": "Kyūshū Shinkansen",
+      "operator": "jr-kyushu",
+      "type": "shinkansen",
+      "osm": [
+        12350421
+      ],
+      "opened": 2004,
+      "length_km": 256.8,
+      "summary": "De Hakata a Kagoshima-Chūō, en el sur de Kyūshū, pasando por Kumamoto.",
+      "facts": [
+        "El tramo sur (Shin-Yatsushiro–Kagoshima-Chūō) abrió primero, en 2004; el norte llegó en 2011.",
+        "Muchos trenes siguen hasta Shin-Ōsaka con los nombres «Mizuho» y «Sakura».",
+        "Los trenes 800 tienen interiores de madera, persianas y tejidos tradicionales, obra del diseñador Eiji Mitooka."
+      ],
+      "trains": []
+    },
+    {
+      "id": "nishi-kyushu-shinkansen",
+      "code": "西九",
+      "color": "#B0243F",
+      "name": "Nishi-Kyūshū Shinkansen",
+      "ja": "西九州新幹線",
+      "en": "Nishi-Kyūshū Shinkansen",
+      "operator": "jr-kyushu",
+      "type": "shinkansen",
+      "osm": [
+        17313193
+      ],
+      "section": [
+        "武雄温泉",
+        "長崎"
+      ],
+      "opened": 2022,
+      "length_km": 66.0,
+      "summary": "Takeo-Onsen–Nagasaki. Por ahora no está conectada con el resto de la red.",
+      "facts": [
+        "Abrió el 23 de septiembre de 2022. En Takeo-Onsen se cambia al tren convencional «Relay Kamome», en el andén de enfrente.",
+        "Con 66 km es la línea Shinkansen más corta."
+      ],
+      "trains": []
+    },
+    {
+      "id": "tohoku-shinkansen",
+      "code": "東北",
+      "color": "#00A650",
+      "name": "Tōhoku Shinkansen",
+      "ja": "東北新幹線",
+      "en": "Tōhoku Shinkansen",
+      "operator": "jr-east",
+      "type": "shinkansen",
+      "osm": [
+        9326156
+      ],
+      "opened": 1982,
+      "length_km": 674.9,
+      "summary": "La más larga: de Tokio a Shin-Aomori, en el extremo norte de Honshū, por Sendai y Morioka.",
+      "facts": [
+        "Es la línea Shinkansen más larga: 674,9 km entre Tokio y Shin-Aomori.",
+        "Los Hayabusa alcanzan 320 km/h entre Utsunomiya y Morioka, la velocidad comercial más alta de Japón.",
+        "Muchos Hayabusa llevan enganchado un Komachi rojo (serie E6) hasta Morioka; allí se separan y el Komachi sigue hacia Akita.",
+        "Entre Tokio y Ōmiya comparte vías con los trenes de las líneas Jōetsu y Hokuriku."
+      ],
+      "trains": [],
+      "extra_stops": [
+        12439068,
+        12439162
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "hokkaido-shinkansen",
+      "code": "北海",
+      "color": "#7E57A5",
+      "name": "Hokkaidō Shinkansen",
+      "ja": "北海道新幹線",
+      "en": "Hokkaidō Shinkansen",
+      "operator": "jr-hokkaido",
+      "type": "shinkansen",
+      "osm": [
+        12438357
+      ],
+      "opened": 2016,
+      "length_km": 148.8,
+      "summary": "De Shin-Aomori a Shin-Hakodate-Hokuto, cruzando bajo el mar hasta Hokkaidō.",
+      "facts": [
+        "Cruza el estrecho de Tsugaru por el túnel Seikan (53,85 km), que fue el túnel ferroviario más largo del mundo hasta 2016.",
+        "En el túnel comparte vía con trenes de mercancías (vía de tres carriles), por eso va más despacio que en el resto de la red.",
+        "Está en obras la prolongación hasta Sapporo."
+      ],
+      "trains": [],
+      "extra_stops": [
+        1934573
+      ],
+      "section": [
+        "新青森",
+        "新函館北斗"
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "joetsu-shinkansen",
+      "code": "上越",
+      "color": "#E4007F",
+      "name": "Jōetsu Shinkansen",
+      "ja": "上越新幹線",
+      "en": "Jōetsu Shinkansen",
+      "operator": "jr-east",
+      "type": "shinkansen",
+      "osm": [
+        13097973
+      ],
+      "section": [
+        "大宮",
+        "新潟"
+      ],
+      "opened": 1982,
+      "length_km": 269.5,
+      "summary": "De Ōmiya a Niigata, atravesando las montañas nevadas de Gunma y Niigata.",
+      "facts": [
+        "En invierno, unos aspersores rocían agua sobre la vía para derretir la nieve.",
+        "El túnel Daishimizu (22,2 km) atraviesa las montañas entre Gunma y Niigata.",
+        "En temporada de esquí hay trenes directos a Gala-Yuzawa, una estación dentro de una estación de esquí."
+      ],
+      "trains": [],
+      "extra_stops": [
+        13098206
+      ],
+      "order": "geometry"
+    },
+    {
+      "id": "hokuriku-shinkansen",
+      "code": "北陸",
+      "color": "#B8860B",
+      "name": "Hokuriku Shinkansen",
+      "ja": "北陸新幹線",
+      "en": "Hokuriku Shinkansen",
+      "operator": "jr-east",
+      "type": "shinkansen",
+      "osm": [
+        9812289
+      ],
+      "section": [
+        "高崎",
+        "敦賀"
+      ],
+      "order": "geometry",
+      "opened": 1997,
+      "length_km": 470.6,
+      "summary": "De Takasaki a Tsuruga por Nagano, Toyama y Kanazawa, a lo largo del mar de Japón.",
+      "facts": [
+        "El primer tramo (Takasaki–Nagano) abrió en 1997, a tiempo para los Juegos Olímpicos de Invierno de Nagano 1998.",
+        "Llegó a Kanazawa en 2015 y a Tsuruga en marzo de 2024.",
+        "La explotan dos compañías: JR East hasta Jōetsu-Myōkō y JR West desde ahí.",
+        "Entre Takasaki y Karuizawa sube con pendientes del 30 ‰, muy fuertes para un tren de alta velocidad."
+      ],
+      "trains": [],
+      "extra_stops": [
+        17348677,
+        9878144,
+        9812241
+      ]
+    },
+    {
+      "id": "yamagata-shinkansen",
+      "code": "山形",
+      "color": "#E8762B",
+      "name": "Yamagata Shinkansen",
+      "ja": "山形新幹線",
+      "en": "Yamagata Shinkansen",
+      "operator": "jr-east",
+      "type": "mini-shinkansen",
+      "osm": [
+        1950427
+      ],
+      "section": [
+        "福島",
+        "新庄"
+      ],
+      "opened": 1992,
+      "length_km": 148.6,
+      "summary": "«Mini-shinkansen»: los trenes Tsubasa siguen desde Fukushima por una línea convencional adaptada hasta Shinjō.",
+      "facts": [
+        "Fue el primer mini-shinkansen (1992): se adaptó una línea convencional al ancho del Shinkansen para que los trenes siguieran sin transbordo.",
+        "Por estas vías los trenes van a 130 km/h como máximo y hay pasos a nivel.",
+        "Tsubasa, el nombre del servicio, significa «ala»."
+      ],
+      "trains": []
+    },
+    {
+      "id": "akita-shinkansen",
+      "code": "秋田",
+      "color": "#C8102E",
+      "name": "Akita Shinkansen",
+      "ja": "秋田新幹線",
+      "en": "Akita Shinkansen",
+      "operator": "jr-east",
+      "type": "mini-shinkansen",
+      "osm": [
+        12437350
+      ],
+      "section": [
+        "盛岡",
+        "秋田"
+      ],
+      "opened": 1997,
+      "length_km": 127.3,
+      "summary": "Mini-shinkansen de Morioka a Akita: por aquí siguen los Komachi rojos.",
+      "facts": [
+        "En Ōmagari el tren cambia de sentido y sale de la estación hacia atrás.",
+        "Komachi alude a Ono no Komachi, poeta legendaria de la región de Akita."
+      ],
+      "trains": [],
+      "extra_stops": [
+        1948965
+      ],
+      "order": "geometry"
     }
-  ]
+  ],
+  "_comment_sections": "'section': [desde, hasta] (nombres japoneses) recorta la relación a ese tramo. 'order': 'geometry' ordena las estaciones por su posición sobre la vía (útil al combinar varios servicios, ninguno de los cuales para en todas)."
 }
