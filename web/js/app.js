@@ -26,6 +26,8 @@ function store(key, value) {
 const go = (hash) => { if (location.hash !== hash) location.hash = hash; else route(); };
 
 let net, map;
+const scrollMemory = new Map();   // hash → posición de scroll del panel
+let lastHash = null;
 
 async function main() {
   try {
@@ -70,8 +72,11 @@ function route({ initial = false } = {}) {
     document.title = "Japan Rail Explorer";
   }
 
-  panel.innerHTML = html;
-  panel.scrollTop = 0;
+  if (lastHash !== null) scrollMemory.set(lastHash, panel.scrollTop);
+  lastHash = location.hash;
+  panel.innerHTML = `<div class="view">${html}</div>`;
+  // al volver a una vista ya visitada se recupera la posición; a una nueva, se empieza arriba
+  panel.scrollTop = scrollMemory.get(lastHash) ?? 0;
   if (!initial) panel.focus({ preventScroll: true });
 }
 

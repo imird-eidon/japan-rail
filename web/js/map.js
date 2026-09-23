@@ -54,6 +54,8 @@ export function createMap(el, net, { onLine, onStation }) {
       `<span class="badge" style="--c:${line.color};--t:${textOn(line.color)}">${esc(line.code)}</span> ${esc(line.name)}`,
       { sticky: true, className: "map-tip", direction: "top", offset: [0, -8] });
     stroke.on("click", (e) => { L.DomEvent.stop(e); onLine(line.id); });
+    stroke.on("mouseover", () => hoverLine(line.id, true));
+    stroke.on("mouseout", () => hoverLine(line.id, false));
     lineLayers.set(line.id, { casing, stroke, bounds: stroke.getBounds(), line });
   }
 
@@ -81,6 +83,18 @@ export function createMap(el, net, { onLine, onStation }) {
     if (state.focusStation) return new Set(net.stations[state.focusStation].lineIds);
     if (state.focusLines) return state.focusLines;
     return null;
+  }
+
+  /** Engorda la línea bajo el cursor, para que se note qué se va a abrir al pulsar. */
+  function hoverLine(id, on) {
+    const l = lineLayers.get(id);
+    if (!l || !map.hasLayer(l.stroke)) return;
+    const focusSet = focusedLineSet();
+    if (focusSet && !focusSet.has(id)) return;   // atenuada: no reacciona
+    const w = weight(l.line) + (focusSet ? 2 : 0);
+    l.stroke.setStyle({ weight: on ? w + 3 : w });
+    l.casing.setStyle({ weight: w + (focusSet ? 5 : 3) + (on ? 3 : 0) });
+    if (on) { l.casing.bringToFront(); l.stroke.bringToFront(); }
   }
 
   function styleLines() {

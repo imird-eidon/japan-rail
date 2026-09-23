@@ -11,6 +11,8 @@
   --focus: #2563eb;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 24px rgba(0,0,0,.08);
   --radius: 12px;
+  --dur: .16s;
+  --ease: cubic-bezier(.2, .7, .3, 1);
   --sidebar: 400px;
   --font: "Noto Sans", "Noto Sans JP", system-ui, -apple-system, "Segoe UI", "Hiragino Sans", sans-serif;
   color-scheme: light;
@@ -92,6 +94,7 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
 }
 .search input:focus { outline: none; border-color: var(--focus); background: var(--surface); }
 .search-results {
+  animation: view-in .14s var(--ease) both;
   position: absolute; left: 20px; right: 20px; top: calc(100% - 4px);
   margin: 0; padding: 6px; list-style: none; z-index: 1000;
   background: var(--surface); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow);
@@ -123,9 +126,30 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); flex: none; }
 .dot + .dot { margin-left: 2px; }
 
+.view { animation: view-in .22s var(--ease) both; }
+@keyframes view-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
 .loading, .empty { color: var(--muted); padding: 24px 0; }
+
+/* esqueleto mientras se cargan los datos: la misma forma que la lista real */
+.skeleton { padding-top: 10px; }
+.sk { background: var(--surface-2); border-radius: 8px; animation: sk-pulse 1.4s ease-in-out infinite; }
+.sk-title { height: 26px; width: 62%; margin-bottom: 14px; }
+.sk-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 18px; }
+.sk-stats .sk { height: 54px; }
+.sk-row { display: flex; align-items: center; gap: 10px; padding: 9px 0; }
+.sk-row .sk:first-child { width: 34px; height: 34px; border-radius: 8px; flex: none; }
+.sk-row .sk:last-child { height: 14px; flex: 1; }
+.sk-row:nth-child(even) .sk:last-child { max-width: 72%; }
+@keyframes sk-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
 .back {
   display: inline-block; margin: 8px 0 12px; font-size: .88rem; color: var(--muted); text-decoration: none;
+}
+.back, .ghost, .nb, .fact-link, .go-menu button, .go-toggle {
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
 }
 .back:hover { color: var(--text); }
 .ghost {
@@ -148,6 +172,7 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
 .stats dd.small { font-size: .95rem; font-weight: 500; }
 
 .fact-card {
+  animation: view-in .2s var(--ease) both;
   border: 1px solid var(--border); border-left: 4px solid var(--accent);
   border-radius: var(--radius); padding: 12px 14px; margin-bottom: 18px; background: var(--surface);
 }
@@ -161,6 +186,8 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
   position: sticky; top: 0; z-index: 1;
 }
 .tab {
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease),
+              box-shadow var(--dur) var(--ease);
   flex: 1; text-align: center; padding: 7px 0; border-radius: 7px; text-decoration: none;
   font-size: .88rem; color: var(--muted); font-weight: 500;
 }
@@ -168,22 +195,32 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
 .chip {
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease),
+              border-color var(--dur) var(--ease);
   font: inherit; font-size: .8rem; padding: 5px 11px; border-radius: 999px; cursor: pointer;
   border: 1px solid var(--border); background: var(--surface); color: var(--muted);
 }
 .chip[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
 
-.group { margin-bottom: 14px; transition: opacity .2s; }
+.group { margin-bottom: 14px; transition: opacity .2s; content-visibility: auto; contain-intrinsic-size: auto 320px; }
 .group.is-hidden { opacity: .35; }
 .group-title { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 6px 0 6px; font-weight: 700; }
 .group-title .ja { text-transform: none; letter-spacing: 0; }
 
 .line-list, .station-list, .train-list, .serving-list, .facts { list-style: none; margin: 0; padding: 0; }
+/* listas muy largas (la de estaciones pasa de 4000): el navegador solo pinta lo visible */
+.station-list > li, .line-list > li, .train-list > li { content-visibility: auto; contain-intrinsic-size: auto 46px; }
 .line-row, .station-row, .train-row {
   display: flex; align-items: center; gap: 10px; padding: 8px 8px; margin: 0 -8px;
   border-radius: 8px; text-decoration: none;
 }
+.line-row, .station-row, .train-row, .route-stop, .train-card, .serving-line, .search-results li {
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease),
+              transform var(--dur) var(--ease);
+}
 .line-row:hover, .station-row:hover, .train-row:hover { background: var(--surface-2); }
+.line-row:active, .station-row:active, .train-row:active,
+.route-stop:active, .train-card:active { transform: scale(.985); }
 .ll-name { flex: 1; min-width: 0; font-weight: 500; }
 .ll-name .ja { display: block; margin: 0; font-size: .8rem; }
 .ll-meta { font-size: .78rem; color: var(--muted); white-space: nowrap; }
@@ -251,6 +288,7 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
   content: ""; position: absolute; left: 17px; top: 18px; bottom: 18px; width: 6px; background: var(--c); border-radius: 3px;
 }
 .route-stop {
+  content-visibility: auto; contain-intrinsic-size: auto 44px;
   position: relative; display: flex; align-items: center; gap: 12px; padding: 5px 8px 5px 0; text-decoration: none; border-radius: 8px;
 }
 .route-stop:hover { background: var(--surface-2); }
@@ -280,6 +318,10 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
 
 /* ------------------------------------------------------------ mapa */
 .leaflet-container { font-family: var(--font); background: var(--bg); }
+.leaflet-interactive { cursor: pointer; }
+/* el mapa aparece cuando ya hay algo que enseñar */
+.map { animation: map-in .35s var(--ease) both; }
+@keyframes map-in { from { opacity: 0; } to { opacity: 1; } }
 .basemap { filter: grayscale(1) contrast(.85) brightness(1.08) opacity(.75); }
 @media (prefers-color-scheme: dark) {
   .basemap { filter: grayscale(1) invert(1) brightness(.85) contrast(.9) opacity(.8); }
@@ -325,17 +367,12 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
   0% { transform: scale(.6); opacity: 1; }
   100% { transform: scale(2.2); opacity: 0; }
 }
-@media (prefers-reduced-motion: reduce) {
-  /* botones de centrado (Tokio / Japón) */
+/* botones de centrado (Tokio / Japón) */
 .center-control a {
   width: auto !important; min-width: 40px; padding: 0 8px; font: 700 13px/30px var(--font) !important;
   color: var(--text) !important; background: var(--surface) !important;
 }
 .center-control a:hover { background: var(--surface-2) !important; }
-.leaflet-bar a { background: var(--surface); color: var(--text); border-color: var(--border); }
-
-.pulse span { animation: none; }
-}
 
 /* trenes históricos */
 .train-cards.is-historic .card-img { filter: grayscale(.35); }
@@ -355,3 +392,10 @@ h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color:
 .region-title { font-size: 1.05rem; margin: 18px 0 4px; letter-spacing: -.01em; }
 .region-title .ja { font-size: .85rem; }
 .op-title { margin: 12px 0 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .view { animation: none; }
+  .sk { animation: none; }
+  .pulse span { animation: none; }
+  * { transition-duration: .01ms !important; }
+}

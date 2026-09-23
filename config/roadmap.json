@@ -1061,6 +1061,35 @@
    "title": "Fase 6 · Funciones de la web",
    "groups": [
     {
+     "title": "Fluidez (hecho)",
+     "items": [
+      {
+       "task": "Transiciones al pasar el ratón y al pulsar en listas, fichas y mapa",
+       "done": true
+      },
+      {
+       "task": "El panel entra con un fundido en vez de repintarse de golpe",
+       "done": true
+      },
+      {
+       "task": "Recordar la posición de la lista al volver atrás",
+       "done": true
+      },
+      {
+       "task": "Esqueleto de carga mientras llegan los datos",
+       "done": true
+      },
+      {
+       "task": "Listas largas que solo se pintan al verse (content-visibility)",
+       "done": true
+      },
+      {
+       "task": "La línea del mapa se engorda al pasar por encima",
+       "done": true
+      }
+     ]
+    },
+    {
      "title": "Explorar",
      "items": [
       {
