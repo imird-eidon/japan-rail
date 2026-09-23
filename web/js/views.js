@@ -211,7 +211,9 @@ export function lineView(net, line) {
     ${(hist = historicOnLine(net, line.id)) ? `<h3>Trenes históricos</h3>${hist}` : ""}
     <h3>Recorrido${line.loop ? " (circular ↻)" : ""}</h3>
     <ol class="route ${line.loop ? "is-loop" : ""}" style="--c:${line.color}">${stops}</ol>
-    <p class="source">Trazado: ${line.osm.map((id) => `<a href="https://www.openstreetmap.org/relation/${id}" target="_blank" rel="noopener">OSM ${id}</a>`).join(", ")}</p>`;
+    ${line.osm.length
+      ? `<p class="source">Trazado: ${line.osm.map((id) => `<a href="https://www.openstreetmap.org/relation/${id}" target="_blank" rel="noopener">OSM ${id}</a>`).join(", ")}</p>`
+      : `<p class="source">Trazado y estaciones de OpenStreetMap.</p>`}`;
 }
 
 // ------------------------------------------------------------------ estación

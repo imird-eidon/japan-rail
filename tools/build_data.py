@@ -396,6 +396,24 @@ def order_along(stops, chains, max_off_m=1500):
     return [s for _, s in sorted(placed, key=lambda x: x[0])]
 
 
+def order_nearest(stops):
+    """Ordena las paradas encadenando la más cercana desde un extremo de la línea.
+    Va mejor que seguir el trazado cuando la vía viene partida en muchos tramos sueltos."""
+    if len(stops) < 3:
+        return stops
+    pts = [s["pt"] for s in stops]
+    c = (sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
+    far = max(range(len(pts)), key=lambda i: haversine_m(pts[i], c))
+    start = max(range(len(pts)), key=lambda i: haversine_m(pts[i], pts[far]))   # el extremo opuesto
+    order, used = [start], {start}
+    while len(order) < len(pts):
+        last = pts[order[-1]]
+        nxt = min((i for i in range(len(pts)) if i not in used), key=lambda i: haversine_m(pts[i], last))
+        order.append(nxt)
+        used.add(nxt)
+    return [stops[i] for i in order]
+
+
 def resolve_trains(trains, lines, stations, warnings):
     """Calcula por qué líneas y estaciones pasa cada tren.
     Fuentes: 'runs' en trains.json ([{line, from?, to?}], nombres japoneses) y 'trains' en lines.json (línea entera)."""
@@ -515,6 +533,8 @@ def main():
             stops, chains = cut_section(line, stops, chains, warnings)
         if line.get("order") == "geometry":
             stops = order_along(stops, chains)
+        elif line.get("order") == "nearest":
+            stops = order_nearest(stops)
         elif line.get("station_order"):  # orden explícito (nombres japoneses) para relaciones caóticas
             pos = {ja_key(n): i for i, n in enumerate(line["station_order"])}
             if line.get("strict_order"):  # sólo las de la lista: descarta lo que arrastran las vías vecinas

@@ -413,6 +413,24 @@
     },
     "disney": {
       "name": "Maihama Resort Line"
+    },
+    "ibara": {
+      "name": "Ibara Tetsudō"
+    },
+    "chikuho-dentetsu": {
+      "name": "Chikuhō Denki Tetsudō"
+    },
+    "amagi": {
+      "name": "Amagi Tetsudō"
+    },
+    "heisei-chikuho": {
+      "name": "Heisei Chikuhō Tetsudō"
+    },
+    "kitakyushu-mono": {
+      "name": "Kitakyūshū Kōsoku Tetsudō"
+    },
+    "hikosan": {
+      "name": "Slope Car del monte Hiko"
     }
   },
   "types": {
@@ -8164,6 +8182,647 @@
         "Se construyó para la Exposición Universal de Aichi 2005 y fue el primer maglev comercial de Japón."
       ],
       "opened": 2005
+    },
+    {
+      "id": "sanyo-hiroshima",
+      "code": "G",
+      "color": "#0072BC",
+      "name": "JR Sanyō (Itozaki–Ōtake)",
+      "ja": "山陽本線",
+      "en": "Sanyō Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陽本線\"]",
+        "bbox": [
+          34.15,
+          132.15,
+          34.6,
+          133.5
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Es el eje de cercanías de Hiroshima, entre el mar interior de Seto y las montañas."
+      ]
+    },
+    {
+      "id": "kure",
+      "code": "Y",
+      "color": "#00A0B0",
+      "name": "JR Kure",
+      "ja": "呉線",
+      "en": "Kure Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR呉線\"]",
+        "bbox": [
+          34.2,
+          132.4,
+          34.5,
+          133.1
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Bordea el mar de Seto hasta Kure, la ciudad del acorazado Yamato."
+      ]
+    },
+    {
+      "id": "geibi",
+      "code": "P",
+      "color": "#7B3F98",
+      "name": "JR Geibi",
+      "ja": "芸備線",
+      "en": "Geibi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR芸備線\"]",
+        "bbox": [
+          34.3,
+          132.4,
+          35.1,
+          133.4
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Su tramo entre Higashi-Jōge y Bingo-Ochiai es de los menos usados de todo Japón."
+      ]
+    },
+    {
+      "id": "fukuen",
+      "code": "Z",
+      "color": "#F6A800",
+      "name": "JR Fukuen",
+      "ja": "福塩線",
+      "en": "Fukuen Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR福塩線\"]",
+        "bbox": [
+          34.4,
+          132.9,
+          35.0,
+          133.5
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "ibara",
+      "code": "IB",
+      "color": "#E8383D",
+      "name": "Ibara Tetsudō",
+      "ja": "井原線",
+      "en": "Ibara Line",
+      "operator": "ibara",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"井原鉄道井原線\"]",
+        "bbox": [
+          34.4,
+          133.2,
+          34.75,
+          133.7
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Se abrió en 1999, después de treinta años de obras paradas y retomadas."
+      ]
+    },
+    {
+      "id": "kagoshima-main-fukuoka",
+      "code": "JA",
+      "color": "#E60012",
+      "name": "JR Kagoshima (Mojikō–Ōmuta)",
+      "ja": "鹿児島本線",
+      "en": "Kagoshima Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR鹿児島本線|^鹿児島本線$\"]",
+        "bbox": [
+          32.95,
+          130.35,
+          33.98,
+          131.0
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Es la línea con más viajeros de Kyūshū: une Kitakyūshū, Hakata y Kumamoto."
+      ],
+      "skip_stations": [
+        "九州鉄道記念館",
+        "門司港駅前",
+        "出光美術館",
+        "ノーフォーク広場",
+        "関門海峡めかり",
+        "砂津"
+      ]
+    },
+    {
+      "id": "nippo",
+      "code": "JF",
+      "color": "#0072BC",
+      "name": "JR Nippō (Kokura–Yanagigaura)",
+      "ja": "日豊本線",
+      "en": "Nippō Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日豊線|^日豊本線$\"]",
+        "bbox": [
+          33.4,
+          130.85,
+          33.95,
+          131.35
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "chikuho-main",
+      "code": "JC",
+      "color": "#00A0B0",
+      "name": "JR Chikuhō (Fukuhoku Yutaka)",
+      "ja": "筑豊本線",
+      "en": "Chikuhō Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR筑豊本線\"]",
+        "bbox": [
+          33.35,
+          130.4,
+          33.95,
+          130.9
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Nació para sacar el carbón de la cuenca de Chikuhō; hoy lleva viajeros a Hakata."
+      ]
+    },
+    {
+      "id": "sasaguri",
+      "code": "JC",
+      "color": "#00A0B0",
+      "name": "JR Sasaguri",
+      "ja": "篠栗線",
+      "en": "Sasaguri Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR篠栗線\"]",
+        "bbox": [
+          33.5,
+          130.4,
+          33.7,
+          130.7
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hitahikosan",
+      "code": "JI",
+      "color": "#7B3F98",
+      "name": "JR Hita-Hikosan",
+      "ja": "日田彦山線",
+      "en": "Hita-Hikosan Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日田彦山線\"]",
+        "bbox": [
+          33.2,
+          130.7,
+          33.95,
+          131.0
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kyudai",
+      "code": "JD",
+      "color": "#F6A800",
+      "name": "JR Kyūdai (Yufu Kōgen)",
+      "ja": "久大本線",
+      "en": "Kyūdai Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR久大線\"]",
+        "bbox": [
+          33.1,
+          130.4,
+          33.45,
+          131.0
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "gotoji",
+      "code": "JJ",
+      "color": "#00A0B0",
+      "name": "JR Gotōji",
+      "ja": "後藤寺線",
+      "en": "Gotōji Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR後藤寺線\"]",
+        "bbox": [
+          33.55,
+          130.7,
+          33.75,
+          130.9
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hakata-minami",
+      "code": "JR",
+      "color": "#3C78C8",
+      "name": "JR Hakata-Minami",
+      "ja": "博多南線",
+      "en": "Hakata-Minami Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"博多南線\"]",
+        "bbox": [
+          33.48,
+          130.4,
+          33.6,
+          130.48
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "博多",
+        "博多南"
+      ],
+      "strict_order": true,
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Son ocho kilómetros por vía de Shinkansen, pero con billete de cercanías: lleva al depósito de trenes.",
+        "Los viajeros van en un Shinkansen de verdad, a 120 km/h, por 330 yenes."
+      ]
+    },
+    {
+      "id": "chikuho-dentetsu",
+      "code": "CK",
+      "color": "#E8383D",
+      "name": "Chikuhō Dentetsu",
+      "ja": "筑豊電気鉄道線",
+      "en": "Chikuhō Electric Railroad",
+      "operator": "chikuho-dentetsu",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|light_rail|tram\"][\"name\"~\"筑豊電気鉄道\"]",
+        "bbox": [
+          33.7,
+          130.6,
+          33.9,
+          130.85
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Es un tranvía interurbano: nació como prolongación del tranvía de Kitakyūshū."
+      ]
+    },
+    {
+      "id": "amagi",
+      "code": "AM",
+      "color": "#F5A200",
+      "name": "Amagi Tetsudō",
+      "ja": "甘木線",
+      "en": "Amagi Line",
+      "operator": "amagi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"甘木鉄道甘木線\"]",
+        "bbox": [
+          33.3,
+          130.45,
+          33.5,
+          130.7
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nishitetsu-amagi",
+      "code": "AM",
+      "color": "#0072BC",
+      "name": "Nishitetsu Amagi",
+      "ja": "甘木線",
+      "en": "Nishitetsu Amagi Line",
+      "operator": "nishitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"西日本鉄道甘木線\"]",
+        "bbox": [
+          33.28,
+          130.4,
+          33.48,
+          130.7
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "heisei-ita",
+      "code": "HC",
+      "color": "#E8383D",
+      "name": "Heisei Chikuhō: línea Ita",
+      "ja": "伊田線",
+      "en": "Ita Line",
+      "operator": "heisei-chikuho",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"平成筑豊鉄道伊田線\"]",
+        "bbox": [
+          33.6,
+          130.68,
+          33.82,
+          130.85
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "heisei-tagawa",
+      "code": "HC",
+      "color": "#F6A800",
+      "name": "Heisei Chikuhō: línea Tagawa",
+      "ja": "田川線",
+      "en": "Tagawa Line",
+      "operator": "heisei-chikuho",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"平成筑豊鉄道田川線\"]",
+        "bbox": [
+          33.55,
+          130.75,
+          33.8,
+          131.05
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "heisei-itoda",
+      "code": "HC",
+      "color": "#00A0B0",
+      "name": "Heisei Chikuhō: línea Itoda",
+      "ja": "糸田線",
+      "en": "Itoda Line",
+      "operator": "heisei-chikuho",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"平成筑豊鉄道糸田線\"]",
+        "bbox": [
+          33.58,
+          130.72,
+          33.72,
+          130.85
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "fukuoka",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kitakyushu-monorail",
+      "code": "KM",
+      "color": "#0072BC",
+      "name": "Monorraíl de Kitakyūshū",
+      "ja": "小倉線",
+      "en": "Kitakyushu Monorail",
+      "operator": "kitakyushu-mono",
+      "type": "monorail",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"monorail\"][\"name\"~\"北九州高速鉄道小倉線\"]",
+        "bbox": [
+          33.79,
+          130.84,
+          33.92,
+          130.93
+        ],
+        "nearby": 200
+      },
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Entra dentro del edificio de la estación de Kokura, por encima de los andenes del Shinkansen."
+      ],
+      "station_order": [
+        "小倉",
+        "平和通",
+        "旦過",
+        "香春口三萩野",
+        "片野",
+        "城野",
+        "北方",
+        "競馬場前",
+        "守恒",
+        "徳力公団前",
+        "徳力嵐山口",
+        "志井",
+        "企救丘"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "mojiko-retro",
+      "code": "MR",
+      "color": "#0072BC",
+      "name": "Mojikō Retro (Shiokaze)",
+      "ja": "門司港レトロ観光線",
+      "en": "Mojiko Retro Sightseeing Line",
+      "operator": "heisei-chikuho",
+      "type": "tourist",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"門司港レトロ観光線|平成筑豊鉄道門司港\"]",
+        "bbox": [
+          33.93,
+          130.95,
+          33.97,
+          131.0
+        ],
+        "nearby": 300
+      },
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Son 2,1 km por el puerto de Moji, en un tren turístico llamado «Shiokaze» (brisa de mar).",
+        "Termina frente al estrecho de Kanmon, donde se ve pasar los barcos entre Honshū y Kyūshū."
+      ],
+      "station_order": [
+        "九州鉄道記念館",
+        "出光美術館",
+        "ノーフォーク広場",
+        "関門海峡めかり"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "hikosan-slope",
+      "code": "HS",
+      "color": "#2E8B57",
+      "name": "Slope Car del monte Hiko",
+      "ja": "英彦山スロープカー",
+      "en": "Hikosan Slope Car",
+      "operator": "hikosan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"funicular|rail\"]",
+        "bbox": [
+          33.478,
+          130.895,
+          33.49,
+          130.915
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "参道",
+        "幸",
+        "花",
+        "神"
+      ],
+      "strict_order": true,
+      "region": "fukuoka",
+      "trains": [],
+      "facts": [
+        "Sube al santuario Hikosan Jingū, uno de los tres grandes centros del shugendō, la religión de montaña."
+      ]
+    },
+    {
+      "id": "kisuki",
+      "code": "E",
+      "color": "#7B3F98",
+      "name": "JR Kisuki",
+      "ja": "木次線",
+      "en": "Kisuki Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR木次線\"]",
+        "bbox": [
+          35.0,
+          132.7,
+          35.45,
+          133.3
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "hiroshima",
+      "trains": [],
+      "facts": [
+        "Tiene el «bucle de tres pisos» de Oroshi, donde la vía gira sobre sí misma para salvar el puerto.",
+        "Por ella circulaba el tren turístico Okuizumo Orochi, con vagón descubierto."
+      ]
     },
     {
       "id": "fukuoka-kuko",
