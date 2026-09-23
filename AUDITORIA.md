@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 4255 de 9637 estaciones (44 %).**
+**Japón: 4433 de 9632 estaciones (46 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -30,10 +30,10 @@
 | [Shizuoka](#22-shizuoka) | 224 | 10 | 214 | 4 % |
 | [Aichi](#23-aichi) | 500 | 307 | 193 | 61 % |
 | [Mie](#24-mie) | 234 | 25 | 209 | 11 % |
-| [Shiga](#25-shiga) | 122 | 67 | 55 | 55 % |
+| [Shiga](#25-shiga) | 122 | 122 | 0 | 100 % |
 | [Kioto](#26-kioto) | 242 | 242 | 0 | 100 % |
 | [Ōsaka](#27-ōsaka) | 554 | 554 | 0 | 100 % |
-| [Hyōgo](#28-hyōgo) | 390 | 262 | 128 | 67 % |
+| [Hyōgo](#28-hyōgo) | 385 | 385 | 0 | 100 % |
 | [Nara](#29-nara) | 128 | 128 | 0 | 100 % |
 | [Wakayama](#30-wakayama) | 121 | 20 | 101 | 17 % |
 | [Tottori](#31-tottori) | 73 | 0 | 73 | 0 % |
@@ -439,19 +439,7 @@ Completa ✅
 
 ## 25 Shiga
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 本線 | 22 | 長谷野、五箇荘、日野、水口、水口城南、水口石橋、彦根口、柏原、醒ヶ井、近江長岡、尼子、ひこね芹川… |
-| 草津線 | 6 | 甲南、三雲、手原、甲賀、石部、甲西 |
-| 八日市線 | 6 | 八日市、太郎坊宮前、市辺、平田、武佐、新八日市 |
-| (sin línea) 近江鉄道 | 5 | 鳥居本、多賀大社前、高宮、水口松尾、スクリーン |
-| (sin línea) | 4 | 高月、木ノ本、河毛、余呉 |
-| 比叡山鉄道線 | 4 | ほうらい丘、もたて山、ケーブル延暦寺、ケーブル坂本 |
-| 信楽線 | 3 | 玉桂寺前、勅旨、雲井 |
-| (sin línea) 西日本旅客鉄道 | 2 | 油日、近江塩津 |
-| (sin línea) JR西日本;近江鉄道;信楽高原鐵道 | 1 | 貴生川 |
-| (sin línea) 信楽高原鐵道 | 1 | 信楽 |
-| (sin línea) JR西日本 | 1 | 寺庄 |
+Completa ✅
 
 ## 26 Kioto
 
@@ -463,30 +451,9 @@ Completa ✅
 
 ## 28 Hyōgo
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 加古川線 | 19 | 西脇市、滝野、比延、新西脇、黒田庄、船町口、日本へそ公園、本黒田、滝、久下村、神野、小野町… |
-| 山陰線 | 18 | 香住、江原、養父、国府、玄武洞、梁瀬、佐津、柴山、竹野、鎧、餘部、諸寄… |
-| 播但線 | 17 | 新井、長谷、青倉、仁豊野、砥堀、京口、野里、和田山、寺前、新野、鶴居、甘地… |
-| 姫新線 | 13 | 播磨高岡、太市、千本、上月、西栗栖、播磨徳久、東觜崎、三日月、播磨新宮、本竜野、余部、本竜野… |
-| 山陽線 | 13 | 魚住、東加古川、網干、御着、加古川、土山、宝殿、ひめじ別所、大久保、曽根、英賀保、有年… |
-| 福知山線 | 7 | 市島、下滝、丹波竹田、黒井、石生、柏原、丹波大山 |
-| (sin línea) 北条鉄道 | 6 | 北条町、網引、播磨下里、田原、長、播磨横田 |
-| 智頭線 | 5 | 久崎、石井、河野原円心、苔縄、平福 |
-| 赤穂線 | 5 | 天和、播州赤穂、備前福河、西相生、坂越 |
-| 摩耶ケーブル線 | 4 | 虹の、摩耶ケーブル、星の、虹の |
-| ポートアイランド線 | 3 | 南公園、北埠頭、中埠頭 |
-| 網干線 | 3 | 山陽網干、平松、広畑 |
-| (sin línea) 山陽電気鉄道 | 3 | 山陽天満、夢前川、西飾磨 |
-| 宮津線 | 2 | 豊岡、コウノトリの郷 |
-| 能勢電鉄 | 2 | 黒川、ケーブル山上 |
-| 六甲ケーブル線 | 2 | 六甲ケーブル下、六甲山上 |
-| (sin línea) 西日本旅客鉄道 | 1 | はりま勝原 |
-| (sin línea) 播但線 | 1 | 溝口 |
-| 山陽線;智頭線 | 1 | 上郡 |
-| 加古川線;福知山線 | 1 | 谷川 |
-| 姫新線;智頭線 | 1 | 佐用 |
-| (sin línea) 日本貨物鉄道 | 1 | 神戸貨物ターミナル |
+Sin contar (no son servicio de viajeros): 神戸貨物ターミナル (terminal de mercancías)、黒川 (funicular Myōken-no-Mori, cerrado el 3 de diciembre de 2023)、ケーブル山上 (funicular Myōken-no-Mori, cerrado el 3 de diciembre de 2023)、星の (estación del teleférico Maya View Line, no es ferrocarril)、手柄山平和公園 (estación del monorraíl de Himeji, cerrado en 1974 y hoy museo)
+
+Completa ✅
 
 ## 29 Nara
 

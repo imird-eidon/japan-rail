@@ -374,6 +374,27 @@
     },
     "tankai": {
       "name": "Tango Kairiku Kōtsū"
+    },
+    "hojo": {
+      "name": "Hōjō Tetsudō"
+    },
+    "chizu": {
+      "name": "Chizu Kyūkō"
+    },
+    "kobe-city-maya": {
+      "name": "Ayuntamiento de Kōbe"
+    },
+    "rokko-maya": {
+      "name": "Rokkō Maya Tetsudō"
+    },
+    "omi": {
+      "name": "Ōmi Tetsudō"
+    },
+    "shigaraki": {
+      "name": "Shigaraki Kōgen Tetsudō"
+    },
+    "hieizan": {
+      "name": "Hieizan Tetsudō"
     }
   },
   "types": {
@@ -4196,7 +4217,10 @@
         "En 1981 fue el primer tren sin conductor del mundo en servicio comercial regular."
       ],
       "trains": [],
-      "region": "kobe"
+      "region": "kobe",
+      "extra_stops": [
+        2431076
+      ]
     },
     {
       "id": "rokko-liner",
@@ -4322,6 +4346,79 @@
       "facts": [],
       "trains": [],
       "region": "kyoto"
+    },
+    {
+      "id": "hokuriku-shiga",
+      "code": "A",
+      "color": "#0072BC",
+      "name": "JR Hokuriku (Maibara–Ōmi-Shiotsu)",
+      "ja": "北陸本線",
+      "en": "Hokuriku Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北陸本線\"]",
+        "bbox": [
+          35.28,
+          136.05,
+          35.55,
+          136.3
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "米原",
+        "坂田",
+        "田村",
+        "長浜",
+        "虎姫",
+        "河毛",
+        "高月",
+        "木ノ本",
+        "余呉",
+        "近江塩津"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Bordea el lago Biwa por el norte, camino de Tsuruga y la costa del mar de Japón."
+      ]
+    },
+    {
+      "id": "tokaido-maibara",
+      "code": "A",
+      "color": "#F6A800",
+      "name": "JR Tōkaidō (Maibara–Sekigahara)",
+      "ja": "東海道本線",
+      "en": "Tōkaidō Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^東海道本線$\"]",
+        "bbox": [
+          35.28,
+          136.25,
+          35.42,
+          136.5
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "米原",
+        "醒ケ井",
+        "近江長岡",
+        "柏原",
+        "関ケ原"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Sube al paso de Sekigahara, donde se libró en 1600 la batalla que decidió el shogunato Tokugawa."
+      ]
     },
     {
       "id": "chiba-monorail",
@@ -5809,6 +5906,700 @@
       "trains": [],
       "summary": "De Mukogawa a Mukogawa-Danchi-mae junto al río.",
       "facts": []
+    },
+    {
+      "id": "kakogawa",
+      "code": "I",
+      "color": "#00A0B0",
+      "name": "JR Kakogawa",
+      "ja": "加古川線",
+      "en": "Kakogawa Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR加古川線\"]",
+        "bbox": [
+          34.7,
+          134.75,
+          35.15,
+          135.15
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "加古川",
+        "日岡",
+        "神野",
+        "厄神",
+        "市場",
+        "小野町",
+        "粟生",
+        "河合西",
+        "青野ケ原",
+        "社町",
+        "滝野",
+        "滝",
+        "西脇市",
+        "新西脇",
+        "比延",
+        "日本へそ公園",
+        "黒田庄",
+        "本黒田",
+        "船町口",
+        "久下村",
+        "谷川"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Su estación de Nihon-Heso-Kōen se llama «parque del ombligo de Japón»: ahí se cruzan el meridiano 135 y el centro del país."
+      ]
+    },
+    {
+      "id": "bantan",
+      "code": "J",
+      "color": "#7B3F98",
+      "name": "JR Bantan",
+      "ja": "播但線",
+      "en": "Bantan Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR播但線\"]",
+        "bbox": [
+          34.75,
+          134.6,
+          35.4,
+          134.95
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "姫路",
+        "京口",
+        "野里",
+        "砥堀",
+        "仁豊野",
+        "香呂",
+        "溝口",
+        "福崎",
+        "甘地",
+        "鶴居",
+        "新野",
+        "寺前",
+        "長谷",
+        "生野",
+        "新井",
+        "青倉",
+        "竹田",
+        "和田山"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Pasa al pie del castillo de Takeda, el «castillo del cielo» que flota sobre un mar de nubes."
+      ]
+    },
+    {
+      "id": "kishin",
+      "code": "K",
+      "color": "#E60012",
+      "name": "JR Kishin (Himeji–Kōzuki)",
+      "ja": "姫新線",
+      "en": "Kishin Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR姫新線\"]",
+        "bbox": [
+          34.75,
+          134.15,
+          35.15,
+          134.9
+        ],
+        "nearby": 300
+      },
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Recorre el valle interior desde Himeji hacia el oeste, con trenes diésel de una o dos unidades."
+      ],
+      "station_order": [
+        "姫路",
+        "播磨高岡",
+        "余部",
+        "太市",
+        "本竜野",
+        "東觜崎",
+        "播磨新宮",
+        "千本",
+        "西栗栖",
+        "三日月",
+        "播磨徳久",
+        "佐用",
+        "上月"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "sanyo-main-west",
+      "code": "A",
+      "color": "#0072BC",
+      "name": "JR Sanyō (Akashi–Kamigōri)",
+      "ja": "山陽本線",
+      "en": "Sanyō Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^山陽本線$|JR山陽本線|JR山陽線\"]",
+        "bbox": [
+          34.63,
+          134.1,
+          34.92,
+          135.05
+        ],
+        "nearby": 150
+      },
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Es la columna del oeste de Hyōgo: por aquí pasan los trenes rápidos entre Kōbe, Himeji y Okayama."
+      ],
+      "station_order": [
+        "明石",
+        "西明石",
+        "大久保",
+        "魚住",
+        "土山",
+        "東加古川",
+        "加古川",
+        "宝殿",
+        "曽根",
+        "ひめじ別所",
+        "御着",
+        "東姫路",
+        "姫路",
+        "英賀保",
+        "はりま勝原",
+        "網干",
+        "竜野",
+        "相生",
+        "有年",
+        "上郡"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "fukuchiyama-north",
+      "code": "G",
+      "color": "#F6A800",
+      "name": "JR Fukuchiyama (Sasayamaguchi–Fukuchiyama)",
+      "ja": "福知山線",
+      "en": "Fukuchiyama Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR福知山線|^福知山線$\"]",
+        "bbox": [
+          35.0,
+          134.95,
+          35.35,
+          135.3
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "篠山口",
+        "丹波大山",
+        "下滝",
+        "谷川",
+        "柏原",
+        "石生",
+        "黒井",
+        "市島",
+        "丹波竹田",
+        "福知山"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Es la parte rural de la línea Fukuchiyama, ya fuera del área de cercanías de Ōsaka."
+      ]
+    },
+    {
+      "id": "hojo",
+      "code": "HJ",
+      "color": "#E8383D",
+      "name": "Hōjō Tetsudō",
+      "ja": "北条線",
+      "en": "Hōjō Line",
+      "operator": "hojo",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北条鉄道北条線\"]",
+        "bbox": [
+          34.8,
+          134.75,
+          34.95,
+          135.05
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "粟生",
+        "網引",
+        "田原",
+        "法華口",
+        "播磨下里",
+        "長",
+        "播磨横田",
+        "北条町"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Línea rural de 13 km; sus estaciones de madera están catalogadas como patrimonio."
+      ]
+    },
+    {
+      "id": "chizu",
+      "code": "CZ",
+      "color": "#0072BC",
+      "name": "Chizu Express",
+      "ja": "智頭線",
+      "en": "Chizu Line",
+      "operator": "chizu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"智頭急行智頭線\"]",
+        "bbox": [
+          34.85,
+          134.05,
+          35.35,
+          134.5
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Se construyó para acortar el viaje entre Kansai y Tottori: por ella pasa el expreso Super Hakuto."
+      ]
+    },
+    {
+      "id": "ako",
+      "code": "A",
+      "color": "#0072BC",
+      "name": "JR Akō",
+      "ja": "赤穂線",
+      "en": "Akō Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR赤穂線|^赤穂線$\"]",
+        "bbox": [
+          34.65,
+          134.2,
+          34.85,
+          134.55
+        ],
+        "nearby": 400
+      },
+      "order": "geometry",
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Lleva a Akō, la ciudad de los 47 rōnin."
+      ]
+    },
+    {
+      "id": "maya-cable",
+      "code": "MC",
+      "color": "#2E8B57",
+      "name": "Funicular de Maya",
+      "ja": "摩耶ケーブル線",
+      "en": "Maya Cable Line",
+      "operator": "kobe-city-maya",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"摩耶ケーブル線\"]",
+        "bbox": [
+          34.72,
+          135.2,
+          34.76,
+          135.24
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "摩耶ケーブル",
+        "虹の"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Sube al monte Maya, cuyo mirador de Kikuseidai tiene una de las tres mejores vistas nocturnas de Japón."
+      ]
+    },
+    {
+      "id": "rokko-cable",
+      "code": "RC",
+      "color": "#2E8B57",
+      "name": "Funicular de Rokkō",
+      "ja": "六甲ケーブル線",
+      "en": "Rokko Cable Line",
+      "operator": "rokko-maya",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"六甲ケーブル線\"]",
+        "bbox": [
+          34.72,
+          135.22,
+          34.79,
+          135.28
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "六甲ケーブル下",
+        "六甲山上"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Sus coches tienen los dos pisos escalonados, para que la pendiente no incomode."
+      ]
+    },
+    {
+      "id": "sanyo-aboshi",
+      "code": "SY",
+      "color": "#E60012",
+      "name": "Sanyō Aboshi",
+      "ja": "網干線",
+      "en": "Aboshi Line",
+      "operator": "sanyo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"山陽電気鉄道網干線\"]",
+        "bbox": [
+          34.75,
+          134.5,
+          34.85,
+          134.7
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "飾磨",
+        "西飾磨",
+        "夢前川",
+        "広畑",
+        "山陽天満",
+        "平松",
+        "山陽網干"
+      ],
+      "strict_order": true,
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Ramal del Sanyō Dentetsu hacia el puerto industrial de Aboshi."
+      ]
+    },
+    {
+      "id": "sanin-hyogo",
+      "code": "A",
+      "color": "#7B3F98",
+      "name": "JR San'in (Yanase–Igumi)",
+      "ja": "山陰本線",
+      "en": "San'in Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線\"]",
+        "bbox": [
+          35.3,
+          134.3,
+          35.7,
+          135.1
+        ],
+        "nearby": 150
+      },
+      "region": "kobe",
+      "trains": [],
+      "facts": [
+        "Bordea la costa del mar de Japón, entre acantilados y pueblos pesqueros del norte de Hyōgo."
+      ],
+      "station_order": [
+        "梁瀬",
+        "和田山",
+        "養父",
+        "八鹿",
+        "江原",
+        "国府",
+        "豊岡",
+        "玄武洞",
+        "城崎温泉",
+        "竹野",
+        "佐津",
+        "柴山",
+        "香住",
+        "鎧",
+        "餘部",
+        "久谷",
+        "浜坂",
+        "諸寄",
+        "居組"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "omi-main",
+      "code": "OR",
+      "color": "#0072BC",
+      "name": "Ōmi Tetsudō (principal)",
+      "ja": "近江鉄道本線",
+      "en": "Ōmi Main Line",
+      "operator": "omi",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近江鉄道本線\"]",
+        "bbox": [
+          34.9,
+          136.05,
+          35.4,
+          136.35
+        ],
+        "nearby": 150
+      },
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Es el ferrocarril privado más antiguo de Shiga: circula desde 1898.",
+        "Lo llaman «Gachakon densha» por el traqueteo de sus trenes."
+      ],
+      "station_order": [
+        "米原",
+        "フジテック前",
+        "鳥居本",
+        "彦根",
+        "ひこね芹川",
+        "彦根口",
+        "高宮",
+        "尼子",
+        "豊郷",
+        "愛知川",
+        "五箇荘",
+        "河辺の森",
+        "八日市",
+        "長谷野",
+        "大学前",
+        "京セラ前",
+        "桜川",
+        "朝日大塚",
+        "朝日野",
+        "日野",
+        "水口松尾",
+        "水口",
+        "水口石橋",
+        "水口城南",
+        "貴生川"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "omi-yokaichi",
+      "code": "OR",
+      "color": "#0072BC",
+      "name": "Ōmi Tetsudō: Yōkaichi",
+      "ja": "八日市線",
+      "en": "Yōkaichi Line",
+      "operator": "omi",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近江鉄道八日市線\"]",
+        "bbox": [
+          35.05,
+          136.05,
+          35.2,
+          136.25
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "近江八幡",
+        "武佐",
+        "平田",
+        "市辺",
+        "太郎坊宮前",
+        "新八日市",
+        "八日市"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "omi-taga",
+      "code": "OR",
+      "color": "#0072BC",
+      "name": "Ōmi Tetsudō: Taga",
+      "ja": "多賀線",
+      "en": "Taga Line",
+      "operator": "omi",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近江鉄道多賀線\"]",
+        "bbox": [
+          35.19,
+          136.22,
+          35.28,
+          136.32
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "高宮",
+        "スクリーン",
+        "多賀大社前"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Lleva al santuario de Taga, dedicado a los dioses creadores Izanagi e Izanami."
+      ]
+    },
+    {
+      "id": "kusatsu-line",
+      "code": "C",
+      "color": "#00A0B0",
+      "name": "JR Kusatsu",
+      "ja": "草津線",
+      "en": "Kusatsu Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR草津線\"]",
+        "bbox": [
+          34.85,
+          135.9,
+          35.05,
+          136.3
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "草津",
+        "手原",
+        "石部",
+        "甲西",
+        "三雲",
+        "貴生川",
+        "甲南",
+        "寺庄",
+        "甲賀",
+        "油日",
+        "柘植"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Sigue el viejo camino de Tōkaidō entre Kusatsu y Tsuge."
+      ]
+    },
+    {
+      "id": "shigaraki",
+      "code": "SG",
+      "color": "#E8383D",
+      "name": "Shigaraki Kōgen Tetsudō",
+      "ja": "信楽線",
+      "en": "Shigaraki Line",
+      "operator": "shigaraki",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"信楽高原鐵道信楽線\"]",
+        "bbox": [
+          34.85,
+          136.05,
+          35.0,
+          136.2
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "貴生川",
+        "紫香楽宮跡",
+        "雲井",
+        "勅旨",
+        "玉桂寺前",
+        "信楽"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Lleva a Shigaraki, el pueblo de la cerámica de los tanuki de barro."
+      ]
+    },
+    {
+      "id": "sakamoto-cable",
+      "code": "SC",
+      "color": "#2E8B57",
+      "name": "Funicular de Sakamoto",
+      "ja": "比叡山鉄道線",
+      "en": "Sakamoto Cable",
+      "operator": "hieizan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"比叡山鉄道\"]",
+        "bbox": [
+          35.05,
+          135.82,
+          35.1,
+          135.9
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "ケーブル坂本",
+        "ほうらい丘",
+        "もたて山",
+        "ケーブル延暦寺"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Con 2 km, es el funicular más largo de Japón.",
+        "Sube al Enryaku-ji desde Sakamoto, el pueblo de los muros de piedra de los canteros Anō."
+      ]
     },
     {
       "id": "kobe-kosoku",
