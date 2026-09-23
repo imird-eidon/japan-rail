@@ -1,11 +1,60 @@
 {
  "_comment": "Estaciones que OpenStreetMap tiene pero no son servicio de viajeros y por eso no cuentan en la auditoría. Cada una con su motivo; se listan en AUDITORIA.md para que quede a la vista.",
  "stations": [
-  {"pref": "13", "ja": "東京貨物ターミナル", "why": "terminal de mercancías"},
-  {"pref": "14", "ja": "川崎貨物", "why": "estación de mercancías"},
-  {"pref": "14", "ja": "横浜本牧", "why": "estación de mercancías (Kanagawa Rinkai)"},
-  {"pref": "14", "ja": "本牧埠頭", "why": "estación de mercancías (Kanagawa Rinkai)"},
-  {"pref": "14", "ja": "冒険の丘", "why": "tren en miniatura del parque Wanpaku-land (Odawara)"},
-  {"pref": "14", "ja": "エントランス広場", "why": "tren en miniatura del parque Wanpaku-land (Odawara)"}
+  {
+   "pref": "13",
+   "ja": "東京貨物ターミナル",
+   "why": "terminal de mercancías"
+  },
+  {
+   "pref": "14",
+   "ja": "川崎貨物",
+   "why": "estación de mercancías"
+  },
+  {
+   "pref": "14",
+   "ja": "横浜本牧",
+   "why": "estación de mercancías (Kanagawa Rinkai)"
+  },
+  {
+   "pref": "14",
+   "ja": "本牧埠頭",
+   "why": "estación de mercancías (Kanagawa Rinkai)"
+  },
+  {
+   "pref": "14",
+   "ja": "冒険の丘",
+   "why": "tren en miniatura del parque Wanpaku-land (Odawara)"
+  },
+  {
+   "pref": "14",
+   "ja": "エントランス広場",
+   "why": "tren en miniatura del parque Wanpaku-land (Odawara)"
+  },
+  {
+   "pref": "11",
+   "ja": "東ゲート",
+   "why": "tren del parque de atracciones Tōbu Zoo"
+  },
+  {
+   "pref": "11",
+   "ja": "リバティーランド",
+   "why": "tren del parque de atracciones Tōbu Zoo"
+  },
+  {
+   "pref": "11",
+   "ja": "ハートフルランド",
+   "why": "tren del parque de atracciones Tōbu Zoo"
+  },
+  {
+   "pref": "11",
+   "ja": "はくぶつかんちゅうおう",
+   "why": "lanzadera dentro del Museo del Ferrocarril de Ōmiya"
+  },
+  {
+   "pref": "11",
+   "ja": "はくぶつかんきた",
+   "why": "lanzadera dentro del Museo del Ferrocarril de Ōmiya"
+  }
  ]
 }

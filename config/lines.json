@@ -365,6 +365,15 @@
     },
     "kanagawa-pref": {
       "name": "Prefectura de Kanagawa"
+    },
+    "chichibu": {
+      "name": "Chichibu Tetsudō"
+    },
+    "tango": {
+      "name": "Kyōto Tango Tetsudō"
+    },
+    "tankai": {
+      "name": "Tango Kairiku Kōtsū"
     }
   },
   "types": {
@@ -1337,6 +1346,325 @@
       "facts": [
         "Su antiguo trazado junto al río Hozu se abandonó en 1989 al abrir túneles nuevos; desde 1991 lo recorre el tren turístico Sagano (Torokko).",
         "Desde 2019 para en Umekōji-Kyōtonishi, junto al Museo del Ferrocarril de Kioto."
+      ]
+    },
+    {
+      "id": "sanin-fukuchiyama",
+      "code": "E",
+      "color": "#7B3F98",
+      "name": "JR San'in (Sonobe–Fukuchiyama)",
+      "ja": "山陰本線",
+      "en": "San'in Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線|山陰本線\"]",
+        "bbox": [
+          34.95,
+          134.9,
+          35.5,
+          135.55
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "園部",
+        "船岡",
+        "日吉",
+        "鍼灸大学前",
+        "胡麻",
+        "下山",
+        "和知",
+        "安栖里",
+        "立木",
+        "山家",
+        "綾部",
+        "高津",
+        "石原",
+        "福知山",
+        "上川口",
+        "下夜久野",
+        "上夜久野"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Es la continuación de la línea Sagano más allá de Sonobe, por los valles del norte de Kioto."
+      ]
+    },
+    {
+      "id": "maizuru",
+      "code": "L",
+      "color": "#E60012",
+      "name": "JR Maizuru",
+      "ja": "舞鶴線",
+      "en": "Maizuru Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR舞鶴線\"]",
+        "bbox": [
+          35.25,
+          135.15,
+          35.55,
+          135.45
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "綾部",
+        "淵垣",
+        "梅迫",
+        "真倉",
+        "西舞鶴",
+        "東舞鶴"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Une el interior de Kioto con el puerto de Maizuru, en el mar de Japón."
+      ]
+    },
+    {
+      "id": "obama",
+      "code": "E",
+      "color": "#00A0B0",
+      "name": "JR Obama",
+      "ja": "小浜線",
+      "en": "Obama Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR小浜線\"]",
+        "bbox": [
+          35.28,
+          135.3,
+          35.8,
+          136.15
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Bordea la bahía de Wakasa, entre Maizuru y Tsuruga, con el mar casi siempre a la vista."
+      ]
+    },
+    {
+      "id": "tango-miyafuku",
+      "code": "F",
+      "color": "#0072BC",
+      "name": "Tango: línea Miyafuku",
+      "ja": "宮福線",
+      "en": "Miyafuku Line",
+      "operator": "tango",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"京都丹後鉄道宮福線\"]",
+        "bbox": [
+          35.25,
+          134.95,
+          35.6,
+          135.3
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "福知山",
+        "福知山市民病院口",
+        "荒河かしの木台",
+        "牧",
+        "下天津",
+        "公庄",
+        "大江",
+        "大江高校前",
+        "二俣",
+        "大江山口内宮",
+        "辛皮",
+        "喜多",
+        "宮村",
+        "宮津"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Pasa por Ōe, la montaña de las leyendas de ogros (oni) más famosas de Japón."
+      ]
+    },
+    {
+      "id": "tango-miyamai",
+      "code": "M",
+      "color": "#00A0B0",
+      "name": "Tango: línea Miyamai",
+      "ja": "宮舞線",
+      "en": "Miyamai Line",
+      "operator": "tango",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"京都丹後鉄道宮舞線\"]",
+        "bbox": [
+          35.38,
+          135.02,
+          35.62,
+          135.45
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "西舞鶴",
+        "四所",
+        "東雲",
+        "丹後神崎",
+        "丹後由良",
+        "栗田",
+        "宮津"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Cruza la desembocadura del río Yura por un puente largo y bajo, casi a ras del agua."
+      ]
+    },
+    {
+      "id": "tango-miyatoyo",
+      "code": "T",
+      "color": "#E60012",
+      "name": "Tango: línea Miyatoyo",
+      "ja": "宮豊線",
+      "en": "Miyatoyo Line",
+      "operator": "tango",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"京都丹後鉄道宮豊線\"]",
+        "bbox": [
+          35.4,
+          134.7,
+          35.75,
+          135.3
+        ],
+        "nearby": 150
+      },
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Pasa por Amanohashidate, uno de los tres paisajes más célebres de Japón."
+      ],
+      "station_order": [
+        "宮津",
+        "天橋立",
+        "岩滝口",
+        "与謝野",
+        "京丹後大宮",
+        "峰山",
+        "網野",
+        "夕日ヶ浦木津温泉",
+        "小天橋",
+        "かぶと山",
+        "久美浜",
+        "コウノトリの郷",
+        "豊岡"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "kansai-east",
+      "code": "V",
+      "color": "#F6A800",
+      "name": "JR Kansai (Kamo–Kameyama)",
+      "ja": "関西本線",
+      "en": "Kansai Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR関西線\"]",
+        "bbox": [
+          34.6,
+          135.8,
+          34.95,
+          136.5
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Es el tramo rural de la vieja línea Kansai, entre Kamo y Kameyama, con trenes diésel de una sola unidad."
+      ]
+    },
+    {
+      "id": "eizan-cable",
+      "code": "EC",
+      "color": "#2E8B57",
+      "name": "Funicular de Eizan",
+      "ja": "鋼索線",
+      "en": "Eizan Cable",
+      "operator": "keifuku",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"]",
+        "bbox": [
+          35.06,
+          135.78,
+          35.11,
+          135.85
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "ケーブル八瀬",
+        "ケーブル比叡"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Salva 561 metros de desnivel, el mayor de un funicular en Japón.",
+        "Sube al monte Hiei, donde está el Enryaku-ji, monasterio fundado en 788."
+      ]
+    },
+    {
+      "id": "amanohashidate-cable",
+      "code": "AC",
+      "color": "#0072BC",
+      "name": "Funicular de Amanohashidate",
+      "ja": "天橋立鋼索鉄道",
+      "en": "Amanohashidate Cable",
+      "operator": "tankai",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"天橋立鋼索鉄道\"]",
+        "bbox": [
+          35.55,
+          135.17,
+          35.6,
+          135.22
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "府中",
+        "傘松"
+      ],
+      "strict_order": true,
+      "region": "kyoto",
+      "trains": [],
+      "facts": [
+        "Sube al mirador de Kasamatsu, desde donde se mira Amanohashidate al revés, agachado y entre las piernas."
       ]
     },
     {
@@ -2397,7 +2725,264 @@
       ],
       "trains": [],
       "region": "tokyo",
-      "order": "code"
+      "order": "code",
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"西武池袋線\"]",
+        "bbox": [
+          35.82,
+          139.14,
+          35.95,
+          139.42
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "池袋",
+        "椎名町",
+        "東長崎",
+        "江古田",
+        "桜台",
+        "練馬",
+        "中村橋",
+        "富士見台",
+        "練馬高野台",
+        "石神井公園",
+        "大泉学園",
+        "保谷",
+        "ひばりヶ丘",
+        "東久留米",
+        "清瀬",
+        "秋津",
+        "所沢",
+        "西所沢",
+        "小手指",
+        "狭山ヶ丘",
+        "武蔵藤沢",
+        "稲荷山公園",
+        "入間市",
+        "仏子",
+        "元加治",
+        "飯能",
+        "東飯能",
+        "高麗",
+        "武蔵横手",
+        "東吾野",
+        "吾野"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "chichibu",
+      "code": "CR",
+      "color": "#0072BC",
+      "name": "Chichibu Tetsudō",
+      "ja": "秩父本線",
+      "en": "Chichibu Main Line",
+      "operator": "chichibu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^秩父鉄道$\"]",
+        "bbox": [
+          35.8,
+          138.95,
+          36.25,
+          139.6
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "羽生",
+        "西羽生",
+        "新郷",
+        "武州荒木",
+        "東行田",
+        "行田市",
+        "持田",
+        "ソシオ流通センター",
+        "熊谷",
+        "上熊谷",
+        "石原",
+        "ひろせ野鳥の森",
+        "大麻生",
+        "明戸",
+        "武川",
+        "永田",
+        "ふかや花園",
+        "小前田",
+        "桜沢",
+        "寄居",
+        "波久礼",
+        "樋口",
+        "野上",
+        "長瀞",
+        "上長瀞",
+        "親鼻",
+        "皆野",
+        "和銅黒谷",
+        "大野原",
+        "秩父",
+        "御花畑",
+        "影森",
+        "浦山口",
+        "武州中川",
+        "武州日野",
+        "白久",
+        "三峰口"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es la línea de los valles de Chichibu; todavía mueve trenes de mercancías con caliza de sus canteras.",
+        "En temporada circula por ella el «Paleo Express», arrastrado por una locomotora de vapor C58."
+      ]
+    },
+    {
+      "id": "seibu-chichibu",
+      "code": "SI",
+      "color": "#F5A200",
+      "name": "Seibu Chichibu",
+      "ja": "西武秩父線",
+      "en": "Seibu Chichibu Line",
+      "operator": "seibu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"西武秩父線\"]",
+        "bbox": [
+          35.85,
+          138.95,
+          36.05,
+          139.35
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "吾野",
+        "西吾野",
+        "正丸",
+        "芦ヶ久保",
+        "横瀬",
+        "西武秩父"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Cruza la sierra por el túnel de Shōmaru, de 4,8 km, abierto en 1969.",
+        "Es el camino directo de Tokio a Chichibu con el expreso Laview."
+      ]
+    },
+    {
+      "id": "tobu-isesaki",
+      "code": "TI",
+      "color": "#0079C2",
+      "name": "Tōbu Isesaki (norte)",
+      "ja": "伊勢崎線",
+      "en": "Tobu Isesaki Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"東武伊勢崎線|^伊勢崎線$\"]",
+        "bbox": [
+          35.98,
+          139.15,
+          36.35,
+          139.78
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "東武動物公園",
+        "和戸",
+        "久喜",
+        "鷲宮",
+        "花崎",
+        "加須",
+        "南羽生",
+        "羽生",
+        "川俣",
+        "茂林寺前",
+        "館林",
+        "多々良",
+        "県",
+        "福居",
+        "東武和泉",
+        "足利市",
+        "野州山辺",
+        "韮川",
+        "太田",
+        "細谷",
+        "木崎",
+        "世良田",
+        "境町",
+        "剛志",
+        "新伊勢崎",
+        "伊勢崎"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es la continuación al norte de la Skytree Line, hasta Isesaki, en Gunma."
+      ]
+    },
+    {
+      "id": "tobu-nikko",
+      "code": "TN",
+      "color": "#6CBB5A",
+      "name": "Tōbu Nikkō",
+      "ja": "日光線",
+      "en": "Tobu Nikko Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"東武日光線\"]",
+        "bbox": [
+          36.0,
+          139.3,
+          36.8,
+          139.85
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "東武動物公園",
+        "杉戸高野台",
+        "幸手",
+        "南栗橋",
+        "栗橋",
+        "新古河",
+        "柳生",
+        "板倉東洋大前",
+        "藤岡",
+        "静和",
+        "新大平下",
+        "栃木",
+        "新栃木",
+        "合戦場",
+        "家中",
+        "東武金崎",
+        "楡木",
+        "樅山",
+        "新鹿沼",
+        "北鹿沼",
+        "板荷",
+        "下小代",
+        "明神",
+        "下今市",
+        "上今市",
+        "東武日光"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Lleva a Nikkō, a los santuarios patrimonio de la humanidad, con los expresos Spacia."
+      ]
     },
     {
       "id": "seibu-shinjuku",

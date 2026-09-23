@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 4141 de 9642 estaciones (43 %).**
+**Japón: 4255 de 9637 estaciones (44 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -16,7 +16,7 @@
 | [Ibaraki](#08-ibaraki) | 137 | 10 | 127 | 7 % |
 | [Tochigi](#09-tochigi) | 146 | 19 | 127 | 13 % |
 | [Gunma](#10-gunma) | 140 | 8 | 132 | 6 % |
-| [Saitama](#11-saitama) | 239 | 180 | 59 | 75 % |
+| [Saitama](#11-saitama) | 234 | 234 | 0 | 100 % |
 | [Chiba](#12-chiba) | 350 | 196 | 154 | 56 % |
 | [Tokio](#13-tokio) | 783 | 783 | 0 | 100 % |
 | [Kanagawa](#14-kanagawa) | 381 | 381 | 0 | 100 % |
@@ -31,7 +31,7 @@
 | [Aichi](#23-aichi) | 500 | 307 | 193 | 61 % |
 | [Mie](#24-mie) | 234 | 25 | 209 | 11 % |
 | [Shiga](#25-shiga) | 122 | 67 | 55 | 55 % |
-| [Kioto](#26-kioto) | 242 | 182 | 60 | 75 % |
+| [Kioto](#26-kioto) | 242 | 242 | 0 | 100 % |
 | [Ōsaka](#27-ōsaka) | 554 | 554 | 0 | 100 % |
 | [Hyōgo](#28-hyōgo) | 390 | 262 | 128 | 67 % |
 | [Nara](#29-nara) | 128 | 128 | 0 | 100 % |
@@ -226,14 +226,9 @@
 
 ## 11 Saitama
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 21 | 南栗橋、持田、新郷、西羽生、東ゲート、リバティーランド、ハートフルランド、柳生、新古河、花崎、鷲宮、加須… |
-| 秩父本線 | 17 | 皆野、桜沢、石原、上熊谷、小前田、樋口、永田、親鼻、武川、波久礼、上長瀞、長瀞… |
-| 西武秩父線 | 14 | 西武秩父、横瀬、芦ヶ久保、西吾野、正丸、秩父、大野原、白久、武州日野、武州中川、影森、浦山口… |
-| (sin línea) 秩父鉄道 | 3 | 東行田、ソシオ流通センター、ふかや花園 |
-| 池袋線 | 3 | 高麗、東吾野、武蔵横手 |
-| 池袋線;西武秩父線 | 1 | 吾野 |
+Sin contar (no son servicio de viajeros): 東ゲート (tren del parque de atracciones Tōbu Zoo)、リバティーランド (tren del parque de atracciones Tōbu Zoo)、ハートフルランド (tren del parque de atracciones Tōbu Zoo)、はくぶつかんちゅうおう (lanzadera dentro del Museo del Ferrocarril de Ōmiya)、はくぶつかんきた (lanzadera dentro del Museo del Ferrocarril de Ōmiya)
+
+Completa ✅
 
 ## 12 Chiba
 
@@ -460,19 +455,7 @@ Completa ✅
 
 ## 26 Kioto
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 山陰線 | 15 | 上川口、立木、船岡、胡麻、鍼灸大学前、安栖里、高津、石原、山家、下夜久野、上夜久野、下山… |
-| 宮津線 | 13 | 東雲、網野、久美浜、かぶと山、丹後神崎、四所、栗田、丹後由良、天橋立、岩滝口、峰山、夕日ヶ浦木津温泉… |
-| 宮福線 | 9 | 牧、荒河かしの木台、公庄、福知山市民病院口、下天津、大江、二俣、大江高校前、福知山 |
-| (sin línea) 京都丹後鉄道 | 7 | 宮津、辛皮、喜多、宮村、大江山口内宮、与謝野、京丹後大宮 |
-| 舞鶴線 | 5 | 真倉、淵垣、西舞鶴、西舞鶴、梅迫 |
-| 関西線 | 4 | 笠置、月ケ瀬口、大河原、加茂 |
-| 鋼索線 | 2 | ケーブル八瀬、ケーブル比叡 |
-| (sin línea) 丹後海陸交通 | 2 | 傘松、府中 |
-| (sin línea) 西日本旅客鉄道 | 1 | 福知山 |
-| 舞鶴線;小浜線 | 1 | 東舞鶴 |
-| 小浜線 | 1 | 松尾寺 |
+Completa ✅
 
 ## 27 Ōsaka
 
