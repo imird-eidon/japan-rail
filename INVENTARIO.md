@@ -4,7 +4,7 @@
 
 ## Resumen
 
-**Progreso de la hoja de ruta: 82 de 144 tareas.**
+**Progreso de la hoja de ruta: 80 de 174 tareas.**
 
 | Región | Líneas | Estaciones | Trenes actuales | Trenes históricos |
 |---|--:|--:|--:|--:|
@@ -25,33 +25,63 @@
 - Estaciones con datos curiosos: **68 de 3559** (2 %).
 - Datos curiosos en total: **410**.
 
-## Cobertura por ciudad
+## Cobertura de Japón
 
-Comparado con todas las rutas ferroviarias de OpenStreetMap de cada zona (`tools/audit_coverage.py`, 2026-09-22). Una ciudad sólo está **completa** cuando no le falta ninguna línea ni ninguna estación.
+Todas las estaciones que OpenStreetMap tiene en cada prefectura, comparadas con las nuestras (`tools/audit_coverage.py`, 2026-09-23).
 
-| Zona | Líneas que faltan | Líneas con estaciones sueltas | Estado |
-|---|--:|--:|---|
-| Tokio y alrededores | 19 | 6 | 🔧 en curso |
-| Kansai (Kioto, Ōsaka, Kōbe) | 1 | 3 | 🔧 en curso |
-| Nagoya | 19 | 2 | 🔧 en curso |
-| Fukuoka | 7 | 1 | 🔧 en curso |
-| Sapporo | 0 | 0 | ✅ completa |
-| Sendai | 1 | 1 | 🔧 en curso |
-| Hiroshima | 4 | 0 | 🔧 en curso |
-| Nagasaki | 2 | 0 | 🔧 en curso |
-| Kumamoto | 4 | 0 | 🔧 en curso |
-| Kagoshima | 1 | 0 | 🔧 en curso |
-| Hakodate | 1 | 0 | 🔧 en curso |
-| Okayama | 10 | 0 | 🔧 en curso |
-| Kōchi | 0 | 0 | ✅ completa |
-| Toyama | 0 | 4 | 🟡 casi |
-| Matsuyama | 2 | 1 | 🔧 en curso |
-| Toyohashi | 1 | 1 | 🔧 en curso |
-| Fukui | 0 | 3 | 🟡 casi |
+**4025 de 9660 estaciones de Japón (42 %).** Una prefectura está completa cuando no le falta ninguna.
 
-Fuera de esas zonas hay **457 estaciones sin comprobar** de 3559 (13 %): el corredor entre ciudades y las ciudades que aún no tienen zona. Para cerrar una ciudad de verdad hay que ampliar su caja en `ZONES` (`tools/audit_coverage.py`) hasta cubrir su área metropolitana.
+| Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
+|---|--:|--:|--:|--:|
+| 01 Hokkaidō | 451 | 178 | 273 | 39 % |
+| 02 Aomori | 157 | 5 | 152 | 3 % |
+| 03 Iwate | 187 | 9 | 178 | 5 % |
+| 04 Miyagi | 184 | 83 | 101 | 45 % |
+| 05 Akita | 144 | 4 | 140 | 3 % |
+| 06 Yamagata | 121 | 17 | 104 | 14 % |
+| 07 Fukushima | 188 | 3 | 185 | 2 % |
+| 08 Ibaraki | 137 | 10 | 127 | 7 % |
+| 09 Tochigi | 146 | 19 | 127 | 13 % |
+| 10 Gunma | 140 | 8 | 132 | 6 % |
+| 11 Saitama | 239 | 180 | 59 | 75 % |
+| 12 Chiba | 350 | 196 | 154 | 56 % |
+| 13 Tokio | 786 | 774 | 12 | 98 % |
+| 14 Kanagawa | 392 | 342 | 50 | 87 % |
+| 15 Niigata | 202 | 9 | 193 | 4 % |
+| 16 Toyama | 212 | 26 | 186 | 12 % |
+| 17 Ishikawa | 75 | 3 | 72 | 4 % |
+| 18 Fukui | 134 | 30 | 104 | 22 % |
+| 19 Yamanashi | 73 | 0 | 73 | 0 % |
+| 20 Nagano | 259 | 10 | 249 | 4 % |
+| 21 Gifu | 189 | 7 | 182 | 4 % |
+| 22 Shizuoka | 224 | 10 | 214 | 4 % |
+| 23 Aichi | 500 | 307 | 193 | 61 % |
+| 24 Mie | 234 | 25 | 209 | 11 % |
+| 25 Shiga | 122 | 67 | 55 | 55 % |
+| 26 Kioto | 242 | 182 | 60 | 75 % |
+| 27 Ōsaka | 558 | 529 | 29 | 95 % |
+| 28 Hyōgo | 390 | 262 | 128 | 67 % |
+| 29 Nara | 128 | 85 | 43 | 66 % |
+| 30 Wakayama | 121 | 20 | 101 | 17 % |
+| 31 Tottori | 73 | 0 | 73 | 0 % |
+| 32 Shimane | 116 | 0 | 116 | 0 % |
+| 33 Okayama | 167 | 21 | 146 | 13 % |
+| 34 Hiroshima | 279 | 155 | 124 | 56 % |
+| 35 Yamaguchi | 156 | 9 | 147 | 6 % |
+| 36 Tokushima | 76 | 0 | 76 | 0 % |
+| 37 Kagawa | 93 | 0 | 93 | 0 % |
+| 38 Ehime | 155 | 64 | 91 | 41 % |
+| 39 Kōchi | 196 | 89 | 107 | 45 % |
+| 40 Fukuoka | 351 | 133 | 218 | 38 % |
+| 41 Saga | 80 | 9 | 71 | 11 % |
+| 42 Nagasaki | 145 | 46 | 99 | 32 % |
+| 43 Kumamoto | 168 | 51 | 117 | 30 % |
+| 44 Ōita | 85 | 0 | 85 | 0 % |
+| 45 Miyazaki | 78 | 0 | 78 | 0 % |
+| 46 Kagoshima | 138 | 48 | 90 | 35 % |
+| 47 Okinawa | 19 | 0 | 19 | 0 % |
 
-El detalle, en [AUDITORIA.md](AUDITORIA.md).
+Qué líneas faltan en cada una, en [AUDITORIA.md](AUDITORIA.md).
 
 ## Lo que hay
 
@@ -579,29 +609,80 @@ _Detectado por la auditoría: ramales y líneas regionales de esas ciudades._
 - [ ] Ramal de Rifu (Sendai) y JR Iida (Toyohashi)
 - [ ] Monorraíl de Kitakyūshū
 
-### Fase 3c · Ciudades completas, una a una (2/17)
+### Fase 3c · Japón, prefectura a prefectura (0/47)
 
-_Cada ciudad se cierra del todo (líneas, estaciones, numeración, trenes y fotos) antes de pasar a la siguiente. Se marca sola cuando tools/audit_coverage.py no le encuentra ni una línea ni una estación de menos._
+_Cada prefectura se cierra del todo (líneas, estaciones, numeración, trenes y fotos) antes de pasar a la siguiente. Se marca sola cuando tools/audit_coverage.py no le encuentra ni una estación de menos: el recuento sale de todas las estaciones que OpenStreetMap tiene en su área administrativa._
 
-**Por orden de trabajo**
+**Hokkaidō**
 
-- [x] Sapporo al completo
-- [ ] Sendai al completo
-- [ ] Hiroshima al completo
-- [ ] Fukuoka al completo
-- [ ] Nagoya al completo
-- [ ] Kansai (Kioto, Ōsaka, Kōbe) al completo
-- [ ] Tokio y alrededores al completo
-- [ ] Okayama al completo
-- [ ] Kumamoto al completo
-- [ ] Nagasaki al completo
-- [ ] Matsuyama al completo
-- [ ] Kagoshima al completo
-- [ ] Hakodate al completo
-- [ ] Toyohashi al completo
-- [ ] Toyama al completo
-- [ ] Fukui al completo
-- [x] Kōchi al completo
+- [ ] 01 Hokkaidō
+
+**Tōhoku**
+
+- [ ] 02 Aomori
+- [ ] 03 Iwate
+- [ ] 04 Miyagi
+- [ ] 05 Akita
+- [ ] 06 Yamagata
+- [ ] 07 Fukushima
+
+**Kantō**
+
+- [ ] 08 Ibaraki
+- [ ] 09 Tochigi
+- [ ] 10 Gunma
+- [ ] 11 Saitama
+- [ ] 12 Chiba
+- [ ] 13 Tokio
+- [ ] 14 Kanagawa
+
+**Chūbu**
+
+- [ ] 15 Niigata
+- [ ] 16 Toyama
+- [ ] 17 Ishikawa
+- [ ] 18 Fukui
+- [ ] 19 Yamanashi
+- [ ] 20 Nagano
+- [ ] 21 Gifu
+- [ ] 22 Shizuoka
+- [ ] 23 Aichi
+
+**Kansai**
+
+- [ ] 24 Mie
+- [ ] 25 Shiga
+- [ ] 26 Kioto
+- [ ] 27 Ōsaka
+- [ ] 28 Hyōgo
+- [ ] 29 Nara
+- [ ] 30 Wakayama
+
+**Chūgoku**
+
+- [ ] 31 Tottori
+- [ ] 32 Shimane
+- [ ] 33 Okayama
+- [ ] 34 Hiroshima
+- [ ] 35 Yamaguchi
+
+**Shikoku**
+
+- [ ] 36 Tokushima
+- [ ] 37 Kagawa
+- [ ] 38 Ehime
+- [ ] 39 Kōchi
+
+**Kyūshū y Okinawa**
+
+- [ ] 40 Fukuoka
+- [ ] 41 Saga
+- [ ] 42 Nagasaki
+- [ ] 43 Kumamoto
+- [ ] 44 Ōita
+- [ ] 45 Miyazaki
+- [ ] 46 Kagoshima
+- [ ] 47 Okinawa
 
 ### Fase 4 · Líneas y trenes especiales (4/13)
 

@@ -42,15 +42,30 @@ STATION_Q = '["railway"~"^(station|halt|tram_stop)$"]'
 CLOSED_RE = re.compile(r"(廃止|廃駅|跡)")
 
 
+AREAS = CACHE / "pref-areas.json"
+
+
+def area_ids():
+    """Identificador de área OSM de cada prefectura; se resuelve una vez y se guarda en caché,
+    porque buscarla por su código ISO en cada consulta hace que Overpass agote el tiempo."""
+    if AREAS.exists():
+        return load_json(AREAS)
+    d = overpass('[out:json][timeout:200];relation["ISO3166-2"~"^JP-"]["admin_level"="4"];out tags;')
+    ids = {e["tags"]["ISO3166-2"][3:]: 3600000000 + e["id"] for e in d["elements"] if e["tags"].get("ISO3166-2")}
+    AREAS.write_text(json.dumps(ids, indent=1), encoding="utf-8")
+    return ids
+
+
 def fetch_prefecture(code, refresh):
     """Todas las estaciones de una prefectura, por su área administrativa en OSM."""
     path = CACHE / f"pref-{code}.json"
     if path.exists() and not refresh:
         return load_json(path)
     print(f"descargando prefectura {code}…", file=sys.stderr)
-    q = (f'[out:json][timeout:600];area["ISO3166-2"="JP-{code}"]->.a;'
-         f'node(area.a){STATION_Q};out tags center;')
+    q = f'[out:json][timeout:600];area({area_ids()[code]});node(area){STATION_Q};out tags center;'
     data = overpass(q)
+    if not data.get("elements"):  # Overpass devuelve vacío cuando falla: no es una prefectura sin trenes
+        raise RuntimeError(f"la prefectura {code} vino vacía; vuelve a intentarlo (--only {code} --refresh)")
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     time.sleep(3)  # cortesía con el servidor público
     return data
@@ -103,7 +118,11 @@ def main():
     prefs = [(c, n) for c, n in PREFECTURES if not args.only or c in args.only]
     report, summary = {}, []
     for code, name in prefs:
-        data = fetch_prefecture(code, args.refresh)
+        try:
+            data = fetch_prefecture(code, args.refresh)
+        except RuntimeError as e:  # se deja fuera del informe: sin datos no se puede decir que esté completa
+            print(f"[{code}] {name}: {e}", file=sys.stderr)
+            continue
         seen, missing_by_line, total = set(), defaultdict(list), 0
         for e in data["elements"]:
             t = e.get("tags", {})
