@@ -153,6 +153,8 @@ def main():
                     "total": len(l["stations"]), "missing": sorted(l["missing"]),
                     "kind": "línea que falta" if share > 0.6 else "estaciones que faltan"})
     (CACHE / "audit.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    # las cajas auditadas, para que el inventario sepa qué parte del país no se ha comprobado
+    (CACHE / "audit-zones.json").write_text(json.dumps(ZONES, ensure_ascii=False, indent=1), encoding="utf-8")
     write_report(out)
     for o in out:
         print(f"[{o['zone']}] {o['kind']:22} {o['name'][:28]:28} {o['en'][:32]:32} {len(o['missing']):3}/{o['total']:<3} "

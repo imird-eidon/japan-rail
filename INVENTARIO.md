@@ -49,6 +49,8 @@ Comparado con todas las rutas ferroviarias de OpenStreetMap de cada zona (`tools
 | Toyohashi | 1 | 1 | 🔧 en curso |
 | Fukui | 0 | 3 | 🟡 casi |
 
+Fuera de esas zonas hay **457 estaciones sin comprobar** de 3559 (13 %): el corredor entre ciudades y las ciudades que aún no tienen zona. Para cerrar una ciudad de verdad hay que ampliar su caja en `ZONES` (`tools/audit_coverage.py`) hasta cubrir su área metropolitana.
+
 El detalle, en [AUDITORIA.md](AUDITORIA.md).
 
 ## Lo que hay

@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 NETWORK = ROOT / "web" / "data" / "network.json"
 ROADMAP = ROOT / "config" / "roadmap.json"
 AUDIT = ROOT / "tools" / ".cache" / "audit.json"
+AUDIT_ZONES = ROOT / "tools" / ".cache" / "audit-zones.json"
 OUT = ROOT / "INVENTARIO.md"
 SITE = "https://japanrail.alvaroom.org"
 
@@ -112,6 +113,14 @@ def main():
             miss, part = gaps[z]
             state = "✅ completa" if not miss and not part else ("🟡 casi" if not miss else "🔧 en curso")
             w(f"| {name} | {miss} | {part} | {state} |")
+        if AUDIT_ZONES.exists():
+            boxes = list(load(AUDIT_ZONES).values())
+            outside = [s for s in stations.values()
+                       if not any(a <= s["lat"] <= c and b <= s["lon"] <= d for a, b, c, d in boxes)]
+            w(f"\nFuera de esas zonas hay **{len(outside)} estaciones sin comprobar** de {len(stations)} "
+              f"({pct(len(outside), len(stations))}): el corredor entre ciudades y las ciudades que aún no tienen zona. "
+              "Para cerrar una ciudad de verdad hay que ampliar su caja en `ZONES` (`tools/audit_coverage.py`) "
+              "hasta cubrir su área metropolitana.")
         w("\nEl detalle, en [AUDITORIA.md](AUDITORIA.md).\n")
 
     # ---------------------------------------------------------------- lo que hay
