@@ -1183,6 +1183,9 @@
       {
         "line": "kosei"
       }
+    ],
+    "facts": [
+      "Se diseñó tras el accidente de Amagasaki de 2005, con la carrocería reforzada para resistir un choque."
     ]
   },
   {
@@ -1205,6 +1208,10 @@
       {
         "line": "kosei"
       }
+    ],
+    "facts": [
+      "Con 927 coches construidos, es el tren de cercanías más numeroso de JR West.",
+      "Circula a 130 km/h: por eso los «rápidos especiales» de Kansai compiten de tú a tú con el coche."
     ]
   },
   {
@@ -1243,6 +1250,9 @@
       {
         "line": "jr-takarazuka"
       }
+    ],
+    "facts": [
+      "Fue el primer tren de JR West con pantallas de información sobre cada puerta, en 2005."
     ]
   },
   {
@@ -1338,6 +1348,10 @@
       {
         "line": "kintetsu-namba"
       }
+    ],
+    "facts": [
+      "Es el «Aoniyoshi», expreso turístico de 2022 entre Kioto, Nara y Ōsaka.",
+      "Va pintado de morado imperial con motivos de la corte de Nara."
     ]
   },
   {
@@ -1987,6 +2001,9 @@
       {
         "line": "sotetsu-izumino"
       }
+    ],
+    "facts": [
+      "Nació para el enlace directo de Sōtetsu con el centro de Tokio, por vías de otras compañías."
     ]
   },
   {
@@ -2653,6 +2670,10 @@
       {
         "line": "meitetsu-main"
       }
+    ],
+    "facts": [
+      "Es el «μSKY» del aeropuerto de Chūbu: todas sus plazas son reservadas.",
+      "Lleva espacio para maletas en cada coche, pensado para quien va al avión."
     ]
   },
   {

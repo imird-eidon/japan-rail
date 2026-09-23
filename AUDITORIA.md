@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 5451 de 9587 estaciones (57 %).**
+**Japón: 5641 de 9580 estaciones (59 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -44,14 +44,14 @@
 | [Tokushima](#36-tokushima) | 76 | 0 | 76 | 0 % |
 | [Kagawa](#37-kagawa) | 93 | 0 | 93 | 0 % |
 | [Ehime](#38-ehime) | 155 | 64 | 91 | 41 % |
-| [Kōchi](#39-kōchi) | 196 | 89 | 107 | 45 % |
+| [Kōchi](#39-kōchi) | 196 | 196 | 0 | 100 % |
 | [Fukuoka](#40-fukuoka) | 350 | 350 | 0 | 100 % |
 | [Saga](#41-saga) | 80 | 9 | 71 | 11 % |
 | [Nagasaki](#42-nagasaki) | 145 | 46 | 99 | 32 % |
 | [Kumamoto](#43-kumamoto) | 168 | 51 | 117 | 30 % |
 | [Ōita](#44-ōita) | 85 | 0 | 85 | 0 % |
 | [Miyazaki](#45-miyazaki) | 78 | 0 | 78 | 0 % |
-| [Kagoshima](#46-kagoshima) | 138 | 48 | 90 | 35 % |
+| [Kagoshima](#46-kagoshima) | 131 | 131 | 0 | 100 % |
 | [Okinawa](#47-okinawa) | 19 | 0 | 19 | 0 % |
 
 ## 01 Hokkaidō
@@ -532,17 +532,7 @@ Completa ✅
 
 ## 39 Kōchi
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 土讃線 | 41 | 西佐川、朝倉、土佐北川、角茂谷、繁藤、山田西町、土佐長岡、土佐大津、布師田、土佐一宮、薊野、入明… |
-| 阿佐線 | 19 | 唐浜、奈半利、安田、田野、夜須、穴内、立田、安芸、和食、赤野、西分、伊尾木… |
-| (sin línea) とさでん交通 | 13 | 西高須、葛島橋東詰、高知駅前、桟橋通一丁目、桟橋通三丁目、桟橋通一丁目、梅の辻、桟橋通四丁目、桟橋通三丁目、桟橋通二丁目、梅の辻、朝倉… |
-| 中村線 | 12 | 荷稲、伊与喜、土佐佐賀、佐賀公園、土佐白浜、有井川、土佐上川口、海の王迎、浮鞭、土佐入野、西大方、古津賀 |
-| 予土線 | 8 | 十川、半家、西ヶ方、土佐昭和、江川崎、土佐大正、打井川、家地川 |
-| 宿毛線 | 6 | 宿毛、有岡、中村、具同、国見、東宿毛 |
-| (sin línea) 土佐くろしお鉄道 | 4 | 若井、工業団地、平田、窪川 |
-| (sin línea) 四国旅客鉄道 | 3 | 新改、旭、高知 |
-| 土讃線;阿佐線 | 1 | 後免 |
+Completa ✅
 
 ## 40 Fukuoka
 
@@ -618,18 +608,9 @@ Completa ✅
 
 ## 46 Kagoshima
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 指宿枕崎線 | 28 | 石垣、薩摩塩屋、西頴娃、坂之上、中名、生見、頴娃大川、薩摩今和泉、喜入、頴娃、水成川、二月田… |
-| (sin línea) 九州旅客鉄道 | 17 | 薩摩川尻、大山、伊集院、湯之元、串木野、広木、鹿児島、薩摩松元、上伊集院、西大山、吉松、東開聞… |
-| 日豊線 | 13 | 霧島神宮、北俣、財部、錦江、帖佐、大隅大川原、重富、姶良、国分、北永野田、加治木、客室棟… |
-| (sin línea) 肥薩おれんじ鉄道 | 10 | 野田郷、西出水、阿久根、高尾野、上川内、西方、薩摩大川、草道、牛ノ浜、米ノ津 |
-| (sin línea) | 9 | 東市来、市来、木場茶屋、荒川、薩摩高城、小杉谷山荘、小杉谷、集材所、苗畑 |
-| 肥薩線 | 8 | 中福良、表木山、栗野、植村、嘉例川、大隅横川、霧島温泉、日当山 |
-| 日南線 | 2 | 大隅夏井、志布志 |
-| 日豊線;肥薩線 | 1 | 隼人 |
-| 吉都線 | 1 | 鶴丸 |
-| (sin línea) 肥薩おれんじ鉄道線 | 1 | 折口 |
+Sin contar (no son servicio de viajeros): 荒川 (ferrocarril forestal de Yakushima, sin servicio de viajeros)、小杉谷 (ferrocarril forestal de Yakushima, sin servicio de viajeros)、小杉谷山荘 (ferrocarril forestal de Yakushima, sin servicio de viajeros)、集材所 (ferrocarril forestal de Yakushima, sin servicio de viajeros)、苗畑 (ferrocarril forestal de Yakushima, sin servicio de viajeros)、客室棟 (funicular privado de un alojamiento termal)、湯浴み小屋 (funicular privado de un alojamiento termal)
+
+Completa ✅
 
 ## 47 Okinawa
 

@@ -1,421 +1,509 @@
 {
-  "_comment": "Datos extra por estación. La clave es el id que genera tools/build_data.py (nombre en romaji, en minúsculas y con guiones). Todos los campos son opcionales.",
-  "tokyo": {
-    "summary": "La gran puerta de entrada ferroviaria: aquí empiezan casi todas las líneas de Shinkansen hacia el norte y el oeste.",
-    "facts": [
-      "Su edificio de ladrillo rojo del lado Marunouchi lo diseñó Tatsuno Kingo y abrió en 1914. En 2012 se restauraron sus cúpulas originales, destruidas en 1945.",
-      "Los andenes de la Chūō están elevados sobre las demás vías y los de la Sōbu/Yokosuka, 5 pisos bajo tierra.",
-      "Bajo la estación se extiende Tokyo Station City, con cientos de tiendas y la famosa «Ramen Street»."
-    ]
-  },
-  "shinjuku": {
-    "summary": "La estación con más viajeros del mundo según el Guinness.",
-    "facts": [
-      "Antes de la pandemia pasaban por ella unos 3,5 millones de personas al día, contando todas las compañías.",
-      "Tiene más de 200 salidas: perderse aquí es casi un rito de paso.",
-      "La salida oeste lleva a los rascacielos y al Ayuntamiento; la este, a Kabukichō y Shinjuku-sanchōme."
-    ]
-  },
-  "shibuya": {
-    "summary": "El cruce peatonal más famoso del mundo está en su salida Hachikō.",
-    "facts": [
-      "La estatua de Hachikō recuerda al perro akita que esperó a su dueño aquí cada día durante casi 10 años después de su muerte.",
-      "El «metro» Ginza tiene su andén en un tercer piso, sobre la calle.",
-      "La gran reforma de la estación y su entorno empezó en 2012 y seguirá durante años."
-    ]
-  },
-  "ikebukuro": {
-    "summary": "La segunda estación con más tráfico del mundo, en el noroeste del anillo Yamanote.",
-    "facts": [
-      "Una paradoja clásica: los grandes almacenes Seibu (西, oeste) están en la salida este y Tōbu (東, este) en la salida oeste.",
-      "Aquí está la estatua del búho Ikefukurō, uno de los puntos de encuentro más habituales."
-    ]
-  },
-  "ueno": {
-    "summary": "Históricamente, la puerta de Tokio hacia el norte de Japón.",
-    "facts": [
-      "Junto a la estación está el parque de Ueno, con el Museo Nacional de Tokio y el zoo más antiguo de Japón (1882).",
-      "Durante décadas los trenes nocturnos al norte de Japón salían de aquí."
-    ]
-  },
-  "akihabara": {
-    "summary": "El barrio de la electrónica, el anime y los videojuegos.",
-    "facts": [
-      "Su nombre viene de Akiba, un santuario contra incendios que se instaló en la zona tras un gran fuego en 1869.",
-      "Aquí se cruzan dos líneas JR a distinta altura: la Chūō-Sōbu (elevada) y la Yamanote/Keihin-Tōhoku."
-    ]
-  },
-  "harajuku": {
-    "summary": "Entre el santuario Meiji y la calle Takeshita.",
-    "facts": [
-      "Su edificio de madera de 1924 era el más antiguo de Tokio. Se sustituyó en 2020 por uno nuevo.",
-      "Tiene un andén especial (Imperial) que usaba el tren de la familia imperial."
-    ]
-  },
-  "shinagawa": {
-    "summary": "Parada del Shinkansen Tōkaidō y futura estación del maglev Chūō Shinkansen.",
-    "facts": [
-      "La estación de Shinagawa no está en el barrio de Shinagawa, sino en el de Minato.",
-      "Desde aquí saldrá el Chūō Shinkansen de levitación magnética (maglev) hacia Nagoya."
-    ]
-  },
-  "meguro": {
-    "facts": [
-      "Al contrario que Shinagawa, la estación de Meguro no está en el barrio de Meguro, sino en el de Shinagawa."
-    ]
-  },
-  "takanawa-gateway": {
-    "summary": "La estación más reciente del anillo Yamanote (2020).",
-    "facts": [
-      "La diseñó el arquitecto Kengo Kuma, con una gran cubierta translúcida inspirada en el origami.",
-      "Durante las obras aparecieron restos del terraplén que llevaba el primer ferrocarril de Japón (1872) sobre el mar."
-    ]
-  },
-  "nishi-nippori": {
-    "facts": [
-      "Abrió en 1971 y fue la estación más nueva de la Yamanote hasta 2020."
-    ]
-  },
-  "shimbashi": {
-    "summary": "Punto de partida del primer ferrocarril de Japón (1872).",
-    "facts": [
-      "El 14 de octubre de 1872 salió el primer tren de Japón, de Shimbashi a Yokohama. Por eso el 14 de octubre es el Día del Ferrocarril.",
-      "En la plaza de la salida Hibiya hay una locomotora de vapor C11, punto de encuentro de los asalariados de la zona."
-    ]
-  },
-  "takadanobaba": {
-    "facts": [
-      "Su melodía de salida es el tema de Astro Boy (Tetsuwan Atom), porque en la historia el robot «nace» en este barrio."
-    ]
-  },
-  "ebisu": {
-    "facts": [
-      "El barrio y la estación toman el nombre de la cerveza Yebisu, que se fabricaba aquí. La estación nació para dar servicio a la fábrica.",
-      "Su melodía de salida es el tema de la película «El tercer hombre», que la marca usó en sus anuncios."
-    ]
-  },
-  "otemachi": {
-    "summary": "Nudo de metro bajo el distrito financiero.",
-    "facts": [
-      "Coinciden aquí cinco líneas de metro: Marunouchi, Tōzai, Chiyoda, Hanzōmon y Mita.",
-      "Sus pasillos subterráneos llegan hasta la estación de Tokio sin salir a la calle."
-    ]
-  },
-  "roppongi": {
-    "facts": [
-      "El andén de la línea Ōedo está a 42,3 m bajo tierra: el más profundo del metro de Tokio."
-    ]
-  },
-  "kokkai-gijidomae": {
-    "facts": [
-      "Junto al Parlamento (国会議事堂). El andén de la línea Chiyoda está a unos 38 m de profundidad."
-    ]
-  },
-  "asakusa": {
-    "summary": "Junto al templo Sensō-ji y la puerta Kaminarimon.",
-    "facts": [
-      "Aquí terminaba el primer metro de Asia (Ginza, 1927).",
-      "La estación Tōbu forma parte de un edificio de 1931 que antes eran unos grandes almacenes."
-    ]
-  },
-  "ginza": {
-    "facts": [
-      "El nombre viene de la ceca de plata (銀座) que funcionó aquí en el periodo Edo."
-    ]
-  },
-  "oshiage": {
-    "summary": "A los pies del Tokyo Skytree (634 m), la torre más alta de Japón.",
-    "facts": [
-      "634 m no es una altura al azar: 6-3-4 se lee «mu-sa-shi», el antiguo nombre de la región de Tokio."
-    ]
-  },
-  "tochomae": {
-    "facts": [
-      "Frente al Ayuntamiento de Tokio, cuyos miradores gratuitos están a 202 m.",
-      "Aquí empieza y termina el recorrido en «6» de la línea Ōedo."
-    ]
-  },
-  "nippori": {
-    "facts": [
-      "Desde aquí sale el Skyliner de Keisei, que llega a Narita en unos 40 minutos.",
-      "Es el origen del Nippori-Toneri Liner, un tren automático sin conductor."
-    ]
-  },
-  "kita-senju": {
-    "facts": [
-      "Uno de los grandes nudos del este: JR, Tokyo Metro, Tōbu y Tsukuba Express."
-    ]
-  },
-  "odaiba-kaihinkoen": {
-    "facts": [
-      "Vista directa del Rainbow Bridge y de la réplica de la Estatua de la Libertad."
-    ]
-  },
-  "shibaura-futo": {
-    "facts": [
-      "Justo después de esta estación, la Yurikamome da una vuelta en espiral para subir al Rainbow Bridge."
-    ]
-  },
-  "kyoto": {
-    "summary": "La gran puerta de Kioto: Shinkansen, JR, metro y Kintetsu bajo un mismo techo.",
-    "facts": [
-      "El edificio actual (1997) es obra del arquitecto Hiroshi Hara; su gran escalinata tiene 171 peldaños y se ilumina con luces LED.",
-      "Kioto inauguró en 1895 el primer tranvía eléctrico comercial de Japón."
-    ]
-  },
-  "karasuma-oike": {
-    "facts": [
-      "Es la única estación donde se cruzan las dos líneas de metro de Kioto (Karasuma y Tōzai)."
-    ]
-  },
-  "inari": {
-    "summary": "Frente al santuario Fushimi Inari Taisha y sus miles de torii.",
-    "facts": [
-      "La estación está justo delante de la gran puerta del santuario."
-    ]
-  },
-  "arashiyama": {
-    "facts": [
-      "En la estación del Randen hay un «bosque de kimonos» con cientos de postes forrados con telas de kimono."
-    ]
-  },
-  "demachiyanagi": {
-    "summary": "Donde se unen los ríos Kamo y Takano; aquí empiezan el Eiden y la línea Keihan.",
-    "facts": [
-      "Junto a la estación se cruza el río sobre las famosas piedras con forma de tortuga del delta del Kamo."
-    ]
-  },
-  "uji": {
-    "facts": [
-      "Cerca está el templo Byōdō-in, el de la moneda de 10 yenes."
-    ]
-  },
-  "umekoji-kyotonishi": {
-    "summary": "Junto al Museo del Ferrocarril de Kioto.",
-    "facts": [
-      "El museo (2016) tiene una rotonda de locomotoras de vapor de 1914 y la antigua estación de madera de Nijō, trasladada aquí."
-    ]
-  },
-  "kurama": {
-    "facts": [
-      "Frente a la estación hay una gran cabeza de tengu, el ser de la montaña que según la leyenda vive en el monte Kurama."
-    ]
-  },
-  "yokohama": {
-    "summary": "La gran estación de Yokohama: JR, Tōkyū, Keikyū, Sōtetsu, Minatomirai y metro.",
-    "facts": [
-      "La estación actual es ya la tercera: las dos primeras quedaron en otros emplazamientos de la ciudad.",
-      "Lleva en obras casi sin interrupción desde hace décadas: la llaman la «Sagrada Familia de Japón»."
-    ]
-  },
-  "kamakura": {
-    "summary": "La antigua capital samurái: templos, el gran Buda y la playa.",
-    "facts": [
-      "Aquí terminan la línea Yokosuka de JR y el Enoden, que sigue junto al mar hasta Fujisawa."
-    ]
-  },
-  "hase": {
-    "facts": [
-      "Es la estación del gran Buda de bronce de Kamakura (Kōtoku-in), de más de 11 m de altura."
-    ]
-  },
-  "kamakurakokomae": {
-    "facts": [
-      "Su paso a nivel, con el mar al fondo, es famoso por la apertura del anime «Slam Dunk»."
-    ]
-  },
-  "maihama": {
-    "summary": "La estación de Tokyo Disney Resort; enlaza con el monorraíl Disney Resort Line."
-  },
-  "ofuna": {
-    "facts": [
-      "Desde el tren se ve una enorme estatua blanca de la diosa Kannon, de 25 m, asomando sobre una colina."
-    ]
-  },
-  "kichijoji": {
-    "facts": [
-      "Junto al parque Inokashira; muy cerca, ya en Mitaka, está el Museo Ghibli."
-    ]
-  },
-  "shimo-kitazawa": {
-    "facts": [
-      "En 2013 la línea Odakyū pasó a ser subterránea aquí, y las vías liberadas se convirtieron en paseos y tiendas."
-    ]
-  },
-  "naka-meguro": {
-    "facts": [
-      "El río Meguro, a dos pasos, es uno de los lugares más famosos de Tokio para ver los cerezos en flor."
-    ]
-  },
-  "motomachi-chukagai": {
-    "summary": "El barrio chino de Yokohama, el mayor de Japón."
-  },
-  "takaosanguchi": {
-    "summary": "A los pies del monte Takao, la montaña más visitada del mundo según algunas estimaciones.",
-    "facts": [
-      "El edificio de la estación, de madera, lo diseñó el arquitecto Kengo Kuma."
-    ]
-  },
-  "tsukuba": {
-    "facts": [
-      "Tsukuba es la «ciudad de la ciencia»: aquí está el centro espacial de JAXA."
-    ]
-  },
-  "odawara": {
-    "facts": [
-      "Desde el andén se ve el castillo de Odawara; también es la puerta de Hakone."
-    ]
-  },
-  "miyanosaka": {
-    "facts": [
-      "Junto a la estación está el templo Gōtoku-ji, lleno de figuritas del gato de la suerte (maneki-neko)."
-    ]
-  },
-  "hon-kawagoe": {
-    "facts": [
-      "Kawagoe es la «pequeña Edo», con calles de antiguas casas-almacén de barro."
-    ]
-  },
-  "katase-enoshima": {
-    "facts": [
-      "El edificio de la estación imita el palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
-    ]
-  },
-  "osaka": {
-    "summary": "La gran estación de Ōsaka; junto con las de Umeda forma el mayor nudo ferroviario del oeste de Japón.",
-    "facts": [
-      "Una enorme cubierta de cristal y acero (2011) cubre todos sus andenes."
-    ]
-  },
-  "tennoji": {
-    "facts": [
-      "Enfrente se alza Abeno Harukas (300 m), el rascacielos más alto de Japón entre 2014 y 2023."
-    ]
-  },
-  "namba": {
-    "facts": [
-      "A pocos pasos están Dōtonbori y el famoso cartel del corredor de Glico."
-    ]
-  },
-  "shinsaibashi": {
-    "facts": [
-      "El andén de la Midōsuji conserva su bóveda y sus lámparas de araña de los años 30."
-    ]
-  },
-  "koshien": {
-    "facts": [
-      "Es la estación del estadio de Kōshien (1924), casa de los Hanshin Tigers y del torneo nacional de béisbol escolar."
-    ]
-  },
-  "takarazuka": {
-    "facts": [
-      "Sede del teatro Takarazuka, compañía de musicales formada solo por mujeres."
-    ]
-  },
-  "kintetsu-nara": {
-    "facts": [
-      "A pocos minutos del parque de Nara, con sus ciervos sueltos, y del templo Tōdai-ji."
-    ]
-  },
-  "kansai-airport": {
-    "summary": "El aeropuerto internacional de Kansai, construido sobre una isla artificial en la bahía de Ōsaka (1994)."
-  },
-  "sannomiya": {
-    "summary": "El centro de Kōbe: JR, Hankyu, Hanshin, metro y Port Liner a pocos pasos."
-  },
-  "yumeshima": {
-    "summary": "La isla artificial donde se celebró la Exposición Universal de Ōsaka 2025."
-  },
-  "tsuruhashi": {
-    "facts": [
-      "Es el barrio coreano de Ōsaka: al bajar del tren se huele el yakiniku."
-    ]
-  },
-  "ebisucho": {
-    "facts": [
-      "Junto a la torre Tsūtenkaku y el barrio de Shinsekai, cuna de los kushikatsu."
-    ]
-  },
-  "gokurakubashi": {
-    "facts": [
-      "Aquí empieza el funicular que sube al monte Kōya (Kōyasan), con decenas de templos budistas."
-    ]
-  },
-  "biwako-hamaotsu": {
-    "facts": [
-      "Frente a la estación, los trenes de Keihan cruzan la gran intersección por medio de la calle, como tranvías."
-    ]
-  },
-  "universal-city": {
-    "summary": "La estación de Universal Studios Japan."
-  },
-  "bampakukinenkoen": {
-    "facts": [
-      "Aquí está la Torre del Sol de Tarō Okamoto, símbolo de la Expo 70."
-    ]
-  },
-  "bampaku-kinenkoen": {
-    "facts": [
-      "Se llama igual que la estación de la Expo 70 de Ōsaka, pero recuerda otra exposición: la de Tsukuba de 1985."
-    ]
-  },
-  "shibamata": {
-    "summary": "El barrio de Tora-san: calle comercial antigua, el templo Taishakuten y el río Edo.",
-    "facts": [
-      "Frente a la estación hay una estatua de Tora-san, el protagonista de «Otoko wa tsurai yo», y de su hermana Sakura."
-    ]
-  },
-  "umi-shibaura": {
-    "facts": [
-      "Está dentro de una fábrica de Toshiba: sin pase no se puede salir, salvo a un pequeño parque con vistas a la bahía."
-    ]
-  },
-  "toshimaen": {
-    "facts": [
-      "Junto a la estación está el Warner Bros. Studio Tour Tokyo – The Making of Harry Potter (2023)."
-    ]
-  },
-  "tetsudo-hakubutsukan": {
-    "summary": "La estación del Museo del Ferrocarril de Saitama (JR East)."
-  },
-  "hakkeijima": {
-    "summary": "La isla del parque acuático Hakkeijima Sea Paradise."
-  },
-  "horyuji": {
-    "facts": [
-      "El templo Hōryū-ji conserva los edificios de madera más antiguos del mundo (siglo VII)."
-    ]
-  },
-  "miwa": {
-    "facts": [
-      "Junto al santuario Ōmiwa, cuyo objeto de culto es la propia montaña Miwa."
-    ]
-  },
-  "arima-onsen": {
-    "summary": "Arima Onsen, uno de los balnearios más antiguos de Japón, al otro lado de las montañas Rokkō."
-  },
-  "tama-dobutsukoen": {
-    "summary": "La estación del zoo de Tama."
-  },
-  "kodomonokuni": {
-    "summary": "«El país de los niños», un gran parque infantil de Yokohama."
-  },
-  "urawa-misono": {
-    "facts": [
-      "Estación del estadio de Saitama, casa de los Urawa Red Diamonds."
-    ]
-  },
-  "kawasakidaishi": {
-    "facts": [
-      "A pocos pasos del templo Kawasaki Daishi, famoso por sus millones de visitantes en Año Nuevo."
-    ]
-  },
-  "minoh": {
-    "facts": [
-      "Desde la estación sale el paseo hacia la cascada de Minoo, lleno de puestos de hojas de arce fritas."
-    ]
-  },
-  "seibukyujo-mae": {
-    "summary": "Estación del estadio de los Saitama Seibu Lions (Belluna Dome)."
-  }
+ "_comment": "Datos extra por estación. La clave es el id que genera tools/build_data.py (nombre en romaji, en minúsculas y con guiones). Todos los campos son opcionales.",
+ "tokyo": {
+  "summary": "La gran puerta de entrada ferroviaria: aquí empiezan casi todas las líneas de Shinkansen hacia el norte y el oeste.",
+  "facts": [
+   "Su edificio de ladrillo rojo del lado Marunouchi lo diseñó Tatsuno Kingo y abrió en 1914. En 2012 se restauraron sus cúpulas originales, destruidas en 1945.",
+   "Los andenes de la Chūō están elevados sobre las demás vías y los de la Sōbu/Yokosuka, 5 pisos bajo tierra.",
+   "Bajo la estación se extiende Tokyo Station City, con cientos de tiendas y la famosa «Ramen Street»."
+  ]
+ },
+ "shinjuku": {
+  "summary": "La estación con más viajeros del mundo según el Guinness.",
+  "facts": [
+   "Antes de la pandemia pasaban por ella unos 3,5 millones de personas al día, contando todas las compañías.",
+   "Tiene más de 200 salidas: perderse aquí es casi un rito de paso.",
+   "La salida oeste lleva a los rascacielos y al Ayuntamiento; la este, a Kabukichō y Shinjuku-sanchōme."
+  ]
+ },
+ "shibuya": {
+  "summary": "El cruce peatonal más famoso del mundo está en su salida Hachikō.",
+  "facts": [
+   "La estatua de Hachikō recuerda al perro akita que esperó a su dueño aquí cada día durante casi 10 años después de su muerte.",
+   "El «metro» Ginza tiene su andén en un tercer piso, sobre la calle.",
+   "La gran reforma de la estación y su entorno empezó en 2012 y seguirá durante años."
+  ]
+ },
+ "ikebukuro": {
+  "summary": "La segunda estación con más tráfico del mundo, en el noroeste del anillo Yamanote.",
+  "facts": [
+   "Una paradoja clásica: los grandes almacenes Seibu (西, oeste) están en la salida este y Tōbu (東, este) en la salida oeste.",
+   "Aquí está la estatua del búho Ikefukurō, uno de los puntos de encuentro más habituales."
+  ]
+ },
+ "ueno": {
+  "summary": "Históricamente, la puerta de Tokio hacia el norte de Japón.",
+  "facts": [
+   "Junto a la estación está el parque de Ueno, con el Museo Nacional de Tokio y el zoo más antiguo de Japón (1882).",
+   "Durante décadas los trenes nocturnos al norte de Japón salían de aquí."
+  ]
+ },
+ "akihabara": {
+  "summary": "El barrio de la electrónica, el anime y los videojuegos.",
+  "facts": [
+   "Su nombre viene de Akiba, un santuario contra incendios que se instaló en la zona tras un gran fuego en 1869.",
+   "Aquí se cruzan dos líneas JR a distinta altura: la Chūō-Sōbu (elevada) y la Yamanote/Keihin-Tōhoku."
+  ]
+ },
+ "harajuku": {
+  "summary": "Entre el santuario Meiji y la calle Takeshita.",
+  "facts": [
+   "Su edificio de madera de 1924 era el más antiguo de Tokio. Se sustituyó en 2020 por uno nuevo.",
+   "Tiene un andén especial (Imperial) que usaba el tren de la familia imperial."
+  ]
+ },
+ "shinagawa": {
+  "summary": "Parada del Shinkansen Tōkaidō y futura estación del maglev Chūō Shinkansen.",
+  "facts": [
+   "La estación de Shinagawa no está en el barrio de Shinagawa, sino en el de Minato.",
+   "Desde aquí saldrá el Chūō Shinkansen de levitación magnética (maglev) hacia Nagoya."
+  ]
+ },
+ "meguro": {
+  "facts": [
+   "Al contrario que Shinagawa, la estación de Meguro no está en el barrio de Meguro, sino en el de Shinagawa."
+  ]
+ },
+ "takanawa-gateway": {
+  "summary": "La estación más reciente del anillo Yamanote (2020).",
+  "facts": [
+   "La diseñó el arquitecto Kengo Kuma, con una gran cubierta translúcida inspirada en el origami.",
+   "Durante las obras aparecieron restos del terraplén que llevaba el primer ferrocarril de Japón (1872) sobre el mar."
+  ]
+ },
+ "nishi-nippori": {
+  "facts": [
+   "Abrió en 1971 y fue la estación más nueva de la Yamanote hasta 2020."
+  ]
+ },
+ "shimbashi": {
+  "summary": "Punto de partida del primer ferrocarril de Japón (1872).",
+  "facts": [
+   "El 14 de octubre de 1872 salió el primer tren de Japón, de Shimbashi a Yokohama. Por eso el 14 de octubre es el Día del Ferrocarril.",
+   "En la plaza de la salida Hibiya hay una locomotora de vapor C11, punto de encuentro de los asalariados de la zona."
+  ]
+ },
+ "takadanobaba": {
+  "facts": [
+   "Su melodía de salida es el tema de Astro Boy (Tetsuwan Atom), porque en la historia el robot «nace» en este barrio."
+  ]
+ },
+ "ebisu": {
+  "facts": [
+   "El barrio y la estación toman el nombre de la cerveza Yebisu, que se fabricaba aquí. La estación nació para dar servicio a la fábrica.",
+   "Su melodía de salida es el tema de la película «El tercer hombre», que la marca usó en sus anuncios."
+  ]
+ },
+ "otemachi": {
+  "summary": "Nudo de metro bajo el distrito financiero.",
+  "facts": [
+   "Coinciden aquí cinco líneas de metro: Marunouchi, Tōzai, Chiyoda, Hanzōmon y Mita.",
+   "Sus pasillos subterráneos llegan hasta la estación de Tokio sin salir a la calle."
+  ]
+ },
+ "roppongi": {
+  "facts": [
+   "El andén de la línea Ōedo está a 42,3 m bajo tierra: el más profundo del metro de Tokio."
+  ]
+ },
+ "kokkai-gijidomae": {
+  "facts": [
+   "Junto al Parlamento (国会議事堂). El andén de la línea Chiyoda está a unos 38 m de profundidad."
+  ]
+ },
+ "asakusa": {
+  "summary": "Junto al templo Sensō-ji y la puerta Kaminarimon.",
+  "facts": [
+   "Aquí terminaba el primer metro de Asia (Ginza, 1927).",
+   "La estación Tōbu forma parte de un edificio de 1931 que antes eran unos grandes almacenes."
+  ]
+ },
+ "ginza": {
+  "facts": [
+   "El nombre viene de la ceca de plata (銀座) que funcionó aquí en el periodo Edo."
+  ]
+ },
+ "oshiage": {
+  "summary": "A los pies del Tokyo Skytree (634 m), la torre más alta de Japón.",
+  "facts": [
+   "634 m no es una altura al azar: 6-3-4 se lee «mu-sa-shi», el antiguo nombre de la región de Tokio."
+  ]
+ },
+ "tochomae": {
+  "facts": [
+   "Frente al Ayuntamiento de Tokio, cuyos miradores gratuitos están a 202 m.",
+   "Aquí empieza y termina el recorrido en «6» de la línea Ōedo."
+  ]
+ },
+ "nippori": {
+  "facts": [
+   "Desde aquí sale el Skyliner de Keisei, que llega a Narita en unos 40 minutos.",
+   "Es el origen del Nippori-Toneri Liner, un tren automático sin conductor."
+  ]
+ },
+ "kita-senju": {
+  "facts": [
+   "Uno de los grandes nudos del este: JR, Tokyo Metro, Tōbu y Tsukuba Express."
+  ]
+ },
+ "odaiba-kaihinkoen": {
+  "facts": [
+   "Vista directa del Rainbow Bridge y de la réplica de la Estatua de la Libertad."
+  ]
+ },
+ "shibaura-futo": {
+  "facts": [
+   "Justo después de esta estación, la Yurikamome da una vuelta en espiral para subir al Rainbow Bridge."
+  ]
+ },
+ "kyoto": {
+  "summary": "La gran puerta de Kioto: Shinkansen, JR, metro y Kintetsu bajo un mismo techo.",
+  "facts": [
+   "El edificio actual (1997) es obra del arquitecto Hiroshi Hara; su gran escalinata tiene 171 peldaños y se ilumina con luces LED.",
+   "Kioto inauguró en 1895 el primer tranvía eléctrico comercial de Japón."
+  ]
+ },
+ "karasuma-oike": {
+  "facts": [
+   "Es la única estación donde se cruzan las dos líneas de metro de Kioto (Karasuma y Tōzai)."
+  ]
+ },
+ "inari": {
+  "summary": "Frente al santuario Fushimi Inari Taisha y sus miles de torii.",
+  "facts": [
+   "La estación está justo delante de la gran puerta del santuario."
+  ]
+ },
+ "arashiyama": {
+  "facts": [
+   "En la estación del Randen hay un «bosque de kimonos» con cientos de postes forrados con telas de kimono."
+  ]
+ },
+ "demachiyanagi": {
+  "summary": "Donde se unen los ríos Kamo y Takano; aquí empiezan el Eiden y la línea Keihan.",
+  "facts": [
+   "Junto a la estación se cruza el río sobre las famosas piedras con forma de tortuga del delta del Kamo."
+  ]
+ },
+ "uji": {
+  "facts": [
+   "Cerca está el templo Byōdō-in, el de la moneda de 10 yenes."
+  ]
+ },
+ "umekoji-kyotonishi": {
+  "summary": "Junto al Museo del Ferrocarril de Kioto.",
+  "facts": [
+   "El museo (2016) tiene una rotonda de locomotoras de vapor de 1914 y la antigua estación de madera de Nijō, trasladada aquí."
+  ]
+ },
+ "kurama": {
+  "facts": [
+   "Frente a la estación hay una gran cabeza de tengu, el ser de la montaña que según la leyenda vive en el monte Kurama."
+  ]
+ },
+ "yokohama": {
+  "summary": "La gran estación de Yokohama: JR, Tōkyū, Keikyū, Sōtetsu, Minatomirai y metro.",
+  "facts": [
+   "La estación actual es ya la tercera: las dos primeras quedaron en otros emplazamientos de la ciudad.",
+   "Lleva en obras casi sin interrupción desde hace décadas: la llaman la «Sagrada Familia de Japón»."
+  ]
+ },
+ "kamakura": {
+  "summary": "La antigua capital samurái: templos, el gran Buda y la playa.",
+  "facts": [
+   "Aquí terminan la línea Yokosuka de JR y el Enoden, que sigue junto al mar hasta Fujisawa."
+  ]
+ },
+ "hase": {
+  "facts": [
+   "Es la estación del gran Buda de bronce de Kamakura (Kōtoku-in), de más de 11 m de altura."
+  ]
+ },
+ "kamakurakokomae": {
+  "facts": [
+   "Su paso a nivel, con el mar al fondo, es famoso por la apertura del anime «Slam Dunk»."
+  ]
+ },
+ "maihama": {
+  "summary": "La estación de Tokyo Disney Resort; enlaza con el monorraíl Disney Resort Line."
+ },
+ "ofuna": {
+  "facts": [
+   "Desde el tren se ve una enorme estatua blanca de la diosa Kannon, de 25 m, asomando sobre una colina."
+  ]
+ },
+ "kichijoji": {
+  "facts": [
+   "Junto al parque Inokashira; muy cerca, ya en Mitaka, está el Museo Ghibli."
+  ]
+ },
+ "shimo-kitazawa": {
+  "facts": [
+   "En 2013 la línea Odakyū pasó a ser subterránea aquí, y las vías liberadas se convirtieron en paseos y tiendas."
+  ]
+ },
+ "naka-meguro": {
+  "facts": [
+   "El río Meguro, a dos pasos, es uno de los lugares más famosos de Tokio para ver los cerezos en flor."
+  ]
+ },
+ "motomachi-chukagai": {
+  "summary": "El barrio chino de Yokohama, el mayor de Japón."
+ },
+ "takaosanguchi": {
+  "summary": "A los pies del monte Takao, la montaña más visitada del mundo según algunas estimaciones.",
+  "facts": [
+   "El edificio de la estación, de madera, lo diseñó el arquitecto Kengo Kuma."
+  ]
+ },
+ "tsukuba": {
+  "facts": [
+   "Tsukuba es la «ciudad de la ciencia»: aquí está el centro espacial de JAXA."
+  ]
+ },
+ "odawara": {
+  "facts": [
+   "Desde el andén se ve el castillo de Odawara; también es la puerta de Hakone."
+  ]
+ },
+ "miyanosaka": {
+  "facts": [
+   "Junto a la estación está el templo Gōtoku-ji, lleno de figuritas del gato de la suerte (maneki-neko)."
+  ]
+ },
+ "hon-kawagoe": {
+  "facts": [
+   "Kawagoe es la «pequeña Edo», con calles de antiguas casas-almacén de barro."
+  ]
+ },
+ "katase-enoshima": {
+  "facts": [
+   "El edificio de la estación imita el palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
+  ]
+ },
+ "osaka": {
+  "summary": "La gran estación de Ōsaka; junto con las de Umeda forma el mayor nudo ferroviario del oeste de Japón.",
+  "facts": [
+   "Una enorme cubierta de cristal y acero (2011) cubre todos sus andenes."
+  ]
+ },
+ "tennoji": {
+  "facts": [
+   "Enfrente se alza Abeno Harukas (300 m), el rascacielos más alto de Japón entre 2014 y 2023."
+  ]
+ },
+ "namba": {
+  "facts": [
+   "A pocos pasos están Dōtonbori y el famoso cartel del corredor de Glico."
+  ]
+ },
+ "shinsaibashi": {
+  "facts": [
+   "El andén de la Midōsuji conserva su bóveda y sus lámparas de araña de los años 30."
+  ]
+ },
+ "koshien": {
+  "facts": [
+   "Es la estación del estadio de Kōshien (1924), casa de los Hanshin Tigers y del torneo nacional de béisbol escolar."
+  ]
+ },
+ "takarazuka": {
+  "facts": [
+   "Sede del teatro Takarazuka, compañía de musicales formada solo por mujeres."
+  ]
+ },
+ "kintetsu-nara": {
+  "facts": [
+   "A pocos minutos del parque de Nara, con sus ciervos sueltos, y del templo Tōdai-ji."
+  ]
+ },
+ "kansai-airport": {
+  "summary": "El aeropuerto internacional de Kansai, construido sobre una isla artificial en la bahía de Ōsaka (1994)."
+ },
+ "sannomiya": {
+  "summary": "El centro de Kōbe: JR, Hankyu, Hanshin, metro y Port Liner a pocos pasos."
+ },
+ "yumeshima": {
+  "summary": "La isla artificial donde se celebró la Exposición Universal de Ōsaka 2025."
+ },
+ "tsuruhashi": {
+  "facts": [
+   "Es el barrio coreano de Ōsaka: al bajar del tren se huele el yakiniku."
+  ]
+ },
+ "ebisucho": {
+  "facts": [
+   "Junto a la torre Tsūtenkaku y el barrio de Shinsekai, cuna de los kushikatsu."
+  ]
+ },
+ "gokurakubashi": {
+  "facts": [
+   "Aquí empieza el funicular que sube al monte Kōya (Kōyasan), con decenas de templos budistas."
+  ]
+ },
+ "biwako-hamaotsu": {
+  "facts": [
+   "Frente a la estación, los trenes de Keihan cruzan la gran intersección por medio de la calle, como tranvías."
+  ]
+ },
+ "universal-city": {
+  "summary": "La estación de Universal Studios Japan."
+ },
+ "bampakukinenkoen": {
+  "facts": [
+   "Aquí está la Torre del Sol de Tarō Okamoto, símbolo de la Expo 70."
+  ]
+ },
+ "bampaku-kinenkoen": {
+  "facts": [
+   "Se llama igual que la estación de la Expo 70 de Ōsaka, pero recuerda otra exposición: la de Tsukuba de 1985."
+  ]
+ },
+ "shibamata": {
+  "summary": "El barrio de Tora-san: calle comercial antigua, el templo Taishakuten y el río Edo.",
+  "facts": [
+   "Frente a la estación hay una estatua de Tora-san, el protagonista de «Otoko wa tsurai yo», y de su hermana Sakura."
+  ]
+ },
+ "umi-shibaura": {
+  "facts": [
+   "Está dentro de una fábrica de Toshiba: sin pase no se puede salir, salvo a un pequeño parque con vistas a la bahía."
+  ]
+ },
+ "toshimaen": {
+  "facts": [
+   "Junto a la estación está el Warner Bros. Studio Tour Tokyo – The Making of Harry Potter (2023)."
+  ]
+ },
+ "tetsudo-hakubutsukan": {
+  "summary": "La estación del Museo del Ferrocarril de Saitama (JR East)."
+ },
+ "hakkeijima": {
+  "summary": "La isla del parque acuático Hakkeijima Sea Paradise."
+ },
+ "horyuji": {
+  "facts": [
+   "El templo Hōryū-ji conserva los edificios de madera más antiguos del mundo (siglo VII)."
+  ]
+ },
+ "miwa": {
+  "facts": [
+   "Junto al santuario Ōmiwa, cuyo objeto de culto es la propia montaña Miwa."
+  ]
+ },
+ "arima-onsen": {
+  "summary": "Arima Onsen, uno de los balnearios más antiguos de Japón, al otro lado de las montañas Rokkō."
+ },
+ "tama-dobutsukoen": {
+  "summary": "La estación del zoo de Tama."
+ },
+ "kodomonokuni": {
+  "summary": "«El país de los niños», un gran parque infantil de Yokohama."
+ },
+ "urawa-misono": {
+  "facts": [
+   "Estación del estadio de Saitama, casa de los Urawa Red Diamonds."
+  ]
+ },
+ "kawasakidaishi": {
+  "facts": [
+   "A pocos pasos del templo Kawasaki Daishi, famoso por sus millones de visitantes en Año Nuevo."
+  ]
+ },
+ "minoh": {
+  "facts": [
+   "Desde la estación sale el paseo hacia la cascada de Minoo, lleno de puestos de hojas de arce fritas."
+  ]
+ },
+ "seibukyujo-mae": {
+  "summary": "Estación del estadio de los Saitama Seibu Lions (Belluna Dome)."
+ },
+ "omiya": {
+  "facts": [
+   "Es la mayor estación de transbordo al norte de Tokio: paran en ella todos los Shinkansen del norte.",
+   "De aquí salen las líneas hacia Tōhoku, Hokuriku, Jōetsu y Hokkaidō."
+  ]
+ },
+ "nagoya": {
+  "facts": [
+   "Abrió en 1886 y hoy tiene 16 vías: es la mayor estación de la región de Chūbu.",
+   "Sus torres gemelas de 245 metros entraron en el Guinness en 2002 como el mayor edificio de estación del mundo por superficie: 416 565 m²."
+  ]
+ },
+ "hiroshima": {
+  "facts": [
+   "Abrió en 1894 y es el centro de la red de cercanías de Hiroshima.",
+   "Paran en ella todos los trenes del San'yō Shinkansen, incluidos los Nozomi."
+  ]
+ },
+ "hakata": {
+  "facts": [
+   "Abrió en 1889 y es la mayor estación de Kyūshū: aquí termina el San'yō Shinkansen y empieza el de Kyūshū.",
+   "Aunque la ciudad se llama Fukuoka, la estación principal conserva el nombre del viejo barrio de Hakata."
+  ]
+ },
+ "sendai": {
+  "facts": [
+   "Abrió en 1887 y para en ella todo tren que pasa, Shinkansen incluidos.",
+   "Es la única estación de Tōhoku donde enlazan tres Shinkansen: Tōhoku, Akita y Hokkaidō."
+  ]
+ },
+ "kanayama-nagoya": {
+  "facts": [
+   "Abrió en 1944 y es la segunda estación de Nagoya: enlazan en ella JR, Meitetsu y el metro."
+  ]
+ },
+ "toyohashi": {
+  "facts": [
+   "Abrió en 1888; aquí coinciden el Shinkansen, la línea Iida, Meitetsu y el tranvía de la ciudad.",
+   "JR y Meitetsu comparten vía entre Toyohashi e Hirai, algo muy poco habitual en Japón."
+  ]
+ },
+ "maibara": {
+  "facts": [
+   "Abrió en 1889 y es la frontera entre JR West y JR Central: aquí se cambia de compañía.",
+   "Es donde el Shinkansen Tōkaidō se cruza con la línea Hokuriku, camino del mar de Japón."
+  ]
+ },
+ "shin-osaka": {
+  "facts": [
+   "Se construyó de cero en 1964 para el primer Shinkansen: la estación de Ōsaka no tenía sitio.",
+   "Es la única parada de Shinkansen de la prefectura de Ōsaka: aquí acaba el Tōkaidō y empieza el San'yō."
+  ]
+ },
+ "musashi-kosugi": {
+  "facts": [
+   "Abrió en 1944 entre fábricas; hoy es uno de los transbordos más concurridos de Kawasaki."
+  ]
+ },
+ "iidabashi": {
+  "facts": [
+   "Está repartida entre tres distritos de Tokio a la vez: Chiyoda, Shinjuku y Bunkyō.",
+   "Su andén de la línea Chūō-Sōbu, famoso por su curva, se enderezó en 2020 llevándolo 200 metros más allá."
+  ]
+ },
+ "akabane": {
+  "facts": [
+   "Abrió en 1885 y es el límite norte de la zona urbana de Tokio a efectos de billetes.",
+   "Por sus ocho vías pasan Keihin-Tōhoku, Saikyō, Utsunomiya, Takasaki y Shōnan-Shinjuku."
+  ]
+ },
+ "shin-yokohama": {
+  "facts": [
+   "El barrio se llamó «Shin-Yokohama» a partir de la estación, no al revés: el nombre se hizo oficial en 1975.",
+   "Desde 2023 enlaza con Tōkyū y Sōtetsu por un túnel nuevo bajo la ciudad."
+  ]
+ },
+ "nishi-oyama": {
+  "facts": [
+   "Es la estación más al sur de toda la red JR, con el volcán Kaimon justo enfrente.",
+   "Abrió en 1960 y no tiene ni personal ni edificio: solo un andén y un buzón amarillo."
+  ]
+ },
+ "kareigawa": {
+  "facts": [
+   "Su edificio de madera es de 1903, el más antiguo de la prefectura de Kagoshima, y es patrimonio registrado.",
+   "Hasta 2022 fue una rareza: una estación sin personal donde paraban trenes expresos."
+  ]
+ }
 }

@@ -501,7 +501,10 @@ def main():
             sources.append(("nodes", False))
         for rel_id, use_geometry in sources:
             if rel_id == "ways":
-                segs, rel_stops = parse_ways(fetch_ways(line, args.refresh), line["osm_ways"].get("nearby"))
+                # las paradas de tranvía solo cuentan en líneas de tranvía: si no, la Ibusuki
+                # se llevaba las del tranvía de Kagoshima al pasar por delante
+                trams = bool(line["osm_ways"].get("nearby")) and line.get("type") in ("tram", "local", "funicular", "agt", "monorail")
+                segs, rel_stops = parse_ways(fetch_ways(line, args.refresh), trams)
             elif rel_id == "nodes":
                 segs, rel_stops = [], fetch_nodes(line["extra_nodes"], args.refresh)["elements"]
             else:
