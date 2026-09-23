@@ -712,79 +712,234 @@
    ]
   },
   {
-   "title": "Fase 3c · Ciudades completas, una a una",
-   "why": "Cada ciudad se cierra del todo (líneas, estaciones, numeración, trenes y fotos) antes de pasar a la siguiente. Se marca sola cuando tools/audit_coverage.py no le encuentra ni una línea ni una estación de menos.",
+   "title": "Fase 3c · Japón, prefectura a prefectura",
+   "why": "Cada prefectura se cierra del todo (líneas, estaciones, numeración, trenes y fotos) antes de pasar a la siguiente. Se marca sola cuando tools/audit_coverage.py no le encuentra ni una estación de menos: el recuento sale de todas las estaciones que OpenStreetMap tiene en su área administrativa.",
    "groups": [
     {
-     "title": "Por orden de trabajo",
+     "title": "Hokkaidō",
      "items": [
       {
-       "zone": "sapporo",
-       "name": "Sapporo al completo"
+       "pref": "01",
+       "name": "01 Hokkaidō"
+      }
+     ]
+    },
+    {
+     "title": "Tōhoku",
+     "items": [
+      {
+       "pref": "02",
+       "name": "02 Aomori"
       },
       {
-       "zone": "sendai",
-       "name": "Sendai al completo"
+       "pref": "03",
+       "name": "03 Iwate"
       },
       {
-       "zone": "hiroshima",
-       "name": "Hiroshima al completo"
+       "pref": "04",
+       "name": "04 Miyagi"
       },
       {
-       "zone": "fukuoka",
-       "name": "Fukuoka al completo"
+       "pref": "05",
+       "name": "05 Akita"
       },
       {
-       "zone": "nagoya",
-       "name": "Nagoya al completo"
+       "pref": "06",
+       "name": "06 Yamagata"
       },
       {
-       "zone": "kansai",
-       "name": "Kansai (Kioto, Ōsaka, Kōbe) al completo"
+       "pref": "07",
+       "name": "07 Fukushima"
+      }
+     ]
+    },
+    {
+     "title": "Kantō",
+     "items": [
+      {
+       "pref": "08",
+       "name": "08 Ibaraki"
       },
       {
-       "zone": "tokyo",
-       "name": "Tokio y alrededores al completo"
+       "pref": "09",
+       "name": "09 Tochigi"
       },
       {
-       "zone": "okayama",
-       "name": "Okayama al completo"
+       "pref": "10",
+       "name": "10 Gunma"
       },
       {
-       "zone": "kumamoto",
-       "name": "Kumamoto al completo"
+       "pref": "11",
+       "name": "11 Saitama"
       },
       {
-       "zone": "nagasaki",
-       "name": "Nagasaki al completo"
+       "pref": "12",
+       "name": "12 Chiba"
       },
       {
-       "zone": "matsuyama",
-       "name": "Matsuyama al completo"
+       "pref": "13",
+       "name": "13 Tokio"
       },
       {
-       "zone": "kagoshima",
-       "name": "Kagoshima al completo"
+       "pref": "14",
+       "name": "14 Kanagawa"
+      }
+     ]
+    },
+    {
+     "title": "Chūbu",
+     "items": [
+      {
+       "pref": "15",
+       "name": "15 Niigata"
       },
       {
-       "zone": "hakodate",
-       "name": "Hakodate al completo"
+       "pref": "16",
+       "name": "16 Toyama"
       },
       {
-       "zone": "toyohashi",
-       "name": "Toyohashi al completo"
+       "pref": "17",
+       "name": "17 Ishikawa"
       },
       {
-       "zone": "toyama",
-       "name": "Toyama al completo"
+       "pref": "18",
+       "name": "18 Fukui"
       },
       {
-       "zone": "fukui",
-       "name": "Fukui al completo"
+       "pref": "19",
+       "name": "19 Yamanashi"
       },
       {
-       "zone": "kochi",
-       "name": "Kōchi al completo"
+       "pref": "20",
+       "name": "20 Nagano"
+      },
+      {
+       "pref": "21",
+       "name": "21 Gifu"
+      },
+      {
+       "pref": "22",
+       "name": "22 Shizuoka"
+      },
+      {
+       "pref": "23",
+       "name": "23 Aichi"
+      }
+     ]
+    },
+    {
+     "title": "Kansai",
+     "items": [
+      {
+       "pref": "24",
+       "name": "24 Mie"
+      },
+      {
+       "pref": "25",
+       "name": "25 Shiga"
+      },
+      {
+       "pref": "26",
+       "name": "26 Kioto"
+      },
+      {
+       "pref": "27",
+       "name": "27 Ōsaka"
+      },
+      {
+       "pref": "28",
+       "name": "28 Hyōgo"
+      },
+      {
+       "pref": "29",
+       "name": "29 Nara"
+      },
+      {
+       "pref": "30",
+       "name": "30 Wakayama"
+      }
+     ]
+    },
+    {
+     "title": "Chūgoku",
+     "items": [
+      {
+       "pref": "31",
+       "name": "31 Tottori"
+      },
+      {
+       "pref": "32",
+       "name": "32 Shimane"
+      },
+      {
+       "pref": "33",
+       "name": "33 Okayama"
+      },
+      {
+       "pref": "34",
+       "name": "34 Hiroshima"
+      },
+      {
+       "pref": "35",
+       "name": "35 Yamaguchi"
+      }
+     ]
+    },
+    {
+     "title": "Shikoku",
+     "items": [
+      {
+       "pref": "36",
+       "name": "36 Tokushima"
+      },
+      {
+       "pref": "37",
+       "name": "37 Kagawa"
+      },
+      {
+       "pref": "38",
+       "name": "38 Ehime"
+      },
+      {
+       "pref": "39",
+       "name": "39 Kōchi"
+      }
+     ]
+    },
+    {
+     "title": "Kyūshū y Okinawa",
+     "items": [
+      {
+       "pref": "40",
+       "name": "40 Fukuoka"
+      },
+      {
+       "pref": "41",
+       "name": "41 Saga"
+      },
+      {
+       "pref": "42",
+       "name": "42 Nagasaki"
+      },
+      {
+       "pref": "43",
+       "name": "43 Kumamoto"
+      },
+      {
+       "pref": "44",
+       "name": "44 Ōita"
+      },
+      {
+       "pref": "45",
+       "name": "45 Miyazaki"
+      },
+      {
+       "pref": "46",
+       "name": "46 Kagoshima"
+      },
+      {
+       "pref": "47",
+       "name": "47 Okinawa"
       }
      ]
     }

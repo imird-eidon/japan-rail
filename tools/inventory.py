@@ -15,7 +15,6 @@ ROOT = Path(__file__).resolve().parent.parent
 NETWORK = ROOT / "web" / "data" / "network.json"
 ROADMAP = ROOT / "config" / "roadmap.json"
 AUDIT = ROOT / "tools" / ".cache" / "audit.json"
-AUDIT_ZONES = ROOT / "tools" / ".cache" / "audit-zones.json"
 OUT = ROOT / "INVENTARIO.md"
 SITE = "https://japanrail.alvaroom.org"
 
@@ -28,23 +27,15 @@ def link(kind, id_, text):
     return f"[{text}]({SITE}/#/{kind}/{id_})"
 
 
-ZONE_NAMES = {"tokyo": "Tokio y alrededores", "kansai": "Kansai (Kioto, Ōsaka, Kōbe)", "nagoya": "Nagoya",
-              "fukuoka": "Fukuoka", "sapporo": "Sapporo", "sendai": "Sendai", "hiroshima": "Hiroshima",
-              "nagasaki": "Nagasaki", "kumamoto": "Kumamoto", "kagoshima": "Kagoshima", "hakodate": "Hakodate",
-              "okayama": "Okayama", "kochi": "Kōchi", "toyama": "Toyama", "matsuyama": "Matsuyama",
-              "toyohashi": "Toyohashi", "fukui": "Fukui"}
-
-
-def audit_gaps():
-    """Huecos por zona según la última auditoría: {zona: (líneas que faltan, líneas con estaciones sueltas)}."""
+def audit_report():
+    """Cobertura por prefectura de la última auditoría: {código: {name, total, missing}}."""
     if not AUDIT.exists():
         return {}, None
     from datetime import date
-    gaps = {z: [0, 0] for z in ZONE_NAMES}
-    for o in load(AUDIT):
-        if o["zone"] in gaps:
-            gaps[o["zone"]][0 if o["kind"] == "línea que falta" else 1] += 1
-    return gaps, date.fromtimestamp(AUDIT.stat().st_mtime)
+    data = load(AUDIT)
+    if not isinstance(data, dict):  # formato antiguo (por zonas)
+        return {}, None
+    return data, date.fromtimestamp(AUDIT.stat().st_mtime)
 
 
 def pct(a, b):
@@ -102,26 +93,21 @@ def main():
     w(f"- Datos curiosos en total: **{sum(len(x.get('facts', [])) for x in [*lines, *stations.values(), *trains])}**.\n")
 
     # ---------------------------------------------------------------- cobertura
-    gaps, audit_day = audit_gaps()
-    if gaps:
-        w("## Cobertura por ciudad\n")
-        w(f"Comparado con todas las rutas ferroviarias de OpenStreetMap de cada zona (`tools/audit_coverage.py`, "
-          f"{audit_day:%Y-%m-%d}). Una ciudad sólo está **completa** cuando no le falta ninguna línea ni ninguna estación.\n")
-        w("| Zona | Líneas que faltan | Líneas con estaciones sueltas | Estado |")
-        w("|---|--:|--:|---|")
-        for z, name in ZONE_NAMES.items():
-            miss, part = gaps[z]
-            state = "✅ completa" if not miss and not part else ("🟡 casi" if not miss else "🔧 en curso")
-            w(f"| {name} | {miss} | {part} | {state} |")
-        if AUDIT_ZONES.exists():
-            boxes = list(load(AUDIT_ZONES).values())
-            outside = [s for s in stations.values()
-                       if not any(a <= s["lat"] <= c and b <= s["lon"] <= d for a, b, c, d in boxes)]
-            w(f"\nFuera de esas zonas hay **{len(outside)} estaciones sin comprobar** de {len(stations)} "
-              f"({pct(len(outside), len(stations))}): el corredor entre ciudades y las ciudades que aún no tienen zona. "
-              "Para cerrar una ciudad de verdad hay que ampliar su caja en `ZONES` (`tools/audit_coverage.py`) "
-              "hasta cubrir su área metropolitana.")
-        w("\nEl detalle, en [AUDITORIA.md](AUDITORIA.md).\n")
+    audit, audit_day = audit_report()
+    if audit:
+        tot = sum(x["total"] for x in audit.values())
+        have = tot - sum(x["missing"] for x in audit.values())
+        w("## Cobertura de Japón\n")
+        w(f"Todas las estaciones que OpenStreetMap tiene en cada prefectura, comparadas con las nuestras "
+          f"(`tools/audit_coverage.py`, {audit_day:%Y-%m-%d}).\n")
+        w(f"**{have} de {tot} estaciones de Japón ({pct(have, tot)}).** Una prefectura está completa cuando no le falta ninguna.\n")
+        w("| Prefectura | Estaciones | Tenemos | Faltan | Cobertura |")
+        w("|---|--:|--:|--:|--:|")
+        for code, x in sorted(audit.items()):
+            done = x["total"] - x["missing"]
+            mark = " ✅" if not x["missing"] else ""
+            w(f"| {code} {x['name']}{mark} | {x['total']} | {done} | {x['missing']} | {pct(done, x['total'])} |")
+        w("\nQué líneas faltan en cada una, en [AUDITORIA.md](AUDITORIA.md).\n")
 
     # ---------------------------------------------------------------- lo que hay
     w("## Lo que hay\n")
@@ -177,7 +163,7 @@ def main():
     total = done_n = 0
     for ph in road["phases"]:
         items = [it for g in ph["groups"] for it in g["items"]]
-        done = [it for it in items if is_done(it, line_by_id, train_ids, regions, lines, gaps)]
+        done = [it for it in items if is_done(it, line_by_id, train_ids, regions, lines, audit)]
         total += len(items)
         done_n += len(done)
         w(f"### {ph['title']} ({len(done)}/{len(items)})\n")
@@ -187,7 +173,7 @@ def main():
             w(f"**{g['title']}**\n")
             for it in g["items"]:
                 text = it.get("name") or it.get("task")
-                w(f"- [{'x' if is_done(it, line_by_id, train_ids, regions, lines, gaps) else ' '}] {text}")
+                w(f"- [{'x' if is_done(it, line_by_id, train_ids, regions, lines, audit) else ' '}] {text}")
             w("")
     out.insert(3, f"**Progreso de la hoja de ruta: {done_n} de {total} tareas.**\n")
 
@@ -195,9 +181,10 @@ def main():
     print(f"{OUT.relative_to(ROOT)}: {done_n}/{total} tareas de la hoja de ruta")
 
 
-def is_done(it, line_by_id, train_ids, regions, lines, gaps=None):
-    if "zone" in it:  # una ciudad está hecha cuando la auditoría no le encuentra huecos
-        return bool(gaps) and gaps.get(it["zone"]) == [0, 0]
+def is_done(it, line_by_id, train_ids, regions, lines, audit=None):
+    if "pref" in it:  # una prefectura está hecha cuando no le falta ninguna estación
+        x = (audit or {}).get(it["pref"])
+        return bool(x) and x["missing"] == 0
     if "line" in it:
         return it["line"] in line_by_id
     if "lines" in it:
