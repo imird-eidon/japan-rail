@@ -39,7 +39,17 @@ PREFECTURES = [
     ("46", "Kagoshima"), ("47", "Okinawa"),
 ]
 STATION_Q = '["railway"~"^(station|halt|tram_stop)$"]'
-CLOSED_RE = re.compile(r"(廃止|廃駅|跡)")
+CLOSED_RE = re.compile(r"(廃止|廃駅|跡|信号場|操車場|貨物ターミナル|訓練)")
+# lo que no es servicio de viajeros: mercancías, instalaciones privadas, escuelas de conducción…
+NOT_PUBLIC = {"usage": {"freight", "industrial", "military", "training", "test"}}
+
+
+def is_public(t):
+    if t.get("access") == "private" or t.get("railway:traffic_mode") == "freight":
+        return False
+    if t.get("station") == "miniature" or t.get("railway") == "miniature":  # trenecitos de parque
+        return False
+    return not any(t.get(k) in v for k, v in NOT_PUBLIC.items())
 
 
 AREAS = CACHE / "pref-areas.json"
@@ -111,9 +121,14 @@ def main():
     ours = defaultdict(list)
     for s in net["stations"].values():
         ours[ja_key(s["ja"])].append((s["lat"], s["lon"]))
+        if s.get("name"):  # también por romaji: OSM escribe あびこ y 我孫子 para la misma estación
+            ours["en:" + s["name"].lower().replace("-", "").replace(" ", "")].append((s["lat"], s["lon"]))
 
-    def covered(ja, pt):
-        return any(haversine_m(pt, p) < 1200 for p in ours.get(ja_key(ja), []))
+    def covered(ja, en, pt):
+        keys = [ja_key(ja)]
+        if en:
+            keys.append("en:" + en.lower().replace("-", "").replace(" ", "").removesuffix("station").strip())
+        return any(haversine_m(pt, p) < 1200 for k in keys for p in ours.get(k, []))
 
     prefs = [(c, n) for c, n in PREFECTURES if not args.only or c in args.only]
     report, summary = {}, []
@@ -127,14 +142,14 @@ def main():
         for e in data["elements"]:
             t = e.get("tags", {})
             ja = normalize_ja(t.get("name", ""))
-            if not ja or CLOSED_RE.search(t.get("name", "")) or t.get("disused") or t.get("abandoned"):
+            if not ja or CLOSED_RE.search(t.get("name", "")) or t.get("disused") or t.get("abandoned") or not is_public(t):
                 continue
             key = (ja_key(ja), round(e["lat"], 3), round(e["lon"], 3))
             if key in seen:  # andenes y paradas duplicadas de la misma estación
                 continue
             seen.add(key)
             total += 1
-            if not covered(ja, (e["lat"], e["lon"])):
+            if not covered(ja, t.get("name:en", ""), (e["lat"], e["lon"])):
                 missing_by_line[line_of(t)].append({"ja": ja, "en": t.get("name:en", ""),
                                                     "lat": round(e["lat"], 5), "lon": round(e["lon"], 5)})
         label_gaps(missing_by_line)

@@ -332,6 +332,27 @@
     "fukutetsu": {
       "name": "Fukui Railway",
       "ja": "福井鉄道"
+    },
+    "takao-tozan": {
+      "name": "Takao Tozan Dentetsu"
+    },
+    "mitake-tozan": {
+      "name": "Mitake Tozan Railway"
+    },
+    "kita-city": {
+      "name": "Distrito de Kita (Tokio)"
+    },
+    "matsuchiyama": {
+      "name": "Matsuchiyama Shōden"
+    },
+    "mizuma": {
+      "name": "Mizuma Tetsudō"
+    },
+    "kita-osaka": {
+      "name": "Kita-Ōsaka Kyūkō"
+    },
+    "kix": {
+      "name": "Aeropuerto de Kansai"
     }
   },
   "types": {
@@ -344,7 +365,8 @@
     "mini-shinkansen": "Mini-shinkansen",
     "local": "Tren local",
     "tourist": "Turístico",
-    "maglev": "Maglev"
+    "maglev": "Maglev",
+    "funicular": "Funicular"
   },
   "lines": [
     {
@@ -2293,6 +2315,133 @@
       "region": "tokyo"
     },
     {
+      "id": "takao-cable",
+      "code": "TK",
+      "color": "#2E8B57",
+      "name": "Funicular del monte Takao",
+      "ja": "高尾登山電鉄",
+      "en": "Takao Tozan Cable Car",
+      "operator": "takao-tozan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"高尾登山電鉄\"]",
+        "bbox": [
+          35.62,
+          139.24,
+          35.64,
+          139.27
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "清滝",
+        "高尾山"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Tiene la pendiente más pronunciada de Japón: 31 grados y 18 minutos.",
+        "Sube al monte Takao, la montaña más visitada del mundo, con millones de excursionistas al año."
+      ]
+    },
+    {
+      "id": "mitake-cable",
+      "code": "MT",
+      "color": "#2E8B57",
+      "name": "Funicular del monte Mitake",
+      "ja": "御岳登山鉄道",
+      "en": "Mitake Tozan Railway",
+      "operator": "mitake-tozan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"御岳登山鉄道\"]",
+        "bbox": [
+          35.78,
+          139.14,
+          35.8,
+          139.17
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "滝本",
+        "御岳山"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Sube al santuario Musashi-Mitake, en la montaña sagrada de Mitake, dentro de Tokio."
+      ]
+    },
+    {
+      "id": "asukayama",
+      "code": "AP",
+      "color": "#E8383D",
+      "name": "Asukarugo (parque de Asukayama)",
+      "ja": "あすかパークレール",
+      "en": "Asukayama Park Monorail",
+      "operator": "kita-city",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"^(funicular|monorail)$\"][\"name\"~\"あすかパークレール\"]",
+        "bbox": [
+          35.75,
+          139.734,
+          35.755,
+          139.739
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "公園入口",
+        "山頂"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es gratis: lo puso el distrito de Kita para subir la cuesta del parque de Asukayama en 2 minutos.",
+        "Su nombre, «Asukarugo», junta Asukayama y «escargot», por la forma de caracol del vagón."
+      ]
+    },
+    {
+      "id": "sakura-rail",
+      "code": "SR",
+      "color": "#E7A1B0",
+      "name": "Sakura Rail (Matsuchiyama)",
+      "ja": "さくらレール",
+      "en": "Sakura Rail",
+      "operator": "matsuchiyama",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"さくらレール\"]",
+        "bbox": [
+          35.716,
+          139.802,
+          35.7185,
+          139.804
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "駐車場",
+        "本堂",
+        "寺務所"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es el ascensor inclinado del templo Matsuchiyama Shōden, en Asakusa, gratuito para los visitantes."
+      ]
+    },
+    {
       "id": "tama-monorail",
       "code": "TT",
       "color": "#E86A10",
@@ -2685,6 +2834,200 @@
       "region": "osaka"
     },
     {
+      "id": "mizuma",
+      "code": "MZ",
+      "color": "#0072BC",
+      "name": "Mizuma Tetsudō",
+      "ja": "水間線",
+      "en": "Mizuma Line",
+      "operator": "mizuma",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"水間鉄道水間線\"]",
+        "bbox": [
+          34.39,
+          135.35,
+          34.45,
+          135.39
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "貝塚",
+        "貝塚市役所前",
+        "近義の里",
+        "石才",
+        "清児",
+        "名越",
+        "森",
+        "三ツ松",
+        "三ヶ山口",
+        "水間観音"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Lleva al templo Mizuma Kannon, uno de los del recorrido de peregrinación de Kansai."
+      ]
+    },
+    {
+      "id": "kita-osaka-kyuko",
+      "code": "M",
+      "color": "#E5171F",
+      "name": "Kita-Ōsaka Kyūkō",
+      "ja": "北大阪急行電鉄南北線",
+      "en": "Kita-Osaka Kyuko Namboku Line",
+      "operator": "kita-osaka",
+      "type": "metro",
+      "osm": [
+        21371798
+      ],
+      "station_order": [
+        "江坂",
+        "緑地公園",
+        "桃山台",
+        "千里中央",
+        "箕面船場阪大前",
+        "箕面萱野"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Es la prolongación del metro Midōsuji al norte: los mismos trenes siguen sin transbordo.",
+        "En 2024 se alargó hasta Minoo-Kayano, la primera ampliación en más de cincuenta años."
+      ]
+    },
+    {
+      "id": "nishi-shigi-cable",
+      "code": "Z",
+      "color": "#00A0B0",
+      "name": "Funicular de Nishi-Shigi",
+      "ja": "西信貴ケーブル",
+      "en": "Nishi-Shigi Cable Line",
+      "operator": "kintetsu",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"西信貴ケーブル\"]",
+        "bbox": [
+          34.605,
+          135.635,
+          34.625,
+          135.665
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "信貴山口",
+        "高安山"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Sube al monte Shigi, donde el templo Chōgosonshi-ji guarda la leyenda del tigre de Shōtoku Taishi."
+      ]
+    },
+    {
+      "id": "nankai-tanagawa",
+      "code": "NK",
+      "color": "#0075C2",
+      "name": "Nankai Tanagawa",
+      "ja": "多奈川線",
+      "en": "Nankai Tanagawa Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"南海電気鉄道多奈川線\"]",
+        "bbox": [
+          34.305,
+          135.125,
+          34.335,
+          135.165
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "みさき公園",
+        "深日町",
+        "深日港",
+        "多奈川"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Ramal de 2,6 km hacia el puerto de Fuke, desde donde antes salían los barcos a la isla de Awaji."
+      ]
+    },
+    {
+      "id": "wing-shuttle-norte",
+      "code": "WN",
+      "color": "#7A8B99",
+      "name": "Wing Shuttle (ala norte)",
+      "ja": "ウイングシャトル 北",
+      "en": "Wing Shuttle North",
+      "operator": "kix",
+      "type": "agt",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"tram\"][\"name\"~\"ウイングシャトル\"]",
+        "bbox": [
+          34.4345,
+          135.2455,
+          34.4395,
+          135.252
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "本館",
+        "中間",
+        "先端"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Es el tren automático que recorre el interior de la terminal 1 del aeropuerto de Kansai."
+      ]
+    },
+    {
+      "id": "wing-shuttle-sur",
+      "code": "WS",
+      "color": "#7A8B99",
+      "name": "Wing Shuttle (ala sur)",
+      "ja": "ウイングシャトル 南",
+      "en": "Wing Shuttle South",
+      "operator": "kix",
+      "type": "agt",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"tram\"][\"name\"~\"ウイングシャトル\"]",
+        "bbox": [
+          34.4295,
+          135.238,
+          34.434,
+          135.244
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "本館",
+        "先端"
+      ],
+      "strict_order": true,
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "La terminal 1 de Kansai mide 1,7 km de largo: sin este tren, ir de una punta a otra sería un paseo."
+      ]
+    },
+    {
       "id": "nankai-koya",
       "code": "NK",
       "color": "#009A41",
@@ -2884,7 +3227,10 @@
       ],
       "trains": [],
       "region": "osaka",
-      "order": "geometry"
+      "order": "geometry",
+      "extra_nodes": [
+        5673887388
+      ]
     },
     {
       "id": "hankai-uemachi",
@@ -4247,6 +4593,198 @@
       "trains": [],
       "summary": "De Ikoma a Ōji.",
       "facts": []
+    },
+    {
+      "id": "kintetsu-kashihara",
+      "code": "B",
+      "color": "#E8383D",
+      "name": "Kintetsu Kashihara",
+      "ja": "橿原線",
+      "en": "Kintetsu Kashihara Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近畿日本鉄道橿原線\"]",
+        "bbox": [
+          34.44,
+          135.72,
+          34.72,
+          135.86
+        ],
+        "nearby": true
+      },
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Une Yamato-Saidaiji con Kashihara-Jingū-mae, al pie del santuario más antiguo de Japón."
+      ],
+      "station_order": [
+        "大和西大寺",
+        "尼ヶ辻",
+        "西ノ京",
+        "九条",
+        "近鉄郡山",
+        "筒井",
+        "平端",
+        "ファミリー公園前",
+        "結崎",
+        "石見",
+        "田原本",
+        "笠縫",
+        "新ノ口",
+        "大和八木",
+        "八木西口",
+        "畝傍御陵前",
+        "橿原神宮前"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "kintetsu-yoshino",
+      "code": "F",
+      "color": "#E8383D",
+      "name": "Kintetsu Yoshino",
+      "ja": "吉野線",
+      "en": "Kintetsu Yoshino Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近畿日本鉄道吉野線\"]",
+        "bbox": [
+          34.3,
+          135.72,
+          34.53,
+          135.93
+        ],
+        "nearby": true
+      },
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Es la línea de los cerezos de Yoshino, el lugar más famoso de Japón para verlos en flor.",
+        "Tiene vía estrecha (1067 mm), distinta del resto de la red de Kintetsu."
+      ],
+      "station_order": [
+        "橿原神宮前",
+        "岡寺",
+        "飛鳥",
+        "壺阪山",
+        "市尾",
+        "葛",
+        "吉野口",
+        "薬水",
+        "福神",
+        "大阿太",
+        "下市口",
+        "越部",
+        "六田",
+        "大和上市",
+        "吉野神宮",
+        "吉野"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "wakayama-line",
+      "code": "T",
+      "color": "#F6A800",
+      "name": "JR Wakayama",
+      "ja": "和歌山線",
+      "en": "JR Wakayama Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR和歌山線\"]",
+        "bbox": [
+          34.15,
+          135.15,
+          34.65,
+          135.78
+        ],
+        "nearby": true
+      },
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Cruza el valle del Yamato de este a oeste, de Ōji a Wakayama, por el interior de la península de Kii."
+      ],
+      "station_order": [
+        "王寺",
+        "畠田",
+        "志都美",
+        "香芝",
+        "JR五位堂",
+        "高田",
+        "大和新庄",
+        "御所",
+        "玉手",
+        "掖上",
+        "吉野口",
+        "北宇智",
+        "五条",
+        "大和二見",
+        "隅田",
+        "下兵庫",
+        "橋本",
+        "紀伊山田",
+        "高野口",
+        "中飯降",
+        "妙寺",
+        "大谷",
+        "笠田",
+        "西笠田",
+        "名手",
+        "粉河",
+        "紀伊長田",
+        "打田",
+        "下井阪",
+        "岩出",
+        "船戸",
+        "紀伊小倉",
+        "布施屋",
+        "千旦",
+        "田井ノ瀬",
+        "和歌山"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "ikoma-cable",
+      "code": "Y",
+      "color": "#00A0B0",
+      "name": "Funicular de Ikoma",
+      "ja": "生駒鋼索線",
+      "en": "Ikoma Cable Line",
+      "operator": "kintetsu",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"生駒鋼索線\"]",
+        "bbox": [
+          34.66,
+          135.65,
+          34.71,
+          135.72
+        ],
+        "nearby": true
+      },
+      "region": "osaka",
+      "trains": [],
+      "facts": [
+        "Es el funicular más antiguo de Japón: funciona desde 1918.",
+        "Sus coches tienen forma de gato y de perro; suben al monte Ikoma en dos tramos."
+      ],
+      "station_order": [
+        "鳥居前",
+        "宝山寺",
+        "梅屋敷",
+        "霞ヶ丘",
+        "生駒山上"
+      ],
+      "strict_order": true
     },
     {
       "id": "kintetsu-tenri",

@@ -148,7 +148,14 @@
   "朝倉駅前": "Asakura-ekimae",
   "大塚駅前": "Otsuka-ekimae",
   "王子駅前": "Oji-ekimae",
-  "町屋駅前": "Machiya-ekimae"
+  "町屋駅前": "Machiya-ekimae",
+  "清滝": "Kiyotaki",
+  "駐車場": "Chushajo",
+  "本堂": "Hondo",
+  "寺務所": "Jimusho",
+  "山頂": "Sancho",
+  "公園入口": "Koen-iriguchi",
+  "御岳山": "Mitakesan"
  },
  "station_codes": {
   "oedo": {

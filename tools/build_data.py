@@ -175,9 +175,19 @@ def fetch_relation(rel_id, refresh):
     log(f"  descargando relación {rel_id}…")
     # las relaciones de línea (no de servicio) a veces no llevan paradas como miembros:
     # pedimos también las estaciones que están sobre sus vías, como respaldo
-    data = overpass(f"[out:json][timeout:240];relation({rel_id})->.r;.r out geom;node(r.r);out;way(r.r)->.w;"
-                    '(node(around.w:60)["railway"~"^(station|halt|stop)$"];'
-                    ' node(around.w:60)["public_transport"="stop_position"];);out;')
+    full = (f"[out:json][timeout:240];relation({rel_id})->.r;.r out geom;node(r.r);out;way(r.r)->.w;"
+            '(node(around.w:60)["railway"~"^(station|halt|stop)$"];'
+            ' node(around.w:60)["public_transport"="stop_position"];);out;')
+    simple = f"[out:json][timeout:240];relation({rel_id})->.r;.r out geom;node(r.r);out;"
+    data = {}
+    for q in (full, simple):  # buscar estaciones alrededor de la vía es caro: si no sale, vamos a lo básico
+        try:
+            data = overpass(q)
+        except RuntimeError as e:
+            log(f"    consulta completa fallida ({e}); pruebo la sencilla")
+            continue
+        if any(e["type"] == "relation" for e in data.get("elements", [])):
+            break
     if not any(e["type"] == "relation" for e in data.get("elements", [])):
         raise RuntimeError(f"La relación {rel_id} no existe o vino vacía")
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
@@ -193,8 +203,8 @@ def fetch_ways(line, refresh):
     query = (f'[out:json][timeout:180];{q["filter"]}({bbox})->.w;.w out geom;'
              'node(w.w)["name"]->.n;.n out;')
     if q.get("nearby"):  # estaciones mapeadas junto a la vía y no sobre ella
-        query += ('(node(around.w:80)["railway"~"^(station|halt|stop)$"];'
-                  ' node(around.w:80)["public_transport"="stop_position"];);out;')
+        query += ('(node(around.w:80)["railway"~"^(station|halt|stop|tram_stop)$"];'
+                  ' node(around.w:80)["public_transport"~"^(stop_position|station)$"];);out;')
     key = hashlib.sha1(query.encode()).hexdigest()[:12]
     path = CACHE / f"ways-{line['id']}-{key}.json"
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -218,7 +228,7 @@ def fetch_nodes(ids, refresh):
     return data
 
 
-def parse_ways(data):
+def parse_ways(data, trams=False):
     segments, stops = [], []
     for e in data["elements"]:
         if e["type"] == "way" and "geometry" in e:
@@ -227,7 +237,8 @@ def parse_ways(data):
             segments.append([(round(p["lat"], 7), round(p["lon"], 7)) for p in e["geometry"] if p])
         elif e["type"] == "node":
             t = e.get("tags", {})
-            if t.get("railway") in ("stop", "halt", "station") or t.get("public_transport") == "stop_position":
+            kinds = ("stop", "halt", "station") + (("tram_stop",) if trams else ())
+            if t.get("railway") in kinds or t.get("public_transport") == "stop_position":
                 stops.append(e)
     return segments, stops
 
@@ -466,7 +477,7 @@ def main():
             sources.append(("nodes", False))
         for rel_id, use_geometry in sources:
             if rel_id == "ways":
-                segs, rel_stops = parse_ways(fetch_ways(line, args.refresh))
+                segs, rel_stops = parse_ways(fetch_ways(line, args.refresh), line["osm_ways"].get("nearby"))
             elif rel_id == "nodes":
                 segs, rel_stops = [], fetch_nodes(line["extra_nodes"], args.refresh)["elements"]
             else:
@@ -505,6 +516,8 @@ def main():
             stops = order_along(stops, chains)
         elif line.get("station_order"):  # orden explícito (nombres japoneses) para relaciones caóticas
             pos = {ja_key(n): i for i, n in enumerate(line["station_order"])}
+            if line.get("strict_order"):  # sólo las de la lista: descarta lo que arrastran las vías vecinas
+                stops = [st for st in stops if ja_key(st["ja"]) in pos]
             stops.sort(key=lambda st: pos.get(ja_key(st["ja"]), len(pos)))
         elif line.get("order") == "code":  # todas las paradas numeradas: el código manda (vías dobles, cuádruples…)
             stops.sort(key=lambda st: int(re.sub(r"\D", "", st["code"] or "999")))
@@ -539,7 +552,7 @@ def main():
         for tid in line.get("trains", []):
             if tid not in train_ids:
                 warnings.append(f"{line['id']}: tren desconocido '{tid}'")
-        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways", "extra_nodes", "no_extrapolate", "station_order", "skip_stations")},
+        out_lines.append({**{k: v for k, v in line.items() if k not in ("osm", "section", "order", "extra_stops", "osm_ways", "extra_nodes", "no_extrapolate", "station_order", "skip_stations", "strict_order")},
                           "osm": line["osm"],
                           "stations": order,   # se sustituye por ids más abajo
                           "drawn_km": round(drawn_km, 1),

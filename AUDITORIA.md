@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 4025 de 9660 estaciones (42 %).**
+**Japón: 4102 de 9653 estaciones (42 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -18,7 +18,7 @@
 | [Gunma](#10-gunma) | 140 | 8 | 132 | 6 % |
 | [Saitama](#11-saitama) | 239 | 180 | 59 | 75 % |
 | [Chiba](#12-chiba) | 350 | 196 | 154 | 56 % |
-| [Tokio](#13-tokio) | 786 | 774 | 12 | 98 % |
+| [Tokio](#13-tokio) | 783 | 783 | 0 | 100 % |
 | [Kanagawa](#14-kanagawa) | 392 | 342 | 50 | 87 % |
 | [Niigata](#15-niigata) | 202 | 9 | 193 | 4 % |
 | [Toyama](#16-toyama) | 212 | 26 | 186 | 12 % |
@@ -32,9 +32,9 @@
 | [Mie](#24-mie) | 234 | 25 | 209 | 11 % |
 | [Shiga](#25-shiga) | 122 | 67 | 55 | 55 % |
 | [Kioto](#26-kioto) | 242 | 182 | 60 | 75 % |
-| [Ōsaka](#27-ōsaka) | 558 | 529 | 29 | 95 % |
+| [Ōsaka](#27-ōsaka) | 554 | 554 | 0 | 100 % |
 | [Hyōgo](#28-hyōgo) | 390 | 262 | 128 | 67 % |
-| [Nara](#29-nara) | 128 | 85 | 43 | 66 % |
+| [Nara](#29-nara) | 128 | 128 | 0 | 100 % |
 | [Wakayama](#30-wakayama) | 121 | 20 | 101 | 17 % |
 | [Tottori](#31-tottori) | 73 | 0 | 73 | 0 % |
 | [Shimane](#32-shimane) | 116 | 0 | 116 | 0 % |
@@ -249,13 +249,7 @@
 
 ## 13 Tokio
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 4 | 清滝、駐車場、本堂、寺務所 |
-| 御岳登山鉄道 | 3 | 滝本、御岳山、高尾山 |
-| (sin línea) 東京都北区 | 2 | 山頂、公園入口 |
-| (sin línea) 東日本旅客鉄道株式会社 | 2 | 大田、志茂田 |
-| (sin línea) JR貨物 | 1 | 東京貨物ターミナル |
+Completa ✅
 
 ## 14 Kanagawa
 
@@ -487,16 +481,7 @@
 
 ## 27 Ōsaka
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 水間線 | 9 | 三ヶ山口、森、清児、名越、三ツ松、石才、近義の里、水間観音、貝塚市役所前 |
-| 南海本線 | 6 | 難波、今池、高安山、箕面萱野、緑地公園、箕面船場阪大前 |
-| (sin línea) 関西国際空港 | 5 | 先端、本館、中間、先端、本館 |
-| 多奈川線 | 3 | 深日町、多奈川、深日港 |
-| (sin línea) | 2 | 桜谷、風の峠 |
-| (sin línea) 日本貨物鉄道 | 2 | 吹田貨物ターミナル、大阪貨物ターミナル |
-| (sin línea) 大阪市高速電気軌道 | 1 | 我孫子 |
-| (sin línea) 北大阪急行電鉄株式会社 | 1 | 桃山台 |
+Completa ✅
 
 ## 28 Hyōgo
 
@@ -527,13 +512,7 @@
 
 ## 29 Nara
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 吉野線 | 14 | 壺阪山、六田、大和上市、越部、岡寺、市尾、吉野神宮、薬水、福神、飛鳥、葛、大阿太… |
-| 橿原線 | 13 | 尼ヶ辻、筒井、西ノ京、九条、近鉄郡山、ファミリー公園前、結崎、石見、田原本、笠縫、新ノ口、八木西口… |
-| 和歌山線 | 10 | 御所、JR五位堂、香芝、志都美、畠田、掖上、玉手、五条、大和二見、北宇智 |
-| 生駒鋼索線 | 5 | 生駒山上、梅屋敷、霞ヶ丘、鳥居前、宝山寺 |
-| 和歌山線;吉野線 | 1 | 吉野口 |
+Completa ✅
 
 ## 30 Wakayama
 
