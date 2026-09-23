@@ -431,6 +431,15 @@
     },
     "hikosan": {
       "name": "Slope Car del monte Hiko"
+    },
+    "abukuma": {
+      "name": "Abukuma Kyūkō"
+    },
+    "donan": {
+      "name": "Dōnan Isaribi Tetsudō"
+    },
+    "sorachi": {
+      "name": "Sorachi Tetsudō"
     }
   },
   "types": {
@@ -9221,9 +9230,7 @@
       "en": "JR Gakuentoshi Line",
       "operator": "jr-hokkaido",
       "type": "commuter",
-      "osm": [
-        11843521
-      ],
+      "osm": [],
       "region": "sapporo",
       "trains": [],
       "facts": [
@@ -9231,7 +9238,580 @@
         "En 2020 se cerró el tramo sin electrificar más allá de Hokkaidō-Iryōdaigaku."
       ],
       "opened": 1931,
-      "length_km": 28.9
+      "length_km": 28.9,
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR札沼線|札沼線\"]",
+        "bbox": [
+          43.0,
+          141.25,
+          43.35,
+          141.6
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "extra_nodes": [
+        4086852685
+      ]
+    },
+    {
+      "id": "tohoku-main",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Tōhoku (Fukushima–Ichinoseki)",
+      "ja": "東北本線",
+      "en": "Tōhoku Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^JR東北本線$\"]",
+        "bbox": [
+          37.7,
+          140.3,
+          39.05,
+          141.3
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Fue la línea troncal del norte de Japón antes del Shinkansen."
+      ],
+      "skip_stations": [
+        "曽根田",
+        "美術館図書館前",
+        "泉",
+        "上松川",
+        "laのばら",
+        "笹谷",
+        "桜水",
+        "平野",
+        "医王寺前"
+      ]
+    },
+    {
+      "id": "rifu",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Tōhoku: ramal de Rifu",
+      "ja": "東北本線（利府線）",
+      "en": "Rifu Branch Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"利府線\"]",
+        "bbox": [
+          38.25,
+          140.9,
+          38.4,
+          141.1
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "岩切",
+        "新利府",
+        "利府"
+      ],
+      "strict_order": true,
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Es lo que queda del viejo trazado que subía a Rifu antes de abrirse la variante de Higashi-Shiogama."
+      ]
+    },
+    {
+      "id": "abukuma",
+      "code": "AB",
+      "color": "#E8383D",
+      "name": "Abukuma Kyūkō",
+      "ja": "阿武隈急行線",
+      "en": "Abukuma Express Line",
+      "operator": "abukuma",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"阿武隈急行線\"]",
+        "bbox": [
+          37.7,
+          140.4,
+          38.1,
+          140.9
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Sigue el valle del río Abukuma entre Fukushima y Tsukinoki."
+      ]
+    },
+    {
+      "id": "ishinomaki",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ishinomaki",
+      "ja": "石巻線",
+      "en": "Ishinomaki Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR石巻線\"]",
+        "bbox": [
+          38.35,
+          140.95,
+          38.6,
+          141.6
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Termina en Onagawa, arrasada por el tsunami de 2011 y reabierta en 2015 con la estación más alta y nueva."
+      ]
+    },
+    {
+      "id": "kesennuma-rail",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Kesennuma (tramo de tren)",
+      "ja": "気仙沼線",
+      "en": "Kesennuma Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR気仙沼線\"]",
+        "bbox": [
+          38.45,
+          141.15,
+          38.75,
+          141.45
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "De Maeyachi a Yanaizu; el resto hasta Kesennuma es autobús (BRT) desde 2020, tras el tsunami."
+      ]
+    },
+    {
+      "id": "joban-sendai",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Jōban (Sendai–Shinchi)",
+      "ja": "常磐線",
+      "en": "Jōban Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"常磐線\"]",
+        "bbox": [
+          37.7,
+          140.8,
+          38.3,
+          141.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "Su tramo costero se reconstruyó tierra adentro tras el tsunami de 2011."
+      ]
+    },
+    {
+      "id": "rikuu-east",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Rikuu East",
+      "ja": "陸羽東線",
+      "en": "Rikuu East Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR陸羽東線\"]",
+        "bbox": [
+          38.5,
+          140.4,
+          38.9,
+          141.1
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "La llaman «línea de los balnearios»: pasa por Naruko Onsen y sus aguas termales."
+      ]
+    },
+    {
+      "id": "hakodate-yamasen",
+      "code": "S",
+      "color": "#E5006E",
+      "name": "JR Hakodate (Hakodate–Otaru)",
+      "ja": "函館本線",
+      "en": "Hakodate Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^JR函館本線$|^函館本線$\"]",
+        "bbox": [
+          41.7,
+          139.9,
+          43.3,
+          141.0
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "El tramo de montaña entre Oshamambe y Otaru, la «Yamasen», va entre bosques y el volcán Yōtei."
+      ]
+    },
+    {
+      "id": "hakodate-asahikawa",
+      "code": "A",
+      "color": "#E5006E",
+      "name": "JR Hakodate (Iwamizawa–Asahikawa)",
+      "ja": "函館本線",
+      "en": "Hakodate Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR函館本線\"]",
+        "bbox": [
+          43.1,
+          141.7,
+          43.85,
+          142.45
+        ],
+        "nearby": 350
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [],
+      "extra_nodes": [
+        264420469
+      ]
+    },
+    {
+      "id": "sekisho",
+      "code": "K",
+      "color": "#F6A800",
+      "name": "JR Sekishō",
+      "ja": "石勝線",
+      "en": "Sekishō Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"石勝線\"]",
+        "bbox": [
+          42.7,
+          141.55,
+          43.3,
+          142.9
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Es el atajo entre Sapporo y el este de Hokkaidō: 132 km casi sin pueblos, entre montañas.",
+        "Su estación de Shin-Yūbari sustituyó a la vieja línea de las minas de carbón de Yūbari."
+      ]
+    },
+    {
+      "id": "ofunato-rail",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ōfunato (tramo de tren)",
+      "ja": "大船渡線",
+      "en": "Ōfunato Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"大船渡線\"]",
+        "bbox": [
+          38.85,
+          140.95,
+          39.1,
+          141.6
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "sendai",
+      "trains": [],
+      "facts": [
+        "De Ichinoseki a Kesennuma; el tramo hasta Sakari va en autobús (BRT) desde 2020.",
+        "La llaman «línea dragón» por sus curvas: se trazó a golpe de intereses políticos locales."
+      ]
+    },
+    {
+      "id": "sorachi",
+      "code": "SR",
+      "color": "#2E8B57",
+      "name": "Sorachi Tetsudō",
+      "ja": "空知鉄道",
+      "en": "Sorachi Railway",
+      "operator": "sorachi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"空知鉄道\"]",
+        "bbox": [
+          43.2,
+          141.7,
+          43.45,
+          141.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "muroran",
+      "code": "H",
+      "color": "#0072BC",
+      "name": "JR Muroran",
+      "ja": "室蘭本線",
+      "en": "Muroran Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"室蘭本線\"]",
+        "bbox": [
+          42.2,
+          140.3,
+          43.3,
+          142.0
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Se tendió para sacar el carbón de Yūbari hacia el puerto de Muroran."
+      ]
+    },
+    {
+      "id": "nemuro",
+      "code": "K",
+      "color": "#00A0B0",
+      "name": "JR Nemuro (Hanasaki)",
+      "ja": "根室本線",
+      "en": "Nemuro Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR根室本線\"]",
+        "bbox": [
+          42.7,
+          142.0,
+          43.6,
+          145.7
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Llega a Higashi-Nemuro, la estación más oriental de Japón."
+      ]
+    },
+    {
+      "id": "soya",
+      "code": "W",
+      "color": "#7B3F98",
+      "name": "JR Sōya",
+      "ja": "宗谷本線",
+      "en": "Sōya Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR宗谷本線\"]",
+        "bbox": [
+          43.7,
+          141.6,
+          45.5,
+          142.6
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Termina en Wakkanai, la estación más al norte de Japón, a 43 km de Rusia."
+      ]
+    },
+    {
+      "id": "sekihoku",
+      "code": "A",
+      "color": "#F6A800",
+      "name": "JR Sekihoku",
+      "ja": "石北本線",
+      "en": "Sekihoku Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR石北本線\"]",
+        "bbox": [
+          43.6,
+          142.3,
+          44.2,
+          144.4
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Cruza el paso de Sekihoku; en invierno hay que despejarlo con quitanieves rotativos."
+      ]
+    },
+    {
+      "id": "senmo",
+      "code": "B",
+      "color": "#2E8B57",
+      "name": "JR Senmō",
+      "ja": "釧網本線",
+      "en": "Senmō Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"釧網本線\"]",
+        "bbox": [
+          42.95,
+          143.85,
+          44.15,
+          144.95
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Bordea el mar de Ojotsk: en invierno se ve el hielo a la deriva desde la ventanilla.",
+        "Pasa junto a los humedales de Kushiro, donde vive la grulla de coronilla roja."
+      ]
+    },
+    {
+      "id": "furano",
+      "code": "F",
+      "color": "#E8383D",
+      "name": "JR Furano",
+      "ja": "富良野線",
+      "en": "Furano Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR富良野線\"]",
+        "bbox": [
+          43.2,
+          142.3,
+          43.85,
+          142.6
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Es la línea de los campos de lavanda de Furano; en verano para en un apeadero abierto solo para verlos."
+      ]
+    },
+    {
+      "id": "hidaka",
+      "code": "H",
+      "color": "#00A0B0",
+      "name": "JR Hidaka",
+      "ja": "日高本線",
+      "en": "Hidaka Main Line",
+      "operator": "jr-hokkaido",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日高本線\"]",
+        "bbox": [
+          42.5,
+          141.5,
+          42.75,
+          142.1
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "De Tomakomai a Mukawa; el resto de la línea, arrasado por los temporales, se cerró en 2021."
+      ]
+    },
+    {
+      "id": "donan-isaribi",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Dōnan Isaribi Tetsudō",
+      "ja": "道南いさりび鉄道線",
+      "en": "Dōnan Isaribi Railway",
+      "operator": "donan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"道南いさりび鉄道線\"]",
+        "bbox": [
+          41.6,
+          140.3,
+          41.95,
+          140.8
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "sapporo",
+      "trains": [],
+      "facts": [
+        "Se quedó con el tramo de la vieja línea Esashi cuando llegó el Shinkansen a Hokkaidō.",
+        "Su nombre, «isaribi», son las luces de los barcos de pesca de calamar que se ven de noche."
+      ]
     },
     {
       "id": "sendai-namboku",

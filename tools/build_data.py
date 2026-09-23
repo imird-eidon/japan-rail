@@ -239,7 +239,11 @@ def parse_ways(data, trams=False):
         elif e["type"] == "node":
             t = e.get("tags", {})
             kinds = ("stop", "halt", "station") + (("tram_stop",) if trams else ())
-            if t.get("railway") in kinds or t.get("public_transport") == "stop_position":
+            # exigimos etiqueta ferroviaria: si no, entran las paradas de autobús, que en Japón
+            # también son «public_transport=stop_position» y están pegadas a la vía en las estaciones
+            ferroviario = t.get("railway") in kinds or any(
+                t.get(k) == "yes" for k in ("train", "subway", "monorail", "light_rail", "funicular"))
+            if ferroviario:
                 stops.append(e)
     return segments, stops
 
@@ -328,7 +332,8 @@ def parse_relation(data):
             name = t.get("name", "")
             if not name or "信号場" in name:  # los apartaderos no son paradas
                 continue
-            if t.get("railway") in ("station", "halt", "stop") or t.get("public_transport") == "stop_position":
+            if t.get("railway") in ("station", "halt", "stop") or (
+                    t.get("public_transport") == "stop_position" and t.get("train") == "yes"):
                 stops.append(n)
     return rel, segments, stops
 

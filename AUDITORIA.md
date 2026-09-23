@@ -2,14 +2,14 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 5109 de 9619 estaciones (53 %).**
+**Japón: 5451 de 9587 estaciones (57 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
-| [Hokkaidō](#01-hokkaidō) | 451 | 178 | 273 | 39 % |
+| [Hokkaidō](#01-hokkaidō) | 447 | 447 | 0 | 100 % |
 | [Aomori](#02-aomori) | 157 | 5 | 152 | 3 % |
 | [Iwate](#03-iwate) | 187 | 9 | 178 | 5 % |
-| [Miyagi](#04-miyagi) | 184 | 83 | 101 | 45 % |
+| [Miyagi](#04-miyagi) | 156 | 156 | 0 | 100 % |
 | [Akita](#05-akita) | 144 | 4 | 140 | 3 % |
 | [Yamagata](#06-yamagata) | 121 | 17 | 104 | 14 % |
 | [Fukushima](#07-fukushima) | 188 | 3 | 185 | 2 % |
@@ -56,26 +56,9 @@
 
 ## 01 Hokkaidō
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 根室線 | 54 | 大楽毛、厚岸、姉別、厚床、上尾幌、根室、尾幌、昆布盛、浜中、西和田、幕別、利別… |
-| 函館線 | 50 | 納内、滝川、妹背牛、豊沼、塩谷、江部乙、砂川、余市、然別、奈井江、茶志内、仁木… |
-| 室蘭線 | 45 | 志文、栗丘、栗沢、栗山、早来、白老、有珠、萩野、母恋、豊浦、崎守、三川… |
-| 宗谷線 | 40 | 蘭留、士別、天塩川温泉、剣淵、風連、永山、和寒、日進、北永山、智北、美深、智恵文… |
-| (sin línea) | 23 | 北見、相内、柏陽、緋牛内、安国、東相内、西北見、生田原、西留辺蘂、留辺蘂、愛し野、瀬戸瀬… |
-| 釧網線 | 19 | 緑、札弦、北浜、清里町、止別、浜小清水、摩周、原生花園、鱒浦、川湯温泉、美留和、中斜里… |
-| 富良野線 | 17 | 西瑞穂、美馬牛、千代ヶ岡、旭川、西神楽、緑が丘、美瑛、西御料、北美瑛、西聖和、神楽岡、学田… |
-| (sin línea) 道南いさりび鉄道 | 10 | 上磯、七重浜、久根別、渡島当別、泉沢、茂辺地、東久根別、清川口、釜谷、札苅 |
-| 日高線 | 3 | 勇払、浜厚真、鵡川 |
-| (sin línea) 空知鉄道 | 3 | 赤川、南赤川、新北村 |
-| 宗谷線;石北線 | 2 | 新旭川、南永山 |
-| 函館線;留萌線 | 1 | 深川 |
-| 富良野線;根室線 | 1 | 富良野 |
-| (sin línea) 北海道旅客鉄道 | 1 | ラベンダー畑 |
-| (sin línea) 北海道旅客鉄道;道南いさりび鉄道 | 1 | 五稜郭 |
-| 石北線;釧網線 | 1 | 網走 |
-| 室蘭線;日高線 | 1 | 苫小牧 |
-| 函館線;室蘭線 | 1 | 長万部 |
+Sin contar (no son servicio de viajeros): 吉岡定点 (apartadero de emergencia dentro del túnel de Seikan, sin servicio)
+
+Completa ✅
 
 ## 02 Aomori
 
@@ -122,13 +105,9 @@
 
 ## 04 Miyagi
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 55 | 新利府、丸森、岡、田尻、新田、品井沼、梅ヶ沢、松山町、有壁、大河原、のの岳、御岳堂… |
-| (sin línea) 東日本旅客鉄道 | 32 | 船岡、陸前戸倉、陸前階上、陸前横山、最知、本吉、南気仙沼、陸前港、蔵内、不動の沢、浜吉田、志津川… |
-| 陸羽東線 | 9 | 鳴子温泉、鳴子御殿湯、中山平温泉、岩出山、池月、上野目、有備館、川渡温泉、西大崎 |
-| 気仙沼線 | 4 | 陸前小泉、清水浜、柳津、気仙沼 |
-| (sin línea) 阿武隈急行線 | 1 | あぶくま |
+Sin contar (no son servicio de viajeros): 陸前戸倉 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前階上 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前横山 (parada del BRT (autobús) que sustituyó al tren en 2020)、最知 (parada del BRT (autobús) que sustituyó al tren en 2020)、本吉 (parada del BRT (autobús) que sustituyó al tren en 2020)、南気仙沼 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前港 (parada del BRT (autobús) que sustituyó al tren en 2020)、蔵内 (parada del BRT (autobús) que sustituyó al tren en 2020)、不動の沢 (parada del BRT (autobús) que sustituyó al tren en 2020)、志津川 (parada del BRT (autobús) que sustituyó al tren en 2020)、南三陸町役場・病院前 (parada del BRT (autobús) que sustituyó al tren en 2020)、松岩 (parada del BRT (autobús) que sustituyó al tren en 2020)、大谷海岸 (parada del BRT (autobús) que sustituyó al tren en 2020)、鹿折唐桑 (parada del BRT (autobús) que sustituyó al tren en 2020)、気仙沼市立病院 (parada del BRT (autobús) que sustituyó al tren en 2020)、赤岩港 (parada del BRT (autobús) que sustituyó al tren en 2020)、歌津 (parada del BRT (autobús) que sustituyó al tren en 2020)、大谷まち (parada del BRT (autobús) que sustituyó al tren en 2020)、内湾入口 (parada del BRT (autobús) que sustituyó al tren en 2020)、志津川中央団地 (parada del BRT (autobús) que sustituyó al tren en 2020)、小金沢 (parada del BRT (autobús) que sustituyó al tren en 2020)、岩月 (parada del BRT (autobús) que sustituyó al tren en 2020)、唐桑大沢 (parada del BRT (autobús) que sustituyó al tren en 2020)、八幡大橋 (parada del BRT (autobús) que sustituyó al tren en 2020)、上鹿折 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前小泉 (parada del BRT (autobús) que sustituyó al tren en 2020)、清水浜 (parada del BRT (autobús) que sustituyó al tren en 2020)、東新城 (parada del BRT (autobús) que sustituyó al tren en 2020)
+
+Completa ✅
 
 ## 05 Akita
 
