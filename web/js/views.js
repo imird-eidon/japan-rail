@@ -89,22 +89,33 @@ function linesTab(net, hidden) {
   return `<div class="chips" aria-label="Mostrar u ocultar regiones">${chips}</div>${groups}`;
 }
 
+const PRIMERAS = 150;   // el resto de la lista la va añadiendo app.js cuando el navegador está libre
+
+const stationRow = (net, s) => `<li>${link("station", s.id, `
+      <span class="st-name">${esc(s.name)} <span class="ja">${esc(s.ja)}</span></span>
+      <span class="st-lines">${s.lines.map((x) => dot(net.lineById.get(x.line))).join("")}</span>`, "station-row")}</li>`;
+
+/** Estaciones ordenadas por nombre; la pestaña solo pinta las primeras y el resto llega después. */
+export const allStations = (net) => [...net.stationList].sort((a, b) => a.name.localeCompare(b.name));
+
+/** Trozo de la lista de estaciones, en HTML (lo usa app.js para completarla sin bloquear). */
+export const stationRows = (net, list, from, count) =>
+  list.slice(from, from + count).map((s) => stationRow(net, s)).join("");
+
 function stationsTab(net) {
   const hubs = [...net.stationList].sort((a, b) => b.lines.length - a.lines.length || a.name.localeCompare(b.name)).slice(0, 12);
-  const all = [...net.stationList].sort((a, b) => a.name.localeCompare(b.name));
-  const row = (s) => link("station", s.id, `
-      <span class="st-name">${esc(s.name)} <span class="ja">${esc(s.ja)}</span></span>
-      <span class="st-lines">${s.lines.map((x) => dot(net.lineById.get(x.line))).join("")}</span>`, "station-row");
+  const all = allStations(net);
   return `
     <h2 class="group-title">Grandes nudos</h2>
-    <ul class="station-list">${hubs.map((s) => `<li>${row(s)}</li>`).join("")}</ul>
+    <ul class="station-list">${hubs.map((s) => stationRow(net, s)).join("")}</ul>
     <h2 class="group-title">Todas las estaciones (${all.length})</h2>
-    <ul class="station-list">${all.map((s) => `<li>${row(s)}</li>`).join("")}</ul>`;
+    <ul class="station-list" data-rest="${PRIMERAS}">${stationRows(net, all, 0, PRIMERAS)}</ul>`;
 }
 
 /** Miniatura de la foto del tren o, si no hay, el icono. */
 const trainThumb = (t, cls = "thumb") =>
-  t.photo ? `<img class="${cls}" src="${esc(t.photo.thumb || t.photo.src)}" alt="" loading="lazy" decoding="async">`
+  t.photo ? `<img class="${cls}" data-src="${esc(t.photo.thumb || t.photo.src)}" alt="" decoding="async"
+                  width="${cls === "thumb" ? 64 : 320}" height="${cls === "thumb" ? 40 : 200}">`
           : `<span class="${cls} no-photo">${trainIcon(cls === "thumb" ? 18 : 28)}</span>`;
 
 /** Años en una línea: «1963–1988», «hasta 1986», «desde 1954» (cuando solo se conoce uno). */

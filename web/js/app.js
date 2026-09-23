@@ -3,7 +3,7 @@
 //   #/line/<id>        #/station/<id>       #/train/<id>
 import { loadNetwork, allFacts, search, esc } from "./data.js";
 import { createMap } from "./map.js";
-import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon } from "./views.js";
+import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon, allStations, stationRows } from "./views.js";
 
 const panel = document.getElementById("panel");
 const input = document.getElementById("search");
@@ -28,6 +28,7 @@ const go = (hash) => { if (location.hash !== hash) location.hash = hash; else ro
 let net, map;
 const scrollMemory = new Map();   // hash → posición de scroll del panel
 let lastHash = null;
+let mapFocused = false;           // ¿el mapa está centrado en una línea/estación/tren?
 
 async function main() {
   try {
@@ -56,28 +57,71 @@ function route({ initial = false } = {}) {
   if (type === "line") {
     const line = net.lineById.get(id);
     html = line ? lineView(net, line) : notFoundView("esa línea");
-    if (line) { map.focusLine(line.id, { animate: !initial }); document.title = `${line.name} · Japan Rail Explorer`; }
+    if (line) { mapFocused = true; map.focusLine(line.id, { animate: !initial }); document.title = `${line.name} · Japan Rail Explorer`; }
   } else if (type === "station") {
     const st = net.stations[id];
     html = st ? stationView(net, st) : notFoundView("esa estación");
-    if (st) { map.focusStation(st.id, { animate: !initial }); document.title = `${st.name} ${st.ja} · Japan Rail Explorer`; }
+    if (st) { mapFocused = true; map.focusStation(st.id, { animate: !initial }); document.title = `${st.name} ${st.ja} · Japan Rail Explorer`; }
   } else if (type === "train") {
     const t = net.trainById.get(id);
     html = t ? trainView(net, t) : notFoundView("ese tren");
-    if (t) { map.focusLines(t.lines.length ? t.lines : (t.history || []).map((h) => h.line), { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
+    if (t) { mapFocused = true; map.focusLines(t.lines.length ? t.lines : (t.history || []).map((h) => h.line), { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
   } else {
     const tab = ["stations", "trains"].includes(type) ? type : "lines";
     html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });
-    map.overview({ fit: initial });
+    if (initial || mapFocused) map.overview({ fit: initial });   // entre pestañas el mapa no cambia
+    mapFocused = false;
     document.title = "Japan Rail Explorer";
   }
 
   if (lastHash !== null) scrollMemory.set(lastHash, panel.scrollTop);
   lastHash = location.hash;
   panel.innerHTML = `<div class="view">${html}</div>`;
+  lazyImages();
+  fillRest();
   // al volver a una vista ya visitada se recupera la posición; a una nueva, se empieza arriba
   panel.scrollTop = scrollMemory.get(lastHash) ?? 0;
   if (!initial) panel.focus({ preventScroll: true });
+}
+
+// Las fotos se piden solo cuando se acercan al hueco visible: la lista de trenes tiene
+// casi doscientas miniaturas y cargarlas de golpe bloqueaba la pestaña.
+const imgWatcher = "IntersectionObserver" in window
+  ? new IntersectionObserver((entries, obs) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue;
+        const img = e.target;
+        img.src = img.dataset.src;
+        img.removeAttribute("data-src");
+        obs.unobserve(img);
+      }
+    }, { root: panel, rootMargin: "300px 0px" })
+  : null;
+
+function lazyImages() {
+  const pending = panel.querySelectorAll("img[data-src]");
+  if (!imgWatcher) {   // navegador sin soporte: se cargan todas, como antes
+    for (const img of pending) { img.src = img.dataset.src; img.removeAttribute("data-src"); }
+    return;
+  }
+  for (const img of pending) imgWatcher.observe(img);
+}
+
+// La lista completa de estaciones pasa de cuatro mil filas: se añaden por tandas para que
+// la pestaña se abra al momento en vez de bloquear el navegador medio segundo.
+function fillRest() {
+  const ul = panel.querySelector("[data-rest]");
+  if (!ul) return;
+  const list = allStations(net);
+  let from = Number(ul.dataset.rest);
+  const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 16));
+  const step = () => {
+    if (!ul.isConnected || from >= list.length) return;
+    ul.insertAdjacentHTML("beforeend", stationRows(net, list, from, 400));
+    from += 400;
+    idle(step);
+  };
+  idle(step);
 }
 
 // ------------------------------------------------------------------ acciones del panel

@@ -71,6 +71,11 @@ export function createMap(el, net, { onLine, onStation }) {
     marker.bindTooltip(`<strong>${esc(st.name)}</strong> <span class="ja">${esc(st.ja)}</span><div class="tip-codes">${codes}</div>`,
       { className: "map-tip", direction: "top", offset: [0, -6] });
     marker.on("click", () => onStation(st.id));
+    marker.on("mouseover", () => {
+      marker._base = { radius: marker.options.radius, weight: marker.options.weight };
+      marker.setStyle({ radius: (marker.options.radius || 4) + 3, weight: 3 });
+    });
+    marker.on("mouseout", () => { if (marker._base) marker.setStyle(marker._base); });
     stationMarkers.set(st.id, marker);
     st._shinkansen = st.lineIds.some((id) => isShinkansen(net.lineById.get(id)));
   }
@@ -92,8 +97,9 @@ export function createMap(el, net, { onLine, onStation }) {
     const focusSet = focusedLineSet();
     if (focusSet && !focusSet.has(id)) return;   // atenuada: no reacciona
     const w = weight(l.line) + (focusSet ? 2 : 0);
-    l.stroke.setStyle({ weight: on ? w + 3 : w });
-    l.casing.setStyle({ weight: w + (focusSet ? 5 : 3) + (on ? 3 : 0) });
+    const extra = Math.max(4, Math.round(w * 0.8));   // que se note también en zooms lejanos
+    l.stroke.setStyle({ weight: on ? w + extra : w });
+    l.casing.setStyle({ weight: w + (focusSet ? 5 : 3) + (on ? extra : 0) });
     if (on) { l.casing.bringToFront(); l.stroke.bringToFront(); }
   }
 
@@ -254,5 +260,6 @@ export function createMap(el, net, { onLine, onStation }) {
   };
 
   render();
+  Object.assign(api, { _map: map, _lines: lineLayers });   // acceso para pruebas
   return api;
 }
