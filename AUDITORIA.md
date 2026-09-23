@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 4433 de 9632 estaciones (46 %).**
+**Japón: 4769 de 9621 estaciones (50 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -17,7 +17,7 @@
 | [Tochigi](#09-tochigi) | 146 | 19 | 127 | 13 % |
 | [Gunma](#10-gunma) | 140 | 8 | 132 | 6 % |
 | [Saitama](#11-saitama) | 234 | 234 | 0 | 100 % |
-| [Chiba](#12-chiba) | 350 | 196 | 154 | 56 % |
+| [Chiba](#12-chiba) | 346 | 346 | 0 | 100 % |
 | [Tokio](#13-tokio) | 783 | 783 | 0 | 100 % |
 | [Kanagawa](#14-kanagawa) | 381 | 381 | 0 | 100 % |
 | [Niigata](#15-niigata) | 202 | 9 | 193 | 4 % |
@@ -28,7 +28,7 @@
 | [Nagano](#20-nagano) | 259 | 10 | 249 | 4 % |
 | [Gifu](#21-gifu) | 189 | 7 | 182 | 4 % |
 | [Shizuoka](#22-shizuoka) | 224 | 10 | 214 | 4 % |
-| [Aichi](#23-aichi) | 500 | 307 | 193 | 61 % |
+| [Aichi](#23-aichi) | 493 | 493 | 0 | 100 % |
 | [Mie](#24-mie) | 234 | 25 | 209 | 11 % |
 | [Shiga](#25-shiga) | 122 | 122 | 0 | 100 % |
 | [Kioto](#26-kioto) | 242 | 242 | 0 | 100 % |
@@ -232,15 +232,9 @@ Completa ✅
 
 ## 12 Chiba
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) 東日本旅客鉄道 | 96 | 小林、旭、銚子、榎戸、東千葉、干潟、日向、飯倉、飯岡、倉橋、松岸、松尾… |
-| (sin línea) | 38 | ウエスタンリバー鉄道、ポートディスカバリー・ステーション、アメリカンウォーターフロント・ステーション、本銚子、西畑、光風台、上総松丘、俵田、平山、椎柴、下総豊里、水郷… |
-| (sin línea) 小湊鉄道 | 15 | 養老渓谷、上総鶴舞、飯給、上総大久保、月崎、上総山田、上総川間、上総牛久、里見、高滝、海士有木、馬立… |
-| (sin línea) 銚子電気鉄道 | 2 | 仲ノ町、観音 |
-| (sin línea) 小湊鉄道;いすみ鉄道 | 1 | 上総中野 |
-| (sin línea) JR東日本 | 1 | 大戸 |
-| (sin línea) 京成電鉄 | 1 | 成田湯川 |
+Sin contar (no son servicio de viajeros): ウエスタンリバー鉄道 (atracción de Tokyo Disneyland)、ポートディスカバリー・ステーション (atracción Electric Railway de DisneySea)、アメリカンウォーターフロント・ステーション (atracción Electric Railway de DisneySea)、行川アイランド (estación cerrada en marzo de 2016 (el parque cerró en 2001))
+
+Completa ✅
 
 ## 13 Tokio
 
@@ -382,32 +376,9 @@ Completa ✅
 
 ## 23 Aichi
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 三河線 | 31 | 高浜港、猿投、上挙母、重原、刈谷市、小垣江、三河八橋、北新川、土橋、平戸橋、越戸、上挙母… |
-| 飯田線 | 25 | 東栄、池場、柿平、三河槙原、三河川合、茶臼山、江島、本長篠、三河一宮、東新町、新城、野田城… |
-| 尾西線 | 21 | 渕高、六輪、町方、日比野、佐屋、五ノ三、丸渕、上丸渕、森上、山崎、玉野、萩原… |
-| 蒲郡線 | 15 | 三河鹿島、形原、西幡豆、三河鳥羽、東幡豆、こどもの国、西浦、蒲郡、三河三谷、三河塩津、三ヶ根、吉良吉田… |
-| 愛知環状鉄道線 | 12 | 三河豊田、新上挙母、中岡崎、篠原、中水野、北野桝塚、三河上郷、末野原、山口、相見、岡崎、定光寺 |
-| (sin línea) 愛知環状鉄道 | 11 | 北岡崎、六名、四郷、新豊田、保見、瀬戸口、瀬戸市、永覚、大門、愛環梅坪、貝津 |
-| (sin línea) 名古屋鉄道 | 9 | 若林、西尾、西尾口、上横須賀、桜井、米津、南桜井、碧南、加木屋中ノ池 |
-| 城北線 | 8 | 尾張星の宮、比良、小田井、勝川、勝川、枇杷島、清洲、新守山 |
-| 名古屋線 | 7 | 近鉄蟹江、近鉄名古屋、近鉄弥富、富吉、近鉄八田、伏屋、戸田 |
-| 西尾線 | 7 | 南安城、北安城、堀内公園、碧海古井、安城、西岡崎、桜町前 |
-| 津島線 | 7 | 青塚、甚目寺、木田、七宝、勝幡、津島、藤浪 |
-| 広見線 | 7 | 富岡前、善師野、市電 京都七條、SL名古屋、SL 東京、市電 品川燈台、市電 名古屋 |
-| 豊川線 | 6 | 豊川稲荷、稲荷口、諏訪町、八幡、豊川、牛久保 |
-| 知多新線 | 6 | 内海、野間、知多奥田、美浜緑苑、上野間、武豊 |
-| 関西線 | 4 | 永和、春田、蟹江、弥富 |
-| 築港線 | 4 | 東名古屋港、熱田、笠寺、大高 |
-| (sin línea) 東海旅客鉄道 | 3 | 愛知御津、春日井、神領 |
-| 東田本線 | 2 | 運動公園前、二川 |
-| 犬山線 | 2 | 大山寺、稲沢 |
-| 名古屋本線 | 2 | 名鉄名古屋、尾頭橋 |
-| (sin línea) 東海道線 | 1 | 南大高 |
-| 中央線 | 1 | 高蔵寺 |
-| (sin línea) Meitetsu | 1 | 福地 |
-| (sin línea) 東海旅客鉄道株式会社 | 1 | 東浦 |
+Sin contar (no son servicio de viajeros): 市電 京都七條 (vehículos históricos del museo al aire libre Meiji Mura)、SL名古屋 (vehículos históricos del museo al aire libre Meiji Mura)、SL 東京 (vehículos históricos del museo al aire libre Meiji Mura)、市電 品川燈台 (vehículos históricos del museo al aire libre Meiji Mura)、市電 名古屋 (vehículos históricos del museo al aire libre Meiji Mura)、こども汽車乗り場 (tren infantil de un parque)
+
+Completa ✅
 
 ## 24 Mie
 

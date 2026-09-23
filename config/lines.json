@@ -395,6 +395,24 @@
     },
     "hieizan": {
       "name": "Hieizan Tetsudō"
+    },
+    "aichi-loop": {
+      "name": "Aichi Kanjō Tetsudō"
+    },
+    "tokai-kotsu": {
+      "name": "Tōkai Kōtsū Jigyō"
+    },
+    "kominato": {
+      "name": "Kominato Tetsudō"
+    },
+    "isumi": {
+      "name": "Isumi Tetsudō"
+    },
+    "choshi": {
+      "name": "Chōshi Dentetsu"
+    },
+    "disney": {
+      "name": "Maihama Resort Line"
     }
   },
   "types": {
@@ -1960,6 +1978,448 @@
       ],
       "trains": [],
       "region": "tokyo"
+    },
+    {
+      "id": "uchibo",
+      "code": "JI",
+      "color": "#0072BC",
+      "name": "JR Uchibō",
+      "ja": "内房線",
+      "en": "Uchibō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR内房線|^内房線$\"]",
+        "bbox": [
+          34.95,
+          139.7,
+          35.65,
+          140.2
+        ],
+        "nearby": 200
+      },
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Recorre la costa oeste de la península de Bōsō, mirando a la bahía de Tokio."
+      ],
+      "station_order": [
+        "蘇我",
+        "浜野",
+        "八幡宿",
+        "五井",
+        "姉ケ崎",
+        "長浦",
+        "袖ケ浦",
+        "巌根",
+        "木更津",
+        "君津",
+        "青堀",
+        "大貫",
+        "佐貫町",
+        "上総湊",
+        "竹岡",
+        "浜金谷",
+        "保田",
+        "安房勝山",
+        "岩井",
+        "富浦",
+        "那古船形",
+        "館山",
+        "九重",
+        "千倉",
+        "千歳",
+        "南三原",
+        "和田浦",
+        "江見",
+        "太海",
+        "安房鴨川"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "sotobo",
+      "code": "JE",
+      "color": "#E60012",
+      "name": "JR Sotobō",
+      "ja": "外房線",
+      "en": "Sotobō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR外房線|^外房線$\"]",
+        "bbox": [
+          34.9,
+          139.95,
+          35.65,
+          140.5
+        ],
+        "nearby": 200
+      },
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Recorre la costa del Pacífico de la península de Bōsō, la de las playas de surf."
+      ],
+      "station_order": [
+        "千葉",
+        "本千葉",
+        "蘇我",
+        "鎌取",
+        "誉田",
+        "土気",
+        "大網",
+        "永田",
+        "本納",
+        "新茂原",
+        "茂原",
+        "八積",
+        "上総一ノ宮",
+        "東浪見",
+        "太東",
+        "長者町",
+        "三門",
+        "大原",
+        "浪花",
+        "御宿",
+        "勝浦",
+        "鵜原",
+        "上総興津",
+        "安房小湊",
+        "安房天津",
+        "安房鴨川"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "sobu-main",
+      "code": "JO",
+      "color": "#FFD400",
+      "name": "JR Sōbu (Chiba–Chōshi)",
+      "ja": "総武本線",
+      "en": "Sōbu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^総武本線$\"]",
+        "bbox": [
+          35.45,
+          140.05,
+          35.8,
+          141.0
+        ],
+        "nearby": 200
+      },
+      "order": "geometry",
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Termina en Chōshi, el punto más al este del área de Kantō, famoso por su salsa de soja."
+      ]
+    },
+    {
+      "id": "narita-line",
+      "code": "JO",
+      "color": "#00A0B0",
+      "name": "JR Narita",
+      "ja": "成田線",
+      "en": "Narita Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^成田線$\"]",
+        "bbox": [
+          35.55,
+          140.1,
+          35.95,
+          140.9
+        ],
+        "nearby": 200
+      },
+      "order": "geometry",
+      "region": "tokyo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "narita-abiko",
+      "code": "JO",
+      "color": "#00A0B0",
+      "name": "JR Narita (ramal de Abiko)",
+      "ja": "成田線（我孫子支線）",
+      "en": "Narita Line (Abiko Branch)",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"成田線（我孫子支線）\"]",
+        "bbox": [
+          35.75,
+          140.0,
+          35.95,
+          140.35
+        ],
+        "nearby": 200
+      },
+      "order": "geometry",
+      "region": "tokyo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "togane",
+      "code": "JO",
+      "color": "#F6A800",
+      "name": "JR Tōgane",
+      "ja": "東金線",
+      "en": "Tōgane Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR東金線\"]",
+        "bbox": [
+          35.45,
+          140.25,
+          35.65,
+          140.45
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "大網",
+        "福俵",
+        "東金",
+        "求名",
+        "成東"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kururi",
+      "code": "JI",
+      "color": "#2E8B57",
+      "name": "JR Kururi",
+      "ja": "久留里線",
+      "en": "Kururi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"久留里線\"]",
+        "bbox": [
+          35.2,
+          139.9,
+          35.45,
+          140.2
+        ],
+        "nearby": 200
+      },
+      "order": "geometry",
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es de las últimas líneas de JR East sin electrificar en Kantō."
+      ]
+    },
+    {
+      "id": "kashima",
+      "code": "JO",
+      "color": "#7B3F98",
+      "name": "JR Kashima",
+      "ja": "鹿島線",
+      "en": "Kashima Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^鹿島線$\"]",
+        "bbox": [
+          35.75,
+          140.45,
+          35.98,
+          140.7
+        ],
+        "nearby": 200
+      },
+      "order": "geometry",
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Cruza el lago Kitaura por un puente de casi un kilómetro."
+      ]
+    },
+    {
+      "id": "kominato",
+      "code": "KM",
+      "color": "#E8383D",
+      "name": "Kominato Tetsudō",
+      "ja": "小湊鉄道線",
+      "en": "Kominato Line",
+      "operator": "kominato",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"小湊鐵道|小湊鉄道\"]",
+        "bbox": [
+          35.2,
+          140.05,
+          35.55,
+          140.3
+        ],
+        "nearby": 200
+      },
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Sus trenes diésel de los años 60 siguen circulando; en primavera, entre campos de flores amarillas.",
+        "La estación de Iitomi es famosa por sus cerezos y por ser la más fotografiada de la línea."
+      ],
+      "station_order": [
+        "五井",
+        "上総村上",
+        "海士有木",
+        "上総三又",
+        "上総山田",
+        "光風台",
+        "馬立",
+        "上総牛久",
+        "上総川間",
+        "上総鶴舞",
+        "上総久保",
+        "高滝",
+        "里見",
+        "飯給",
+        "月崎",
+        "上総大久保",
+        "養老渓谷",
+        "上総中野"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "isumi",
+      "code": "IS",
+      "color": "#F5A200",
+      "name": "Isumi Tetsudō",
+      "ja": "いすみ線",
+      "en": "Isumi Line",
+      "operator": "isumi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"いすみ\"]",
+        "bbox": [
+          35.15,
+          140.15,
+          35.45,
+          140.45
+        ],
+        "nearby": 200
+      },
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Recuperó dos coches diésel antiguos, el KiHa 28 y el KiHa 52, para trenes turísticos."
+      ],
+      "station_order": [
+        "大原",
+        "西大原",
+        "上総東",
+        "新田野",
+        "国吉",
+        "上総中川",
+        "城見ヶ丘",
+        "大多喜",
+        "小谷松",
+        "東総元",
+        "久我原",
+        "総元",
+        "西畑",
+        "上総中野"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "choshi",
+      "code": "CD",
+      "color": "#2E8B57",
+      "name": "Chōshi Dentetsu",
+      "ja": "銚子電気鉄道線",
+      "en": "Chōshi Electric Railway",
+      "operator": "choshi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"銚子電気鉄道\"]",
+        "bbox": [
+          35.7,
+          140.8,
+          35.78,
+          140.9
+        ],
+        "nearby": 150
+      },
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Sobrevive vendiendo galletas de arroz: la venta de nurezenbei da más dinero que los billetes.",
+        "Tiene 6,4 km y diez estaciones, hasta el faro de Inubōsaki."
+      ],
+      "station_order": [
+        "銚子",
+        "仲ノ町",
+        "観音",
+        "本銚子",
+        "笠上黒生",
+        "西海鹿島",
+        "海鹿島",
+        "君ヶ浜",
+        "犬吠",
+        "外川"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "disney-resort",
+      "code": "DR",
+      "color": "#E8383D",
+      "name": "Disney Resort Line",
+      "ja": "ディズニーリゾートライン",
+      "en": "Disney Resort Line",
+      "operator": "disney",
+      "type": "monorail",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"monorail\"]",
+        "bbox": [
+          35.62,
+          139.87,
+          35.65,
+          139.9
+        ],
+        "nearby": 200
+      },
+      "station_order": [
+        "リゾートゲートウェイ・ステーション",
+        "東京ディズニーランド・ステーション",
+        "ベイサイド・ステーション",
+        "東京ディズニーシー・ステーション"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es un monorraíl de verdad, con billete y abono, que da la vuelta al complejo de Disney.",
+        "Las ventanillas y los asideros tienen forma de Mickey."
+      ]
     },
     {
       "id": "joban-rapid",
@@ -6995,6 +7455,513 @@
       ]
     },
     {
+      "id": "meitetsu-mikawa",
+      "code": "MU",
+      "color": "#E8383D",
+      "name": "Meitetsu Mikawa",
+      "ja": "三河線",
+      "en": "Mikawa Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道三河線\"]",
+        "bbox": [
+          34.8,
+          136.9,
+          35.25,
+          137.25
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Pasa por Toyota, la ciudad de la fábrica de coches que le dio nombre."
+      ]
+    },
+    {
+      "id": "meitetsu-bisai",
+      "code": "BS",
+      "color": "#E8383D",
+      "name": "Meitetsu Bisai",
+      "ja": "尾西線",
+      "en": "Bisai Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道尾西線\"]",
+        "bbox": [
+          35.05,
+          136.6,
+          35.4,
+          136.9
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Es la línea más antigua de Meitetsu: circula desde 1898."
+      ]
+    },
+    {
+      "id": "meitetsu-gamagori",
+      "code": "GN",
+      "color": "#E8383D",
+      "name": "Meitetsu Gamagōri",
+      "ja": "蒲郡線",
+      "en": "Gamagōri Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道蒲郡線\"]",
+        "bbox": [
+          34.75,
+          137.05,
+          34.95,
+          137.3
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Bordea la bahía de Mikawa, con vistas al mar casi todo el trayecto."
+      ]
+    },
+    {
+      "id": "meitetsu-nishio",
+      "code": "GN",
+      "color": "#E8383D",
+      "name": "Meitetsu Nishio",
+      "ja": "西尾線",
+      "en": "Nishio Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道西尾線\"]",
+        "bbox": [
+          34.75,
+          136.95,
+          35.05,
+          137.15
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-tsushima",
+      "code": "TB",
+      "color": "#E8383D",
+      "name": "Meitetsu Tsushima",
+      "ja": "津島線",
+      "en": "Tsushima Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道津島線\"]",
+        "bbox": [
+          35.1,
+          136.65,
+          35.25,
+          136.9
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-hiromi",
+      "code": "HM",
+      "color": "#E8383D",
+      "name": "Meitetsu Hiromi",
+      "ja": "広見線",
+      "en": "Hiromi Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道広見線\"]",
+        "bbox": [
+          35.3,
+          136.9,
+          35.5,
+          137.15
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-toyokawa",
+      "code": "TK",
+      "color": "#E8383D",
+      "name": "Meitetsu Toyokawa",
+      "ja": "豊川線",
+      "en": "Toyokawa Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道豊川線\"]",
+        "bbox": [
+          34.78,
+          137.3,
+          34.9,
+          137.42
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Termina junto al Toyokawa Inari, uno de los tres grandes santuarios de Inari de Japón."
+      ]
+    },
+    {
+      "id": "meitetsu-chita-new",
+      "code": "KC",
+      "color": "#E8383D",
+      "name": "Meitetsu Chita Nueva",
+      "ja": "知多新線",
+      "en": "Chita New Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道知多新線\"]",
+        "bbox": [
+          34.65,
+          136.8,
+          34.95,
+          136.98
+        ],
+        "nearby": 150
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Llega a las playas de Utsumi, en la punta de la península de Chita."
+      ]
+    },
+    {
+      "id": "meitetsu-chikko",
+      "code": "CH",
+      "color": "#E8383D",
+      "name": "Meitetsu Chikkō",
+      "ja": "築港線",
+      "en": "Chikkō Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道築港線\"]",
+        "bbox": [
+          35.05,
+          136.85,
+          35.12,
+          136.92
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "大江",
+        "東名古屋港"
+      ],
+      "strict_order": true,
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Solo circula en horas de entrada y salida de las fábricas del puerto: dos estaciones y poco más de un kilómetro."
+      ]
+    },
+    {
+      "id": "aichi-loop",
+      "code": "AL",
+      "color": "#00A0B0",
+      "name": "Aichi Loop Line",
+      "ja": "愛知環状鉄道線",
+      "en": "Aichi Loop Line",
+      "operator": "aichi-loop",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"愛知環状鉄道線\"]",
+        "bbox": [
+          34.9,
+          136.95,
+          35.3,
+          137.3
+        ],
+        "nearby": 150
+      },
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Rodea Nagoya por el este, de Okazaki a Kōzōji, pasando por Toyota."
+      ],
+      "station_order": [
+        "岡崎",
+        "六名",
+        "中岡崎",
+        "北岡崎",
+        "大門",
+        "北野桝塚",
+        "三河上郷",
+        "永覚",
+        "末野原",
+        "三河豊田",
+        "新上挙母",
+        "新豊田",
+        "愛環梅坪",
+        "四郷",
+        "貝津",
+        "保見",
+        "篠原",
+        "八草",
+        "山口",
+        "瀬戸口",
+        "瀬戸市",
+        "中水野",
+        "高蔵寺"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "johoku",
+      "code": "JH",
+      "color": "#7B3F98",
+      "name": "Jōhoku Line",
+      "ja": "城北線",
+      "en": "Jōhoku Line",
+      "operator": "tokai-kotsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"東海交通事業城北線\"]",
+        "bbox": [
+          35.15,
+          136.8,
+          35.3,
+          136.98
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "勝川",
+        "味美",
+        "比良",
+        "小田井",
+        "尾張星の宮",
+        "枇杷島"
+      ],
+      "strict_order": true,
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Va sobre viaducto casi todo el recorrido, aunque solo circulan trenes diésel de un coche."
+      ]
+    },
+    {
+      "id": "iida",
+      "code": "CD",
+      "color": "#00A0B0",
+      "name": "JR Iida (Toyohashi–Nagashino)",
+      "ja": "飯田線",
+      "en": "Iida Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR飯田線|^飯田線$\"]",
+        "bbox": [
+          34.7,
+          137.3,
+          35.3,
+          137.75
+        ],
+        "nearby": 150
+      },
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Tiene 94 estaciones en 195 km: una media de una cada dos kilómetros, récord en Japón."
+      ],
+      "station_order": [
+        "豊橋",
+        "船町",
+        "下地",
+        "小坂井",
+        "牛久保",
+        "豊川",
+        "三河一宮",
+        "長山",
+        "江島",
+        "東上",
+        "野田城",
+        "新城",
+        "東新町",
+        "茶臼山",
+        "三河東郷",
+        "大海",
+        "鳥居",
+        "長篠城",
+        "本長篠",
+        "三河大野",
+        "湯谷温泉",
+        "三河槙原",
+        "柿平",
+        "三河川合",
+        "池場",
+        "東栄",
+        "出馬",
+        "上市場",
+        "浦川",
+        "早瀬",
+        "下川合",
+        "中部天竜"
+      ],
+      "strict_order": true
+    },
+    {
+      "id": "taketoyo",
+      "code": "CE",
+      "color": "#F6A800",
+      "name": "JR Taketoyo",
+      "ja": "武豊線",
+      "en": "Taketoyo Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR武豊線|^武豊線$\"]",
+        "bbox": [
+          34.8,
+          136.88,
+          35.05,
+          137.05
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "大府",
+        "尾張森岡",
+        "緒川",
+        "石浜",
+        "東浦",
+        "亀崎",
+        "乙川",
+        "半田",
+        "東成岩",
+        "武豊"
+      ],
+      "strict_order": true,
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Es la línea más antigua de la zona: se abrió en 1886 para traer materiales del puerto."
+      ]
+    },
+    {
+      "id": "tokaido-aichi",
+      "code": "CA",
+      "color": "#F6A800",
+      "name": "JR Tōkaidō (Toyohashi–Ōgaki)",
+      "ja": "東海道本線",
+      "en": "Tōkaidō Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^東海道本線$|JR東海道線\"]",
+        "bbox": [
+          34.7,
+          136.55,
+          35.4,
+          137.45
+        ],
+        "nearby": 250
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Es el eje de cercanías de Nagoya; sus trenes «Special Rapid» son de los más rápidos de Japón sin recargo."
+      ]
+    },
+    {
+      "id": "chuo-west",
+      "code": "CF",
+      "color": "#0072BC",
+      "name": "JR Chūō Oeste (Nagoya–Nakatsugawa)",
+      "ja": "中央本線",
+      "en": "Chūō Main Line (west)",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"中央本線|中央西線\"]",
+        "bbox": [
+          35.1,
+          136.85,
+          35.6,
+          137.55
+        ],
+        "nearby": 250
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": [
+        "Sube por el valle del Kiso hacia los Alpes japoneses."
+      ]
+    },
+    {
+      "id": "kansai-nagoya",
+      "code": "CJ",
+      "color": "#00A0B0",
+      "name": "JR Kansai (Nagoya–Kameyama)",
+      "ja": "関西本線",
+      "en": "Kansai Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR関西本線|^関西本線$\"]",
+        "bbox": [
+          34.85,
+          136.4,
+          35.2,
+          136.92
+        ],
+        "nearby": 250
+      },
+      "order": "geometry",
+      "region": "nagoya",
+      "trains": [],
+      "facts": []
+    },
+    {
       "id": "meitetsu-tokoname",
       "code": "TA",
       "color": "#2388C8",
@@ -7044,7 +8011,17 @@
       "trains": [],
       "facts": [
         "Lleva a Inuyama, con uno de los doce castillos japoneses que conservan su torre original."
-      ]
+      ],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道犬山線\"]",
+        "bbox": [
+          35.1,
+          136.8,
+          35.42,
+          136.98
+        ],
+        "nearby": 250
+      }
     },
     {
       "id": "meitetsu-seto",
@@ -7094,7 +8071,17 @@
       ],
       "region": "nagoya",
       "trains": [],
-      "facts": []
+      "facts": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道河和線\"]",
+        "bbox": [
+          34.75,
+          136.88,
+          35.05,
+          137.05
+        ],
+        "nearby": 250
+      }
     },
     {
       "id": "meitetsu-toyota",
@@ -7128,7 +8115,17 @@
       ],
       "region": "nagoya",
       "trains": [],
-      "facts": []
+      "facts": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近畿日本鉄道名古屋線|近鉄名古屋線\"]",
+        "bbox": [
+          34.55,
+          136.4,
+          35.2,
+          136.92
+        ],
+        "nearby": 250
+      }
     },
     {
       "id": "aonami",
@@ -8269,7 +9266,17 @@
       ],
       "region": "tranvias",
       "trains": [],
-      "facts": []
+      "facts": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"tram|rail\"][\"name\"~\"東田本線|豊橋鉄道\"]",
+        "bbox": [
+          34.74,
+          137.37,
+          34.8,
+          137.44
+        ],
+        "nearby": 120
+      }
     },
     {
       "id": "toyohashi-atsumi",
