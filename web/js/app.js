@@ -78,7 +78,6 @@ function route({ initial = false } = {}) {
   lastHash = location.hash;
   panel.innerHTML = `<div class="view">${html}</div>`;
   lazyImages();
-  fillRest();
   // al volver a una vista ya visitada se recupera la posición; a una nueva, se empieza arriba
   panel.scrollTop = scrollMemory.get(lastHash) ?? 0;
   if (!initial) panel.focus({ preventScroll: true });
@@ -107,18 +106,20 @@ function lazyImages() {
   for (const img of pending) imgWatcher.observe(img);
 }
 
-// La lista completa de estaciones pasa de cuatro mil filas: se añaden por tandas para que
-// la pestaña se abra al momento en vez de bloquear el navegador medio segundo.
-function fillRest() {
-  const ul = panel.querySelector("[data-rest]");
+// La lista completa de estaciones (más de cuatro mil filas) solo se pinta si se pide:
+// crearlas cuesta, pero sobre todo cuesta destruirlas al cambiar de pestaña.
+function verTodasLasEstaciones(btn) {
+  const ul = panel.querySelector("#all-stations");
   if (!ul) return;
   const list = allStations(net);
-  let from = Number(ul.dataset.rest);
+  let from = Number(btn.dataset.from) || 0;
+  btn.remove();
   const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 16));
   const step = () => {
     if (!ul.isConnected || from >= list.length) return;
-    ul.insertAdjacentHTML("beforeend", stationRows(net, list, from, 400));
-    from += 400;
+    ul.insertAdjacentHTML("beforeend", stationRows(net, list, from, 500));
+    from += 500;
+    lazyImages();
     idle(step);
   };
   idle(step);
@@ -128,7 +129,9 @@ function fillRest() {
 panel.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-action]");
   if (!btn) return;
-  if (btn.dataset.action === "next-fact") {
+  if (btn.dataset.action === "ver-todas") {
+    verTodasLasEstaciones(btn);
+  } else if (btn.dataset.action === "next-fact") {
     ui.factIndex++;
     const card = panel.querySelector(".fact-card");
     const tmp = document.createElement("div");

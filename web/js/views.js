@@ -89,7 +89,7 @@ function linesTab(net, hidden) {
   return `<div class="chips" aria-label="Mostrar u ocultar regiones">${chips}</div>${groups}`;
 }
 
-const PRIMERAS = 150;   // el resto de la lista la va añadiendo app.js cuando el navegador está libre
+const PRIMERAS = 200;   // el resto solo si se pide: cuatro mil filas tardan en crearse y en destruirse
 
 const stationRow = (net, s) => `<li>${link("station", s.id, `
       <span class="st-name">${esc(s.name)} <span class="ja">${esc(s.ja)}</span></span>
@@ -109,7 +109,9 @@ function stationsTab(net) {
     <h2 class="group-title">Grandes nudos</h2>
     <ul class="station-list">${hubs.map((s) => stationRow(net, s)).join("")}</ul>
     <h2 class="group-title">Todas las estaciones (${all.length})</h2>
-    <ul class="station-list" data-rest="${PRIMERAS}">${stationRows(net, all, 0, PRIMERAS)}</ul>`;
+    <p class="muted group-note">Ordenadas por nombre. Para encontrar una concreta, el buscador es más rápido.</p>
+    <ul class="station-list" id="all-stations">${stationRows(net, all, 0, PRIMERAS)}</ul>
+    <p class="more"><button class="chip" data-action="ver-todas" data-from="${PRIMERAS}">Ver las ${all.length} estaciones</button></p>`;
 }
 
 /** Miniatura de la foto del tren o, si no hay, el icono. */

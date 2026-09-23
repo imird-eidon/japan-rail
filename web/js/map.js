@@ -26,10 +26,14 @@ export function createMap(el, net, { onLine, onStation }) {
   }).addTo(map);
 
   map.createPane("lines").style.zIndex = 410;
-  map.createPane("stations").style.zIndex = 420;
   map.createPane("labels").style.zIndex = 630;
-  const lineRenderer = L.canvas({ pane: "lines", tolerance: 6 });
-  const stationRenderer = L.canvas({ pane: "stations", tolerance: 4 });
+  // Un solo lienzo para líneas y estaciones: con dos, el de estaciones quedaba encima
+  // y se quedaba con todos los clics y los movimientos del ratón, así que las líneas
+  // no se podían ni seleccionar. Al compartirlo, el propio Leaflet decide qué hay debajo
+  // del cursor (las estaciones se dibujan después, así que mandan ellas).
+  const renderer = L.canvas({ pane: "lines", tolerance: 6 });
+  const lineRenderer = renderer;
+  const stationRenderer = renderer;
 
   // ---------------------------------------------------------------- estado
   const state = { focusLine: null, focusStation: null, focusLines: null, hidden: new Set() };
@@ -100,7 +104,7 @@ export function createMap(el, net, { onLine, onStation }) {
     const extra = Math.max(4, Math.round(w * 0.8));   // que se note también en zooms lejanos
     l.stroke.setStyle({ weight: on ? w + extra : w });
     l.casing.setStyle({ weight: w + (focusSet ? 5 : 3) + (on ? extra : 0) });
-    if (on) { l.casing.bringToFront(); l.stroke.bringToFront(); }
+    // sin bringToFront: dejaría la línea por delante de las estaciones y les robaría el clic
   }
 
   function styleLines() {
