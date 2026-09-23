@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 4102 de 9653 estaciones (42 %).**
+**Japón: 4141 de 9642 estaciones (43 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -19,7 +19,7 @@
 | [Saitama](#11-saitama) | 239 | 180 | 59 | 75 % |
 | [Chiba](#12-chiba) | 350 | 196 | 154 | 56 % |
 | [Tokio](#13-tokio) | 783 | 783 | 0 | 100 % |
-| [Kanagawa](#14-kanagawa) | 392 | 342 | 50 | 87 % |
+| [Kanagawa](#14-kanagawa) | 381 | 381 | 0 | 100 % |
 | [Niigata](#15-niigata) | 202 | 9 | 193 | 4 % |
 | [Toyama](#16-toyama) | 212 | 26 | 186 | 12 % |
 | [Ishikawa](#17-ishikawa) | 75 | 3 | 72 | 4 % |
@@ -253,14 +253,9 @@ Completa ✅
 
 ## 14 Kanagawa
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 大雄山線 | 26 | 和田河原、富士フイルム前、大雄山、穴部、五百羅漢、飯田岡、相模沼田、塚原、井細田、岩原、緑町、阿夫利神社… |
-| (sin línea) 箱根登山鉄道 | 14 | 宮ノ下、中強羅、公園下、早雲山、上強羅、公園上、強羅、大平台、塔ノ沢、風祭、箱根板橋、小涌谷… |
-| (sin línea) | 5 | ダム上 山頂、ダム下 山麓、川崎貨物、横浜本牧、本牧埠頭 |
-| (sin línea) 東日本旅客鉄道 | 2 | 藤野、相模湖 |
-| (sin línea) 神奈川臨海鉄道 | 2 | 千鳥町、浮島町 |
-| (sin línea) 小田急箱根 | 1 | 箱根湯本 |
+Sin contar (no son servicio de viajeros): 川崎貨物 (estación de mercancías)、横浜本牧 (estación de mercancías (Kanagawa Rinkai))、本牧埠頭 (estación de mercancías (Kanagawa Rinkai))、冒険の丘 (tren en miniatura del parque Wanpaku-land (Odawara))、エントランス広場 (tren en miniatura del parque Wanpaku-land (Odawara))
+
+Completa ✅
 
 ## 15 Niigata
 

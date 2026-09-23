@@ -155,7 +155,26 @@
   "寺務所": "Jimusho",
   "山頂": "Sancho",
   "公園入口": "Koen-iriguchi",
-  "御岳山": "Mitakesan"
+  "御岳山": "Mitakesan",
+  "箱根湯本": "Hakone-Yumoto",
+  "大山ケーブル": "Oyama-Cable",
+  "大山寺": "Oyama-dera",
+  "阿夫利神社": "Afuri-Jinja",
+  "岩波": "Iwanami",
+  "今池": "Imaike",
+  "強羅": "Gora",
+  "公園下": "Koen-shimo",
+  "公園上": "Koen-kami",
+  "中強羅": "Naka-Gora",
+  "上強羅": "Kami-Gora",
+  "早雲山": "Sounzan",
+  "彫刻の森": "Chokoku-no-Mori",
+  "小涌谷": "Kowakidani",
+  "宮ノ下": "Miyanoshita",
+  "塔ノ沢": "Tonosawa",
+  "大平台": "Ohiradai",
+  "ダム下 山麓": "Dam-shita (Sanroku)",
+  "ダム上 山頂": "Dam-ue (Sancho)"
  },
  "station_codes": {
   "oedo": {

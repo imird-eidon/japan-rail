@@ -44,7 +44,14 @@ CLOSED_RE = re.compile(r"(廃止|廃駅|跡|信号場|操車場|貨物ターミ�
 NOT_PUBLIC = {"usage": {"freight", "industrial", "military", "training", "test"}}
 
 
+# compañías que sólo transportan mercancías: sus estaciones no son paradas de viajeros
+FREIGHT_OPERATORS = re.compile(r"(貨物|神奈川臨海鉄道|京葉臨海鉄道|名古屋臨海鉄道|衣浦臨海鉄道|仙台臨海鉄道|"
+                               r"八戸臨海鉄道|秋田臨海鉄道|岩手開発鉄道|太平洋石炭販売輸送|福島臨海鉄道)")
+
+
 def is_public(t):
+    if FREIGHT_OPERATORS.search(t.get("operator", "") or ""):
+        return False
     if t.get("access") == "private" or t.get("railway:traffic_mode") == "freight":
         return False
     if t.get("station") == "miniature" or t.get("railway") == "miniature":  # trenecitos de parque
@@ -117,6 +124,11 @@ def main():
     args = ap.parse_args()
 
     JA_ALIASES.update(load_json(CONFIG / "overrides.json").get("ja_aliases", {}))
+    ignore_file = CONFIG / "audit_ignore.json"
+    ignored = defaultdict(dict)
+    if ignore_file.exists():
+        for x in load_json(ignore_file)["stations"]:
+            ignored[x["pref"]][ja_key(x["ja"])] = x["why"]
     net = load_json(NETWORK)
     ours = defaultdict(list)
     for s in net["stations"].values():
@@ -144,6 +156,8 @@ def main():
             ja = normalize_ja(t.get("name", ""))
             if not ja or CLOSED_RE.search(t.get("name", "")) or t.get("disused") or t.get("abandoned") or not is_public(t):
                 continue
+            if ja_key(ja) in ignored.get(code, {}):  # no es servicio de viajeros: ver config/audit_ignore.json
+                continue
             key = (ja_key(ja), round(e["lat"], 3), round(e["lon"], 3))
             if key in seen:  # andenes y paradas duplicadas de la misma estación
                 continue
@@ -155,6 +169,7 @@ def main():
         label_gaps(missing_by_line)
         missing = sum(len(v) for v in missing_by_line.values())
         report[code] = {"name": name, "total": total, "missing": missing,
+                        "ignored": ignored.get(code, {}),
                         "lines": {k: v for k, v in sorted(missing_by_line.items(), key=lambda kv: -len(kv[1]))}}
         summary.append((code, name, total, missing))
         print(f"[{code}] {name:12} {total - missing:4}/{total:<4} estaciones "
@@ -192,6 +207,9 @@ def write_report(report):
     r.append("")
     for code, x in sorted(report.items()):
         r.append(f"## {code} {x['name']}\n")
+        if x.get("ignored"):
+            r.append("Sin contar (no son servicio de viajeros): "
+                     + "、".join(f"{k} ({v})" for k, v in x["ignored"].items()) + "\n")
         if not x["missing"]:
             r.append("Completa ✅\n")
             continue

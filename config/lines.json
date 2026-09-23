@@ -353,6 +353,18 @@
     },
     "kix": {
       "name": "Aeropuerto de Kansai"
+    },
+    "hakone-tozan": {
+      "name": "Hakone Tozan"
+    },
+    "izuhakone": {
+      "name": "Izuhakone Tetsudō"
+    },
+    "oyama-cable": {
+      "name": "Ōyama Kankō Dentetsu"
+    },
+    "kanagawa-pref": {
+      "name": "Prefectura de Kanagawa"
     }
   },
   "types": {
@@ -2011,6 +2023,275 @@
         "stops_only": true
       },
       "order": "geometry"
+    },
+    {
+      "id": "chuo-otsuki",
+      "code": "CO",
+      "color": "#F15A22",
+      "name": "JR Chūō (Takao–Ōtsuki)",
+      "ja": "中央本線",
+      "en": "Chūō Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"中央本線\"]",
+        "bbox": [
+          35.55,
+          138.88,
+          35.7,
+          139.3
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "高尾",
+        "相模湖",
+        "藤野",
+        "上野原",
+        "四方津",
+        "梁川",
+        "鳥沢",
+        "猿橋",
+        "大月"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es la continuación de la línea Chūō más allá de Takao, ya entre montañas camino de Kōfu.",
+        "Sus trenes rápidos siguen hasta Ōtsuki, donde enlaza el tren de Fuji-Q y el monte Fuji."
+      ]
+    },
+    {
+      "id": "miyagase-incline",
+      "code": "MI",
+      "color": "#2E8B57",
+      "name": "Inclinado de la presa de Miyagase",
+      "ja": "宮ヶ瀬ダム インクライン",
+      "en": "Miyagase Dam Incline",
+      "operator": "kanagawa-pref",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"インクライン\"]",
+        "bbox": [
+          35.53,
+          139.25,
+          35.58,
+          139.32
+        ],
+        "nearby": 150
+      },
+      "station_order": [
+        "ダム下 山麓",
+        "ダム上 山頂"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Es el ascensor inclinado que subía el material de la presa y hoy lleva visitantes, con 200 metros de desnivel."
+      ]
+    },
+    {
+      "id": "hakone-tozan",
+      "code": "OH",
+      "color": "#E5006E",
+      "name": "Hakone Tozan",
+      "ja": "箱根登山鉄道鉄道線",
+      "en": "Hakone Tozan Line",
+      "operator": "hakone-tozan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"小田急箱根鉄道線|箱根登山線|箱根登山鉄道鉄道線\"]",
+        "bbox": [
+          35.2,
+          139.0,
+          35.28,
+          139.17
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "小田原",
+        "箱根板橋",
+        "風祭",
+        "入生田",
+        "箱根湯本",
+        "塔ノ沢",
+        "大平台",
+        "宮ノ下",
+        "小涌谷",
+        "彫刻の森",
+        "強羅"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Sube a Hakone haciendo tres cambios de sentido en zigzag para ganar altura.",
+        "Es la línea de adherencia con más pendiente de Japón: 80 por mil.",
+        "En junio, el tramo entre Tōnosawa y Ōhiradai se recorre entre hortensias iluminadas de noche."
+      ]
+    },
+    {
+      "id": "hakone-tozan-cable",
+      "code": "OH",
+      "color": "#E5006E",
+      "name": "Funicular de Hakone (Gōra–Sōunzan)",
+      "ja": "箱根登山ケーブルカー",
+      "en": "Hakone Tozan Cable Car",
+      "operator": "hakone-tozan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"小田急箱根鋼索線|箱根登山\"]",
+        "bbox": [
+          35.238,
+          139.02,
+          35.255,
+          139.045
+        ],
+        "nearby": 250
+      },
+      "station_order": [
+        "強羅",
+        "公園下",
+        "公園上",
+        "中強羅",
+        "上強羅",
+        "早雲山"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Enlaza el tren de Hakone con el teleférico que sube al Ōwakudani, el valle de los humos."
+      ]
+    },
+    {
+      "id": "izuhakone-daiyuzan",
+      "code": "ID",
+      "color": "#0072BC",
+      "name": "Izuhakone Daiyūzan",
+      "ja": "大雄山線",
+      "en": "Daiyūzan Line",
+      "operator": "izuhakone",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"伊豆箱根鉄道大雄山線\"]",
+        "bbox": [
+          35.25,
+          139.07,
+          35.36,
+          139.18
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "小田原",
+        "緑町",
+        "井細田",
+        "五百羅漢",
+        "穴部",
+        "飯田岡",
+        "相模沼田",
+        "岩原",
+        "塚原",
+        "和田河原",
+        "富士フイルム前",
+        "大雄山"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Lleva al templo Daiyūzan Saijō-ji, entre cedros de más de quinientos años."
+      ]
+    },
+    {
+      "id": "oyama-cable",
+      "code": "OY",
+      "color": "#2E8B57",
+      "name": "Funicular del monte Ōyama",
+      "ja": "大山ケーブル",
+      "en": "Oyama Cable Car",
+      "operator": "oyama-cable",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"大山ケーブル\"]",
+        "bbox": [
+          35.42,
+          139.22,
+          35.46,
+          139.27
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "大山ケーブル",
+        "大山寺",
+        "阿夫利神社"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Sube al santuario Afuri, en el monte Ōyama, meta de peregrinación desde el periodo Edo."
+      ]
+    },
+    {
+      "id": "gotemba",
+      "code": "CB",
+      "color": "#00A7DB",
+      "name": "JR Gotemba",
+      "ja": "御殿場線",
+      "en": "Gotemba Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"御殿場線\"]",
+        "bbox": [
+          35.05,
+          138.78,
+          35.4,
+          139.25
+        ],
+        "nearby": true
+      },
+      "station_order": [
+        "国府津",
+        "下曽我",
+        "上大井",
+        "相模金子",
+        "松田",
+        "東山北",
+        "山北",
+        "谷峨",
+        "駿河小山",
+        "足柄",
+        "御殿場",
+        "南御殿場",
+        "富士岡",
+        "岩波",
+        "裾野",
+        "長泉なめり",
+        "下土狩",
+        "大岡",
+        "沼津"
+      ],
+      "strict_order": true,
+      "region": "tokyo",
+      "trains": [],
+      "facts": [
+        "Fue la línea principal Tōkaidō hasta 1934, cuando se abrió el túnel de Tanna.",
+        "Da vistas del monte Fuji desde la ventanilla durante casi todo el recorrido."
+      ]
     },
     {
       "id": "odakyu-enoshima",

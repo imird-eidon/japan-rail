@@ -202,9 +202,10 @@ def fetch_ways(line, refresh):
     bbox = ",".join(str(x) for x in q["bbox"])
     query = (f'[out:json][timeout:180];{q["filter"]}({bbox})->.w;.w out geom;'
              'node(w.w)["name"]->.n;.n out;')
-    if q.get("nearby"):  # estaciones mapeadas junto a la vía y no sobre ella
-        query += ('(node(around.w:80)["railway"~"^(station|halt|stop|tram_stop)$"];'
-                  ' node(around.w:80)["public_transport"~"^(stop_position|station)$"];);out;')
+    if q.get("nearby"):  # estaciones mapeadas junto a la vía y no sobre ella (radio en metros, 80 por defecto)
+        r = 80 if q["nearby"] is True else int(q["nearby"])
+        query += (f'(node(around.w:{r})["railway"~"^(station|halt|stop|tram_stop)$"];'
+                  f' node(around.w:{r})["public_transport"~"^(stop_position|station)$"];);out;')
     key = hashlib.sha1(query.encode()).hexdigest()[:12]
     path = CACHE / f"ways-{line['id']}-{key}.json"
     CACHE.mkdir(parents=True, exist_ok=True)
