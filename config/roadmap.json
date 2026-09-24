@@ -168,8 +168,8 @@
      "title": "Ōsaka",
      "items": [
       {
-       "region": "osaka",
-       "name": "Región «Ōsaka» con su botón en el mapa"
+       "name": "Región «Ōsaka» con su botón en el mapa",
+       "line": "midosuji"
       },
       {
        "line": "osaka-loop",
@@ -568,28 +568,28 @@
      "title": "Ciudades",
      "items": [
       {
-       "region": "nagoya",
-       "name": "Nagoya: metro y Meitetsu"
+       "name": "Nagoya: metro y Meitetsu",
+       "line": "nagoya-higashiyama"
       },
       {
-       "region": "fukuoka",
-       "name": "Fukuoka: metro, Nishitetsu"
+       "name": "Fukuoka: metro, Nishitetsu",
+       "line": "fukuoka-kuko"
       },
       {
-       "region": "sapporo",
-       "name": "Sapporo: metro de ruedas de goma y tranvía"
+       "name": "Sapporo: metro de ruedas de goma y tranvía",
+       "line": "sapporo-namboku"
       },
       {
-       "region": "sendai",
-       "name": "Sendai: metro"
+       "name": "Sendai: metro",
+       "line": "sendai-namboku"
       },
       {
-       "region": "hiroshima",
-       "name": "Hiroshima: tranvía (Hiroden), la mayor red de tranvía de Japón"
+       "name": "Hiroshima: tranvía (Hiroden), la mayor red de tranvía de Japón",
+       "line": "hiroden-1"
       },
       {
-       "region": "tranvias",
-       "name": "Tranvías de Nagasaki, Kumamoto, Kagoshima, Hakodate, Okayama, Kōchi, Toyama, Matsuyama, Toyohashi y Fukui"
+       "name": "Tranvías de Nagasaki, Kumamoto, Kagoshima, Hakodate, Okayama, Kōchi, Toyama, Matsuyama, Toyohashi y Fukui",
+       "line": "nagasaki-1"
       }
      ]
     }

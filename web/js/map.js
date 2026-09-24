@@ -169,7 +169,8 @@ export function createMap(el, net, { onLine, onStation }) {
   // Lugares: todo Japón, cada región con «bounds» y los lugares extra de lines.json → places (ciudades con tranvía…)
   const places = [
     { id: "japan", name: "Todo Japón", ja: "日本", bounds: JAPAN_BOUNDS },
-    ...Object.entries(net.regions || {}).filter(([, r]) => r.bounds).map(([id, r]) => ({ id, ...r })),
+    // «japan» es la red Shinkansen, que ya está cubierta por «Todo Japón»
+    ...Object.entries(net.regions || {}).filter(([id, r]) => r.bounds && id !== "japan").map(([id, r]) => ({ id, ...r })),
     ...(net.places || []),
   ];
   const GoControl = L.Control.extend({
@@ -202,6 +203,11 @@ export function createMap(el, net, { onLine, onStation }) {
   // ---------------------------------------------------------------- API
   const pad = () => (matchMedia("(max-width: 820px)").matches ? [20, 20] : [40, 40]);
 
+  function startBounds() {
+    const p = (net.places || []).find((x) => x.id === "tokyo");
+    return p?.bounds || net.regions.kanto?.bounds || JAPAN_BOUNDS;
+  }
+
   function setPulse(st) {
     pulse?.remove();
     pulse = null;
@@ -217,7 +223,8 @@ export function createMap(el, net, { onLine, onStation }) {
       state.focusLine = state.focusStation = state.focusLines = null;
       setPulse(null);
       render();
-      if (fit) map.fitBounds(net.regions.tokyo.bounds, { animate: false });
+      // al abrir: el área de Tokio si está en los datos; si no, la región con más líneas
+      if (fit) map.fitBounds(startBounds(), { animate: false });
     },
     showPlace(id) {
       const p = places.find((x) => x.id === id);

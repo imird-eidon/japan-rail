@@ -249,6 +249,31 @@ def parse_ways(data, trams=False):
 
 
 # ---------------------------------------------------------------- geometría
+def drop_parallel(chains, tol_m=45, share=0.8):
+    """Quita las cadenas que van pegadas a otra más larga: son el segundo carril de la vía doble.
+    OSM mapea cada carril como una vía distinta, así que al dibujarlas todas la línea salía doble."""
+    kept, index = [], {}
+    cell = tol_m / 111000 * 2          # celdas de rejilla algo mayores que la tolerancia
+    def bucket(pt):
+        return (int(pt[0] / cell), int(pt[1] / (cell * 1.25)))
+    def cerca(pt):
+        bx, by = bucket(pt)
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                for q in index.get((bx + dx, by + dy), ()):
+                    if haversine_m(pt, q) <= tol_m:
+                        return True
+        return False
+    for chain in sorted(chains, key=len, reverse=True):
+        muestras = chain[:: max(1, len(chain) // 40)] or chain
+        if kept and sum(cerca(p) for p in muestras) >= share * len(muestras):
+            continue                    # va pegada a una cadena ya dibujada: es el otro carril
+        kept.append(chain)
+        for pt in chain:
+            index.setdefault(bucket(pt), []).append(pt)
+    return kept
+
+
 def merge_chains(segments):
     """Une tramos de vía que comparten extremos en cadenas lo más largas posible.
     Recorre un índice de extremos, así que escala bien con relaciones de miles de tramos."""
@@ -536,7 +561,7 @@ def main():
 
         for st in stops:  # las correcciones de código se aplican ya, para que order=code las tenga en cuenta
             st["code"] = code_fixes.get(line["id"], {}).get(st["ja"], st["code"])
-        chains = merge_chains(chains_raw)
+        chains = drop_parallel(merge_chains(chains_raw))
         if "section" in line:
             stops, chains = cut_section(line, stops, chains, warnings)
         if line.get("order") == "geometry":

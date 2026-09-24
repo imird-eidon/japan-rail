@@ -31,8 +31,8 @@ function buildIndexes(net) {
 }
 
 export const isShinkansen = (line) => line.type === "shinkansen" || line.type === "mini-shinkansen";
-/** Grupo (región) de una línea para filtros y listados: "japan" (Shinkansen), "tokyo", "kyoto"… */
-export const groupOf = (line) => line.region || (isShinkansen(line) ? "japan" : "tokyo");
+/** Grupo (región) de una línea para filtros y listados: "japan" (Shinkansen), "kanto", "kansai"… */
+export const groupOf = (line) => line.region || (isShinkansen(line) ? "japan" : "kanto");
 /** Región principal de un tren: la de su primera línea actual (o histórica). */
 export const trainRegion = (net, t) => {
   const id = t.lines[0] || t.history?.[0]?.line;

@@ -164,7 +164,7 @@ function trainsTab(net) {
   const sections = net.groups.map((g) => {
     const list = current.filter((t) => trainRegion(net, t) === g.id);
     if (!list.length) return "";
-    const title = g.id === "japan" ? "Shinkansen" : `Tren y metro de ${g.name}`;
+    const title = g.id === "japan" ? "Shinkansen" : `Trenes de ${g.name}`;
     return `<h2 class="group-title">${esc(title)} <span class="ja">${esc(g.ja || "")}</span></h2>
       <ul class="train-list">${list.map(row).join("")}</ul>`;
   }).join("");

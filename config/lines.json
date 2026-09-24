@@ -492,7 +492,7 @@
         "Takanawa Gateway (2020) fue la primera estación nueva del anillo desde Nishi-Nippori (1971).",
         "En hora punta pasa un tren cada 2–3 minutos."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "chuo-rapid",
@@ -517,7 +517,7 @@
         "En la estación de Tokio sus andenes (1 y 2) están elevados sobre el resto de vías.",
         "El primer tramo, Shinjuku–Tachikawa, lo abrió en 1889 el ferrocarril privado Kōbu."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "chuo-sobu",
@@ -541,7 +541,7 @@
         "Sus trenes E231-500 son los que circulaban antes por la Yamanote; se trasladaron aquí al llegar los E235.",
         "En Ochanomizu corre junto al río Kanda, con el metro Marunouchi asomando sobre el agua: una de las vistas ferroviarias más fotografiadas de Tokio."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keihin-tohoku",
@@ -566,7 +566,7 @@
         "Nació en 1914 como el primer servicio de trenes eléctricos de larga distancia de Japón.",
         "De día circula en modo rápido entre Tamachi y Tabata y se salta algunas estaciones que ya cubre la Yamanote."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "saikyo",
@@ -590,7 +590,7 @@
         "Su nombre sale de 埼 (Saitama) + 京 (Tokio).",
         "Desde 2019 algunos trenes siguen por la red Sōtetsu hasta Kanagawa."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "sobu-rapid",
@@ -614,7 +614,7 @@
         "En la estación de Tokio sus andenes están a unos 5 pisos bajo tierra: la parte más profunda de la estación.",
         "El año de apertura corresponde al túnel subterráneo Tokio–Kinshichō (1972)."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "ginza",
@@ -640,7 +640,7 @@
         "En Shibuya la estación del «metro» está en un tercer piso, por encima de la calle.",
         "Sus trenes 1000 de 2012 imitan el color limón y el diseño de los primeros vagones de 1927."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "marunouchi",
@@ -665,7 +665,7 @@
         "En Ochanomizu, Korakuen y Yotsuya sale a la superficie y se ve cruzar el río Kanda.",
         "Sus trenes llevan la onda senoidal blanca que ya decoraba los primeros trenes rojos de 1954."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "hibiya",
@@ -689,7 +689,7 @@
         "Toranomon Hills (2020) fue su primera estación nueva en más de 50 años.",
         "En Kita-Senju conecta con la red Tōbu, que la prolonga hasta Saitama."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tozai",
@@ -714,7 +714,7 @@
         "Sus trenes 15000 tienen puertas de 1,8 m, más anchas de lo habitual, para acelerar la subida y bajada.",
         "Al este sale a la superficie y cruza los ríos Arakawa y Nakagawa por un largo puente."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "chiyoda",
@@ -739,7 +739,7 @@
         "Kokkai-gijidōmae, junto al Parlamento, es una de sus estaciones más profundas: casi 38 m.",
         "Por los extremos se enlaza con Odakyū (hacia Hakone) y con la JR Jōban."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "yurakucho",
@@ -763,7 +763,7 @@
         "Hay en obras una extensión desde Toyosu hacia Sumiyoshi (ramal hacia el este).",
         "Entre Wakōshi y Kotake-mukaihara comparte vías con la línea Fukutoshin."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "hanzomon",
@@ -787,7 +787,7 @@
         "Su letra es la Z porque la H ya era de la Hibiya.",
         "Sus trenes siguen por las redes Tōkyū (hacia Kanagawa) y Tōbu (hacia Saitama), en recorridos de más de 90 km."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "namboku",
@@ -812,7 +812,7 @@
         "Entre Meguro y Shirokane-takanawa comparte vía con la línea Toei Mita.",
         "Se construye un ramal de Shirokane-takanawa a Shinagawa."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "fukutoshin",
@@ -836,7 +836,7 @@
         "Su estación de Shibuya, con una gran bóveda ovalada, la diseñó el arquitecto Tadao Andō.",
         "Desde 2013 sus trenes siguen por la línea Tōkyū Tōyoko hasta Yokohama."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "asakusa",
@@ -860,7 +860,7 @@
         "Fue el primer metro japonés con servicio directo sobre vías de una compañía privada (Keisei, 1960).",
         "Usa ancho estándar (1435 mm), como el Shinkansen, para poder compartir vías con Keisei y Keikyū."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "mita",
@@ -884,7 +884,7 @@
         "Su letra es la I porque la M ya era de la Marunouchi.",
         "Funciona con operación automática (ATO) y puertas de andén."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "shinjuku",
@@ -907,7 +907,7 @@
       "facts": [
         "Usa un ancho de vía muy raro, 1372 mm: el mismo que Keiō, para poder compartir trenes."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "oedo",
@@ -933,7 +933,7 @@
         "No es un anillo completo: los trenes dan la vuelta y terminan de nuevo en Tochōmae.",
         "Su nombre, «Gran Edo», recuerda el antiguo nombre de Tokio."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "arakawa",
@@ -958,7 +958,7 @@
         "En primavera sus vías se llenan de rosas y cerezos; de ahí el apodo «Sakura Tram».",
         "Paga una tarifa única, cojas donde cojas el tranvía."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "nippori-toneri",
@@ -979,7 +979,7 @@
       "facts": [
         "Va elevado en todo el recorrido: desde el primer vagón se ve la vía por delante."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "yurikamome",
@@ -1003,7 +1003,7 @@
         "Para subir al Rainbow Bridge da una vuelta completa en espiral en Shibaura.",
         "Se llama como la gaviota reidora (ゆりかもめ), el ave símbolo de Tokio."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyo-monorail",
@@ -1027,7 +1027,7 @@
         "Se inauguró el 17 de septiembre de 1964, justo antes de los Juegos Olímpicos de Tokio.",
         "Es de tipo ALWEG: el tren va «a caballo» sobre una única viga de hormigón."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "rinkai",
@@ -1051,7 +1051,7 @@
         "Casi todo su trazado es subterráneo; pasa bajo el canal de Tokio.",
         "Muchos trenes siguen por la línea Saikyō hacia Shinjuku y Saitama."
       ],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokaido-shinkansen",
@@ -1334,7 +1334,7 @@
       "region": "japan"
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "karasuma",
       "code": "K",
@@ -1357,7 +1357,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "kyoto-tozai",
       "code": "T",
@@ -1380,7 +1380,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "jr-kyoto",
       "code": "A",
@@ -1402,7 +1402,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "sagano",
       "code": "E",
@@ -1463,7 +1463,7 @@
         "上夜久野"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es la continuación de la línea Sagano más allá de Sonobe, por los valles del norte de Kioto."
@@ -1498,7 +1498,7 @@
         "東舞鶴"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Une el interior de Kioto con el puerto de Maizuru, en el mar de Japón."
@@ -1525,7 +1525,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "kyoto",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Bordea la bahía de Wakasa, entre Maizuru y Tsuruga, con el mar casi siempre a la vista."
@@ -1568,7 +1568,7 @@
         "宮津"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Pasa por Ōe, la montaña de las leyendas de ogros (oni) más famosas de Japón."
@@ -1604,7 +1604,7 @@
         "宮津"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Cruza la desembocadura del río Yura por un puente largo y bajo, casi a ras del agua."
@@ -1630,7 +1630,7 @@
         ],
         "nearby": 150
       },
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Pasa por Amanohashidate, uno de los tres paisajes más célebres de Japón."
@@ -1673,7 +1673,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es el tramo rural de la vieja línea Kansai, entre Kamo y Kameyama, con trenes diésel de una sola unidad."
@@ -1704,7 +1704,7 @@
         "ケーブル比叡"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Salva 561 metros de desnivel, el mayor de un funicular en Japón.",
@@ -1736,14 +1736,14 @@
         "傘松"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sube al mirador de Kasamatsu, desde donde se mira Amanohashidate al revés, agachado y entre las piernas."
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "nara-line",
       "code": "D",
@@ -1764,7 +1764,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "keihan-main",
       "code": "KH",
@@ -1795,7 +1795,7 @@
       "order": "code"
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "keihan-uji",
       "code": "KH",
@@ -1816,7 +1816,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "hankyu-kyoto",
       "code": "HK",
@@ -1838,7 +1838,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "hankyu-arashiyama",
       "code": "HK",
@@ -1859,7 +1859,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "kintetsu-kyoto",
       "code": "B",
@@ -1880,7 +1880,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "randen-arashiyama",
       "code": "A",
@@ -1903,7 +1903,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "randen-kitano",
       "code": "B",
@@ -1929,7 +1929,7 @@
       "order": "geometry"
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "eizan-main",
       "code": "E",
@@ -1950,7 +1950,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "eizan-kurama",
       "code": "E",
@@ -1972,7 +1972,7 @@
       ]
     },
     {
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "id": "sagano-scenic",
       "code": "トロ",
@@ -2013,7 +2013,7 @@
         "Buena parte del trazado va sobre terrenos ganados al mar."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "uchibo",
@@ -2035,7 +2035,7 @@
         ],
         "nearby": 200
       },
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Recorre la costa oeste de la península de Bōsō, mirando a la bahía de Tokio."
@@ -2094,7 +2094,7 @@
         ],
         "nearby": 200
       },
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Recorre la costa del Pacífico de la península de Bōsō, la de las playas de surf."
@@ -2150,7 +2150,7 @@
         "nearby": 200
       },
       "order": "geometry",
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Termina en Chōshi, el punto más al este del área de Kantō, famoso por su salsa de soja."
@@ -2177,7 +2177,7 @@
         "nearby": 200
       },
       "order": "geometry",
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": []
     },
@@ -2202,7 +2202,7 @@
         "nearby": 200
       },
       "order": "geometry",
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": []
     },
@@ -2234,7 +2234,7 @@
         "成東"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": []
     },
@@ -2259,7 +2259,7 @@
         "nearby": 200
       },
       "order": "geometry",
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es de las últimas líneas de JR East sin electrificar en Kantō."
@@ -2286,7 +2286,7 @@
         "nearby": 200
       },
       "order": "geometry",
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Cruza el lago Kitaura por un puente de casi un kilómetro."
@@ -2312,7 +2312,7 @@
         ],
         "nearby": 200
       },
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Sus trenes diésel de los años 60 siguen circulando; en primavera, entre campos de flores amarillas.",
@@ -2360,7 +2360,7 @@
         ],
         "nearby": 200
       },
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Recuperó dos coches diésel antiguos, el KiHa 28 y el KiHa 52, para trenes turísticos."
@@ -2403,7 +2403,7 @@
         ],
         "nearby": 150
       },
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Sobrevive vendiendo galletas de arroz: la venta de nurezenbei da más dinero que los billetes.",
@@ -2450,7 +2450,7 @@
         "東京ディズニーシー・ステーション"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es un monorraíl de verdad, con billete y abono, que da la vuelta al complejo de Disney.",
@@ -2475,7 +2475,7 @@
         "Desde 2015 muchos trenes siguen por la Ueno-Tokyo Line hasta Shinagawa."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "joban-local",
@@ -2494,7 +2494,7 @@
         "Casi todos sus trenes entran en la línea Chiyoda de Tokyo Metro, que continúa la línea hacia el centro."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "musashino",
@@ -2515,7 +2515,7 @@
         "Con viento fuerte es de las primeras en interrumpirse: muchos tramos van en viaductos altos."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "nambu",
@@ -2536,7 +2536,7 @@
         "La construyó una compañía privada para transportar grava del río Tama; JNR la nacionalizó en 1944."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "yokohama-line",
@@ -2557,7 +2557,7 @@
         "Se construyó para llevar la seda de Hachiōji al puerto de Yokohama: la llaman la «ruta de la seda» japonesa."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokaido-jt",
@@ -2583,7 +2583,7 @@
         "Desde 2015, con la Ueno-Tokyo Line, sus trenes siguen hasta Utsunomiya y Takasaki."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "yokosuka",
@@ -2604,7 +2604,7 @@
         "Es la línea para ir a Kamakura y su gran Buda."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "shonan-shinjuku",
@@ -2628,7 +2628,7 @@
         "Usa vías que antes solo llevaban mercancías (la «línea Yamanote de mercancías»)."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "utsunomiya",
@@ -2648,7 +2648,7 @@
         "Utsunomiya es la ciudad de los gyōza: tiene hasta una estatua de gyōza frente a la estación."
       ],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "order": "geometry",
       "no_extrapolate": true
     },
@@ -2670,7 +2670,7 @@
         "Su primer tramo, Ueno–Kumagaya (1883), fue del primer ferrocarril privado de Japón, Nippon Railway."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "ome",
@@ -2691,7 +2691,7 @@
         "Su tramo final, entre Ōme y Okutama, recorre valles y bosques sin salir de la prefectura de Tokio."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyu-toyoko",
@@ -2713,7 +2713,7 @@
         "En 2013 su estación de Shibuya pasó a ser subterránea, compartida con la línea Fukutoshin."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyu-denentoshi",
@@ -2734,7 +2734,7 @@
         "Es una de las líneas más saturadas de Tokio en hora punta."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyu-meguro",
@@ -2753,7 +2753,7 @@
         "Tiene puertas de andén y conducción automática en todas sus estaciones."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyu-oimachi",
@@ -2771,7 +2771,7 @@
       "summary": "De Ōimachi a Mizonokuchi por Jiyūgaoka y Futako-Tamagawa.",
       "facts": [],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "section": [
         "大井町",
         "二子玉川"
@@ -2794,7 +2794,7 @@
       "summary": "Gotanda–Kamata con trenes de tres coches: la línea «de barrio» de Tōkyū.",
       "facts": [],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "order": "code"
     },
     {
@@ -2812,7 +2812,7 @@
       "summary": "Corto ramal de Tamagawa a Kamata.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tokyu-setagaya",
@@ -2834,7 +2834,7 @@
         "En la estación Miyanosaka está el templo Gōtoku-ji, cuna del gato de la suerte (maneki-neko)."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "odakyu-odawara",
@@ -2856,7 +2856,7 @@
         "Los Romancecar siguen desde Odawara por la vía de Hakone Tozan hasta Hakone-Yumoto."
       ],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"小田原線\"]",
         "bbox": [
@@ -2901,7 +2901,7 @@
         "大月"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es la continuación de la línea Chūō más allá de Takao, ya entre montañas camino de Kōfu.",
@@ -2933,7 +2933,7 @@
         "ダム上 山頂"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es el ascensor inclinado que subía el material de la presa y hoy lleva visitantes, con 200 metros de desnivel."
@@ -2973,7 +2973,7 @@
         "強羅"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Sube a Hakone haciendo tres cambios de sentido en zigzag para ganar altura.",
@@ -3010,7 +3010,7 @@
         "早雲山"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Enlaza el tren de Hakone con el teleférico que sube al Ōwakudani, el valle de los humos."
@@ -3051,7 +3051,7 @@
         "大雄山"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Lleva al templo Daiyūzan Saijō-ji, entre cedros de más de quinientos años."
@@ -3083,7 +3083,7 @@
         "阿夫利神社"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Sube al santuario Afuri, en el monte Ōyama, meta de peregrinación desde el periodo Edo."
@@ -3131,7 +3131,7 @@
         "沼津"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Fue la línea principal Tōkaidō hasta 1934, cuando se abrió el túnel de Tanna.",
@@ -3157,7 +3157,7 @@
         "La estación de Katase-Enoshima tiene forma de palacio del dragón (Ryūgū-jō) de los cuentos japoneses."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keio",
@@ -3179,7 +3179,7 @@
         "Su estación de Shinjuku está bajo tierra, bajo los grandes almacenes Keiō."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keio-takao",
@@ -3193,7 +3193,7 @@
       "osm": [
         14306815
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "length_km": 8.6,
       "summary": "Ramal de Kitano a Takaosanguchi, a los pies del monte Takao.",
@@ -3220,7 +3220,7 @@
         "Cada tren lleva el frontal de uno de siete colores distintos: el «arcoíris» del Inokashira."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "seibu-ikebukuro",
@@ -3241,7 +3241,7 @@
         "El expreso limitado Laview, con ventanas enormes, lleva a Chichibu."
       ],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "order": "code",
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"西武池袋線\"]",
@@ -3348,7 +3348,7 @@
         "三峰口"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es la línea de los valles de Chichibu; todavía mueve trenes de mercancías con caliza de sus canteras.",
@@ -3384,7 +3384,7 @@
         "西武秩父"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Cruza la sierra por el túnel de Shōmaru, de 4,8 km, abierto en 1969.",
@@ -3440,7 +3440,7 @@
         "伊勢崎"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es la continuación al norte de la Skytree Line, hasta Isesaki, en Gunma."
@@ -3495,7 +3495,7 @@
         "東武日光"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Lleva a Nikkō, a los santuarios patrimonio de la humanidad, con los expresos Spacia."
@@ -3520,7 +3520,7 @@
         "Su estación Seibu-Shinjuku está separada de la gran estación de Shinjuku, a unos 5 minutos a pie."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tobu-skytree",
@@ -3542,7 +3542,7 @@
         "Los expresos SPACIA X siguen hasta Nikkō y Kinugawa."
       ],
       "trains": [],
-      "region": "tokyo",
+      "region": "kanto",
       "extra_stops": [
         11065584
       ],
@@ -3577,7 +3577,7 @@
         "Abrió en 1914 y une Ikebukuro con Yorii, ya en las montañas de Saitama."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keikyu-main",
@@ -3598,7 +3598,7 @@
         "Comparte trenes con el metro Asakusa y la red Keisei: se puede ir de Haneda a Narita sin cambiar."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keikyu-airport",
@@ -3616,7 +3616,7 @@
       "summary": "De Keikyū-Kamata al aeropuerto de Haneda.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keisei-main",
@@ -3637,7 +3637,7 @@
         "El Skyliner llega a 160 km/h en la Narita Sky Access: el tren convencional (no Shinkansen) más rápido de Japón."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keisei-oshiage",
@@ -3655,7 +3655,7 @@
       "summary": "Oshiage–Aoto: el enlace entre el metro Asakusa y la red Keisei.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "tsukuba-express",
@@ -3677,7 +3677,7 @@
         "Tiene puertas de andén en todas las estaciones y conducción automática."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "sotetsu",
@@ -3697,7 +3697,7 @@
         "Sus trenes nuevos van pintados de «Yokohama Navy Blue», un azul marino muy oscuro."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "takao-cable",
@@ -3724,7 +3724,7 @@
         "高尾山"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Tiene la pendiente más pronunciada de Japón: 31 grados y 18 minutos.",
@@ -3756,7 +3756,7 @@
         "御岳山"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Sube al santuario Musashi-Mitake, en la montaña sagrada de Mitake, dentro de Tokio."
@@ -3787,7 +3787,7 @@
         "山頂"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es gratis: lo puso el distrito de Kita para subir la cuesta del parque de Asukayama en 2 minutos.",
@@ -3820,7 +3820,7 @@
         "寺務所"
       ],
       "strict_order": true,
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "facts": [
         "Es el ascensor inclinado del templo Matsuchiyama Shōden, en Asakusa, gratuito para los visitantes."
@@ -3843,7 +3843,7 @@
       "summary": "Monorraíl norte–sur de Kamikitadai a Tama-Center, por Tachikawa.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "enoden",
@@ -3865,7 +3865,7 @@
         "El paso a nivel de Kamakura-Kōkōmae, con el mar de fondo, es famoso por el anime «Slam Dunk»."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "shonan-monorail",
@@ -3879,7 +3879,7 @@
       "osm": [
         7715259
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "opened": 1970,
       "length_km": 6.6,
@@ -3909,7 +3909,7 @@
         "Oficialmente son dos líneas, la 1 y la 3, pero funcionan como una sola de Shōnandai a Azamino."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "yokohama-green",
@@ -3928,7 +3928,7 @@
       "summary": "De Hiyoshi a Nakayama, con trenes de motor lineal.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "minatomirai",
@@ -3949,7 +3949,7 @@
         "Cada una de sus estaciones la diseñó un arquitecto distinto."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "osaka-loop",
@@ -3971,7 +3971,7 @@
         "En Tsuruhashi, el barrio coreano, el andén huele a yakiniku de los restaurantes de al lado."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "yumesaki",
@@ -3991,7 +3991,7 @@
         "Su nombre oficial es línea Sakurajima; «Yumesaki» (sueño que florece) es el apodo que se le dio al abrir USJ en 2001."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "midosuji",
@@ -4014,7 +4014,7 @@
         "Al norte sigue por la línea Kita-Osaka Kyūkō hasta Minoh."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "tanimachi",
@@ -4033,7 +4033,7 @@
       "summary": "La más larga de Osaka Metro: de Dainichi a Yao-Minami, pasando por Higashi-Umeda y Tennōji.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "yotsubashi",
@@ -4052,7 +4052,7 @@
       "summary": "De Nishi-Umeda a Suminoekōen, paralela a la Midōsuji.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "chuo-osaka",
@@ -4073,7 +4073,7 @@
         "Al este sigue por la línea Kintetsu Keihanna hasta Nara."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "sennichimae",
@@ -4092,7 +4092,7 @@
       "summary": "De Nodahanshin a Minami-Tatsumi por Namba.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "sakaisuji",
@@ -4113,7 +4113,7 @@
         "Es la única línea de Osaka Metro con catenaria en lugar de tercer carril, para poder compartir trenes con Hankyu."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "nagahori",
@@ -4134,7 +4134,7 @@
         "Fue el primer metro de Japón con motores lineales; se inauguró para la Exposición de Flores y Plantas de 1990."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "imazatosuji",
@@ -4153,7 +4153,7 @@
       "summary": "La más nueva de Osaka Metro (2006), de Itakano a Imazato.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "new-tram",
@@ -4172,7 +4172,7 @@
       "summary": "Tren automático sin conductor por el puerto de Ōsaka, de Cosmosquare a Suminoekōen.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "nankai-main",
@@ -4193,7 +4193,7 @@
         "Nankai desciende del Hankai Railway de 1885: es la compañía ferroviaria privada más antigua de Japón que sigue funcionando."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "nankai-airport",
@@ -4218,7 +4218,7 @@
         "Cruza al aeropuerto, construido en una isla artificial, por el puente Sky Gate Bridge R, de 3,75 km, con la autopista encima."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "mizuma",
@@ -4253,7 +4253,7 @@
         "水間観音"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Lleva al templo Mizuma Kannon, uno de los del recorrido de peregrinación de Kansai."
@@ -4280,7 +4280,7 @@
         "箕面萱野"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es la prolongación del metro Midōsuji al norte: los mismos trenes siguen sin transbordo.",
@@ -4312,7 +4312,7 @@
         "高安山"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sube al monte Shigi, donde el templo Chōgosonshi-ji guarda la leyenda del tigre de Shōtoku Taishi."
@@ -4345,7 +4345,7 @@
         "多奈川"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Ramal de 2,6 km hacia el puerto de Fuke, desde donde antes salían los barcos a la isla de Awaji."
@@ -4377,7 +4377,7 @@
         "先端"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es el tren automático que recorre el interior de la terminal 1 del aeropuerto de Kansai."
@@ -4408,7 +4408,7 @@
         "先端"
       ],
       "strict_order": true,
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "La terminal 1 de Kansai mide 1,7 km de largo: sin este tren, ir de una punta a otra sería un paseo."
@@ -4432,7 +4432,7 @@
         "El último tramo sube por montañas con curvas y pendientes muy fuertes; el expreso «Kōya» usa trenes cortos preparados para ellas."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "hanshin-main",
@@ -4453,7 +4453,7 @@
         "Koshien, el estadio de los Hanshin Tigers y del famoso torneo de béisbol escolar, tiene su propia estación."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "hanshin-namba",
@@ -4472,7 +4472,7 @@
       "summary": "De Ōsaka-Namba a Amagasaki: desde 2009 une las redes de Kintetsu y Hanshin, y así Nara con Kōbe.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "hankyu-kobe",
@@ -4491,7 +4491,7 @@
       "summary": "De Ōsaka-Umeda a Kōbe-Sannomiya por la falda de las montañas Rokkō.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "hankyu-takarazuka",
@@ -4512,7 +4512,7 @@
         "El fundador de Hankyu, Ichizō Kobayashi, creó la revista Takarazuka en 1914 para atraer viajeros a su línea."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "kintetsu-namba",
@@ -4531,7 +4531,7 @@
       "summary": "Corto tramo subterráneo de Ōsaka-Namba a Ōsaka-Uehommachi.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "kintetsu-nara",
@@ -4552,7 +4552,7 @@
         "La estación de Kintetsu-Nara está a pocos minutos del parque de los ciervos."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "kintetsu-osaka",
@@ -4572,7 +4572,7 @@
         "Por aquí pasan el Hinotori (a Nagoya) y el Shimakaze (al santuario de Ise)."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "osaka-monorail",
@@ -4593,7 +4593,7 @@
         "En Banpaku-kinen-kōen se ve la Torre del Sol de Tarō Okamoto, símbolo de la Expo de 1970."
       ],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "hankai",
@@ -4613,7 +4613,7 @@
         "Todavía circula el tranvía Mo 161 de 1928, uno de los más antiguos de Japón en servicio regular."
       ],
       "trains": [],
-      "region": "osaka",
+      "region": "kansai",
       "order": "geometry",
       "extra_nodes": [
         5673887388
@@ -4635,7 +4635,7 @@
       "summary": "Ramal del tranvía desde Tennōji-ekimae, a los pies del rascacielos Abeno Harukas.",
       "facts": [],
       "trains": [],
-      "region": "osaka"
+      "region": "kansai"
     },
     {
       "id": "jr-kobe",
@@ -4656,7 +4656,7 @@
         "Sus rápidos especiales circulan a 130 km/h, compitiendo con Hankyu y Hanshin."
       ],
       "trains": [],
-      "region": "kobe"
+      "region": "kansai"
     },
     {
       "id": "kobe-seishin",
@@ -4677,7 +4677,7 @@
         "El tramo Tanigami–Shin-Kōbe atraviesa las montañas Rokkō por un túnel de más de 7 km."
       ],
       "trains": [],
-      "region": "kobe"
+      "region": "kansai"
     },
     {
       "id": "kobe-kaigan",
@@ -4696,7 +4696,7 @@
       "summary": "«Línea de la costa», de Sannomiya-Hanadokeimae a Shin-Nagata, con motor lineal.",
       "facts": [],
       "trains": [],
-      "region": "kobe"
+      "region": "kansai"
     },
     {
       "id": "port-liner",
@@ -4717,7 +4717,7 @@
         "En 1981 fue el primer tren sin conductor del mundo en servicio comercial regular."
       ],
       "trains": [],
-      "region": "kobe",
+      "region": "kansai",
       "extra_stops": [
         2431076
       ]
@@ -4739,7 +4739,7 @@
       "summary": "Tren automático de Sumiyoshi a la isla artificial de Rokkō.",
       "facts": [],
       "trains": [],
-      "region": "kobe"
+      "region": "kansai"
     },
     {
       "id": "keihan-keishin",
@@ -4771,7 +4771,7 @@
         "Sus trenes de 4 coches van en metro, suben una pendiente de 61 ‰ (de las mayores de Japón en tren de adherencia) y acaban circulando por la calle en Ōtsu."
       ],
       "trains": [],
-      "region": "kyoto",
+      "region": "kansai",
       "station_order": [
         "御陵",
         "京阪山科",
@@ -4808,7 +4808,7 @@
         "En Sakamoto-hieizanguchi empieza el funicular de Sakamoto, el más largo de Japón, que sube al Enryaku-ji."
       ],
       "trains": [],
-      "region": "kyoto"
+      "region": "kansai"
     },
     {
       "id": "kosei",
@@ -4828,7 +4828,7 @@
         "Se construyó sin pasos a nivel para ir rápido, pero el viento del monte Hira (Hira-oroshi) obliga a menudo a parar los trenes."
       ],
       "trains": [],
-      "region": "kyoto"
+      "region": "kansai"
     },
     {
       "id": "biwako",
@@ -4845,7 +4845,7 @@
       "summary": "De Kioto a Maibara y Nagahama por la orilla sureste del lago Biwa.",
       "facts": [],
       "trains": [],
-      "region": "kyoto"
+      "region": "kansai"
     },
     {
       "id": "hokuriku-shiga",
@@ -4880,7 +4880,7 @@
         "近江塩津"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Bordea el lago Biwa por el norte, camino de Tsuruga y la costa del mar de Japón."
@@ -4914,7 +4914,7 @@
         "関ケ原"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sube al paso de Sekigahara, donde se libró en 1600 la batalla que decidió el shogunato Tokugawa."
@@ -4939,7 +4939,7 @@
         "Es de tipo SAFEGE, como el Shōnan Monorail: el tren cuelga de una viga hueca."
       ],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "chiba-monorail-1",
@@ -4956,7 +4956,7 @@
       "summary": "Corta línea de Chiba-Minato a Kenchō-mae, por el centro de Chiba.",
       "facts": [],
       "trains": [],
-      "region": "tokyo"
+      "region": "kanto"
     },
     {
       "id": "keikyu-kurihama",
@@ -4970,7 +4970,7 @@
       "osm": [
         21320563
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Horinouchi a Misakiguchi, en la punta de la península de Miura.",
       "facts": [
@@ -5007,7 +5007,7 @@
       "osm": [
         9499867
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Kanazawa-hakkei a Zushi-Hayama, junto a las playas de Zushi.",
       "facts": []
@@ -5024,7 +5024,7 @@
       "osm": [
         9499381
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Keikyū-Kawasaki a Kojimashinden, por Kawasaki-Daishi.",
       "facts": [
@@ -5043,7 +5043,7 @@
       "osm": [
         9480251
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Corto ramal de Keisei-Takasago a Keisei-Kanamachi por Shibamata.",
       "facts": [
@@ -5062,7 +5062,7 @@
       "osm": [
         2060618
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Keisei-Tsudanuma a Chiba-Chūō.",
       "facts": []
@@ -5079,7 +5079,7 @@
       "osm": [
         2060696
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Chiba-Chūō a Chiharadai.",
       "facts": []
@@ -5096,7 +5096,7 @@
       "osm": [
         11502414
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Keisei-Tsudanuma a Matsudo; antes era la compañía Shin-Keisei.",
       "facts": [
@@ -5115,7 +5115,7 @@
       "osm": [
         3340250
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Keisei-Takasago a Imba-Nihon-idai por la Chiba New Town; por sus vías corre el Skyliner hacia Narita.",
       "facts": [
@@ -5135,7 +5135,7 @@
       "osm": [
         3347989
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Ramal de Keisei-Narita a Higashi-Narita, la antigua estación del aeropuerto.",
       "facts": []
@@ -5152,7 +5152,7 @@
       "osm": [
         9486564
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Higashi-Narita a Shibayama-Chiyoda, junto al aeropuerto de Narita.",
       "facts": [
@@ -5171,7 +5171,7 @@
       "osm": [
         10056053
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Vía subterránea paralela a la Keiō entre Shinjuku y Sasazuka, con Hatsudai y Hatagaya; sus trenes siguen por el metro Toei Shinjuku.",
       "facts": []
@@ -5188,7 +5188,7 @@
       "osm": [
         11299750
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Chōfu a Hashimoto por la Tama New Town.",
       "facts": []
@@ -5205,7 +5205,7 @@
       "osm": [
         11688125
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Ramal de una sola parada al hipódromo de Tokio (Fuchū).",
       "facts": [
@@ -5224,7 +5224,7 @@
       "osm": [
         11270762
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Ramal de Takahatafudō al zoo de Tama.",
       "facts": [
@@ -5243,7 +5243,7 @@
       "osm": [
         9504629
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Shin-Yurigaoka a Karakida por la Tama New Town.",
       "facts": []
@@ -5260,7 +5260,7 @@
       "osm": [
         9507232
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Kodaira a Haijima.",
       "facts": []
@@ -5277,7 +5277,7 @@
       "osm": [
         1947329
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Kokubunji a Higashi-Murayama.",
       "facts": []
@@ -5294,7 +5294,7 @@
       "osm": [
         1947331
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Kokubunji al lago Tama.",
       "facts": []
@@ -5311,7 +5311,7 @@
       "osm": [
         11727092
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Musashi-Sakai a Koremasa; no toca ninguna otra línea de Seibu.",
       "facts": [
@@ -5330,7 +5330,7 @@
       "osm": [
         11587709
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Nishi-Tokorozawa a Seibu-Kyūjōmae, el estadio de los Saitama Seibu Lions.",
       "facts": []
@@ -5347,7 +5347,7 @@
       "osm": [
         9338169
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Tren automático sobre neumáticos del lago Tama al estadio de los Lions.",
       "facts": [
@@ -5366,7 +5366,7 @@
       "osm": [
         5486513
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Ramal de Higashi-Murayama a Seibu-en.",
       "facts": []
@@ -5383,7 +5383,7 @@
       "osm": [
         5486515
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Enlace subterráneo de Nerima a Kotake-mukaihara: une la Seibu Ikebukuro con el metro Yūrakuchō y Fukutoshin.",
       "facts": []
@@ -5400,7 +5400,7 @@
       "osm": [
         10961873
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Ramal de una parada de Nerima a Toshimaen.",
       "facts": [
@@ -5419,7 +5419,7 @@
       "osm": [
         5219681
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Hikifune a Kameido con trenes de dos coches.",
       "facts": []
@@ -5436,7 +5436,7 @@
       "osm": [
         5219659
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Una sola parada: de Nishiarai a Daishimae.",
       "facts": [
@@ -5455,7 +5455,7 @@
       "osm": [
         14309204
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Arco de Ōmiya a Funabashi pasando por Kasukabe y Kashiwa (antigua línea Noda).",
       "facts": [],
@@ -5476,7 +5476,7 @@
       "osm": [
         11700879
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Sakado a Ogose, al pie de las montañas de Saitama.",
       "facts": []
@@ -5493,7 +5493,7 @@
       "osm": [
         5219728
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Nagatsuta a Kodomonokuni, «el país de los niños».",
       "facts": [
@@ -5512,7 +5512,7 @@
       "osm": [
         14681766
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Hiyoshi a Shin-Yokohama, la estación del Shinkansen.",
       "facts": [
@@ -5532,7 +5532,7 @@
       "osm": [
         1968180
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Futamatagawa a Shōnandai.",
       "facts": [],
@@ -5553,7 +5553,7 @@
       "osm": [
         14681763
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Nishiya a Shin-Yokohama por Hazawa-Yokohama-Kokudai; enlaza con JR y con Tōkyū.",
       "facts": [],
@@ -5573,7 +5573,7 @@
         11777029,
         11776971
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Línea industrial de Tsurumi a la zona portuaria de Kawasaki, con ramales a Umi-Shibaura y Ōkawa.",
       "facts": [
@@ -5592,7 +5592,7 @@
       "osm": [
         14284669
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Shitte a Hama-Kawasaki.",
       "facts": []
@@ -5609,7 +5609,7 @@
       "osm": [
         1942949
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Chigasaki a Hashimoto, de norte a sur por Kanagawa.",
       "facts": []
@@ -5626,7 +5626,7 @@
       "osm": [
         1984869
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Haijima a Musashi-Itsukaichi, en el valle del Akigawa.",
       "facts": []
@@ -5644,7 +5644,7 @@
         14323630,
         21268982
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Hachiōji a Takasaki por el oeste de Saitama.",
       "facts": [
@@ -5667,7 +5667,7 @@
       "osm": [
         11953294
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "De Ōmiya a Komagawa por Kawagoe; muchos trenes vienen de la Saikyō.",
       "facts": []
@@ -5684,7 +5684,7 @@
       "osm": [
         7002081
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Continúa la línea Namboku de Akabane-Iwabuchi a Urawa-Misono.",
       "facts": [
@@ -5704,7 +5704,7 @@
       "osm": [
         9283468
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Continúa la línea Tōzai de Nishi-Funabashi a Tōyō-Katsutadai.",
       "facts": [],
@@ -5722,7 +5722,7 @@
       "osm": [
         9346453
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Tren automático de Ōmiya a Uchijuku sobre el viaducto del Shinkansen.",
       "facts": [
@@ -5742,7 +5742,7 @@
       "osm": [
         5503502
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Tren automático de Shin-Sugita a Kanazawa-hakkei junto al mar.",
       "facts": [
@@ -5762,7 +5762,7 @@
       "osm": [
         3941253
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Monorraíl circular entre Maihama y los parques de Tokyo Disney Resort.",
       "facts": [
@@ -5783,7 +5783,7 @@
       "osm": [
         11588621
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Pequeño ferrocarril de Mabashi a Nagareyama.",
       "facts": [
@@ -5802,7 +5802,7 @@
       "osm": [
         9603907
       ],
-      "region": "tokyo",
+      "region": "kanto",
       "trains": [],
       "summary": "Bucle automático sobre neumáticos que da servicio a la urbanización de Yukarigaoka.",
       "facts": [
@@ -5822,7 +5822,7 @@
       "osm": [
         11000345
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Tennōji a Wakayama; por aquí van el Haruka al aeropuerto de Kansai y los expresos a Shirahama.",
       "facts": [
@@ -5842,7 +5842,7 @@
       "osm": [
         10956742
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "Ramal de una parada de Ōtori a Higashi-Hagoromo.",
       "facts": []
@@ -5859,7 +5859,7 @@
       "osm": [
         11808856
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Ōsaka a Takarazuka, Sanda y Sasayamaguchi.",
       "facts": []
@@ -5876,7 +5876,7 @@
       "osm": [
         11815533
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Kyōbashi a Kizu por la ciudad científica de Kansai; continúa por la JR Tōzai.",
       "facts": []
@@ -5893,7 +5893,7 @@
       "osm": [
         11810048
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De JR-Namba a Nara por Tennōji y el valle del Yamato.",
       "facts": [
@@ -5912,7 +5912,7 @@
       "osm": [
         11816511
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "Túnel bajo el centro de Ōsaka de Kyōbashi a Amagasaki, por Kitashinchi.",
       "facts": [],
@@ -5930,7 +5930,7 @@
       "osm": [
         3344075
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Ōsaka a Kyūhōji por el este de la ciudad.",
       "facts": [
@@ -5949,7 +5949,7 @@
       "osm": [
         11533186
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Nara a Takada por la antigua ruta de Yamato.",
       "facts": [
@@ -5968,7 +5968,7 @@
       "osm": [
         11942103
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Ōsaka-Abenobashi a Kashiharajingū-mae; continúa hacia Yoshino.",
       "facts": [
@@ -5987,7 +5987,7 @@
       "osm": [
         11944238
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Furuichi a Kawachi-Nagano.",
       "facts": []
@@ -6004,7 +6004,7 @@
       "osm": [
         11942335
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Kashiwara a Dōmyōji.",
       "facts": []
@@ -6021,7 +6021,7 @@
       "osm": [
         11949787
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Shakudo a Kintetsu-Gose.",
       "facts": []
@@ -6038,7 +6038,7 @@
       "osm": [
         1864803
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "Continúa la línea Chūō de Osaka Metro desde Nagata hasta Gakken-Nara-Tomigaoka.",
       "facts": []
@@ -6055,7 +6055,7 @@
       "osm": [
         11962099
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Ikoma a Ōji.",
       "facts": []
@@ -6080,7 +6080,7 @@
         ],
         "nearby": true
       },
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Une Yamato-Saidaiji con Kashihara-Jingū-mae, al pie del santuario más antiguo de Japón."
@@ -6126,7 +6126,7 @@
         ],
         "nearby": true
       },
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es la línea de los cerezos de Yoshino, el lugar más famoso de Japón para verlos en flor.",
@@ -6172,7 +6172,7 @@
         ],
         "nearby": true
       },
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Cruza el valle del Yamato de este a oeste, de Ōji a Wakayama, por el interior de la península de Kii."
@@ -6237,7 +6237,7 @@
         ],
         "nearby": true
       },
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es el funicular más antiguo de Japón: funciona desde 1918.",
@@ -6264,7 +6264,7 @@
       "osm": [
         11965678
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Hirahata a Tenri.",
       "facts": []
@@ -6281,7 +6281,7 @@
       "osm": [
         11965804
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Shin-Ōji a Nishi-Tawaramoto.",
       "facts": []
@@ -6298,7 +6298,7 @@
       "osm": [
         11955065
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Kawachi-Yamamoto a Shigisanguchi, al pie del monte Shigi.",
       "facts": []
@@ -6315,7 +6315,7 @@
       "osm": [
         1872144
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Tenjimbashisuji 6-chōme a Kita-Senri; comparte trenes con el metro Sakaisuji.",
       "facts": []
@@ -6333,7 +6333,7 @@
         11982174,
         11982163
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Takarazuka a Imazu por Nishinomiya-Kitaguchi.",
       "facts": [
@@ -6352,7 +6352,7 @@
       "osm": [
         6024245
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Tsukaguchi a Itami.",
       "facts": []
@@ -6369,7 +6369,7 @@
       "osm": [
         11985116
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Ishibashi-Handai-mae a Minoo.",
       "facts": [
@@ -6388,7 +6388,7 @@
       "osm": [
         11984994
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Shukugawa a Kōyōen.",
       "facts": []
@@ -6405,7 +6405,7 @@
       "osm": [
         11970484
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Mukogawa a Mukogawa-Danchi-mae junto al río.",
       "facts": []
@@ -6454,7 +6454,7 @@
         "谷川"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Su estación de Nihon-Heso-Kōen se llama «parque del ombligo de Japón»: ahí se cruzan el meridiano 135 y el centro del país."
@@ -6501,7 +6501,7 @@
         "和田山"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Pasa al pie del castillo de Takeda, el «castillo del cielo» que flota sobre un mar de nubes."
@@ -6527,7 +6527,7 @@
         ],
         "nearby": 300
       },
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Recorre el valle interior desde Himeji hacia el oeste, con trenes diésel de una o dos unidades."
@@ -6569,7 +6569,7 @@
         ],
         "nearby": 150
       },
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es la columna del oeste de Hyōgo: por aquí pasan los trenes rápidos entre Kōbe, Himeji y Okayama."
@@ -6631,7 +6631,7 @@
         "福知山"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es la parte rural de la línea Fukuchiyama, ya fuera del área de cercanías de Ōsaka."
@@ -6668,7 +6668,7 @@
         "北条町"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Línea rural de 13 km; sus estaciones de madera están catalogadas como patrimonio."
@@ -6695,7 +6695,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "kobe",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Se construyó para acortar el viaje entre Kansai y Tottori: por ella pasa el expreso Super Hakuto."
@@ -6722,7 +6722,7 @@
         "nearby": 400
       },
       "order": "geometry",
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Lleva a Akō, la ciudad de los 47 rōnin."
@@ -6753,7 +6753,7 @@
         "虹の"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sube al monte Maya, cuyo mirador de Kikuseidai tiene una de las tres mejores vistas nocturnas de Japón."
@@ -6784,7 +6784,7 @@
         "六甲山上"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sus coches tienen los dos pisos escalonados, para que la pendiente no incomode."
@@ -6820,7 +6820,7 @@
         "山陽網干"
       ],
       "strict_order": true,
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Ramal del Sanyō Dentetsu hacia el puerto industrial de Aboshi."
@@ -6846,7 +6846,7 @@
         ],
         "nearby": 150
       },
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Bordea la costa del mar de Japón, entre acantilados y pueblos pesqueros del norte de Hyōgo."
@@ -6894,7 +6894,7 @@
         ],
         "nearby": 150
       },
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Es el ferrocarril privado más antiguo de Shiga: circula desde 1898.",
@@ -6959,7 +6959,7 @@
         "八日市"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": []
     },
@@ -6989,7 +6989,7 @@
         "多賀大社前"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Lleva al santuario de Taga, dedicado a los dioses creadores Izanagi e Izanami."
@@ -7029,7 +7029,7 @@
         "柘植"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Sigue el viejo camino de Tōkaidō entre Kusatsu y Tsuge."
@@ -7064,7 +7064,7 @@
         "信楽"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Lleva a Shigaraki, el pueblo de la cerámica de los tanuki de barro."
@@ -7097,7 +7097,7 @@
         "ケーブル延暦寺"
       ],
       "strict_order": true,
-      "region": "kyoto",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Con 2 km, es el funicular más largo de Japón.",
@@ -7116,7 +7116,7 @@
       "osm": [
         6037546
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "Túnel bajo Kōbe de Kōbe-Sannomiya a Nishidai.",
       "facts": [
@@ -7139,7 +7139,7 @@
       "osm": [
         9583674
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Nakamozu a Izumi-Chūō por la Semboku New Town.",
       "facts": [
@@ -7158,7 +7158,7 @@
       "osm": [
         11999471
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "Ramal de Kishinosato-Tamade a Shiomibashi con trenes de dos coches, en pleno Ōsaka.",
       "facts": [
@@ -7177,7 +7177,7 @@
       "osm": [
         11984576
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "Ramal de Hagoromo a Takashinohama.",
       "facts": []
@@ -7194,7 +7194,7 @@
       "osm": [
         11981443
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Hirakatashi a Kisaichi.",
       "facts": []
@@ -7209,7 +7209,7 @@
       "operator": "keihan",
       "type": "commuter",
       "osm": [],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Temmabashi a Nakanoshima, bajo la isla entre los ríos Dōjima y Tosabori.",
       "facts": [],
@@ -7246,7 +7246,7 @@
       "osm": [
         7709848
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Banpaku-kinen-kōen a Saito-nishi.",
       "facts": []
@@ -7263,7 +7263,7 @@
       "osm": [
         9407547
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Shinkaichi al onsen de Arima, subiendo las montañas Rokkō.",
       "facts": [
@@ -7282,7 +7282,7 @@
       "osm": [
         11978782
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Arimaguchi a Sanda.",
       "facts": []
@@ -7299,7 +7299,7 @@
       "osm": [
         11984406
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Suzurandai a Ao, hacia Miki y Ono.",
       "facts": []
@@ -7316,7 +7316,7 @@
       "osm": [
         9407558
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Yokoyama a Woody Town-chūō.",
       "facts": []
@@ -7333,7 +7333,7 @@
       "osm": [
         11970931
       ],
-      "region": "kobe",
+      "region": "kansai",
       "trains": [],
       "summary": "De Nishidai (Kōbe) a Sanyō-Himeji, junto al mar de Seto.",
       "facts": [
@@ -7352,7 +7352,7 @@
       "osm": [
         11981613
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Kawanishi-Noseguchi a Myōkenguchi, al pie del monte Myōken.",
       "facts": [
@@ -7371,7 +7371,7 @@
       "osm": [
         11981650
       ],
-      "region": "osaka",
+      "region": "kansai",
       "trains": [],
       "summary": "De Yamashita a Nissei-Chūō.",
       "facts": []
@@ -7388,7 +7388,7 @@
       "osm": [
         421984
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Se inauguró en 1957: fue el tercer metro de Japón, tras Tokio y Ōsaka."
@@ -7408,7 +7408,7 @@
       "osm": [
         1905460
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es el único metro circular de Japón: sus trenes dan vueltas completas en los dos sentidos."
@@ -7427,7 +7427,7 @@
       "osm": [
         7712570
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7443,7 +7443,7 @@
       "osm": [
         1920724
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7459,7 +7459,7 @@
       "osm": [
         6566407
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7475,7 +7475,7 @@
       "osm": [
         6566412
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7491,7 +7491,7 @@
       "osm": [
         11851628
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "La estación de Meitetsu Nagoya tiene solo tres andenes para decenas de destinos: los trenes llegan y salen casi sin pausa, y hay que fijarse bien en los carteles de color."
@@ -7518,7 +7518,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Pasa por Toyota, la ciudad de la fábrica de coches que le dio nombre."
@@ -7545,7 +7545,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es la línea más antigua de Meitetsu: circula desde 1898."
@@ -7572,7 +7572,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Bordea la bahía de Mikawa, con vistas al mar casi todo el trayecto."
@@ -7599,7 +7599,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7624,7 +7624,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7649,7 +7649,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -7674,7 +7674,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Termina junto al Toyokawa Inari, uno de los tres grandes santuarios de Inari de Japón."
@@ -7701,7 +7701,7 @@
         "nearby": 150
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Llega a las playas de Utsumi, en la punta de la península de Chita."
@@ -7732,7 +7732,7 @@
         "東名古屋港"
       ],
       "strict_order": true,
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Solo circula en horas de entrada y salida de las fábricas del puerto: dos estaciones y poco más de un kilómetro."
@@ -7758,7 +7758,7 @@
         ],
         "nearby": 150
       },
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Rodea Nagoya por el este, de Okazaki a Kōzōji, pasando por Toyota."
@@ -7819,7 +7819,7 @@
         "枇杷島"
       ],
       "strict_order": true,
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Va sobre viaducto casi todo el recorrido, aunque solo circulan trenes diésel de un coche."
@@ -7845,7 +7845,7 @@
         ],
         "nearby": 150
       },
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Tiene 94 estaciones en 195 km: una media de una cada dos kilómetros, récord en Japón."
@@ -7919,7 +7919,7 @@
         "武豊"
       ],
       "strict_order": true,
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es la línea más antigua de la zona: se abrió en 1886 para traer materiales del puerto."
@@ -7946,7 +7946,7 @@
         "nearby": 250
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es el eje de cercanías de Nagoya; sus trenes «Special Rapid» son de los más rápidos de Japón sin recargo."
@@ -7956,7 +7956,7 @@
       "id": "chuo-west",
       "code": "CF",
       "color": "#0072BC",
-      "name": "JR Chūō Oeste (Nagoya–Nakatsugawa)",
+      "name": "JR Chūō Oeste (Nagoya–Tadachi)",
       "ja": "中央本線",
       "en": "Chūō Main Line (west)",
       "operator": "jr-central",
@@ -7972,12 +7972,37 @@
         ],
         "nearby": 250
       },
-      "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Sube por el valle del Kiso hacia los Alpes japoneses."
-      ]
+      ],
+      "station_order": [
+        "名古屋",
+        "金山",
+        "鶴舞",
+        "千種",
+        "大曽根",
+        "新守山",
+        "勝川",
+        "春日井",
+        "神領",
+        "高蔵寺",
+        "定光寺",
+        "古虎渓",
+        "多治見",
+        "土岐市",
+        "瑞浪",
+        "釜戸",
+        "武並",
+        "恵那",
+        "美乃坂本",
+        "中津川",
+        "落合川",
+        "坂下",
+        "田立"
+      ],
+      "strict_order": true
     },
     {
       "id": "kansai-nagoya",
@@ -8000,7 +8025,7 @@
         "nearby": 250
       },
       "order": "geometry",
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -8016,7 +8041,7 @@
       "osm": [
         11862685
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -8032,7 +8057,7 @@
       "osm": [
         11852485
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Lleva al aeropuerto de Chūbu Centrair, en una isla artificial; el expreso μSKY hace el trayecto desde Nagoya en menos de 30 minutos."
@@ -8050,7 +8075,7 @@
       "osm": [
         11725278
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Lleva a Inuyama, con uno de los doce castillos japoneses que conservan su torre original."
@@ -8078,7 +8103,7 @@
       "osm": [
         11712441
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Está aislada del resto de la red Meitetsu; sale de Sakaemachi, en el centro de Nagoya."
@@ -8096,7 +8121,7 @@
       "osm": [
         11852430
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -8112,7 +8137,7 @@
       "osm": [
         11862791
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [],
       "osm_ways": {
@@ -8138,7 +8163,7 @@
       "osm": [
         11865470
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Enlaza con el metro Tsurumai y llega a Toyota, la ciudad de la marca de coches."
@@ -8156,7 +8181,7 @@
       "osm": [
         11949878
       ],
-      "region": "nagoya",
+      "region": "kansai",
       "trains": [],
       "facts": [
         "Cambió el ancho de vía de 1067 a 1435 mm en solo nueve días, del 19 al 27 de noviembre de 1959.",
@@ -8185,7 +8210,7 @@
       "osm": [
         9892401
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Su última estación, Kinjō-futō, está junto al museo ferroviario de JR Central, donde se expone el maglev experimental."
@@ -8203,7 +8228,7 @@
       "osm": [
         9171166
       ],
-      "region": "nagoya",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Es un maglev: el tren levita sobre la vía sin tocarla, sin ruedas ni conductor.",
@@ -8232,7 +8257,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Es el eje de cercanías de Hiroshima, entre el mar interior de Seto y las montañas."
@@ -8259,7 +8284,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Bordea el mar de Seto hasta Kure, la ciudad del acorazado Yamato."
@@ -8286,7 +8311,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Su tramo entre Higashi-Jōge y Bingo-Ochiai es de los menos usados de todo Japón."
@@ -8313,7 +8338,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -8338,7 +8363,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Se abrió en 1999, después de treinta años de obras paradas y retomadas."
@@ -8365,7 +8390,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Es la línea con más viajeros de Kyūshū: une Kitakyūshū, Hakata y Kumamoto."
@@ -8400,7 +8425,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8425,7 +8450,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Nació para sacar el carbón de la cuenca de Chikuhō; hoy lleva viajeros a Hakata."
@@ -8452,7 +8477,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8477,7 +8502,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8502,7 +8527,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8527,7 +8552,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8556,7 +8581,7 @@
         "博多南"
       ],
       "strict_order": true,
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Son ocho kilómetros por vía de Shinkansen, pero con billete de cercanías: lleva al depósito de trenes.",
@@ -8584,7 +8609,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Es un tranvía interurbano: nació como prolongación del tranvía de Kitakyūshū."
@@ -8611,7 +8636,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8636,7 +8661,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8661,7 +8686,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8686,7 +8711,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8711,7 +8736,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8735,7 +8760,7 @@
         ],
         "nearby": 200
       },
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Entra dentro del edificio de la estación de Kokura, por encima de los andenes del Shinkansen."
@@ -8777,7 +8802,7 @@
         ],
         "nearby": 300
       },
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Son 2,1 km por el puerto de Moji, en un tren turístico llamado «Shiokaze» (brisa de mar).",
@@ -8818,7 +8843,7 @@
         "神"
       ],
       "strict_order": true,
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Sube al santuario Hikosan Jingū, uno de los tres grandes centros del shugendō, la religión de montaña."
@@ -8845,7 +8870,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Tiene el «bucle de tres pisos» de Oroshi, donde la vía gira sobre sí misma para salvar el puerto.",
@@ -8864,7 +8889,7 @@
       "osm": [
         1871204
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Del aeropuerto de Fukuoka a Hakata hay solo 5 minutos de metro: es de los aeropuertos mejor comunicados del mundo."
@@ -8882,7 +8907,7 @@
       "osm": [
         1871205
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8898,7 +8923,7 @@
       "osm": [
         1871203
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Se prolongó hasta Hakata en 2023; usa trenes pequeños de motor lineal."
@@ -8916,7 +8941,7 @@
       "osm": [
         11485954
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Es la mayor red ferroviaria privada de Kyūshū; su tren turístico «The Rail Kitchen Chikugo» sirve comidas a bordo."
@@ -8934,7 +8959,7 @@
       "osm": [
         9436788
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -8950,7 +8975,7 @@
       "osm": [
         11827541
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Lleva al santuario Dazaifu Tenmangū, dedicado al dios de los estudios."
@@ -8968,7 +8993,7 @@
       "osm": [
         11509342
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Sus trenes entran en el metro de Fukuoka y siguen hasta el aeropuerto."
@@ -8986,7 +9011,7 @@
       "osm": [
         11334924
       ],
-      "region": "fukuoka",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "No tiene catenaria: la recorren trenes eléctricos de baterías (los DENCHA), que se recargan en las estaciones con cable."
@@ -9004,7 +9029,7 @@
       "osm": [
         1827998
       ],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Los trenes del metro de Sapporo ruedan sobre neumáticos y se guían por un carril central.",
@@ -9024,7 +9049,7 @@
       "osm": [
         1827997
       ],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": []
     },
@@ -9040,7 +9065,7 @@
       "osm": [
         1827999
       ],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": []
     },
@@ -9057,7 +9082,7 @@
         8888444,
         8888445
       ],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "El bucle se cerró en 2015, uniendo los dos extremos por delante de la estación de Sapporo.",
@@ -9084,7 +9109,7 @@
           141.365
         ]
       },
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Es el tramo de cercanías con más viajeros de Hokkaidō.",
@@ -9130,7 +9155,7 @@
           141.78
         ]
       },
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Se abrió en 1882, al prolongar el ferrocarril de Horonai desde Sapporo hasta Iwamizawa.",
@@ -9167,7 +9192,7 @@
       "operator": "jr-hokkaido",
       "type": "commuter",
       "osm": [],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Es la línea del aeropuerto de New Chitose, la puerta de entrada a Hokkaidō.",
@@ -9231,7 +9256,7 @@
         "南千歳",
         "新千歳空港"
       ],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Los trenes entran bajo la terminal: la estación está justo debajo del vestíbulo del aeropuerto.",
@@ -9250,7 +9275,7 @@
       "operator": "jr-hokkaido",
       "type": "commuter",
       "osm": [],
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Se llama Gakuentoshi («ciudad universitaria») por las universidades del norte de Sapporo.",
@@ -9294,7 +9319,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Fue la línea troncal del norte de Japón antes del Shinkansen."
@@ -9337,7 +9362,7 @@
         "利府"
       ],
       "strict_order": true,
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Es lo que queda del viejo trazado que subía a Rifu antes de abrirse la variante de Higashi-Shiogama."
@@ -9364,7 +9389,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Sigue el valle del río Abukuma entre Fukushima y Tsukinoki."
@@ -9391,7 +9416,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Termina en Onagawa, arrasada por el tsunami de 2011 y reabierta en 2015 con la estación más alta y nueva."
@@ -9418,7 +9443,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "De Maeyachi a Yanaizu; el resto hasta Kesennuma es autobús (BRT) desde 2020, tras el tsunami."
@@ -9445,7 +9470,7 @@
         "nearby": 300
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Su tramo costero se reconstruyó tierra adentro tras el tsunami de 2011."
@@ -9472,7 +9497,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "La llaman «línea de los balnearios»: pasa por Naruko Onsen y sus aguas termales."
@@ -9499,7 +9524,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "El tramo de montaña entre Oshamambe y Otaru, la «Yamasen», va entre bosques y el volcán Yōtei."
@@ -9526,7 +9551,7 @@
         "nearby": 350
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [],
       "extra_nodes": [
@@ -9554,7 +9579,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Es el atajo entre Sapporo y el este de Hokkaidō: 132 km casi sin pueblos, entre montañas.",
@@ -9582,7 +9607,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "De Ichinoseki a Kesennuma; el tramo hasta Sakari va en autobús (BRT) desde 2020.",
@@ -9610,7 +9635,7 @@
         "nearby": 300
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": []
     },
@@ -9635,7 +9660,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Se tendió para sacar el carbón de Yūbari hacia el puerto de Muroran."
@@ -9662,7 +9687,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Llega a Higashi-Nemuro, la estación más oriental de Japón."
@@ -9689,7 +9714,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Termina en Wakkanai, la estación más al norte de Japón, a 43 km de Rusia."
@@ -9716,7 +9741,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Cruza el paso de Sekihoku; en invierno hay que despejarlo con quitanieves rotativos."
@@ -9743,7 +9768,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Bordea el mar de Ojotsk: en invierno se ve el hielo a la deriva desde la ventanilla.",
@@ -9771,7 +9796,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Es la línea de los campos de lavanda de Furano; en verano para en un apeadero abierto solo para verlos."
@@ -9798,7 +9823,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "De Tomakomai a Mukawa; el resto de la línea, arrasado por los temporales, se cerró en 2021."
@@ -9825,7 +9850,7 @@
         "nearby": 200
       },
       "order": "nearest",
-      "region": "sapporo",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "Se quedó con el tramo de la vieja línea Esashi cuando llegó el Shinkansen a Hokkaidō.",
@@ -9844,7 +9869,7 @@
       "osm": [
         7732237
       ],
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [],
       "opened": 1987
@@ -9861,7 +9886,7 @@
       "osm": [
         5759467
       ],
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Usa trenes pequeños de motor lineal para atravesar las colinas con túneles más estrechos."
@@ -9880,7 +9905,7 @@
       "osm": [
         1862832
       ],
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Une Sendai con Matsushima, una de las tres vistas más célebres de Japón."
@@ -9898,7 +9923,7 @@
       "osm": [
         12467357
       ],
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": [
         "Cruza las montañas entre Sendai y Yamagata."
@@ -9916,7 +9941,7 @@
       "osm": [
         11730951
       ],
-      "region": "sendai",
+      "region": "tohoku",
       "trains": [],
       "facts": []
     },
@@ -9932,7 +9957,7 @@
       "osm": [
         1390152
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "La red de Hiroden es la mayor red de tranvías de Japón."
@@ -9950,7 +9975,7 @@
       "osm": [
         1390151
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Llega hasta Miyajimaguchi, el embarcadero para la isla de Miyajima y su torii sobre el agua."
@@ -9968,7 +9993,7 @@
       "osm": [
         17862440
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -9984,7 +10009,7 @@
       "osm": [
         1390150
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10000,7 +10025,7 @@
       "osm": [
         1390148
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10016,7 +10041,7 @@
       "osm": [
         1390147
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10032,7 +10057,7 @@
       "osm": [
         1390138
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10048,7 +10073,7 @@
       "osm": [
         49277
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10064,7 +10089,7 @@
       "osm": [
         20297846
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [],
       "loop": true
@@ -10081,7 +10106,7 @@
       "osm": [
         4598702
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Se inauguró en 1994 para los Juegos Asiáticos de Hiroshima."
@@ -10100,7 +10125,7 @@
       "osm": [
         1855479
       ],
-      "region": "hiroshima",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10116,7 +10141,7 @@
       "osm": [
         20235161
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "El tranvía de Nagasaki tiene tarifa plana: se paga lo mismo se viaje lo que se viaje."
@@ -10134,7 +10159,7 @@
       "osm": [
         20248469
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10150,7 +10175,7 @@
       "osm": [
         20246072
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10166,7 +10191,7 @@
       "osm": [
         20248467
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10182,7 +10207,7 @@
       "osm": [
         20247060
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10198,7 +10223,7 @@
       "osm": [
         2578716
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Kumamoto estrenó en 1997 el primer tranvía de piso bajo de Japón."
@@ -10216,7 +10241,7 @@
       "osm": [
         2578717
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10232,7 +10257,7 @@
       "osm": [
         12771495
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Buena parte de su recorrido va sobre césped, plantado para reducir el calor y el ruido."
@@ -10250,7 +10275,7 @@
       "osm": [
         12771496
       ],
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": []
     },
@@ -10266,7 +10291,7 @@
       "osm": [
         16636890
       ],
-      "region": "tranvias",
+      "region": "hokkaido",
       "trains": [],
       "facts": [
         "El tranvía de Hakodate circula desde 1913 y aún conserva un coche antiguo, el «Haikara-gō», para turistas."
@@ -10284,7 +10309,7 @@
       "osm": [
         16636889
       ],
-      "region": "tranvias",
+      "region": "hokkaido",
       "trains": [],
       "facts": []
     },
@@ -10300,7 +10325,7 @@
       "osm": [
         12332842
       ],
-      "region": "tranvias",
+      "region": "chugoku",
       "trains": [],
       "facts": [
         "Por aquí circula el MOMO, tranvía de piso bajo diseñado por Eiji Mitooka, el del Nanatsuboshi."
@@ -10318,7 +10343,7 @@
       "osm": [
         12332839
       ],
-      "region": "tranvias",
+      "region": "chugoku",
       "trains": [],
       "facts": []
     },
@@ -10334,7 +10359,7 @@
       "osm": [
         1953756
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "La red de Kōchi funciona desde 1904: es la línea de tranvía en servicio más antigua de Japón."
@@ -10350,7 +10375,7 @@
       "operator": "tosaden",
       "type": "tram",
       "osm": [],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [],
       "osm_ways": {
@@ -10377,7 +10402,7 @@
       "osm": [
         1895506
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "El Portram (2006) fue el primer tranvía moderno de piso bajo construido de cero en Japón; en 2020 se unió con el tranvía del centro."
@@ -10396,7 +10421,7 @@
       "osm": [
         1871696
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Lleva a Unazuki-Onsen, donde arranca el tren de la garganta de Kurobe."
@@ -10414,7 +10439,7 @@
       "osm": [
         11911641
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Lleva a Tateyama, punto de partida de la ruta alpina de Tateyama-Kurobe y sus murallas de nieve."
@@ -10432,7 +10457,7 @@
       "osm": [
         2309633
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Por estas vías circula el «Botchan Ressha», una réplica de la locomotora de vapor que aparece en la novela de Natsume Sōseki."
@@ -10451,7 +10476,7 @@
       "osm": [
         5335064
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": []
     },
@@ -10467,7 +10492,7 @@
       "osm": [
         2309774
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": []
     },
@@ -10483,7 +10508,7 @@
       "osm": [
         2309682
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": []
     },
@@ -10499,7 +10524,7 @@
       "osm": [
         2309730
       ],
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": []
     },
@@ -10515,7 +10540,7 @@
       "osm": [
         10272170
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": [],
       "osm_ways": {
@@ -10541,7 +10566,7 @@
       "osm": [
         10017318
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": []
     },
@@ -10566,7 +10591,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Cruza las montañas de Shikoku siguiendo el curso alto del río Yoshino, por la garganta de Ōboke.",
@@ -10594,7 +10619,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Va casi toda sobre viaducto, mirando al Pacífico desde diez metros de altura.",
@@ -10622,7 +10647,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Va casi toda sobre viaducto por la costa del Pacífico, camino de Nakamura, la «pequeña Kioto» de Tosa."
@@ -10649,7 +10674,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Es la línea más al suroeste de Shikoku: 23 km entre Nakamura y Sukumo."
@@ -10676,7 +10701,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [
         "Es el único ferrocarril que une directamente Ehime y Kōchi, por el valle del río Shimanto.",
@@ -10703,7 +10728,7 @@
         ],
         "nearby": 120
       },
-      "region": "tranvias",
+      "region": "shikoku",
       "trains": [],
       "facts": [],
       "station_order": [
@@ -10742,7 +10767,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Es la línea más al sur de toda la red JR: va por la punta de la península de Satsuma.",
@@ -10771,7 +10796,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Su tramo final bordea la bahía de Kagoshima con el volcán Sakurajima humeando enfrente."
@@ -10798,7 +10823,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Bordea la bahía de Kagoshima; desde la ventanilla se ve el Sakurajima casi todo el trayecto."
@@ -10825,7 +10850,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Se quedó con la vieja línea de la costa cuando el Shinkansen de Kyūshū la dejó sin trenes rápidos, en 2004.",
@@ -10853,7 +10878,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Está cortada entre Yatsushiro y Yoshimatsu desde las inundaciones de julio de 2020; la reapertura hasta Hitoyoshi se prevé para 2033.",
@@ -10882,7 +10907,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Cruza la meseta de Ebino, entre los volcanes de Kirishima y los campos de arroz de Miyazaki."
@@ -10909,7 +10934,7 @@
         "nearby": 250
       },
       "order": "nearest",
-      "region": "tranvias",
+      "region": "kyushu",
       "trains": [],
       "facts": [
         "Abrió en 1935 y bordea la costa de Nichinan, entre palmeras y acantilados, hasta Shibushi."
@@ -10927,7 +10952,7 @@
       "osm": [
         1895507
       ],
-      "region": "tranvias",
+      "region": "chubu",
       "trains": [],
       "facts": [
         "Combina tramos de tren interurbano con otros de tranvía por el centro de Fukui."
@@ -10938,9 +10963,134 @@
   "regions": {
     "japan": {
       "name": "Shinkansen",
-      "ja": "新幹線"
+      "ja": "新幹線",
+      "bounds": [
+        [
+          30.5,
+          129.5
+        ],
+        [
+          45.6,
+          146.0
+        ]
+      ]
     },
-    "tokyo": {
+    "hokkaido": {
+      "name": "Hokkaidō",
+      "ja": "北海道",
+      "bounds": [
+        [
+          41.3,
+          139.3
+        ],
+        [
+          45.6,
+          146.0
+        ]
+      ]
+    },
+    "tohoku": {
+      "name": "Tōhoku",
+      "ja": "東北",
+      "bounds": [
+        [
+          36.7,
+          139.1
+        ],
+        [
+          41.6,
+          142.2
+        ]
+      ]
+    },
+    "kanto": {
+      "name": "Kantō",
+      "ja": "関東",
+      "bounds": [
+        [
+          34.9,
+          138.8
+        ],
+        [
+          37.2,
+          141.0
+        ]
+      ]
+    },
+    "chubu": {
+      "name": "Chūbu",
+      "ja": "中部",
+      "bounds": [
+        [
+          34.4,
+          135.9
+        ],
+        [
+          38.6,
+          139.4
+        ]
+      ]
+    },
+    "kansai": {
+      "name": "Kansai",
+      "ja": "関西",
+      "bounds": [
+        [
+          33.4,
+          134.7
+        ],
+        [
+          35.9,
+          136.5
+        ]
+      ]
+    },
+    "chugoku": {
+      "name": "Chūgoku",
+      "ja": "中国",
+      "bounds": [
+        [
+          33.7,
+          130.8
+        ],
+        [
+          35.7,
+          134.6
+        ]
+      ]
+    },
+    "shikoku": {
+      "name": "Shikoku",
+      "ja": "四国",
+      "bounds": [
+        [
+          32.7,
+          132.0
+        ],
+        [
+          34.6,
+          134.9
+        ]
+      ]
+    },
+    "kyushu": {
+      "name": "Kyūshū y Okinawa",
+      "ja": "九州・沖縄",
+      "bounds": [
+        [
+          24.0,
+          127.5
+        ],
+        [
+          34.0,
+          132.2
+        ]
+      ]
+    }
+  },
+  "places": [
+    {
+      "id": "tokyo",
       "name": "Tokio",
       "ja": "東京",
       "bounds": [
@@ -10954,7 +11104,8 @@
         ]
       ]
     },
-    "kyoto": {
+    {
+      "id": "kyoto",
       "name": "Kioto",
       "ja": "京都",
       "bounds": [
@@ -10968,7 +11119,8 @@
         ]
       ]
     },
-    "osaka": {
+    {
+      "id": "osaka",
       "name": "Ōsaka",
       "ja": "大阪",
       "bounds": [
@@ -10982,7 +11134,8 @@
         ]
       ]
     },
-    "kobe": {
+    {
+      "id": "kobe",
       "name": "Kōbe",
       "ja": "神戸",
       "bounds": [
@@ -10996,7 +11149,8 @@
         ]
       ]
     },
-    "nagoya": {
+    {
+      "id": "nagoya",
       "name": "Nagoya",
       "ja": "名古屋",
       "bounds": [
@@ -11010,7 +11164,8 @@
         ]
       ]
     },
-    "fukuoka": {
+    {
+      "id": "fukuoka",
       "name": "Fukuoka",
       "ja": "福岡",
       "bounds": [
@@ -11024,7 +11179,8 @@
         ]
       ]
     },
-    "sapporo": {
+    {
+      "id": "sapporo",
       "name": "Sapporo",
       "ja": "札幌",
       "bounds": [
@@ -11038,7 +11194,8 @@
         ]
       ]
     },
-    "sendai": {
+    {
+      "id": "sendai",
       "name": "Sendai",
       "ja": "仙台",
       "bounds": [
@@ -11052,7 +11209,8 @@
         ]
       ]
     },
-    "hiroshima": {
+    {
+      "id": "hiroshima",
       "name": "Hiroshima",
       "ja": "広島",
       "bounds": [
@@ -11066,12 +11224,6 @@
         ]
       ]
     },
-    "tranvias": {
-      "name": "Tranvías de otras ciudades",
-      "ja": "路面電車"
-    }
-  },
-  "places": [
     {
       "id": "nagasaki",
       "name": "Nagasaki",

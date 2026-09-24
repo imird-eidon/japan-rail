@@ -1,6 +1,6 @@
 # Auditoría de cobertura
 
-> Generado por `tools/audit_coverage.py` el 2026-09-23. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
+> Generado por `tools/audit_coverage.py` el 2026-09-24. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
 **Japón: 5641 de 9580 estaciones (59 %).**
 
@@ -216,6 +216,8 @@ Sin contar (no son servicio de viajeros): ウエスタンリバー鉄道 (atracc
 Completa ✅
 
 ## 13 Tokio
+
+Sin contar (no son servicio de viajeros): 東京貨物ターミナル (terminal de mercancías)
 
 Completa ✅
 
