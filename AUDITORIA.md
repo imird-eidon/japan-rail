@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-24. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 5641 de 9580 estaciones (59 %).**
+**Japón: 5824 de 9573 estaciones (61 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -43,11 +43,11 @@
 | [Yamaguchi](#35-yamaguchi) | 156 | 9 | 147 | 6 % |
 | [Tokushima](#36-tokushima) | 76 | 0 | 76 | 0 % |
 | [Kagawa](#37-kagawa) | 93 | 0 | 93 | 0 % |
-| [Ehime](#38-ehime) | 155 | 64 | 91 | 41 % |
+| [Ehime](#38-ehime) | 151 | 151 | 0 | 100 % |
 | [Kōchi](#39-kōchi) | 196 | 196 | 0 | 100 % |
 | [Fukuoka](#40-fukuoka) | 350 | 350 | 0 | 100 % |
 | [Saga](#41-saga) | 80 | 9 | 71 | 11 % |
-| [Nagasaki](#42-nagasaki) | 145 | 46 | 99 | 32 % |
+| [Nagasaki](#42-nagasaki) | 142 | 142 | 0 | 100 % |
 | [Kumamoto](#43-kumamoto) | 168 | 51 | 117 | 30 % |
 | [Ōita](#44-ōita) | 85 | 0 | 85 | 0 % |
 | [Miyazaki](#45-miyazaki) | 78 | 0 | 78 | 0 % |
@@ -521,16 +521,9 @@ Completa ✅
 
 ## 38 Ehime
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 予讃線 | 72 | 関川、赤星、玉之江、伊予小松、伊予三芳、伊予桜井、伊予氷見、光洋台、伊予和気、伊予横田、松山、伊予市… |
-| 予土線 | 10 | 真土、吉野生、深田、伊予宮野下、務田、近永、二名、大内、松丸、出目 |
-| (sin línea) 伊予鉄道 | 2 | 南町、道後公園前 |
-| (sin línea) 四国旅客鉄道 | 2 | 北伊予、宇和島 |
-| 内子線 | 2 | 喜多山、五十崎 |
-| (sin línea) 四国旅客鉄道株式会社 | 1 | 南伊予 |
-| 予土線;予讃線 | 1 | 北宇和島 |
-| 予讃線;内子線 | 1 | 内子 |
+Sin contar (no son servicio de viajeros): うちよけ (tren turístico de la mina de Besshi (parque Minetopia))、端出場 (tren turístico de la mina de Besshi (parque Minetopia))、冒険ステーション (tren infantil de un parque de Matsuyama)、てっぺんとりで (tren infantil de un parque de Matsuyama)
+
+Completa ✅
 
 ## 39 Kōchi
 
@@ -556,15 +549,9 @@ Completa ✅
 
 ## 42 Nagasaki
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 西九州線 | 37 | 西木場、松浦発電所前、小浦、神田、山の田、北佐世保、御厨、西田平、真申、調川、鷹島口、泉福寺… |
-| 島原鉄道線 | 23 | 島原港、島原船津、霊丘公園体育館、島原、三会、松尾、大三東、有明湯江、神代、多比良、西郷、大正… |
-| 長崎線 | 19 | 現川、肥前長田、小長井、長里、湯江、小江、喜々津、西諫早、長与、高田、道ノ尾、東諫早… |
-| 大村線 | 11 | 南風崎、彼杵、川棚、ハウステンボス、竹松、諏訪、大村、岩松、松原、小串郷、千綿 |
-| 佐世保線 | 5 | 三河内、日宇、早岐、佐世保、大塔 |
-| (sin línea) 九州旅客鉄道 | 2 | 浦上、大村車両基地 |
-| (sin línea) 三井松島リソーシス | 2 | 坑外停留所、坑道奥部停留所 |
+Sin contar (no son servicio de viajeros): 坑外停留所 (tren de la mina de carbón de Ikeshima, sin servicio de viajeros)、坑道奥部停留所 (tren de la mina de carbón de Ikeshima, sin servicio de viajeros)、First floor (planta del Glover Sky Road, el ascensor inclinado de Nagasaki: sus paradas son pisos, no estaciones)
+
+Completa ✅
 
 ## 43 Kumamoto
 

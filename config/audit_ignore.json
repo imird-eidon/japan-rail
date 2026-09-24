@@ -315,6 +315,41 @@
    "pref": "21",
    "ja": "岐阜県駅、仮称",
    "why": "futura estación del maglev Chūō, aún en obras"
+  },
+  {
+   "pref": "42",
+   "ja": "坑外停留所",
+   "why": "tren de la mina de carbón de Ikeshima, sin servicio de viajeros"
+  },
+  {
+   "pref": "42",
+   "ja": "坑道奥部停留所",
+   "why": "tren de la mina de carbón de Ikeshima, sin servicio de viajeros"
+  },
+  {
+   "pref": "38",
+   "ja": "うちよけ",
+   "why": "tren turístico de la mina de Besshi (parque Minetopia)"
+  },
+  {
+   "pref": "38",
+   "ja": "端出場",
+   "why": "tren turístico de la mina de Besshi (parque Minetopia)"
+  },
+  {
+   "pref": "38",
+   "ja": "冒険ステーション",
+   "why": "tren infantil de un parque de Matsuyama"
+  },
+  {
+   "pref": "38",
+   "ja": "てっぺんとりで",
+   "why": "tren infantil de un parque de Matsuyama"
+  },
+  {
+   "pref": "42",
+   "ja": "First floor",
+   "why": "planta del Glover Sky Road, el ascensor inclinado de Nagasaki: sus paradas son pisos, no estaciones"
   }
  ]
 }

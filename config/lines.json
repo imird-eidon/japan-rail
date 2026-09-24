@@ -449,6 +449,12 @@
     },
     "orange": {
       "name": "Hisatsu Orange Tetsudō"
+    },
+    "matsuura": {
+      "name": "Matsuura Tetsudō"
+    },
+    "shimabara": {
+      "name": "Shimabara Tetsudō"
     }
   },
   "types": {
@@ -10463,6 +10469,223 @@
         "Por estas vías circula el «Botchan Ressha», una réplica de la locomotora de vapor que aparece en la novela de Natsume Sōseki."
       ],
       "loop": true
+    },
+    {
+      "id": "yosan",
+      "code": "Y",
+      "color": "#0072BC",
+      "name": "JR Yosan",
+      "ja": "予讃線",
+      "en": "Yosan Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR予讃線|^予讃線$\"]",
+        "bbox": [
+          33.2,
+          132.3,
+          34.4,
+          134.1
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Es la línea más larga de Shikoku: recorre toda la costa norte de la isla, de Takamatsu a Uwajima.",
+        "Entre Matsuyama y Uwajima el tren bordea el mar de Iyo, con las islas del mar interior enfrente."
+      ]
+    },
+    {
+      "id": "uchiko",
+      "code": "U",
+      "color": "#2E8B57",
+      "name": "JR Uchiko",
+      "ja": "内子線",
+      "en": "Uchiko Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"内子線\"]",
+        "bbox": [
+          33.45,
+          132.55,
+          33.65,
+          132.8
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Atajo de 5 km que acorta el viaje a Uwajima; Uchiko conserva un teatro kabuki de 1916."
+      ]
+    },
+    {
+      "id": "iyotetsu-jonan",
+      "code": "IY",
+      "color": "#F5A200",
+      "name": "Iyotetsu: línea Jōnan",
+      "ja": "城南線",
+      "en": "Jōnan Line",
+      "operator": "iyotetsu",
+      "type": "tram",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"tram|light_rail\"][\"name\"~\"伊予鉄道城南線\"]",
+        "bbox": [
+          33.82,
+          132.74,
+          33.86,
+          132.8
+        ],
+        "nearby": 120
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Lleva al balneario de Dōgo, uno de los más antiguos de Japón, citado ya en crónicas del siglo VIII."
+      ]
+    },
+    {
+      "id": "nagasaki-main",
+      "code": "",
+      "color": "#E60012",
+      "name": "JR Nagasaki",
+      "ja": "長崎本線",
+      "en": "Nagasaki Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR長崎線|JR長崎本線\"]",
+        "bbox": [
+          32.7,
+          129.75,
+          33.45,
+          130.55
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Desde 2022 su tramo final lo cubre el Shinkansen de Nishi-Kyūshū entre Takeo-Onsen y Nagasaki."
+      ]
+    },
+    {
+      "id": "omura",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ōmura",
+      "ja": "大村線",
+      "en": "Ōmura Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR大村線\"]",
+        "bbox": [
+          32.85,
+          129.7,
+          33.25,
+          130.1
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Bordea la bahía de Ōmura; su estación de Chiwata está a unos metros del agua."
+      ]
+    },
+    {
+      "id": "sasebo-line",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Sasebo",
+      "ja": "佐世保線",
+      "en": "Sasebo Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR佐世保線\"]",
+        "bbox": [
+          33.0,
+          129.65,
+          33.3,
+          130.1
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "matsuura",
+      "code": "MR",
+      "color": "#E8383D",
+      "name": "Matsuura Tetsudō",
+      "ja": "西九州線",
+      "en": "Nishi-Kyūshū Line",
+      "operator": "matsuura",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"松浦鉄道西九州線\"]",
+        "bbox": [
+          32.95,
+          129.55,
+          33.45,
+          130.0
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "En Tabira-Hiradoguchi está la estación más occidental de Japón con vías convencionales.",
+        "Recorre la costa del mar de Hirado con 57 estaciones en 93 km: una cada kilómetro y medio."
+      ]
+    },
+    {
+      "id": "shimabara",
+      "code": "SR",
+      "color": "#0072BC",
+      "name": "Shimabara Tetsudō",
+      "ja": "島原鉄道線",
+      "en": "Shimabara Railway",
+      "operator": "shimabara",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"島原鉄道\"]",
+        "bbox": [
+          32.7,
+          129.95,
+          33.1,
+          130.4
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Va al pie del volcán Unzen, cuya erupción de 1991 destruyó parte de la línea.",
+        "Su estación de Ōmisaki queda tan cerca del mar que con marea alta el andén parece flotar."
+      ]
     },
     {
       "id": "iyotetsu-honmachi",
