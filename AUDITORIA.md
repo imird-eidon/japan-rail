@@ -1,8 +1,8 @@
 # Auditoría de cobertura
 
-> Generado por `tools/audit_coverage.py` el 2026-09-24. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
+> Generado por `tools/audit_coverage.py` el 2026-09-25. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 5824 de 9573 estaciones (61 %).**
+**Japón: 6011 de 9572 estaciones (63 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -41,8 +41,8 @@
 | [Okayama](#33-okayama) | 167 | 21 | 146 | 13 % |
 | [Hiroshima](#34-hiroshima) | 278 | 278 | 0 | 100 % |
 | [Yamaguchi](#35-yamaguchi) | 156 | 9 | 147 | 6 % |
-| [Tokushima](#36-tokushima) | 76 | 0 | 76 | 0 % |
-| [Kagawa](#37-kagawa) | 93 | 0 | 93 | 0 % |
+| [Tokushima](#36-tokushima) | 76 | 76 | 0 | 100 % |
+| [Kagawa](#37-kagawa) | 92 | 92 | 0 | 100 % |
 | [Ehime](#38-ehime) | 151 | 151 | 0 | 100 % |
 | [Kōchi](#39-kōchi) | 196 | 196 | 0 | 100 % |
 | [Fukuoka](#40-fukuoka) | 350 | 350 | 0 | 100 % |
@@ -52,7 +52,7 @@
 | [Ōita](#44-ōita) | 85 | 0 | 85 | 0 % |
 | [Miyazaki](#45-miyazaki) | 78 | 0 | 78 | 0 % |
 | [Kagoshima](#46-kagoshima) | 131 | 131 | 0 | 100 % |
-| [Okinawa](#47-okinawa) | 19 | 0 | 19 | 0 % |
+| [Okinawa](#47-okinawa) | 19 | 19 | 0 | 100 % |
 
 ## 01 Hokkaidō
 
@@ -496,28 +496,11 @@ Completa ✅
 
 ## 36 Tokushima
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 牟岐線 | 24 | 西原、阿波中島、立江、阿波福井、阿波赤石、見能林、田井ノ浜、木岐、地蔵橋、文化の森、二軒屋、山河内… |
-| 徳島線 | 22 | 鮎喰、麻植塚、下浦、蔵本、学、牛島、辻、阿波加茂、三加茂、貞光、江口、川田… |
-| (sin línea) 四国旅客鉄道 | 11 | 中田、北河内、教会前、池谷、府中、箸蔵、阿波橘、浅川、鯖瀬、徳島、阿波大宮 |
-| 土讃線 | 7 | 坪尻、三縄、阿波池田、大歩危、小歩危、祖谷口、阿波川口 |
-| 鳴門線 | 6 | 阿波大谷、立道、金比羅前、撫養、鳴門、板東 |
-| 高徳線 | 5 | 佐古、吉成、勝瑞、板野、阿波川端 |
-| (sin línea) 阿佐海岸鉄道 | 1 | 海部 |
+Completa ✅
 
 ## 37 Kagawa
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) 四国旅客鉄道 | 29 | 讃岐相生、津島ノ宮、古高松南、讃岐牟礼、鶴羽、志度、丹生、讃岐津田、鴨川、丸亀、讃岐塩屋、詫間… |
-| 琴平線 | 24 | 仏生山、一宮、高松貨物ターミナル、水田、松島二丁目、沖松島、瓦町、瓦町、太田、伏石、岡本、空港通り… |
-| 高徳線 | 14 | 引田、讃岐白鳥、三本松、オレンジタウン、八栗登山口、八栗山上、八栗新道、大町、六万寺、古高松、八栗、原… |
-| 土讃線 | 10 | 金蔵寺、善通寺、宇多津、坂出、羽床、塩入、栗熊、黒川、岡田、羽間 |
-| (sin línea) 高松琴平電気鉄道 | 7 | 琴電志度、高松築港、栗林公園、今橋、房前、榎井、琴電琴平 |
-| 予讃線 | 6 | 比地大、みの、本山、高瀬、箕浦、讃岐財田 |
-| 長尾線 | 2 | 公文明、長尾 |
-| (sin línea) JR四国 | 1 | 香西 |
+Completa ✅
 
 ## 38 Ehime
 
@@ -603,8 +586,5 @@ Completa ✅
 
 ## 47 Okinawa
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 18 | 壺川、旭橋、県庁前、美栄橋、牧志、安里、おもろまち、古島、儀保、首里、小禄、赤嶺… |
-| (sin línea) 沖縄都市モノレール | 1 | 那覇空港 |
+Completa ✅
 

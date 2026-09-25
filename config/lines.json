@@ -455,6 +455,15 @@
     },
     "shimabara": {
       "name": "Shimabara Tetsudō"
+    },
+    "yui": {
+      "name": "Okinawa Toshi Monorail"
+    },
+    "kotoden": {
+      "name": "Takamatsu-Kotohira Dentetsu"
+    },
+    "shikoku-cable": {
+      "name": "Shikoku Cable"
     }
   },
   "types": {
@@ -10792,6 +10801,281 @@
       "region": "chubu",
       "trains": [],
       "facts": []
+    },
+    {
+      "id": "yui-rail",
+      "code": "YR",
+      "color": "#0072BC",
+      "name": "Yui Rail (Naha)",
+      "ja": "沖縄都市モノレール線",
+      "en": "Okinawa Urban Monorail",
+      "operator": "yui",
+      "type": "monorail",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"monorail\"][\"name\"~\"ゆいレール|沖縄都市モノレール\"]",
+        "bbox": [
+          26.1,
+          127.6,
+          26.3,
+          127.8
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Es el único ferrocarril de Okinawa: el tren desapareció de la isla en la guerra de 1945 y no volvió hasta 2003.",
+        "Su estación de Akamine es la más al sur de todo Japón.",
+        "Sube hasta el castillo de Shuri, patrimonio de la humanidad."
+      ]
+    },
+    {
+      "id": "yakuri-cable",
+      "code": "YC",
+      "color": "#2E8B57",
+      "name": "Funicular de Yakuri",
+      "ja": "八栗ケーブル",
+      "en": "Yakuri Cable",
+      "operator": "shikoku-cable",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"八栗ケーブル\"]",
+        "bbox": [
+          34.33,
+          134.08,
+          34.39,
+          134.17
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "八栗登山口",
+        "八栗山上"
+      ],
+      "strict_order": true,
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Sube al templo Yakuri-ji, el número 85 de la peregrinación de los 88 templos de Shikoku.",
+        "Funciona desde 1964 y salva 167 metros de desnivel en cuatro minutos."
+      ]
+    },
+    {
+      "id": "kotoku",
+      "code": "T",
+      "color": "#0072BC",
+      "name": "JR Kōtoku",
+      "ja": "高徳線",
+      "en": "Kōtoku Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR高徳線|^高徳線$\"]",
+        "bbox": [
+          33.95,
+          133.95,
+          34.4,
+          134.6
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Une Takamatsu con Tokushima por la costa este de Shikoku, entre pinares y arrozales."
+      ]
+    },
+    {
+      "id": "kotoden-kotohira",
+      "code": "K",
+      "color": "#F5A200",
+      "name": "Kotoden: línea Kotohira",
+      "ja": "琴平線",
+      "en": "Kotohira Line",
+      "operator": "kotoden",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"高松琴平電気鉄道琴平線|^琴平線$\"]",
+        "bbox": [
+          34.1,
+          133.75,
+          34.4,
+          134.1
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Lleva al santuario de Kotohira, al que se sube por 785 escalones de piedra.",
+        "Sus trenes son veteranos de Tokio y Nagoya: Kotoden compra material de segunda mano desde hace décadas."
+      ]
+    },
+    {
+      "id": "kotoden-nagao",
+      "code": "N",
+      "color": "#2E8B57",
+      "name": "Kotoden: línea Nagao",
+      "ja": "長尾線",
+      "en": "Nagao Line",
+      "operator": "kotoden",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"高松琴平電気鉄道長尾線\"]",
+        "bbox": [
+          34.2,
+          134.0,
+          34.35,
+          134.2
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kotoden-shido",
+      "code": "S",
+      "color": "#E8383D",
+      "name": "Kotoden: línea Shido",
+      "ja": "志度線",
+      "en": "Shido Line",
+      "operator": "kotoden",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"高松琴平電気鉄道志度線\"]",
+        "bbox": [
+          34.28,
+          134.03,
+          34.4,
+          134.2
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "mugi",
+      "code": "M",
+      "color": "#00A0B0",
+      "name": "JR Mugi",
+      "ja": "牟岐線",
+      "en": "Mugi Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR牟岐線\"]",
+        "bbox": [
+          33.5,
+          134.3,
+          34.1,
+          134.75
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Su apeadero de Tainohama solo abre en verano, para la playa que tiene al lado."
+      ]
+    },
+    {
+      "id": "tokushima-line",
+      "code": "B",
+      "color": "#7B3F98",
+      "name": "JR Tokushima",
+      "ja": "徳島線",
+      "en": "Tokushima Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR徳島線\"]",
+        "bbox": [
+          33.9,
+          133.75,
+          34.15,
+          134.6
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Sigue el río Yoshino, el «Shikoku Saburō», el más caudaloso de la isla."
+      ]
+    },
+    {
+      "id": "naruto",
+      "code": "N",
+      "color": "#F6A800",
+      "name": "JR Naruto",
+      "ja": "鳴門線",
+      "en": "Naruto Line",
+      "operator": "jr-shikoku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR鳴門線\"]",
+        "bbox": [
+          34.1,
+          134.5,
+          34.25,
+          134.65
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Lleva a Naruto, famoso por sus remolinos de marea en el estrecho."
+      ]
+    },
+    {
+      "id": "asa-east",
+      "code": "AK",
+      "color": "#E8383D",
+      "name": "Asa Kaigan (DMV)",
+      "ja": "阿佐東線",
+      "en": "Asa East Line",
+      "operator": "asa-kaigan",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"阿佐海岸鉄道阿佐東線\"]",
+        "bbox": [
+          33.45,
+          134.25,
+          33.75,
+          134.65
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "shikoku",
+      "trains": [],
+      "facts": [
+        "Desde 2021 la recorren vehículos anfibios de vía y carretera (DMV), los primeros del mundo en servicio regular.",
+        "El vehículo cambia de ruedas de carretera a ruedas de vía en quince segundos, a la vista de los viajeros."
+      ]
     },
     {
       "id": "dosan",
