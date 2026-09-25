@@ -464,6 +464,21 @@
     },
     "shikoku-cable": {
       "name": "Shikoku Cable"
+    },
+    "kumamoto-dentetsu": {
+      "name": "Kumamoto Denki Tetsudō"
+    },
+    "kuma": {
+      "name": "Kuma-gawa Tetsudō"
+    },
+    "minami-aso": {
+      "name": "Minami-Aso Tetsudō"
+    },
+    "rakutenchi": {
+      "name": "Okamoto Seisakusho"
+    },
+    "takachiho": {
+      "name": "Takachiho Amaterasu Tetsudō"
     }
   },
   "types": {
@@ -8398,9 +8413,9 @@
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR鹿児島本線|^鹿児島本線$\"]",
         "bbox": [
           32.95,
-          130.35,
+          130.3,
           33.98,
-          131.0
+          131.05
         ],
         "nearby": 200
       },
@@ -8430,7 +8445,7 @@
       "type": "commuter",
       "osm": [],
       "osm_ways": {
-        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日豊線|^日豊本線$\"]",
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日豊線|JR日豊本線|^日豊本線$\"]",
         "bbox": [
           33.4,
           130.85,
@@ -8534,10 +8549,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR久大線\"]",
         "bbox": [
-          33.1,
+          33.05,
           130.4,
-          33.45,
-          131.0
+          33.5,
+          131.65
         ],
         "nearby": 200
       },
@@ -9005,14 +9020,23 @@
       "en": "JR Chikuhi Line",
       "operator": "jr-kyushu",
       "type": "commuter",
-      "osm": [
-        11509342
-      ],
+      "osm": [],
       "region": "kyushu",
       "trains": [],
       "facts": [
         "Sus trenes entran en el metro de Fukuoka y siguen hasta el aeropuerto."
-      ]
+      ],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR筑肥線\"]",
+        "bbox": [
+          33.15,
+          129.8,
+          33.65,
+          130.45
+        ],
+        "nearby": 250
+      },
+      "order": "nearest"
     },
     {
       "id": "kashii",
@@ -10577,7 +10601,7 @@
           32.7,
           129.75,
           33.45,
-          130.55
+          130.6
         ],
         "nearby": 250
       },
@@ -10628,10 +10652,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR佐世保線\"]",
         "bbox": [
-          33.0,
-          129.65,
-          33.3,
-          130.1
+          32.95,
+          129.6,
+          33.35,
+          130.25
         ],
         "nearby": 250
       },
@@ -10655,8 +10679,8 @@
         "bbox": [
           32.95,
           129.55,
-          33.45,
-          130.0
+          33.5,
+          130.25
         ],
         "nearby": 250
       },
@@ -11349,12 +11373,12 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"肥薩おれんじ鉄道線\"]",
         "bbox": [
-          31.8,
-          130.05,
-          32.6,
-          130.7
+          31.75,
+          130.0,
+          32.65,
+          130.75
         ],
-        "nearby": 250
+        "nearby": 350
       },
       "order": "nearest",
       "region": "kyushu",
@@ -11362,6 +11386,335 @@
       "facts": [
         "Se quedó con la vieja línea de la costa cuando el Shinkansen de Kyūshū la dejó sin trenes rápidos, en 2004.",
         "Va pegada al mar de Yatsushiro, con el atardecer sobre las islas Amakusa."
+      ]
+    },
+    {
+      "id": "kagoshima-main-kumamoto",
+      "code": "JA",
+      "color": "#E60012",
+      "name": "JR Kagoshima (Ōmuta–Yatsushiro)",
+      "ja": "鹿児島本線",
+      "en": "Kagoshima Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR鹿児島本線\"]",
+        "bbox": [
+          32.4,
+          130.4,
+          33.1,
+          130.9
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hohi",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Hōhi (Aso)",
+      "ja": "豊肥本線",
+      "en": "Hōhi Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR豊肥本線|JR豊肥線\"]",
+        "bbox": [
+          32.7,
+          130.6,
+          33.3,
+          131.7
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Cruza la caldera del volcán Aso, la mayor de Japón, con el cráter humeando al lado.",
+        "El terremoto de Kumamoto de 2016 la cortó ocho años: no volvió a estar entera hasta 2020."
+      ]
+    },
+    {
+      "id": "misumi",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Misumi",
+      "ja": "三角線",
+      "en": "Misumi Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR三角線\"]",
+        "bbox": [
+          32.55,
+          130.4,
+          32.85,
+          130.75
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Lleva al mar de Ariake, frente a las islas Amakusa, por donde circula el tren turístico «A-Train»."
+      ]
+    },
+    {
+      "id": "kumamoto-kikuchi",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Kumamoto Dentetsu: Kikuchi",
+      "ja": "菊池線",
+      "en": "Kikuchi Line",
+      "operator": "kumamoto-dentetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"熊本電気鉄道菊池線\"]",
+        "bbox": [
+          32.75,
+          130.65,
+          32.95,
+          130.8
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Conserva trenes veteranos del metro de Tokio; durante años circuló por aquí un vagón «Aoi-densha» de 1951."
+      ]
+    },
+    {
+      "id": "kumamoto-fujisaki",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Kumamoto Dentetsu: Fujisaki",
+      "ja": "藤崎線",
+      "en": "Fujisaki Line",
+      "operator": "kumamoto-dentetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"熊本電気鉄道藤崎線\"]",
+        "bbox": [
+          32.79,
+          130.68,
+          32.86,
+          130.75
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kuma",
+      "code": "KT",
+      "color": "#F5A200",
+      "name": "Kuma-gawa Tetsudō",
+      "ja": "湯前線",
+      "en": "Yunomae Line",
+      "operator": "kuma",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"^(rail|abandoned)$\"][\"name\"~\"くま川鉄道湯前線\"]",
+        "bbox": [
+          32.1,
+          130.65,
+          32.5,
+          131.05
+        ],
+        "nearby": 350
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Las inundaciones de 2020 la dejaron cortada; volvió a abrir por tramos a partir de 2021."
+      ]
+    },
+    {
+      "id": "minami-aso",
+      "code": "MA",
+      "color": "#2E8B57",
+      "name": "Minami-Aso Tetsudō",
+      "ja": "高森線",
+      "en": "Takamori Line",
+      "operator": "minami-aso",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"南阿蘇鉄道高森線\"]",
+        "bbox": [
+          32.75,
+          130.95,
+          32.95,
+          131.2
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Tiene la estación con el nombre más largo de Japón: Minami-Aso Mizu-no-Umareru-Sato Hakusui-Kōgen.",
+        "El terremoto de 2016 la partió en dos; no recuperó el trazado entero hasta 2023."
+      ]
+    },
+    {
+      "id": "karatsu",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Karatsu",
+      "ja": "唐津線",
+      "en": "Karatsu Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR唐津線\"]",
+        "bbox": [
+          33.15,
+          129.9,
+          33.5,
+          130.3
+        ],
+        "nearby": 250
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nippo-oita",
+      "code": "JF",
+      "color": "#0072BC",
+      "name": "JR Nippō (Yanagigaura–Miyazaki)",
+      "ja": "日豊本線",
+      "en": "Nippō Main Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日豊線|JR日豊本線\"]",
+        "bbox": [
+          31.7,
+          130.95,
+          33.7,
+          132.1
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Bordea la costa este de Kyūshū: de las termas de Beppu a las palmeras de Miyazaki."
+      ]
+    },
+    {
+      "id": "miyazaki-airport",
+      "code": "",
+      "color": "#E60012",
+      "name": "JR Aeropuerto de Miyazaki",
+      "ja": "宮崎空港線",
+      "en": "Miyazaki Airport Line",
+      "operator": "jr-kyushu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR宮崎空港線\"]",
+        "bbox": [
+          31.86,
+          131.4,
+          31.95,
+          131.47
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "田吉",
+        "宮崎空港"
+      ],
+      "strict_order": true,
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Son 1,4 km de ramal al aeropuerto, abiertos en 1996."
+      ]
+    },
+    {
+      "id": "rakutenchi-cable",
+      "code": "RC",
+      "color": "#2E8B57",
+      "name": "Funicular de Rakutenchi (Beppu)",
+      "ja": "別府ラクテンチケーブル線",
+      "en": "Beppu Rakutenchi Cable",
+      "operator": "rakutenchi",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"ラクテンチ\"]",
+        "bbox": [
+          33.27,
+          131.46,
+          33.32,
+          131.52
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "乙原",
+        "雲泉寺"
+      ],
+      "strict_order": true,
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Sube al parque de atracciones de Rakutenchi, sobre Beppu y sus columnas de vapor."
+      ]
+    },
+    {
+      "id": "takachiho",
+      "code": "TA",
+      "color": "#F6A800",
+      "name": "Takachiho Amaterasu",
+      "ja": "高千穂あまてらす鉄道",
+      "en": "Takachiho Amaterasu Railway",
+      "operator": "takachiho",
+      "type": "tourist",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"高千穂あまてらす鉄道\"]",
+        "bbox": [
+          32.65,
+          131.28,
+          32.78,
+          131.42
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kyushu",
+      "trains": [],
+      "facts": [
+        "Recorre en vagoneta lo que queda del ferrocarril de Takachiho, cerrado tras el tifón de 2005.",
+        "Cruza el viaducto de Takachiho, a 105 metros sobre el río: el más alto de Japón cuando se construyó."
       ]
     },
     {
@@ -11375,14 +11728,14 @@
       "type": "commuter",
       "osm": [],
       "osm_ways": {
-        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR肥薩線\"]",
+        "filter": "way[\"railway\"~\"^(rail|abandoned)$\"][\"name\"~\"JR肥薩線\"]",
         "bbox": [
-          31.6,
-          130.4,
-          32.4,
-          130.95
+          31.55,
+          130.35,
+          32.6,
+          131.0
         ],
-        "nearby": 250
+        "nearby": 400
       },
       "order": "nearest",
       "region": "kyushu",
@@ -11391,6 +11744,9 @@
         "Está cortada entre Yatsushiro y Yoshimatsu desde las inundaciones de julio de 2020; la reapertura hasta Hitoyoshi se prevé para 2033.",
         "Tiene el zigzag y el bucle de Ōkoba, de los pocos que quedan en Japón para salvar la pendiente.",
         "La estación de Kareigawa, de madera y de 1903, es la más antigua de la prefectura de Kagoshima y es patrimonio registrado."
+      ],
+      "extra_nodes": [
+        265913620
       ]
     },
     {
@@ -11406,10 +11762,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR吉都線\"]",
         "bbox": [
-          31.6,
-          130.7,
-          32.1,
-          131.2
+          31.55,
+          130.65,
+          32.15,
+          131.35
         ],
         "nearby": 250
       },
@@ -11433,12 +11789,12 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR日南線\"]",
         "bbox": [
-          31.3,
-          130.95,
-          31.95,
-          131.5
+          31.25,
+          130.9,
+          31.98,
+          131.6
         ],
-        "nearby": 250
+        "nearby": 350
       },
       "order": "nearest",
       "region": "kyushu",
