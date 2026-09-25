@@ -485,6 +485,42 @@
     },
     "ichibata": {
       "name": "Ichibata Densha"
+    },
+    "aoimori": {
+      "name": "Aoimori Tetsudō"
+    },
+    "konan": {
+      "name": "Kōnan Tetsudō"
+    },
+    "tsugaru": {
+      "name": "Tsugaru Tetsudō"
+    },
+    "igr": {
+      "name": "IGR Iwate Ginga Tetsudō"
+    },
+    "sanriku": {
+      "name": "Sanriku Tetsudō"
+    },
+    "akita-nairiku": {
+      "name": "Akita Nairiku Jūkan Tetsudō"
+    },
+    "yamagata-tetsudo": {
+      "name": "Yamagata Tetsudō"
+    },
+    "aizu": {
+      "name": "Aizu Tetsudō"
+    },
+    "yagan": {
+      "name": "Yagan Tetsudō"
+    },
+    "seikan": {
+      "name": "Museo del túnel de Seikan"
+    },
+    "yuri": {
+      "name": "Yuri Kōgen Tetsudō"
+    },
+    "fukushima-kotsu": {
+      "name": "Fukushima Kōtsū"
     }
   },
   "types": {
@@ -9590,6 +9626,878 @@
       ]
     },
     {
+      "id": "yuri",
+      "code": "YR",
+      "color": "#F5A200",
+      "name": "Yuri Kōgen: Chōkai Sanroku",
+      "ja": "鳥海山ろく線",
+      "en": "Chōkai Sanroku Line",
+      "operator": "yuri",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"由利高原鉄道鳥海山ろく線\"]",
+        "bbox": [
+          39.2,
+          140.0,
+          39.5,
+          140.35
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Sube al pie del monte Chōkai, el «Fuji de Dewa», con trenes de un solo coche decorados por niños de la zona."
+      ]
+    },
+    {
+      "id": "iizaka",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Fukushima Kōtsū: línea Iizaka",
+      "ja": "飯坂線",
+      "en": "Iizaka Line",
+      "operator": "fukushima-kotsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"福島交通飯坂線\"]",
+        "bbox": [
+          37.7,
+          140.4,
+          37.95,
+          140.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Lleva al balneario de Iizaka, donde se bañaron Bashō y, siglos después, Helen Keller."
+      ]
+    },
+    {
+      "id": "uetsu",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Uetsu",
+      "ja": "羽越本線",
+      "en": "Uetsu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR羽越線|JR羽越本線\"]",
+        "bbox": [
+          37.7,
+          138.8,
+          39.75,
+          140.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Bordea el mar de Japón durante 271 km, de Niigata a Akita, con el monte Chōkai de fondo.",
+        "Por ella circula el «Kairi», tren turístico con vagón mirador hacia el mar."
+      ]
+    },
+    {
+      "id": "suigun",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Suigun",
+      "ja": "水郡線",
+      "en": "Suigun Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR水郡線\"]",
+        "bbox": [
+          36.3,
+          140.1,
+          37.45,
+          140.7
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Sigue el río Kuji entre Mito y Kōriyama; en otoño el valle de Fukuroda se llena de arces rojos."
+      ]
+    },
+    {
+      "id": "seikan-cable",
+      "code": "SK",
+      "color": "#7B3F98",
+      "name": "Funicular del túnel de Seikan",
+      "ja": "青函トンネル竜飛斜坑線",
+      "en": "Seikan Tunnel Tappi Incline",
+      "operator": "seikan",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"青函トンネル\"]",
+        "bbox": [
+          41.2,
+          140.3,
+          41.3,
+          140.42
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Baja 140 metros hasta el nivel del túnel de Seikan, bajo el estrecho de Tsugaru.",
+        "Solo funciona de abril a noviembre: en invierno la nieve cierra el museo."
+      ]
+    },
+    {
+      "id": "gono",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Gonō",
+      "ja": "五能線",
+      "en": "Gonō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR五能線\"]",
+        "bbox": [
+          40.0,
+          139.85,
+          40.9,
+          140.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Va pegada al mar de Japón bajo los acantilados de Senjōjiki; por ella circula el tren turístico Resort Shirakami.",
+        "Bordea el macizo de Shirakami, bosque de hayas patrimonio de la humanidad."
+      ]
+    },
+    {
+      "id": "aoimori",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Aoimori Tetsudō",
+      "ja": "青い森鉄道線",
+      "en": "Aoimori Railway",
+      "operator": "aoimori",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"青い森鉄道線\"]",
+        "bbox": [
+          40.35,
+          140.65,
+          40.95,
+          141.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Se quedó con la vieja línea Tōhoku cuando llegó el Shinkansen: 122 km, la línea de tercer sector más larga de Japón."
+      ]
+    },
+    {
+      "id": "tsugaru-line",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Tsugaru",
+      "ja": "津軽線",
+      "en": "Tsugaru Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR津軽線|^津軽線$\"]",
+        "bbox": [
+          40.7,
+          140.2,
+          41.35,
+          140.95
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "konan-konan",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Kōnan Tetsudō: línea Kōnan",
+      "ja": "弘南線",
+      "en": "Kōnan Line",
+      "operator": "konan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"弘南鉄道弘南線\"]",
+        "bbox": [
+          40.55,
+          140.45,
+          40.75,
+          140.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "En invierno sus trenes llevan quitanieves delantero: aquí caen varios metros de nieve."
+      ]
+    },
+    {
+      "id": "konan-owani",
+      "code": "",
+      "color": "#F6A800",
+      "name": "Kōnan Tetsudō: línea Ōwani",
+      "ja": "大鰐線",
+      "en": "Ōwani Line",
+      "operator": "konan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"弘南鉄道大鰐線\"]",
+        "bbox": [
+          40.42,
+          140.45,
+          40.68,
+          140.7
+        ],
+        "nearby": 350
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tsugaru-tetsudo",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "Tsugaru Tetsudō",
+      "ja": "津軽鉄道線",
+      "en": "Tsugaru Railway",
+      "operator": "tsugaru",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"津軽鉄道\"]",
+        "bbox": [
+          40.75,
+          140.3,
+          41.0,
+          140.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "En invierno pone la «stove train»: vagones con estufa de carbón donde se asan calamares secos."
+      ]
+    },
+    {
+      "id": "hachinohe",
+      "code": "",
+      "color": "#F5A200",
+      "name": "JR Hachinohe",
+      "ja": "八戸線",
+      "en": "Hachinohe Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR八戸線\"]",
+        "bbox": [
+          40.15,
+          141.45,
+          40.6,
+          141.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "ominato",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ōminato",
+      "ja": "大湊線",
+      "en": "Ōminato Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR大湊線\"]",
+        "bbox": [
+          40.85,
+          141.05,
+          41.35,
+          141.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Es la única línea de JR East que no toca ninguna otra de la compañía: para llegar hay que pasar por el Aoimori."
+      ]
+    },
+    {
+      "id": "ou-north",
+      "code": "",
+      "color": "#E60012",
+      "name": "JR Ōu (Akita–Aomori)",
+      "ja": "奥羽本線",
+      "en": "Ōu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR奥羽本線\"]",
+        "bbox": [
+          39.6,
+          139.9,
+          40.9,
+          140.7
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Cruza Tōhoku de Fukushima a Aomori: 484 km, la segunda línea más larga de Japón."
+      ]
+    },
+    {
+      "id": "ou-south",
+      "code": "",
+      "color": "#E60012",
+      "name": "JR Ōu (Fukushima–Akita)",
+      "ja": "奥羽本線",
+      "en": "Ōu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR奥羽本線\"]",
+        "bbox": [
+          37.7,
+          140.1,
+          39.75,
+          140.65
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hanawa",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Hanawa",
+      "ja": "花輪線",
+      "en": "Hanawa Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR花輪線\"]",
+        "bbox": [
+          39.7,
+          140.55,
+          40.6,
+          141.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "akita-nairiku",
+      "code": "AN",
+      "color": "#F5A200",
+      "name": "Akita Nairiku",
+      "ja": "秋田内陸線",
+      "en": "Akita Nairiku Line",
+      "operator": "akita-nairiku",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"秋田内陸縦貫鉄道秋田内陸線\"]",
+        "bbox": [
+          39.6,
+          140.3,
+          40.3,
+          140.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "94 km por el interior de Akita, entre montañas; en invierno el tren cruza un paisaje completamente blanco."
+      ]
+    },
+    {
+      "id": "tazawako",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Tazawako",
+      "ja": "田沢湖線",
+      "en": "Tazawako Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR田沢湖線\"]",
+        "bbox": [
+          39.4,
+          140.3,
+          39.85,
+          141.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Comparte vía con el mini-shinkansen Komachi: por eso tiene ancho internacional."
+      ]
+    },
+    {
+      "id": "oga",
+      "code": "",
+      "color": "#E8383D",
+      "name": "JR Oga",
+      "ja": "男鹿線",
+      "en": "Oga Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR男鹿線\"]",
+        "bbox": [
+          39.75,
+          139.8,
+          39.95,
+          140.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Lleva a la península de Oga, tierra de los namahage, los ogros que visitan las casas en Nochevieja."
+      ]
+    },
+    {
+      "id": "yamada",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Yamada",
+      "ja": "山田線",
+      "en": "Yamada Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山田線\"]",
+        "bbox": [
+          39.35,
+          141.1,
+          39.95,
+          141.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "igr",
+      "code": "",
+      "color": "#0072BC",
+      "name": "IGR Iwate Ginga",
+      "ja": "いわて銀河鉄道線",
+      "en": "IGR Iwate Ginga Railway",
+      "operator": "igr",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"いわて銀河鉄道線\"]",
+        "bbox": [
+          39.65,
+          141.05,
+          40.45,
+          141.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Su nombre, «ferrocarril galáctico de Iwate», viene de la novela de Miyazawa Kenji, nacido aquí."
+      ]
+    },
+    {
+      "id": "sanriku",
+      "code": "SR",
+      "color": "#E60012",
+      "name": "Sanriku Tetsudō: línea Rias",
+      "ja": "リアス線",
+      "en": "Rias Line",
+      "operator": "sanriku",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"三陸鉄道リアス線\"]",
+        "bbox": [
+          38.9,
+          141.5,
+          40.2,
+          142.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Con 163 km es la línea de tercer sector más larga de Japón, tras unir en 2019 los dos tramos que separaba el tsunami.",
+        "Fue de las primeras en reabrir tras el terremoto de 2011: cinco días después ya movía trenes gratuitos."
+      ]
+    },
+    {
+      "id": "kamaishi",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Kamaishi",
+      "ja": "釜石線",
+      "en": "Kamaishi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR釜石線\"]",
+        "bbox": [
+          39.2,
+          141.1,
+          39.7,
+          141.9
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Se la conoce como «la vía láctea»: sus estaciones llevan nombres en esperanto por Miyazawa Kenji."
+      ]
+    },
+    {
+      "id": "kitakami-line",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Kitakami",
+      "ja": "北上線",
+      "en": "Kitakami Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR北上線\"]",
+        "bbox": [
+          39.1,
+          140.55,
+          39.45,
+          141.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "yonesaka",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Yonesaka",
+      "ja": "米坂線",
+      "en": "Yonesaka Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR米坂線\"]",
+        "bbox": [
+          37.75,
+          139.3,
+          38.1,
+          140.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "aterazawa",
+      "code": "",
+      "color": "#F5A200",
+      "name": "JR Aterazawa",
+      "ja": "左沢線",
+      "en": "Aterazawa Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR左沢線\"]",
+        "bbox": [
+          38.25,
+          140.1,
+          38.55,
+          140.5
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "rikuu-west",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Rikuu West",
+      "ja": "陸羽西線",
+      "en": "Rikuu West Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR陸羽西線\"]",
+        "bbox": [
+          38.65,
+          139.75,
+          38.95,
+          140.35
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "yamagata-flower",
+      "code": "YR",
+      "color": "#E8383D",
+      "name": "Yamagata Tetsudō: Flower Nagai",
+      "ja": "フラワー長井線",
+      "en": "Flower Nagai Line",
+      "operator": "yamagata-tetsudo",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"山形鉄道フラワー長井線\"]",
+        "bbox": [
+          37.95,
+          139.95,
+          38.35,
+          140.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Se llama «línea de las flores» por los campos de cerezos, tulipanes y dalias que va cruzando."
+      ]
+    },
+    {
+      "id": "banetsu-west",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Ban'etsu West",
+      "ja": "磐越西線",
+      "en": "Ban'etsu West Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR磐越西線\"]",
+        "bbox": [
+          37.35,
+          139.0,
+          37.85,
+          140.5
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Por ella circula el «SL Banetsu Monogatari», con una locomotora de vapor C57 de 1946 apodada «la dama esbelta»."
+      ]
+    },
+    {
+      "id": "banetsu-east",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ban'etsu East",
+      "ja": "磐越東線",
+      "en": "Ban'etsu East Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR磐越東線\"]",
+        "bbox": [
+          37.0,
+          140.35,
+          37.55,
+          141.0
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tadami",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Tadami",
+      "ja": "只見線",
+      "en": "Tadami Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR只見線|^只見線$\"]",
+        "bbox": [
+          37.0,
+          139.1,
+          37.7,
+          140.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Se quedó cortada once años por las lluvias de 2011 y no volvió a estar entera hasta octubre de 2022.",
+        "Sus puentes sobre el río Tadami, entre nieve y niebla, son de los paisajes ferroviarios más fotografiados de Japón."
+      ]
+    },
+    {
+      "id": "aizu-line",
+      "code": "AT",
+      "color": "#F6A800",
+      "name": "Aizu Tetsudō",
+      "ja": "会津線",
+      "en": "Aizu Line",
+      "operator": "aizu",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"会津鉄道会津線\"]",
+        "bbox": [
+          36.9,
+          139.55,
+          37.55,
+          139.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "tohoku",
+      "trains": [],
+      "facts": [
+        "Su estación de Yunokami-Onsen tiene tejado de paja y un baño termal gratuito al lado del andén."
+      ]
+    },
+    {
+      "id": "yagan",
+      "code": "YG",
+      "color": "#7B3F98",
+      "name": "Yagan Tetsudō: Aizu-Kinugawa",
+      "ja": "会津鬼怒川線",
+      "en": "Aizu-Kinugawa Line",
+      "operator": "yagan",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"野岩鉄道会津鬼怒川線\"]",
+        "bbox": [
+          36.8,
+          139.55,
+          37.15,
+          139.85
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
       "id": "tohoku-main",
       "code": "",
       "color": "#0072BC",
@@ -9602,12 +10510,12 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^JR東北本線$\"]",
         "bbox": [
-          37.7,
-          140.3,
-          39.05,
-          141.3
+          36.85,
+          140.05,
+          39.9,
+          141.6
         ],
-        "nearby": 200
+        "nearby": 400
       },
       "order": "nearest",
       "region": "tohoku",
@@ -9672,10 +10580,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"阿武隈急行線\"]",
         "bbox": [
-          37.7,
-          140.4,
-          38.1,
-          140.9
+          37.65,
+          140.35,
+          38.15,
+          140.95
         ],
         "nearby": 200
       },
@@ -9753,10 +10661,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"常磐線\"]",
         "bbox": [
-          37.7,
-          140.8,
-          38.3,
-          141.15
+          36.7,
+          140.55,
+          38.35,
+          141.2
         ],
         "nearby": 300
       },
@@ -9780,10 +10688,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR陸羽東線\"]",
         "bbox": [
-          38.5,
-          140.4,
-          38.9,
-          141.1
+          38.45,
+          140.3,
+          38.95,
+          141.15
         ],
         "nearby": 200
       },

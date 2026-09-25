@@ -1,9 +1,10 @@
 # Japan Rail Explorer
 
 Mapa interactivo de las líneas de tren y metro de Japón, con estaciones, trenes y datos curiosos.
-Ahora cubre **toda la red Shinkansen** y 459 líneas con 6367 estaciones y 182 series de trenes.
-Veintisiete prefecturas están completas al 100 % frente a OpenStreetMap, entre ellas **Kyūshū entero**,
-**Shikoku entera**, San'in y Okinawa, y el conjunto de Japón va por el 69 % de sus estaciones.
+Ahora cubre **toda la red Shinkansen** y 492 líneas con 7132 estaciones y 182 series de trenes.
+Treinta y dos prefecturas están completas al 100 % frente a OpenStreetMap: **Tōhoku entero**, **Kyūshū entero**,
+**Shikoku entera**, San'in, Hokkaidō, Okinawa y buena parte de Kantō y Kansai. El conjunto de Japón va por el
+77 % de sus estaciones.
 La idea es ir ampliando poco a poco al resto del país. El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).

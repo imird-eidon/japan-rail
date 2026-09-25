@@ -2,17 +2,17 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-25. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 6595 de 9548 estaciones (69 %).**
+**Japón: 7324 de 9518 estaciones (77 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
 | [Hokkaidō](#01-hokkaidō) | 447 | 447 | 0 | 100 % |
-| [Aomori](#02-aomori) | 157 | 5 | 152 | 3 % |
-| [Iwate](#03-iwate) | 187 | 9 | 178 | 5 % |
+| [Aomori](#02-aomori) | 148 | 148 | 0 | 100 % |
+| [Iwate](#03-iwate) | 168 | 168 | 0 | 100 % |
 | [Miyagi](#04-miyagi) | 156 | 156 | 0 | 100 % |
-| [Akita](#05-akita) | 144 | 4 | 140 | 3 % |
-| [Yamagata](#06-yamagata) | 121 | 17 | 104 | 14 % |
-| [Fukushima](#07-fukushima) | 188 | 3 | 185 | 2 % |
+| [Akita](#05-akita) | 143 | 143 | 0 | 100 % |
+| [Yamagata](#06-yamagata) | 121 | 121 | 0 | 100 % |
+| [Fukushima](#07-fukushima) | 187 | 187 | 0 | 100 % |
 | [Ibaraki](#08-ibaraki) | 137 | 10 | 127 | 7 % |
 | [Tochigi](#09-tochigi) | 146 | 19 | 127 | 13 % |
 | [Gunma](#10-gunma) | 140 | 8 | 132 | 6 % |
@@ -62,46 +62,15 @@ Completa ✅
 
 ## 02 Aomori
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 五能線 | 30 | 追良瀬、大戸瀬、鰺ヶ沢、陸奥赤石、板柳、藤崎、五所川原、中田、越水、木造、風合瀬、北金ヶ沢… |
-| 青い森鉄道線 | 23 | 小川原、西平内、小湊、向山、清水川、乙供、上北町、千曳、矢田前、諏訪ノ平、剣吉、苫米地… |
-| 津軽線 | 16 | 奥内、瀬辺地、左堰、中沢、後潟、郷沢、蓬田、油川、津軽宮田、蟹田、三厩、体験坑道… |
-| 大鰐線 | 13 | 小栗山、義塾高校前、鯖石、宿川原、津軽大沢、聖愛中高前、石川プール前、石川、大鰐、松木平、千年、大鰐温泉… |
-| 八戸線 | 12 | 鮫、大久喜、陸奥白浜、長苗代、階上、本八戸、小中野、白銀、金浜、陸奥湊、種差海岸、大蛇 |
-| 弘南線 | 12 | 境松、柏農高校前、運動公園前、平賀、新里、館田、田舎館、尾上高校前、弘前、津軽尾上、弘前東高前、黒石 |
-| 津軽鉄道線 | 12 | 大沢内、深郷田、川倉、津軽中里、毘沙門、十川、津軽飯詰、芦野公園、津軽五所川原、嘉瀬、:五農校前、金木 |
-| 大湊線 | 10 | 有戸、赤川、近川、吹越、有畑、金谷沢、下北、大湊、北野辺地、陸奥横浜 |
-| 奥羽線 | 9 | 大釈迦、津軽新城、石川、撫牛子、浪岡、津軽湯の沢、碇ヶ関、弘前、鶴ヶ坂 |
-| (sin línea) 弘南鉄道 | 4 | 田んぼアート、中央弘前、弘高下、弘前学院大前 |
-| 津軽線;海峡線 | 2 | 中小国、大平 |
-| (sin línea) 東日本旅客鉄道 | 2 | 大川平、津軽二股 |
-| 五能線;奥羽線 | 2 | 川部、北常盤 |
-| (sin línea) 八戸臨海鉄道 | 1 | 北沼 |
-| 青い森鉄道線;十和田観光電鉄線 | 1 | 三沢 |
-| 青い森鉄道線;大湊線 | 1 | 野辺地 |
-| 奥羽線;青い森鉄道線;津軽線 | 1 | 青森 |
-| (sin línea) JR貨物 | 1 | 八戸貨物 |
+Sin contar (no son servicio de viajeros): 竜飛定点 (apartadero de emergencia dentro del túnel de Seikan, sin servicio)、三厩 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)、今別 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)、津軽浜名 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)、大平 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)、大川平 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)、津軽二股 (tramo norte de la línea Tsugaru: sin trenes desde 2022 y con cierre acordado, OSM lo marca como vía en desuso)
+
+Completa ✅
 
 ## 03 Iwate
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 43 | 山ノ目、平泉、清水原、陸中折居、前沢、田山、兄畑、似内、岩根橋、綾織、小山田、荒谷前… |
-| 山田線 | 36 | 山岸、上盛岡、千徳、磯鶏、区界、上米内、川内、蟇目、花原市、松草、陸中山田、腹帯… |
-| いわて銀河鉄道線 | 19 | 斗米、金田一温泉、御堂、奥中山高原、小繋、一戸、岩手川口、小鳥谷、平館、赤坂田、小屋の畑、荒屋新町… |
-| (sin línea) 東日本旅客鉄道 | 18 | 陸前矢作、陸前高田、大船渡魚市場前、小友、細浦、碁石海岸口、下船渡、大船渡、大船渡丸森、竹駒、長部、陸前今泉… |
-| 北リアス線 | 16 | 島越、摂待、一の渡、新田老、白井海岸、佐羽根、陸中宇部、十府ヶ浦海岸、普代、岩泉小本、田老、堀内… |
-| 八戸線 | 10 | 角の浜、陸中中野、種市、平内、玉川、有家、宿戸、侍浜、陸中八木、陸中夏井 |
-| 釜石線 | 10 | 小佐野、陸中大橋、平倉、足ヶ瀬、青笹、洞泉、遠野、上有住、松倉、岩手上郷 |
-| 南リアス線 | 9 | 三陸、陸前赤崎、甫嶺、吉浜、恋し浜、平田、綾里、唐丹、盛 |
-| 北上線 | 6 | ほっとゆだ、立川目、ゆだ錦秋湖、ゆだ高原、岩沢、和賀仙人 |
-| 田沢湖線 | 3 | 春木場、赤渕、小岩井 |
-| (sin línea) 三陸鉄道 | 3 | 払川、八木沢・宮古短大、織笠 |
-| (sin línea) JR東日本 | 2 | 栃ヶ沢公園、横川目 |
-| 八戸線;北リアス線 | 1 | 久慈 |
-| 北リアス線;山田線 | 1 | 宮古 |
-| 南リアス線;山田線;釜石線 | 1 | 釜石 |
+Sin contar (no son servicio de viajeros): 陸前矢作 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前高田 (parada del BRT (autobús) que sustituyó al tren en 2020)、大船渡魚市場前 (parada del BRT (autobús) que sustituyó al tren en 2020)、小友 (parada del BRT (autobús) que sustituyó al tren en 2020)、細浦 (parada del BRT (autobús) que sustituyó al tren en 2020)、碁石海岸口 (parada del BRT (autobús) que sustituyó al tren en 2020)、下船渡 (parada del BRT (autobús) que sustituyó al tren en 2020)、大船渡 (parada del BRT (autobús) que sustituyó al tren en 2020)、栃ケ沢公園 (parada del BRT (autobús) que sustituyó al tren en 2020)、脇ノ沢 (parada del BRT (autobús) que sustituyó al tren en 2020)、竹駒 (parada del BRT (autobús) que sustituyó al tren en 2020)、長部 (parada del BRT (autobús) que sustituyó al tren en 2020)、奇跡の一本松 (parada del BRT (autobús) que sustituyó al tren en 2020)、盛 (parada del BRT (autobús) que sustituyó al tren en 2020)、上鹿折 (parada del BRT (autobús) que sustituyó al tren en 2020)、大船渡丸森 (parada del BRT (autobús) que sustituyó al tren en 2020)、陸前今泉 (parada del BRT (autobús) que sustituyó al tren en 2020)、高田高校前 (parada del BRT (autobús) que sustituyó al tren en 2020)、高田病院 (parada del BRT (autobús) que sustituyó al tren en 2020)、西下 (parada del BRT (autobús) que sustituyó al tren en 2020)、地ノ森 (parada del BRT (autobús) que sustituyó al tren en 2020)
+
+Completa ✅
 
 ## 04 Miyagi
 
@@ -111,44 +80,17 @@ Completa ✅
 
 ## 05 Akita
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 奥羽線 | 47 | 糠沢、前山、大久保、上飯島、鯉川、鹿渡、北金岡、八郎潟、土崎、森岳、二ツ井、十文字… |
-| (sin línea) | 34 | 柴平、末広、湯瀬温泉、鹿角花輪、陸中大里、曲沢、鮎川、川辺、久保田、小砂川、上浜、羽後本荘… |
-| 秋田内陸線 | 26 | 羽後中里、比立内、戸沢、前田南、桂瀬、松葉、八津、笑内、羽後長戸呂、西明寺、左通、荒瀬… |
-| 田沢湖線 | 11 | 鶯野、羽後長野、北大曲、鑓見内、神代、刺巻、生田、羽後四ツ屋、飯詰、神宮寺、刈和野 |
-| 五能線 | 10 | 鳥形、滝ノ間、沢目、岩館、北能代、東八森、向能代、能代、八森、あきた白神 |
-| 男鹿線 | 9 | 上二田、脇本、天王、出戸浜、羽立、船越、二田、男鹿、追分 |
-| 奥羽線;秋田内陸線 | 1 | 鷹巣 |
-| (sin línea) 秋田内陸縦貫鉄道 | 1 | 阿仁前田温泉 |
-| 五能線;奥羽線 | 1 | 東能代 |
+Sin contar (no son servicio de viajeros): 秋田港 (estación de mercancías; solo recibe trenes cuando atraca un crucero)
+
+Completa ✅
 
 ## 06 Yamagata
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 44 | 今泉、犬川、羽前小松、羽前松岡、羽前成田、板谷、置賜、大沢、関根、峠、南鳥海、本楯… |
-| 左沢線 | 21 | 左沢、東金井、南寒河江、西寒河江、寒河江、柴橋、羽前金沢、羽前長崎、羽前高松、羽前山辺、荒砥、茂吉記念館前… |
-| 陸羽西線 | 20 | 狩川、古口、津谷、高屋、羽前前波、清川、南野、升形、鶴岡、酒田、余目、北余目… |
-| 陸羽東線 | 14 | 赤倉温泉、堺田、鵜杉、立小路、最上、東長沢、長沢、瀬見温泉、南新庄、袖崎、北大石田、芦沢… |
-| 奥羽線 | 3 | 及位、大滝、釜淵 |
-| (sin línea) 東日本旅客鉄道 | 1 | あつみ温泉 |
-| (sin línea) 陸羽西線代行バス | 1 | 升形 |
+Completa ✅
 
 ## 07 Fukushima
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 67 | 赤井、神俣、夏井、小川郷、小野新町、里白石、東館、平野、やながわ希望の森公園前、富野、兜、金谷川… |
-| 磐越西線 | 29 | 磐梯熱海、上戸、安子ヶ島、喜久田、東長原、荻野、関都、猪苗代湖畔、会津豊川、喜多方、川桁、山都… |
-| 只見線 | 25 | 会津本郷、若宮、会津西方、会津桧原、新鶴、会津高田、会津川口、会津越川、会津横田、根岸、郷戸、早戸… |
-| (sin línea) 東日本旅客鉄道 | 24 | 安達、日立木、相馬、桃内、浪江、小高、原ノ町、勿来、鹿島、泉、植田、内郷… |
-| 会津線 | 21 | 中荒井、会津長野、会津山村道場、大川ダム公園、芦ノ牧温泉南、あまや、塔のへつり、門田、会津下郷、養鱒公園、ふるさと公園、芦ノ牧温泉… |
-| 磐越東線 | 14 | 三春、舞木、菅谷、船引、磐城常葉、要田、大越、二本松、川東、磐城守山、安積永盛、小塩江… |
-| 只見線;磐越西線 | 2 | 会津若松、七日町 |
-| (sin línea) JR東日本仙台支社 | 1 | 郡山富田 |
-| 会津線;会津鬼怒川線 | 1 | 会津高原尾瀬口 |
-| (sin línea) 日本貨物鉄道株式会社 | 1 | 郡山貨物ターミナル |
+Completa ✅
 
 ## 08 Ibaraki
 
