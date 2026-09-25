@@ -479,6 +479,12 @@
     },
     "takachiho": {
       "name": "Takachiho Amaterasu Tetsudō"
+    },
+    "wakasa": {
+      "name": "Wakasa Tetsudō"
+    },
+    "ichibata": {
+      "name": "Ichibata Densha"
     }
   },
   "types": {
@@ -6718,8 +6724,8 @@
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"智頭急行智頭線\"]",
         "bbox": [
           34.85,
-          134.05,
-          35.35,
+          133.95,
+          35.45,
           134.5
         ],
         "nearby": 150
@@ -6903,6 +6909,252 @@
         "居組"
       ],
       "strict_order": true
+    },
+    {
+      "id": "sanin-tottori",
+      "code": "A",
+      "color": "#7B3F98",
+      "name": "JR San'in (Igumi–Yonago)",
+      "ja": "山陰本線",
+      "en": "San'in Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線|JR山陰本線\"]",
+        "bbox": [
+          35.25,
+          133.25,
+          35.7,
+          134.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Es la línea más larga de Japón sin contar el Shinkansen: 673 km de Kioto a Hatabu.",
+        "Va pegada al mar de Japón, entre dunas de arena y pueblos pesqueros."
+      ]
+    },
+    {
+      "id": "sanin-shimane",
+      "code": "A",
+      "color": "#7B3F98",
+      "name": "JR San'in (Yonago–Masuda)",
+      "ja": "山陰本線",
+      "en": "San'in Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線|JR山陰本線\"]",
+        "bbox": [
+          34.55,
+          131.7,
+          35.6,
+          133.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Pasa por Izumo, donde está el santuario más antiguo de Japón según las crónicas."
+      ]
+    },
+    {
+      "id": "inbi",
+      "code": "B",
+      "color": "#00A0B0",
+      "name": "JR Inbi",
+      "ja": "因美線",
+      "en": "Inbi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR因美線\"]",
+        "bbox": [
+          35.0,
+          133.85,
+          35.55,
+          134.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sakai",
+      "code": "C",
+      "color": "#E8383D",
+      "name": "JR Sakai",
+      "ja": "境線",
+      "en": "Sakai Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR境線\"]",
+        "bbox": [
+          35.4,
+          133.2,
+          35.6,
+          133.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Cada estación tiene un nombre de yōkai: la línea celebra a Mizuki Shigeru, el autor de GeGeGe no Kitarō, nacido en Sakaiminato.",
+        "Sus trenes van pintados con los monstruos de sus cómics."
+      ]
+    },
+    {
+      "id": "hakubi",
+      "code": "V",
+      "color": "#0072BC",
+      "name": "JR Hakubi",
+      "ja": "伯備線",
+      "en": "Hakubi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR伯備線\"]",
+        "bbox": [
+          34.55,
+          133.3,
+          35.5,
+          133.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Es el atajo entre el mar interior y el mar de Japón: por aquí pasa el expreso Yakumo."
+      ]
+    },
+    {
+      "id": "wakasa",
+      "code": "WK",
+      "color": "#F5A200",
+      "name": "Wakasa Tetsudō",
+      "ja": "若桜線",
+      "en": "Wakasa Line",
+      "operator": "wakasa",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"若桜鉄道若桜線\"]",
+        "bbox": [
+          35.25,
+          134.15,
+          35.5,
+          134.45
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Conserva una locomotora de vapor C12 que se mueve con aire comprimido para los visitantes.",
+        "Sus estaciones de madera de los años veinte son patrimonio registrado."
+      ]
+    },
+    {
+      "id": "ichibata-kita",
+      "code": "IC",
+      "color": "#E60012",
+      "name": "Ichibata: línea Kita-Matsue",
+      "ja": "北松江線",
+      "en": "Kita-Matsue Line",
+      "operator": "ichibata",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"一畑電車北松江線\"]",
+        "bbox": [
+          35.3,
+          132.65,
+          35.55,
+          133.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Bordea el lago Shinji, famoso por sus atardeceres, entre Matsue e Izumo.",
+        "Aquí se rodó «Rail Ways», la película sobre un oficinista que se hace maquinista a los cincuenta."
+      ]
+    },
+    {
+      "id": "ichibata-taisha",
+      "code": "IT",
+      "color": "#F6A800",
+      "name": "Ichibata: línea Taisha",
+      "ja": "大社線",
+      "en": "Taisha Line",
+      "operator": "ichibata",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"一畑電車大社線\"]",
+        "bbox": [
+          35.35,
+          132.65,
+          35.45,
+          132.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Termina delante del Izumo Taisha, el gran santuario donde, según la tradición, se reúnen todos los dioses en octubre."
+      ]
+    },
+    {
+      "id": "yamaguchi-line",
+      "code": "D",
+      "color": "#2E8B57",
+      "name": "JR Yamaguchi",
+      "ja": "山口線",
+      "en": "Yamaguchi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山口線\"]",
+        "bbox": [
+          34.0,
+          131.35,
+          34.75,
+          131.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Por ella circula el «SL Yamaguchi», tren de vapor tirado por una locomotora D51 o C57.",
+        "Pasa por Tsuwano, la «pequeña Kioto de San'in», entre montañas y arrozales."
+      ]
     },
     {
       "id": "omi-main",
@@ -8892,10 +9144,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR木次線\"]",
         "bbox": [
-          35.0,
-          132.7,
-          35.45,
-          133.3
+          34.95,
+          132.6,
+          35.5,
+          133.35
         ],
         "nearby": 200
       },

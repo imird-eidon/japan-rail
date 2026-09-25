@@ -2,7 +2,7 @@
 
 > Generado por `tools/audit_coverage.py` el 2026-09-25. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 6362 de 9572 estaciones (66 %).**
+**Japón: 6595 de 9548 estaciones (69 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -36,11 +36,11 @@
 | [Hyōgo](#28-hyōgo) | 385 | 385 | 0 | 100 % |
 | [Nara](#29-nara) | 128 | 128 | 0 | 100 % |
 | [Wakayama](#30-wakayama) | 121 | 20 | 101 | 17 % |
-| [Tottori](#31-tottori) | 73 | 0 | 73 | 0 % |
-| [Shimane](#32-shimane) | 116 | 0 | 116 | 0 % |
-| [Okayama](#33-okayama) | 167 | 21 | 146 | 13 % |
+| [Tottori](#31-tottori) | 73 | 73 | 0 | 100 % |
+| [Shimane](#32-shimane) | 92 | 92 | 0 | 100 % |
+| [Okayama](#33-okayama) | 167 | 68 | 99 | 41 % |
 | [Hiroshima](#34-hiroshima) | 278 | 278 | 0 | 100 % |
-| [Yamaguchi](#35-yamaguchi) | 156 | 9 | 147 | 6 % |
+| [Yamaguchi](#35-yamaguchi) | 156 | 30 | 126 | 19 % |
 | [Tokushima](#36-tokushima) | 76 | 76 | 0 | 100 % |
 | [Kagawa](#37-kagawa) | 92 | 92 | 0 | 100 % |
 | [Ehime](#38-ehime) | 151 | 151 | 0 | 100 % |
@@ -425,51 +425,28 @@ Completa ✅
 
 ## 31 Tottori
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 山陰線 | 26 | 浜村、福部、泊、東浜、宝木、末恒、青谷、湖山、赤碕、大岩、淀江、八橋… |
-| 因美線 | 17 | 因幡社、津ノ井、鷹狩、土師、河原、用瀬、東郡家、那岐、国英、郡家、鳥取、丹比… |
-| 境線 | 14 | 弓ヶ浜、河崎口、博労町、中浜、富士見町、大篠津町、高松町、和田浜、余子、三本松口、馬場崎町、境港… |
-| 伯備線 | 9 | 岸本、上菅、根雨、武庫、生山、江尾、黒坂、伯耆溝口、上石見 |
-| 智頭線 | 3 | 恋山形、山郷、若桜 |
-| 境線;山陰線 | 1 | 米子 |
-| (sin línea) JR 西日本旅客鉄道 | 1 | 上道 |
-| 因美線;智頭線 | 1 | 智頭 |
-| (sin línea) 若桜鉄道 | 1 | 安部 |
+Completa ✅
 
 ## 32 Shimane
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 山陰線 | 45 | 安来、出雲神西、西出雲、荘原、乃木、松江、江南、小田、荒島、来待、東松江、田儀… |
-| 三江線 | 23 | 石見松原、石見簗瀬、石見都賀、明塚、沢谷、潮、浜原、粕淵、江平、作木口、宇都井、鹿賀… |
-| (sin línea) 一畑電車 | 18 | 伊野灘、浜山公園北口、遥堪、高浜、大津町、布崎、雲州平田、朝日ヶ丘、松江フォーゲルパーク、高ノ宮、園、湖遊館新… |
-| 木次線 | 14 | 出雲三成、下久野、出雲八代、出雲横田、幡屋、亀嵩、南宍道、日登、南大東、三井野原、出雲坂根、八川… |
-| 山口線 | 8 | 本俣賀、青野山、津和野、青原、東青原、石見横田、日原、益田 |
-| 北松江線 | 5 | 電鉄出雲市、松江しんじ湖温泉、一畑口、長江、出雲科学館パークタウン前 |
-| 山陰線;木次線 | 1 | 宍道 |
-| 大社線 | 1 | 出雲大社前 |
-| (sin línea) 北松江線 | 1 | 秋鹿町 |
+Sin contar (no son servicio de viajeros): 石見松原 (línea Sankō, cerrada el 1 de abril de 2018)、石見簗瀬 (línea Sankō, cerrada el 1 de abril de 2018)、石見都賀 (línea Sankō, cerrada el 1 de abril de 2018)、明塚 (línea Sankō, cerrada el 1 de abril de 2018)、沢谷 (línea Sankō, cerrada el 1 de abril de 2018)、潮 (línea Sankō, cerrada el 1 de abril de 2018)、浜原 (línea Sankō, cerrada el 1 de abril de 2018)、粕淵 (línea Sankō, cerrada el 1 de abril de 2018)、竹 (línea Sankō, cerrada el 1 de abril de 2018)、乙原 (línea Sankō, cerrada el 1 de abril de 2018)、石見川本 (línea Sankō, cerrada el 1 de abril de 2018)、因原 (línea Sankō, cerrada el 1 de abril de 2018)、鹿賀 (línea Sankō, cerrada el 1 de abril de 2018)、田津 (línea Sankō, cerrada el 1 de abril de 2018)、川戸 (línea Sankō, cerrada el 1 de abril de 2018)、川平 (línea Sankō, cerrada el 1 de abril de 2018)、千金 (línea Sankō, cerrada el 1 de abril de 2018)、江津本町 (línea Sankō, cerrada el 1 de abril de 2018)、長谷 (línea Sankō, cerrada el 1 de abril de 2018)、船佐 (línea Sankō, cerrada el 1 de abril de 2018)、所木 (línea Sankō, cerrada el 1 de abril de 2018)、信木 (línea Sankō, cerrada el 1 de abril de 2018)、式敷 (línea Sankō, cerrada el 1 de abril de 2018)、香淀 (línea Sankō, cerrada el 1 de abril de 2018)、作木口 (línea Sankō, cerrada el 1 de abril de 2018)、口羽 (línea Sankō, cerrada el 1 de abril de 2018)、伊賀和志 (línea Sankō, cerrada el 1 de abril de 2018)、宇都井 (línea Sankō, cerrada el 1 de abril de 2018)、江平 (línea Sankō, cerrada el 1 de abril de 2018)、木路原 (línea Sankō, cerrada el 1 de abril de 2018)、石見川越 (línea Sankō, cerrada el 1 de abril de 2018)、旧出雲広瀬 (estación del ferrocarril de Hirose, cerrado en 1960)
+
+Completa ✅
 
 ## 33 Okayama
 
 | Línea | Faltan | Estaciones |
 |---|--:|---|
 | 姫新線 | 20 | 楢原、美作江見、美作土居、美作大崎、西勝間田、院庄、勝間田、林野、刑部、岩山、美作千代、美作追分… |
-| 山陽線 | 17 | 上道、西阿知、東岡山、金光、倉敷、庭瀬、北長瀬、高島、瀬戸、万富、熊山、和気… |
+| 山陽線 | 16 | 上道、西阿知、東岡山、金光、庭瀬、北長瀬、高島、瀬戸、万富、熊山、和気、三石… |
 | 津山線 | 15 | 亀甲、金川、玉柏、神目、津山口、弓削、備前原、牧山、誕生寺、小原、野々口、佐良山… |
-| 伯備線 | 14 | 足立、井倉、布原、新郷、備中高梁、豪渓、日羽、美袋、備中広瀬、木野山、備中川面、方谷… |
 | 宇野線 | 14 | 宇野、備前田井、八浜、常山、迫川、備前片岡、彦崎、久々原、早島、備中箕島、妹尾、備前西市… |
-| 赤穂線 | 12 | 寒河、伊里、西片上、香登、邑久、大富、大多羅、西大寺、長船、伊部、備前片上、日生 |
-| 水島本線 | 10 | 三菱自工前、栄、球場前、弥生、倉敷市、西富井、福井、常盤、浦田、水島 |
-| 井原線 | 10 | 子守唄の里高屋、早雲の里荏原、井原、三谷、小田、矢掛、いずえ、備中呉妹、川辺宿、吉備真備 |
-| 吉備線 | 9 | 東総社、服部、足守、備前一宮、備前三門、備中高松、吉備津、大安寺、総社 |
-| 因美線 | 6 | 美作河井、美作滝尾、美作加茂、三浦、知和、高野 |
-| 芸備線 | 4 | 矢神、市岡、野馳、坂根 |
-| 智頭線 | 4 | 西粟倉、あわくら温泉、宮本武蔵、大原 |
-| (sin línea) 西日本旅客鉄道 | 4 | 西川原、新見、東津山、児島 |
+| 水島本線 | 9 | 三菱自工前、栄、球場前、弥生、西富井、福井、常盤、浦田、水島 |
+| 赤穂線 | 8 | 西片上、香登、邑久、大富、大多羅、西大寺、長船、伊部 |
+| 吉備線 | 8 | 東総社、服部、足守、備前一宮、備前三門、備中高松、吉備津、大安寺 |
 | 本四備讃線 | 3 | 上の町、木見、植松 |
-| 伯備線;芸備線 | 1 | 備中神代 |
+| (sin línea) 西日本旅客鉄道 | 2 | 西川原、児島 |
+| 井原線 | 1 | 川辺宿 |
 | (sin línea) 片上鉄道保存会 | 1 | 吉ケ原 |
 | 姫新線;津山線 | 1 | 津山 |
 | 宇野線;本四備讃線 | 1 | 茶屋町 |
@@ -484,14 +461,12 @@ Completa ✅
 |---|--:|---|
 | 山陰線 | 38 | 三見、玉江、宇田郷、木与、奈古、越ヶ浜、須佐、東萩、飯井、長門大井、長門三隅、萩… |
 | 山陽線 | 24 | 福川、由宇、通津、南岩国、新南陽、埴生、小野田、本由良、嘉川、四辻、大道、防府… |
-| 山口線 | 19 | 船平山、名草、仁保、篠目、上山口、長門峡、宮野、渡川、鍋倉、地福、徳佐、三谷… |
 | 宇部線 | 16 | 宇部、宇部岬、岩鼻、宇部新川、琴芝、東新川、草江、常盤、床波、丸尾、岐波、阿知須… |
 | 岩徳線 | 13 | 欽明路、周防高森、柱野、玖珂、高水、大河内、米川、勝間、周防久保、生野屋、周防花岡、櫛ヶ浜… |
 | 錦川清流線 | 12 | 柳瀬、根笠、椋野、清流新岩国、河山、南河内、守内かさ神、行波、北河内、南桑、錦町、清流みはらし |
 | 美祢線 | 10 | 重安、厚保、於福、湯ノ峠、長門湯本、板持、渋木、四郎ヶ原、南大嶺、美祢 |
 | 小野田線 | 10 | 妻崎、浜河内、小野田港、雀田、南中川、目出、南小野田、長門本山、長門長沢、居能 |
 | 岩徳線;錦川清流線 | 2 | 川西、西岩国 |
-| 山陽線;岩徳線 | 2 | 岩国、和木 |
 | (sin línea) 西日本旅客鉄道 | 1 | 小月 |
 
 ## 36 Tokushima
