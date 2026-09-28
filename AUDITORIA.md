@@ -1,8 +1,8 @@
 # Auditoría de cobertura
 
-> Generado por `tools/audit_coverage.py` el 2026-09-25. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
+> Generado por `tools/audit_coverage.py` el 2026-09-28. Compara todas las estaciones de OpenStreetMap de cada prefectura con las de la web. Las líneas que faltan se agrupan por su nombre oficial (etiqueta `KSJ2:LIN`, del Ministerio de Territorio).
 
-**Japón: 7324 de 9518 estaciones (77 %).**
+**Japón: 8580 de 9501 estaciones (90 %).**
 
 | Prefectura | Estaciones | Tenemos | Faltan | Cobertura |
 |---|--:|--:|--:|--:|
@@ -20,14 +20,14 @@
 | [Chiba](#12-chiba) | 346 | 346 | 0 | 100 % |
 | [Tokio](#13-tokio) | 783 | 783 | 0 | 100 % |
 | [Kanagawa](#14-kanagawa) | 381 | 381 | 0 | 100 % |
-| [Niigata](#15-niigata) | 202 | 9 | 193 | 4 % |
-| [Toyama](#16-toyama) | 212 | 26 | 186 | 12 % |
-| [Ishikawa](#17-ishikawa) | 75 | 3 | 72 | 4 % |
-| [Fukui](#18-fukui) | 134 | 30 | 104 | 22 % |
-| [Yamanashi](#19-yamanashi) | 73 | 0 | 73 | 0 % |
-| [Nagano](#20-nagano) | 259 | 10 | 249 | 4 % |
-| [Gifu](#21-gifu) | 189 | 7 | 182 | 4 % |
-| [Shizuoka](#22-shizuoka) | 224 | 10 | 214 | 4 % |
+| [Niigata](#15-niigata) | 201 | 201 | 0 | 100 % |
+| [Toyama](#16-toyama) | 204 | 204 | 0 | 100 % |
+| [Ishikawa](#17-ishikawa) | 73 | 73 | 0 | 100 % |
+| [Fukui](#18-fukui) | 134 | 134 | 0 | 100 % |
+| [Yamanashi](#19-yamanashi) | 72 | 72 | 0 | 100 % |
+| [Nagano](#20-nagano) | 257 | 257 | 0 | 100 % |
+| [Gifu](#21-gifu) | 187 | 187 | 0 | 100 % |
+| [Shizuoka](#22-shizuoka) | 223 | 223 | 0 | 100 % |
 | [Aichi](#23-aichi) | 493 | 493 | 0 | 100 % |
 | [Mie](#24-mie) | 234 | 25 | 209 | 11 % |
 | [Shiga](#25-shiga) | 122 | 122 | 0 | 100 % |
@@ -171,131 +171,47 @@ Completa ✅
 
 ## 15 Niigata
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 越後線 | 41 | 新潟大学前、内野、内野西が丘、巻、小針、岩室、越後赤塚、越後曽根、青山、北吉田、寺尾、妙法寺… |
-| ほくほく線 | 21 | しんざ、魚沼丘陵、美佐島、十日町、まつだい、ほくほく大島、潟町、くびき、大池いこいの森、うらがわら、犀潟、虫川大杉… |
-| 上越線 | 19 | 八色、五日町、上越国際スキー場前、北堀之内、越後堀之内、越後滝谷、小千谷、越後中里、大沢、土樽、六日町、塩沢… |
-| (sin línea) | 17 | 坂町、根知、平岩、姫川、頸城大野、小滝、黒井、加治、金塚、越後大島、越後下関、越後片貝… |
-| 信越線 | 17 | 亀田、帯織、押切、加茂、保内、東光寺、三条、北長岡、越後石山、荻川、田上、古津… |
-| 磐越西線 | 16 | 五十島、津川、鹿瀬、北五泉、日出谷、新関、三川、東下条、馬下、豊実、五泉、東新津… |
-| (sin línea) えちごトキめき鉄道 | 16 | 新井、高田、二本木、谷浜、名立、筒石、能生、浦本、梶屋敷、青海、親不知、有間川… |
-| 白新線 | 13 | 大形、東新潟、新崎、豊栄、早通、黒山、佐々木、西新発田、月岡、神山、新発田、中浦… |
-| 羽越線 | 10 | 越後早川、越後寒川、桑川、勝木、今川、府屋、間島、平林、村上、岩船町 |
-| 只見線 | 7 | 上条、入広瀬、大白川、藪神、越後広瀬、越後須原、魚沼田中 |
-| 弥彦線 | 6 | 矢作、西燕、北三条、燕、吉田、弥彦 |
-| 飯山線 | 4 | 越後岩沢、下条、内ヶ巻、魚沼中条 |
-| (sin línea) 東日本旅客鉄道 | 1 | 新津 |
-| (sin línea) えちごトキめき鉄道;東日本旅客鉄道 | 1 | 直江津 |
-| 上越線;飯山線 | 1 | 越後川口 |
-| 上越線;只見線 | 1 | 小出 |
-| 信越線;弥彦線 | 1 | 東三条 |
-| (sin línea) えちごトキめき鉄道;しなの鉄道 | 1 | 妙高高原 |
+Sin contar (no son servicio de viajeros): 新潟交通新潟東部営業所 (cochera de autobuses, no es una estación)
+
+Completa ✅
 
 ## 16 Toyama
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 123 | 猪谷、西富山、速星、楡原、東八尾、笹津、越中八尾、千里、伏木、越中国分、雨晴、能町… |
-| (sin línea) 富山地方鉄道 | 40 | 東三日市、滑川、電鉄黒部、地鉄ビル前、中町、荒町、桜橋、電気ビル前、上本町、南富山駅前、広貫堂前、小泉町… |
-| (sin línea) あいの風とやま鉄道 | 14 | 魚津、黒部、生地、西入善、入善、越中宮崎、高岡やぶなみ、福岡、東滑川、呉羽、小杉、越中大門… |
-| (sin línea) あいの風とやま鉄道;西日本旅客鉄道 | 3 | 高岡、石動、西高岡 |
-| (sin línea) 万葉線 | 2 | 六渡寺、中新湊 |
-| (sin línea) 立山黒部貫光 | 1 | 黒部平 |
-| (sin línea) JR西日本 | 1 | 婦中鵜坂 |
-| (sin línea) 国土交通省北陸地方整備局立山砂防事務所 | 1 | 鬼ヶ城連絡所 |
-| (sin línea) 西日本旅客鉄道 | 1 | 油田 |
+Sin contar (no son servicio de viajeros): 鬼ケ城連絡所 (tren de obras del servicio de control de torrentes de Tateyama, sin viajeros)、黒部平 (estación del teleférico de la ruta alpina Tateyama-Kurobe, no es ferrocarril)、室堂 (estación del trolebús de Tateyama, que dejó de circular en 2024)、桑谷連絡所 (tren de obras del control de torrentes de Tateyama, sin viajeros)、中小屋連絡所 (tren de obras del control de torrentes de Tateyama, sin viajeros)、樺平連絡所 (tren de obras del control de torrentes de Tateyama, sin viajeros)、水谷連絡所 (tren de obras del control de torrentes de Tateyama, sin viajeros)
+
+Completa ✅
 
 ## 17 Ishikawa
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 38 | 能登中島、穴水、西岸、笠師保、田鶴浜、能登鹿島、動橋、明峰、粟津、横山、敷浪、徳田… |
-| (sin línea) 北陸鉄道 | 16 | 四十万、井口、額住宅前、西泉、野々市、道法寺、馬替、小柳、陽羽里、野々市工大前、押野、乙丸… |
-| (sin línea) 北陸鉄道株式会社 | 12 | 磯部、北鉄金沢、割出、粟ヶ崎、内灘、蚊爪、北間、大河端、三口、上諸江、七ツ屋、三ツ屋 |
-| (sin línea) IRいしかわ鉄道 | 4 | 能美根上、東金沢、美川、森本 |
-| (sin línea) IRいしかわ鉄道;西日本旅客鉄道 | 1 | 津幡 |
-| (sin línea) IRいしかわ鉄道;あいの風とやま鉄道 | 1 | 倶利伽羅 |
+Sin contar (no son servicio de viajeros): 恋路 (línea Noto de la Noto Tetsudō, cerrada en 2005)、宗玄 (línea Noto de la Noto Tetsudō, cerrada en 2005)
+
+Completa ✅
 
 ## 18 Fukui
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 勝山永平寺線 | 42 | 志比堺、下志比、光明寺、轟、永平寺口、松岡、越前野中、観音町、越前島橋、山王、東藤島、越前竹原… |
-| 越美北線 | 24 | 計石、越前花堂、足羽、六条、小和清水、下唯野、越前薬師、越前東郷、市波、越前高田、柿ケ島、一乗谷… |
-| 小浜線 | 22 | 西敦賀、粟野、東美浜、美浜、気山、三方、藤井、十村、大鳥羽、若狭有田、上中、新平野… |
-| 福武線 | 8 | たけふ新、湯尾、南条、南今庄、今庄、王子保、武生、鯖江 |
-| (sin línea) 西日本旅客鉄道 | 5 | 牛ケ原、越前田野、越前富田、北大野、越前大野 |
-| (sin línea) えちぜん鉄道 | 2 | 八ツ島、日華化学前 |
-| (sin línea) ハピラインふくい | 1 | しきぶ |
+Completa ✅
 
 ## 19 Yamanashi
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| (sin línea) | 53 | 富士山、甲斐大泉、甲斐小泉、清里、小淵沢、竜王、塩崎、新府、長坂、甲斐上野、石和温泉、山梨市… |
-| (sin línea) 富士山麓電気鉄道株式会社 | 12 | 大月、禾生、谷村町、上大月、赤坂、田野倉、都留市、葭池温泉前、下吉田、富士急ハイランド、都留文科大学前、寿 |
-| (sin línea) 東日本旅客鉄道 | 6 | 梁川、猿橋、笹子、甲府、鳥沢、四方津 |
-| (sin línea) JR東海 身延線 | 1 | 常永 |
-| (sin línea) JR東日本 | 1 | 上野原 |
+Sin contar (no son servicio de viajeros): 山梨県駅、仮称 (futura estación del maglev Chūō, aún en obras)
+
+Completa ✅
 
 ## 20 Nagano
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 飯田線 | 73 | 羽場、伊那新町、伊那福岡、桜町、平岡、千代、飯田、時又、宮田、伊那北、元善光寺、赤木… |
-| (sin línea) | 62 | 海瀬、松原湖、小海、八千穂、海尻、馬流、高岩、信濃川上、佐久海ノ口、佐久広瀬、野辺山、すずらんの里… |
-| しなの鉄道線 | 47 | 中軽井沢、信濃追分、坂城、信濃国分寺、乙女、三岡、美里、青沼、滑津、龍岡城、岩村田、北中込… |
-| 篠ノ井線 | 29 | 聖高原、田沢、明科、坂北、西条、冠着、北松本、南松本、渚、西松本、新島々、波田… |
-| 大糸線 | 13 | 穂高、安曇追分、有明、柏矢町、細野、北細野、信濃松川、安曇沓掛、信濃常盤、南大町、信濃大町、北大町… |
-| 飯山線 | 10 | 森宮野原、横倉、信濃平、戸狩野沢温泉、上境、上桑名川、信濃白鳥、桑名川、西大滝、平滝 |
-| (sin línea) しなの鉄道 | 6 | 古間、三才、北長野、黒姫、牟礼、豊野 |
-| (sin línea) 東日本旅客鉄道 | 4 | 塩尻、広丘、村井、飯森 |
-| (sin línea) JR東海 | 1 | 田切 |
-| (sin línea) JR東日本 | 1 | 上諏訪 |
-| (sin línea) 東海旅客鉄道 | 1 | 上松 |
-| (sin línea) 東日本旅客鉄道;アルピコ交通 | 1 | 松本 |
-| (sin línea) 上田電鉄 | 1 | 上田原 |
+Sin contar (no son servicio de viajeros): 丸山渡 (ferrocarril forestal preservado de Akazawa, tren turístico de temporada)、長野県 (futura estación del maglev Chūō, aún en obras)
+
+Completa ✅
 
 ## 21 Gifu
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 越美南線 | 38 | 深戸、美濃市、加茂野、福野、関口、木尾、関市役所前、北濃、大矢、富加、郡上大和、八坂… |
-| 高山線 | 28 | 久々野、渚、杉崎、打保、飛驒細江、坂上、角川、上枝、飛驒国府、下油井、白川口、上呂… |
-| 各務原線 | 23 | 切通、六軒、高田橋、手力、細畑、田神、鵜沼宿、羽場、苧ヶ瀬、名電各務原、二十軒、三柿野… |
-| 養老線 | 22 | 烏江、石津、池野、駒野、北神戸、室、北池野、揖斐、北大垣、養老、大外羽、西大垣… |
-| 樽見線 | 19 | 十九条、本巣、木知原、美江寺、東大垣、織部、横屋、糸貫、北方真桑、鍋原、谷汲口、樽見… |
-| 明知線 | 16 | 野志、岩村、飯羽間、明智、山岡、花白温泉、東野、阿木、飯沼、坂下、落合川、中津川… |
-| 広見線 | 14 | 西可児、可児川、日本ライン今渡、明智、顔戸、御嵩口、御嵩、新可児、瑞浪、土岐市、多治見、古虎渓… |
-| 竹鼻線 | 8 | 南宿、西笠松、江吉良、羽島市役所前、竹鼻、不破一色、須賀、柳津 |
-| 東海道線 | 5 | 荒尾、美濃赤坂、関ヶ原、垂井、乙女坂 |
-| (sin línea) 東海旅客鉄道 | 3 | 姫、小泉、下切 |
-| (sin línea) 明知鉄道 | 2 | 極楽、恵那 |
-| (sin línea) 長良川鉄道 | 1 | せきてらす前 |
-| (sin línea) 名古屋鉄道 | 1 | 各務原市役所前 |
-| 羽島線 | 1 | 新羽島 |
-| (sin línea) 養老鉄道 | 1 | 大垣 |
+Sin contar (no son servicio de viajeros): 岐阜県駅、仮称 (futura estación del maglev Chūō, aún en obras)、乙女坂 (apartadero de mercancías de las canteras de caliza)
+
+Completa ✅
 
 ## 22 Shizuoka
 
-| Línea | Faltan | Estaciones |
-|---|--:|---|
-| 天竜浜名湖線 | 40 | 気賀、アスモ前、岡地、知波田、尾奈、奥浜名湖、三ヶ日、都筑、東都筑、浜名湖佐久米、寸座、西気賀… |
-| 静岡清水線 | 25 | 新清水、春日町、新静岡、入江岡、桜橋、狐ヶ崎、御門台、県立美術館前、草薙、音羽町、古庄、長沼… |
-| 御殿場線 | 24 | 岩波、大岡、長泉なめり、下土狩、裾野、富士岡、吉原本町、東田子の浦、片浜、沼津、吉原、足柄… |
-| 大井川本線 | 23 | 駿河徳山、田野口、抜里、青部、新金谷、塩郷、家山、地名、崎平、門出、川根温泉笹間渡、代官町… |
-| 鉄道線 | 21 | 新浜松、上島、自動車学校前、助信、積志、さぎの宮、遠州芝本、遠州小林、遠州岩水寺、第一通り、遠州病院、八幡… |
-| 伊豆急行線 | 14 | 伊豆大川、富戸、河津、伊豆高原、伊豆熱川、伊豆稲取、片瀬白田、蓮台寺、伊豆急下田、城ヶ崎海岸、伊豆北川、今井浜海岸… |
-| 駿豆線 | 13 | 三島田町、韮山、函南、三島広小路、三島二日町、修善寺、牧之郷、大仁、田京、伊豆長岡、原木、伊豆仁田… |
-| 飯田線 | 13 | 相月、中部天竜、早瀬、上市場、浦川、下川合、向市場、城西、出馬、小和田、佐久間、水窪… |
-| 井川線 | 13 | 閑蔵、尾盛、接岨峡温泉、奥大井湖上、ひらんだ、奥泉、土本、沢間、川根両国、井川、長島ダム、アプトいちしろ… |
-| (sin línea) | 10 | 富士、柚木、竪堀、入山瀬、富士根、源道寺、西富士宮、稲子、芝川、沼久保 |
-| 伊東線 | 6 | 来宮、宇佐美、網代、伊豆多賀、伊東、南伊東 |
-| (sin línea) 東海旅客鉄道 | 6 | 新居町、袋井、磐田、清水、富士宮、御厨 |
-| 十国鋼索線 | 2 | 十国登り口、十国峠 |
-| (sin línea) 大井川鐵道 | 2 | 金谷、千頭 |
-| (sin línea) 天竜浜名湖鉄道 | 2 | 森町病院前、天竜二俣 |
+Completa ✅
 
 ## 23 Aichi
 

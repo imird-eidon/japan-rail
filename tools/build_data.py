@@ -524,7 +524,9 @@ def main():
             sources.append(("ways", not line["osm_ways"].get("stops_only")))
         if "extra_nodes" in line:  # paradas sueltas por id de nodo OSM (p. ej. un terminal que está en otra línea)
             sources.append(("nodes", False))
+        fallo = None
         for rel_id, use_geometry in sources:
+          try:
             if rel_id == "ways":
                 # las paradas de tranvía solo cuentan en líneas de tranvía: si no, la Ibusuki
                 # se llevaba las del tranvía de Kagoshima al pasar por delante
@@ -534,6 +536,12 @@ def main():
                 segs, rel_stops = [], fetch_nodes(line["extra_nodes"], args.refresh)["elements"]
             else:
                 rel, segs, rel_stops = parse_relation(fetch_relation(rel_id, args.refresh))
+          except RuntimeError as e:
+            # una consulta fallida no debe tirar un build de dos horas: se avisa y se sigue
+            fallo = str(e)
+            warnings.append(f"{line['id']}: {e} — línea omitida, vuelve a ejecutar para completarla")
+            break
+          else:
             if use_geometry:
                 chains_raw += segs
             for s in rel_stops:
@@ -554,6 +562,9 @@ def main():
                 en = names_en.get(ja, en)  # la corrección manual se respeta tal cual
                 stops.append({"ja": ja, "en": en, "pt": (s["lat"], s["lon"]),
                               "code": normalize_code(t.get("ref"), line["code"])})
+
+        if fallo:
+            continue
 
         if line.get("skip_stations"):  # paradas que la caja de vías arrastra de más (líneas que siguen más allá)
             skip = {ja_key(n) for n in line["skip_stations"]}

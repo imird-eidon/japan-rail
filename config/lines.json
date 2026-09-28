@@ -521,6 +521,84 @@
     },
     "fukushima-kotsu": {
       "name": "Fukushima Kōtsū"
+    },
+    "echigo-tokimeki": {
+      "name": "Echigo Tokimeki Tetsudō"
+    },
+    "hokuetsu": {
+      "name": "Hokuetsu Express"
+    },
+    "shinano-tetsudo": {
+      "name": "Shinano Tetsudō"
+    },
+    "nagaden": {
+      "name": "Nagano Dentetsu"
+    },
+    "ueda": {
+      "name": "Ueda Dentetsu"
+    },
+    "ainokaze": {
+      "name": "Ainokaze Toyama Tetsudō"
+    },
+    "chitetsu": {
+      "name": "Toyama Chihō Tetsudō"
+    },
+    "manyosen": {
+      "name": "Manyōsen"
+    },
+    "noto": {
+      "name": "Noto Tetsudō"
+    },
+    "hokutetsu": {
+      "name": "Hokuriku Tetsudō"
+    },
+    "ir-ishikawa": {
+      "name": "IR Ishikawa Tetsudō"
+    },
+    "echizen": {
+      "name": "Echizen Tetsudō"
+    },
+    "hapiline": {
+      "name": "Hapi-Line Fukui"
+    },
+    "fujikyu": {
+      "name": "Fuji Kyūkō"
+    },
+    "tenhama": {
+      "name": "Tenryū Hamanako Tetsudō"
+    },
+    "shizutetsu": {
+      "name": "Shizuoka Tetsudō"
+    },
+    "oigawa": {
+      "name": "Ōigawa Tetsudō"
+    },
+    "enshu": {
+      "name": "Enshū Tetsudō"
+    },
+    "izukyu": {
+      "name": "Izukyū"
+    },
+    "gakunan": {
+      "name": "Gakunan Densha"
+    },
+    "nagaragawa": {
+      "name": "Nagaragawa Tetsudō"
+    },
+    "yoro": {
+      "name": "Yōrō Tetsudō"
+    },
+    "tarumi": {
+      "name": "Tarumi Tetsudō"
+    },
+    "akechi": {
+      "name": "Akechi Tetsudō"
+    },
+    "kurobe": {
+      "name": "Kurobe Kyōkoku Tetsudō"
+    },
+    "alpico": {
+      "name": "Alpico Kōtsū"
     }
   },
   "types": {
@@ -2945,7 +3023,7 @@
       "id": "chuo-otsuki",
       "code": "CO",
       "color": "#F15A22",
-      "name": "JR Chūō (Takao–Ōtsuki)",
+      "name": "JR Chūō (Takao–Kōfu)",
       "ja": "中央本線",
       "en": "Chūō Main Line",
       "operator": "jr-east",
@@ -2954,31 +3032,20 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"中央本線\"]",
         "bbox": [
-          35.55,
-          138.88,
-          35.7,
+          35.35,
+          138.1,
+          35.8,
           139.3
         ],
         "nearby": 150
       },
-      "station_order": [
-        "高尾",
-        "相模湖",
-        "藤野",
-        "上野原",
-        "四方津",
-        "梁川",
-        "鳥沢",
-        "猿橋",
-        "大月"
-      ],
-      "strict_order": true,
       "region": "chubu",
       "trains": [],
       "facts": [
         "Es la continuación de la línea Chūō más allá de Takao, ya entre montañas camino de Kōfu.",
         "Sus trenes rápidos siguen hasta Ōtsuki, donde enlaza el tren de Fuji-Q y el monte Fuji."
-      ]
+      ],
+      "order": "nearest"
     },
     {
       "id": "miyagase-incline",
@@ -3174,9 +3241,9 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"御殿場線\"]",
         "bbox": [
-          35.05,
-          138.78,
-          35.4,
+          35.0,
+          138.75,
+          35.45,
           139.25
         ],
         "nearby": true
@@ -4923,7 +4990,7 @@
       "id": "hokuriku-shiga",
       "code": "A",
       "color": "#0072BC",
-      "name": "JR Hokuriku (Maibara–Ōmi-Shiotsu)",
+      "name": "JR Hokuriku (Maibara–Tsuruga)",
       "ja": "北陸本線",
       "en": "Hokuriku Main Line",
       "operator": "jr-west",
@@ -4932,37 +4999,25 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北陸本線\"]",
         "bbox": [
-          35.28,
-          136.05,
-          35.55,
-          136.3
+          35.25,
+          135.95,
+          35.6,
+          136.35
         ],
         "nearby": 200
       },
-      "station_order": [
-        "米原",
-        "坂田",
-        "田村",
-        "長浜",
-        "虎姫",
-        "河毛",
-        "高月",
-        "木ノ本",
-        "余呉",
-        "近江塩津"
-      ],
-      "strict_order": true,
       "region": "kansai",
       "trains": [],
       "facts": [
         "Bordea el lago Biwa por el norte, camino de Tsuruga y la costa del mar de Japón."
-      ]
+      ],
+      "order": "nearest"
     },
     {
       "id": "tokaido-maibara",
       "code": "A",
       "color": "#F6A800",
-      "name": "JR Tōkaidō (Maibara–Sekigahara)",
+      "name": "JR Tōkaidō (Maibara–Ōgaki)",
       "ja": "東海道本線",
       "en": "Tōkaidō Main Line",
       "operator": "jr-central",
@@ -4971,10 +5026,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^東海道本線$\"]",
         "bbox": [
-          35.28,
+          35.25,
           136.25,
-          35.42,
-          136.5
+          35.45,
+          136.7
         ],
         "nearby": 200
       },
@@ -4983,7 +5038,9 @@
         "醒ケ井",
         "近江長岡",
         "柏原",
-        "関ケ原"
+        "関ケ原",
+        "垂井",
+        "大垣"
       ],
       "strict_order": true,
       "region": "kansai",
@@ -8147,7 +8204,7 @@
       "id": "iida",
       "code": "CD",
       "color": "#00A0B0",
-      "name": "JR Iida (Toyohashi–Nagashino)",
+      "name": "JR Iida (Toyohashi–Tatsuno)",
       "ja": "飯田線",
       "en": "Iida Line",
       "operator": "jr-central",
@@ -8158,8 +8215,8 @@
         "bbox": [
           34.7,
           137.3,
-          35.3,
-          137.75
+          36.1,
+          138.3
         ],
         "nearby": 150
       },
@@ -8168,41 +8225,7 @@
       "facts": [
         "Tiene 94 estaciones en 195 km: una media de una cada dos kilómetros, récord en Japón."
       ],
-      "station_order": [
-        "豊橋",
-        "船町",
-        "下地",
-        "小坂井",
-        "牛久保",
-        "豊川",
-        "三河一宮",
-        "長山",
-        "江島",
-        "東上",
-        "野田城",
-        "新城",
-        "東新町",
-        "茶臼山",
-        "三河東郷",
-        "大海",
-        "鳥居",
-        "長篠城",
-        "本長篠",
-        "三河大野",
-        "湯谷温泉",
-        "三河槙原",
-        "柿平",
-        "三河川合",
-        "池場",
-        "東栄",
-        "出馬",
-        "上市場",
-        "浦川",
-        "早瀬",
-        "下川合",
-        "中部天竜"
-      ],
-      "strict_order": true
+      "order": "nearest"
     },
     {
       "id": "taketoyo",
@@ -8274,7 +8297,7 @@
       "id": "chuo-west",
       "code": "CF",
       "color": "#0072BC",
-      "name": "JR Chūō Oeste (Nagoya–Tadachi)",
+      "name": "JR Chūō Oeste (Nagoya–Kiso-Fukushima)",
       "ja": "中央本線",
       "en": "Chūō Main Line (west)",
       "operator": "jr-central",
@@ -8285,8 +8308,8 @@
         "bbox": [
           35.1,
           136.85,
-          35.6,
-          137.55
+          36.0,
+          137.8
         ],
         "nearby": 250
       },
@@ -8295,32 +8318,7 @@
       "facts": [
         "Sube por el valle del Kiso hacia los Alpes japoneses."
       ],
-      "station_order": [
-        "名古屋",
-        "金山",
-        "鶴舞",
-        "千種",
-        "大曽根",
-        "新守山",
-        "勝川",
-        "春日井",
-        "神領",
-        "高蔵寺",
-        "定光寺",
-        "古虎渓",
-        "多治見",
-        "土岐市",
-        "瑞浪",
-        "釜戸",
-        "武並",
-        "恵那",
-        "美乃坂本",
-        "中津川",
-        "落合川",
-        "坂下",
-        "田立"
-      ],
-      "strict_order": true
+      "order": "nearest"
     },
     {
       "id": "kansai-nagoya",
@@ -9680,6 +9678,1611 @@
       ]
     },
     {
+      "id": "echigo",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Echigo",
+      "ja": "越後線",
+      "en": "Echigo Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR越後線|^越後線$\"]",
+        "bbox": [
+          37.3,
+          138.2,
+          38.05,
+          139.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "minobu",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Minobu",
+      "ja": "身延線",
+      "en": "Minobu Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR身延線\"]",
+        "bbox": [
+          35.05,
+          138.35,
+          35.75,
+          138.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Une Fuji con Kōfu bordeando el monte Fuji por el oeste, junto al río Fuji."
+      ]
+    },
+    {
+      "id": "fujikyu",
+      "code": "FJ",
+      "color": "#E60012",
+      "name": "Fuji Kyūkō",
+      "ja": "富士急行線",
+      "en": "Fujikyū Railway",
+      "operator": "fujikyu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"富士急行線\"]",
+        "bbox": [
+          35.4,
+          138.7,
+          35.65,
+          139.0
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Sube de Ōtsuki al lago Kawaguchi con el monte Fuji de frente casi todo el trayecto.",
+        "Sus trenes llevan decoración de Thomas y de Fujisan; algunos vagones tienen asientos mirando a la ventana."
+      ]
+    },
+    {
+      "id": "tokaido-shizuoka",
+      "code": "CA",
+      "color": "#F6A800",
+      "name": "JR Tōkaidō (Atami–Toyohashi)",
+      "ja": "東海道本線",
+      "en": "Tōkaidō Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^東海道本線$|JR東海道本線\"]",
+        "bbox": [
+          34.6,
+          137.3,
+          35.2,
+          139.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es el tramo con más viajeros de JR Central sin contar el Shinkansen."
+      ]
+    },
+    {
+      "id": "tenhama",
+      "code": "TH",
+      "color": "#2E8B57",
+      "name": "Tenryū Hamanako",
+      "ja": "天竜浜名湖線",
+      "en": "Tenryū Hamanako Line",
+      "operator": "tenhama",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"天竜浜名湖鉄道天竜浜名湖線\"]",
+        "bbox": [
+          34.6,
+          137.35,
+          35.15,
+          138.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Treinta y seis de sus estaciones y casetas son patrimonio cultural registrado, casi todas de 1940."
+      ]
+    },
+    {
+      "id": "shizutetsu",
+      "code": "S",
+      "color": "#0072BC",
+      "name": "Shizuoka Tetsudō",
+      "ja": "静岡清水線",
+      "en": "Shizuoka-Shimizu Line",
+      "operator": "shizutetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"静岡鉄道静岡清水線\"]",
+        "bbox": [
+          34.95,
+          138.35,
+          35.05,
+          138.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "oigawa-main",
+      "code": "OI",
+      "color": "#E8383D",
+      "name": "Ōigawa: línea principal",
+      "ja": "大井川本線",
+      "en": "Ōigawa Main Line",
+      "operator": "oigawa",
+      "type": "tourist",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"大井川鐵道大井川本線\"]",
+        "bbox": [
+          34.75,
+          137.95,
+          35.2,
+          138.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es la línea del tren de vapor por excelencia: circula a diario, no solo en temporada.",
+        "Aquí rueda el «Thomas» de verdad: una locomotora caracterizada que arrastra vagones azules."
+      ]
+    },
+    {
+      "id": "oigawa-ikawa",
+      "code": "IK",
+      "color": "#F5A200",
+      "name": "Ōigawa: línea Ikawa",
+      "ja": "井川線",
+      "en": "Ikawa Line",
+      "operator": "oigawa",
+      "type": "tourist",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"大井川鐵道井川線\"]",
+        "bbox": [
+          35.05,
+          138.05,
+          35.35,
+          138.35
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Tiene el único tramo de cremallera de Japón, con una pendiente del 9 %.",
+        "Su estación de Okuōikokō está sobre un puente en medio del lago, sin pueblo alrededor."
+      ]
+    },
+    {
+      "id": "enshu",
+      "code": "EN",
+      "color": "#E60012",
+      "name": "Enshū Tetsudō",
+      "ja": "遠州鉄道鉄道線",
+      "en": "Enshū Railway",
+      "operator": "enshu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"遠州鉄道鉄道線\"]",
+        "bbox": [
+          34.7,
+          137.7,
+          34.9,
+          137.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "izukyu",
+      "code": "IZ",
+      "color": "#0072BC",
+      "name": "Izukyū",
+      "ja": "伊豆急行線",
+      "en": "Izukyū Line",
+      "operator": "izukyu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"伊豆急行\"]",
+        "bbox": [
+          34.65,
+          138.9,
+          35.05,
+          139.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Recorre la costa este de Izu con el mar debajo; por ella circula el tren de lujo «The Royal Express»."
+      ]
+    },
+    {
+      "id": "sunzu",
+      "code": "IS",
+      "color": "#F6A800",
+      "name": "Izuhakone: línea Sunzu",
+      "ja": "駿豆線",
+      "en": "Sunzu Line",
+      "operator": "izuhakone",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"伊豆箱根鉄道駿豆線\"]",
+        "bbox": [
+          34.95,
+          138.85,
+          35.15,
+          139.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "gakunan",
+      "code": "GK",
+      "color": "#2E8B57",
+      "name": "Gakunan Densha",
+      "ja": "岳南線",
+      "en": "Gakunan Line",
+      "operator": "gakunan",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"岳南電車岳南線\"]",
+        "bbox": [
+          35.1,
+          138.65,
+          35.2,
+          138.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es famosa por sus vistas nocturnas de fábricas iluminadas con el Fuji detrás."
+      ]
+    },
+    {
+      "id": "nagaragawa",
+      "code": "NG",
+      "color": "#F5A200",
+      "name": "Nagaragawa Tetsudō",
+      "ja": "越美南線",
+      "en": "Etsumi-Nan Line",
+      "operator": "nagaragawa",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"長良川鉄道越美南線\"]",
+        "bbox": [
+          35.45,
+          136.75,
+          36.0,
+          137.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Sigue el río Nagara, famoso por la pesca con cormoranes que se practica desde hace 1300 años."
+      ]
+    },
+    {
+      "id": "yoro",
+      "code": "YR",
+      "color": "#E8383D",
+      "name": "Yōrō Tetsudō",
+      "ja": "養老線",
+      "en": "Yōrō Line",
+      "operator": "yoro",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"養老鉄道養老線\"]",
+        "bbox": [
+          35.05,
+          136.45,
+          35.45,
+          136.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tarumi",
+      "code": "TR",
+      "color": "#7B3F98",
+      "name": "Tarumi Tetsudō",
+      "ja": "樽見線",
+      "en": "Tarumi Line",
+      "operator": "tarumi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"樽見鉄道樽見線\"]",
+        "bbox": [
+          35.35,
+          136.55,
+          35.75,
+          136.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Lleva al cerezo de Usuzumi, de más de 1500 años, uno de los tres grandes de Japón."
+      ]
+    },
+    {
+      "id": "akechi",
+      "code": "AK",
+      "color": "#00A0B0",
+      "name": "Akechi Tetsudō",
+      "ja": "明知線",
+      "en": "Akechi Line",
+      "operator": "akechi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"明知鉄道明知線\"]",
+        "bbox": [
+          35.25,
+          137.3,
+          35.55,
+          137.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Tiene la pendiente más pronunciada de una vía de adherencia en Japón: 33 por mil."
+      ]
+    },
+    {
+      "id": "meitetsu-kakamigahara",
+      "code": "KG",
+      "color": "#E8383D",
+      "name": "Meitetsu Kakamigahara",
+      "ja": "各務原線",
+      "en": "Kakamigahara Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道各務原線\"]",
+        "bbox": [
+          35.35,
+          136.7,
+          35.5,
+          136.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "takayama-main",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Takayama",
+      "ja": "高山本線",
+      "en": "Takayama Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"高山本線\"]",
+        "bbox": [
+          35.3,
+          136.65,
+          36.8,
+          137.45
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Cruza los Alpes japoneses siguiendo desfiladeros; es de los trayectos más espectaculares de Japón.",
+        "Pasa por Takayama y Gero, uno de los tres grandes balnearios del país."
+      ]
+    },
+    {
+      "id": "ainokaze",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Ainokaze Toyama",
+      "ja": "あいの風とやま鉄道線",
+      "en": "Ainokaze Toyama Railway",
+      "operator": "ainokaze",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"あいの風とやま鉄道線\"]",
+        "bbox": [
+          36.6,
+          136.85,
+          37.1,
+          137.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Se quedó con la vieja línea Hokuriku en Toyama cuando llegó el Shinkansen, en 2015."
+      ]
+    },
+    {
+      "id": "chitetsu-main",
+      "code": "T",
+      "color": "#E8383D",
+      "name": "Toyama Chihō: línea principal",
+      "ja": "富山地方鉄道本線",
+      "en": "Toyama Chihō Main Line",
+      "operator": "chitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"富山地方鉄道本線\"]",
+        "bbox": [
+          36.65,
+          137.15,
+          36.95,
+          137.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "chitetsu-tateyama",
+      "code": "T",
+      "color": "#2E8B57",
+      "name": "Toyama Chihō: línea Tateyama",
+      "ja": "立山線",
+      "en": "Tateyama Line",
+      "operator": "chitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"富山地方鉄道立山線\"]",
+        "bbox": [
+          36.5,
+          137.2,
+          36.75,
+          137.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es la puerta de la ruta alpina Tateyama-Kurobe, donde en primavera el autobús pasa entre muros de nieve de veinte metros."
+      ]
+    },
+    {
+      "id": "tateyama-cable",
+      "code": "TC",
+      "color": "#2E8B57",
+      "name": "Funicular de Tateyama",
+      "ja": "立山ケーブルカー",
+      "en": "Tateyama Cable Car",
+      "operator": "chitetsu",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"funicular|rail\"][\"name\"~\"立山ケーブル\"]",
+        "bbox": [
+          36.56,
+          137.43,
+          36.61,
+          137.48
+        ],
+        "nearby": 500
+      },
+      "station_order": [
+        "立山",
+        "美女平"
+      ],
+      "strict_order": true,
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es el primer tramo de la ruta alpina Tateyama-Kurobe: sube 500 metros en siete minutos."
+      ]
+    },
+    {
+      "id": "alpico",
+      "code": "AL",
+      "color": "#0072BC",
+      "name": "Alpico Kōtsū: línea Kamikōchi",
+      "ja": "上高地線",
+      "en": "Kamikōchi Line",
+      "operator": "alpico",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"松本電鉄上高地線|上高地線\"]",
+        "bbox": [
+          36.1,
+          137.75,
+          36.35,
+          138.0
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es la puerta de Kamikōchi, el valle alpino más famoso de Japón, al que solo se llega en autobús desde su final."
+      ]
+    },
+    {
+      "id": "kurobe-cable",
+      "code": "KC",
+      "color": "#7B3F98",
+      "name": "Funicular del lago Kurobe",
+      "ja": "黒部ケーブルカー",
+      "en": "Kurobe Cable Car",
+      "operator": "chitetsu",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"黒部ケーブルカー\"]",
+        "bbox": [
+          36.53,
+          137.58,
+          36.62,
+          137.68
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "黒部湖",
+        "黒部平"
+      ],
+      "strict_order": true,
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Va entero en túnel para protegerlo de los aludes: une la presa de Kurobe con el teleférico de Tateyama."
+      ]
+    },
+    {
+      "id": "mino-akasaka",
+      "code": "CA",
+      "color": "#F6A800",
+      "name": "JR Tōkaidō (ramal de Mino-Akasaka)",
+      "ja": "東海道本線美濃赤坂支線",
+      "en": "Mino-Akasaka Branch",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"東海道本線\"]",
+        "bbox": [
+          35.34,
+          136.53,
+          35.42,
+          136.65
+        ],
+        "nearby": 300
+      },
+      "station_order": [
+        "大垣",
+        "荒尾",
+        "美濃赤坂"
+      ],
+      "strict_order": true,
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Son 5 km de ramal que sobreviven por el tráfico de caliza de las canteras de Kanazu."
+      ]
+    },
+    {
+      "id": "chitetsu-kamidaki",
+      "code": "T",
+      "color": "#7B3F98",
+      "name": "Toyama Chihō: línea Kamidaki",
+      "ja": "上滝線",
+      "en": "Kamidaki Line",
+      "operator": "chitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"富山地方鉄道(上滝線|不二越線)\"]",
+        "bbox": [
+          36.55,
+          137.15,
+          36.75,
+          137.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "manyosen",
+      "code": "MN",
+      "color": "#F5A200",
+      "name": "Manyōsen",
+      "ja": "万葉線",
+      "en": "Manyōsen",
+      "operator": "manyosen",
+      "type": "tram",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"tram|light_rail|rail\"][\"name\"~\"万葉線\"]",
+        "bbox": [
+          36.7,
+          136.95,
+          36.83,
+          137.12
+        ],
+        "nearby": 150
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su nombre viene del Man'yōshū, la antología poética más antigua de Japón, compilada en parte aquí."
+      ]
+    },
+    {
+      "id": "himi",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Himi",
+      "ja": "氷見線",
+      "en": "Himi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR氷見線\"]",
+        "bbox": [
+          36.72,
+          136.95,
+          36.9,
+          137.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Desde sus ventanillas se ven los Alpes Tateyama al otro lado de la bahía de Toyama."
+      ]
+    },
+    {
+      "id": "johana",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Jōhana",
+      "ja": "城端線",
+      "en": "Jōhana Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR城端線\"]",
+        "bbox": [
+          36.5,
+          136.85,
+          36.8,
+          137.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "ir-ishikawa",
+      "code": "",
+      "color": "#E60012",
+      "name": "IR Ishikawa",
+      "ja": "IRいしかわ鉄道線",
+      "en": "IR Ishikawa Railway",
+      "operator": "ir-ishikawa",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"IRいしかわ鉄道線\"]",
+        "bbox": [
+          36.3,
+          136.3,
+          36.85,
+          136.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nanao",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Nanao",
+      "ja": "七尾線",
+      "en": "Nanao Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR七尾線\"]",
+        "bbox": [
+          36.55,
+          136.6,
+          37.1,
+          137.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "noto",
+      "code": "NT",
+      "color": "#0072BC",
+      "name": "Noto Tetsudō",
+      "ja": "のと鉄道七尾線",
+      "en": "Noto Railway",
+      "operator": "noto",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"のと鉄道七尾線\"]",
+        "bbox": [
+          36.95,
+          136.8,
+          37.3,
+          137.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Bordea la bahía de Nanao; el terremoto de Noto de 2024 la dejó cortada meses."
+      ]
+    },
+    {
+      "id": "hokutetsu-ishikawa",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Hokutetsu: línea Ishikawa",
+      "ja": "石川線",
+      "en": "Ishikawa Line",
+      "operator": "hokutetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北陸鉄道石川線\"]",
+        "bbox": [
+          36.4,
+          136.55,
+          36.6,
+          136.7
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hokutetsu-asanogawa",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "Hokutetsu: línea Asanogawa",
+      "ja": "浅野川線",
+      "en": "Asanogawa Line",
+      "operator": "hokutetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北陸鉄道浅野川線\"]",
+        "bbox": [
+          36.55,
+          136.6,
+          36.7,
+          136.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hapiline",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Hapi-Line Fukui",
+      "ja": "ハピラインふくい線",
+      "en": "Hapi-Line Fukui",
+      "operator": "hapiline",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"ハピラインふくい線\"]",
+        "bbox": [
+          35.45,
+          135.9,
+          36.35,
+          136.5
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Se quedó con la línea Hokuriku en Fukui cuando el Shinkansen llegó a Tsuruga, en 2024."
+      ]
+    },
+    {
+      "id": "echizen-katsuyama",
+      "code": "E",
+      "color": "#2E8B57",
+      "name": "Echizen Tetsudō: Katsuyama-Eiheiji",
+      "ja": "勝山永平寺線",
+      "en": "Katsuyama Eiheiji Line",
+      "operator": "echizen",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"えちぜん鉄道勝山永平寺線\"]",
+        "bbox": [
+          36.0,
+          136.15,
+          36.15,
+          136.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Lleva al templo Eihei-ji, fundado en 1244, y al museo de dinosaurios de Katsuyama."
+      ]
+    },
+    {
+      "id": "echizen-mikuni",
+      "code": "M",
+      "color": "#F5A200",
+      "name": "Echizen Tetsudō: Mikuni-Awara",
+      "ja": "三国芦原線",
+      "en": "Mikuni Awara Line",
+      "operator": "echizen",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"えちぜん鉄道三国芦原線\"]",
+        "bbox": [
+          36.0,
+          136.1,
+          36.3,
+          136.35
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "etsumi-hoku",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Etsumi-Hoku",
+      "ja": "越美北線",
+      "en": "Etsumi-Hoku Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR越美北線\"]",
+        "bbox": [
+          35.85,
+          136.15,
+          36.15,
+          136.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tokimeki-hisui",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Echigo Tokimeki: Nihonkai Hisui",
+      "ja": "日本海ひすいライン",
+      "en": "Nihonkai Hisui Line",
+      "operator": "echigo-tokimeki",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"日本海ひすいライン\"]",
+        "bbox": [
+          36.9,
+          137.55,
+          37.3,
+          138.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su nombre, «jade del mar de Japón», viene de las playas de Itoigawa, donde aún se encuentran piedras de jade."
+      ]
+    },
+    {
+      "id": "yahiko",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Yahiko",
+      "ja": "弥彦線",
+      "en": "Yahiko Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"弥彦線\"]",
+        "bbox": [
+          37.55,
+          138.7,
+          37.8,
+          139.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Termina a los pies del santuario de Yahiko, el más venerado de Niigata."
+      ]
+    },
+    {
+      "id": "toyama-tram",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Toyama Chihō: tranvía urbano",
+      "ja": "富山軌道線",
+      "en": "Toyama City Tram",
+      "operator": "chitetsu",
+      "type": "tram",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"tram\"][\"name\"~\"富山地方鉄道\"]",
+        "bbox": [
+          36.65,
+          137.15,
+          36.78,
+          137.28
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Toyama es la ciudad japonesa que mejor ha reconstruido su tranvía: en 2020 unió las dos redes por delante de la estación."
+      ]
+    },
+    {
+      "id": "kurobe-gorge",
+      "code": "KG",
+      "color": "#F5A200",
+      "name": "Kurobe Kyōkoku (tren del desfiladero)",
+      "ja": "黒部峡谷鉄道本線",
+      "en": "Kurobe Gorge Railway",
+      "operator": "kurobe",
+      "type": "tourist",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"黒部峡谷\"]",
+        "bbox": [
+          36.45,
+          137.35,
+          36.8,
+          137.8
+        ],
+        "nearby": 500
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Es un tren de vía estrecha (762 mm) que nació para construir las presas del Kurobe.",
+        "Sus vagones abiertos recorren 20 km de desfiladero; en invierno cierra por la nieve."
+      ]
+    },
+    {
+      "id": "chuo-nagano",
+      "code": "CF",
+      "color": "#F15A22",
+      "name": "JR Chūō (Kōfu–Shiojiri)",
+      "ja": "中央本線",
+      "en": "Chūō Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^中央本線$|中央本線（辰野支線）\"]",
+        "bbox": [
+          35.6,
+          137.5,
+          36.25,
+          138.7
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Sube al altiplano de Suwa, con el lago Suwa y los Alpes del Sur a los lados."
+      ]
+    },
+    {
+      "id": "kita-shinano",
+      "code": "",
+      "color": "#E60012",
+      "name": "Shinano Tetsudō: Kita-Shinano",
+      "ja": "北しなの線",
+      "en": "Kita-Shinano Line",
+      "operator": "shinano-tetsudo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"北しなの線\"]",
+        "bbox": [
+          36.6,
+          138.1,
+          36.95,
+          138.45
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "taita",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Taita",
+      "ja": "太多線",
+      "en": "Taita Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR太多線\"]",
+        "bbox": [
+          35.3,
+          136.9,
+          35.55,
+          137.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "meitetsu-takehana",
+      "code": "TH",
+      "color": "#E8383D",
+      "name": "Meitetsu Takehana",
+      "ja": "竹鼻線",
+      "en": "Takehana Line",
+      "operator": "meitetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道竹鼻線|名古屋鉄道羽島線\"]",
+        "bbox": [
+          35.25,
+          136.65,
+          35.45,
+          136.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su ramal de Hashima llega a Gifu-Hashima, la parada del Shinkansen."
+      ]
+    },
+    {
+      "id": "ito-line",
+      "code": "JT",
+      "color": "#0072BC",
+      "name": "JR Itō",
+      "ja": "伊東線",
+      "en": "Itō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"伊東線\"]",
+        "bbox": [
+          34.9,
+          139.0,
+          35.15,
+          139.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "jukoku-cable",
+      "code": "JC",
+      "color": "#2E8B57",
+      "name": "Funicular de Jūkoku",
+      "ja": "十国鋼索線",
+      "en": "Jūkoku Cable",
+      "operator": "izuhakone",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"十国鋼索線\"]",
+        "bbox": [
+          35.1,
+          139.0,
+          35.16,
+          139.08
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "十国登り口",
+        "十国峠"
+      ],
+      "strict_order": true,
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Desde su cima se ven, con buen tiempo, las diez antiguas provincias que le dan nombre."
+      ]
+    },
+    {
+      "id": "hokuhoku",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Hokuhoku Line",
+      "ja": "ほくほく線",
+      "en": "Hokuhoku Line",
+      "operator": "hokuetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"ほくほく線\"]",
+        "bbox": [
+          36.95,
+          138.25,
+          37.35,
+          138.9
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Se construyó para acortar el viaje a Tokio antes del Shinkansen: sus trenes llegaban a 160 km/h, récord en vía estrecha japonesa.",
+        "Va casi toda en túnel; su estación de Misashima está enterrada dentro de la montaña."
+      ]
+    },
+    {
+      "id": "joetsu-line",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Jōetsu",
+      "ja": "上越線",
+      "en": "Jōetsu Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^上越線$|JR上越線\"]",
+        "bbox": [
+          36.3,
+          138.7,
+          37.6,
+          139.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su estación de Doai tiene los andenes a 70 metros bajo tierra: 486 escalones para salir."
+      ]
+    },
+    {
+      "id": "shinetsu",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Shin'etsu",
+      "ja": "信越本線",
+      "en": "Shin'etsu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"^信越本線$|JR信越線\"]",
+        "bbox": [
+          37.0,
+          138.2,
+          37.95,
+          139.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "hakushin",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Hakushin",
+      "ja": "白新線",
+      "en": "Hakushin Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR白新線\"]",
+        "bbox": [
+          37.85,
+          139.0,
+          38.1,
+          139.45
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tokimeki-myoko",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "Echigo Tokimeki: Myōkō Haneuma",
+      "ja": "妙高はねうまライン",
+      "en": "Myōkō Haneuma Line",
+      "operator": "echigo-tokimeki",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"妙高はねうまライン|えちごトキめき鉄道\"]",
+        "bbox": [
+          36.85,
+          137.8,
+          37.3,
+          138.35
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "oito",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Ōito",
+      "ja": "大糸線",
+      "en": "Ōito Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR大糸線\"]",
+        "bbox": [
+          36.15,
+          137.75,
+          37.1,
+          138.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Recorre el valle bajo los Alpes del Norte, con el Hakuba y sus pistas de esquí a la vista."
+      ]
+    },
+    {
+      "id": "iiyama",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Iiyama",
+      "ja": "飯山線",
+      "en": "Iiyama Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR飯山線\"]",
+        "bbox": [
+          36.65,
+          138.05,
+          37.35,
+          138.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Cruza la zona con más nieve de Japón: en Mori-Miyanohara se midieron 7,85 metros en 1945, récord del país."
+      ]
+    },
+    {
+      "id": "shinano-tetsudo",
+      "code": "",
+      "color": "#E60012",
+      "name": "Shinano Tetsudō",
+      "ja": "しなの鉄道線",
+      "en": "Shinano Railway Line",
+      "operator": "shinano-tetsudo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"しなの鉄道線\"]",
+        "bbox": [
+          36.2,
+          138.1,
+          36.8,
+          138.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Heredó la vieja línea Shin'etsu cuando el Shinkansen llegó a Nagano, en 1997."
+      ]
+    },
+    {
+      "id": "shinonoi",
+      "code": "",
+      "color": "#F5A200",
+      "name": "JR Shinonoi",
+      "ja": "篠ノ井線",
+      "en": "Shinonoi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR篠ノ井線|^篠ノ井線$|^信越本線$\"]",
+        "bbox": [
+          36.05,
+          137.85,
+          36.72,
+          138.28
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su mirador de Obasute es de los tres mejores paisajes ferroviarios de Japón, sobre la cuenca de Zenkōji."
+      ]
+    },
+    {
+      "id": "koumi",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Koumi",
+      "ja": "小海線",
+      "en": "Koumi Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR小海線\"]",
+        "bbox": [
+          35.85,
+          138.25,
+          36.4,
+          138.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Su estación de Nobeyama, a 1345 m, es la más alta de toda la red JR.",
+        "La llaman «línea del cielo alto» por circular entre los volcanes de Yatsugatake."
+      ]
+    },
+    {
+      "id": "nagaden",
+      "code": "N",
+      "color": "#E8383D",
+      "name": "Nagano Dentetsu",
+      "ja": "長野線",
+      "en": "Nagano Line",
+      "operator": "nagaden",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"長野電鉄長野線\"]",
+        "bbox": [
+          36.55,
+          138.2,
+          36.85,
+          138.5
+        ],
+        "nearby": 500
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "Sus trenes son veteranos del Odakyū Romancecar y del Narita Express."
+      ],
+      "extra_nodes": [
+        7983047351
+      ]
+    },
+    {
+      "id": "ueda-bessho",
+      "code": "BE",
+      "color": "#0072BC",
+      "name": "Ueda Dentetsu: Bessho",
+      "ja": "別所線",
+      "en": "Bessho Line",
+      "operator": "ueda",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"上田電鉄別所線\"]",
+        "bbox": [
+          36.3,
+          138.1,
+          36.45,
+          138.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chubu",
+      "trains": [],
+      "facts": [
+        "El tifón de 2019 se llevó su puente sobre el río Chikuma; volvió a abrir entero en 2021."
+      ]
+    },
+    {
       "id": "uetsu",
       "code": "",
       "color": "#0072BC",
@@ -9692,10 +11295,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR羽越線|JR羽越本線\"]",
         "bbox": [
-          37.7,
-          138.8,
-          39.75,
-          140.3
+          37.6,
+          138.7,
+          39.8,
+          140.35
         ],
         "nearby": 300
       },
@@ -10276,10 +11879,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR米坂線\"]",
         "bbox": [
-          37.75,
-          139.3,
-          38.1,
-          140.2
+          37.7,
+          139.15,
+          38.15,
+          140.25
         ],
         "nearby": 300
       },
@@ -10378,9 +11981,9 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR磐越西線\"]",
         "bbox": [
-          37.35,
-          139.0,
-          37.85,
+          37.3,
+          138.9,
+          37.9,
           140.5
         ],
         "nearby": 300
@@ -10430,9 +12033,9 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR只見線|^只見線$\"]",
         "bbox": [
-          37.0,
-          139.1,
-          37.7,
+          36.95,
+          138.9,
+          37.75,
           140.1
         ],
         "nearby": 300
@@ -11598,15 +13201,24 @@
       "en": "Toyama Portram",
       "operator": "toyama-chitetsu",
       "type": "tram",
-      "osm": [
-        1895506
-      ],
+      "osm": [],
       "region": "chubu",
       "trains": [],
       "facts": [
         "El Portram (2006) fue el primer tranvía moderno de piso bajo construido de cero en Japón; en 2020 se unió con el tranvía del centro."
       ],
-      "opened": 2006
+      "opened": 2006,
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"tram|light_rail|rail\"][\"name\"~\"富山地方鉄道富山港線\"]",
+        "bbox": [
+          36.66,
+          137.16,
+          36.85,
+          137.3
+        ],
+        "nearby": 200
+      },
+      "order": "nearest"
     },
     {
       "id": "toyama-main",
