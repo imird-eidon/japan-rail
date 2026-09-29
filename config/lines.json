@@ -599,6 +599,57 @@
     },
     "alpico": {
       "name": "Alpico Kōtsū"
+    },
+    "kanto-tetsudo": {
+      "name": "Kantō Tetsudō"
+    },
+    "moka": {
+      "name": "Moka Tetsudō"
+    },
+    "kashima-rinkai": {
+      "name": "Kashima Rinkai Tetsudō"
+    },
+    "hitachinaka": {
+      "name": "Hitachinaka Kaihin Tetsudō"
+    },
+    "utsunomiya-lrt": {
+      "name": "Utsunomiya Light Rail"
+    },
+    "watarase": {
+      "name": "Watarase Keikoku Tetsudō"
+    },
+    "joshin": {
+      "name": "Jōshin Dentetsu"
+    },
+    "wakayama-dentetsu": {
+      "name": "Wakayama Dentetsu"
+    },
+    "kishu": {
+      "name": "Kishū Tetsudō"
+    },
+    "mizushima": {
+      "name": "Mizushima Rinkai Tetsudō"
+    },
+    "nishikigawa": {
+      "name": "Nishikigawa Tetsudō"
+    },
+    "iga": {
+      "name": "Iga Tetsudō"
+    },
+    "sangi": {
+      "name": "Sangi Tetsudō"
+    },
+    "yokkaichi": {
+      "name": "Yokkaichi Asunarou Tetsudō"
+    },
+    "jomo": {
+      "name": "Jōmō Dentetsu"
+    },
+    "ise-tetsudo": {
+      "name": "Ise Tetsudō"
+    },
+    "tsukuba-kanko": {
+      "name": "Tsukuba Kankō Tetsudō"
     }
   },
   "types": {
@@ -6282,6 +6333,359 @@
       "strict_order": true
     },
     {
+      "id": "kisei",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Kisei",
+      "ja": "紀勢本線",
+      "en": "Kisei Main Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR紀勢線|JR紀勢本線\"]",
+        "bbox": [
+          33.4,
+          135.05,
+          35.15,
+          136.75
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Da la vuelta entera a la península de Kii, 384 km entre el mar y las montañas sagradas de Kumano."
+      ]
+    },
+    {
+      "id": "kintetsu-yamada",
+      "code": "M",
+      "color": "#E8383D",
+      "name": "Kintetsu Yamada",
+      "ja": "山田線",
+      "en": "Yamada Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"近畿日本鉄道山田線\"]",
+        "bbox": [
+          34.4,
+          136.4,
+          34.75,
+          136.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Lleva a Ise, cuyo santuario se reconstruye entero cada veinte años desde el siglo VII."
+      ]
+    },
+    {
+      "id": "kintetsu-shima",
+      "code": "M",
+      "color": "#F6A800",
+      "name": "Kintetsu Shima",
+      "ja": "志摩線",
+      "en": "Shima Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"近畿日本鉄道志摩線\"]",
+        "bbox": [
+          34.25,
+          136.75,
+          34.55,
+          136.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Termina en Kashikojima, en la bahía de las perlas de Mikimoto."
+      ]
+    },
+    {
+      "id": "meisho",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "JR Meishō",
+      "ja": "名松線",
+      "en": "Meishō Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"JR名松線\"]",
+        "bbox": [
+          34.4,
+          136.2,
+          34.65,
+          136.55
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Iba a llegar a Nara pero se quedó a medias: su nombre junta Matsusaka y Nabari, adonde nunca llegó."
+      ],
+      "extra_nodes": [
+        265044903
+      ]
+    },
+    {
+      "id": "hokusei",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "Sangi Tetsudō: línea Hokusei",
+      "ja": "北勢線",
+      "en": "Hokusei Line",
+      "operator": "sangi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"三岐鉄道北勢線\"]",
+        "bbox": [
+          35.0,
+          136.45,
+          35.22,
+          136.72
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Es de vía de 762 mm, una de las tres líneas de ese ancho que quedan en Japón."
+      ]
+    },
+    {
+      "id": "sangi",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Sangi Tetsudō: línea Sangi",
+      "ja": "三岐線",
+      "en": "Sangi Line",
+      "operator": "sangi",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"三岐鉄道三岐線\"]",
+        "bbox": [
+          34.95,
+          136.4,
+          35.2,
+          136.72
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "yokkaichi-utsube",
+      "code": "",
+      "color": "#E60012",
+      "name": "Yokkaichi Asunarou: Utsube",
+      "ja": "内部線",
+      "en": "Utsube Line",
+      "operator": "yokkaichi",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"四日市あすなろう鉄道内部線|四日市あすなろう鉄道八王子線\"]",
+        "bbox": [
+          34.9,
+          136.55,
+          35.02,
+          136.65
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Otra superviviente de la vía de 762 mm, en pleno centro de Yokkaichi."
+      ]
+    },
+    {
+      "id": "iga",
+      "code": "",
+      "color": "#F5A200",
+      "name": "Iga Tetsudō",
+      "ja": "伊賀線",
+      "en": "Iga Line",
+      "operator": "iga",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"伊賀鉄道伊賀線\"]",
+        "bbox": [
+          34.7,
+          136.05,
+          34.85,
+          136.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Sus trenes van pintados de ninja: Iga es la cuna del ninjutsu."
+      ]
+    },
+    {
+      "id": "kintetsu-yunoyama",
+      "code": "K",
+      "color": "#E8383D",
+      "name": "Kintetsu Yunoyama",
+      "ja": "湯の山線",
+      "en": "Yunoyama Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"近畿日本鉄道湯の山線\"]",
+        "bbox": [
+          34.95,
+          136.4,
+          35.05,
+          136.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kintetsu-suzuka",
+      "code": "L",
+      "color": "#E8383D",
+      "name": "Kintetsu Suzuka",
+      "ja": "鈴鹿線",
+      "en": "Suzuka Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"近畿日本鉄道鈴鹿線\"]",
+        "bbox": [
+          34.85,
+          136.5,
+          34.95,
+          136.65
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kishigawa",
+      "code": "",
+      "color": "#F6A800",
+      "name": "Wakayama Dentetsu: Kishigawa",
+      "ja": "貴志川線",
+      "en": "Kishigawa Line",
+      "operator": "wakayama-dentetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"和歌山電鐵貴志川線\"]",
+        "bbox": [
+          34.18,
+          135.2,
+          34.3,
+          135.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Su estación de Kishi tuvo de jefa a una gata, Tama, que salvó la línea del cierre.",
+        "Tiene trenes temáticos de juguetes, de fresas y de la propia gata."
+      ]
+    },
+    {
+      "id": "koyasan-cable",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "Funicular de Kōyasan",
+      "ja": "鋼索線",
+      "en": "Kōyasan Cable",
+      "operator": "nankai",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"][\"name\"~\"南海電気鉄道鋼索線\"]",
+        "bbox": [
+          34.2,
+          135.55,
+          34.25,
+          135.62
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "極楽橋",
+        "高野山"
+      ],
+      "strict_order": true,
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Sube al monasterio de Kōyasan, fundado por Kūkai en 816 y patrimonio de la humanidad."
+      ]
+    },
+    {
+      "id": "kishu",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Kishū Tetsudō",
+      "ja": "紀州鉄道線",
+      "en": "Kishū Railway",
+      "operator": "kishu",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"紀州鉄道\"]",
+        "bbox": [
+          33.85,
+          135.13,
+          33.92,
+          135.2
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Con 2,7 km es una de las líneas privadas más cortas de Japón."
+      ]
+    },
+    {
       "id": "wakayama-line",
       "code": "T",
       "color": "#F6A800",
@@ -6294,10 +6698,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR和歌山線\"]",
         "bbox": [
-          34.15,
-          135.15,
+          34.1,
+          135.1,
           34.65,
-          135.78
+          135.8
         ],
         "nearby": true
       },
@@ -6640,7 +7044,7 @@
       "id": "kishin",
       "code": "K",
       "color": "#E60012",
-      "name": "JR Kishin (Himeji–Kōzuki)",
+      "name": "JR Kishin",
       "ja": "姫新線",
       "en": "Kishin Line",
       "operator": "jr-west",
@@ -6649,9 +7053,9 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR姫新線\"]",
         "bbox": [
-          34.75,
-          134.15,
-          35.15,
+          34.7,
+          133.4,
+          35.2,
           134.9
         ],
         "nearby": 300
@@ -6661,22 +7065,7 @@
       "facts": [
         "Recorre el valle interior desde Himeji hacia el oeste, con trenes diésel de una o dos unidades."
       ],
-      "station_order": [
-        "姫路",
-        "播磨高岡",
-        "余部",
-        "太市",
-        "本竜野",
-        "東觜崎",
-        "播磨新宮",
-        "千本",
-        "西栗栖",
-        "三日月",
-        "播磨徳久",
-        "佐用",
-        "上月"
-      ],
-      "strict_order": true
+      "order": "nearest"
     },
     {
       "id": "sanyo-main-west",
@@ -6843,9 +7232,9 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR赤穂線|^赤穂線$\"]",
         "bbox": [
-          34.65,
-          134.2,
-          34.85,
+          34.6,
+          133.8,
+          34.9,
           134.55
         ],
         "nearby": 400
@@ -7035,7 +7424,7 @@
       "id": "sanin-shimane",
       "code": "A",
       "color": "#7B3F98",
-      "name": "JR San'in (Yonago–Masuda)",
+      "name": "JR San'in (Yonago–Hagi)",
       "ja": "山陰本線",
       "en": "San'in Main Line",
       "operator": "jr-west",
@@ -7044,8 +7433,8 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線|JR山陰本線\"]",
         "bbox": [
-          34.55,
-          131.7,
+          34.3,
+          131.3,
           35.6,
           133.4
         ],
@@ -8333,10 +8722,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR関西本線|^関西本線$\"]",
         "bbox": [
-          34.85,
-          136.4,
+          34.7,
+          136.3,
           35.2,
-          136.92
+          136.95
         ],
         "nearby": 250
       },
@@ -8506,10 +8895,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"近畿日本鉄道名古屋線|近鉄名古屋線\"]",
         "bbox": [
-          34.55,
-          136.4,
+          34.45,
+          136.35,
           35.2,
-          136.92
+          136.95
         ],
         "nearby": 250
       }
@@ -8553,10 +8942,277 @@
       "opened": 2005
     },
     {
+      "id": "tsuyama",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Tsuyama",
+      "ja": "津山線",
+      "en": "Tsuyama Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR津山線\"]",
+        "bbox": [
+          34.6,
+          133.75,
+          35.15,
+          134.1
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "uno",
+      "code": "L",
+      "color": "#0072BC",
+      "name": "JR Uno",
+      "ja": "宇野線",
+      "en": "Uno Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"宇野線\"]",
+        "bbox": [
+          34.45,
+          133.85,
+          34.7,
+          134.05
+        ],
+        "nearby": 500
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Antes de abrirse el puente Seto-Ōhashi, aquí se cogía el ferry a Shikoku."
+      ],
+      "extra_nodes": [
+        8105697688,
+        8105697715
+      ]
+    },
+    {
+      "id": "honshi-bisan",
+      "code": "P",
+      "color": "#E60012",
+      "name": "JR Seto-Ōhashi (Honshi-Bisan)",
+      "ja": "本四備讃線",
+      "en": "Honshi-Bisan Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"本四備讃線\"]",
+        "bbox": [
+          34.2,
+          133.7,
+          34.6,
+          133.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Cruza el puente Seto-Ōhashi: 13 km sobre el mar interior, con el tren por el piso inferior.",
+        "Es el puente ferroviario y de carretera de dos pisos más largo del mundo."
+      ]
+    },
+    {
+      "id": "kibi",
+      "code": "U",
+      "color": "#F6A800",
+      "name": "JR Kibi (Momotarō)",
+      "ja": "吉備線",
+      "en": "Kibi Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR吉備線\"]",
+        "bbox": [
+          34.6,
+          133.7,
+          34.75,
+          133.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "La llaman «línea Momotarō»: pasa por los santuarios ligados a la leyenda del niño del melocotón."
+      ]
+    },
+    {
+      "id": "mizushima",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "Mizushima Rinkai",
+      "ja": "水島本線",
+      "en": "Mizushima Main Line",
+      "operator": "mizushima",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"水島臨海鉄道水島本線\"]",
+        "bbox": [
+          34.5,
+          133.7,
+          34.65,
+          133.8
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "ube",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Ube",
+      "ja": "宇部線",
+      "en": "Ube Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR宇部線\"]",
+        "bbox": [
+          33.9,
+          131.15,
+          34.1,
+          131.5
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "onoda",
+      "code": "",
+      "color": "#F5A200",
+      "name": "JR Onoda",
+      "ja": "小野田線",
+      "en": "Onoda Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR小野田線\"]",
+        "bbox": [
+          33.9,
+          131.1,
+          34.05,
+          131.3
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Su ramal de Nagato-Motoyama tiene uno de los servicios más escasos de Japón: tres trenes al día."
+      ]
+    },
+    {
+      "id": "gantoku",
+      "code": "",
+      "color": "#E8383D",
+      "name": "JR Gantoku",
+      "ja": "岩徳線",
+      "en": "Gantoku Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR岩徳線\"]",
+        "bbox": [
+          34.0,
+          131.8,
+          34.25,
+          132.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nishikigawa",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Nishikigawa Seiryū",
+      "ja": "錦川清流線",
+      "en": "Nishikigawa Seiryū Line",
+      "operator": "nishikigawa",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"錦川鉄道錦川清流線|錦川清流線\"]",
+        "bbox": [
+          34.05,
+          131.9,
+          34.4,
+          132.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Sigue el río Nishiki, de aguas transparentes, con vagones que paran para mirar el paisaje."
+      ]
+    },
+    {
+      "id": "mine",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Mine",
+      "ja": "美祢線",
+      "en": "Mine Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"^(rail|disused)$\"][\"name\"~\"JR美祢線\"]",
+        "bbox": [
+          34.05,
+          131.1,
+          34.45,
+          131.45
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Lleva cortada desde las lluvias de 2023; JR West y la prefectura discuten aún si reabrirla."
+      ]
+    },
+    {
       "id": "sanyo-hiroshima",
       "code": "G",
       "color": "#0072BC",
-      "name": "JR Sanyō (Itozaki–Ōtake)",
+      "name": "JR Sanyō (Iwakuni–Okayama)",
       "ja": "山陽本線",
       "en": "Sanyō Main Line",
       "operator": "jr-west",
@@ -8565,10 +9221,10 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陽本線\"]",
         "bbox": [
-          34.15,
-          132.15,
-          34.6,
-          133.5
+          34.0,
+          132.0,
+          34.75,
+          133.95
         ],
         "nearby": 200
       },
@@ -8672,9 +9328,9 @@
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"井原鉄道井原線\"]",
         "bbox": [
           34.4,
-          133.2,
-          34.75,
-          133.7
+          133.15,
+          34.8,
+          133.75
         ],
         "nearby": 200
       },
@@ -11311,6 +11967,777 @@
       ]
     },
     {
+      "id": "joso",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Kantō Tetsudō: línea Jōsō",
+      "ja": "常総線",
+      "en": "Jōsō Line",
+      "operator": "kanto-tetsudo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"関東鉄道常総線\"]",
+        "bbox": [
+          35.85,
+          139.9,
+          36.35,
+          140.15
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Es la línea diésel más transitada de Japón: sin electrificar por los observatorios geomagnéticos de Kakioka."
+      ]
+    },
+    {
+      "id": "ryugasaki",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Kantō Tetsudō: línea Ryūgasaki",
+      "ja": "竜ヶ崎線",
+      "en": "Ryūgasaki Line",
+      "operator": "kanto-tetsudo",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"関東鉄道竜ヶ崎線\"]",
+        "bbox": [
+          35.87,
+          140.15,
+          35.96,
+          140.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Mide 4,5 km y tiene tres estaciones: una de las líneas más cortas de Japón."
+      ]
+    },
+    {
+      "id": "moka",
+      "code": "",
+      "color": "#F5A200",
+      "name": "Moka Tetsudō",
+      "ja": "真岡線",
+      "en": "Mōka Line",
+      "operator": "moka",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"真岡鐵道真岡線\"]",
+        "bbox": [
+          36.25,
+          139.9,
+          36.7,
+          140.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Su tren de vapor circula los fines de semana; la estación de Mōka tiene forma de locomotora."
+      ]
+    },
+    {
+      "id": "oarai-kashima",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Kashima Rinkai: Ōarai-Kashima",
+      "ja": "大洗鹿島線",
+      "en": "Ōarai Kashima Line",
+      "operator": "kashima-rinkai",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"鹿島臨海鉄道大洗鹿島線\"]",
+        "bbox": [
+          35.85,
+          140.3,
+          36.45,
+          140.65
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Sus trenes llevan decoración de «Girls und Panzer», la serie ambientada en Ōarai."
+      ]
+    },
+    {
+      "id": "minato",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "Hitachinaka Kaihin: línea Minato",
+      "ja": "湊線",
+      "en": "Minato Line",
+      "operator": "hitachinaka",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"ひたちなか海浜鉄道湊線\"]",
+        "bbox": [
+          36.33,
+          140.52,
+          36.45,
+          140.62
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Su estación de Nakaminato conserva el edificio de madera de 1913."
+      ]
+    },
+    {
+      "id": "utsunomiya-lrt",
+      "code": "LRT",
+      "color": "#F6A800",
+      "name": "Light Rail de Utsunomiya",
+      "ja": "宇都宮ライトレール",
+      "en": "Utsunomiya Light Rail",
+      "operator": "utsunomiya-lrt",
+      "type": "tram",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"tram|light_rail\"][\"name\"~\"宇都宮芳賀ライトレール線|宇都宮ライトレール\"]",
+        "bbox": [
+          36.5,
+          139.85,
+          36.62,
+          140.1
+        ],
+        "nearby": 200
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Abrió en 2023: es el primer tranvía construido de cero en Japón desde 1948.",
+        "Va de Utsunomiya a los polígonos de Haga, con trenes cada ocho minutos."
+      ]
+    },
+    {
+      "id": "nikko-jr",
+      "code": "",
+      "color": "#E60012",
+      "name": "JR Nikkō",
+      "ja": "日光線",
+      "en": "Nikkō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"JR日光線\"]",
+        "bbox": [
+          36.5,
+          139.55,
+          36.8,
+          139.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "karasuyama",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR Karasuyama",
+      "ja": "烏山線",
+      "en": "Karasuyama Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"JR烏山線\"]",
+        "bbox": [
+          36.55,
+          139.9,
+          36.75,
+          140.2
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Sus trenes de baterías se recargan en la estación final, sin catenaria en casi toda la línea."
+      ]
+    },
+    {
+      "id": "tobu-sano",
+      "code": "",
+      "color": "#0072BC",
+      "name": "Tōbu Sano",
+      "ja": "佐野線",
+      "en": "Sano Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"東武佐野線\"]",
+        "bbox": [
+          36.15,
+          139.45,
+          36.6,
+          139.7
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "shinetsu-yokokawa",
+      "code": "",
+      "color": "#F6A800",
+      "name": "JR Shin'etsu (Takasaki–Yokokawa)",
+      "ja": "信越本線",
+      "en": "Shin'etsu Main Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"信越本線\"]",
+        "bbox": [
+          36.25,
+          138.6,
+          36.45,
+          139.05
+        ],
+        "nearby": 350
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Termina en Yokokawa desde 1997: más allá, el paso de Usui cerró al llegar el Shinkansen.",
+        "Su tramo de Usui tenía la pendiente de adherencia más dura de Japón, 66,7 por mil, con locomotoras de refuerzo."
+      ]
+    },
+    {
+      "id": "tsukuba-cable",
+      "code": "TC",
+      "color": "#2E8B57",
+      "name": "Funicular del monte Tsukuba",
+      "ja": "筑波山ケーブルカー",
+      "en": "Mount Tsukuba Cable Car",
+      "operator": "tsukuba-kanko",
+      "type": "funicular",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"funicular\"]",
+        "bbox": [
+          36.2,
+          140.08,
+          36.24,
+          140.13
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "宮脇",
+        "筑波山頂"
+      ],
+      "strict_order": true,
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Sube al monte Tsukuba, la montaña de los dos picos que aparece ya en el Man'yōshū."
+      ]
+    },
+    {
+      "id": "nankai-wakayamako",
+      "code": "NK",
+      "color": "#0075C2",
+      "name": "Nankai Wakayama-kō",
+      "ja": "和歌山港線",
+      "en": "Wakayamakō Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"南海電気鉄道和歌山港線\"]",
+        "bbox": [
+          34.19,
+          135.13,
+          34.25,
+          135.2
+        ],
+        "nearby": 400
+      },
+      "station_order": [
+        "和歌山市",
+        "和歌山港"
+      ],
+      "strict_order": true,
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Enlaza con el ferry a Tokushima: el tren espera al barco."
+      ]
+    },
+    {
+      "id": "ryomo",
+      "code": "",
+      "color": "#F5A200",
+      "name": "JR Ryōmō",
+      "ja": "両毛線",
+      "en": "Ryōmō Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"^両毛線$\"]",
+        "bbox": [
+          36.15,
+          138.95,
+          36.5,
+          139.9
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "agatsuma",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "JR Agatsuma",
+      "ja": "吾妻線",
+      "en": "Agatsuma Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"吾妻線\"]",
+        "bbox": [
+          36.45,
+          138.45,
+          36.7,
+          139.05
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Su estación de Kawarayu-Onsen se mudó en 2014, cuando el embalse de Yamba inundó la anterior."
+      ]
+    },
+    {
+      "id": "watarase",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "Watarase Keikoku",
+      "ja": "わたらせ渓谷線",
+      "en": "Watarase Keikoku Line",
+      "operator": "watarase",
+      "type": "local",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"わたらせ渓谷線\"]",
+        "bbox": [
+          36.35,
+          139.25,
+          36.75,
+          139.55
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Recorre el desfiladero del Watarase en vagonetas abiertas; nació para sacar el cobre de la mina de Ashio."
+      ]
+    },
+    {
+      "id": "joshin",
+      "code": "",
+      "color": "#E8383D",
+      "name": "Jōshin Dentetsu",
+      "ja": "上信線",
+      "en": "Jōshin Line",
+      "operator": "joshin",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"上信\"]",
+        "bbox": [
+          36.05,
+          138.65,
+          36.45,
+          139.15
+        ],
+        "nearby": 400
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Lleva a Tomioka, cuya hilandería de seda de 1872 es patrimonio de la humanidad."
+      ]
+    },
+    {
+      "id": "tobu-kiryu",
+      "code": "",
+      "color": "#F6A800",
+      "name": "Tōbu Kiryū",
+      "ja": "桐生線",
+      "en": "Kiryū Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"桐生線\"]",
+        "bbox": [
+          36.25,
+          139.3,
+          36.5,
+          139.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "mito-line",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Mito",
+      "ja": "水戸線",
+      "en": "Mito Line",
+      "operator": "jr-east",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"JR水戸線\"]",
+        "bbox": [
+          36.15,
+          139.75,
+          36.45,
+          140.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tobu-kinugawa",
+      "code": "",
+      "color": "#E60012",
+      "name": "Tōbu Kinugawa",
+      "ja": "鬼怒川線",
+      "en": "Kinugawa Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"東武鬼怒川線\"]",
+        "bbox": [
+          36.7,
+          139.6,
+          37.0,
+          139.85
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Por ella circula el «SL Taiju», con una locomotora de vapor C11 recuperada en 2017."
+      ]
+    },
+    {
+      "id": "tobu-utsunomiya",
+      "code": "",
+      "color": "#F6A800",
+      "name": "Tōbu Utsunomiya",
+      "ja": "宇都宮線",
+      "en": "Tōbu Utsunomiya Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"東武宇都宮線\"]",
+        "bbox": [
+          36.35,
+          139.75,
+          36.6,
+          139.95
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "tobu-koizumi",
+      "code": "",
+      "color": "#00A0B0",
+      "name": "Tōbu Koizumi",
+      "ja": "小泉線",
+      "en": "Koizumi Line",
+      "operator": "tobu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"東武小泉線\"]",
+        "bbox": [
+          36.2,
+          139.3,
+          36.35,
+          139.6
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "jomo",
+      "code": "",
+      "color": "#2E8B57",
+      "name": "Jōmō Dentetsu",
+      "ja": "上毛線",
+      "en": "Jōmō Line",
+      "operator": "jomo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"上毛電気鉄道上毛線\"]",
+        "bbox": [
+          36.3,
+          139.0,
+          36.5,
+          139.4
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kanto",
+      "trains": [],
+      "facts": [
+        "Permite subir la bicicleta al tren todos los días, sin desmontarla ni pagar suplemento."
+      ]
+    },
+    {
+      "id": "sangu",
+      "code": "",
+      "color": "#E8383D",
+      "name": "JR Sangū",
+      "ja": "参宮線",
+      "en": "Sangū Line",
+      "operator": "jr-central",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"JR参宮線\"]",
+        "bbox": [
+          34.45,
+          136.6,
+          34.6,
+          136.85
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Se construyó para los peregrinos del santuario de Ise; su estación de Futaminoura queda junto a las «rocas casadas»."
+      ]
+    },
+    {
+      "id": "ise-tetsudo",
+      "code": "",
+      "color": "#F5A200",
+      "name": "Ise Tetsudō",
+      "ja": "伊勢線",
+      "en": "Ise Line",
+      "operator": "ise-tetsudo",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"伊勢鉄道伊勢線\"]",
+        "bbox": [
+          34.7,
+          136.45,
+          34.95,
+          136.65
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "kintetsu-toba",
+      "code": "M",
+      "color": "#E8383D",
+      "name": "Kintetsu Toba",
+      "ja": "鳥羽線",
+      "en": "Toba Line",
+      "operator": "kintetsu",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"近畿日本鉄道鳥羽線\"]",
+        "bbox": [
+          34.4,
+          136.65,
+          34.55,
+          136.9
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "nankai-kada",
+      "code": "NK",
+      "color": "#0075C2",
+      "name": "Nankai Kada",
+      "ja": "加太線",
+      "en": "Kada Line",
+      "operator": "nankai",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"~\"rail|narrow_gauge\"][\"name\"~\"南海電気鉄道加太線\"]",
+        "bbox": [
+          34.18,
+          135.05,
+          34.3,
+          135.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "kansai",
+      "trains": [],
+      "facts": [
+        "Sus trenes van pintados como el pez «medetai», mezcla de besugo y buena suerte."
+      ]
+    },
+    {
+      "id": "sanyo-okayama",
+      "code": "W",
+      "color": "#0072BC",
+      "name": "JR Sanyō (Okayama–Kamigōri)",
+      "ja": "山陽本線",
+      "en": "Sanyō Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"山陽本線\"]",
+        "bbox": [
+          34.5,
+          133.55,
+          34.95,
+          134.45
+        ],
+        "nearby": 450
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sanyo-yamaguchi",
+      "code": "",
+      "color": "#0072BC",
+      "name": "JR Sanyō (Iwakuni–Shimonoseki)",
+      "ja": "山陽本線",
+      "en": "Sanyō Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陽本線\"]",
+        "bbox": [
+          33.9,
+          130.85,
+          34.3,
+          132.25
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": []
+    },
+    {
+      "id": "sanin-yamaguchi",
+      "code": "",
+      "color": "#7B3F98",
+      "name": "JR San'in (Hagi–Hatabu)",
+      "ja": "山陰本線",
+      "en": "San'in Main Line",
+      "operator": "jr-west",
+      "type": "commuter",
+      "osm": [],
+      "osm_ways": {
+        "filter": "way[\"railway\"=\"rail\"][\"name\"~\"JR山陰線|JR山陰本線\"]",
+        "bbox": [
+          33.9,
+          130.85,
+          34.75,
+          131.85
+        ],
+        "nearby": 300
+      },
+      "order": "nearest",
+      "region": "chugoku",
+      "trains": [],
+      "facts": [
+        "Termina en Hatabu, tras 673 km desde Kioto: es el final de la línea más larga de Japón."
+      ]
+    },
+    {
       "id": "suigun",
       "code": "",
       "color": "#2E8B57",
@@ -12255,7 +13682,7 @@
       "id": "joban-sendai",
       "code": "",
       "color": "#00A0B0",
-      "name": "JR Jōban (Sendai–Shinchi)",
+      "name": "JR Jōban (Mito–Sendai)",
       "ja": "常磐線",
       "en": "Jōban Line",
       "operator": "jr-east",
@@ -12264,8 +13691,8 @@
       "osm_ways": {
         "filter": "way[\"railway\"=\"rail\"][\"name\"~\"常磐線\"]",
         "bbox": [
-          36.7,
-          140.55,
+          35.8,
+          140.0,
           38.35,
           141.2
         ],
