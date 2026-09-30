@@ -1043,7 +1043,7 @@ _Lo que hace único el tren en Japón, más allá del día a día._
 
 **Explorar**
 
-- [x] Galería de fotos con buscador (tren, línea, compañía, ciudad o región)
+- [x] Galería de fotos a pantalla completa, con buscador (tren, línea, compañía, ciudad o región)
 - [ ] Buscar ruta entre dos estaciones (transbordos, líneas)
 - [ ] Línea del tiempo: aperturas de líneas y trenes por año
 - [ ] Récords: estación más profunda, línea más antigua, tren más rápido…

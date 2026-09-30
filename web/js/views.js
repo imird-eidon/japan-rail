@@ -26,14 +26,13 @@ const factList = (facts) =>
   facts?.length ? `<h3>Datos curiosos</h3><ul class="facts">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : "";
 
 // ------------------------------------------------------------------ inicio
-export function homeView(net, { tab, hidden, fact, gallery = {} }) {
+export function homeView(net, { tab, hidden, fact }) {
   const st = networkStats(net);
-  const tabs = [["lines", "Líneas"], ["stations", "Estaciones"], ["trains", "Trenes"], ["fotos", "Fotos"]];
+  const tabs = [["lines", "Líneas"], ["stations", "Estaciones"], ["trains", "Trenes"]];
 
   let body = "";
   if (tab === "stations") body = stationsTab(net);
   else if (tab === "trains") body = trainsTab(net);
-  else if (tab === "fotos") body = galleryTab(net, gallery);
   else body = linesTab(net, hidden);
 
   return `
@@ -45,6 +44,11 @@ export function homeView(net, { tab, hidden, fact, gallery = {} }) {
         <div><dt>Estaciones</dt><dd>${st.stations}</dd></div>
         <div><dt>Km de red</dt><dd>${st.km}</dd></div>
       </dl>
+      <a class="gal-entry" href="#/fotos">
+        <span class="gal-entry-shots">${galleryPeek(net)}</span>
+        <span class="gal-entry-text">Galería de fotos<span>${photoItems(net).length} fotos de trenes</span></span>
+        <span class="gal-entry-go" aria-hidden="true">→</span>
+      </a>
     </section>
 
     ${fact ? factCard(fact) : ""}
@@ -64,33 +68,67 @@ export function filterPhotos(net, { q = "", region = null } = {}) {
     (!region || p.region === region) && (!term || p.search.includes(term)));
 }
 
-function galleryTab(net, { q = "", region = null } = {}) {
+/** Tres miniaturas sueltas para el enlace de la portada. */
+function galleryPeek(net) {
+  const fotos = photoItems(net);
+  const paso = Math.max(1, Math.floor(fotos.length / 3));
+  return [0, paso, paso * 2].map((i) => fotos[i]).filter(Boolean)
+    .map((p) => `<img data-src="${esc(p.photo.thumb || p.photo.src)}" alt="" decoding="async" width="72" height="45">`).join("");
+}
+
+/** Galería a pantalla completa: cabecera con buscador, regiones y mosaico. */
+export function galleryView(net, { q = "", region = null } = {}) {
   const all = photoItems(net);
-  const shown = filterPhotos(net, { q, region });
-  const regions = [...new Set(all.map((p) => p.region))].filter(Boolean)
+  const regiones = [...new Set(all.map((p) => p.region))].filter(Boolean)
     .map((id) => [id, net.regions[id]?.name || id]);
-  const card = (p, i) => `
-    <li>
-      <button type="button" class="shot" data-photo="${i}" aria-label="${esc(p.name)}">
-        <img class="shot-img" data-src="${esc(p.photo.thumb || p.photo.src)}" alt="" decoding="async" width="360" height="225">
-        <span class="shot-name">${esc(p.name)}</span>
-        <span class="shot-sub">${esc(p.sub)}${p.lines.length ? ` · ${esc(p.lines[0].name)}` : ""}</span>
-      </button>
-    </li>`;
   return `
-    <div class="gal-filters">
-      <input type="search" class="gal-q" value="${esc(q)}" placeholder="Filtra por tren, línea, compañía o ciudad…"
-             aria-label="Filtrar fotos" data-action="gallery-q" autocomplete="off">
-      <div class="chips">
-        <button class="chip" data-gallery-region="" aria-pressed="${!region}">Todo Japón</button>
-        ${regions.map(([id, name]) =>
-          `<button class="chip" data-gallery-region="${esc(id)}" aria-pressed="${region === id}">${esc(name)}</button>`).join("")}
+    <header class="gal-bar">
+      <div class="gal-head">
+        <h1>Galería</h1>
+        <p class="gal-count">${galleryCount(net, { q, region })}</p>
       </div>
+      <input type="search" class="gal-q" value="${esc(q)}" autocomplete="off" spellcheck="false"
+             placeholder="Busca un tren, una línea, una compañía o una ciudad…" aria-label="Buscar fotos">
+      <a class="gal-close" href="#/" data-gal="close" aria-label="Cerrar la galería" title="Cerrar (Esc)">✕</a>
+    </header>
+    <div class="gal-chips" aria-label="Filtrar por región">
+      <button type="button" class="chip" data-gallery-region="" aria-pressed="${!region}">Todo Japón</button>
+      ${regiones.map(([id, name]) =>
+        `<button type="button" class="chip" data-gallery-region="${esc(id)}" aria-pressed="${region === id}">${esc(name)}</button>`).join("")}
     </div>
-    <p class="muted gal-count">${shown.length} de ${all.length} fotos${region || q ? " (filtradas)" : ""}. Todas son de Wikimedia Commons, con su autor y licencia en cada una.</p>
-    ${shown.length
-      ? `<ul class="gallery">${shown.map(card).join("")}</ul>`
-      : `<p class="empty">Ninguna foto coincide con ese filtro.</p>`}`;
+    <div class="gal-scroll">${galleryGrid(net, { q, region })}</div>`;
+}
+
+/** Texto del contador, que cambia con cada filtro. */
+export function galleryCount(net, opts) {
+  const total = photoItems(net).length, hay = filterPhotos(net, opts).length;
+  return hay === total ? `${total} fotos de trenes` : `${hay} de ${total} fotos`;
+}
+
+/** El mosaico: se repinta solo él al filtrar, así el buscador no pierde el foco. */
+export function galleryGrid(net, { q = "", region = null } = {}) {
+  const shown = filterPhotos(net, { q, region });
+  if (!shown.length) {
+    return `<p class="gal-empty">Ninguna foto coincide con <strong>${esc(q)}</strong>.<br>
+      Prueba con un tren («E5»), una línea («Yamanote»), una compañía («JR West») o una ciudad («Kioto»).</p>`;
+  }
+  // el mosaico alterna piezas grandes y anchas para que no parezca una cuadrícula
+  const tile = (p, i) => {
+    const grande = i % 7 === 0, ancha = !grande && i % 11 === 4;
+    return `
+      <li class="tile${grande ? " tile-big" : ancha ? " tile-wide" : ""}">
+        <button type="button" class="tile-btn" data-photo="${i}" aria-label="${esc(p.name)}">
+          <img data-src="${esc(grande ? p.photo.src : (p.photo.thumb || p.photo.src))}" alt="" decoding="async">
+          <span class="tile-cap">
+            <b>${esc(p.name)}</b>
+            <span>${esc(p.sub)}${p.lines.length ? ` · ${esc(p.lines[0].name)}` : ""}</span>
+          </span>
+        </button>
+      </li>`;
+  };
+  return `
+    <ul class="mosaic">${shown.map(tile).join("")}</ul>
+    <p class="gal-foot">Todas las fotos son de Wikimedia Commons, con licencia libre: el autor y la licencia salen al abrir cada una.</p>`;
 }
 
 /** Ficha grande de una foto, para la ventana emergente. */

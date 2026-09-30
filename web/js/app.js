@@ -4,7 +4,7 @@
 import { loadNetwork, allFacts, search, esc } from "./data.js";
 import { createMap } from "./map.js";
 import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon, allStations, stationRows,
-         filterPhotos, photoLightbox } from "./views.js";
+         galleryView, galleryGrid, galleryCount, filterPhotos, photoLightbox } from "./views.js";
 
 const panel = document.getElementById("panel");
 const input = document.getElementById("search");
@@ -69,13 +69,17 @@ function route({ initial = false } = {}) {
     html = t ? trainView(net, t) : notFoundView("ese tren");
     if (t) { mapFocused = true; map.focusLines(t.lines.length ? t.lines : (t.history || []).map((h) => h.line), { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
   } else {
-    const tab = ["stations", "trains", "fotos"].includes(type) ? type : "lines";
-    html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length],
-                           gallery: ui.gallery });
+    const tab = ["stations", "trains"].includes(type) ? type : "lines";
+    html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });
     if (initial || mapFocused) map.overview({ fit: initial });   // entre pestañas el mapa no cambia
     mapFocused = false;
     document.title = "Japan Rail Explorer";
   }
+
+  // la galería es una capa aparte: se abre encima de todo y al salir devuelve la vista de antes
+  if (type === "fotos") abrirGaleria(); else cerrarGaleria();
+
+  if (type === "fotos" && panel.querySelector(".intro")) return;   // el panel ya está en la portada
 
   if (lastHash !== null) scrollMemory.set(lastHash, panel.scrollTop);
   lastHash = location.hash;
@@ -88,25 +92,34 @@ function route({ initial = false } = {}) {
 
 // Las fotos se piden solo cuando se acercan al hueco visible: la lista de trenes tiene
 // casi doscientas miniaturas y cargarlas de golpe bloqueaba la pestaña.
-const imgWatcher = "IntersectionObserver" in window
-  ? new IntersectionObserver((entries, obs) => {
+const watchers = new WeakMap();   // contenedor con scroll → su observador
+
+function watcherFor(root) {
+  if (!("IntersectionObserver" in window)) return null;
+  let obs = watchers.get(root);
+  if (!obs) {
+    obs = new IntersectionObserver((entries, o) => {
       for (const e of entries) {
         if (!e.isIntersecting) continue;
         const img = e.target;
         img.src = img.dataset.src;
         img.removeAttribute("data-src");
-        obs.unobserve(img);
+        o.unobserve(img);
       }
-    }, { root: panel, rootMargin: "300px 0px" })
-  : null;
+    }, { root, rootMargin: "400px 0px" });
+    watchers.set(root, obs);
+  }
+  return obs;
+}
 
-function lazyImages() {
-  const pending = panel.querySelectorAll("img[data-src]");
-  if (!imgWatcher) {   // navegador sin soporte: se cargan todas, como antes
+function lazyImages(box = panel, root = panel) {
+  const pending = box.querySelectorAll("img[data-src]");
+  const obs = watcherFor(root);
+  if (!obs) {   // navegador sin soporte: se cargan todas, como antes
     for (const img of pending) { img.src = img.dataset.src; img.removeAttribute("data-src"); }
     return;
   }
-  for (const img of pending) imgWatcher.observe(img);
+  for (const img of pending) obs.observe(img);
 }
 
 // La lista completa de estaciones (más de cuatro mil filas) solo se pinta si se pide:
@@ -130,14 +143,9 @@ function verTodasLasEstaciones(btn) {
 
 // ------------------------------------------------------------------ acciones del panel
 panel.addEventListener("click", (e) => {
-  const btn = e.target.closest("[data-action], [data-photo], [data-gallery-region]");
+  const btn = e.target.closest("[data-action]");
   if (!btn) return;
-  if (btn.dataset.photo !== undefined) {
-    abrirFoto(Number(btn.dataset.photo));
-  } else if (btn.dataset.galleryRegion !== undefined) {
-    ui.gallery.region = btn.dataset.galleryRegion || null;
-    repintarGaleria();
-  } else if (btn.dataset.action === "ver-todas") {
+  if (btn.dataset.action === "ver-todas") {
     verTodasLasEstaciones(btn);
   } else if (btn.dataset.action === "next-fact") {
     ui.factIndex++;
@@ -156,23 +164,65 @@ panel.addEventListener("click", (e) => {
 });
 
 // ------------------------------------------------------------------ galería de fotos
-let lightbox = null, fotos = [], fotoIndex = 0;
+// Capa a pantalla completa por encima del mapa y del panel. Se abre con #/fotos.
+let galeria = null, lightbox = null, fotos = [], fotoIndex = 0;
 
-function repintarGaleria() {
-  const view = panel.querySelector(".view");
-  if (!view) return;
-  const foco = panel.querySelector(".gal-q") === document.activeElement;
-  const pos = panel.querySelector(".gal-q")?.selectionStart;
-  view.innerHTML = homeView(net, { tab: "fotos", hidden: ui.hidden,
-                                   fact: ui.facts[ui.factIndex % ui.facts.length], gallery: ui.gallery });
-  lazyImages();
-  if (foco) {   // al escribir en el filtro, el cursor se queda donde estaba
-    const input = panel.querySelector(".gal-q");
-    input?.focus();
-    if (pos != null) input?.setSelectionRange(pos, pos);
+function abrirGaleria() {
+  if (!galeria) {
+    galeria = document.createElement("div");
+    galeria.className = "gal";
+    galeria.setAttribute("role", "dialog");
+    galeria.setAttribute("aria-modal", "true");
+    galeria.setAttribute("aria-label", "Galería de fotos");
+    galeria.addEventListener("click", clicGaleria);
+    galeria.addEventListener("input", (e) => {
+      if (!e.target.matches(".gal-q")) return;
+      ui.gallery.q = e.target.value;
+      clearTimeout(galeria._timer);
+      galeria._timer = setTimeout(repintarMosaico, 120);   // esperar a que pare de escribir
+    });
+    document.body.appendChild(galeria);
+  }
+  galeria.innerHTML = galleryView(net, ui.gallery);
+  document.body.classList.add("con-galeria");
+  const scroll = galeria.querySelector(".gal-scroll");
+  lazyImages(galeria, scroll);
+  if (!matchMedia("(max-width: 820px)").matches) galeria.querySelector(".gal-q")?.focus();
+  document.title = "Galería · Japan Rail Explorer";
+}
+
+function cerrarGaleria() {
+  if (!galeria) return;
+  cerrarFoto();
+  galeria.remove();
+  galeria = null;
+  document.body.classList.remove("con-galeria");
+}
+
+function clicGaleria(e) {
+  const btn = e.target.closest("[data-photo], [data-gallery-region]");
+  if (!btn) return;
+  if (btn.dataset.photo !== undefined) {
+    abrirFoto(Number(btn.dataset.photo));
+  } else {
+    ui.gallery.region = btn.dataset.galleryRegion || null;
+    for (const c of galeria.querySelectorAll("[data-gallery-region]"))
+      c.setAttribute("aria-pressed", String((c.dataset.galleryRegion || null) === ui.gallery.region));
+    repintarMosaico();
   }
 }
 
+/** Solo se repinta el mosaico: la cabecera se queda, y con ella el foco del buscador. */
+function repintarMosaico() {
+  if (!galeria) return;
+  const scroll = galeria.querySelector(".gal-scroll");
+  scroll.innerHTML = galleryGrid(net, ui.gallery);
+  scroll.scrollTop = 0;
+  galeria.querySelector(".gal-count").textContent = galleryCount(net, ui.gallery);
+  lazyImages(scroll, scroll);
+}
+
+// ------------------------------------------------------------------ foto a tamaño grande
 function abrirFoto(i) {
   fotos = filterPhotos(net, ui.gallery);
   if (!fotos.length) return;
@@ -183,15 +233,13 @@ function abrirFoto(i) {
     lightbox.addEventListener("click", (e) => {
       const b = e.target.closest("[data-lb]");
       if (!b) { if (e.target === lightbox) cerrarFoto(); return; }
-      if (b.dataset.lb === "close") cerrarFoto();
-      else if (b.dataset.lb === "prev") moverFoto(-1);
+      if (b.dataset.lb === "prev") moverFoto(-1);
       else if (b.dataset.lb === "next") moverFoto(1);
-      else if (b.dataset.lb === "go") cerrarFoto();
+      else cerrarFoto();   // cerrar, o irse a la ficha
     });
     document.body.appendChild(lightbox);
   }
   pintarFoto();
-  document.body.classList.add("con-lightbox");
 }
 
 function pintarFoto() {
@@ -207,21 +255,16 @@ function moverFoto(paso) {
 function cerrarFoto() {
   lightbox?.remove();
   lightbox = null;
-  document.body.classList.remove("con-lightbox");
 }
 
 document.addEventListener("keydown", (e) => {
-  if (!lightbox) return;
-  if (e.key === "Escape") cerrarFoto();
-  else if (e.key === "ArrowLeft") moverFoto(-1);
-  else if (e.key === "ArrowRight") moverFoto(1);
-});
-
-panel.addEventListener("input", (e) => {
-  if (!e.target.matches(".gal-q")) return;
-  ui.gallery.q = e.target.value;
-  clearTimeout(panel._galTimer);
-  panel._galTimer = setTimeout(repintarGaleria, 120);   // esperar a que pare de escribir
+  if (lightbox) {
+    if (e.key === "Escape") cerrarFoto();
+    else if (e.key === "ArrowLeft") moverFoto(-1);
+    else if (e.key === "ArrowRight") moverFoto(1);
+    return;
+  }
+  if (galeria && e.key === "Escape") go("#/");
 });
 
 // ------------------------------------------------------------------ buscador

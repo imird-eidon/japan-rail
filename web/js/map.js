@@ -200,6 +200,22 @@ export function createMap(el, net, { onLine, onStation }) {
   });
   new GoControl().addTo(map);
 
+  // ---------------------------------------------------------------- galería de fotos
+  const GalleryControl = L.Control.extend({
+    options: { position: "topright" },
+    onAdd() {
+      const box = L.DomUtil.create("div", "leaflet-bar gal-control");
+      box.innerHTML = `
+        <a href="#/fotos" title="Galería de fotos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M3 8h3l2-3h8l2 3h3v12H3z"/><circle cx="12" cy="13" r="3.5"/>
+          </svg>Galería</a>`;
+      L.DomEvent.disableClickPropagation(box);
+      return box;
+    },
+  });
+  new GalleryControl().addTo(map);
+
   // ---------------------------------------------------------------- API
   const pad = () => (matchMedia("(max-width: 820px)").matches ? [20, 20] : [40, 40]);
 

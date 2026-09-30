@@ -10,7 +10,7 @@ El detalle, en [INVENTARIO.md](INVENTARIO.md).
 - Ficha de cada estación (líneas, estación anterior/siguiente en cada línea, transbordos a pie).
 - Ficha de cada serie de tren, con foto, por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
-- Galería de fotos (pestaña «Fotos») con buscador por tren, línea, compañía, ciudad o región.
+- Galería de fotos a pantalla completa, con buscador por tren, línea, compañía, ciudad o región.
 - Líneas agrupadas por regiones de Japón (Hokkaidō, Tōhoku, Kantō, Chūbu, Kansai, Chūgoku, Shikoku, Kyūshū).
 - Menú «Ir a…» para centrar el mapa en una región, en cualquiera de las 19 ciudades o en todo Japón.
 - Buscador (español, romaji o japonés: `shinjuku`, `新宿`, `JY`…), filtros por operador, modo oscuro y móvil.
