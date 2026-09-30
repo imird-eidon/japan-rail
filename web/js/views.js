@@ -1,5 +1,5 @@
 // Vistas del panel lateral. Cada función devuelve HTML (texto siempre escapado con esc).
-import { esc, textOn, neighbours, networkStats, groupOf, trainRegion } from "./data.js";
+import { esc, textOn, neighbours, networkStats, groupOf, trainRegion, photoItems, norm } from "./data.js";
 
 const fmtKm = (n) => `${String(n).replace(".", ",")}<small> km</small>`;
 
@@ -26,13 +26,14 @@ const factList = (facts) =>
   facts?.length ? `<h3>Datos curiosos</h3><ul class="facts">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : "";
 
 // ------------------------------------------------------------------ inicio
-export function homeView(net, { tab, hidden, fact }) {
+export function homeView(net, { tab, hidden, fact, gallery = {} }) {
   const st = networkStats(net);
-  const tabs = [["lines", "Líneas"], ["stations", "Estaciones"], ["trains", "Trenes"]];
+  const tabs = [["lines", "Líneas"], ["stations", "Estaciones"], ["trains", "Trenes"], ["fotos", "Fotos"]];
 
   let body = "";
   if (tab === "stations") body = stationsTab(net);
   else if (tab === "trains") body = trainsTab(net);
+  else if (tab === "fotos") body = galleryTab(net, gallery);
   else body = linesTab(net, hidden);
 
   return `
@@ -52,6 +53,65 @@ export function homeView(net, { tab, hidden, fact }) {
       ${tabs.map(([id, label]) => `<a role="tab" href="#/${id === "lines" ? "" : id}" aria-selected="${tab === id}" class="tab">${label}</a>`).join("")}
     </nav>
     ${body}`;
+}
+
+
+// ------------------------------------------------------------------ galería de fotos
+/** Filtra la galería por texto y por región; devuelve también el total para el contador. */
+export function filterPhotos(net, { q = "", region = null } = {}) {
+  const term = norm(q).trim();
+  return photoItems(net).filter((p) =>
+    (!region || p.region === region) && (!term || p.search.includes(term)));
+}
+
+function galleryTab(net, { q = "", region = null } = {}) {
+  const all = photoItems(net);
+  const shown = filterPhotos(net, { q, region });
+  const regions = [...new Set(all.map((p) => p.region))].filter(Boolean)
+    .map((id) => [id, net.regions[id]?.name || id]);
+  const card = (p, i) => `
+    <li>
+      <button type="button" class="shot" data-photo="${i}" aria-label="${esc(p.name)}">
+        <img class="shot-img" data-src="${esc(p.photo.thumb || p.photo.src)}" alt="" decoding="async" width="360" height="225">
+        <span class="shot-name">${esc(p.name)}</span>
+        <span class="shot-sub">${esc(p.sub)}${p.lines.length ? ` · ${esc(p.lines[0].name)}` : ""}</span>
+      </button>
+    </li>`;
+  return `
+    <div class="gal-filters">
+      <input type="search" class="gal-q" value="${esc(q)}" placeholder="Filtra por tren, línea, compañía o ciudad…"
+             aria-label="Filtrar fotos" data-action="gallery-q" autocomplete="off">
+      <div class="chips">
+        <button class="chip" data-gallery-region="" aria-pressed="${!region}">Todo Japón</button>
+        ${regions.map(([id, name]) =>
+          `<button class="chip" data-gallery-region="${esc(id)}" aria-pressed="${region === id}">${esc(name)}</button>`).join("")}
+      </div>
+    </div>
+    <p class="muted gal-count">${shown.length} de ${all.length} fotos${region || q ? " (filtradas)" : ""}. Todas son de Wikimedia Commons, con su autor y licencia en cada una.</p>
+    ${shown.length
+      ? `<ul class="gallery">${shown.map(card).join("")}</ul>`
+      : `<p class="empty">Ninguna foto coincide con ese filtro.</p>`}`;
+}
+
+/** Ficha grande de una foto, para la ventana emergente. */
+export function photoLightbox(p, pos, total) {
+  const credito = p.photo.author
+    ? `Foto de ${esc(p.photo.author)} · <a href="${esc(p.photo.license_url || p.photo.source)}" target="_blank" rel="noopener">${esc(p.photo.license || "Wikimedia Commons")}</a>`
+    : "Wikimedia Commons";
+  return `
+    <div class="lb-inner" role="dialog" aria-modal="true" aria-label="${esc(p.name)}">
+      <button type="button" class="lb-close" data-lb="close" aria-label="Cerrar">✕</button>
+      <button type="button" class="lb-nav lb-prev" data-lb="prev" aria-label="Anterior">‹</button>
+      <button type="button" class="lb-nav lb-next" data-lb="next" aria-label="Siguiente">›</button>
+      <figure class="lb-fig">
+        <img src="${esc(p.photo.src)}" alt="${esc(p.name)}">
+        <figcaption>
+          <strong>${esc(p.name)}</strong> <span class="ja">${esc(p.ja || "")}</span>
+          <span class="lb-sub">${esc(p.sub)}${p.lines.length ? ` · ${p.lines.map((l) => badge(l)).join(" ")}` : ""}</span>
+          <span class="lb-credit">${credito} · <a href="${esc(p.href)}" data-lb="go">Ver ficha →</a> · ${pos} de ${total}</span>
+        </figcaption>
+      </figure>
+    </div>`;
 }
 
 function factCard(f) {

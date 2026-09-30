@@ -77,6 +77,65 @@ export function allFacts(net) {
   return out;
 }
 
+const placeCache = new WeakMap();
+/** Ciudades (las del menú «Ir a…») por las que pasa cada línea, para poder buscar «kioto». */
+function placesByLine(net) {
+  const hecho = placeCache.get(net);
+  if (hecho) return hecho;
+  const byLine = new Map();
+  for (const l of net.lines) {
+    const names = new Set();
+    for (const id of l.stations) {
+      const st = net.stations[id];
+      if (!st) continue;
+      for (const p of net.places) {
+        const [[sur, oeste], [norte, este]] = p.bounds;
+        if (st.lat >= sur && st.lat <= norte && st.lon >= oeste && st.lon <= este) names.add(p.name);
+      }
+    }
+    byLine.set(l.id, [...names]);
+  }
+  placeCache.set(net, byLine);
+  return byLine;
+}
+
+const photoCache = new WeakMap();
+/** Todas las fotos que hay, en un formato común: hoy trenes, mañana estaciones y líneas.
+ *  Cada elemento lleva ya su texto de búsqueda para filtrar sin recalcular nada. */
+export function photoItems(net) {
+  const hecho = photoCache.get(net);
+  if (hecho) return hecho;
+  const ciudades = placesByLine(net);
+  const items = [];
+  const push = (kind, id, href, name, ja, sub, region, photo, lines, extra = []) => {
+    items.push({
+      kind, id, href, name, ja, sub, region, photo, lines,
+      search: norm([name, ja, sub, ...lines.flatMap((l) => [l.name, l.ja, l.code, ...(ciudades.get(l.id) || [])]),
+                    ...extra].join(" ")),
+    });
+  };
+  for (const t of net.trains) {
+    if (!t.photo) continue;
+    const ids = t.lines.length ? t.lines : (t.history || []).map((h) => h.line);
+    const lines = [...new Set(ids)].map((id) => net.lineById.get(id)).filter(Boolean);
+    const region = trainRegion(net, t);
+    push("train", t.id, `#/train/${t.id}`, t.name, t.ja || "", net.operators[t.operator]?.name || "",
+         region, t.photo, lines, [net.regions[region]?.name || ""]);
+  }
+  for (const s of net.stationList) {
+    if (!s.photo) continue;
+    const lines = s.lineIds.map((id) => net.lineById.get(id)).filter(Boolean);
+    push("station", s.id, `#/station/${s.id}`, s.name, s.ja, "Estación", groupOf(lines[0] || {}), s.photo, lines);
+  }
+  for (const l of net.lines) {
+    if (!l.photo) continue;
+    push("line", l.id, `#/line/${l.id}`, l.name, l.ja, net.operators[l.operator]?.name || "",
+         groupOf(l), l.photo, [l]);
+  }
+  photoCache.set(net, items);
+  return items;
+}
+
 export function search(net, query, limit = 8) {
   const q = norm(query).trim();
   if (!q) return [];

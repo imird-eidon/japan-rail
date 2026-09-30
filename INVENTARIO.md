@@ -4,7 +4,7 @@
 
 ## Resumen
 
-**Progreso de la hoja de ruta: 149 de 180 tareas.**
+**Progreso de la hoja de ruta: 150 de 181 tareas.**
 
 | Región | Líneas | Estaciones | Trenes actuales | Trenes históricos |
 |---|--:|--:|--:|--:|
@@ -1030,7 +1030,7 @@ _Lo que hace único el tren en Japón, más allá del día a día._
 - [ ] Prolongación del Hokkaidō Shinkansen a Sapporo (en obras)
 - [ ] Prolongación del Hokuriku Shinkansen de Tsuruga a Ōsaka (proyecto)
 
-### Fase 6 · Funciones de la web (7/15)
+### Fase 6 · Funciones de la web (8/16)
 
 **Fluidez (hecho)**
 
@@ -1043,6 +1043,7 @@ _Lo que hace único el tren en Japón, más allá del día a día._
 
 **Explorar**
 
+- [x] Galería de fotos con buscador (tren, línea, compañía, ciudad o región)
 - [ ] Buscar ruta entre dos estaciones (transbordos, líneas)
 - [ ] Línea del tiempo: aperturas de líneas y trenes por año
 - [ ] Récords: estación más profunda, línea más antigua, tren más rápido…

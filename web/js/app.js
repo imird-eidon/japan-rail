@@ -1,9 +1,10 @@
 // Punto de entrada: carga datos, crea el mapa y enruta por el hash de la URL.
-//   #/                 inicio (líneas)      #/stations  #/trains
+//   #/                 inicio (líneas)      #/stations  #/trains  #/fotos
 //   #/line/<id>        #/station/<id>       #/train/<id>
 import { loadNetwork, allFacts, search, esc } from "./data.js";
 import { createMap } from "./map.js";
-import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon, allStations, stationRows } from "./views.js";
+import { homeView, lineView, stationView, trainView, notFoundView, badge, trainIcon, allStations, stationRows,
+         filterPhotos, photoLightbox } from "./views.js";
 
 const panel = document.getElementById("panel");
 const input = document.getElementById("search");
@@ -14,6 +15,7 @@ const ui = {
   hidden: new Set(readStored(HIDDEN_KEY, [])),
   facts: [],
   factIndex: 0,
+  gallery: { q: "", region: null },   // filtros de la galería de fotos
 };
 
 function readStored(key, fallback) {
@@ -67,8 +69,9 @@ function route({ initial = false } = {}) {
     html = t ? trainView(net, t) : notFoundView("ese tren");
     if (t) { mapFocused = true; map.focusLines(t.lines.length ? t.lines : (t.history || []).map((h) => h.line), { animate: !initial }); document.title = `${t.name} · Japan Rail Explorer`; }
   } else {
-    const tab = ["stations", "trains"].includes(type) ? type : "lines";
-    html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length] });
+    const tab = ["stations", "trains", "fotos"].includes(type) ? type : "lines";
+    html = homeView(net, { tab, hidden: ui.hidden, fact: ui.facts[ui.factIndex % ui.facts.length],
+                           gallery: ui.gallery });
     if (initial || mapFocused) map.overview({ fit: initial });   // entre pestañas el mapa no cambia
     mapFocused = false;
     document.title = "Japan Rail Explorer";
@@ -127,9 +130,14 @@ function verTodasLasEstaciones(btn) {
 
 // ------------------------------------------------------------------ acciones del panel
 panel.addEventListener("click", (e) => {
-  const btn = e.target.closest("[data-action]");
+  const btn = e.target.closest("[data-action], [data-photo], [data-gallery-region]");
   if (!btn) return;
-  if (btn.dataset.action === "ver-todas") {
+  if (btn.dataset.photo !== undefined) {
+    abrirFoto(Number(btn.dataset.photo));
+  } else if (btn.dataset.galleryRegion !== undefined) {
+    ui.gallery.region = btn.dataset.galleryRegion || null;
+    repintarGaleria();
+  } else if (btn.dataset.action === "ver-todas") {
     verTodasLasEstaciones(btn);
   } else if (btn.dataset.action === "next-fact") {
     ui.factIndex++;
@@ -145,6 +153,75 @@ panel.addEventListener("click", (e) => {
     btn.setAttribute("aria-pressed", String(!ui.hidden.has(g)));
     panel.querySelector(`.group[data-group="${CSS.escape(g)}"]`)?.classList.toggle("is-hidden", ui.hidden.has(g));
   }
+});
+
+// ------------------------------------------------------------------ galería de fotos
+let lightbox = null, fotos = [], fotoIndex = 0;
+
+function repintarGaleria() {
+  const view = panel.querySelector(".view");
+  if (!view) return;
+  const foco = panel.querySelector(".gal-q") === document.activeElement;
+  const pos = panel.querySelector(".gal-q")?.selectionStart;
+  view.innerHTML = homeView(net, { tab: "fotos", hidden: ui.hidden,
+                                   fact: ui.facts[ui.factIndex % ui.facts.length], gallery: ui.gallery });
+  lazyImages();
+  if (foco) {   // al escribir en el filtro, el cursor se queda donde estaba
+    const input = panel.querySelector(".gal-q");
+    input?.focus();
+    if (pos != null) input?.setSelectionRange(pos, pos);
+  }
+}
+
+function abrirFoto(i) {
+  fotos = filterPhotos(net, ui.gallery);
+  if (!fotos.length) return;
+  fotoIndex = Math.max(0, Math.min(i, fotos.length - 1));
+  if (!lightbox) {
+    lightbox = document.createElement("div");
+    lightbox.className = "lightbox";
+    lightbox.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-lb]");
+      if (!b) { if (e.target === lightbox) cerrarFoto(); return; }
+      if (b.dataset.lb === "close") cerrarFoto();
+      else if (b.dataset.lb === "prev") moverFoto(-1);
+      else if (b.dataset.lb === "next") moverFoto(1);
+      else if (b.dataset.lb === "go") cerrarFoto();
+    });
+    document.body.appendChild(lightbox);
+  }
+  pintarFoto();
+  document.body.classList.add("con-lightbox");
+}
+
+function pintarFoto() {
+  lightbox.innerHTML = photoLightbox(fotos[fotoIndex], fotoIndex + 1, fotos.length);
+  lightbox.querySelector(".lb-close")?.focus();
+}
+
+function moverFoto(paso) {
+  fotoIndex = (fotoIndex + paso + fotos.length) % fotos.length;
+  pintarFoto();
+}
+
+function cerrarFoto() {
+  lightbox?.remove();
+  lightbox = null;
+  document.body.classList.remove("con-lightbox");
+}
+
+document.addEventListener("keydown", (e) => {
+  if (!lightbox) return;
+  if (e.key === "Escape") cerrarFoto();
+  else if (e.key === "ArrowLeft") moverFoto(-1);
+  else if (e.key === "ArrowRight") moverFoto(1);
+});
+
+panel.addEventListener("input", (e) => {
+  if (!e.target.matches(".gal-q")) return;
+  ui.gallery.q = e.target.value;
+  clearTimeout(panel._galTimer);
+  panel._galTimer = setTimeout(repintarGaleria, 120);   // esperar a que pare de escribir
 });
 
 // ------------------------------------------------------------------ buscador

@@ -1093,6 +1093,10 @@
      "title": "Explorar",
      "items": [
       {
+       "task": "Galería de fotos con buscador (tren, línea, compañía, ciudad o región)",
+       "done": true
+      },
+      {
        "task": "Buscar ruta entre dos estaciones (transbordos, líneas)"
       },
       {
