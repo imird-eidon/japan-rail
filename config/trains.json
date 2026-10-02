@@ -1,3305 +1,4179 @@
 [
-  {
-    "id": "e235-0",
-    "name": "Serie E235",
-    "operator": "jr-east",
-    "introduced": 2015,
-    "builder": "J-TREC / JR East (Niitsu)",
-    "cars": 11,
-    "summary": "El tren actual de la Yamanote. Desde enero de 2020 es el único que circula por el anillo.",
-    "facts": [
-      "Sustituye muchos carteles de papel por pantallas digitales sobre puertas y portaequipajes.",
-      "Monitoriza en tiempo real el estado del tren y de la vía para anticipar averías."
-    ],
-    "wiki": "E235 series"
-  },
-  {
-    "id": "e235-1000",
-    "name": "Serie E235-1000",
-    "operator": "jr-east",
-    "introduced": 2020,
-    "builder": "J-TREC / JR East (Niitsu)",
-    "cars": 15,
-    "summary": "Versión del E235 para las líneas Yokosuka y Sōbu rápido, con coches Green de dos pisos (primera clase).",
-    "photo_file": "File:JRE Series-E235-1000 J12.jpg",
-    "runs": [
-      {
-        "line": "sobu-rapid"
-      },
-      {
-        "line": "yokosuka"
-      }
-    ]
-  },
-  {
-    "id": "e233-0",
-    "name": "Serie E233-0",
-    "operator": "jr-east",
-    "introduced": 2006,
-    "builder": "Tōkyū Car / JR East (Niitsu)",
-    "summary": "El naranja de la línea Chūō. Fue el primer modelo de la gran familia E233.",
-    "facts": [
-      "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado."
-    ],
-    "wiki": "E233 series",
-    "photo_file": "File:JRE Chuo-Rapid-Line Series-E233-0.jpg",
-    "runs": [
-      {
-        "line": "chuo-rapid"
-      },
-      {
-        "line": "ome"
-      }
-    ]
-  },
-  {
-    "id": "e233-1000",
-    "name": "Serie E233-1000",
-    "operator": "jr-east",
-    "introduced": 2007,
-    "builder": "Tōkyū Car / JR East (Niitsu)",
-    "cars": 10,
-    "summary": "Variante azul celeste para la Keihin-Tōhoku.",
-    "photo_file": "File:JRE Series-E233-1000 121.jpg"
-  },
-  {
-    "id": "e233-7000",
-    "name": "Serie E233-7000",
-    "operator": "jr-east",
-    "introduced": 2013,
-    "cars": 10,
-    "summary": "Variante verde de las líneas Saikyō y Kawagoe.",
-    "photo_file": "File:JRE Series-E233-7000 108.jpg"
-  },
-  {
-    "id": "e231-500",
-    "name": "Serie E231-500",
-    "operator": "jr-east",
-    "introduced": 2002,
-    "cars": 10,
-    "summary": "Fue el tren de la Yamanote entre 2002 y 2020. Hoy circula, pintado de amarillo, por la Chūō-Sōbu.",
-    "history": [
-      {
-        "line": "yamanote",
-        "years": [
-          2002,
-          2020
-        ]
-      }
-    ],
-    "facts": [
-      "Entre 2002 y 2020 fue el tren de la Yamanote, en verde; al llegar los E235 pasó a la Chūō-Sōbu pintado de amarillo."
-    ],
-    "photo_file": "File:JRE Series-E231-500 A525.jpg",
-    "runs": [
-      {
-        "line": "chuo-sobu"
-      }
-    ]
-  },
-  {
-    "id": "tm-1000",
-    "name": "Tokyo Metro serie 1000",
-    "operator": "tokyo-metro",
-    "introduced": 2012,
-    "cars": 6,
-    "summary": "Homenaje a los primeros trenes de 1927: color limón y techo de aspecto retro.",
-    "facts": [
-      "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927."
-    ],
-    "wiki": "Tokyo Metro 1000 series"
-  },
-  {
-    "id": "tm-2000",
-    "name": "Tokyo Metro serie 2000",
-    "operator": "tokyo-metro",
-    "introduced": 2019,
-    "builder": "Hitachi",
-    "cars": 6,
-    "summary": "Rojo con la onda senoidal clásica de la Marunouchi y ventanas redondeadas.",
-    "wiki": "Tokyo Metro 2000 series"
-  },
-  {
-    "id": "tm-13000",
-    "name": "Tokyo Metro serie 13000",
-    "operator": "tokyo-metro",
-    "introduced": 2017,
-    "cars": 7,
-    "summary": "Coches de 20 m (antes eran de 18 m), lo que permitió reducir el tren de 8 a 7 coches.",
-    "wiki": "Tokyo Metro 13000 series"
-  },
-  {
-    "id": "tm-15000",
-    "name": "Tokyo Metro serie 15000",
-    "operator": "tokyo-metro",
-    "introduced": 2010,
-    "cars": 10,
-    "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai.",
-    "wiki": "Tokyo Metro 15000 series",
-    "runs": [
-      {
-        "line": "toyo-rapid"
-      }
-    ]
-  },
-  {
-    "id": "tm-16000",
-    "name": "Tokyo Metro serie 16000",
-    "operator": "tokyo-metro",
-    "introduced": 2010,
-    "cars": 10,
-    "summary": "Motores de imanes permanentes, muy eficientes. Lleva servicios directos hacia Odakyū y JR Jōban.",
-    "wiki": "Tokyo Metro 16000 series"
-  },
-  {
-    "id": "tm-17000",
-    "name": "Tokyo Metro serie 17000",
-    "operator": "tokyo-metro",
-    "introduced": 2021,
-    "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón.",
-    "wiki": "Tokyo Metro 17000 series",
-    "runs": [
-      {
-        "line": "seibu-yurakucho"
-      }
-    ]
-  },
-  {
-    "id": "tm-18000",
-    "name": "Tokyo Metro serie 18000",
-    "operator": "tokyo-metro",
-    "introduced": 2021,
-    "builder": "Kinki Sharyō",
-    "cars": 10,
-    "summary": "El tren de la Hanzōmon, con franja morada.",
-    "wiki": "Tokyo Metro 18000 series"
-  },
-  {
-    "id": "tm-9000",
-    "name": "Tokyo Metro serie 9000",
-    "operator": "tokyo-metro",
-    "introduced": 1991,
-    "cars": 6,
-    "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio.",
-    "wiki": "Tokyo Metro 9000 series",
-    "runs": [
-      {
-        "line": "saitama-rapid"
-      }
-    ]
-  },
-  {
-    "id": "toei-5500",
-    "name": "Toei serie 5500",
-    "operator": "toei",
-    "introduced": 2018,
-    "cars": 8,
-    "summary": "Su frontal se inspira en el kumadori, el maquillaje del teatro kabuki; recorre las líneas de Keisei y Keikyū hasta los aeropuertos.",
-    "wiki": "Toei 5500 series"
-  },
-  {
-    "id": "toei-6500",
-    "name": "Toei serie 6500",
-    "operator": "toei",
-    "introduced": 2022,
-    "cars": 8,
-    "summary": "Trenes de 8 coches (antes 6) para la línea Mita.",
-    "wiki": "Toei 6500 series"
-  },
-  {
-    "id": "toei-10-300",
-    "name": "Toei serie 10-300",
-    "operator": "toei",
-    "introduced": 2005,
-    "cars": 10,
-    "summary": "Basado en el E231 de JR East, adaptado al ancho de 1372 mm de la línea Shinjuku.",
-    "wiki": "Toei 10-300 series"
-  },
-  {
-    "id": "toei-12-000",
-    "name": "Toei serie 12-000",
-    "operator": "toei",
-    "introduced": 1991,
-    "cars": 8,
-    "summary": "Tren de motor lineal para los túneles pequeños de la Ōedo. La serie 12-600 lo va sustituyendo.",
-    "wiki": "Toei 12-000 series"
-  },
-  {
-    "id": "toei-8900",
-    "name": "Toei serie 8900",
-    "operator": "toei",
-    "introduced": 2015,
-    "builder": "Alna Sharyō",
-    "cars": 1,
-    "summary": "Tranvía de un solo coche para el Tokyo Sakura Tram, en varios colores.",
-    "wiki": "Toei 8900 series"
-  },
-  {
-    "id": "yurikamome-7300",
-    "name": "Yurikamome serie 7300",
-    "operator": "yurikamome",
-    "introduced": 2014,
-    "cars": 6,
-    "summary": "Automático, sin conductor y sobre ruedas de goma. Los asientos delanteros tienen vista directa a la vía.",
-    "wiki": "Yurikamome 7300 series",
-    "photo_file": "File:Yurikamome Series7300-33.jpg"
-  },
-  {
-    "id": "monorail-10000",
-    "name": "Tokyo Monorail serie 10000",
-    "operator": "tokyo-monorail",
-    "introduced": 2014,
-    "builder": "Hitachi",
-    "cars": 6,
-    "summary": "Monorraíl moderno con espacio para el equipaje, pensado para los pasajeros de Haneda.",
-    "wiki": "Tokyo Monorail 10000 series"
-  },
-  {
-    "id": "twr-70-000",
-    "name": "TWR serie 70-000",
-    "operator": "twr",
-    "introduced": 1996,
-    "cars": 10,
-    "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East.",
-    "wiki": "TWR 70-000 series"
-  },
-  {
-    "id": "sk-n700s",
-    "name": "Serie N700S",
-    "operator": "jr-central",
-    "introduced": 2020,
-    "cars": 16,
-    "wiki": "N700S Series Shinkansen",
-    "summary": "El Shinkansen más moderno del Tōkaidō y el San'yō. La «S» viene de «Supreme».",
-    "facts": [
-      "Lleva baterías que le permiten moverse por sí mismo a baja velocidad si se corta la corriente, algo inédito en un tren de alta velocidad.",
-      "Su diseño permite montar trenes de 8, 12 o 16 coches con los mismos componentes."
-    ],
-    "runs": [
-      {
-        "line": "tokaido-shinkansen"
-      },
-      {
-        "line": "sanyo-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-n700a",
-    "name": "Serie N700A",
-    "operator": "jr-central",
-    "introduced": 2013,
-    "cars": 16,
-    "wiki": "N700 Series Shinkansen",
-    "summary": "Versión mejorada («Advanced») del N700 de 2007, con la caja que se inclina en las curvas.",
-    "facts": [
-      "La caja se inclina hasta 1 grado para tomar las curvas del Tōkaidō más rápido sin molestar al pasajero."
-    ],
-    "runs": [
-      {
-        "line": "tokaido-shinkansen"
-      },
-      {
-        "line": "sanyo-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-n700-7000",
-    "name": "Serie N700 7000/8000",
-    "operator": "jr-west",
-    "introduced": 2011,
-    "cars": 8,
-    "wiki": "N700 Series Shinkansen",
-    "summary": "Versión de 8 coches de JR West y JR Kyushu para los Mizuho y Sakura entre Shin-Ōsaka y Kagoshima-Chūō.",
-    "runs": [
-      {
-        "line": "sanyo-shinkansen"
-      },
-      {
-        "line": "kyushu-shinkansen"
-      }
-    ],
-    "photo_file": "File:Series-N700-7000-S8 Sakura-540.jpg"
-  },
-  {
-    "id": "sk-n700s-8000",
-    "name": "Serie N700S 8000 (Kamome)",
-    "operator": "jr-kyushu",
-    "introduced": 2022,
-    "cars": 6,
-    "wiki": "Nishi Kyushu Shinkansen",
-    "summary": "N700S de 6 coches, blanco y rojo, exclusivo del Nishi-Kyūshū Shinkansen.",
-    "runs": [
-      {
-        "line": "nishi-kyushu-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-800",
-    "name": "Serie 800",
-    "operator": "jr-kyushu",
-    "introduced": 2004,
-    "cars": 6,
-    "wiki": "800 Series Shinkansen",
-    "summary": "El Shinkansen de JR Kyushu para los Tsubame, con un interior lleno de madera y detalles artesanales.",
-    "runs": [
-      {
-        "line": "kyushu-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-500",
-    "name": "Serie 500",
-    "operator": "jr-west",
-    "introduced": 1997,
-    "cars": 8,
-    "wiki": "500 Series Shinkansen",
-    "summary": "Su morro de 15 m y su cuerpo tubular lo convirtieron en un icono. Hoy hace servicios Kodama en el San'yō.",
-    "facts": [
-      "Fue el primer tren japonés en servicio comercial a 300 km/h (1997).",
-      "Entre 2015 y 2018 una unidad circuló decorada como el robot Eva-01 de «Evangelion»."
-    ],
-    "runs": [
-      {
-        "line": "sanyo-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-e5",
-    "name": "Serie E5",
-    "operator": "jr-east",
-    "introduced": 2011,
-    "cars": 10,
-    "wiki": "E5 Series Shinkansen",
-    "summary": "El verde de los Hayabusa: 320 km/h en el Tōhoku y llega hasta Hokkaidō.",
-    "facts": [
-      "Tiene «GranClass», una clase por encima de la primera (Green), con solo 18 asientos."
-    ],
-    "runs": [
-      {
-        "line": "tohoku-shinkansen"
-      },
-      {
-        "line": "hokkaido-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-h5",
-    "name": "Serie H5",
-    "operator": "jr-hokkaido",
-    "introduced": 2016,
-    "cars": 10,
-    "wiki": "H5 Series Shinkansen",
-    "summary": "Gemelo del E5 construido para JR Hokkaido; se distingue por la franja morada (lavanda).",
-    "runs": [
-      {
-        "line": "tohoku-shinkansen"
-      },
-      {
-        "line": "hokkaido-shinkansen"
-      }
-    ],
-    "photo_file": "File:JRH Series-H5 H1.jpg"
-  },
-  {
-    "id": "sk-e6",
-    "name": "Serie E6",
-    "operator": "jr-east",
-    "introduced": 2013,
-    "cars": 7,
-    "wiki": "E6 Series Shinkansen",
-    "summary": "El rojo de los Komachi. Es un tren más estrecho para caber en las vías del mini-shinkansen de Akita.",
-    "facts": [
-      "Su diseño es de Ken Okuyama, el diseñador de coches que trabajó para Ferrari."
-    ],
-    "runs": [
-      {
-        "line": "tohoku-shinkansen",
-        "from": "東京",
-        "to": "盛岡"
-      },
-      {
-        "line": "akita-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-e8",
-    "name": "Serie E8",
-    "operator": "jr-east",
-    "introduced": 2024,
-    "cars": 7,
-    "wiki": "E8 Series Shinkansen",
-    "summary": "El nuevo tren de los Tsubasa (Yamagata Shinkansen), en servicio desde marzo de 2024; sustituye a los E3.",
-    "runs": [
-      {
-        "line": "tohoku-shinkansen",
-        "from": "東京",
-        "to": "福島"
-      },
-      {
-        "line": "yamagata-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "sk-e7",
-    "name": "Serie E7 / W7",
-    "operator": "jr-east",
-    "introduced": 2014,
-    "cars": 12,
-    "wiki": "E7 Series Shinkansen",
-    "summary": "Azul y cobre, para el Hokuriku y el Jōetsu. JR West tiene su versión idéntica, la W7.",
-    "facts": [
-      "En 2019 un tifón inundó el depósito de Nagano y se perdieron 10 trenes E7/W7, un tercio de la flota."
-    ],
-    "runs": [
-      {
-        "line": "tohoku-shinkansen",
-        "from": "東京",
-        "to": "大宮"
-      },
-      {
-        "line": "joetsu-shinkansen"
-      },
-      {
-        "line": "hokuriku-shinkansen"
-      }
-    ]
-  },
-  {
-    "id": "jnr-101",
-    "name": "Serie 101",
-    "operator": "jnr",
-    "introduced": 1957,
-    "retired": 2003,
-    "wiki": "101 series",
-    "summary": "El primer tren de cercanías «de nuevas prestaciones» de JNR: motores repartidos por todo el tren en vez de coches tirados por locomotora.",
-    "history": [
-      {
-        "line": "chuo-rapid",
-        "years": [
-          1957,
-          1985
-        ]
-      },
-      {
-        "line": "chuo-sobu",
-        "years": [
-          1963,
-          1988
-        ]
-      },
-      {
-        "line": "yamanote",
-        "years": [
-          1961,
-          1968
-        ]
-      },
-      {
-        "line": "keihin-tohoku",
-        "years": [
-          1970,
-          1978
-        ]
-      }
-    ],
-    "photo_file": "File:101 series sagamiko sp.(1).jpg"
-  },
-  {
-    "id": "jnr-103",
-    "name": "Serie 103",
-    "operator": "jnr",
-    "introduced": 1963,
-    "wiki": "103 series",
-    "summary": "El tren de cercanías más fabricado de Japón: más de 3.400 coches entre 1963 y 1984.",
-    "facts": [
-      "En la Yamanote vestía el verde amarillento «uguisu» que hoy sigue identificando a la línea.",
-      "De las líneas que recoge esta web desapareció en 2001, pero JR West aún lo usa en algunas líneas de Kansai."
-    ],
-    "history": [
-      {
-        "line": "yamanote",
-        "years": [
-          1963,
-          1988
-        ]
-      },
-      {
-        "line": "keihin-tohoku",
-        "years": [
-          1965,
-          1998
-        ]
-      },
-      {
-        "line": "chuo-rapid",
-        "years": [
-          1973,
-          1983
-        ]
-      },
-      {
-        "line": "chuo-sobu",
-        "years": [
-          1979,
-          2001
-        ]
-      },
-      {
-        "line": "saikyo",
-        "years": [
-          1985,
-          1990
-        ]
-      },
-      {
-        "line": "osaka-loop",
-        "years": [
-          1969,
-          2017
-        ]
-      }
-    ],
-    "photo_file": "File:JNR103 198508 Uguisudani.jpg"
-  },
-  {
-    "id": "jnr-201",
-    "name": "Serie 201",
-    "operator": "jnr",
-    "introduced": 1979,
-    "retired": 2025,
-    "wiki": "201 series",
-    "summary": "Primer tren de cercanías de JNR con control «chopper», que ahorra energía. Fue el naranja de la Chūō hasta 2010.",
-    "history": [
-      {
-        "line": "chuo-rapid",
-        "years": [
-          1979,
-          2010
-        ]
-      },
-      {
-        "line": "chuo-sobu",
-        "years": [
-          1982,
-          2001
-        ]
-      },
-      {
-        "line": "osaka-loop",
-        "years": [
-          null,
-          2019
-        ]
-      }
-    ],
-    "photo_file": "File:Chuo 201 series set 43 Mitaka 20030222.jpg"
-  },
-  {
-    "id": "jnr-205",
-    "name": "Serie 205",
-    "operator": "jnr",
-    "introduced": 1985,
-    "wiki": "205 series",
-    "summary": "Primer tren de JNR de acero inoxidable ligero: sin pintar, solo con una franja del color de la línea. Estrenó en la Yamanote en 1985.",
-    "facts": [
-      "Muchos 205 retirados en Tokio siguen circulando en Yakarta (Indonesia)."
-    ],
-    "history": [
-      {
-        "line": "yamanote",
-        "years": [
-          1985,
-          2005
-        ]
-      },
-      {
-        "line": "saikyo",
-        "years": [
-          1989,
-          2016
-        ]
-      },
-      {
-        "line": "keihin-tohoku",
-        "years": [
-          1989,
-          1996
-        ]
-      },
-      {
-        "line": "chuo-sobu",
-        "years": [
-          1989,
-          2001
-        ]
-      }
-    ],
-    "photo_file": "File:Yamanote Line 205 series set 30 Tabata Station 20030202.JPG"
-  },
-  {
-    "id": "jr-209",
-    "name": "Serie 209",
-    "operator": "jr-east",
-    "introduced": 1993,
-    "wiki": "209 series",
-    "summary": "Diseñado con el lema «la mitad de peso, la mitad de precio, la mitad de vida útil».",
-    "history": [
-      {
-        "line": "keihin-tohoku",
-        "years": [
-          1993,
-          2010
-        ]
-      },
-      {
-        "line": "chuo-sobu",
-        "years": [
-          1998,
-          2019
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tm-01",
-    "name": "Tokyo Metro serie 01",
-    "operator": "tokyo-metro",
-    "introduced": 1984,
-    "retired": 2017,
-    "wiki": "Tokyo Metro 01 series",
-    "summary": "El tren de la Ginza durante 33 años, hasta marzo de 2017.",
-    "history": [
-      {
-        "line": "ginza",
-        "years": [
-          1984,
-          2017
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tm-500m",
-    "name": "Serie 300/400/500 (Marunouchi)",
-    "operator": "tokyo-metro",
-    "introduced": 1954,
-    "retired": 1996,
-    "summary": "Los trenes rojos originales de la Marunouchi, con la onda blanca que aún lleva la línea.",
-    "facts": [
-      "Tras retirarse en 1996, muchos coches viajaron a Argentina y circularon por la línea B del subte de Buenos Aires."
-    ],
-    "history": [
-      {
-        "line": "marunouchi",
-        "years": [
-          1954,
-          1996
-        ]
-      }
-    ],
-    "photo_file": "File:TRTA Marunouchi Line 500 783 Kokkai-gijido-mae 19770625.jpg"
-  },
-  {
-    "id": "tm-02",
-    "name": "Tokyo Metro serie 02",
-    "operator": "tokyo-metro",
-    "introduced": 1988,
-    "retired": 2024,
-    "wiki": "Tokyo Metro 02 series",
-    "summary": "El tren de la Marunouchi de 1988 a 2024, sustituido por la serie 2000.",
-    "history": [
-      {
-        "line": "marunouchi",
-        "years": [
-          1988,
-          2024
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tm-3000",
-    "name": "Serie 3000 (Hibiya)",
-    "operator": "tokyo-metro",
-    "introduced": 1961,
-    "retired": 1994,
-    "wiki": "TRTA 3000 series",
-    "summary": "Estrenó la Hibiya en 1961. Tras retirarse en 1994, varios coches siguieron en el ferrocarril Nagano Dentetsu.",
-    "history": [
-      {
-        "line": "hibiya",
-        "years": [
-          1961,
-          1994
-        ]
-      }
-    ],
-    "photo_file": "File:TRTA 3000 series set 3030 Naka-Meguro 19770625.jpg"
-  },
-  {
-    "id": "tm-03",
-    "name": "Tokyo Metro serie 03",
-    "operator": "tokyo-metro",
-    "introduced": 1988,
-    "retired": 2020,
-    "wiki": "Tokyo Metro 03 series",
-    "summary": "El tren de la Hibiya entre 1988 y 2020; algunos coches tenían 5 puertas por lado para agilizar la subida.",
-    "history": [
-      {
-        "line": "hibiya",
-        "years": [
-          1988,
-          2020
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tm-5000",
-    "name": "Serie 5000 (Tōzai)",
-    "operator": "tokyo-metro",
-    "introduced": 1964,
-    "retired": 2014,
-    "wiki": "Tokyo Metro 5000 series",
-    "summary": "Estrenó la Tōzai en 1964 y circuló en ella hasta 2007; varios acabaron en Yakarta.",
-    "history": [
-      {
-        "line": "tozai",
-        "years": [
-          1964,
-          2007
-        ]
-      }
-    ],
-    "photo_file": "File:Tokyo Metro Tozai Line 20050122.jpg"
-  },
-  {
-    "id": "tm-6000",
-    "name": "Tokyo Metro serie 6000",
-    "operator": "tokyo-metro",
-    "introduced": 1971,
-    "retired": 2018,
-    "wiki": "Tokyo Metro 6000 series",
-    "summary": "Con su frontal asimétrico fue un diseño muy avanzado para 1971. Circuló 47 años por la Chiyoda y muchos siguen en Yakarta.",
-    "history": [
-      {
-        "line": "chiyoda",
-        "years": [
-          1971,
-          2018
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tm-7000",
-    "name": "Tokyo Metro serie 7000",
-    "operator": "tokyo-metro",
-    "introduced": 1974,
-    "retired": 2022,
-    "wiki": "Tokyo Metro 7000 series",
-    "summary": "Estrenó la Yūrakuchō en 1974 y circuló hasta 2022.",
-    "history": [
-      {
-        "line": "yurakucho",
-        "years": [
-          1974,
-          2022
-        ]
-      }
-    ]
-  },
-  {
-    "id": "toei-5300",
-    "name": "Toei serie 5300",
-    "operator": "toei",
-    "introduced": 1991,
-    "retired": 2023,
-    "wiki": "Toei 5300 series",
-    "summary": "El tren del Asakusa entre 1991 y 2023, con servicios directos a Keisei y Keikyū.",
-    "history": [
-      {
-        "line": "asakusa",
-        "years": [
-          1991,
-          2023
-        ]
-      }
-    ]
-  },
-  {
-    "id": "toei-6000",
-    "name": "Toei serie 6000",
-    "operator": "toei",
-    "introduced": 1968,
-    "retired": 1999,
-    "wiki": "Toei 6000 series",
-    "summary": "Los primeros trenes del Mita (1968–1999). Después siguieron en otras líneas de Japón y en Indonesia.",
-    "history": [
-      {
-        "line": "mita",
-        "years": [
-          1968,
-          1999
-        ]
-      }
-    ]
-  },
-  {
-    "id": "toei-10-000",
-    "name": "Toei serie 10-000",
-    "operator": "toei",
-    "introduced": 1978,
-    "retired": 2018,
-    "wiki": "Toei 10-000 series",
-    "summary": "Estrenó la línea Shinjuku en 1978 y circuló hasta febrero de 2018.",
-    "history": [
-      {
-        "line": "shinjuku",
-        "years": [
-          1978,
-          2018
-        ]
-      }
-    ]
-  },
-  {
-    "id": "toei-7000",
-    "name": "Toei serie 7000 (tranvía)",
-    "operator": "toei",
-    "introduced": 1954,
-    "retired": 2017,
-    "wiki": "Toei 7000 series",
-    "summary": "Tranvías de la red Toden desde 1954; el último dejó de circular en junio de 2017.",
-    "history": [
-      {
-        "line": "arakawa",
-        "years": [
-          1954,
-          2017
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-0",
-    "name": "Serie 0",
-    "operator": "jnr",
-    "introduced": 1964,
-    "retired": 2008,
-    "wiki": "0 Series Shinkansen",
-    "summary": "El «tren bala» original, con su morro redondeado azul y blanco.",
-    "facts": [
-      "Se fabricaron 3.216 coches en 22 años.",
-      "Dejó el Tōkaidō en 1999, pero siguió en el San'yō hasta 2008."
-    ],
-    "history": [
-      {
-        "line": "tokaido-shinkansen",
-        "years": [
-          1964,
-          1999
-        ]
-      },
-      {
-        "line": "sanyo-shinkansen",
-        "years": [
-          1972,
-          2008
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-100",
-    "name": "Serie 100",
-    "operator": "jnr",
-    "introduced": 1985,
-    "retired": 2012,
-    "wiki": "100 Series Shinkansen",
-    "summary": "Estrenó los coches de dos pisos en el Shinkansen, con comedor y vistas.",
-    "history": [
-      {
-        "line": "tokaido-shinkansen",
-        "years": [
-          1985,
-          2003
-        ]
-      },
-      {
-        "line": "sanyo-shinkansen",
-        "years": [
-          1985,
-          2012
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-300",
-    "name": "Serie 300",
-    "operator": "jr-central",
-    "introduced": 1992,
-    "retired": 2012,
-    "wiki": "300 Series Shinkansen",
-    "summary": "Con él nació el Nozomi en 1992, a 270 km/h.",
-    "history": [
-      {
-        "line": "tokaido-shinkansen",
-        "years": [
-          1992,
-          2012
-        ]
-      },
-      {
-        "line": "sanyo-shinkansen",
-        "years": [
-          1993,
-          2012
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-200",
-    "name": "Serie 200",
-    "operator": "jnr",
-    "introduced": 1982,
-    "retired": 2013,
-    "wiki": "200 Series Shinkansen",
-    "summary": "El primer Shinkansen del este (1982), preparado para la nieve del Tōhoku y el Jōetsu.",
-    "history": [
-      {
-        "line": "tohoku-shinkansen",
-        "years": [
-          1982,
-          2011
-        ]
-      },
-      {
-        "line": "joetsu-shinkansen",
-        "years": [
-          1982,
-          2013
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-e1",
-    "name": "Serie E1 «Max»",
-    "operator": "jr-east",
-    "introduced": 1994,
-    "retired": 2012,
-    "wiki": "E1 Series Shinkansen",
-    "summary": "El primer Shinkansen de dos pisos en todos sus coches, pensado para los viajeros diarios a Tokio.",
-    "history": [
-      {
-        "line": "tohoku-shinkansen",
-        "years": [
-          1994,
-          1999
-        ]
-      },
-      {
-        "line": "joetsu-shinkansen",
-        "years": [
-          1994,
-          2012
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-e4",
-    "name": "Serie E4 «Max»",
-    "operator": "jr-east",
-    "introduced": 1997,
-    "retired": 2021,
-    "wiki": "E4 Series Shinkansen",
-    "summary": "Dos pisos; acoplando dos trenes llegaba a 1.634 plazas, un récord mundial en alta velocidad.",
-    "history": [
-      {
-        "line": "tohoku-shinkansen",
-        "years": [
-          1997,
-          2012
-        ]
-      },
-      {
-        "line": "joetsu-shinkansen",
-        "years": [
-          2001,
-          2021
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sk-400",
-    "name": "Serie 400",
-    "operator": "jr-east",
-    "introduced": 1992,
-    "retired": 2010,
-    "wiki": "400 Series Shinkansen",
-    "summary": "El primer tren mini-shinkansen (1992), plateado, para los Tsubasa del Yamagata.",
-    "history": [
-      {
-        "line": "yamagata-shinkansen",
-        "years": [
-          1992,
-          2010
-        ]
-      },
-      {
-        "line": "tohoku-shinkansen",
-        "years": [
-          1992,
-          2010
-        ],
-        "from": "東京",
-        "to": "福島"
-      }
-    ]
-  },
-  {
-    "id": "sk-e3",
-    "name": "Serie E3",
-    "operator": "jr-east",
-    "introduced": 1997,
-    "wiki": "E3 Series Shinkansen",
-    "summary": "El primer Komachi (1997). La versión del Yamagata se está sustituyendo por el E8.",
-    "history": [
-      {
-        "line": "akita-shinkansen",
-        "years": [
-          1997,
-          2014
-        ]
-      },
-      {
-        "line": "tohoku-shinkansen",
-        "years": [
-          1997,
-          2014
-        ],
-        "from": "東京",
-        "to": "盛岡"
-      }
-    ]
-  },
-  {
-    "id": "sk-700",
-    "name": "Serie 700",
-    "operator": "jr-central",
-    "introduced": 1999,
-    "wiki": "700 Series Shinkansen",
-    "summary": "Su morro de «pico de pato» fue un icono del Tōkaidō hasta 2020. Sigue en el San'yō.",
-    "runs": [
-      {
-        "line": "sanyo-shinkansen"
-      }
-    ],
-    "history": [
-      {
-        "line": "tokaido-shinkansen",
-        "years": [
-          1999,
-          2020
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ks-10",
-    "name": "Metro de Kioto serie 10",
-    "operator": "kyoto-subway",
-    "introduced": 1981,
-    "cars": 6,
-    "wiki": "Kyoto Municipal Subway 10 series",
-    "summary": "El tren con el que se inauguró la línea Karasuma en 1981. Los más antiguos se están sustituyendo por la serie 20.",
-    "runs": [
-      {
-        "line": "karasuma"
-      }
-    ]
-  },
-  {
-    "id": "ks-20",
-    "name": "Metro de Kioto serie 20",
-    "operator": "kyoto-subway",
-    "introduced": 2022,
-    "cars": 6,
-    "wiki": "Kyoto Municipal Subway 20 series",
-    "summary": "El nuevo tren de la Karasuma (2022). Su diseño se eligió por votación popular.",
-    "facts": [
-      "Gasta alrededor de un 30 % menos de electricidad que la serie 10 a la que sustituye."
-    ],
-    "runs": [
-      {
-        "line": "karasuma"
-      }
-    ]
-  },
-  {
-    "id": "ks-50",
-    "name": "Metro de Kioto serie 50",
-    "operator": "kyoto-subway",
-    "introduced": 1997,
-    "cars": 6,
-    "wiki": "Kyoto Municipal Subway 50 series",
-    "summary": "El tren de la línea Tōzai desde su inauguración en 1997.",
-    "runs": [
-      {
-        "line": "kyoto-tozai"
-      }
-    ]
-  },
-  {
-    "id": "jrw-225",
-    "name": "Serie 225",
-    "operator": "jr-west",
-    "introduced": 2010,
-    "wiki": "225 series",
-    "summary": "El tren de los rápidos especiales (Shin-kaisoku) de JR West, a 130 km/h entre Kioto y Ōsaka.",
-    "runs": [
-      {
-        "line": "jr-kyoto"
-      },
-      {
-        "line": "jr-kobe"
-      },
-      {
-        "line": "biwako"
-      },
-      {
-        "line": "kosei"
-      }
-    ],
-    "facts": [
-      "Se diseñó tras el accidente de Amagasaki de 2005, con la carrocería reforzada para resistir un choque."
-    ]
-  },
-  {
-    "id": "jrw-223",
-    "name": "Serie 223",
-    "operator": "jr-west",
-    "introduced": 1995,
-    "wiki": "223 series",
-    "summary": "Durante años el tren emblema de los rápidos de Kansai; sigue circulando junto al 225.",
-    "runs": [
-      {
-        "line": "jr-kyoto"
-      },
-      {
-        "line": "jr-kobe"
-      },
-      {
-        "line": "biwako"
-      },
-      {
-        "line": "kosei"
-      }
-    ],
-    "facts": [
-      "Con 927 coches construidos, es el tren de cercanías más numeroso de JR West.",
-      "Circula a 130 km/h: por eso los «rápidos especiales» de Kansai compiten de tú a tú con el coche."
-    ]
-  },
-  {
-    "id": "jrw-221",
-    "name": "Serie 221",
-    "operator": "jr-west",
-    "introduced": 1989,
-    "wiki": "221 series",
-    "summary": "El primer tren nuevo de JR West (1989), con grandes ventanales. Habitual en las líneas Nara y Sagano.",
-    "runs": [
-      {
-        "line": "nara-line"
-      },
-      {
-        "line": "sagano"
-      }
-    ]
-  },
-  {
-    "id": "jrw-321",
-    "name": "Serie 321",
-    "operator": "jr-west",
-    "introduced": 2005,
-    "wiki": "321 series",
-    "summary": "Tren de cercanías para los servicios que paran en todas las estaciones de la línea JR Kyōto.",
-    "runs": [
-      {
-        "line": "jr-kyoto"
-      },
-      {
-        "line": "jr-tozai"
-      },
-      {
-        "line": "katamachi"
-      },
-      {
-        "line": "jr-takarazuka"
-      }
-    ],
-    "facts": [
-      "Fue el primer tren de JR West con pantallas de información sobre cada puerta, en 2005."
-    ]
-  },
-  {
-    "id": "keihan-8000",
-    "name": "Keihan serie 8000",
-    "operator": "keihan",
-    "introduced": 1989,
-    "cars": 8,
-    "wiki": "Keihan 8000 series",
-    "summary": "El tren de los expresos limitados de Keihan: coche de dos pisos y, desde 2017, un «Premium Car» con asientos reservados.",
-    "runs": [
-      {
-        "line": "keihan-main"
-      }
-    ]
-  },
-  {
-    "id": "keihan-13000",
-    "name": "Keihan serie 13000",
-    "operator": "keihan",
-    "introduced": 2012,
-    "wiki": "Keihan 13000 series",
-    "summary": "Tren de cercanías moderno de Keihan; consume un 35 % menos que los que sustituyó.",
-    "runs": [
-      {
-        "line": "keihan-uji"
-      },
-      {
-        "line": "keihan-main"
-      }
-    ]
-  },
-  {
-    "id": "hankyu-9300",
-    "name": "Hankyu serie 9300",
-    "operator": "hankyu",
-    "introduced": 2003,
-    "cars": 8,
-    "wiki": "Hankyu 9300 series",
-    "summary": "El tren de los expresos limitados de la línea Hankyu Kyōto, con asientos transversales.",
-    "runs": [
-      {
-        "line": "hankyu-kyoto"
-      }
-    ]
-  },
-  {
-    "id": "hankyu-1300",
-    "name": "Hankyu serie 1300",
-    "operator": "hankyu",
-    "introduced": 2014,
-    "cars": 8,
-    "wiki": "Hankyu 1300 series",
-    "summary": "Tren de cercanías de la línea Kyōto desde 2014, en el granate de siempre.",
-    "runs": [
-      {
-        "line": "hankyu-kyoto"
-      }
-    ]
-  },
-  {
-    "id": "kintetsu-3220",
-    "name": "Kintetsu serie 3220",
-    "operator": "kintetsu",
-    "introduced": 2000,
-    "cars": 6,
-    "wiki": "Kintetsu 3220 series",
-    "summary": "Diseñado para entrar en el metro Karasuma desde la línea Kintetsu Kyōto.",
-    "runs": [
-      {
-        "line": "kintetsu-kyoto"
-      },
-      {
-        "line": "karasuma"
-      }
-    ]
-  },
-  {
-    "id": "kintetsu-19200",
-    "name": "Kintetsu 19200 «Aoniyoshi»",
-    "operator": "kintetsu",
-    "introduced": 2022,
-    "cars": 4,
-    "wiki": "Kintetsu 19200 series",
-    "summary": "Tren turístico violeta y dorado que une Kioto, Nara y Ōsaka desde 2022.",
-    "runs": [
-      {
-        "line": "kintetsu-kyoto"
-      },
-      {
-        "line": "kintetsu-nara"
-      },
-      {
-        "line": "kintetsu-namba"
-      }
-    ],
-    "facts": [
-      "Es el «Aoniyoshi», expreso turístico de 2022 entre Kioto, Nara y Ōsaka.",
-      "Va pintado de morado imperial con motivos de la corte de Nara."
-    ]
-  },
-  {
-    "id": "eizan-900",
-    "name": "Eiden serie 900 «Kirara»",
-    "operator": "eizan",
-    "introduced": 1997,
-    "cars": 2,
-    "summary": "Tren panorámico con ventanales hasta el techo, ideal para el «túnel de arces» del Kurama.",
-    "runs": [
-      {
-        "line": "eizan-kurama"
-      },
-      {
-        "line": "eizan-main",
-        "from": "出町柳",
-        "to": "宝ケ池"
-      }
-    ],
-    "photo_file": "File:Eiden Kirara passing the maple tree tunnel.jpg"
-  },
-  {
-    "id": "sagano-torokko",
-    "name": "Tren Torokko (Sagano)",
-    "operator": "sagano",
-    "introduced": 1991,
-    "cars": 5,
-    "wiki": "Sagano Scenic Railway",
-    "summary": "Una locomotora diésel DE10 y cinco coches de estilo antiguo, uno de ellos totalmente abierto («The Rich»).",
-    "runs": [
-      {
-        "line": "sagano-scenic"
-      }
-    ]
-  },
-  {
-    "id": "keihan-3000",
-    "name": "Keihan serie 3000 (1971)",
-    "operator": "keihan",
-    "introduced": 1971,
-    "retired": 2013,
-    "wiki": "Keihan 3000 series (1971)",
-    "summary": "El expreso limitado clásico de Keihan: tenía coches con televisión («terebi-kā») y, desde 1995, un coche de dos pisos.",
-    "history": [
-      {
-        "line": "keihan-main",
-        "years": [
-          1971,
-          2013
-        ]
-      }
-    ]
-  },
-  {
-    "id": "hankyu-6300",
-    "name": "Hankyu serie 6300",
-    "operator": "hankyu",
-    "introduced": 1975,
-    "wiki": "Hankyu 6300 series",
-    "summary": "El expreso limitado de la línea Hankyu Kyōto entre 1975 y 2009; ganó el premio Blue Ribbon en 1976.",
-    "history": [
-      {
-        "line": "hankyu-kyoto",
-        "years": [
-          1975,
-          2009
-        ]
-      }
-    ]
-  },
-  {
-    "id": "eizan-hiei",
-    "name": "Eiden «Hiei» (serie 700)",
-    "operator": "eizan",
-    "introduced": 2018,
-    "cars": 1,
-    "photo_file": "File:Eizan Series700R-732 Hiei.jpg",
-    "summary": "Tren de diseño con un gran marco ovalado en el frontal, inspirado en la naturaleza mística de los montes Hiei y Kurama. Ganó el premio Laurel de los aficionados al tren.",
-    "runs": [
-      {
-        "line": "eizan-main"
-      }
-    ]
-  },
-  {
-    "id": "e233-5000",
-    "name": "Serie E233-5000",
-    "operator": "jr-east",
-    "introduced": 2010,
-    "cars": 10,
-    "wiki": "E233 series",
-    "summary": "La versión roja de la línea Keiyō.",
-    "runs": [
-      {
-        "line": "keiyo"
-      }
-    ],
-    "photo_file": "File:JR East E233-5000 Keiyo Line.JPG"
-  },
-  {
-    "id": "e233-2000",
-    "name": "Serie E233-2000",
-    "operator": "jr-east",
-    "introduced": 2009,
-    "cars": 10,
-    "summary": "Versión más estrecha, adaptada al gálibo del metro Chiyoda, por el que entra desde la Jōban.",
-    "runs": [
-      {
-        "line": "joban-local"
-      },
-      {
-        "line": "chiyoda"
-      }
-    ],
-    "photo_file": "File:Joban kanko line E233-2000.jpg"
-  },
-  {
-    "id": "e233-3000",
-    "name": "Serie E233-3000",
-    "operator": "jr-east",
-    "introduced": 2008,
-    "summary": "Tren de media distancia con coches Green de dos pisos, para Tōkaidō, Utsunomiya y Takasaki.",
-    "runs": [
-      {
-        "line": "tokaido-jt"
-      },
-      {
-        "line": "utsunomiya"
-      },
-      {
-        "line": "takasaki"
-      }
-    ],
-    "photo_file": "File:Tokaido-Line-Series-E233-3000.jpg"
-  },
-  {
-    "id": "e233-6000",
-    "name": "Serie E233-6000",
-    "operator": "jr-east",
-    "introduced": 2014,
-    "cars": 8,
-    "summary": "El tren verde claro de la línea Yokohama.",
-    "runs": [
-      {
-        "line": "yokohama-line"
-      }
-    ],
-    "photo_file": "File:JRE Series-E233-6000 H028.jpg"
-  },
-  {
-    "id": "e233-8000",
-    "name": "Serie E233-8000",
-    "operator": "jr-east",
-    "introduced": 2014,
-    "cars": 6,
-    "summary": "El tren amarillo y naranja de la línea Nambu.",
-    "runs": [
-      {
-        "line": "nambu"
-      }
-    ],
-    "photo_file": "File:E233-8000 N2 Yako Station 20160116.JPG"
-  },
-  {
-    "id": "e231-0",
-    "name": "Serie E231-0",
-    "operator": "jr-east",
-    "introduced": 2000,
-    "summary": "Cercanías de la familia E231 que hoy circula por las líneas Jōban (rápido) y Musashino.",
-    "runs": [
-      {
-        "line": "joban-rapid"
-      },
-      {
-        "line": "musashino"
-      }
-    ],
-    "photo_file": "File:E231-0 Series Musashino Line of JR East.jpg"
-  },
-  {
-    "id": "e231-1000",
-    "name": "Serie E231-1000",
-    "operator": "jr-east",
-    "introduced": 2000,
-    "summary": "Tren de media distancia con coches Green de dos pisos; fue el primero de la familia en las líneas del norte.",
-    "runs": [
-      {
-        "line": "utsunomiya"
-      },
-      {
-        "line": "takasaki"
-      },
-      {
-        "line": "tokaido-jt"
-      },
-      {
-        "line": "shonan-shinjuku"
-      }
-    ],
-    "photo_file": "File:Series-E231 Tokaido-Yokosuka-Line.jpg"
-  },
-  {
-    "id": "e531",
-    "name": "Serie E531",
-    "operator": "jr-east",
-    "introduced": 2005,
-    "wiki": "E531 series",
-    "summary": "Tren de media distancia de la Jōban, capaz de funcionar con corriente continua y alterna.",
-    "runs": [
-      {
-        "line": "joban-rapid"
-      }
-    ]
-  },
-  {
-    "id": "tokyu-5000",
-    "name": "Tōkyū serie 5000",
-    "operator": "tokyu",
-    "introduced": 2002,
-    "wiki": "Tokyu 5000 series (2002)",
-    "summary": "El tren más numeroso de Tōkyū, basado en el E231 de JR East. Circula por el Den-en-toshi, el Tōyoko y el Meguro.",
-    "runs": [
-      {
-        "line": "tokyu-denentoshi"
-      },
-      {
-        "line": "tokyu-toyoko"
-      },
-      {
-        "line": "minatomirai"
-      },
-      {
-        "line": "tokyu-meguro"
-      }
-    ]
-  },
-  {
-    "id": "tokyu-2020",
-    "name": "Tōkyū serie 2020",
-    "operator": "tokyu",
-    "introduced": 2018,
-    "cars": 10,
-    "wiki": "Tokyu 2020 series",
-    "summary": "El tren blanco del Den-en-toshi desde 2018; también entra en el metro Hanzōmon.",
-    "runs": [
-      {
-        "line": "tokyu-denentoshi"
-      },
-      {
-        "line": "hanzomon"
-      }
-    ]
-  },
-  {
-    "id": "tokyu-3020",
-    "name": "Tōkyū serie 3020",
-    "operator": "tokyu",
-    "introduced": 2019,
-    "cars": 8,
-    "summary": "Versión del 2020 para la línea Meguro, que comparte con las líneas Namboku y Mita.",
-    "runs": [
-      {
-        "line": "tokyu-meguro"
-      },
-      {
-        "line": "tokyu-shin-yokohama"
-      }
-    ],
-    "photo_file": "File:Tokyu-Series3020-3821.jpg"
-  },
-  {
-    "id": "tokyu-1000",
-    "name": "Tōkyū serie 1000",
-    "operator": "tokyu",
-    "introduced": 1988,
-    "cars": 3,
-    "wiki": "Tokyu 1000 series",
-    "summary": "Trenes cortos de tres coches para las líneas Ikegami y Tamagawa.",
-    "runs": [
-      {
-        "line": "tokyu-ikegami"
-      },
-      {
-        "line": "tokyu-tamagawa"
-      }
-    ]
-  },
-  {
-    "id": "tokyu-300",
-    "name": "Tōkyū serie 300 (Setagaya)",
-    "operator": "tokyu",
-    "introduced": 1999,
-    "cars": 2,
-    "wiki": "Tokyu 300 series",
-    "summary": "Tranvías de dos coches articulados, cada uno de un color.",
-    "runs": [
-      {
-        "line": "tokyu-setagaya"
-      }
-    ]
-  },
-  {
-    "id": "romancecar",
-    "name": "Romancecar GSE (serie 70000)",
-    "operator": "odakyu",
-    "introduced": 2018,
-    "cars": 7,
-    "wiki": "Odakyu 70000 series",
-    "summary": "El Romancecar actual, rojo, con asientos panorámicos delante del conductor: el maquinista va en una cabina elevada.",
-    "facts": [
-      "Ganó el premio Blue Ribbon de los aficionados al tren en 2019."
-    ],
-    "runs": [
-      {
-        "line": "odakyu-odawara"
-      }
-    ]
-  },
-  {
-    "id": "odakyu-5000",
-    "name": "Odakyū serie 5000",
-    "operator": "odakyu",
-    "introduced": 2020,
-    "cars": 10,
-    "wiki": "Odakyu 5000 series (2019)",
-    "summary": "El tren de cercanías más nuevo de Odakyū, con coches más anchos.",
-    "runs": [
-      {
-        "line": "odakyu-odawara"
-      },
-      {
-        "line": "odakyu-enoshima"
-      }
-    ]
-  },
-  {
-    "id": "odakyu-4000",
-    "name": "Odakyū serie 4000",
-    "operator": "odakyu",
-    "introduced": 2007,
-    "cars": 10,
-    "wiki": "Odakyu 4000 series",
-    "summary": "Basado en el E233 de JR East; entra en el metro Chiyoda y, desde 2016, llega por él hasta la línea Jōban.",
-    "runs": [
-      {
-        "line": "odakyu-odawara"
-      },
-      {
-        "line": "chiyoda"
-      },
-      {
-        "line": "joban-local"
-      }
-    ]
-  },
-  {
-    "id": "keio-5000",
-    "name": "Keiō serie 5000",
-    "operator": "keio",
-    "introduced": 2017,
-    "cars": 10,
-    "wiki": "Keio 5000 series (2017)",
-    "summary": "Sus asientos giran: laterales en hora punta y hacia delante para el «Keiō Liner» con plaza reservada.",
-    "runs": [
-      {
-        "line": "keio"
-      },
-      {
-        "line": "shinjuku"
-      },
-      {
-        "line": "keio-takao"
-      },
-      {
-        "line": "keio-sagamihara"
-      },
-      {
-        "line": "keio-new"
-      }
-    ]
-  },
-  {
-    "id": "keio-1000",
-    "name": "Keiō serie 1000",
-    "operator": "keio",
-    "introduced": 1996,
-    "cars": 5,
-    "wiki": "Keio 1000 series",
-    "summary": "El tren del Inokashira, con su frontal en uno de siete colores del «arcoíris».",
-    "runs": [
-      {
-        "line": "keio-inokashira"
-      }
-    ]
-  },
-  {
-    "id": "seibu-001",
-    "name": "Seibu 001 «Laview»",
-    "operator": "seibu",
-    "introduced": 2019,
-    "cars": 8,
-    "wiki": "Seibu 001 series",
-    "summary": "Expreso limitado plateado, casi esférico en el frontal, con ventanas gigantes; Ikebukuro–Chichibu.",
-    "facts": [
-      "Ganó el premio Blue Ribbon en 2020."
-    ],
-    "runs": [
-      {
-        "line": "seibu-ikebukuro"
-      }
-    ]
-  },
-  {
-    "id": "seibu-40000",
-    "name": "Seibu serie 40000",
-    "operator": "seibu",
-    "introduced": 2017,
-    "cars": 10,
-    "wiki": "Seibu 40000 series",
-    "summary": "Asientos giratorios para el servicio con plaza reservada «S-Train»; entra en el metro Yūrakuchō y Fukutoshin.",
-    "runs": [
-      {
-        "line": "seibu-ikebukuro"
-      },
-      {
-        "line": "seibu-shinjuku"
-      },
-      {
-        "line": "seibu-yurakucho"
-      }
-    ]
-  },
-  {
-    "id": "seibu-10000",
-    "name": "Seibu 10000 «New Red Arrow»",
-    "operator": "seibu",
-    "introduced": 1993,
-    "cars": 7,
-    "wiki": "Seibu 10000 series",
-    "summary": "Expreso limitado de la Seibu Shinjuku (servicio «Koedo» a Kawagoe).",
-    "runs": [
-      {
-        "line": "seibu-shinjuku"
-      }
-    ],
-    "history": [
-      {
-        "line": "seibu-ikebukuro",
-        "years": [
-          1994,
-          2020
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tobu-500",
-    "name": "Tōbu 500 «Revaty»",
-    "operator": "tobu",
-    "introduced": 2017,
-    "cars": 3,
-    "wiki": "Tobu 500 series",
-    "summary": "Expreso limitado de tres coches que se acopla y desacopla para ir a varios destinos.",
-    "facts": [
-      "Ganó el premio Laurel en 2018."
-    ],
-    "runs": [
-      {
-        "line": "tobu-skytree"
-      }
-    ]
-  },
-  {
-    "id": "spacia-x",
-    "name": "Tōbu N100 «SPACIA X»",
-    "operator": "tobu",
-    "introduced": 2023,
-    "cars": 6,
-    "wiki": "Tobu N100 series",
-    "summary": "El expreso de lujo de Asakusa a Nikkō y Kinugawa (2023), con cafetería y un compartimento privado en el extremo.",
-    "runs": [
-      {
-        "line": "tobu-skytree"
-      }
-    ]
-  },
-  {
-    "id": "tobu-70000",
-    "name": "Tōbu serie 70000",
-    "operator": "tobu",
-    "introduced": 2017,
-    "cars": 7,
-    "wiki": "Tobu 70000 series",
-    "summary": "Hermano del Tokyo Metro 13000: circula por la Skytree y entra en el metro Hibiya.",
-    "runs": [
-      {
-        "line": "tobu-skytree"
-      },
-      {
-        "line": "hibiya"
-      }
-    ]
-  },
-  {
-    "id": "tobu-50000",
-    "name": "Tōbu serie 50000",
-    "operator": "tobu",
-    "introduced": 2005,
-    "cars": 10,
-    "wiki": "Tobu 50000 series",
-    "summary": "El primer tren de aluminio de Tōbu; circula por la Tōjō y entra en los metros Yūrakuchō y Fukutoshin.",
-    "runs": [
-      {
-        "line": "tobu-tojo"
-      },
-      {
-        "line": "fukutoshin"
-      }
-    ]
-  },
-  {
-    "id": "keikyu-1000",
-    "name": "Keikyū serie N1000",
-    "operator": "keikyu",
-    "introduced": 2002,
-    "wiki": "Keikyu N1000 series",
-    "summary": "El tren rojo más numeroso de Keikyū; llega por el metro Asakusa hasta la red Keisei.",
-    "runs": [
-      {
-        "line": "keikyu-main"
-      },
-      {
-        "line": "keikyu-airport"
-      },
-      {
-        "line": "asakusa"
-      },
-      {
-        "line": "keikyu-kurihama"
-      },
-      {
-        "line": "keikyu-zushi"
-      },
-      {
-        "line": "keikyu-daishi"
-      }
-    ]
-  },
-  {
-    "id": "keikyu-2100",
-    "name": "Keikyū serie 2100",
-    "operator": "keikyu",
-    "introduced": 1998,
-    "cars": 8,
-    "wiki": "Keikyu 2100 series",
-    "summary": "Expreso con asientos transversales para los «Kaitoku».",
-    "facts": [
-      "Sus motores, de Siemens, tocaban una escala musical al arrancar: lo llamaban el «tren que canta»."
-    ],
-    "runs": [
-      {
-        "line": "keikyu-main"
-      }
-    ]
-  },
-  {
-    "id": "skyliner",
-    "name": "Keisei AE «Skyliner»",
-    "operator": "keisei",
-    "introduced": 2010,
-    "cars": 8,
-    "wiki": "Keisei AE series (2009)",
-    "summary": "Une Ueno con el aeropuerto de Narita en unos 40 minutos, a 160 km/h por la Narita Sky Access.",
-    "facts": [
-      "Lo diseñó Kansai Yamamoto, el diseñador de moda; ganó el premio Blue Ribbon en 2011."
-    ],
-    "runs": [
-      {
-        "line": "keisei-main"
-      },
-      {
-        "line": "hokuso"
-      }
-    ]
-  },
-  {
-    "id": "keisei-3100",
-    "name": "Keisei serie 3100",
-    "operator": "keisei",
-    "introduced": 2019,
-    "cars": 8,
-    "wiki": "Keisei 3100 series",
-    "summary": "El tren del «Access Express»: une Haneda y Narita por el metro Asakusa, con espacio para maletas.",
-    "runs": [
-      {
-        "line": "keisei-main"
-      },
-      {
-        "line": "keisei-oshiage"
-      },
-      {
-        "line": "asakusa"
-      },
-      {
-        "line": "hokuso"
-      }
-    ]
-  },
-  {
-    "id": "tx-3000",
-    "name": "Tsukuba Express TX-3000",
-    "operator": "mir",
-    "introduced": 2020,
-    "cars": 6,
-    "wiki": "TX-3000 series",
-    "summary": "El tren más nuevo de la Tsukuba Express, preparado para corriente continua y alterna.",
-    "runs": [
-      {
-        "line": "tsukuba-express"
-      }
-    ]
-  },
-  {
-    "id": "sotetsu-20000",
-    "name": "Sōtetsu serie 20000",
-    "operator": "sotetsu",
-    "introduced": 2018,
-    "cars": 10,
-    "wiki": "Sotetsu 20000 series",
-    "summary": "En azul «Yokohama Navy Blue»; lleva los servicios directos hacia Tōkyū.",
-    "runs": [
-      {
-        "line": "sotetsu"
-      },
-      {
-        "line": "tokyu-toyoko"
-      },
-      {
-        "line": "tokyu-meguro"
-      },
-      {
-        "line": "sotetsu-shin-yokohama"
-      },
-      {
-        "line": "tokyu-shin-yokohama"
-      },
-      {
-        "line": "sotetsu-izumino"
-      }
-    ],
-    "facts": [
-      "Nació para el enlace directo de Sōtetsu con el centro de Tokio, por vías de otras compañías."
-    ]
-  },
-  {
-    "id": "sotetsu-12000",
-    "name": "Sōtetsu serie 12000",
-    "operator": "sotetsu",
-    "introduced": 2019,
-    "cars": 10,
-    "wiki": "Sotetsu 12000 series",
-    "summary": "Basado en el E233 de JR East, para los servicios directos Sōtetsu–JR hasta Shinjuku.",
-    "runs": [
-      {
-        "line": "sotetsu"
-      },
-      {
-        "line": "saikyo"
-      },
-      {
-        "line": "sotetsu-shin-yokohama"
-      }
-    ]
-  },
-  {
-    "id": "yokohama-3000",
-    "name": "Metro de Yokohama serie 3000",
-    "operator": "yokohama-subway",
-    "introduced": 1992,
-    "cars": 6,
-    "wiki": "Yokohama Municipal Subway 3000 series",
-    "summary": "El tren de la línea Azul, en varias versiones (A, N, R, S, V) entre 1992 y 2017.",
-    "runs": [
-      {
-        "line": "yokohama-blue"
-      }
-    ]
-  },
-  {
-    "id": "yokohama-4000",
-    "name": "Metro de Yokohama serie 4000",
-    "operator": "yokohama-subway",
-    "introduced": 2022,
-    "cars": 6,
-    "wiki": "Yokohama Municipal Subway 4000 series",
-    "summary": "El nuevo tren de la línea Azul (2022).",
-    "runs": [
-      {
-        "line": "yokohama-blue"
-      }
-    ]
-  },
-  {
-    "id": "yokohama-10000",
-    "name": "Metro de Yokohama serie 10000",
-    "operator": "yokohama-subway",
-    "introduced": 2008,
-    "cars": 4,
-    "wiki": "Yokohama Municipal Subway 10000 series",
-    "summary": "Tren de motor lineal y pequeño gálibo para la línea Verde.",
-    "runs": [
-      {
-        "line": "yokohama-green"
-      }
-    ]
-  },
-  {
-    "id": "tokyu-5000-1954",
-    "name": "Tōkyū serie 5000 «Aogaeru»",
-    "operator": "tokyu",
-    "introduced": 1954,
-    "retired": 1986,
-    "wiki": "Tokyu 5000 series (1954)",
-    "summary": "La «rana verde» (aogaeru): un tren ligero, verde y redondeado que modernizó Tōkyū en los años 50.",
-    "facts": [
-      "Durante años uno de sus coches estuvo expuesto en la plaza Hachikō de Shibuya como punto de encuentro."
-    ],
-    "history": [
-      {
-        "line": "tokyu-toyoko",
-        "years": [
-          1954,
-          null
-        ]
-      },
-      {
-        "line": "tokyu-meguro",
-        "years": [
-          null,
-          1986
-        ]
-      }
-    ]
-  },
-  {
-    "id": "romancecar-lse",
-    "name": "Romancecar LSE (serie 7000)",
-    "operator": "odakyu",
-    "introduced": 1980,
-    "retired": 2018,
-    "wiki": "Odakyu 7000 series LSE",
-    "summary": "Romancecar articulado de 1980 con asientos panorámicos delante; ganó el Blue Ribbon en 1981.",
-    "history": [
-      {
-        "line": "odakyu-odawara",
-        "years": [
-          1980,
-          2018
-        ]
-      }
-    ]
-  },
-  {
-    "id": "romancecar-hise",
-    "name": "Romancecar HiSE (serie 10000)",
-    "operator": "odakyu",
-    "introduced": 1987,
-    "retired": 2012,
-    "wiki": "Odakyu 10000 series HiSE",
-    "summary": "Romancecar de piso alto (High-decker) para ver mejor el paisaje.",
-    "history": [
-      {
-        "line": "odakyu-odawara",
-        "years": [
-          1987,
-          2012
-        ]
-      }
-    ]
-  },
-  {
-    "id": "romancecar-vse",
-    "name": "Romancecar VSE (serie 50000)",
-    "operator": "odakyu",
-    "introduced": 2005,
-    "retired": 2023,
-    "wiki": "Odakyu 50000 series VSE",
-    "summary": "El Romancecar blanco con techo abovedado y asientos orientados hacia la ventana; Blue Ribbon 2006.",
-    "history": [
-      {
-        "line": "odakyu-odawara",
-        "years": [
-          2005,
-          2022
-        ]
-      }
-    ]
-  },
-  {
-    "id": "keisei-ae-1972",
-    "name": "Keisei AE (1.er Skyliner)",
-    "operator": "keisei",
-    "introduced": 1973,
-    "retired": 1993,
-    "wiki": "Keisei AE series (1972)",
-    "summary": "El primer Skyliner (1973–1993). Al retirarse, sus bogies y equipos se reutilizaron en los trenes 3400.",
-    "history": [
-      {
-        "line": "keisei-main",
-        "years": [
-          1973,
-          1993
-        ]
-      }
-    ]
-  },
-  {
-    "id": "keikyu-800",
-    "name": "Keikyū serie 800",
-    "operator": "keikyu",
-    "introduced": 1978,
-    "retired": 2019,
-    "wiki": "Keikyu 800 series",
-    "summary": "Tren rojo de puertas anchas para servicios locales; premio Laurel en 1979.",
-    "history": [
-      {
-        "line": "keikyu-main",
-        "years": [
-          1978,
-          2019
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tama-monorail-1000",
-    "name": "Monorraíl de Tama serie 1000",
-    "operator": "tama-monorail",
-    "introduced": 1998,
-    "cars": 4,
-    "photo_file": "File:Tokyo Tama Intercity Monorail 1000 Series 1106F set.jpg",
-    "summary": "El monorraíl de la línea desde su inauguración en 1998.",
-    "runs": [
-      {
-        "line": "tama-monorail"
-      }
-    ]
-  },
-  {
-    "id": "enoden-1000",
-    "name": "Enoden serie 1000",
-    "operator": "enoden",
-    "introduced": 1979,
-    "cars": 2,
-    "photo_file": "File:Enoden Type 1000 at Enoshima Station.jpg",
-    "summary": "El clásico tren verde y crema del Enoden; circula acoplado en parejas junto al mar.",
-    "runs": [
-      {
-        "line": "enoden"
-      }
-    ]
-  },
-  {
-    "id": "shonan-monorail-5000",
-    "name": "Shōnan Monorail serie 5000",
-    "operator": "shonan-monorail",
-    "introduced": 2004,
-    "cars": 3,
-    "photo_file": "File:Shonan-Monorail Series5000-5608.jpg",
-    "summary": "El tren colgante actual, de tres coches, con grandes ventanas delanteras desde las que se ve el trazado.",
-    "runs": [
-      {
-        "line": "shonan-monorail"
-      }
-    ]
-  },
-  {
-    "id": "jrw-323",
-    "name": "Serie 323",
-    "operator": "jr-west",
-    "introduced": 2016,
-    "cars": 8,
-    "wiki": "323 series",
-    "summary": "El tren naranja del anillo de Ōsaka desde 2016; sustituyó a los veteranos 103 y 201.",
-    "facts": [
-      "Tiene solo tres puertas por lado, alineadas con las puertas de andén que se van instalando en el anillo."
-    ],
-    "runs": [
-      {
-        "line": "osaka-loop"
-      }
-    ]
-  },
-  {
-    "id": "haruka",
-    "name": "Serie 281 «Haruka»",
-    "operator": "jr-west",
-    "introduced": 1994,
-    "wiki": "281 series",
-    "summary": "Expreso limitado entre Kioto, Shin-Ōsaka y el aeropuerto de Kansai, desde su apertura en 1994.",
-    "runs": [
-      {
-        "line": "jr-kyoto"
-      },
-      {
-        "line": "hanwa"
-      }
-    ]
-  },
-  {
-    "id": "thunderbird",
-    "name": "Serie 683 «Thunderbird»",
-    "operator": "jr-west",
-    "introduced": 2001,
-    "wiki": "683 series",
-    "summary": "Expreso limitado de Ōsaka y Kioto a Tsuruga por la orilla del lago Biwa (línea Kosei), donde enlaza con el Hokuriku Shinkansen.",
-    "runs": [
-      {
-        "line": "jr-kyoto"
-      },
-      {
-        "line": "kosei"
-      }
-    ]
-  },
-  {
-    "id": "osaka-30000",
-    "name": "Osaka Metro serie 30000",
-    "operator": "osaka-metro",
-    "introduced": 2009,
-    "wiki": "Osaka Metro 30000 series",
-    "summary": "El tren de las líneas Midōsuji y Tanimachi; en la Midōsuji sustituyó a los veteranos serie 10.",
-    "runs": [
-      {
-        "line": "midosuji"
-      },
-      {
-        "line": "tanimachi"
-      }
-    ]
-  },
-  {
-    "id": "osaka-400",
-    "name": "Osaka Metro serie 400",
-    "operator": "osaka-metro",
-    "introduced": 2023,
-    "cars": 6,
-    "wiki": "Osaka Metro 400 series",
-    "summary": "Tren de aspecto futurista para la línea Chūō y la Expo 2025, con algunos asientos transversales.",
-    "runs": [
-      {
-        "line": "chuo-osaka"
-      }
-    ]
-  },
-  {
-    "id": "osaka-66",
-    "name": "Osaka Metro serie 66",
-    "operator": "osaka-metro",
-    "introduced": 1990,
-    "cars": 8,
-    "wiki": "Osaka Municipal Subway 66 series",
-    "summary": "El tren de la Sakaisuji, que comparte vías con Hankyu hasta Kioto.",
-    "runs": [
-      {
-        "line": "sakaisuji"
-      },
-      {
-        "line": "hankyu-senri"
-      }
-    ]
-  },
-  {
-    "id": "osaka-70",
-    "name": "Osaka Metro serie 70",
-    "operator": "osaka-metro",
-    "introduced": 1990,
-    "cars": 4,
-    "wiki": "Osaka Municipal Subway 70 series",
-    "summary": "Tren pequeño de motor lineal para la Nagahori Tsurumi-ryokuchi.",
-    "runs": [
-      {
-        "line": "nagahori"
-      }
-    ]
-  },
-  {
-    "id": "rapit",
-    "name": "Nankai 50000 «Rapi:t»",
-    "operator": "nankai",
-    "introduced": 1994,
-    "cars": 6,
-    "wiki": "Nankai 50000 series",
-    "summary": "El expreso al aeropuerto de Kansai, azul y de morro redondeado, con ventanas ovaladas: parece salido de un anime retro-futurista.",
-    "runs": [
-      {
-        "line": "nankai-main",
-        "from": "なんば",
-        "to": "泉佐野"
-      },
-      {
-        "line": "nankai-airport"
-      }
-    ]
-  },
-  {
-    "id": "nankai-8300",
-    "name": "Nankai serie 8300",
-    "operator": "nankai",
-    "introduced": 2015,
-    "wiki": "Nankai 8300 series",
-    "summary": "Tren de cercanías moderno de Nankai.",
-    "runs": [
-      {
-        "line": "nankai-main"
-      },
-      {
-        "line": "nankai-koya"
-      }
-    ]
-  },
-  {
-    "id": "hanshin-5700",
-    "name": "Hanshin 5700 «Jet Silver»",
-    "operator": "hanshin",
-    "introduced": 2015,
-    "cars": 4,
-    "wiki": "Hanshin 5700 series",
-    "summary": "Tren local de gran aceleración (los «jet cars» de Hanshin arrancan muy rápido para dejar paso a los expresos).",
-    "facts": [
-      "Ganó el premio Blue Ribbon en 2016."
-    ],
-    "runs": [
-      {
-        "line": "hanshin-main"
-      }
-    ]
-  },
-  {
-    "id": "hanshin-1000",
-    "name": "Hanshin serie 1000",
-    "operator": "hanshin",
-    "introduced": 2007,
-    "wiki": "Hanshin 1000 series",
-    "summary": "El tren que une Kōbe y Nara a través de la Hanshin Namba y la red Kintetsu.",
-    "runs": [
-      {
-        "line": "hanshin-main"
-      },
-      {
-        "line": "hanshin-namba"
-      },
-      {
-        "line": "kintetsu-namba"
-      },
-      {
-        "line": "kintetsu-nara"
-      }
-    ]
-  },
-  {
-    "id": "hankyu-1000",
-    "name": "Hankyu serie 1000",
-    "operator": "hankyu",
-    "introduced": 2013,
-    "cars": 8,
-    "wiki": "Hankyu 1000 series",
-    "summary": "Gemelo del 1300 de la línea Kioto, para las líneas Kōbe y Takarazuka; siempre en granate.",
-    "runs": [
-      {
-        "line": "hankyu-kobe"
-      },
-      {
-        "line": "hankyu-takarazuka"
-      }
-    ]
-  },
-  {
-    "id": "hinotori",
-    "name": "Kintetsu 80000 «Hinotori»",
-    "operator": "kintetsu",
-    "introduced": 2020,
-    "cars": 8,
-    "wiki": "Kintetsu 80000 series",
-    "summary": "Expreso de lujo rojo metalizado entre Ōsaka-Namba y Nagoya, con asientos «premium» en los extremos.",
-    "facts": [
-      "Ganó el premio Blue Ribbon en 2021."
-    ],
-    "runs": [
-      {
-        "line": "kintetsu-namba"
-      },
-      {
-        "line": "kintetsu-osaka"
-      }
-    ]
-  },
-  {
-    "id": "shimakaze",
-    "name": "Kintetsu 50000 «Shimakaze»",
-    "operator": "kintetsu",
-    "introduced": 2013,
-    "cars": 6,
-    "wiki": "Kintetsu 50000 series",
-    "summary": "Expreso turístico al santuario de Ise y Kashikojima, con coche cafetería de dos pisos.",
-    "facts": [
-      "Ganó el premio Blue Ribbon en 2014."
-    ],
-    "runs": [
-      {
-        "line": "kintetsu-namba"
-      },
-      {
-        "line": "kintetsu-osaka"
-      }
-    ]
-  },
-  {
-    "id": "osaka-monorail-3000",
-    "name": "Monorraíl de Ōsaka serie 3000",
-    "operator": "osaka-monorail",
-    "introduced": 2018,
-    "cars": 4,
-    "wiki": "Osaka Monorail 3000 series",
-    "summary": "El monorraíl más moderno de la línea, fabricado por Hitachi.",
-    "runs": [
-      {
-        "line": "osaka-monorail"
-      },
-      {
-        "line": "osaka-monorail-saito"
-      }
-    ]
-  },
-  {
-    "id": "hankai-mo161",
-    "name": "Hankai Mo 161",
-    "operator": "hankai",
-    "introduced": 1928,
-    "cars": 1,
-    "summary": "Tranvía de 1928 que sigue en servicio: uno de los más antiguos de Japón que aún lleva pasajeros a diario.",
-    "runs": [
-      {
-        "line": "hankai"
-      }
-    ],
-    "photo_file": "File:Hankai mo161.jpg"
-  },
-  {
-    "id": "kobe-6000",
-    "name": "Metro de Kōbe serie 6000",
-    "operator": "kobe-subway",
-    "introduced": 2019,
-    "cars": 6,
-    "wiki": "Kobe Municipal Subway 6000 series",
-    "summary": "El tren actual de la línea Seishin-Yamate, que sustituyó a los de 1977.",
-    "runs": [
-      {
-        "line": "kobe-seishin"
-      }
-    ]
-  },
-  {
-    "id": "port-liner-2000",
-    "name": "Port Liner serie 2000",
-    "operator": "kobe-new-transit",
-    "introduced": 2006,
-    "cars": 6,
-    "wiki": "Kobe New Transit 2000 series",
-    "summary": "Tren automático que llegó con la prolongación al aeropuerto de Kōbe (2006).",
-    "runs": [
-      {
-        "line": "port-liner"
-      }
-    ]
-  },
-  {
-    "id": "keihan-800",
-    "name": "Keihan serie 800",
-    "operator": "keihan",
-    "introduced": 1997,
-    "cars": 4,
-    "summary": "Tren multiusos: metro en la Tōzai de Kioto, tren de montaña en Ōsakayama y tranvía por las calles de Ōtsu.",
-    "runs": [
-      {
-        "line": "keihan-keishin"
-      },
-      {
-        "line": "kyoto-tozai"
-      }
-    ],
-    "photo_file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg"
-  },
-  {
-    "id": "chiba-monorail-0",
-    "name": "Monorraíl de Chiba serie 0 «Urban Flyer»",
-    "operator": "chiba-monorail",
-    "introduced": 2012,
-    "cars": 2,
-    "summary": "Monorraíl colgante con frontal acristalado desde el que se ve la ciudad por debajo.",
-    "runs": [
-      {
-        "line": "chiba-monorail"
-      },
-      {
-        "line": "chiba-monorail-1"
-      }
-    ],
-    "photo_file": "File:Chiba Urban Monorail 0 series 20120809.jpg"
-  },
-  {
-    "id": "port-liner-8000",
-    "name": "Port Liner serie 8000",
-    "operator": "kobe-new-transit",
-    "introduced": 1981,
-    "retired": 2009,
-    "summary": "El primer tren sin conductor del mundo en servicio comercial regular (1981).",
-    "history": [
-      {
-        "line": "port-liner",
-        "years": [
-          1981,
-          2009
-        ]
-      }
-    ],
-    "photo_file": "File:Port Liner at Sannomiya Station.jpg"
-  },
-  {
-    "id": "nt-300",
-    "name": "Nippori-Toneri Liner serie 300",
-    "operator": "toei",
-    "introduced": 2008,
-    "cars": 5,
-    "photo_file": "File:Nippori-Toneri-Liner Type300-14.jpg",
-    "summary": "El tren automático original de la línea (2008), sobre ruedas de goma.",
-    "runs": [
-      {
-        "line": "nippori-toneri"
-      }
-    ]
-  },
-  {
-    "id": "nt-330",
-    "name": "Nippori-Toneri Liner serie 330",
-    "operator": "toei",
-    "introduced": 2015,
-    "cars": 5,
-    "photo_file": "File:Nippori-Toneri-Liner Type330-39.jpg",
-    "summary": "Versión de 2015 con más puertas y asientos laterales, pensada para la hora punta.",
-    "runs": [
-      {
-        "line": "nippori-toneri"
-      }
-    ]
-  },
-  {
-    "id": "randen-trams",
-    "name": "Tranvías del Randen",
-    "operator": "keifuku",
-    "cars": 1,
-    "photo_file": "File:Keifuku Randen 631 at Arashiyama Station 20110410 (8407859706).jpg",
-    "summary": "Tranvías de un solo coche pintados de morado «Kyō-murasaki»; algunos lucen un aire retro.",
-    "runs": [
-      {
-        "line": "randen-arashiyama"
-      },
-      {
-        "line": "randen-kitano"
-      }
-    ]
-  },
-  {
-    "id": "nagoya-n1000",
-    "name": "Metro de Nagoya serie N1000",
-    "operator": "nagoya-subway",
-    "introduced": 2007,
-    "cars": 6,
-    "wiki": "Nagoya Municipal Subway N1000 series",
-    "summary": "El tren amarillo de la línea Higashiyama.",
-    "runs": [
-      {
-        "line": "nagoya-higashiyama"
-      }
-    ]
-  },
-  {
-    "id": "nagoya-n3000",
-    "name": "Metro de Nagoya serie N3000",
-    "operator": "nagoya-subway",
-    "introduced": 2012,
-    "cars": 6,
-    "summary": "Tren de la línea Tsurumai; el primero de Nagoya con caja de aluminio y acero inoxidable mezclados.",
-    "runs": [
-      {
-        "line": "nagoya-tsurumai"
-      }
-    ],
-    "photo_file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg"
-  },
-  {
-    "id": "meitetsu-2000",
-    "name": "Meitetsu 2000 «μSKY»",
-    "operator": "meitetsu",
-    "introduced": 2004,
-    "cars": 4,
-    "wiki": "Meitetsu 2000 series",
-    "summary": "El expreso rojo al aeropuerto de Centrair, con asientos reservados y sitio para maletas.",
-    "runs": [
-      {
-        "line": "meitetsu-airport"
-      },
-      {
-        "line": "meitetsu-tokoname"
-      },
-      {
-        "line": "meitetsu-main"
-      }
-    ],
-    "facts": [
-      "Es el «μSKY» del aeropuerto de Chūbu: todas sus plazas son reservadas.",
-      "Lleva espacio para maletas en cada coche, pensado para quien va al avión."
-    ]
-  },
-  {
-    "id": "meitetsu-9500",
-    "name": "Meitetsu serie 9500",
-    "operator": "meitetsu",
-    "introduced": 2019,
-    "cars": 4,
-    "summary": "Tren de cercanías reciente de Meitetsu, en el rojo característico de la compañía.",
-    "runs": [
-      {
-        "line": "meitetsu-main"
-      },
-      {
-        "line": "meitetsu-inuyama"
-      }
-    ],
-    "photo_file": "File:Meitetsu Express 9500 series.jpg"
-  },
-  {
-    "id": "meitetsu-7000",
-    "name": "Meitetsu 7000 «Panorama Car»",
-    "operator": "meitetsu",
-    "introduced": 1961,
-    "retired": 2009,
-    "wiki": "Meitetsu 7000 series",
-    "summary": "El tren con mirador panorámico delante del todo: los pasajeros viajaban donde suele ir el maquinista, que iba en una cabina elevada.",
-    "facts": [
-      "Ganó el premio Blue Ribbon en 1962 y circuló casi medio siglo."
-    ],
-    "history": [
-      {
-        "line": "meitetsu-main",
-        "years": [
-          1961,
-          2009
-        ]
-      }
-    ]
-  },
-  {
-    "id": "linimo-100",
-    "name": "Linimo serie 100",
-    "operator": "linimo",
-    "introduced": 2005,
-    "cars": 3,
-    "summary": "Tren de levitación magnética sin conductor: flota unos 8 mm sobre la vía.",
-    "runs": [
-      {
-        "line": "linimo"
-      }
-    ],
-    "photo_file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg"
-  },
-  {
-    "id": "aonami-1000",
-    "name": "Aonami serie 1000",
-    "operator": "aonami",
-    "introduced": 2004,
-    "cars": 4,
-    "summary": "El tren de la línea Aonami, basado en los modelos de JR East.",
-    "runs": [
-      {
-        "line": "aonami"
-      }
-    ],
-    "photo_file": "File:Aonami-Line Type1000-1106.jpg"
-  },
-  {
-    "id": "fukuoka-3000",
-    "name": "Metro de Fukuoka serie 3000",
-    "operator": "fukuoka-subway",
-    "introduced": 2005,
-    "cars": 4,
-    "summary": "Tren de motor lineal de la línea Nanakuma.",
-    "runs": [
-      {
-        "line": "fukuoka-nanakuma"
-      }
-    ],
-    "photo_file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg"
-  },
-  {
-    "id": "fukuoka-2000",
-    "name": "Metro de Fukuoka serie 2000",
-    "operator": "fukuoka-subway",
-    "introduced": 1993,
-    "cars": 6,
-    "summary": "Tren de las líneas Kūkō y Hakozaki; entra también en la línea JR Chikuhi.",
-    "runs": [
-      {
-        "line": "fukuoka-kuko"
-      },
-      {
-        "line": "fukuoka-hakozaki"
-      },
-      {
-        "line": "chikuhi"
-      }
-    ],
-    "photo_file": "File:Fukuokasubway2000.jpg"
-  },
-  {
-    "id": "nishitetsu-9000",
-    "name": "Nishitetsu serie 9000",
-    "operator": "nishitetsu",
-    "introduced": 2017,
-    "cars": 3,
-    "summary": "Tren de cercanías de la línea Tenjin-Ōmuta.",
-    "runs": [
-      {
-        "line": "nishitetsu-omuta"
-      }
-    ],
-    "photo_file": "File:Nishitetsu Series9000-9007.jpg"
-  },
-  {
-    "id": "dencha",
-    "name": "Serie BEC819 «DENCHA»",
-    "operator": "jr-kyushu",
-    "introduced": 2016,
-    "cars": 2,
-    "wiki": "BEC819 series",
-    "summary": "Tren eléctrico de baterías: circula sin catenaria y se recarga en las estaciones electrificadas.",
-    "runs": [
-      {
-        "line": "kashii"
-      }
-    ]
-  },
-  {
-    "id": "sapporo-5000",
-    "name": "Metro de Sapporo serie 5000",
-    "operator": "sapporo-city",
-    "introduced": 1995,
-    "cars": 6,
-    "summary": "El tren de la línea Namboku, sobre neumáticos y con guía central.",
-    "runs": [
-      {
-        "line": "sapporo-namboku"
-      }
-    ],
-    "photo_file": "File:ST SN5000 20061102 001.jpg"
-  },
-  {
-    "id": "sapporo-8000",
-    "name": "Metro de Sapporo serie 8000",
-    "operator": "sapporo-city",
-    "introduced": 1998,
-    "cars": 7,
-    "summary": "El tren de la línea Tōzai.",
-    "runs": [
-      {
-        "line": "sapporo-tozai"
-      }
-    ],
-    "photo_file": "File:Sapporo Subway 8901 20080601 t09 2.jpg"
-  },
-  {
-    "id": "sapporo-9000",
-    "name": "Metro de Sapporo serie 9000",
-    "operator": "sapporo-city",
-    "introduced": 2015,
-    "cars": 4,
-    "summary": "El tren de la línea Tōhō.",
-    "runs": [
-      {
-        "line": "sapporo-toho"
-      }
-    ],
-    "photo_file": "File:Sapporo 9000 9001 Odori 20150521.jpg"
-  },
-  {
-    "id": "sapporo-a1200",
-    "name": "Sapporo A1200 «Polaris»",
-    "operator": "sapporo-city",
-    "introduced": 2013,
-    "cars": 1,
-    "summary": "Tranvía articulado de piso bajo, pensado para la nieve de Sapporo.",
-    "runs": [
-      {
-        "line": "sapporo-tram"
-      }
-    ],
-    "photo_file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg"
-  },
-  {
-    "id": "sendai-2000",
-    "name": "Metro de Sendai serie 2000",
-    "operator": "sendai-subway",
-    "introduced": 2015,
-    "cars": 4,
-    "summary": "Tren de motor lineal de la línea Tōzai.",
-    "runs": [
-      {
-        "line": "sendai-tozai"
-      }
-    ],
-    "photo_file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg"
-  },
-  {
-    "id": "sendai-1000n",
-    "name": "Metro de Sendai serie 1000N",
-    "operator": "sendai-subway",
-    "introduced": 1987,
-    "cars": 4,
-    "summary": "El tren de la línea Namboku desde su inauguración, renovado en los años 2000.",
-    "runs": [
-      {
-        "line": "sendai-namboku"
-      }
-    ],
-    "photo_file": "File:Sendai Subway 1000 series ②.jpg"
-  },
-  {
-    "id": "hiroden-5100",
-    "name": "Hiroden 5100 «Green Mover Max»",
-    "operator": "hiroden",
-    "introduced": 2005,
-    "cars": 1,
-    "summary": "Tranvía articulado de cinco cuerpos y piso bajo, fabricado en Japón.",
-    "runs": [
-      {
-        "line": "hiroden-2"
-      },
-      {
-        "line": "hiroden-1"
-      }
-    ],
-    "photo_file": "File:Hiroden Green Mover T-5100 LRV.jpg"
-  },
-  {
-    "id": "hiroden-1000",
-    "name": "Hiroden 1000 «Green Mover LEX»",
-    "operator": "hiroden",
-    "introduced": 2013,
-    "cars": 1,
-    "summary": "Tranvía de piso bajo más corto, para las líneas del centro.",
-    "runs": [
-      {
-        "line": "hiroden-1"
-      },
-      {
-        "line": "hiroden-3"
-      },
-      {
-        "line": "hiroden-5"
-      }
-    ],
-    "photo_file": "File:Hiroden Series1000-1010.jpg"
-  },
-  {
-    "id": "hiroden-650",
-    "name": "Hiroden serie 650 (supervivientes de la bomba)",
-    "operator": "hiroden",
-    "introduced": 1942,
-    "cars": 1,
-    "summary": "Tranvías de 1942 que sobrevivieron a la bomba atómica de 1945 y que aún circulan en días señalados.",
-    "facts": [
-      "Tres días después del bombardeo, el tranvía de Hiroshima ya había reanudado parte del servicio."
-    ],
-    "runs": [
-      {
-        "line": "hiroden-1"
-      }
-    ],
-    "photo_file": "File:Hiroshima Electric Railway 650 series With A-Bomb Dome.jpg"
-  },
-  {
-    "id": "astram-7000",
-    "name": "Astram serie 7000",
-    "operator": "astram",
-    "introduced": 2015,
-    "cars": 6,
-    "summary": "Tren automático sin conductor de la línea Astram.",
-    "runs": [
-      {
-        "line": "astram"
-      }
-    ],
-    "photo_file": "File:Ōmachi station 2024 2.jpg"
-  },
-  {
-    "id": "kumamoto-9700",
-    "name": "Kumamoto serie 9700",
-    "operator": "kumamoto-city",
-    "introduced": 1997,
-    "cars": 1,
-    "summary": "El primer tranvía de piso bajo de Japón (1997), de diseño alemán.",
-    "runs": [
-      {
-        "line": "kumamoto-a"
-      },
-      {
-        "line": "kumamoto-b"
-      }
-    ],
-    "photo_file": "File:Kumamoto City Tram 9702.jpg"
-  },
-  {
-    "id": "okaden-9200",
-    "name": "Okayama 9200 «MOMO»",
-    "operator": "okaden",
-    "introduced": 2002,
-    "cars": 1,
-    "summary": "Tranvía de piso bajo diseñado por Eiji Mitooka, el del tren de lujo Nanatsuboshi.",
-    "runs": [
-      {
-        "line": "okayama-higashiyama"
-      },
-      {
-        "line": "okayama-seikibashi"
-      }
-    ],
-    "photo_file": "File:Okaden Type9200-9201B.jpg"
-  },
-  {
-    "id": "toyama-portram",
-    "name": "Portram TLR0600",
-    "operator": "toyama-chitetsu",
-    "introduced": 2006,
-    "cars": 1,
-    "summary": "Tranvía de piso bajo con siete colores distintos, uno por unidad.",
-    "runs": [
-      {
-        "line": "toyama-port"
-      }
-    ],
-    "photo_file": "File:Toyama Light Rail TLR0600.JPG"
-  },
-  {
-    "id": "botchan-ressha",
-    "name": "«Botchan Ressha»",
-    "operator": "iyotetsu",
-    "introduced": 2001,
-    "cars": 1,
-    "summary": "Réplica de la locomotora de vapor de 1888 que sale en la novela «Botchan»; en realidad es diésel.",
-    "runs": [
-      {
-        "line": "iyotetsu-loop"
-      }
-    ],
-    "photo_file": "File:Botchan-ressha.jpg"
-  },
-  {
-    "id": "jrh-721",
-    "name": "JR Hokkaidō serie 721",
-    "operator": "jr-hokkaido",
-    "introduced": 1988,
-    "cars": 3,
-    "summary": "El primer tren de cercanías moderno de Sapporo; durante años fue el del rápido «Airport».",
-    "runs": [
-      {
-        "line": "hakodate-s"
-      },
-      {
-        "line": "hakodate-a"
-      },
-      {
-        "line": "chitose"
-      },
-      {
-        "line": "chitose-airport"
-      },
-      {
-        "line": "sassho"
-      }
-    ],
-    "facts": [
-      "Lleva puertas con antecámara y calefacción reforzada: en Hokkaidō el frío manda en el diseño."
-    ],
-    "wiki": "721 series"
-  },
-  {
-    "id": "jrh-731",
-    "name": "JR Hokkaidō serie 731",
-    "operator": "jr-hokkaido",
-    "introduced": 1996,
-    "cars": 3,
-    "summary": "El tren urbano de Sapporo desde 1996, con puertas que sólo se abren si se pulsa el botón.",
-    "runs": [
-      {
-        "line": "hakodate-s"
-      },
-      {
-        "line": "hakodate-a"
-      },
-      {
-        "line": "chitose"
-      },
-      {
-        "line": "sassho"
-      }
-    ],
-    "facts": [
-      "Puede circular acoplado a los diésel de la serie Kiha 201, algo muy poco habitual en el mundo."
-    ],
-    "wiki": "731 series"
-  },
-  {
-    "id": "jrh-733",
-    "name": "JR Hokkaidō serie 733",
-    "operator": "jr-hokkaido",
-    "introduced": 2012,
-    "cars": 3,
-    "summary": "El tren más numeroso del área de Sapporo; la subserie 3000 hace el rápido del aeropuerto.",
-    "runs": [
-      {
-        "line": "hakodate-s"
-      },
-      {
-        "line": "hakodate-a"
-      },
-      {
-        "line": "chitose"
-      },
-      {
-        "line": "chitose-airport"
-      },
-      {
-        "line": "sassho"
-      }
-    ],
-    "facts": [
-      "Las unidades del aeropuerto llevan espacio para maletas junto a las puertas."
-    ],
-    "wiki": "733 series"
-  },
-  {
-    "id": "jrh-735",
-    "name": "JR Hokkaidō serie 735",
-    "operator": "jr-hokkaido",
-    "introduced": 2012,
-    "cars": 3,
-    "summary": "Sólo se construyeron dos trenes: fueron el ensayo en aluminio de JR Hokkaidō.",
-    "runs": [
-      {
-        "line": "hakodate-s"
-      },
-      {
-        "line": "hakodate-a"
-      },
-      {
-        "line": "chitose"
-      }
-    ],
-    "facts": [
-      "Es el primer tren de caja de aluminio de JR Hokkaidō; se construyó en 2010 y entró en servicio en 2012."
-    ],
-    "wiki": "735 series"
-  },
-  {
-    "id": "jrh-kiha201",
-    "name": "JR Hokkaidō Kiha 201",
-    "operator": "jr-hokkaido",
-    "introduced": 1997,
-    "cars": 3,
-    "summary": "Un diésel con prestaciones de tren eléctrico, para las líneas sin catenaria de Sapporo.",
-    "runs": [
-      {
-        "line": "hakodate-s"
-      }
-    ],
-    "facts": [
-      "Se acopla a los eléctricos de la serie 731 y ambos se mandan desde una sola cabina.",
-      "Sólo se construyeron cuatro composiciones."
-    ],
-    "wiki": "KiHa 201 series"
-  },
-  {
-    "id": "jrh-789",
-    "name": "JR Hokkaidō serie 789",
-    "operator": "jr-hokkaido",
-    "introduced": 2002,
-    "cars": 5,
-    "summary": "El tren de los expresos «Kamui» y «Lilac» entre Sapporo y Asahikawa.",
-    "runs": [
-      {
-        "line": "hakodate-a"
-      }
-    ],
-    "facts": [
-      "La serie 0 nació para los trenes del túnel de Seikan; la 1000, de 2007, para el corredor de Sapporo."
-    ],
-    "wiki": "789 series"
-  },
-  {
-    "id": "kokutetsu-711",
-    "name": "Serie 711 «el tren rojo»",
-    "operator": "jr-hokkaido",
-    "introduced": 1968,
-    "retired": true,
-    "cars": 3,
-    "summary": "El primer tren eléctrico de Hokkaidō: 47 años de servicio, de 1968 a 2015.",
-    "history": [
-      {
-        "line": "hakodate-s",
-        "years": [
-          1968,
-          2015
-        ]
-      },
-      {
-        "line": "hakodate-a",
-        "years": [
-          1968,
-          2015
-        ]
-      },
-      {
-        "line": "chitose",
-        "years": [
-          1968,
-          2012
-        ]
-      }
-    ],
-    "facts": [
-      "Se estrenó con la electrificación de Otaru–Takikawa, en 1968, y fue el primer tren de corriente alterna de serie de Japón.",
-      "Hizo su último servicio el 13 de marzo de 2015; su color rojo le dio el apodo de «akadensha»."
-    ],
-    "wiki": "711 series"
-  },
-  {
-    "id": "jrh-785",
-    "name": "JR Hokkaidō serie 785",
-    "operator": "jr-hokkaido",
-    "introduced": 1990,
-    "retired": true,
-    "cars": 4,
-    "summary": "Expreso «Super White Arrow» de Sapporo a Asahikawa; dejó el servicio en 2016.",
-    "history": [
-      {
-        "line": "hakodate-a",
-        "years": [
-          1990,
-          2016
-        ]
-      },
-      {
-        "line": "chitose",
-        "years": [
-          1990,
-          2016
-        ]
-      },
-      {
-        "line": "chitose-airport",
-        "years": [
-          1990,
-          2016
-        ]
-      }
-    ],
-    "facts": [
-      "Terminó su carrera en marzo de 2016, en los trenes del aeropuerto de New Chitose."
-    ],
-    "wiki": "785 series"
-  },
-  {
-    "id": "sapporo-7000",
-    "name": "Metro de Sapporo serie 7000",
-    "operator": "sapporo-city",
-    "introduced": 1988,
-    "retired": true,
-    "cars": 4,
-    "summary": "Fue el tren de la línea Tōhō desde su apertura, en 1988, hasta 2016.",
-    "history": [
-      {
-        "line": "sapporo-toho",
-        "years": [
-          1988,
-          2016
-        ]
-      }
-    ],
-    "facts": [
-      "Hizo su último viaje el 25 de junio de 2016, sustituido por la serie 9000."
-    ],
-    "photo_file": "File:Sapporo Municipal Subway 7000 series running Toho Line.jpg"
-  },
-  {
-    "id": "sapporo-3300",
-    "name": "Tranvía de Sapporo 3300",
-    "operator": "sapporo-city",
-    "introduced": 1998,
-    "cars": 1,
-    "summary": "Tranvía de los años 80 reconstruido en 1998 con equipo eléctrico nuevo.",
-    "runs": [
-      {
-        "line": "sapporo-tram"
-      }
-    ],
-    "facts": [],
-    "photo_file": "File:Sapporo Tram Type 3300 011.JPG"
-  },
-  {
-    "id": "sapporo-8500",
-    "name": "Tranvía de Sapporo 8500",
-    "operator": "sapporo-city",
-    "introduced": 1985,
-    "cars": 1,
-    "summary": "La primera serie del tranvía de Sapporo con control por chopper.",
-    "runs": [
-      {
-        "line": "sapporo-tram"
-      }
-    ],
-    "facts": [],
-    "photo_file": "File:Sapporo Tram Type 8500 013.JPG"
-  },
-  {
-    "id": "sapporo-1100",
-    "name": "Tranvía de Sapporo 1100 «Sirius»",
-    "operator": "sapporo-city",
-    "introduced": 2018,
-    "cars": 1,
-    "summary": "El tranvía moderno de un solo coche, en servicio desde octubre de 2018.",
-    "runs": [
-      {
-        "line": "sapporo-tram"
-      }
-    ],
-    "facts": [
-      "Su apodo, «Sirius», sigue la costumbre de Sapporo de poner nombres de estrellas a sus tranvías."
-    ],
-    "photo_file": "File:Sapporo Street Car Type 1100 1102 Sirius 2020-3-23.jpg"
-  }
+ {
+  "id": "e235-0",
+  "name": "Serie E235",
+  "operator": "jr-east",
+  "introduced": 2015,
+  "builder": "J-TREC / JR East (Niitsu)",
+  "cars": 11,
+  "summary": "El tren actual de la Yamanote. Desde enero de 2020 es el único que circula por el anillo.",
+  "facts": [
+   "Sustituye muchos carteles de papel por pantallas digitales sobre puertas y portaequipajes.",
+   "Monitoriza en tiempo real el estado del tren y de la vía para anticipar averías."
+  ],
+  "wiki": "E235 series"
+ },
+ {
+  "id": "e235-1000",
+  "name": "Serie E235-1000",
+  "operator": "jr-east",
+  "introduced": 2020,
+  "builder": "J-TREC / JR East (Niitsu)",
+  "cars": 15,
+  "summary": "Versión del E235 para las líneas Yokosuka y Sōbu rápido, con coches Green de dos pisos (primera clase).",
+  "photo_file": "File:JRE Series-E235-1000 J12.jpg",
+  "runs": [
+   {
+    "line": "sobu-rapid"
+   },
+   {
+    "line": "yokosuka"
+   }
+  ],
+  "facts": [
+   "Es el único E235 con coches de dos pisos: los dos Green Car de la Yokosuka–Sōbu."
+  ]
+ },
+ {
+  "id": "e233-0",
+  "name": "Serie E233-0",
+  "operator": "jr-east",
+  "introduced": 2006,
+  "builder": "Tōkyū Car / JR East (Niitsu)",
+  "summary": "El naranja de la línea Chūō. Fue el primer modelo de la gran familia E233.",
+  "facts": [
+   "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado."
+  ],
+  "wiki": "E233 series",
+  "photo_file": "File:JRE Chuo-Rapid-Line Series-E233-0.jpg",
+  "runs": [
+   {
+    "line": "chuo-rapid"
+   },
+   {
+    "line": "ome"
+   }
+  ]
+ },
+ {
+  "id": "e233-1000",
+  "name": "Serie E233-1000",
+  "operator": "jr-east",
+  "introduced": 2007,
+  "builder": "Tōkyū Car / JR East (Niitsu)",
+  "cars": 10,
+  "summary": "Variante azul celeste para la Keihin-Tōhoku.",
+  "photo_file": "File:JRE Series-E233-1000 121.jpg",
+  "facts": [
+   "La serie E233 nació con todo duplicado —motores, frenos, aire— para que una avería no pare la línea."
+  ]
+ },
+ {
+  "id": "e233-7000",
+  "name": "Serie E233-7000",
+  "operator": "jr-east",
+  "introduced": 2013,
+  "cars": 10,
+  "summary": "Variante verde de las líneas Saikyō y Kawagoe.",
+  "photo_file": "File:JRE Series-E233-7000 108.jpg",
+  "facts": [
+   "Lleva el equipo necesario para salir de la Saikyō y seguir por la Rinkai hasta Shin-Kiba."
+  ]
+ },
+ {
+  "id": "e231-500",
+  "name": "Serie E231-500",
+  "operator": "jr-east",
+  "introduced": 2002,
+  "cars": 10,
+  "summary": "Fue el tren de la Yamanote entre 2002 y 2020. Hoy circula, pintado de amarillo, por la Chūō-Sōbu.",
+  "history": [
+   {
+    "line": "yamanote",
+    "years": [
+     2002,
+     2020
+    ]
+   }
+  ],
+  "facts": [
+   "Entre 2002 y 2020 fue el tren de la Yamanote, en verde; al llegar los E235 pasó a la Chūō-Sōbu pintado de amarillo."
+  ],
+  "photo_file": "File:JRE Series-E231-500 A525.jpg",
+  "runs": [
+   {
+    "line": "chuo-sobu"
+   }
+  ]
+ },
+ {
+  "id": "tm-1000",
+  "name": "Tokyo Metro serie 1000",
+  "operator": "tokyo-metro",
+  "introduced": 2012,
+  "cars": 6,
+  "summary": "Homenaje a los primeros trenes de 1927: color limón y techo de aspecto retro.",
+  "facts": [
+   "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927."
+  ],
+  "wiki": "Tokyo Metro 1000 series"
+ },
+ {
+  "id": "tm-2000",
+  "name": "Tokyo Metro serie 2000",
+  "operator": "tokyo-metro",
+  "introduced": 2019,
+  "builder": "Hitachi",
+  "cars": 6,
+  "summary": "Rojo con la onda senoidal clásica de la Marunouchi y ventanas redondeadas.",
+  "wiki": "Tokyo Metro 2000 series",
+  "facts": [
+   "Recupera para la Marunouchi la franja blanca ondulada (サインウェーブ) de los trenes de los años cincuenta."
+  ]
+ },
+ {
+  "id": "tm-13000",
+  "name": "Tokyo Metro serie 13000",
+  "operator": "tokyo-metro",
+  "introduced": 2017,
+  "cars": 7,
+  "summary": "Coches de 20 m (antes eran de 18 m), lo que permitió reducir el tren de 8 a 7 coches.",
+  "wiki": "Tokyo Metro 13000 series",
+  "facts": [
+   "Es hermano del Tōbu 70000: los dos se diseñaron a la vez porque comparten recorrido en la Hibiya.",
+   "Al pasar a coches de 20 metros con cuatro puertas, la Hibiya pudo por fin poner puertas de andén."
+  ]
+ },
+ {
+  "id": "tm-15000",
+  "name": "Tokyo Metro serie 15000",
+  "operator": "tokyo-metro",
+  "introduced": 2010,
+  "cars": 10,
+  "summary": "Puertas extra anchas (1,8 m) para la saturada línea Tōzai.",
+  "wiki": "Tokyo Metro 15000 series",
+  "runs": [
+   {
+    "line": "toyo-rapid"
+   }
+  ],
+  "facts": [
+   "Sus puertas miden 1,8 metros, el doble de anchas de lo normal: la Tōzai es la línea más apretada de Japón."
+  ]
+ },
+ {
+  "id": "tm-16000",
+  "name": "Tokyo Metro serie 16000",
+  "operator": "tokyo-metro",
+  "introduced": 2010,
+  "cars": 10,
+  "summary": "Motores de imanes permanentes, muy eficientes. Lleva servicios directos hacia Odakyū y JR Jōban.",
+  "wiki": "Tokyo Metro 16000 series",
+  "facts": [
+   "Las primeras unidades llevan la puerta de emergencia descentrada, lo que les da un frontal asimétrico."
+  ]
+ },
+ {
+  "id": "tm-17000",
+  "name": "Tokyo Metro serie 17000",
+  "operator": "tokyo-metro",
+  "introduced": 2021,
+  "summary": "Compartido por las líneas Yūrakuchō y Fukutoshin; frontal redondeado y franja dorada y marrón.",
+  "wiki": "Tokyo Metro 17000 series",
+  "runs": [
+   {
+    "line": "seibu-yurakucho"
+   }
+  ],
+  "facts": [
+   "Tokyo Metro encargó a la vez el 17000 y el 18000: mismo diseño, una para la Yūrakuchō y otra para la Hanzōmon."
+  ]
+ },
+ {
+  "id": "tm-18000",
+  "name": "Tokyo Metro serie 18000",
+  "operator": "tokyo-metro",
+  "introduced": 2021,
+  "builder": "Kinki Sharyō",
+  "cars": 10,
+  "summary": "El tren de la Hanzōmon, con franja morada.",
+  "wiki": "Tokyo Metro 18000 series",
+  "facts": [
+   "Comparte diseño con el 17000 y lleva el morado de la Hanzōmon en una banda que recorre todo el coche."
+  ]
+ },
+ {
+  "id": "tm-9000",
+  "name": "Tokyo Metro serie 9000",
+  "operator": "tokyo-metro",
+  "introduced": 1991,
+  "cars": 6,
+  "summary": "Estrenó la línea Namboku en 1991 y aún se renueva para seguir en servicio.",
+  "wiki": "Tokyo Metro 9000 series",
+  "runs": [
+   {
+    "line": "saitama-rapid"
+   }
+  ],
+  "facts": [
+   "Circula por la Namboku, de las primeras líneas del mundo con puertas de andén en todas sus estaciones."
+  ]
+ },
+ {
+  "id": "toei-5500",
+  "name": "Toei serie 5500",
+  "operator": "toei",
+  "introduced": 2018,
+  "cars": 8,
+  "summary": "Su frontal se inspira en el kumadori, el maquillaje del teatro kabuki; recorre las líneas de Keisei y Keikyū hasta los aeropuertos.",
+  "wiki": "Toei 5500 series",
+  "facts": [
+   "Su frontal se inspira en el maquillaje kumadori del kabuki, el teatro del barrio de Asakusa."
+  ]
+ },
+ {
+  "id": "toei-6500",
+  "name": "Toei serie 6500",
+  "operator": "toei",
+  "introduced": 2022,
+  "cars": 8,
+  "summary": "Trenes de 8 coches (antes 6) para la línea Mita.",
+  "wiki": "Toei 6500 series",
+  "facts": [
+   "Sus ocho coches sirven para los trenes largos de la Mita, que hoy llegan hasta Shin-Yokohama."
+  ]
+ },
+ {
+  "id": "toei-10-300",
+  "name": "Toei serie 10-300",
+  "operator": "toei",
+  "introduced": 2005,
+  "cars": 10,
+  "summary": "Basado en el E231 de JR East, adaptado al ancho de 1372 mm de la línea Shinjuku.",
+  "wiki": "Toei 10-300 series",
+  "facts": [
+   "Comparte carrocería con los trenes de cercanías de JR East, de donde viene su diseño."
+  ]
+ },
+ {
+  "id": "toei-12-000",
+  "name": "Toei serie 12-000",
+  "operator": "toei",
+  "introduced": 1991,
+  "cars": 8,
+  "summary": "Tren de motor lineal para los túneles pequeños de la Ōedo. La serie 12-600 lo va sustituyendo.",
+  "wiki": "Toei 12-000 series",
+  "facts": [
+   "Usa motor lineal: por eso los coches de la Ōedo son tan bajos y su túnel tan pequeño."
+  ]
+ },
+ {
+  "id": "toei-8900",
+  "name": "Toei serie 8900",
+  "operator": "toei",
+  "introduced": 2015,
+  "builder": "Alna Sharyō",
+  "cars": 1,
+  "summary": "Tranvía de un solo coche para el Tokyo Sakura Tram, en varios colores.",
+  "wiki": "Toei 8900 series",
+  "facts": [
+   "Cada unidad lleva un color distinto —azul, naranja, rosa o amarillo— por el tranvía de Arakawa."
+  ]
+ },
+ {
+  "id": "yurikamome-7300",
+  "name": "Yurikamome serie 7300",
+  "operator": "yurikamome",
+  "introduced": 2014,
+  "cars": 6,
+  "summary": "Automático, sin conductor y sobre ruedas de goma. Los asientos delanteros tienen vista directa a la vía.",
+  "wiki": "Yurikamome 7300 series",
+  "photo_file": "File:Yurikamome Series7300-33.jpg",
+  "facts": [
+   "Va sin conductor, así que el asiento delantero es el mejor de Tokio: vistas al Rainbow Bridge incluidas."
+  ]
+ },
+ {
+  "id": "monorail-10000",
+  "name": "Tokyo Monorail serie 10000",
+  "operator": "tokyo-monorail",
+  "introduced": 2014,
+  "builder": "Hitachi",
+  "cars": 6,
+  "summary": "Monorraíl moderno con espacio para el equipaje, pensado para los pasajeros de Haneda.",
+  "wiki": "Tokyo Monorail 10000 series",
+  "facts": [
+   "El monorraíl de Haneda abrió para los Juegos de 1964 y sigue siendo la forma más rápida de llegar al aeropuerto."
+  ]
+ },
+ {
+  "id": "twr-70-000",
+  "name": "TWR serie 70-000",
+  "operator": "twr",
+  "introduced": 1996,
+  "cars": 10,
+  "summary": "El tren original de la línea Rinkai, basado en el diseño 209 de JR East.",
+  "wiki": "TWR 70-000 series",
+  "facts": [
+   "Es pariente del JR 209: la Rinkai compró un tren casi idéntico para poder circular por las vías de JR."
+  ]
+ },
+ {
+  "id": "sk-n700s",
+  "name": "Serie N700S",
+  "operator": "jr-central",
+  "introduced": 2020,
+  "cars": 16,
+  "wiki": "N700S Series Shinkansen",
+  "summary": "El Shinkansen más moderno del Tōkaidō y el San'yō. La «S» viene de «Supreme».",
+  "facts": [
+   "Lleva baterías que le permiten moverse por sí mismo a baja velocidad si se corta la corriente, algo inédito en un tren de alta velocidad.",
+   "Su diseño permite montar trenes de 8, 12 o 16 coches con los mismos componentes."
+  ],
+  "runs": [
+   {
+    "line": "tokaido-shinkansen"
+   },
+   {
+    "line": "sanyo-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "sk-n700a",
+  "name": "Serie N700A",
+  "operator": "jr-central",
+  "introduced": 2013,
+  "cars": 16,
+  "wiki": "N700 Series Shinkansen",
+  "summary": "Versión mejorada («Advanced») del N700 de 2007, con la caja que se inclina en las curvas.",
+  "facts": [
+   "La caja se inclina hasta 1 grado para tomar las curvas del Tōkaidō más rápido sin molestar al pasajero."
+  ],
+  "runs": [
+   {
+    "line": "tokaido-shinkansen"
+   },
+   {
+    "line": "sanyo-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "sk-n700-7000",
+  "name": "Serie N700 7000/8000",
+  "operator": "jr-west",
+  "introduced": 2011,
+  "cars": 8,
+  "wiki": "N700 Series Shinkansen",
+  "summary": "Versión de 8 coches de JR West y JR Kyushu para los Mizuho y Sakura entre Shin-Ōsaka y Kagoshima-Chūō.",
+  "runs": [
+   {
+    "line": "sanyo-shinkansen"
+   },
+   {
+    "line": "kyushu-shinkansen"
+   }
+  ],
+  "photo_file": "File:Series-N700-7000-S8 Sakura-540.jpg",
+  "facts": [
+   "Ocho coches para los Mizuho y Sakura; en clase turista los asientos van de dos en dos, más anchos que en el Tōkaidō."
+  ]
+ },
+ {
+  "id": "sk-n700s-8000",
+  "name": "Serie N700S 8000 (Kamome)",
+  "operator": "jr-kyushu",
+  "introduced": 2022,
+  "cars": 6,
+  "wiki": "Nishi Kyushu Shinkansen",
+  "summary": "N700S de 6 coches, blanco y rojo, exclusivo del Nishi-Kyūshū Shinkansen.",
+  "runs": [
+   {
+    "line": "nishi-kyushu-shinkansen"
+   }
+  ],
+  "facts": [
+   "Diseñado por Mitooka Eiji, con maderas y tejidos de Kyūshū en el interior."
+  ]
+ },
+ {
+  "id": "sk-800",
+  "name": "Serie 800",
+  "operator": "jr-kyushu",
+  "introduced": 2004,
+  "cars": 6,
+  "wiki": "800 Series Shinkansen",
+  "summary": "El Shinkansen de JR Kyushu para los Tsubame, con un interior lleno de madera y detalles artesanales.",
+  "runs": [
+   {
+    "line": "kyushu-shinkansen"
+   }
+  ],
+  "facts": [
+   "Los asientos van tapizados en tela y los reposabrazos son de madera de alcanforero: diseño de Mitooka Eiji."
+  ]
+ },
+ {
+  "id": "sk-500",
+  "name": "Serie 500",
+  "operator": "jr-west",
+  "introduced": 1997,
+  "cars": 8,
+  "wiki": "500 Series Shinkansen",
+  "summary": "Su morro de 15 m y su cuerpo tubular lo convirtieron en un icono. Hoy hace servicios Kodama en el San'yō.",
+  "facts": [
+   "Fue el primer tren japonés en servicio comercial a 300 km/h (1997).",
+   "Entre 2015 y 2018 una unidad circuló decorada como el robot Eva-01 de «Evangelion»."
+  ],
+  "runs": [
+   {
+    "line": "sanyo-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "sk-e5",
+  "name": "Serie E5",
+  "operator": "jr-east",
+  "introduced": 2011,
+  "cars": 10,
+  "wiki": "E5 Series Shinkansen",
+  "summary": "El verde de los Hayabusa: 320 km/h en el Tōhoku y llega hasta Hokkaidō.",
+  "facts": [
+   "Tiene «GranClass», una clase por encima de la primera (Green), con solo 18 asientos."
+  ],
+  "runs": [
+   {
+    "line": "tohoku-shinkansen"
+   },
+   {
+    "line": "hokkaido-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "sk-h5",
+  "name": "Serie H5",
+  "operator": "jr-hokkaido",
+  "introduced": 2016,
+  "cars": 10,
+  "wiki": "H5 Series Shinkansen",
+  "summary": "Gemelo del E5 construido para JR Hokkaido; se distingue por la franja morada (lavanda).",
+  "runs": [
+   {
+    "line": "tohoku-shinkansen"
+   },
+   {
+    "line": "hokkaido-shinkansen"
+   }
+  ],
+  "photo_file": "File:JRH Series-H5 H1.jpg",
+  "facts": [
+   "Solo existen cuatro trenes, con una franja lila que recuerda los campos de lavanda de Furano."
+  ]
+ },
+ {
+  "id": "sk-e6",
+  "name": "Serie E6",
+  "operator": "jr-east",
+  "introduced": 2013,
+  "cars": 7,
+  "wiki": "E6 Series Shinkansen",
+  "summary": "El rojo de los Komachi. Es un tren más estrecho para caber en las vías del mini-shinkansen de Akita.",
+  "facts": [
+   "Su diseño es de Ken Okuyama, el diseñador de coches que trabajó para Ferrari."
+  ],
+  "runs": [
+   {
+    "line": "tohoku-shinkansen",
+    "from": "東京",
+    "to": "盛岡"
+   },
+   {
+    "line": "akita-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "sk-e8",
+  "name": "Serie E8",
+  "operator": "jr-east",
+  "introduced": 2024,
+  "cars": 7,
+  "wiki": "E8 Series Shinkansen",
+  "summary": "El nuevo tren de los Tsubasa (Yamagata Shinkansen), en servicio desde marzo de 2024; sustituye a los E3.",
+  "runs": [
+   {
+    "line": "tohoku-shinkansen",
+    "from": "東京",
+    "to": "福島"
+   },
+   {
+    "line": "yamagata-shinkansen"
+   }
+  ],
+  "facts": [
+   "Desde 2024 sube a 300 km/h en el tramo del Tōhoku, 25 más que el tren al que sustituye."
+  ]
+ },
+ {
+  "id": "sk-e7",
+  "name": "Serie E7 / W7",
+  "operator": "jr-east",
+  "introduced": 2014,
+  "cars": 12,
+  "wiki": "E7 Series Shinkansen",
+  "summary": "Azul y cobre, para el Hokuriku y el Jōetsu. JR West tiene su versión idéntica, la W7.",
+  "facts": [
+   "En 2019 un tifón inundó el depósito de Nagano y se perdieron 10 trenes E7/W7, un tercio de la flota."
+  ],
+  "runs": [
+   {
+    "line": "tohoku-shinkansen",
+    "from": "東京",
+    "to": "大宮"
+   },
+   {
+    "line": "joetsu-shinkansen"
+   },
+   {
+    "line": "hokuriku-shinkansen"
+   }
+  ]
+ },
+ {
+  "id": "jnr-101",
+  "name": "Serie 101",
+  "operator": "jnr",
+  "introduced": 1957,
+  "retired": 2003,
+  "wiki": "101 series",
+  "summary": "El primer tren de cercanías «de nuevas prestaciones» de JNR: motores repartidos por todo el tren en vez de coches tirados por locomotora.",
+  "history": [
+   {
+    "line": "chuo-rapid",
+    "years": [
+     1957,
+     1985
+    ]
+   },
+   {
+    "line": "chuo-sobu",
+    "years": [
+     1963,
+     1988
+    ]
+   },
+   {
+    "line": "yamanote",
+    "years": [
+     1961,
+     1968
+    ]
+   },
+   {
+    "line": "keihin-tohoku",
+    "years": [
+     1970,
+     1978
+    ]
+   }
+  ],
+  "photo_file": "File:101 series sagamiko sp.(1).jpg",
+  "facts": [
+   "De 1957, fue el primer tren japonés de «nuevas prestaciones»: motores repartidos por todo el convoy.",
+   "Su naranja bermellón se convirtió en el color de la Chūō y allí sigue."
+  ]
+ },
+ {
+  "id": "jnr-103",
+  "name": "Serie 103",
+  "operator": "jnr",
+  "introduced": 1963,
+  "wiki": "103 series",
+  "summary": "El tren de cercanías más fabricado de Japón: más de 3.400 coches entre 1963 y 1984.",
+  "facts": [
+   "En la Yamanote vestía el verde amarillento «uguisu» que hoy sigue identificando a la línea.",
+   "De las líneas que recoge esta web desapareció en 2001, pero JR West aún lo usa en algunas líneas de Kansai."
+  ],
+  "history": [
+   {
+    "line": "yamanote",
+    "years": [
+     1963,
+     1988
+    ]
+   },
+   {
+    "line": "keihin-tohoku",
+    "years": [
+     1965,
+     1998
+    ]
+   },
+   {
+    "line": "chuo-rapid",
+    "years": [
+     1973,
+     1983
+    ]
+   },
+   {
+    "line": "chuo-sobu",
+    "years": [
+     1979,
+     2001
+    ]
+   },
+   {
+    "line": "saikyo",
+    "years": [
+     1985,
+     1990
+    ]
+   },
+   {
+    "line": "osaka-loop",
+    "years": [
+     1969,
+     2017
+    ]
+   }
+  ],
+  "photo_file": "File:JNR103 198508 Uguisudani.jpg"
+ },
+ {
+  "id": "jnr-201",
+  "name": "Serie 201",
+  "operator": "jnr",
+  "introduced": 1979,
+  "retired": 2025,
+  "wiki": "201 series",
+  "summary": "Primer tren de cercanías de JNR con control «chopper», que ahorra energía. Fue el naranja de la Chūō hasta 2010.",
+  "history": [
+   {
+    "line": "chuo-rapid",
+    "years": [
+     1979,
+     2010
+    ]
+   },
+   {
+    "line": "chuo-sobu",
+    "years": [
+     1982,
+     2001
+    ]
+   },
+   {
+    "line": "osaka-loop",
+    "years": [
+     null,
+     2019
+    ]
+   }
+  ],
+  "photo_file": "File:Chuo 201 series set 43 Mitaka 20030222.jpg",
+  "facts": [
+   "En 1979 estrenó el chopper eléctrico en un tren de serie: frenaba devolviendo corriente a la catenaria."
+  ]
+ },
+ {
+  "id": "jnr-205",
+  "name": "Serie 205",
+  "operator": "jnr",
+  "introduced": 1985,
+  "wiki": "205 series",
+  "summary": "Primer tren de JNR de acero inoxidable ligero: sin pintar, solo con una franja del color de la línea. Estrenó en la Yamanote en 1985.",
+  "facts": [
+   "Muchos 205 retirados en Tokio siguen circulando en Yakarta (Indonesia)."
+  ],
+  "history": [
+   {
+    "line": "yamanote",
+    "years": [
+     1985,
+     2005
+    ]
+   },
+   {
+    "line": "saikyo",
+    "years": [
+     1989,
+     2016
+    ]
+   },
+   {
+    "line": "keihin-tohoku",
+    "years": [
+     1989,
+     1996
+    ]
+   },
+   {
+    "line": "chuo-sobu",
+    "years": [
+     1989,
+     2001
+    ]
+   }
+  ],
+  "photo_file": "File:Yamanote Line 205 series set 30 Tabata Station 20030202.JPG"
+ },
+ {
+  "id": "jr-209",
+  "name": "Serie 209",
+  "operator": "jr-east",
+  "introduced": 1993,
+  "wiki": "209 series",
+  "summary": "Diseñado con el lema «la mitad de peso, la mitad de precio, la mitad de vida útil».",
+  "history": [
+   {
+    "line": "keihin-tohoku",
+    "years": [
+     1993,
+     2010
+    ]
+   },
+   {
+    "line": "chuo-sobu",
+    "years": [
+     1998,
+     2019
+    ]
+   }
+  ],
+  "facts": [
+   "Se diseñó con el lema «precio a la mitad, peso a la mitad, vida a la mitad»: barato, ligero y de usar y tirar.",
+   "Gastaba casi la mitad de electricidad que el tren al que sustituía."
+  ]
+ },
+ {
+  "id": "tm-01",
+  "name": "Tokyo Metro serie 01",
+  "operator": "tokyo-metro",
+  "introduced": 1984,
+  "retired": 2017,
+  "wiki": "Tokyo Metro 01 series",
+  "summary": "El tren de la Ginza durante 33 años, hasta marzo de 2017.",
+  "history": [
+   {
+    "line": "ginza",
+    "years": [
+     1984,
+     2017
+    ]
+   }
+  ],
+  "facts": [
+   "Jubiló a los trenes amarillos clásicos de la Ginza; muchos siguen hoy en servicio en Kumamoto y en Nagano."
+  ]
+ },
+ {
+  "id": "tm-500m",
+  "name": "Serie 300/400/500 (Marunouchi)",
+  "operator": "tokyo-metro",
+  "introduced": 1954,
+  "retired": 1996,
+  "summary": "Los trenes rojos originales de la Marunouchi, con la onda blanca que aún lleva la línea.",
+  "facts": [
+   "Tras retirarse en 1996, muchos coches viajaron a Argentina y circularon por la línea B del subte de Buenos Aires."
+  ],
+  "history": [
+   {
+    "line": "marunouchi",
+    "years": [
+     1954,
+     1996
+    ]
+   }
+  ],
+  "photo_file": "File:TRTA Marunouchi Line 500 783 Kokkai-gijido-mae 19770625.jpg"
+ },
+ {
+  "id": "tm-02",
+  "name": "Tokyo Metro serie 02",
+  "operator": "tokyo-metro",
+  "introduced": 1988,
+  "retired": 2024,
+  "wiki": "Tokyo Metro 02 series",
+  "summary": "El tren de la Marunouchi de 1988 a 2024, sustituido por la serie 2000.",
+  "history": [
+   {
+    "line": "marunouchi",
+    "years": [
+     1988,
+     2024
+    ]
+   }
+  ],
+  "facts": [
+   "Al reformarse perdió los asientos de felpa y ganó pantallas, pero mantuvo la franja roja de la Marunouchi."
+  ]
+ },
+ {
+  "id": "tm-3000",
+  "name": "Serie 3000 (Hibiya)",
+  "operator": "tokyo-metro",
+  "introduced": 1961,
+  "retired": 1994,
+  "wiki": "TRTA 3000 series",
+  "summary": "Estrenó la Hibiya en 1961. Tras retirarse en 1994, varios coches siguieron en el ferrocarril Nagano Dentetsu.",
+  "history": [
+   {
+    "line": "hibiya",
+    "years": [
+     1961,
+     1994
+    ]
+   }
+  ],
+  "photo_file": "File:TRTA 3000 series set 3030 Naka-Meguro 19770625.jpg",
+  "facts": [
+   "Lo apodaron «cachalote» (マッコウクジラ) por su frontal redondeado.",
+   "Algunos siguen rodando en Nagano, muy lejos de la Hibiya."
+  ]
+ },
+ {
+  "id": "tm-03",
+  "name": "Tokyo Metro serie 03",
+  "operator": "tokyo-metro",
+  "introduced": 1988,
+  "retired": 2020,
+  "wiki": "Tokyo Metro 03 series",
+  "summary": "El tren de la Hibiya entre 1988 y 2020; algunos coches tenían 5 puertas por lado para agilizar la subida.",
+  "history": [
+   {
+    "line": "hibiya",
+    "years": [
+     1988,
+     2020
+    ]
+   }
+  ],
+  "facts": [
+   "Tenía coches con cinco puertas por lado para desatascar la Hibiya en hora punta."
+  ]
+ },
+ {
+  "id": "tm-5000",
+  "name": "Serie 5000 (Tōzai)",
+  "operator": "tokyo-metro",
+  "introduced": 1964,
+  "retired": 2014,
+  "wiki": "Tokyo Metro 5000 series",
+  "summary": "Estrenó la Tōzai en 1964 y circuló en ella hasta 2007; varios acabaron en Yakarta.",
+  "history": [
+   {
+    "line": "tozai",
+    "years": [
+     1964,
+     2007
+    ]
+   }
+  ],
+  "photo_file": "File:Tokyo Metro Tozai Line 20050122.jpg",
+  "facts": [
+   "Terminada su vida en Tokio, decenas de coches se vendieron a Yakarta, donde siguieron años en servicio."
+  ]
+ },
+ {
+  "id": "tm-6000",
+  "name": "Tokyo Metro serie 6000",
+  "operator": "tokyo-metro",
+  "introduced": 1971,
+  "retired": 2018,
+  "wiki": "Tokyo Metro 6000 series",
+  "summary": "Con su frontal asimétrico fue un diseño muy avanzado para 1971. Circuló 47 años por la Chiyoda y muchos siguen en Yakarta.",
+  "history": [
+   {
+    "line": "chiyoda",
+    "years": [
+     1971,
+     2018
+    ]
+   }
+  ],
+  "facts": [
+   "De 1971, fue el primer metro japonés con chopper eléctrico de serie.",
+   "Muchos acabaron en Indonesia: en Yakarta todavía se les ve con el morro reconocible."
+  ]
+ },
+ {
+  "id": "tm-7000",
+  "name": "Tokyo Metro serie 7000",
+  "operator": "tokyo-metro",
+  "introduced": 1974,
+  "retired": 2022,
+  "wiki": "Tokyo Metro 7000 series",
+  "summary": "Estrenó la Yūrakuchō en 1974 y circuló hasta 2022.",
+  "history": [
+   {
+    "line": "yurakucho",
+    "years": [
+     1974,
+     2022
+    ]
+   }
+  ],
+  "facts": [
+   "Hermano del 6000, con el mismo frontal asimétrico; también muchos terminaron rodando en Yakarta."
+  ]
+ },
+ {
+  "id": "toei-5300",
+  "name": "Toei serie 5300",
+  "operator": "toei",
+  "introduced": 1991,
+  "retired": 2023,
+  "wiki": "Toei 5300 series",
+  "summary": "El tren del Asakusa entre 1991 y 2023, con servicios directos a Keisei y Keikyū.",
+  "history": [
+   {
+    "line": "asakusa",
+    "years": [
+     1991,
+     2023
+    ]
+   }
+  ],
+  "facts": [
+   "Lo llamaban «el demonio blanco» (白い悪魔) por su color y por lo fuerte que arrancaba."
+  ]
+ },
+ {
+  "id": "toei-6000",
+  "name": "Toei serie 6000",
+  "operator": "toei",
+  "introduced": 1968,
+  "retired": 1999,
+  "wiki": "Toei 6000 series",
+  "summary": "Los primeros trenes del Mita (1968–1999). Después siguieron en otras líneas de Japón y en Indonesia.",
+  "history": [
+   {
+    "line": "mita",
+    "years": [
+     1968,
+     1999
+    ]
+   }
+  ],
+  "facts": [
+   "Al retirarse no se desguazó: se vendió a Indonesia y al ferrocarril de Chichibu, donde siguió décadas."
+  ]
+ },
+ {
+  "id": "toei-10-000",
+  "name": "Toei serie 10-000",
+  "operator": "toei",
+  "introduced": 1978,
+  "retired": 2018,
+  "wiki": "Toei 10-000 series",
+  "summary": "Estrenó la línea Shinjuku en 1978 y circuló hasta febrero de 2018.",
+  "history": [
+   {
+    "line": "shinjuku",
+    "years": [
+     1978,
+     2018
+    ]
+   }
+  ],
+  "facts": [
+   "Rodó por la Shinjuku casi cuarenta años, de 1978 a 2017."
+  ]
+ },
+ {
+  "id": "toei-7000",
+  "name": "Toei serie 7000 (tranvía)",
+  "operator": "toei",
+  "introduced": 1954,
+  "retired": 2017,
+  "wiki": "Toei 7000 series",
+  "summary": "Tranvías de la red Toden desde 1954; el último dejó de circular en junio de 2017.",
+  "history": [
+   {
+    "line": "arakawa",
+    "years": [
+     1954,
+     2017
+    ]
+   }
+  ],
+  "facts": [
+   "Son de 1954, pero de ellos solo queda el bastidor: la carrocería se rehízo entera en los años setenta."
+  ]
+ },
+ {
+  "id": "sk-0",
+  "name": "Serie 0",
+  "operator": "jnr",
+  "introduced": 1964,
+  "retired": 2008,
+  "wiki": "0 Series Shinkansen",
+  "summary": "El «tren bala» original, con su morro redondeado azul y blanco.",
+  "facts": [
+   "Se fabricaron 3.216 coches en 22 años.",
+   "Dejó el Tōkaidō en 1999, pero siguió en el San'yō hasta 2008."
+  ],
+  "history": [
+   {
+    "line": "tokaido-shinkansen",
+    "years": [
+     1964,
+     1999
+    ]
+   },
+   {
+    "line": "sanyo-shinkansen",
+    "years": [
+     1972,
+     2008
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sk-100",
+  "name": "Serie 100",
+  "operator": "jnr",
+  "introduced": 1985,
+  "retired": 2012,
+  "wiki": "100 Series Shinkansen",
+  "summary": "Estrenó los coches de dos pisos en el Shinkansen, con comedor y vistas.",
+  "history": [
+   {
+    "line": "tokaido-shinkansen",
+    "years": [
+     1985,
+     2003
+    ]
+   },
+   {
+    "line": "sanyo-shinkansen",
+    "years": [
+     1985,
+     2012
+    ]
+   }
+  ],
+  "facts": [
+   "Estrenó los coches de dos pisos en el Shinkansen: abajo, un comedor con vistas; arriba, Green Car."
+  ]
+ },
+ {
+  "id": "sk-300",
+  "name": "Serie 300",
+  "operator": "jr-central",
+  "introduced": 1992,
+  "retired": 2012,
+  "wiki": "300 Series Shinkansen",
+  "summary": "Con él nació el Nozomi en 1992, a 270 km/h.",
+  "history": [
+   {
+    "line": "tokaido-shinkansen",
+    "years": [
+     1992,
+     2012
+    ]
+   },
+   {
+    "line": "sanyo-shinkansen",
+    "years": [
+     1993,
+     2012
+    ]
+   }
+  ],
+  "facts": [
+   "Con él nació el Nozomi en 1992, que bajó el viaje Tokio–Shin-Ōsaka a dos horas y media."
+  ]
+ },
+ {
+  "id": "sk-200",
+  "name": "Serie 200",
+  "operator": "jnr",
+  "introduced": 1982,
+  "retired": 2013,
+  "wiki": "200 Series Shinkansen",
+  "summary": "El primer Shinkansen del este (1982), preparado para la nieve del Tōhoku y el Jōetsu.",
+  "history": [
+   {
+    "line": "tohoku-shinkansen",
+    "years": [
+     1982,
+     2011
+    ]
+   },
+   {
+    "line": "joetsu-shinkansen",
+    "years": [
+     1982,
+     2013
+    ]
+   }
+  ],
+  "facts": [
+   "El Shinkansen del norte: morro reforzado y faldones contra la nieve para el invierno del Tōhoku."
+  ]
+ },
+ {
+  "id": "sk-e1",
+  "name": "Serie E1 «Max»",
+  "operator": "jr-east",
+  "introduced": 1994,
+  "retired": 2012,
+  "wiki": "E1 Series Shinkansen",
+  "summary": "El primer Shinkansen de dos pisos en todos sus coches, pensado para los viajeros diarios a Tokio.",
+  "history": [
+   {
+    "line": "tohoku-shinkansen",
+    "years": [
+     1994,
+     1999
+    ]
+   },
+   {
+    "line": "joetsu-shinkansen",
+    "years": [
+     1994,
+     2012
+    ]
+   }
+  ],
+  "facts": [
+   "El primer Shinkansen entero de dos pisos, pensado para las aglomeraciones de la zona de Tokio."
+  ]
+ },
+ {
+  "id": "sk-e4",
+  "name": "Serie E4 «Max»",
+  "operator": "jr-east",
+  "introduced": 1997,
+  "retired": 2021,
+  "wiki": "E4 Series Shinkansen",
+  "summary": "Dos pisos; acoplando dos trenes llegaba a 1.634 plazas, un récord mundial en alta velocidad.",
+  "history": [
+   {
+    "line": "tohoku-shinkansen",
+    "years": [
+     1997,
+     2012
+    ]
+   },
+   {
+    "line": "joetsu-shinkansen",
+    "years": [
+     2001,
+     2021
+    ]
+   }
+  ],
+  "facts": [
+   "Dos trenes acoplados daban 1.634 plazas: fue el tren de alta velocidad con más asientos del mundo."
+  ]
+ },
+ {
+  "id": "sk-400",
+  "name": "Serie 400",
+  "operator": "jr-east",
+  "introduced": 1992,
+  "retired": 2010,
+  "wiki": "400 Series Shinkansen",
+  "summary": "El primer tren mini-shinkansen (1992), plateado, para los Tsubasa del Yamagata.",
+  "history": [
+   {
+    "line": "yamagata-shinkansen",
+    "years": [
+     1992,
+     2010
+    ]
+   },
+   {
+    "line": "tohoku-shinkansen",
+    "years": [
+     1992,
+     2010
+    ],
+    "from": "東京",
+    "to": "福島"
+   }
+  ],
+  "facts": [
+   "Fue el primer mini-shinkansen (1992): circula por la vía de Yamagata, ensanchada para que quepa."
+  ]
+ },
+ {
+  "id": "sk-e3",
+  "name": "Serie E3",
+  "operator": "jr-east",
+  "introduced": 1997,
+  "wiki": "E3 Series Shinkansen",
+  "summary": "El primer Komachi (1997). La versión del Yamagata se está sustituyendo por el E8.",
+  "history": [
+   {
+    "line": "akita-shinkansen",
+    "years": [
+     1997,
+     2014
+    ]
+   },
+   {
+    "line": "tohoku-shinkansen",
+    "years": [
+     1997,
+     2014
+    ],
+    "from": "東京",
+    "to": "盛岡"
+   }
+  ],
+  "facts": [
+   "Mini-shinkansen de Akita; una de sus unidades se decoró como museo de arte rodante, el Genbi Shinkansen."
+  ]
+ },
+ {
+  "id": "sk-700",
+  "name": "Serie 700",
+  "operator": "jr-central",
+  "introduced": 1999,
+  "wiki": "700 Series Shinkansen",
+  "summary": "Su morro de «pico de pato» fue un icono del Tōkaidō hasta 2020. Sigue en el San'yō.",
+  "runs": [
+   {
+    "line": "sanyo-shinkansen"
+   }
+  ],
+  "history": [
+   {
+    "line": "tokaido-shinkansen",
+    "years": [
+     1999,
+     2020
+    ]
+   }
+  ],
+  "facts": [
+   "Su morro le valió el apodo de «ornitorrinco» (カモノハシ)."
+  ]
+ },
+ {
+  "id": "ks-10",
+  "name": "Metro de Kioto serie 10",
+  "operator": "kyoto-subway",
+  "introduced": 1981,
+  "cars": 6,
+  "wiki": "Kyoto Municipal Subway 10 series",
+  "summary": "El tren con el que se inauguró la línea Karasuma en 1981. Los más antiguos se están sustituyendo por la serie 20.",
+  "runs": [
+   {
+    "line": "karasuma"
+   }
+  ],
+  "facts": [
+   "Fue el primer tren del metro de Kioto, que abrió en 1981, bastante después que los de Tokio y Ōsaka."
+  ]
+ },
+ {
+  "id": "ks-20",
+  "name": "Metro de Kioto serie 20",
+  "operator": "kyoto-subway",
+  "introduced": 2022,
+  "cars": 6,
+  "wiki": "Kyoto Municipal Subway 20 series",
+  "summary": "El nuevo tren de la Karasuma (2022). Su diseño se eligió por votación popular.",
+  "facts": [
+   "Gasta alrededor de un 30 % menos de electricidad que la serie 10 a la que sustituye."
+  ],
+  "runs": [
+   {
+    "line": "karasuma"
+   }
+  ]
+ },
+ {
+  "id": "ks-50",
+  "name": "Metro de Kioto serie 50",
+  "operator": "kyoto-subway",
+  "introduced": 1997,
+  "cars": 6,
+  "wiki": "Kyoto Municipal Subway 50 series",
+  "summary": "El tren de la línea Tōzai desde su inauguración en 1997.",
+  "runs": [
+   {
+    "line": "kyoto-tozai"
+   }
+  ],
+  "facts": [
+   "Circula por la Tōzai, que va entera bajo tierra y con puertas de andén en todas sus estaciones."
+  ]
+ },
+ {
+  "id": "jrw-225",
+  "name": "Serie 225",
+  "operator": "jr-west",
+  "introduced": 2010,
+  "wiki": "225 series",
+  "summary": "El tren de los rápidos especiales (Shin-kaisoku) de JR West, a 130 km/h entre Kioto y Ōsaka.",
+  "runs": [
+   {
+    "line": "jr-kyoto"
+   },
+   {
+    "line": "jr-kobe"
+   },
+   {
+    "line": "biwako"
+   },
+   {
+    "line": "kosei"
+   }
+  ],
+  "facts": [
+   "Se diseñó tras el accidente de Amagasaki de 2005, con la carrocería reforzada para resistir un choque."
+  ]
+ },
+ {
+  "id": "jrw-223",
+  "name": "Serie 223",
+  "operator": "jr-west",
+  "introduced": 1995,
+  "wiki": "223 series",
+  "summary": "Durante años el tren emblema de los rápidos de Kansai; sigue circulando junto al 225.",
+  "runs": [
+   {
+    "line": "jr-kyoto"
+   },
+   {
+    "line": "jr-kobe"
+   },
+   {
+    "line": "biwako"
+   },
+   {
+    "line": "kosei"
+   }
+  ],
+  "facts": [
+   "Con 927 coches construidos, es el tren de cercanías más numeroso de JR West.",
+   "Circula a 130 km/h: por eso los «rápidos especiales» de Kansai compiten de tú a tú con el coche."
+  ]
+ },
+ {
+  "id": "jrw-221",
+  "name": "Serie 221",
+  "operator": "jr-west",
+  "introduced": 1989,
+  "wiki": "221 series",
+  "summary": "El primer tren nuevo de JR West (1989), con grandes ventanales. Habitual en las líneas Nara y Sagano.",
+  "runs": [
+   {
+    "line": "nara-line"
+   },
+   {
+    "line": "sagano"
+   }
+  ],
+  "facts": [
+   "En 1989 cambió la cara de los trenes de Kansai: grandes ventanales y asientos enfrentados en un tren de cercanías."
+  ]
+ },
+ {
+  "id": "jrw-321",
+  "name": "Serie 321",
+  "operator": "jr-west",
+  "introduced": 2005,
+  "wiki": "321 series",
+  "summary": "Tren de cercanías para los servicios que paran en todas las estaciones de la línea JR Kyōto.",
+  "runs": [
+   {
+    "line": "jr-kyoto"
+   },
+   {
+    "line": "jr-tozai"
+   },
+   {
+    "line": "katamachi"
+   },
+   {
+    "line": "jr-takarazuka"
+   }
+  ],
+  "facts": [
+   "Fue el primer tren de JR West con pantallas de información sobre cada puerta, en 2005."
+  ]
+ },
+ {
+  "id": "keihan-8000",
+  "name": "Keihan serie 8000",
+  "operator": "keihan",
+  "introduced": 1989,
+  "cars": 8,
+  "wiki": "Keihan 8000 series",
+  "summary": "El tren de los expresos limitados de Keihan: coche de dos pisos y, desde 2017, un «Premium Car» con asientos reservados.",
+  "runs": [
+   {
+    "line": "keihan-main"
+   }
+  ],
+  "facts": [
+   "Lleva un coche de dos pisos en medio del tren, algo rarísimo en un tren de cercanías japonés.",
+   "Desde 2017 incorpora además el Premium Car, de asiento reservado."
+  ]
+ },
+ {
+  "id": "keihan-13000",
+  "name": "Keihan serie 13000",
+  "operator": "keihan",
+  "introduced": 2012,
+  "wiki": "Keihan 13000 series",
+  "summary": "Tren de cercanías moderno de Keihan; consume un 35 % menos que los que sustituyó.",
+  "runs": [
+   {
+    "line": "keihan-uji"
+   },
+   {
+    "line": "keihan-main"
+   }
+  ]
+ },
+ {
+  "id": "hankyu-9300",
+  "name": "Hankyu serie 9300",
+  "operator": "hankyu",
+  "introduced": 2003,
+  "cars": 8,
+  "wiki": "Hankyu 9300 series",
+  "summary": "El tren de los expresos limitados de la línea Hankyu Kyōto, con asientos transversales.",
+  "runs": [
+   {
+    "line": "hankyu-kyoto"
+   }
+  ],
+  "facts": [
+   "Para los expresos de Kioto: asientos de dos en dos mirando al frente, y la librea granate de siempre."
+  ]
+ },
+ {
+  "id": "hankyu-1300",
+  "name": "Hankyu serie 1300",
+  "operator": "hankyu",
+  "introduced": 2014,
+  "cars": 8,
+  "wiki": "Hankyu 1300 series",
+  "summary": "Tren de cercanías de la línea Kyōto desde 2014, en el granate de siempre.",
+  "runs": [
+   {
+    "line": "hankyu-kyoto"
+   }
+  ]
+ },
+ {
+  "id": "kintetsu-3220",
+  "name": "Kintetsu serie 3220",
+  "operator": "kintetsu",
+  "introduced": 2000,
+  "cars": 6,
+  "wiki": "Kintetsu 3220 series",
+  "summary": "Diseñado para entrar en el metro Karasuma desde la línea Kintetsu Kyōto.",
+  "runs": [
+   {
+    "line": "kintetsu-kyoto"
+   },
+   {
+    "line": "karasuma"
+   }
+  ]
+ },
+ {
+  "id": "kintetsu-19200",
+  "name": "Kintetsu 19200 «Aoniyoshi»",
+  "operator": "kintetsu",
+  "introduced": 2022,
+  "cars": 4,
+  "wiki": "Kintetsu 19200 series",
+  "summary": "Tren turístico violeta y dorado que une Kioto, Nara y Ōsaka desde 2022.",
+  "runs": [
+   {
+    "line": "kintetsu-kyoto"
+   },
+   {
+    "line": "kintetsu-nara"
+   },
+   {
+    "line": "kintetsu-namba"
+   }
+  ],
+  "facts": [
+   "Es el «Aoniyoshi», expreso turístico de 2022 entre Kioto, Nara y Ōsaka.",
+   "Va pintado de morado imperial con motivos de la corte de Nara."
+  ]
+ },
+ {
+  "id": "eizan-900",
+  "name": "Eiden serie 900 «Kirara»",
+  "operator": "eizan",
+  "introduced": 1997,
+  "cars": 2,
+  "summary": "Tren panorámico con ventanales hasta el techo, ideal para el «túnel de arces» del Kurama.",
+  "runs": [
+   {
+    "line": "eizan-kurama"
+   },
+   {
+    "line": "eizan-main",
+    "from": "出町柳",
+    "to": "宝ケ池"
+   }
+  ],
+  "photo_file": "File:Eiden Kirara passing the maple tree tunnel.jpg",
+  "facts": [
+   "Sus ventanales llegan hasta el techo y hay asientos girados hacia fuera: están pensados para mirar el túnel de arces de Kurama."
+  ]
+ },
+ {
+  "id": "sagano-torokko",
+  "name": "Tren Torokko (Sagano)",
+  "operator": "sagano",
+  "introduced": 1991,
+  "cars": 5,
+  "wiki": "Sagano Scenic Railway",
+  "summary": "Una locomotora diésel DE10 y cinco coches de estilo antiguo, uno de ellos totalmente abierto («The Rich»).",
+  "runs": [
+   {
+    "line": "sagano-scenic"
+   }
+  ],
+  "facts": [
+   "Son vagones abiertos, sin cristales, que una locomotora diésel arrastra por el desfiladero de Hozukyō."
+  ]
+ },
+ {
+  "id": "keihan-3000",
+  "name": "Keihan serie 3000 (1971)",
+  "operator": "keihan",
+  "introduced": 1971,
+  "retired": 2013,
+  "wiki": "Keihan 3000 series (1971)",
+  "summary": "El expreso limitado clásico de Keihan: tenía coches con televisión («terebi-kā») y, desde 1995, un coche de dos pisos.",
+  "history": [
+   {
+    "line": "keihan-main",
+    "years": [
+     1971,
+     2013
+    ]
+   }
+  ],
+  "facts": [
+   "Lo llamaban «el tren televisión» (テレビカー): llevaba televisores en el salón para el viaje Ōsaka–Kioto."
+  ]
+ },
+ {
+  "id": "hankyu-6300",
+  "name": "Hankyu serie 6300",
+  "operator": "hankyu",
+  "introduced": 1975,
+  "wiki": "Hankyu 6300 series",
+  "summary": "El expreso limitado de la línea Hankyu Kyōto entre 1975 y 2009; ganó el premio Blue Ribbon en 1976.",
+  "history": [
+   {
+    "line": "hankyu-kyoto",
+    "years": [
+     1975,
+     2009
+    ]
+   }
+  ],
+  "facts": [
+   "Fue el expreso de Kioto desde 1975; hoy algunas unidades son el tren turístico «Kyo-Train Garaku»."
+  ]
+ },
+ {
+  "id": "eizan-hiei",
+  "name": "Eiden «Hiei» (serie 700)",
+  "operator": "eizan",
+  "introduced": 2018,
+  "cars": 1,
+  "photo_file": "File:Eizan Series700R-732 Hiei.jpg",
+  "summary": "Tren de diseño con un gran marco ovalado en el frontal, inspirado en la naturaleza mística de los montes Hiei y Kurama. Ganó el premio Laurel de los aficionados al tren.",
+  "runs": [
+   {
+    "line": "eizan-main"
+   }
+  ],
+  "facts": [
+   "Su frontal es una elipse enorme, pensada para evocar el camino al monte Hiei."
+  ]
+ },
+ {
+  "id": "e233-5000",
+  "name": "Serie E233-5000",
+  "operator": "jr-east",
+  "introduced": 2010,
+  "cars": 10,
+  "wiki": "E233 series",
+  "summary": "La versión roja de la línea Keiyō.",
+  "runs": [
+   {
+    "line": "keiyo"
+   }
+  ],
+  "photo_file": "File:JR East E233-5000 Keiyo Line.JPG",
+  "facts": [
+   "El tren de la Keiyō: el que lleva a Maihama, la parada de Tokyo Disney Resort."
+  ]
+ },
+ {
+  "id": "e233-2000",
+  "name": "Serie E233-2000",
+  "operator": "jr-east",
+  "introduced": 2009,
+  "cars": 10,
+  "summary": "Versión más estrecha, adaptada al gálibo del metro Chiyoda, por el que entra desde la Jōban.",
+  "runs": [
+   {
+    "line": "joban-local"
+   },
+   {
+    "line": "chiyoda"
+   }
+  ],
+  "photo_file": "File:Joban kanko line E233-2000.jpg",
+  "facts": [
+   "Más estrecho y con frontal plano con puerta de emergencia: va preparado para meterse en el metro Chiyoda."
+  ]
+ },
+ {
+  "id": "e233-3000",
+  "name": "Serie E233-3000",
+  "operator": "jr-east",
+  "introduced": 2008,
+  "summary": "Tren de media distancia con coches Green de dos pisos, para Tōkaidō, Utsunomiya y Takasaki.",
+  "runs": [
+   {
+    "line": "tokaido-jt"
+   },
+   {
+    "line": "utsunomiya"
+   },
+   {
+    "line": "takasaki"
+   }
+  ],
+  "photo_file": "File:Tokaido-Line-Series-E233-3000.jpg",
+  "facts": [
+   "Para trayectos largos: asientos enfrentados y dos coches Green de dos pisos."
+  ]
+ },
+ {
+  "id": "e233-6000",
+  "name": "Serie E233-6000",
+  "operator": "jr-east",
+  "introduced": 2014,
+  "cars": 8,
+  "summary": "El tren verde claro de la línea Yokohama.",
+  "runs": [
+   {
+    "line": "yokohama-line"
+   }
+  ],
+  "photo_file": "File:JRE Series-E233-6000 H028.jpg",
+  "facts": [
+   "La versión de la Yokohama, de ocho coches, que jubiló a los viejos 205 en 2015."
+  ]
+ },
+ {
+  "id": "e233-8000",
+  "name": "Serie E233-8000",
+  "operator": "jr-east",
+  "introduced": 2014,
+  "cars": 6,
+  "summary": "El tren amarillo y naranja de la línea Nambu.",
+  "runs": [
+   {
+    "line": "nambu"
+   }
+  ],
+  "photo_file": "File:E233-8000 N2 Yako Station 20160116.JPG",
+  "facts": [
+   "La versión de la Nambu; sus seis coches llevan la franja amarilla, gris y marrón de la línea."
+  ]
+ },
+ {
+  "id": "e231-0",
+  "name": "Serie E231-0",
+  "operator": "jr-east",
+  "introduced": 2000,
+  "summary": "Cercanías de la familia E231 que hoy circula por las líneas Jōban (rápido) y Musashino.",
+  "runs": [
+   {
+    "line": "joban-rapid"
+   },
+   {
+    "line": "musashino"
+   }
+  ],
+  "photo_file": "File:E231-0 Series Musashino Line of JR East.jpg",
+  "facts": [
+   "Fue el primer tren de JR East pensado desde el principio para informar por pantallas en vez de carteles."
+  ]
+ },
+ {
+  "id": "e231-1000",
+  "name": "Serie E231-1000",
+  "operator": "jr-east",
+  "introduced": 2000,
+  "summary": "Tren de media distancia con coches Green de dos pisos; fue el primero de la familia en las líneas del norte.",
+  "runs": [
+   {
+    "line": "utsunomiya"
+   },
+   {
+    "line": "takasaki"
+   },
+   {
+    "line": "tokaido-jt"
+   },
+   {
+    "line": "shonan-shinjuku"
+   }
+  ],
+  "photo_file": "File:Series-E231 Tokaido-Yokosuka-Line.jpg",
+  "facts": [
+   "Para las líneas largas del norte de Tokio, con dos coches Green de dos pisos y asientos enfrentados."
+  ]
+ },
+ {
+  "id": "e531",
+  "name": "Serie E531",
+  "operator": "jr-east",
+  "introduced": 2005,
+  "wiki": "E531 series",
+  "summary": "Tren de media distancia de la Jōban, capaz de funcionar con corriente continua y alterna.",
+  "runs": [
+   {
+    "line": "joban-rapid"
+   }
+  ],
+  "facts": [
+   "Es el tren de cercanías más rápido de JR East: alcanza 130 km/h en la Jōban."
+  ]
+ },
+ {
+  "id": "tokyu-5000",
+  "name": "Tōkyū serie 5000",
+  "operator": "tokyu",
+  "introduced": 2002,
+  "wiki": "Tokyu 5000 series (2002)",
+  "summary": "El tren más numeroso de Tōkyū, basado en el E231 de JR East. Circula por el Den-en-toshi, el Tōyoko y el Meguro.",
+  "runs": [
+   {
+    "line": "tokyu-denentoshi"
+   },
+   {
+    "line": "tokyu-toyoko"
+   },
+   {
+    "line": "minatomirai"
+   },
+   {
+    "line": "tokyu-meguro"
+   }
+  ],
+  "facts": [
+   "Algunas unidades llevaron coches con seis puertas por lado para aliviar la hora punta de la Den-en-toshi."
+  ]
+ },
+ {
+  "id": "tokyu-2020",
+  "name": "Tōkyū serie 2020",
+  "operator": "tokyu",
+  "introduced": 2018,
+  "cars": 10,
+  "wiki": "Tokyu 2020 series",
+  "summary": "El tren blanco del Den-en-toshi desde 2018; también entra en el metro Hanzōmon.",
+  "runs": [
+   {
+    "line": "tokyu-denentoshi"
+   },
+   {
+    "line": "hanzomon"
+   }
+  ],
+  "facts": [
+   "La versión para la Den-en-toshi de la familia «sustina», de acero inoxidable soldado a tope."
+  ]
+ },
+ {
+  "id": "tokyu-3020",
+  "name": "Tōkyū serie 3020",
+  "operator": "tokyu",
+  "introduced": 2019,
+  "cars": 8,
+  "summary": "Versión del 2020 para la línea Meguro, que comparte con las líneas Namboku y Mita.",
+  "runs": [
+   {
+    "line": "tokyu-meguro"
+   },
+   {
+    "line": "tokyu-shin-yokohama"
+   }
+  ],
+  "photo_file": "File:Tokyu-Series3020-3821.jpg"
+ },
+ {
+  "id": "tokyu-1000",
+  "name": "Tōkyū serie 1000",
+  "operator": "tokyu",
+  "introduced": 1988,
+  "cars": 3,
+  "wiki": "Tokyu 1000 series",
+  "summary": "Trenes cortos de tres coches para las líneas Ikegami y Tamagawa.",
+  "runs": [
+   {
+    "line": "tokyu-ikegami"
+   },
+   {
+    "line": "tokyu-tamagawa"
+   }
+  ],
+  "facts": [
+   "Al retirarse de Tokio, varias unidades se vendieron a Ueda, Iga y Fukushima, donde siguen circulando."
+  ]
+ },
+ {
+  "id": "tokyu-300",
+  "name": "Tōkyū serie 300 (Setagaya)",
+  "operator": "tokyu",
+  "introduced": 1999,
+  "cars": 2,
+  "wiki": "Tokyu 300 series",
+  "summary": "Tranvías de dos coches articulados, cada uno de un color.",
+  "runs": [
+   {
+    "line": "tokyu-setagaya"
+   }
+  ],
+  "facts": [
+   "El tranvía de Setagaya: diez unidades de dos coches, cada una de un color distinto."
+  ]
+ },
+ {
+  "id": "romancecar",
+  "name": "Romancecar GSE (serie 70000)",
+  "operator": "odakyu",
+  "introduced": 2018,
+  "cars": 7,
+  "wiki": "Odakyu 70000 series",
+  "summary": "El Romancecar actual, rojo, con asientos panorámicos delante del conductor: el maquinista va en una cabina elevada.",
+  "facts": [
+   "Ganó el premio Blue Ribbon de los aficionados al tren en 2019."
+  ],
+  "runs": [
+   {
+    "line": "odakyu-odawara"
+   }
+  ]
+ },
+ {
+  "id": "odakyu-5000",
+  "name": "Odakyū serie 5000",
+  "operator": "odakyu",
+  "introduced": 2020,
+  "cars": 10,
+  "wiki": "Odakyu 5000 series (2019)",
+  "summary": "El tren de cercanías más nuevo de Odakyū, con coches más anchos.",
+  "runs": [
+   {
+    "line": "odakyu-odawara"
+   },
+   {
+    "line": "odakyu-enoshima"
+   }
+  ],
+  "facts": [
+   "Mide 2,9 metros de ancho, el máximo permitido, para que quepa más gente en hora punta."
+  ]
+ },
+ {
+  "id": "odakyu-4000",
+  "name": "Odakyū serie 4000",
+  "operator": "odakyu",
+  "introduced": 2007,
+  "cars": 10,
+  "wiki": "Odakyu 4000 series",
+  "summary": "Basado en el E233 de JR East; entra en el metro Chiyoda y, desde 2016, llega por él hasta la línea Jōban.",
+  "runs": [
+   {
+    "line": "odakyu-odawara"
+   },
+   {
+    "line": "chiyoda"
+   },
+   {
+    "line": "joban-local"
+   }
+  ],
+  "facts": [
+   "Está basado en el E233 de JR East, porque tiene que circular también por el metro Chiyoda."
+  ]
+ },
+ {
+  "id": "keio-5000",
+  "name": "Keiō serie 5000",
+  "operator": "keio",
+  "introduced": 2017,
+  "cars": 10,
+  "wiki": "Keio 5000 series (2017)",
+  "summary": "Sus asientos giran: laterales en hora punta y hacia delante para el «Keiō Liner» con plaza reservada.",
+  "runs": [
+   {
+    "line": "keio"
+   },
+   {
+    "line": "shinjuku"
+   },
+   {
+    "line": "keio-takao"
+   },
+   {
+    "line": "keio-sagamihara"
+   },
+   {
+    "line": "keio-new"
+   }
+  ],
+  "facts": [
+   "Fue el primer tren de Keiō con asientos que giran: de día van en fila y de noche, enfrentados, para el Keiō Liner."
+  ]
+ },
+ {
+  "id": "keio-1000",
+  "name": "Keiō serie 1000",
+  "operator": "keio",
+  "introduced": 1996,
+  "cars": 5,
+  "wiki": "Keio 1000 series",
+  "summary": "El tren del Inokashira, con su frontal en uno de siete colores del «arcoíris».",
+  "runs": [
+   {
+    "line": "keio-inokashira"
+   }
+  ]
+ },
+ {
+  "id": "seibu-001",
+  "name": "Seibu 001 «Laview»",
+  "operator": "seibu",
+  "introduced": 2019,
+  "cars": 8,
+  "wiki": "Seibu 001 series",
+  "summary": "Expreso limitado plateado, casi esférico en el frontal, con ventanas gigantes; Ikebukuro–Chichibu.",
+  "facts": [
+   "Ganó el premio Blue Ribbon en 2020."
+  ],
+  "runs": [
+   {
+    "line": "seibu-ikebukuro"
+   }
+  ]
+ },
+ {
+  "id": "seibu-40000",
+  "name": "Seibu serie 40000",
+  "operator": "seibu",
+  "introduced": 2017,
+  "cars": 10,
+  "wiki": "Seibu 40000 series",
+  "summary": "Asientos giratorios para el servicio con plaza reservada «S-Train»; entra en el metro Yūrakuchō y Fukutoshin.",
+  "runs": [
+   {
+    "line": "seibu-ikebukuro"
+   },
+   {
+    "line": "seibu-shinjuku"
+   },
+   {
+    "line": "seibu-yurakucho"
+   }
+  ]
+ },
+ {
+  "id": "seibu-10000",
+  "name": "Seibu 10000 «New Red Arrow»",
+  "operator": "seibu",
+  "introduced": 1993,
+  "cars": 7,
+  "wiki": "Seibu 10000 series",
+  "summary": "Expreso limitado de la Seibu Shinjuku (servicio «Koedo» a Kawagoe).",
+  "runs": [
+   {
+    "line": "seibu-shinjuku"
+   }
+  ],
+  "history": [
+   {
+    "line": "seibu-ikebukuro",
+    "years": [
+     1994,
+     2020
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tobu-500",
+  "name": "Tōbu 500 «Revaty»",
+  "operator": "tobu",
+  "introduced": 2017,
+  "cars": 3,
+  "wiki": "Tobu 500 series",
+  "summary": "Expreso limitado de tres coches que se acopla y desacopla para ir a varios destinos.",
+  "facts": [
+   "Ganó el premio Laurel en 2018."
+  ],
+  "runs": [
+   {
+    "line": "tobu-skytree"
+   }
+  ]
+ },
+ {
+  "id": "spacia-x",
+  "name": "Tōbu N100 «SPACIA X»",
+  "operator": "tobu",
+  "introduced": 2023,
+  "cars": 6,
+  "wiki": "Tobu N100 series",
+  "summary": "El expreso de lujo de Asakusa a Nikkō y Kinugawa (2023), con cafetería y un compartimento privado en el extremo.",
+  "runs": [
+   {
+    "line": "tobu-skytree"
+   }
+  ]
+ },
+ {
+  "id": "tobu-70000",
+  "name": "Tōbu serie 70000",
+  "operator": "tobu",
+  "introduced": 2017,
+  "cars": 7,
+  "wiki": "Tobu 70000 series",
+  "summary": "Hermano del Tokyo Metro 13000: circula por la Skytree y entra en el metro Hibiya.",
+  "runs": [
+   {
+    "line": "tobu-skytree"
+   },
+   {
+    "line": "hibiya"
+   }
+  ]
+ },
+ {
+  "id": "tobu-50000",
+  "name": "Tōbu serie 50000",
+  "operator": "tobu",
+  "introduced": 2005,
+  "cars": 10,
+  "wiki": "Tobu 50000 series",
+  "summary": "El primer tren de aluminio de Tōbu; circula por la Tōjō y entra en los metros Yūrakuchō y Fukutoshin.",
+  "runs": [
+   {
+    "line": "tobu-tojo"
+   },
+   {
+    "line": "fukutoshin"
+   }
+  ]
+ },
+ {
+  "id": "keikyu-1000",
+  "name": "Keikyū serie N1000",
+  "operator": "keikyu",
+  "introduced": 2002,
+  "wiki": "Keikyu N1000 series",
+  "summary": "El tren rojo más numeroso de Keikyū; llega por el metro Asakusa hasta la red Keisei.",
+  "runs": [
+   {
+    "line": "keikyu-main"
+   },
+   {
+    "line": "keikyu-airport"
+   },
+   {
+    "line": "asakusa"
+   },
+   {
+    "line": "keikyu-kurihama"
+   },
+   {
+    "line": "keikyu-zushi"
+   },
+   {
+    "line": "keikyu-daishi"
+   }
+  ]
+ },
+ {
+  "id": "keikyu-2100",
+  "name": "Keikyū serie 2100",
+  "operator": "keikyu",
+  "introduced": 1998,
+  "cars": 8,
+  "wiki": "Keikyu 2100 series",
+  "summary": "Expreso con asientos transversales para los «Kaitoku».",
+  "facts": [
+   "Sus motores, de Siemens, tocaban una escala musical al arrancar: lo llamaban el «tren que canta»."
+  ],
+  "runs": [
+   {
+    "line": "keikyu-main"
+   }
+  ]
+ },
+ {
+  "id": "skyliner",
+  "name": "Keisei AE «Skyliner»",
+  "operator": "keisei",
+  "introduced": 2010,
+  "cars": 8,
+  "wiki": "Keisei AE series (2009)",
+  "summary": "Une Ueno con el aeropuerto de Narita en unos 40 minutos, a 160 km/h por la Narita Sky Access.",
+  "facts": [
+   "Lo diseñó Kansai Yamamoto, el diseñador de moda; ganó el premio Blue Ribbon en 2011."
+  ],
+  "runs": [
+   {
+    "line": "keisei-main"
+   },
+   {
+    "line": "hokuso"
+   }
+  ]
+ },
+ {
+  "id": "keisei-3100",
+  "name": "Keisei serie 3100",
+  "operator": "keisei",
+  "introduced": 2019,
+  "cars": 8,
+  "wiki": "Keisei 3100 series",
+  "summary": "El tren del «Access Express»: une Haneda y Narita por el metro Asakusa, con espacio para maletas.",
+  "runs": [
+   {
+    "line": "keisei-main"
+   },
+   {
+    "line": "keisei-oshiage"
+   },
+   {
+    "line": "asakusa"
+   },
+   {
+    "line": "hokuso"
+   }
+  ]
+ },
+ {
+  "id": "tx-3000",
+  "name": "Tsukuba Express TX-3000",
+  "operator": "mir",
+  "introduced": 2020,
+  "cars": 6,
+  "wiki": "TX-3000 series",
+  "summary": "El tren más nuevo de la Tsukuba Express, preparado para corriente continua y alterna.",
+  "runs": [
+   {
+    "line": "tsukuba-express"
+   }
+  ]
+ },
+ {
+  "id": "sotetsu-20000",
+  "name": "Sōtetsu serie 20000",
+  "operator": "sotetsu",
+  "introduced": 2018,
+  "cars": 10,
+  "wiki": "Sotetsu 20000 series",
+  "summary": "En azul «Yokohama Navy Blue»; lleva los servicios directos hacia Tōkyū.",
+  "runs": [
+   {
+    "line": "sotetsu"
+   },
+   {
+    "line": "tokyu-toyoko"
+   },
+   {
+    "line": "tokyu-meguro"
+   },
+   {
+    "line": "sotetsu-shin-yokohama"
+   },
+   {
+    "line": "tokyu-shin-yokohama"
+   },
+   {
+    "line": "sotetsu-izumino"
+   }
+  ],
+  "facts": [
+   "Nació para el enlace directo de Sōtetsu con el centro de Tokio, por vías de otras compañías."
+  ]
+ },
+ {
+  "id": "sotetsu-12000",
+  "name": "Sōtetsu serie 12000",
+  "operator": "sotetsu",
+  "introduced": 2019,
+  "cars": 10,
+  "wiki": "Sotetsu 12000 series",
+  "summary": "Basado en el E233 de JR East, para los servicios directos Sōtetsu–JR hasta Shinjuku.",
+  "runs": [
+   {
+    "line": "sotetsu"
+   },
+   {
+    "line": "saikyo"
+   },
+   {
+    "line": "sotetsu-shin-yokohama"
+   }
+  ]
+ },
+ {
+  "id": "yokohama-3000",
+  "name": "Metro de Yokohama serie 3000",
+  "operator": "yokohama-subway",
+  "introduced": 1992,
+  "cars": 6,
+  "wiki": "Yokohama Municipal Subway 3000 series",
+  "summary": "El tren de la línea Azul, en varias versiones (A, N, R, S, V) entre 1992 y 2017.",
+  "runs": [
+   {
+    "line": "yokohama-blue"
+   }
+  ]
+ },
+ {
+  "id": "yokohama-4000",
+  "name": "Metro de Yokohama serie 4000",
+  "operator": "yokohama-subway",
+  "introduced": 2022,
+  "cars": 6,
+  "wiki": "Yokohama Municipal Subway 4000 series",
+  "summary": "El nuevo tren de la línea Azul (2022).",
+  "runs": [
+   {
+    "line": "yokohama-blue"
+   }
+  ]
+ },
+ {
+  "id": "yokohama-10000",
+  "name": "Metro de Yokohama serie 10000",
+  "operator": "yokohama-subway",
+  "introduced": 2008,
+  "cars": 4,
+  "wiki": "Yokohama Municipal Subway 10000 series",
+  "summary": "Tren de motor lineal y pequeño gálibo para la línea Verde.",
+  "runs": [
+   {
+    "line": "yokohama-green"
+   }
+  ]
+ },
+ {
+  "id": "tokyu-5000-1954",
+  "name": "Tōkyū serie 5000 «Aogaeru»",
+  "operator": "tokyu",
+  "introduced": 1954,
+  "retired": 1986,
+  "wiki": "Tokyu 5000 series (1954)",
+  "summary": "La «rana verde» (aogaeru): un tren ligero, verde y redondeado que modernizó Tōkyū en los años 50.",
+  "facts": [
+   "Durante años uno de sus coches estuvo expuesto en la plaza Hachikō de Shibuya como punto de encuentro."
+  ],
+  "history": [
+   {
+    "line": "tokyu-toyoko",
+    "years": [
+     1954,
+     null
+    ]
+   },
+   {
+    "line": "tokyu-meguro",
+    "years": [
+     null,
+     1986
+    ]
+   }
+  ]
+ },
+ {
+  "id": "romancecar-lse",
+  "name": "Romancecar LSE (serie 7000)",
+  "operator": "odakyu",
+  "introduced": 1980,
+  "retired": 2018,
+  "wiki": "Odakyu 7000 series LSE",
+  "summary": "Romancecar articulado de 1980 con asientos panorámicos delante; ganó el Blue Ribbon en 1981.",
+  "history": [
+   {
+    "line": "odakyu-odawara",
+    "years": [
+     1980,
+     2018
+    ]
+   }
+  ]
+ },
+ {
+  "id": "romancecar-hise",
+  "name": "Romancecar HiSE (serie 10000)",
+  "operator": "odakyu",
+  "introduced": 1987,
+  "retired": 2012,
+  "wiki": "Odakyu 10000 series HiSE",
+  "summary": "Romancecar de piso alto (High-decker) para ver mejor el paisaje.",
+  "history": [
+   {
+    "line": "odakyu-odawara",
+    "years": [
+     1987,
+     2012
+    ]
+   }
+  ]
+ },
+ {
+  "id": "romancecar-vse",
+  "name": "Romancecar VSE (serie 50000)",
+  "operator": "odakyu",
+  "introduced": 2005,
+  "retired": 2023,
+  "wiki": "Odakyu 50000 series VSE",
+  "summary": "El Romancecar blanco con techo abovedado y asientos orientados hacia la ventana; Blue Ribbon 2006.",
+  "history": [
+   {
+    "line": "odakyu-odawara",
+    "years": [
+     2005,
+     2022
+    ]
+   }
+  ]
+ },
+ {
+  "id": "keisei-ae-1972",
+  "name": "Keisei AE (1.er Skyliner)",
+  "operator": "keisei",
+  "introduced": 1973,
+  "retired": 1993,
+  "wiki": "Keisei AE series (1972)",
+  "summary": "El primer Skyliner (1973–1993). Al retirarse, sus bogies y equipos se reutilizaron en los trenes 3400.",
+  "history": [
+   {
+    "line": "keisei-main",
+    "years": [
+     1973,
+     1993
+    ]
+   }
+  ]
+ },
+ {
+  "id": "keikyu-800",
+  "name": "Keikyū serie 800",
+  "operator": "keikyu",
+  "introduced": 1978,
+  "retired": 2019,
+  "wiki": "Keikyu 800 series",
+  "summary": "Tren rojo de puertas anchas para servicios locales; premio Laurel en 1979.",
+  "history": [
+   {
+    "line": "keikyu-main",
+    "years": [
+     1978,
+     2019
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tama-monorail-1000",
+  "name": "Monorraíl de Tama serie 1000",
+  "operator": "tama-monorail",
+  "introduced": 1998,
+  "cars": 4,
+  "photo_file": "File:Tokyo Tama Intercity Monorail 1000 Series 1106F set.jpg",
+  "summary": "El monorraíl de la línea desde su inauguración en 1998.",
+  "runs": [
+   {
+    "line": "tama-monorail"
+   }
+  ]
+ },
+ {
+  "id": "enoden-1000",
+  "name": "Enoden serie 1000",
+  "operator": "enoden",
+  "introduced": 1979,
+  "cars": 2,
+  "photo_file": "File:Enoden Type 1000 at Enoshima Station.jpg",
+  "summary": "El clásico tren verde y crema del Enoden; circula acoplado en parejas junto al mar.",
+  "runs": [
+   {
+    "line": "enoden"
+   }
+  ]
+ },
+ {
+  "id": "shonan-monorail-5000",
+  "name": "Shōnan Monorail serie 5000",
+  "operator": "shonan-monorail",
+  "introduced": 2004,
+  "cars": 3,
+  "photo_file": "File:Shonan-Monorail Series5000-5608.jpg",
+  "summary": "El tren colgante actual, de tres coches, con grandes ventanas delanteras desde las que se ve el trazado.",
+  "runs": [
+   {
+    "line": "shonan-monorail"
+   }
+  ]
+ },
+ {
+  "id": "jrw-323",
+  "name": "Serie 323",
+  "operator": "jr-west",
+  "introduced": 2016,
+  "cars": 8,
+  "wiki": "323 series",
+  "summary": "El tren naranja del anillo de Ōsaka desde 2016; sustituyó a los veteranos 103 y 201.",
+  "facts": [
+   "Tiene solo tres puertas por lado, alineadas con las puertas de andén que se van instalando en el anillo."
+  ],
+  "runs": [
+   {
+    "line": "osaka-loop"
+   }
+  ]
+ },
+ {
+  "id": "haruka",
+  "name": "Serie 281 «Haruka»",
+  "operator": "jr-west",
+  "introduced": 1994,
+  "wiki": "281 series",
+  "summary": "Expreso limitado entre Kioto, Shin-Ōsaka y el aeropuerto de Kansai, desde su apertura en 1994.",
+  "runs": [
+   {
+    "line": "jr-kyoto"
+   },
+   {
+    "line": "hanwa"
+   }
+  ]
+ },
+ {
+  "id": "thunderbird",
+  "name": "Serie 683 «Thunderbird»",
+  "operator": "jr-west",
+  "introduced": 2001,
+  "wiki": "683 series",
+  "summary": "Expreso limitado de Ōsaka y Kioto a Tsuruga por la orilla del lago Biwa (línea Kosei), donde enlaza con el Hokuriku Shinkansen.",
+  "runs": [
+   {
+    "line": "jr-kyoto"
+   },
+   {
+    "line": "kosei"
+   }
+  ]
+ },
+ {
+  "id": "osaka-30000",
+  "name": "Osaka Metro serie 30000",
+  "operator": "osaka-metro",
+  "introduced": 2009,
+  "wiki": "Osaka Metro 30000 series",
+  "summary": "El tren de las líneas Midōsuji y Tanimachi; en la Midōsuji sustituyó a los veteranos serie 10.",
+  "runs": [
+   {
+    "line": "midosuji"
+   },
+   {
+    "line": "tanimachi"
+   }
+  ]
+ },
+ {
+  "id": "osaka-400",
+  "name": "Osaka Metro serie 400",
+  "operator": "osaka-metro",
+  "introduced": 2023,
+  "cars": 6,
+  "wiki": "Osaka Metro 400 series",
+  "summary": "Tren de aspecto futurista para la línea Chūō y la Expo 2025, con algunos asientos transversales.",
+  "runs": [
+   {
+    "line": "chuo-osaka"
+   }
+  ]
+ },
+ {
+  "id": "osaka-66",
+  "name": "Osaka Metro serie 66",
+  "operator": "osaka-metro",
+  "introduced": 1990,
+  "cars": 8,
+  "wiki": "Osaka Municipal Subway 66 series",
+  "summary": "El tren de la Sakaisuji, que comparte vías con Hankyu hasta Kioto.",
+  "runs": [
+   {
+    "line": "sakaisuji"
+   },
+   {
+    "line": "hankyu-senri"
+   }
+  ]
+ },
+ {
+  "id": "osaka-70",
+  "name": "Osaka Metro serie 70",
+  "operator": "osaka-metro",
+  "introduced": 1990,
+  "cars": 4,
+  "wiki": "Osaka Municipal Subway 70 series",
+  "summary": "Tren pequeño de motor lineal para la Nagahori Tsurumi-ryokuchi.",
+  "runs": [
+   {
+    "line": "nagahori"
+   }
+  ]
+ },
+ {
+  "id": "rapit",
+  "name": "Nankai 50000 «Rapi:t»",
+  "operator": "nankai",
+  "introduced": 1994,
+  "cars": 6,
+  "wiki": "Nankai 50000 series",
+  "summary": "El expreso al aeropuerto de Kansai, azul y de morro redondeado, con ventanas ovaladas: parece salido de un anime retro-futurista.",
+  "runs": [
+   {
+    "line": "nankai-main",
+    "from": "なんば",
+    "to": "泉佐野"
+   },
+   {
+    "line": "nankai-airport"
+   }
+  ]
+ },
+ {
+  "id": "nankai-8300",
+  "name": "Nankai serie 8300",
+  "operator": "nankai",
+  "introduced": 2015,
+  "wiki": "Nankai 8300 series",
+  "summary": "Tren de cercanías moderno de Nankai.",
+  "runs": [
+   {
+    "line": "nankai-main"
+   },
+   {
+    "line": "nankai-koya"
+   }
+  ]
+ },
+ {
+  "id": "hanshin-5700",
+  "name": "Hanshin 5700 «Jet Silver»",
+  "operator": "hanshin",
+  "introduced": 2015,
+  "cars": 4,
+  "wiki": "Hanshin 5700 series",
+  "summary": "Tren local de gran aceleración (los «jet cars» de Hanshin arrancan muy rápido para dejar paso a los expresos).",
+  "facts": [
+   "Ganó el premio Blue Ribbon en 2016."
+  ],
+  "runs": [
+   {
+    "line": "hanshin-main"
+   }
+  ]
+ },
+ {
+  "id": "hanshin-1000",
+  "name": "Hanshin serie 1000",
+  "operator": "hanshin",
+  "introduced": 2007,
+  "wiki": "Hanshin 1000 series",
+  "summary": "El tren que une Kōbe y Nara a través de la Hanshin Namba y la red Kintetsu.",
+  "runs": [
+   {
+    "line": "hanshin-main"
+   },
+   {
+    "line": "hanshin-namba"
+   },
+   {
+    "line": "kintetsu-namba"
+   },
+   {
+    "line": "kintetsu-nara"
+   }
+  ]
+ },
+ {
+  "id": "hankyu-1000",
+  "name": "Hankyu serie 1000",
+  "operator": "hankyu",
+  "introduced": 2013,
+  "cars": 8,
+  "wiki": "Hankyu 1000 series",
+  "summary": "Gemelo del 1300 de la línea Kioto, para las líneas Kōbe y Takarazuka; siempre en granate.",
+  "runs": [
+   {
+    "line": "hankyu-kobe"
+   },
+   {
+    "line": "hankyu-takarazuka"
+   }
+  ]
+ },
+ {
+  "id": "hinotori",
+  "name": "Kintetsu 80000 «Hinotori»",
+  "operator": "kintetsu",
+  "introduced": 2020,
+  "cars": 8,
+  "wiki": "Kintetsu 80000 series",
+  "summary": "Expreso de lujo rojo metalizado entre Ōsaka-Namba y Nagoya, con asientos «premium» en los extremos.",
+  "facts": [
+   "Ganó el premio Blue Ribbon en 2021."
+  ],
+  "runs": [
+   {
+    "line": "kintetsu-namba"
+   },
+   {
+    "line": "kintetsu-osaka"
+   }
+  ]
+ },
+ {
+  "id": "shimakaze",
+  "name": "Kintetsu 50000 «Shimakaze»",
+  "operator": "kintetsu",
+  "introduced": 2013,
+  "cars": 6,
+  "wiki": "Kintetsu 50000 series",
+  "summary": "Expreso turístico al santuario de Ise y Kashikojima, con coche cafetería de dos pisos.",
+  "facts": [
+   "Ganó el premio Blue Ribbon en 2014."
+  ],
+  "runs": [
+   {
+    "line": "kintetsu-namba"
+   },
+   {
+    "line": "kintetsu-osaka"
+   }
+  ]
+ },
+ {
+  "id": "osaka-monorail-3000",
+  "name": "Monorraíl de Ōsaka serie 3000",
+  "operator": "osaka-monorail",
+  "introduced": 2018,
+  "cars": 4,
+  "wiki": "Osaka Monorail 3000 series",
+  "summary": "El monorraíl más moderno de la línea, fabricado por Hitachi.",
+  "runs": [
+   {
+    "line": "osaka-monorail"
+   },
+   {
+    "line": "osaka-monorail-saito"
+   }
+  ]
+ },
+ {
+  "id": "hankai-mo161",
+  "name": "Hankai Mo 161",
+  "operator": "hankai",
+  "introduced": 1928,
+  "cars": 1,
+  "summary": "Tranvía de 1928 que sigue en servicio: uno de los más antiguos de Japón que aún lleva pasajeros a diario.",
+  "runs": [
+   {
+    "line": "hankai"
+   }
+  ],
+  "photo_file": "File:Hankai mo161.jpg"
+ },
+ {
+  "id": "kobe-6000",
+  "name": "Metro de Kōbe serie 6000",
+  "operator": "kobe-subway",
+  "introduced": 2019,
+  "cars": 6,
+  "wiki": "Kobe Municipal Subway 6000 series",
+  "summary": "El tren actual de la línea Seishin-Yamate, que sustituyó a los de 1977.",
+  "runs": [
+   {
+    "line": "kobe-seishin"
+   }
+  ]
+ },
+ {
+  "id": "port-liner-2000",
+  "name": "Port Liner serie 2000",
+  "operator": "kobe-new-transit",
+  "introduced": 2006,
+  "cars": 6,
+  "wiki": "Kobe New Transit 2000 series",
+  "summary": "Tren automático que llegó con la prolongación al aeropuerto de Kōbe (2006).",
+  "runs": [
+   {
+    "line": "port-liner"
+   }
+  ]
+ },
+ {
+  "id": "keihan-800",
+  "name": "Keihan serie 800",
+  "operator": "keihan",
+  "introduced": 1997,
+  "cars": 4,
+  "summary": "Tren multiusos: metro en la Tōzai de Kioto, tren de montaña en Ōsakayama y tranvía por las calles de Ōtsu.",
+  "runs": [
+   {
+    "line": "keihan-keishin"
+   },
+   {
+    "line": "kyoto-tozai"
+   }
+  ],
+  "photo_file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg"
+ },
+ {
+  "id": "chiba-monorail-0",
+  "name": "Monorraíl de Chiba serie 0 «Urban Flyer»",
+  "operator": "chiba-monorail",
+  "introduced": 2012,
+  "cars": 2,
+  "summary": "Monorraíl colgante con frontal acristalado desde el que se ve la ciudad por debajo.",
+  "runs": [
+   {
+    "line": "chiba-monorail"
+   },
+   {
+    "line": "chiba-monorail-1"
+   }
+  ],
+  "photo_file": "File:Chiba Urban Monorail 0 series 20120809.jpg"
+ },
+ {
+  "id": "port-liner-8000",
+  "name": "Port Liner serie 8000",
+  "operator": "kobe-new-transit",
+  "introduced": 1981,
+  "retired": 2009,
+  "summary": "El primer tren sin conductor del mundo en servicio comercial regular (1981).",
+  "history": [
+   {
+    "line": "port-liner",
+    "years": [
+     1981,
+     2009
+    ]
+   }
+  ],
+  "photo_file": "File:Port Liner at Sannomiya Station.jpg"
+ },
+ {
+  "id": "nt-300",
+  "name": "Nippori-Toneri Liner serie 300",
+  "operator": "toei",
+  "introduced": 2008,
+  "cars": 5,
+  "photo_file": "File:Nippori-Toneri-Liner Type300-14.jpg",
+  "summary": "El tren automático original de la línea (2008), sobre ruedas de goma.",
+  "runs": [
+   {
+    "line": "nippori-toneri"
+   }
+  ]
+ },
+ {
+  "id": "nt-330",
+  "name": "Nippori-Toneri Liner serie 330",
+  "operator": "toei",
+  "introduced": 2015,
+  "cars": 5,
+  "photo_file": "File:Nippori-Toneri-Liner Type330-39.jpg",
+  "summary": "Versión de 2015 con más puertas y asientos laterales, pensada para la hora punta.",
+  "runs": [
+   {
+    "line": "nippori-toneri"
+   }
+  ]
+ },
+ {
+  "id": "randen-trams",
+  "name": "Tranvías del Randen",
+  "operator": "keifuku",
+  "cars": 1,
+  "photo_file": "File:Keifuku Randen 631 at Arashiyama Station 20110410 (8407859706).jpg",
+  "summary": "Tranvías de un solo coche pintados de morado «Kyō-murasaki»; algunos lucen un aire retro.",
+  "runs": [
+   {
+    "line": "randen-arashiyama"
+   },
+   {
+    "line": "randen-kitano"
+   }
+  ]
+ },
+ {
+  "id": "nagoya-n1000",
+  "name": "Metro de Nagoya serie N1000",
+  "operator": "nagoya-subway",
+  "introduced": 2007,
+  "cars": 6,
+  "wiki": "Nagoya Municipal Subway N1000 series",
+  "summary": "El tren amarillo de la línea Higashiyama.",
+  "runs": [
+   {
+    "line": "nagoya-higashiyama"
+   }
+  ]
+ },
+ {
+  "id": "nagoya-n3000",
+  "name": "Metro de Nagoya serie N3000",
+  "operator": "nagoya-subway",
+  "introduced": 2012,
+  "cars": 6,
+  "summary": "Tren de la línea Tsurumai; el primero de Nagoya con caja de aluminio y acero inoxidable mezclados.",
+  "runs": [
+   {
+    "line": "nagoya-tsurumai"
+   }
+  ],
+  "photo_file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg"
+ },
+ {
+  "id": "meitetsu-2000",
+  "name": "Meitetsu 2000 «μSKY»",
+  "operator": "meitetsu",
+  "introduced": 2004,
+  "cars": 4,
+  "wiki": "Meitetsu 2000 series",
+  "summary": "El expreso rojo al aeropuerto de Centrair, con asientos reservados y sitio para maletas.",
+  "runs": [
+   {
+    "line": "meitetsu-airport"
+   },
+   {
+    "line": "meitetsu-tokoname"
+   },
+   {
+    "line": "meitetsu-main"
+   }
+  ],
+  "facts": [
+   "Es el «μSKY» del aeropuerto de Chūbu: todas sus plazas son reservadas.",
+   "Lleva espacio para maletas en cada coche, pensado para quien va al avión."
+  ]
+ },
+ {
+  "id": "meitetsu-9500",
+  "name": "Meitetsu serie 9500",
+  "operator": "meitetsu",
+  "introduced": 2019,
+  "cars": 4,
+  "summary": "Tren de cercanías reciente de Meitetsu, en el rojo característico de la compañía.",
+  "runs": [
+   {
+    "line": "meitetsu-main"
+   },
+   {
+    "line": "meitetsu-inuyama"
+   }
+  ],
+  "photo_file": "File:Meitetsu Express 9500 series.jpg"
+ },
+ {
+  "id": "meitetsu-7000",
+  "name": "Meitetsu 7000 «Panorama Car»",
+  "operator": "meitetsu",
+  "introduced": 1961,
+  "retired": 2009,
+  "wiki": "Meitetsu 7000 series",
+  "summary": "El tren con mirador panorámico delante del todo: los pasajeros viajaban donde suele ir el maquinista, que iba en una cabina elevada.",
+  "facts": [
+   "Ganó el premio Blue Ribbon en 1962 y circuló casi medio siglo."
+  ],
+  "history": [
+   {
+    "line": "meitetsu-main",
+    "years": [
+     1961,
+     2009
+    ]
+   }
+  ]
+ },
+ {
+  "id": "linimo-100",
+  "name": "Linimo serie 100",
+  "operator": "linimo",
+  "introduced": 2005,
+  "cars": 3,
+  "summary": "Tren de levitación magnética sin conductor: flota unos 8 mm sobre la vía.",
+  "runs": [
+   {
+    "line": "linimo"
+   }
+  ],
+  "photo_file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg"
+ },
+ {
+  "id": "aonami-1000",
+  "name": "Aonami serie 1000",
+  "operator": "aonami",
+  "introduced": 2004,
+  "cars": 4,
+  "summary": "El tren de la línea Aonami, basado en los modelos de JR East.",
+  "runs": [
+   {
+    "line": "aonami"
+   }
+  ],
+  "photo_file": "File:Aonami-Line Type1000-1106.jpg"
+ },
+ {
+  "id": "fukuoka-3000",
+  "name": "Metro de Fukuoka serie 3000",
+  "operator": "fukuoka-subway",
+  "introduced": 2005,
+  "cars": 4,
+  "summary": "Tren de motor lineal de la línea Nanakuma.",
+  "runs": [
+   {
+    "line": "fukuoka-nanakuma"
+   }
+  ],
+  "photo_file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg"
+ },
+ {
+  "id": "fukuoka-2000",
+  "name": "Metro de Fukuoka serie 2000",
+  "operator": "fukuoka-subway",
+  "introduced": 1993,
+  "cars": 6,
+  "summary": "Tren de las líneas Kūkō y Hakozaki; entra también en la línea JR Chikuhi.",
+  "runs": [
+   {
+    "line": "fukuoka-kuko"
+   },
+   {
+    "line": "fukuoka-hakozaki"
+   },
+   {
+    "line": "chikuhi"
+   }
+  ],
+  "photo_file": "File:Fukuokasubway2000.jpg"
+ },
+ {
+  "id": "nishitetsu-9000",
+  "name": "Nishitetsu serie 9000",
+  "operator": "nishitetsu",
+  "introduced": 2017,
+  "cars": 3,
+  "summary": "Tren de cercanías de la línea Tenjin-Ōmuta.",
+  "runs": [
+   {
+    "line": "nishitetsu-omuta"
+   }
+  ],
+  "photo_file": "File:Nishitetsu Series9000-9007.jpg"
+ },
+ {
+  "id": "dencha",
+  "name": "Serie BEC819 «DENCHA»",
+  "operator": "jr-kyushu",
+  "introduced": 2016,
+  "cars": 2,
+  "wiki": "BEC819 series",
+  "summary": "Tren eléctrico de baterías: circula sin catenaria y se recarga en las estaciones electrificadas.",
+  "runs": [
+   {
+    "line": "kashii"
+   }
+  ]
+ },
+ {
+  "id": "sapporo-5000",
+  "name": "Metro de Sapporo serie 5000",
+  "operator": "sapporo-city",
+  "introduced": 1995,
+  "cars": 6,
+  "summary": "El tren de la línea Namboku, sobre neumáticos y con guía central.",
+  "runs": [
+   {
+    "line": "sapporo-namboku"
+   }
+  ],
+  "photo_file": "File:ST SN5000 20061102 001.jpg"
+ },
+ {
+  "id": "sapporo-8000",
+  "name": "Metro de Sapporo serie 8000",
+  "operator": "sapporo-city",
+  "introduced": 1998,
+  "cars": 7,
+  "summary": "El tren de la línea Tōzai.",
+  "runs": [
+   {
+    "line": "sapporo-tozai"
+   }
+  ],
+  "photo_file": "File:Sapporo Subway 8901 20080601 t09 2.jpg"
+ },
+ {
+  "id": "sapporo-9000",
+  "name": "Metro de Sapporo serie 9000",
+  "operator": "sapporo-city",
+  "introduced": 2015,
+  "cars": 4,
+  "summary": "El tren de la línea Tōhō.",
+  "runs": [
+   {
+    "line": "sapporo-toho"
+   }
+  ],
+  "photo_file": "File:Sapporo 9000 9001 Odori 20150521.jpg"
+ },
+ {
+  "id": "sapporo-a1200",
+  "name": "Sapporo A1200 «Polaris»",
+  "operator": "sapporo-city",
+  "introduced": 2013,
+  "cars": 1,
+  "summary": "Tranvía articulado de piso bajo, pensado para la nieve de Sapporo.",
+  "runs": [
+   {
+    "line": "sapporo-tram"
+   }
+  ],
+  "photo_file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg"
+ },
+ {
+  "id": "sendai-2000",
+  "name": "Metro de Sendai serie 2000",
+  "operator": "sendai-subway",
+  "introduced": 2015,
+  "cars": 4,
+  "summary": "Tren de motor lineal de la línea Tōzai.",
+  "runs": [
+   {
+    "line": "sendai-tozai"
+   }
+  ],
+  "photo_file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg"
+ },
+ {
+  "id": "sendai-1000n",
+  "name": "Metro de Sendai serie 1000N",
+  "operator": "sendai-subway",
+  "introduced": 1987,
+  "cars": 4,
+  "summary": "El tren de la línea Namboku desde su inauguración, renovado en los años 2000.",
+  "runs": [
+   {
+    "line": "sendai-namboku"
+   }
+  ],
+  "photo_file": "File:Sendai Subway 1000 series ②.jpg"
+ },
+ {
+  "id": "hiroden-5100",
+  "name": "Hiroden 5100 «Green Mover Max»",
+  "operator": "hiroden",
+  "introduced": 2005,
+  "cars": 1,
+  "summary": "Tranvía articulado de cinco cuerpos y piso bajo, fabricado en Japón.",
+  "runs": [
+   {
+    "line": "hiroden-2"
+   },
+   {
+    "line": "hiroden-1"
+   }
+  ],
+  "photo_file": "File:Hiroden Green Mover T-5100 LRV.jpg"
+ },
+ {
+  "id": "hiroden-1000",
+  "name": "Hiroden 1000 «Green Mover LEX»",
+  "operator": "hiroden",
+  "introduced": 2013,
+  "cars": 1,
+  "summary": "Tranvía de piso bajo más corto, para las líneas del centro.",
+  "runs": [
+   {
+    "line": "hiroden-1"
+   },
+   {
+    "line": "hiroden-3"
+   },
+   {
+    "line": "hiroden-5"
+   }
+  ],
+  "photo_file": "File:Hiroden Series1000-1010.jpg"
+ },
+ {
+  "id": "hiroden-650",
+  "name": "Hiroden serie 650 (supervivientes de la bomba)",
+  "operator": "hiroden",
+  "introduced": 1942,
+  "cars": 1,
+  "summary": "Tranvías de 1942 que sobrevivieron a la bomba atómica de 1945 y que aún circulan en días señalados.",
+  "facts": [
+   "Tres días después del bombardeo, el tranvía de Hiroshima ya había reanudado parte del servicio."
+  ],
+  "runs": [
+   {
+    "line": "hiroden-1"
+   }
+  ],
+  "photo_file": "File:Hiroshima Electric Railway 650 series With A-Bomb Dome.jpg"
+ },
+ {
+  "id": "astram-7000",
+  "name": "Astram serie 7000",
+  "operator": "astram",
+  "introduced": 2015,
+  "cars": 6,
+  "summary": "Tren automático sin conductor de la línea Astram.",
+  "runs": [
+   {
+    "line": "astram"
+   }
+  ],
+  "photo_file": "File:Ōmachi station 2024 2.jpg"
+ },
+ {
+  "id": "kumamoto-9700",
+  "name": "Kumamoto serie 9700",
+  "operator": "kumamoto-city",
+  "introduced": 1997,
+  "cars": 1,
+  "summary": "El primer tranvía de piso bajo de Japón (1997), de diseño alemán.",
+  "runs": [
+   {
+    "line": "kumamoto-a"
+   },
+   {
+    "line": "kumamoto-b"
+   }
+  ],
+  "photo_file": "File:Kumamoto City Tram 9702.jpg"
+ },
+ {
+  "id": "okaden-9200",
+  "name": "Okayama 9200 «MOMO»",
+  "operator": "okaden",
+  "introduced": 2002,
+  "cars": 1,
+  "summary": "Tranvía de piso bajo diseñado por Eiji Mitooka, el del tren de lujo Nanatsuboshi.",
+  "runs": [
+   {
+    "line": "okayama-higashiyama"
+   },
+   {
+    "line": "okayama-seikibashi"
+   }
+  ],
+  "photo_file": "File:Okaden Type9200-9201B.jpg"
+ },
+ {
+  "id": "toyama-portram",
+  "name": "Portram TLR0600",
+  "operator": "toyama-chitetsu",
+  "introduced": 2006,
+  "cars": 1,
+  "summary": "Tranvía de piso bajo con siete colores distintos, uno por unidad.",
+  "runs": [
+   {
+    "line": "toyama-port"
+   }
+  ],
+  "photo_file": "File:Toyama Light Rail TLR0600.JPG"
+ },
+ {
+  "id": "botchan-ressha",
+  "name": "«Botchan Ressha»",
+  "operator": "iyotetsu",
+  "introduced": 2001,
+  "cars": 1,
+  "summary": "Réplica de la locomotora de vapor de 1888 que sale en la novela «Botchan»; en realidad es diésel.",
+  "runs": [
+   {
+    "line": "iyotetsu-loop"
+   }
+  ],
+  "photo_file": "File:Botchan-ressha.jpg"
+ },
+ {
+  "id": "jrh-721",
+  "name": "JR Hokkaidō serie 721",
+  "operator": "jr-hokkaido",
+  "introduced": 1988,
+  "cars": 3,
+  "summary": "El primer tren de cercanías moderno de Sapporo; durante años fue el del rápido «Airport».",
+  "runs": [
+   {
+    "line": "hakodate-s"
+   },
+   {
+    "line": "hakodate-a"
+   },
+   {
+    "line": "chitose"
+   },
+   {
+    "line": "chitose-airport"
+   },
+   {
+    "line": "sassho"
+   }
+  ],
+  "facts": [
+   "Lleva puertas con antecámara y calefacción reforzada: en Hokkaidō el frío manda en el diseño."
+  ],
+  "wiki": "721 series"
+ },
+ {
+  "id": "jrh-731",
+  "name": "JR Hokkaidō serie 731",
+  "operator": "jr-hokkaido",
+  "introduced": 1996,
+  "cars": 3,
+  "summary": "El tren urbano de Sapporo desde 1996, con puertas que sólo se abren si se pulsa el botón.",
+  "runs": [
+   {
+    "line": "hakodate-s"
+   },
+   {
+    "line": "hakodate-a"
+   },
+   {
+    "line": "chitose"
+   },
+   {
+    "line": "sassho"
+   }
+  ],
+  "facts": [
+   "Puede circular acoplado a los diésel de la serie Kiha 201, algo muy poco habitual en el mundo."
+  ],
+  "wiki": "731 series"
+ },
+ {
+  "id": "jrh-733",
+  "name": "JR Hokkaidō serie 733",
+  "operator": "jr-hokkaido",
+  "introduced": 2012,
+  "cars": 3,
+  "summary": "El tren más numeroso del área de Sapporo; la subserie 3000 hace el rápido del aeropuerto.",
+  "runs": [
+   {
+    "line": "hakodate-s"
+   },
+   {
+    "line": "hakodate-a"
+   },
+   {
+    "line": "chitose"
+   },
+   {
+    "line": "chitose-airport"
+   },
+   {
+    "line": "sassho"
+   }
+  ],
+  "facts": [
+   "Las unidades del aeropuerto llevan espacio para maletas junto a las puertas."
+  ],
+  "wiki": "733 series"
+ },
+ {
+  "id": "jrh-735",
+  "name": "JR Hokkaidō serie 735",
+  "operator": "jr-hokkaido",
+  "introduced": 2012,
+  "cars": 3,
+  "summary": "Sólo se construyeron dos trenes: fueron el ensayo en aluminio de JR Hokkaidō.",
+  "runs": [
+   {
+    "line": "hakodate-s"
+   },
+   {
+    "line": "hakodate-a"
+   },
+   {
+    "line": "chitose"
+   }
+  ],
+  "facts": [
+   "Es el primer tren de caja de aluminio de JR Hokkaidō; se construyó en 2010 y entró en servicio en 2012."
+  ],
+  "wiki": "735 series"
+ },
+ {
+  "id": "jrh-kiha201",
+  "name": "JR Hokkaidō Kiha 201",
+  "operator": "jr-hokkaido",
+  "introduced": 1997,
+  "cars": 3,
+  "summary": "Un diésel con prestaciones de tren eléctrico, para las líneas sin catenaria de Sapporo.",
+  "runs": [
+   {
+    "line": "hakodate-s"
+   }
+  ],
+  "facts": [
+   "Se acopla a los eléctricos de la serie 731 y ambos se mandan desde una sola cabina.",
+   "Sólo se construyeron cuatro composiciones."
+  ],
+  "wiki": "KiHa 201 series"
+ },
+ {
+  "id": "jrh-789",
+  "name": "JR Hokkaidō serie 789",
+  "operator": "jr-hokkaido",
+  "introduced": 2002,
+  "cars": 5,
+  "summary": "El tren de los expresos «Kamui» y «Lilac» entre Sapporo y Asahikawa.",
+  "runs": [
+   {
+    "line": "hakodate-a"
+   }
+  ],
+  "facts": [
+   "La serie 0 nació para los trenes del túnel de Seikan; la 1000, de 2007, para el corredor de Sapporo."
+  ],
+  "wiki": "789 series"
+ },
+ {
+  "id": "kokutetsu-711",
+  "name": "Serie 711 «el tren rojo»",
+  "operator": "jr-hokkaido",
+  "introduced": 1968,
+  "retired": true,
+  "cars": 3,
+  "summary": "El primer tren eléctrico de Hokkaidō: 47 años de servicio, de 1968 a 2015.",
+  "history": [
+   {
+    "line": "hakodate-s",
+    "years": [
+     1968,
+     2015
+    ]
+   },
+   {
+    "line": "hakodate-a",
+    "years": [
+     1968,
+     2015
+    ]
+   },
+   {
+    "line": "chitose",
+    "years": [
+     1968,
+     2012
+    ]
+   }
+  ],
+  "facts": [
+   "Se estrenó con la electrificación de Otaru–Takikawa, en 1968, y fue el primer tren de corriente alterna de serie de Japón.",
+   "Hizo su último servicio el 13 de marzo de 2015; su color rojo le dio el apodo de «akadensha»."
+  ],
+  "wiki": "711 series"
+ },
+ {
+  "id": "jrh-785",
+  "name": "JR Hokkaidō serie 785",
+  "operator": "jr-hokkaido",
+  "introduced": 1990,
+  "retired": true,
+  "cars": 4,
+  "summary": "Expreso «Super White Arrow» de Sapporo a Asahikawa; dejó el servicio en 2016.",
+  "history": [
+   {
+    "line": "hakodate-a",
+    "years": [
+     1990,
+     2016
+    ]
+   },
+   {
+    "line": "chitose",
+    "years": [
+     1990,
+     2016
+    ]
+   },
+   {
+    "line": "chitose-airport",
+    "years": [
+     1990,
+     2016
+    ]
+   }
+  ],
+  "facts": [
+   "Terminó su carrera en marzo de 2016, en los trenes del aeropuerto de New Chitose."
+  ],
+  "wiki": "785 series"
+ },
+ {
+  "id": "sapporo-7000",
+  "name": "Metro de Sapporo serie 7000",
+  "operator": "sapporo-city",
+  "introduced": 1988,
+  "retired": true,
+  "cars": 4,
+  "summary": "Fue el tren de la línea Tōhō desde su apertura, en 1988, hasta 2016.",
+  "history": [
+   {
+    "line": "sapporo-toho",
+    "years": [
+     1988,
+     2016
+    ]
+   }
+  ],
+  "facts": [
+   "Hizo su último viaje el 25 de junio de 2016, sustituido por la serie 9000."
+  ],
+  "photo_file": "File:Sapporo Municipal Subway 7000 series running Toho Line.jpg"
+ },
+ {
+  "id": "sapporo-3300",
+  "name": "Tranvía de Sapporo 3300",
+  "operator": "sapporo-city",
+  "introduced": 1998,
+  "cars": 1,
+  "summary": "Tranvía de los años 80 reconstruido en 1998 con equipo eléctrico nuevo.",
+  "runs": [
+   {
+    "line": "sapporo-tram"
+   }
+  ],
+  "facts": [],
+  "photo_file": "File:Sapporo Tram Type 3300 011.JPG"
+ },
+ {
+  "id": "sapporo-8500",
+  "name": "Tranvía de Sapporo 8500",
+  "operator": "sapporo-city",
+  "introduced": 1985,
+  "cars": 1,
+  "summary": "La primera serie del tranvía de Sapporo con control por chopper.",
+  "runs": [
+   {
+    "line": "sapporo-tram"
+   }
+  ],
+  "facts": [],
+  "photo_file": "File:Sapporo Tram Type 8500 013.JPG"
+ },
+ {
+  "id": "sapporo-1100",
+  "name": "Tranvía de Sapporo 1100 «Sirius»",
+  "operator": "sapporo-city",
+  "introduced": 2018,
+  "cars": 1,
+  "summary": "El tranvía moderno de un solo coche, en servicio desde octubre de 2018.",
+  "runs": [
+   {
+    "line": "sapporo-tram"
+   }
+  ],
+  "facts": [
+   "Su apodo, «Sirius», sigue la costumbre de Sapporo de poner nombres de estrellas a sus tranvías."
+  ],
+  "photo_file": "File:Sapporo Street Car Type 1100 1102 Sirius 2020-3-23.jpg"
+ },
+ {
+  "id": "e129",
+  "name": "Serie E129",
+  "operator": "jr-east",
+  "introduced": 2014,
+  "cars": 4,
+  "wiki": "E129 series",
+  "runs": [
+   {
+    "line": "echigo"
+   },
+   {
+    "line": "shinetsu"
+   },
+   {
+    "line": "hakushin"
+   }
+  ],
+  "summary": "El tren de cercanías de Niigata, hecho para la nieve y para trenes que se parten y se juntan por el camino.",
+  "facts": [
+   "Lleva asientos enfrentados y en fila en el mismo coche: unos para el viaje largo, otros para la hora punta."
+  ]
+ },
+ {
+  "id": "e131",
+  "name": "Serie E131",
+  "operator": "jr-east",
+  "introduced": 2021,
+  "cars": 2,
+  "wiki": "E131 series",
+  "runs": [
+   {
+    "line": "uchibo"
+   },
+   {
+    "line": "sotobo"
+   },
+   {
+    "line": "sagami"
+   }
+  ],
+  "summary": "Trenes cortos, de dos a cuatro coches, para las líneas de campo del área de Tokio.",
+  "facts": [
+   "Va sin revisor: el conductor cobra y vigila las puertas con cámaras."
+  ]
+ },
+ {
+  "id": "e721",
+  "name": "Serie E721",
+  "operator": "jr-east",
+  "introduced": 2006,
+  "cars": 2,
+  "wiki": "E721 series",
+  "runs": [
+   {
+    "line": "tohoku-main"
+   },
+   {
+    "line": "joban-sendai"
+   },
+   {
+    "line": "sendai-airport"
+   }
+  ],
+  "summary": "El tren de la zona de Sendai, con el piso muy bajo para no tener que levantar los andenes.",
+  "facts": [
+   "Su suelo está a 95 cm del carril, más bajo de lo normal, para que el escalón al andén casi desaparezca."
+  ]
+ },
+ {
+  "id": "jre-701",
+  "name": "Serie 701",
+  "operator": "jr-east",
+  "introduced": 1993,
+  "cars": 2,
+  "wiki": "701 series",
+  "runs": [
+   {
+    "line": "ou-north"
+   },
+   {
+    "line": "ou-south"
+   },
+   {
+    "line": "tohoku-main"
+   }
+  ],
+  "summary": "El tren que llenó el Tōhoku en los años noventa: dos o tres coches y asientos en fila.",
+  "facts": [
+   "Al sustituir trenes con asientos enfrentados por otros con bancos corridos, se ganó capacidad pero se perdieron las vistas."
+  ]
+ },
+ {
+  "id": "e353",
+  "name": "Serie E353",
+  "operator": "jr-east",
+  "introduced": 2017,
+  "cars": 12,
+  "wiki": "E353 series",
+  "runs": [
+   {
+    "line": "chuo-rapid"
+   }
+  ],
+  "summary": "El expreso limitado Azusa y Kaiji, de Shinjuku a los Alpes japoneses.",
+  "facts": [
+   "Inclina la caja con aire comprimido para tomar las curvas del valle del Kiso sin frenar."
+  ]
+ },
+ {
+  "id": "e257",
+  "name": "Serie E257",
+  "operator": "jr-east",
+  "introduced": 2001,
+  "cars": 9,
+  "wiki": "E257 series",
+  "runs": [
+   {
+    "line": "tokaido-jt"
+   },
+   {
+    "line": "ito-line"
+   }
+  ],
+  "summary": "Hoy es el Odoriko, el expreso que baja a la península de Izu.",
+  "facts": [
+   "Cada coche de la primera versión llevaba un color distinto, inspirado en el otoño de Shinshū."
+  ]
+ },
+ {
+  "id": "e261",
+  "name": "Serie E261 «Saphir Odoriko»",
+  "operator": "jr-east",
+  "introduced": 2020,
+  "cars": 8,
+  "wiki": "E261 series",
+  "runs": [
+   {
+    "line": "tokaido-jt"
+   },
+   {
+    "line": "ito-line"
+   }
+  ],
+  "summary": "Un expreso de lujo a Izu en el que todos los coches son de primera clase.",
+  "facts": [
+   "Lleva coches con techo acristalado y un coche-café que sirve sushi y comida italiana."
+  ]
+ },
+ {
+  "id": "gv-e400",
+  "name": "Serie GV-E400",
+  "operator": "jr-east",
+  "introduced": 2019,
+  "cars": 1,
+  "wiki": "GV-E400 series",
+  "runs": [
+   {
+    "line": "uetsu"
+   },
+   {
+    "line": "echigo"
+   }
+  ],
+  "summary": "Un diésel que no mueve las ruedas con el motor: genera electricidad y la usa en motores eléctricos.",
+  "facts": [
+   "Al frenar devuelve corriente, algo que un diésel clásico no sabe hacer."
+  ]
+ },
+ {
+  "id": "jrc-313",
+  "name": "Serie 313",
+  "operator": "jr-central",
+  "introduced": 1999,
+  "cars": 4,
+  "wiki": "313 series",
+  "runs": [
+   {
+    "line": "tokaido-aichi"
+   },
+   {
+    "line": "tokaido-shizuoka"
+   },
+   {
+    "line": "chuo-west"
+   },
+   {
+    "line": "tokaido-maibara"
+   }
+  ],
+  "summary": "El tren más común de JR Central: lo mismo hace de rápido que de local por media región de Tōkai.",
+  "facts": [
+   "Se construyó en muchas variantes —con asientos enfrentados, en fila o mixtos— según la línea."
+  ]
+ },
+ {
+  "id": "jrc-315",
+  "name": "Serie 315",
+  "operator": "jr-central",
+  "introduced": 2021,
+  "cars": 8,
+  "wiki": "315 series",
+  "runs": [
+   {
+    "line": "chuo-west"
+   },
+   {
+    "line": "tokaido-aichi"
+   }
+  ],
+  "summary": "El tren nuevo de la Chūō de Nagoya, con ocho coches iguales y mucha pantalla.",
+  "facts": [
+   "Es el primero de JR Central con frenado automático de emergencia si el conductor se queda inconsciente."
+  ]
+ },
+ {
+  "id": "hc85",
+  "name": "Serie HC85",
+  "operator": "jr-central",
+  "introduced": 2022,
+  "cars": 4,
+  "wiki": "HC85 series",
+  "runs": [
+   {
+    "line": "takayama-main"
+   }
+  ],
+  "summary": "El expreso Hida a Takayama, híbrido: motor diésel, baterías y motores eléctricos.",
+  "facts": [
+   "Jubiló a los famosos trenes diésel basculantes de la Takayama tras treinta años de servicio."
+  ]
+ },
+ {
+  "id": "jrc-383",
+  "name": "Serie 383",
+  "operator": "jr-central",
+  "introduced": 1994,
+  "cars": 6,
+  "wiki": "383 series",
+  "runs": [
+   {
+    "line": "chuo-west"
+   }
+  ],
+  "summary": "El expreso limitado Shinano, de Nagoya a Nagano por el valle del Kiso.",
+  "facts": [
+   "Se inclina en las curvas gracias a un sistema que se adelanta al trazado leyendo la posición del tren."
+  ]
+ },
+ {
+  "id": "jrw-207",
+  "name": "Serie 207",
+  "operator": "jr-west",
+  "introduced": 1991,
+  "cars": 7,
+  "runs": [
+   {
+    "line": "katamachi"
+   },
+   {
+    "line": "jr-tozai"
+   },
+   {
+    "line": "jr-kobe"
+   },
+   {
+    "line": "jr-kyoto"
+   }
+  ],
+  "summary": "El tren de los locales de Kansai, el primero de JR West con motores de corriente alterna.",
+  "facts": [
+   "Tras el accidente de Amagasaki en 2005 se repintaron todas las unidades y se revisó a fondo la conducción."
+  ],
+  "photo_search": "JR West 207 series train"
+ },
+ {
+  "id": "jrw-227",
+  "name": "Serie 227 «Red Wing»",
+  "operator": "jr-west",
+  "introduced": 2014,
+  "cars": 3,
+  "wiki": "227 series",
+  "runs": [
+   {
+    "line": "sanyo-hiroshima"
+   },
+   {
+    "line": "kure"
+   },
+   {
+    "line": "kabe"
+   }
+  ],
+  "summary": "El tren rojo de Hiroshima, que acabó con décadas de material heredado de la JNR.",
+  "facts": [
+   "Su llegada permitió retirar de golpe los últimos trenes de los años sesenta que quedaban en la región."
+  ]
+ },
+ {
+  "id": "jrw-521",
+  "name": "Serie 521",
+  "operator": "jr-west",
+  "introduced": 2006,
+  "cars": 2,
+  "wiki": "521 series",
+  "runs": [
+   {
+    "line": "hokuriku-shiga"
+   },
+   {
+    "line": "ir-ishikawa"
+   }
+  ],
+  "summary": "Dos coches para la costa del mar de Japón, hechos para la nieve del Hokuriku.",
+  "facts": [
+   "Varias unidades cambiaron de dueño en 2015 y 2024, cuando el Shinkansen fue dejando tramos a compañías locales."
+  ]
+ },
+ {
+  "id": "jrw-287",
+  "name": "Serie 287",
+  "operator": "jr-west",
+  "introduced": 2011,
+  "cars": 6,
+  "wiki": "287 series",
+  "runs": [
+   {
+    "line": "jr-takarazuka"
+   },
+   {
+    "line": "hanwa"
+   }
+  ],
+  "summary": "Expreso limitado blanco de JR West: hace de Kōnotori, Kuroshio u Ōsaka-Higashi según el día.",
+  "facts": [
+   "Se diseñó modular, para formar trenes de tres o seis coches según la demanda de cada ruta."
+  ]
+ },
+ {
+  "id": "jrk-811",
+  "name": "Serie 811",
+  "operator": "jr-kyushu",
+  "introduced": 1989,
+  "cars": 4,
+  "wiki": "811 series",
+  "runs": [
+   {
+    "line": "kagoshima-main-fukuoka"
+   },
+   {
+    "line": "nippo"
+   }
+  ],
+  "summary": "El primer tren propio de JR Kyūshū tras la privatización, para los rápidos de Fukuoka.",
+  "facts": [
+   "En su reforma de 2017 perdió los asientos enfrentados y ganó bancos corridos para que cupiera más gente."
+  ]
+ },
+ {
+  "id": "jrk-813",
+  "name": "Serie 813",
+  "operator": "jr-kyushu",
+  "introduced": 1994,
+  "cars": 3,
+  "wiki": "813 series",
+  "runs": [
+   {
+    "line": "kagoshima-main-fukuoka"
+   },
+   {
+    "line": "nippo"
+   },
+   {
+    "line": "sasebo-line"
+   }
+  ],
+  "summary": "El tren rojo de los rápidos del norte de Kyūshū.",
+  "facts": [
+   "Lo diseñó Mitooka Eiji, el mismo del Shinkansen 800 y de los trenes turísticos de la isla."
+  ]
+ },
+ {
+  "id": "jrk-817",
+  "name": "Serie 817",
+  "operator": "jr-kyushu",
+  "introduced": 2001,
+  "cars": 2,
+  "wiki": "817 series",
+  "runs": [
+   {
+    "line": "nippo-oita"
+   },
+   {
+    "line": "kagoshima-main-kumamoto"
+   },
+   {
+    "line": "sasebo-line"
+   }
+  ],
+  "summary": "Dos coches de aluminio con asientos de madera y cuero blanco.",
+  "facts": [
+   "Sus asientos son bancos de madera tapizados en cuero: más de una vez se han comparado con los de una cafetería."
+  ]
+ },
+ {
+  "id": "jrk-821",
+  "name": "Serie 821",
+  "operator": "jr-kyushu",
+  "introduced": 2018,
+  "cars": 3,
+  "wiki": "821 series",
+  "runs": [
+   {
+    "line": "kagoshima-main-fukuoka"
+   },
+   {
+    "line": "nippo"
+   }
+  ],
+  "summary": "La versión moderna del 811, con una franja de LED en el frontal que cambia de color.",
+  "facts": [
+   "Su frontal lleva una tira de luces que se ilumina en distintos colores según el servicio."
+  ]
+ },
+ {
+  "id": "jrk-885",
+  "name": "Serie 885",
+  "operator": "jr-kyushu",
+  "introduced": 2000,
+  "cars": 6,
+  "wiki": "885 series",
+  "runs": [
+   {
+    "line": "nippo"
+   },
+   {
+    "line": "nippo-oita"
+   }
+  ],
+  "summary": "El Sonic blanco, basculante, que une Fukuoka con Ōita en poco más de dos horas.",
+  "facts": [
+   "Sus asientos van tapizados en cuero y los reposacabezas llevan bordado el nombre del tren."
+  ]
+ },
+ {
+  "id": "jrk-883",
+  "name": "Serie 883 «Sonic»",
+  "operator": "jr-kyushu",
+  "introduced": 1994,
+  "cars": 7,
+  "wiki": "883 series",
+  "runs": [
+   {
+    "line": "nippo"
+   },
+   {
+    "line": "nippo-oita"
+   }
+  ],
+  "summary": "El Sonic azul: formas redondeadas, colores vivos y reposacabezas con forma de Mickey, obra de Mitooka.",
+  "facts": [
+   "Cada coche tenía al principio un color distinto en los asientos, con nombres como «Sonic Blue» o «Yellow»."
+  ]
+ },
+ {
+  "id": "jrk-787",
+  "name": "Serie 787",
+  "operator": "jr-kyushu",
+  "introduced": 1992,
+  "cars": 7,
+  "runs": [
+   {
+    "line": "nippo"
+   },
+   {
+    "line": "nippo-oita"
+   },
+   {
+    "line": "kagoshima-main-fukuoka"
+   }
+  ],
+  "summary": "Gris metalizado y con coche-salón: nació para el expreso Tsubame antes de que llegara el Shinkansen.",
+  "facts": [
+   "Llevaba un bufé y un salón con butacas, raro en un tren japonés de los años noventa."
+  ],
+  "photo_search": "JR Kyushu 787 series train"
+ },
+ {
+  "id": "jrs-7000",
+  "name": "Serie 7000",
+  "operator": "jr-shikoku",
+  "introduced": 1990,
+  "cars": 1,
+  "wiki": "JR Shikoku 7000 series",
+  "runs": [
+   {
+    "line": "yosan"
+   }
+  ],
+  "summary": "Coches sueltos que circulan solos por la Yosan: un tren de un solo vagón con cabina en los dos extremos.",
+  "facts": [
+   "Al ir sin revisor, el viajero saca tique de una máquina al subir y paga al conductor al bajar."
+  ]
+ },
+ {
+  "id": "jrs-8600",
+  "name": "Serie 8600",
+  "operator": "jr-shikoku",
+  "introduced": 2014,
+  "cars": 3,
+  "wiki": "JR Shikoku 8600 series",
+  "runs": [
+   {
+    "line": "yosan"
+   }
+  ],
+  "summary": "El expreso Shiokaze moderno, con un frontal que imita la chimenea de una locomotora de vapor.",
+  "facts": [
+   "En vez de inclinarse mecánicamente, usa aire comprimido en la suspensión para tomar las curvas."
+  ]
+ },
+ {
+  "id": "jrs-8000",
+  "name": "Serie 8000",
+  "operator": "jr-shikoku",
+  "introduced": 1992,
+  "cars": 5,
+  "wiki": "JR Shikoku 8000 series",
+  "runs": [
+   {
+    "line": "yosan"
+   }
+  ],
+  "summary": "El Shiokaze de toda la vida, basculante, entre Okayama y Matsuyama.",
+  "facts": [
+   "Fue el primer tren eléctrico basculante de JR Shikoku y bajó más de media hora el viaje a Matsuyama."
+  ]
+ },
+ {
+  "id": "jrs-2700",
+  "name": "Serie 2700",
+  "operator": "jr-shikoku",
+  "introduced": 2019,
+  "cars": 2,
+  "wiki": "JR Shikoku 2700 series",
+  "runs": [
+   {
+    "line": "dosan"
+   },
+   {
+    "line": "tokushima-line"
+   },
+   {
+    "line": "kotoku"
+   }
+  ],
+  "summary": "Diésel basculante para las curvas del interior de Shikoku: los expresos Nanpū y Shimanto.",
+  "facts": [
+   "Shikoku fue pionera en el mundo con los diésel basculantes, allá por 1989."
+  ]
+ },
+ {
+  "id": "jrs-5000",
+  "name": "Serie 5000 «Marine Liner»",
+  "operator": "jr-shikoku",
+  "introduced": 2003,
+  "cars": 3,
+  "wiki": "JR Shikoku 5000 series",
+  "runs": [
+   {
+    "line": "yosan"
+   }
+  ],
+  "summary": "Cruza el puente del mar interior entre Okayama y Takamatsu, con un coche de dos pisos.",
+  "facts": [
+   "El coche de dos pisos lo aporta JR West: el tren lo forman coches de dos compañías distintas."
+  ]
+ },
+ {
+  "id": "kintetsu-5820",
+  "name": "Kintetsu serie 5820 «L/C car»",
+  "operator": "kintetsu",
+  "introduced": 2000,
+  "cars": 6,
+  "wiki": "Kintetsu 5820 series",
+  "runs": [
+   {
+    "line": "kintetsu-osaka"
+   },
+   {
+    "line": "kintetsu-nara"
+   }
+  ],
+  "summary": "Sus asientos giran: en hora punta van en fila contra la pared y el resto del día, enfrentados.",
+  "facts": [
+   "«L/C» viene de longitudinal y cross: los dos modos en que se pueden poner los asientos."
+  ]
+ },
+ {
+  "id": "keisei-3000",
+  "name": "Keisei serie 3000",
+  "operator": "keisei",
+  "introduced": 2003,
+  "cars": 8,
+  "runs": [
+   {
+    "line": "keisei-main"
+   },
+   {
+    "line": "keisei-oshiage"
+   }
+  ],
+  "summary": "El tren corriente de Keisei, el que se ve a todas horas entre Ueno y Narita.",
+  "facts": [
+   "Sus unidades circulan también por el metro Asakusa y por Keikyū, hasta Haneda."
+  ],
+  "photo_search": "Keisei 3000 series train"
+ },
+ {
+  "id": "tobu-100",
+  "name": "Tōbu serie 100 «Spacia»",
+  "operator": "tobu",
+  "introduced": 1990,
+  "cars": 6,
+  "wiki": "Tobu 100 series",
+  "runs": [
+   {
+    "line": "tobu-nikko"
+   },
+   {
+    "line": "tobu-isesaki"
+   }
+  ],
+  "summary": "El expreso de Tōbu a Nikkō desde 1990, con compartimentos privados en el coche 6.",
+  "facts": [
+   "Fue el primer tren privado japonés con compartimentos cerrados de cuatro plazas."
+  ]
+ },
+ {
+  "id": "nishitetsu-3000",
+  "name": "Nishitetsu serie 3000",
+  "operator": "nishitetsu",
+  "introduced": 2006,
+  "cars": 3,
+  "wiki": "Nishitetsu 3000 series",
+  "runs": [
+   {
+    "line": "nishitetsu-omuta"
+   },
+   {
+    "line": "nishitetsu-dazaifu"
+   }
+  ],
+  "summary": "El tren de acero inoxidable de Nishitetsu entre Fukuoka y Ōmuta.",
+  "facts": [
+   "Lleva asientos que se pueden girar para los servicios rápidos, poco habitual en una línea privada regional."
+  ]
+ }
 ]

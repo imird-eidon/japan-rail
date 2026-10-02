@@ -15,7 +15,7 @@ const ui = {
   hidden: new Set(readStored(HIDDEN_KEY, [])),
   facts: [],
   factIndex: 0,
-  gallery: { q: "", region: null },   // filtros de la galería de fotos
+  gallery: { q: "", region: null, kind: null },   // filtros de la galería de fotos
 };
 
 function readStored(key, fallback) {
@@ -200,16 +200,18 @@ function cerrarGaleria() {
 }
 
 function clicGaleria(e) {
-  const btn = e.target.closest("[data-photo], [data-gallery-region]");
+  const btn = e.target.closest("[data-photo], [data-gallery-region], [data-gallery-kind]");
   if (!btn) return;
   if (btn.dataset.photo !== undefined) {
     abrirFoto(Number(btn.dataset.photo));
-  } else {
-    ui.gallery.region = btn.dataset.galleryRegion || null;
-    for (const c of galeria.querySelectorAll("[data-gallery-region]"))
-      c.setAttribute("aria-pressed", String((c.dataset.galleryRegion || null) === ui.gallery.region));
-    repintarMosaico();
+    return;
   }
+  const campo = btn.dataset.galleryRegion !== undefined ? "region" : "kind";
+  const attr = campo === "region" ? "galleryRegion" : "galleryKind";
+  ui.gallery[campo] = btn.dataset[attr] || null;
+  for (const c of galeria.querySelectorAll(`[data-gallery-${campo === "region" ? "region" : "kind"}]`))
+    c.setAttribute("aria-pressed", String((c.dataset[attr] || null) === ui.gallery[campo]));
+  repintarMosaico();
 }
 
 /** Solo se repinta el mosaico: la cabecera se queda, y con ella el foco del buscador. */

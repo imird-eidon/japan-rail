@@ -44,6 +44,24 @@
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:JR_Kyushu_BEC819_z311_20200720.jpg"
   },
+  "e129": {
+    "src": "img/trains/e129.webp",
+    "thumb": "img/trains/thumb/e129.webp",
+    "file": "File:JRE Series-E129 A6.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRE_Series-E129_A6.jpg"
+  },
+  "e131": {
+    "src": "img/trains/e131.webp",
+    "thumb": "img/trains/thumb/e131.webp",
+    "file": "File:Series-E131-R06.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series-E131-R06.jpg"
+  },
   "e231-0": {
     "src": "img/trains/e231-0.webp",
     "file": "File:E231-0 Series Musashino Line of JR East.jpg",
@@ -161,6 +179,33 @@
     "source": "https://commons.wikimedia.org/wiki/File:JRE_Series-E235-1000_J12.jpg",
     "thumb": "img/trains/thumb/e235-1000.webp"
   },
+  "e257": {
+    "src": "img/trains/e257.webp",
+    "thumb": "img/trains/thumb/e257.webp",
+    "file": "File:JR East E257 Limited Express Azusa.jpg",
+    "author": "Sui-setz",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_East_E257_Limited_Express_Azusa.jpg"
+  },
+  "e261": {
+    "src": "img/trains/e261.webp",
+    "thumb": "img/trains/thumb/e261.webp",
+    "file": "File:JRE-Series-E261 RS2.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRE-Series-E261_RS2.jpg"
+  },
+  "e353": {
+    "src": "img/trains/e353.webp",
+    "thumb": "img/trains/thumb/e353.webp",
+    "file": "File:SeriesE353-S108.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SeriesE353-S108.jpg"
+  },
   "e531": {
     "src": "img/trains/e531.webp",
     "file": "File:E531系0番台カツK425編成.jpg",
@@ -169,6 +214,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:E531%E7%B3%BB0%E7%95%AA%E5%8F%B0%E3%82%AB%E3%83%84K425%E7%B7%A8%E6%88%90.jpg",
     "thumb": "img/trains/thumb/e531.webp"
+  },
+  "e721": {
+    "src": "img/trains/e721.webp",
+    "thumb": "img/trains/thumb/e721.webp",
+    "file": "File:E721&SAT721.JPG",
+    "author": "Kuha455405",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:E721%26SAT721.JPG"
   },
   "eizan-900": {
     "src": "img/trains/eizan-900.webp",
@@ -214,6 +268,15 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Fukuoka_City_Subway_3000A_Series_at_Hashimoto_Depot.jpg"
+  },
+  "gv-e400": {
+    "src": "img/trains/gv-e400.webp",
+    "thumb": "img/trains/thumb/gv-e400.webp",
+    "file": "File:JRE GV-E400 Uetsu-main-line.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRE_GV-E400_Uetsu-main-line.jpg"
   },
   "hankai-mo161": {
     "src": "img/trains/hankai-mo161.webp",
@@ -286,6 +349,15 @@
     "license": "Public domain",
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:JR_West_281_Haruka.jpg"
+  },
+  "hc85": {
+    "src": "img/trains/hc85.webp",
+    "thumb": "img/trains/thumb/hc85.webp",
+    "file": "File:JR C HC85 D3 Nagoya 20220703.jpg",
+    "author": "Rsa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_C_HC85_D3_Nagoya_20220703.jpg"
   },
   "hinotori": {
     "src": "img/trains/hinotori.webp",
@@ -368,6 +440,42 @@
     "source": "https://commons.wikimedia.org/wiki/File:Keihin-tohoku_209_series.jpg",
     "thumb": "img/trains/thumb/jr-209.webp"
   },
+  "jrc-313": {
+    "src": "img/trains/jrc-313.webp",
+    "thumb": "img/trains/thumb/jrc-313.webp",
+    "file": "File:Series313 Y110 Y6.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series313_Y110_Y6.jpg"
+  },
+  "jrc-315": {
+    "src": "img/trains/jrc-315.webp",
+    "thumb": "img/trains/thumb/jrc-315.webp",
+    "file": "File:Series315 C6.jpg",
+    "author": "ひろばのさるの",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series315_C6.jpg"
+  },
+  "jrc-383": {
+    "src": "img/trains/jrc-383.webp",
+    "thumb": "img/trains/thumb/jrc-383.webp",
+    "file": "File:JRC Series383-A7 Shinano-1.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:JRC_Series383-A7_Shinano-1.jpg"
+  },
+  "jre-701": {
+    "src": "img/trains/jre-701.webp",
+    "thumb": "img/trains/thumb/jre-701.webp",
+    "file": "File:Series701-N9.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series701-N9.jpg"
+  },
   "jrh-721": {
     "src": "img/trains/jrh-721.webp",
     "thumb": "img/trains/thumb/jrh-721.webp",
@@ -431,6 +539,123 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:JR_Hokkaido_201_series_DMU_013.JPG"
   },
+  "jrk-787": {
+    "src": "img/trains/jrk-787.webp",
+    "thumb": "img/trains/thumb/jrk-787.webp",
+    "file": "File:Series787-Kamome BM1-BM14.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series787-Kamome_BM1-BM14.jpg"
+  },
+  "jrk-811": {
+    "src": "img/trains/jrk-811.webp",
+    "thumb": "img/trains/thumb/jrk-811.webp",
+    "file": "File:Series811-P9.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series811-P9.jpg"
+  },
+  "jrk-813": {
+    "src": "img/trains/jrk-813.webp",
+    "thumb": "img/trains/thumb/jrk-813.webp",
+    "file": "File:Series813-R006.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series813-R006.jpg"
+  },
+  "jrk-817": {
+    "src": "img/trains/jrk-817.webp",
+    "thumb": "img/trains/thumb/jrk-817.webp",
+    "file": "File:JRK Series817-0 V019.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:JRK_Series817-0_V019.jpg"
+  },
+  "jrk-821": {
+    "src": "img/trains/jrk-821.webp",
+    "thumb": "img/trains/thumb/jrk-821.webp",
+    "file": "File:Series821-U002.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series821-U002.jpg"
+  },
+  "jrk-883": {
+    "src": "img/trains/jrk-883.webp",
+    "thumb": "img/trains/thumb/jrk-883.webp",
+    "file": "File:Series883-AO2.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series883-AO2.jpg"
+  },
+  "jrk-885": {
+    "src": "img/trains/jrk-885.webp",
+    "thumb": "img/trains/thumb/jrk-885.webp",
+    "file": "File:Series885-Kamome.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Series885-Kamome.jpg"
+  },
+  "jrs-2700": {
+    "src": "img/trains/jrs-2700.webp",
+    "thumb": "img/trains/thumb/jrs-2700.webp",
+    "file": "File:JR Series2700-2780 Dosan-Line.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Series2700-2780_Dosan-Line.jpg"
+  },
+  "jrs-5000": {
+    "src": "img/trains/jrs-5000.webp",
+    "thumb": "img/trains/thumb/jrs-5000.webp",
+    "file": "File:JRS Series5000-M5 Marine-liner-41.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRS_Series5000-M5_Marine-liner-41.jpg"
+  },
+  "jrs-7000": {
+    "src": "img/trains/jrs-7000.webp",
+    "thumb": "img/trains/thumb/jrs-7000.webp",
+    "file": "File:JR Shikoku Series 7000 Using Rapid Sunport.JPG",
+    "author": "kazusan",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Shikoku_Series_7000_Using_Rapid_Sunport.JPG"
+  },
+  "jrs-8000": {
+    "src": "img/trains/jrs-8000.webp",
+    "thumb": "img/trains/thumb/jrs-8000.webp",
+    "file": "File:8000 siokaze.jpg",
+    "author": "Spaceaero2",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:8000_siokaze.jpg"
+  },
+  "jrs-8600": {
+    "src": "img/trains/jrs-8600.webp",
+    "thumb": "img/trains/thumb/jrs-8600.webp",
+    "file": "File:JR shikoku 8600 series EMU ishizuchi shiokaze.jpg",
+    "author": "Spaceaero2",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_shikoku_8600_series_EMU_ishizuchi_shiokaze.jpg"
+  },
+  "jrw-207": {
+    "src": "img/trains/jrw-207.webp",
+    "thumb": "img/trains/thumb/jrw-207.webp",
+    "file": "File:JR Series-207-S21 (2022-08-27).jpg",
+    "author": "Himeji-Higashi11184",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JR_Series-207-S21_(2022-08-27).jpg"
+  },
   "jrw-221": {
     "src": "img/trains/jrw-221.webp",
     "file": "File:JR West 221 Yamatoji rapid.jpg",
@@ -458,6 +683,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:JR_West_225-0_Series_I1_Special_Rapid.jpg",
     "thumb": "img/trains/thumb/jrw-225.webp"
   },
+  "jrw-227": {
+    "src": "img/trains/jrw-227.webp",
+    "thumb": "img/trains/thumb/jrw-227.webp",
+    "file": "File:227 series A03 20151121.jpg",
+    "author": "kh ws",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:227_series_A03_20151121.jpg"
+  },
+  "jrw-287": {
+    "src": "img/trains/jrw-287.webp",
+    "thumb": "img/trains/thumb/jrw-287.webp",
+    "file": "File:JRW EC 287 series FA04.jpg",
+    "author": "Mitsuki-2368 (talk",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRW_EC_287_series_FA04.jpg"
+  },
   "jrw-321": {
     "src": "img/trains/jrw-321.webp",
     "file": "File:Series321-D11.jpg",
@@ -475,6 +718,15 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Series323-LS21.jpg"
+  },
+  "jrw-521": {
+    "src": "img/trains/jrw-521.webp",
+    "thumb": "img/trains/thumb/jrw-521.webp",
+    "file": "File:JRW Series521-G30.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JRW_Series521-G30.jpg"
   },
   "keihan-13000": {
     "src": "img/trains/keihan-13000.webp",
@@ -557,6 +809,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Keio-Series5000-5733.jpg",
     "thumb": "img/trains/thumb/keio-5000.webp"
   },
+  "keisei-3000": {
+    "src": "img/trains/keisei-3000.webp",
+    "thumb": "img/trains/thumb/keisei-3000.webp",
+    "file": "File:Keisei-3000-1.jpg",
+    "author": "LERK",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Keisei-3000-1.jpg"
+  },
   "keisei-3100": {
     "src": "img/trains/keisei-3100.webp",
     "file": "File:Keisei-Type3151.jpg",
@@ -592,6 +853,15 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_Series3220-3123.jpg",
     "thumb": "img/trains/thumb/kintetsu-3220.webp"
+  },
+  "kintetsu-5820": {
+    "src": "img/trains/kintetsu-5820.webp",
+    "thumb": "img/trains/thumb/kintetsu-5820.webp",
+    "file": "File:Kintetsu 5820 DH51 Rapid Express.jpg",
+    "author": "KLDH",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_5820_DH51_Rapid_Express.jpg"
   },
   "kobe-6000": {
     "src": "img/trains/kobe-6000.webp",
@@ -718,6 +988,15 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Nankai_Series8300-8415.jpg"
+  },
+  "nishitetsu-3000": {
+    "src": "img/trains/nishitetsu-3000.webp",
+    "thumb": "img/trains/thumb/nishitetsu-3000.webp",
+    "file": "File:Nishitetsu Series3000-3009.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nishitetsu_Series3000-3009.jpg"
   },
   "nishitetsu-9000": {
     "src": "img/trains/nishitetsu-9000.webp",
@@ -1411,6 +1690,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:TokyoMetro9000.JPG",
     "thumb": "img/trains/thumb/tm-9000.webp"
+  },
+  "tobu-100": {
+    "src": "img/trains/tobu-100.webp",
+    "thumb": "img/trains/thumb/tobu-100.webp",
+    "file": "File:Tobu-Series100-104.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tobu-Series100-104.jpg"
   },
   "tobu-500": {
     "src": "img/trains/tobu-500.webp",

@@ -493,6 +493,11 @@ def resolve_trains(trains, lines, stations, warnings):
         for sid in served:
             stations[sid].setdefault("trains", []).append(t["id"])
 
+    # la ficha de la línea lista sus trenes: vale tanto decirlo en lines.json como en «runs» del tren
+    for l in lines:
+        actuales = [t["id"] for t in trains if l["id"] in t["lines"]]
+        l["trains"] = list(dict.fromkeys(l.get("trains", []) + actuales))
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -697,6 +702,13 @@ def main():
             t.pop(k, None)
         if t["id"] in photos:
             t["photo"] = photos[t["id"]]
+
+    fotos_est = load_json(CONFIG / "photos_stations.json") if (CONFIG / "photos_stations.json").exists() else {}
+    for sid, foto in fotos_est.items():
+        if sid in stations:
+            stations[sid]["photo"] = foto
+        else:
+            warnings.append(f"config/photos_stations.json: '{sid}' no coincide con ninguna estación")
 
     network = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),

@@ -62,10 +62,10 @@ export function homeView(net, { tab, hidden, fact }) {
 
 // ------------------------------------------------------------------ galería de fotos
 /** Filtra la galería por texto y por región; devuelve también el total para el contador. */
-export function filterPhotos(net, { q = "", region = null } = {}) {
+export function filterPhotos(net, { q = "", region = null, kind = null } = {}) {
   const term = norm(q).trim();
   return photoItems(net).filter((p) =>
-    (!region || p.region === region) && (!term || p.search.includes(term)));
+    (!region || p.region === region) && (!kind || p.kind === kind) && (!term || p.search.includes(term)));
 }
 
 /** Tres miniaturas sueltas para el enlace de la portada. */
@@ -77,37 +77,49 @@ function galleryPeek(net) {
 }
 
 /** Galería a pantalla completa: cabecera con buscador, regiones y mosaico. */
-export function galleryView(net, { q = "", region = null } = {}) {
+export function galleryView(net, opts = {}) {
+  const { q = "", region = null, kind = null } = opts;
   const all = photoItems(net);
   const regiones = [...new Set(all.map((p) => p.region))].filter(Boolean)
     .map((id) => [id, net.regions[id]?.name || id]);
+  const tipos = [["train", "Trenes"], ["station", "Estaciones"], ["line", "Líneas"]]
+    .filter(([id]) => all.some((p) => p.kind === id));
   return `
     <header class="gal-bar">
       <div class="gal-head">
         <h1>Galería</h1>
-        <p class="gal-count">${galleryCount(net, { q, region })}</p>
+        <p class="gal-count">${galleryCount(net, opts)}</p>
       </div>
       <input type="search" class="gal-q" value="${esc(q)}" autocomplete="off" spellcheck="false"
-             placeholder="Busca un tren, una línea, una compañía o una ciudad…" aria-label="Buscar fotos">
+             placeholder="Busca un tren, una estación, una línea o una ciudad…" aria-label="Buscar fotos">
       <a class="gal-close" href="#/" data-gal="close" aria-label="Cerrar la galería" title="Cerrar (Esc)">✕</a>
     </header>
-    <div class="gal-chips" aria-label="Filtrar por región">
+    <div class="gal-chips" aria-label="Filtrar las fotos">
+      <button type="button" class="chip" data-gallery-kind="" aria-pressed="${!kind}">Todo</button>
+      ${tipos.map(([id, name]) =>
+        `<button type="button" class="chip" data-gallery-kind="${id}" aria-pressed="${kind === id}">${name}</button>`).join("")}
+      <span class="gal-sep" aria-hidden="true"></span>
       <button type="button" class="chip" data-gallery-region="" aria-pressed="${!region}">Todo Japón</button>
       ${regiones.map(([id, name]) =>
         `<button type="button" class="chip" data-gallery-region="${esc(id)}" aria-pressed="${region === id}">${esc(name)}</button>`).join("")}
     </div>
-    <div class="gal-scroll">${galleryGrid(net, { q, region })}</div>`;
+    <div class="gal-scroll">${galleryGrid(net, opts)}</div>`;
 }
 
 /** Texto del contador, que cambia con cada filtro. */
 export function galleryCount(net, opts) {
-  const total = photoItems(net).length, hay = filterPhotos(net, opts).length;
-  return hay === total ? `${total} fotos de trenes` : `${hay} de ${total} fotos`;
+  const all = photoItems(net), hay = filterPhotos(net, opts).length;
+  if (hay < all.length) return `${hay} de ${all.length} fotos`;
+  const cuenta = (k) => all.filter((p) => p.kind === k).length;
+  const partes = [[cuenta("train"), "trenes"], [cuenta("station"), "estaciones"], [cuenta("line"), "líneas"]]
+    .filter(([n]) => n).map(([n, qué]) => `${n} ${qué}`);
+  return `${all.length} fotos: ${partes.join(" y ")}`;
 }
 
 /** El mosaico: se repinta solo él al filtrar, así el buscador no pierde el foco. */
-export function galleryGrid(net, { q = "", region = null } = {}) {
-  const shown = filterPhotos(net, { q, region });
+export function galleryGrid(net, opts = {}) {
+  const { q = "" } = opts;
+  const shown = filterPhotos(net, opts);
   if (!shown.length) {
     return `<p class="gal-empty">Ninguna foto coincide con <strong>${esc(q)}</strong>.<br>
       Prueba con un tren («E5»), una línea («Yamanote»), una compañía («JR West») o una ciudad («Kioto»).</p>`;
@@ -129,6 +141,17 @@ export function galleryGrid(net, { q = "", region = null } = {}) {
   return `
     <ul class="mosaic">${shown.map(tile).join("")}</ul>
     <p class="gal-foot">Todas las fotos son de Wikimedia Commons, con licencia libre: el autor y la licencia salen al abrir cada una.</p>`;
+}
+
+/** Foto de cabecera de una ficha (tren o estación), con su autoría. */
+function photoFigure(p, alt) {
+  return `
+    <figure class="photo">
+      <img src="${esc(p.src)}" alt="${esc(alt)}" decoding="async">
+      <figcaption>Foto: ${esc(p.author)} ·
+        ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)} ·
+        <a href="${esc(p.source)}" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>
+    </figure>`;
 }
 
 /** Ficha grande de una foto, para la ventana emergente. */
@@ -335,8 +358,10 @@ export function stationView(net, st) {
     return `<li>${link("station", o.id, `<span>${esc(o.name)} <span class="ja">${esc(o.ja)}</span></span><span class="muted">${n.m} m a pie · ${o.lines.map((x) => dot(net.lineById.get(x.line))).join("")}</span>`, "station-row")}</li>`;
   }).join("");
 
+  const p = st.photo;
   return `
     ${back}
+    ${p ? photoFigure(p, st.name) : ""}
     <header class="entity-head station">
       <div class="codes">${codes}</div>
       <div>
@@ -372,13 +397,7 @@ export function trainView(net, t) {
   }).join("");
   return `
     ${back}
-    ${p ? `
-    <figure class="photo">
-      <img src="${esc(p.src)}" alt="${esc(t.name)}" decoding="async">
-      <figcaption>Foto: ${esc(p.author)} ·
-        ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)} ·
-        <a href="${esc(p.source)}" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>
-    </figure>` : ""}
+    ${p ? photoFigure(p, t.name) : ""}
     <header class="entity-head">
       ${p ? "" : `<span class="train-icon">${trainIcon(34)}</span>`}
       <div>

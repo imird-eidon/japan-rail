@@ -7,7 +7,7 @@ El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
-- Ficha de cada estación (líneas, estación anterior/siguiente en cada línea, transbordos a pie).
+- Ficha de cada estación (foto, líneas, estación anterior/siguiente en cada línea, transbordos a pie).
 - Ficha de cada serie de tren, con foto, por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
 - Galería de fotos a pantalla completa, con buscador por tren, línea, compañía, ciudad o región.
@@ -23,11 +23,13 @@ config/            ← lo que se edita a mano
   lines.json       líneas: color, código, relación OSM, datos curiosos, trenes
   stations.json    datos curiosos por estación (clave = id de estación)
   trains.json      series de trenes y por dónde circulan (runs)
-  photos.json      (generado por fetch_photos.py) fotos: fichero, autor, licencia
+  photos.json      (generado por fetch_photos.py) fotos de trenes: fichero, autor, licencia
+  photos_stations.json   lo mismo para las fotos de estaciones
   overrides.json   correcciones a errores de OSM (nombres, códigos de estación)
 tools/
   build_data.py    descarga de OSM + mezcla con config → web/data/network.json
-  fetch_photos.py  descarga fotos de Wikimedia Commons → web/img/trains/ + config/photos.json
+  fetch_photos.py  descarga fotos de Wikimedia Commons → web/img/ + config/photos*.json
+                   (trenes por defecto; con --stations, estaciones)
 web/               ← la web estática (lo que se publica)
   index.html
   css/app.css
@@ -36,6 +38,7 @@ web/               ← la web estática (lo que se publica)
   js/views.js      fichas del panel lateral
   js/data.js       carga de datos y consultas
   data/network.json  (generado, no editar)
+  img/stations/    fotos de estaciones, igual que las de trenes
   img/trains/      fotos de trenes en WebP (800 px) y miniaturas en thumb/ (360 px), generadas
   vendor/leaflet/  Leaflet 1.9.4 (local, sin CDN)
 ```
@@ -167,7 +170,7 @@ y sirve para detectar líneas o estaciones que faltan. El inventario se regenera
 - [x] Nagoya, Fukuoka, Sapporo, Sendai, Hiroshima y los tranvías de otras ciudades (fase 3)
 - [x] Sapporo al completo: JR Hakodate, Chitose entera y sus trenes (fase 3c)
 - [ ] El resto de ciudades, una a una y cerrando cada una del todo (fase 3c)
-- [ ] Fotos de estaciones
+- [x] Fotos de estaciones de las 273 principales
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno
 - [ ] Viajeros diarios por estación
 

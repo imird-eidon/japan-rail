@@ -308,6 +308,7 @@ body.con-galeria { overflow: hidden; }
   display: flex; gap: 8px; flex: none; padding: 12px 22px; overflow-x: auto; scrollbar-width: none;
 }
 .gal-chips::-webkit-scrollbar { display: none; }
+.gal-sep { flex: none; width: 1px; background: rgba(255,255,255,.18); margin: 2px 4px; }
 .gal-chips .chip { flex: none; background: rgba(255,255,255,.07); border-color: transparent; color: #c9cbd3; }
 .gal-chips .chip:hover { background: rgba(255,255,255,.14); }
 .gal-chips .chip[aria-pressed="true"] { background: #fff; color: #14151a; border-color: #fff; }

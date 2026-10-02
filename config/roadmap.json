@@ -1140,7 +1140,8 @@
      "title": "Textos y fotos",
      "items": [
       {
-       "task": "Fotos de estaciones (Wikimedia Commons)"
+       "task": "Fotos de estaciones (Wikimedia Commons)",
+       "done": true
       },
       {
        "task": "Más datos curiosos de estaciones (ver huecos detectados)"
