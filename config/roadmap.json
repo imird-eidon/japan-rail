@@ -1147,7 +1147,12 @@
        "task": "Más datos curiosos de estaciones (ver huecos detectados)"
       },
       {
-       "task": "Datos curiosos para los trenes que no tienen"
+       "task": "Datos curiosos para todas las líneas",
+       "done": true
+      },
+      {
+       "task": "Datos curiosos para los trenes que no tienen",
+       "done": true
       },
       {
        "task": "Trenes históricos para las líneas que no tienen (ver huecos detectados)"

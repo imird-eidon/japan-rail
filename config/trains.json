@@ -42,7 +42,8 @@
   "builder": "Tōkyū Car / JR East (Niitsu)",
   "summary": "El naranja de la línea Chūō. Fue el primer modelo de la gran familia E233.",
   "facts": [
-   "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado."
+   "Tiene sistemas duplicados (motores, frenos, compresores) para que una sola avería no deje el tren parado.",
+   "Lleva dos juegos completos de equipos: si falla uno, el tren sigue sin parar la línea."
   ],
   "wiki": "E233 series",
   "photo_file": "File:JRE Chuo-Rapid-Line Series-E233-0.jpg",
@@ -97,7 +98,8 @@
    }
   ],
   "facts": [
-   "Entre 2002 y 2020 fue el tren de la Yamanote, en verde; al llegar los E235 pasó a la Chūō-Sōbu pintado de amarillo."
+   "Entre 2002 y 2020 fue el tren de la Yamanote, en verde; al llegar los E235 pasó a la Chūō-Sōbu pintado de amarillo.",
+   "Fue el primer tren de la Yamanote con pantallas sobre las puertas, en el año 2002."
   ],
   "photo_file": "File:JRE Series-E231-500 A525.jpg",
   "runs": [
@@ -114,7 +116,8 @@
   "cars": 6,
   "summary": "Homenaje a los primeros trenes de 1927: color limón y techo de aspecto retro.",
   "facts": [
-   "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927."
+   "Algunas unidades especiales reproducen el interior de madera y las luces del tren de 1927.",
+   "Su diseño imita al tren amarillo de 1927 con el que abrió la Ginza, el primer metro de Oriente."
   ],
   "wiki": "Tokyo Metro 1000 series"
  },
@@ -348,7 +351,8 @@
   "wiki": "N700 Series Shinkansen",
   "summary": "Versión mejorada («Advanced») del N700 de 2007, con la caja que se inclina en las curvas.",
   "facts": [
-   "La caja se inclina hasta 1 grado para tomar las curvas del Tōkaidō más rápido sin molestar al pasajero."
+   "La caja se inclina hasta 1 grado para tomar las curvas del Tōkaidō más rápido sin molestar al pasajero.",
+   "La «A» va pintada en el costado y significa «Advanced»: freno más potente y control automático de la velocidad."
   ],
   "runs": [
    {
@@ -377,7 +381,8 @@
   ],
   "photo_file": "File:Series-N700-7000-S8 Sakura-540.jpg",
   "facts": [
-   "Ocho coches para los Mizuho y Sakura; en clase turista los asientos van de dos en dos, más anchos que en el Tōkaidō."
+   "Ocho coches para los Mizuho y Sakura; en clase turista los asientos van de dos en dos, más anchos que en el Tōkaidō.",
+   "Sus ocho coches caben en los andenes cortos de Kyūshū, más pequeños que los del Tōkaidō."
   ]
  },
  {
@@ -394,7 +399,8 @@
    }
   ],
   "facts": [
-   "Diseñado por Mitooka Eiji, con maderas y tejidos de Kyūshū en el interior."
+   "Diseñado por Mitooka Eiji, con maderas y tejidos de Kyūshū en el interior.",
+   "La «S» del N700S viene de «Supreme»; esta versión es la que estrenó el Shinkansen de Nagasaki."
   ]
  },
  {
@@ -411,7 +417,8 @@
    }
   ],
   "facts": [
-   "Los asientos van tapizados en tela y los reposabrazos son de madera de alcanforero: diseño de Mitooka Eiji."
+   "Los asientos van tapizados en tela y los reposabrazos son de madera de alcanforero: diseño de Mitooka Eiji.",
+   "Sus asientos van de dos en dos, sin plaza de en medio: Kyūshū renunció a meter más gente a cambio de comodidad."
   ]
  },
  {
@@ -441,7 +448,8 @@
   "wiki": "E5 Series Shinkansen",
   "summary": "El verde de los Hayabusa: 320 km/h en el Tōhoku y llega hasta Hokkaidō.",
   "facts": [
-   "Tiene «GranClass», una clase por encima de la primera (Green), con solo 18 asientos."
+   "Tiene «GranClass», una clase por encima de la primera (Green), con solo 18 asientos.",
+   "Su morro mide 15 metros, pensado para que al entrar en un túnel no provoque el estallido de aire a la salida."
   ],
   "runs": [
    {
@@ -470,7 +478,8 @@
   ],
   "photo_file": "File:JRH Series-H5 H1.jpg",
   "facts": [
-   "Solo existen cuatro trenes, con una franja lila que recuerda los campos de lavanda de Furano."
+   "Solo existen cuatro trenes, con una franja lila que recuerda los campos de lavanda de Furano.",
+   "Es casi idéntico al E5 de JR East, pero lleva en el morro el emblema de JR Hokkaidō."
   ]
  },
  {
@@ -482,7 +491,8 @@
   "wiki": "E6 Series Shinkansen",
   "summary": "El rojo de los Komachi. Es un tren más estrecho para caber en las vías del mini-shinkansen de Akita.",
   "facts": [
-   "Su diseño es de Ken Okuyama, el diseñador de coches que trabajó para Ferrari."
+   "Su diseño es de Ken Okuyama, el diseñador de coches que trabajó para Ferrari.",
+   "Su rojo es el del jardín Kabazaiku de Akita; va acoplado al E5 hasta Morioka, donde los dos trenes se separan."
   ],
   "runs": [
    {
@@ -514,7 +524,8 @@
    }
   ],
   "facts": [
-   "Desde 2024 sube a 300 km/h en el tramo del Tōhoku, 25 más que el tren al que sustituye."
+   "Desde 2024 sube a 300 km/h en el tramo del Tōhoku, 25 más que el tren al que sustituye.",
+   "Sustituye al E3 en el Yamagata Shinkansen, que lleva funcionando desde 1992."
   ]
  },
  {
@@ -526,7 +537,8 @@
   "wiki": "E7 Series Shinkansen",
   "summary": "Azul y cobre, para el Hokuriku y el Jōetsu. JR West tiene su versión idéntica, la W7.",
   "facts": [
-   "En 2019 un tifón inundó el depósito de Nagano y se perdieron 10 trenes E7/W7, un tercio de la flota."
+   "En 2019 un tifón inundó el depósito de Nagano y se perdieron 10 trenes E7/W7, un tercio de la flota.",
+   "Lleva asientos Gran Class, la clase por encima de la primera, con solo 18 plazas por tren."
   ],
   "runs": [
    {
@@ -687,7 +699,8 @@
   "wiki": "205 series",
   "summary": "Primer tren de JNR de acero inoxidable ligero: sin pintar, solo con una franja del color de la línea. Estrenó en la Yamanote en 1985.",
   "facts": [
-   "Muchos 205 retirados en Tokio siguen circulando en Yakarta (Indonesia)."
+   "Muchos 205 retirados en Tokio siguen circulando en Yakarta (Indonesia).",
+   "Fue el primer tren japonés de serie con caja de acero inoxidable y suspensión neumática."
   ],
   "history": [
    {
@@ -778,7 +791,8 @@
   "retired": 1996,
   "summary": "Los trenes rojos originales de la Marunouchi, con la onda blanca que aún lleva la línea.",
   "facts": [
-   "Tras retirarse en 1996, muchos coches viajaron a Argentina y circularon por la línea B del subte de Buenos Aires."
+   "Tras retirarse en 1996, muchos coches viajaron a Argentina y circularon por la línea B del subte de Buenos Aires.",
+   "Decenas de sus coches se vendieron a Buenos Aires, donde siguieron llevando viajeros en el metro durante años."
   ],
   "history": [
    {
@@ -1059,7 +1073,8 @@
    }
   ],
   "facts": [
-   "Estrenó los coches de dos pisos en el Shinkansen: abajo, un comedor con vistas; arriba, Green Car."
+   "Estrenó los coches de dos pisos en el Shinkansen: abajo, un comedor con vistas; arriba, Green Car.",
+   "Lo diseñaron JR Central y JR West juntas, en el cambio de la JNR a las nuevas compañías."
   ]
  },
  {
@@ -1087,7 +1102,8 @@
    }
   ],
   "facts": [
-   "Con él nació el Nozomi en 1992, que bajó el viaje Tokio–Shin-Ōsaka a dos horas y media."
+   "Con él nació el Nozomi en 1992, que bajó el viaje Tokio–Shin-Ōsaka a dos horas y media.",
+   "Para bajar peso se hizo de aluminio: pesaba 365 toneladas frente a las 925 del tren al que sustituía."
   ]
  },
  {
@@ -1115,7 +1131,8 @@
    }
   ],
   "facts": [
-   "El Shinkansen del norte: morro reforzado y faldones contra la nieve para el invierno del Tōhoku."
+   "El Shinkansen del norte: morro reforzado y faldones contra la nieve para el invierno del Tōhoku.",
+   "Aguantó hasta 2013, treinta años en la nieve del norte."
   ]
  },
  {
@@ -1143,7 +1160,8 @@
    }
   ],
   "facts": [
-   "El primer Shinkansen entero de dos pisos, pensado para las aglomeraciones de la zona de Tokio."
+   "El primer Shinkansen entero de dos pisos, pensado para las aglomeraciones de la zona de Tokio.",
+   "Sus doce coches daban 1.235 plazas; lo llamaron Max, de «Multi Amenity eXpress»."
   ]
  },
  {
@@ -1171,7 +1189,8 @@
    }
   ],
   "facts": [
-   "Dos trenes acoplados daban 1.634 plazas: fue el tren de alta velocidad con más asientos del mundo."
+   "Dos trenes acoplados daban 1.634 plazas: fue el tren de alta velocidad con más asientos del mundo.",
+   "Se retiró en 2021 y una de sus unidades acabó, troceada, en museos y escuelas técnicas."
   ]
  },
  {
@@ -1201,7 +1220,8 @@
    }
   ],
   "facts": [
-   "Fue el primer mini-shinkansen (1992): circula por la vía de Yamagata, ensanchada para que quepa."
+   "Fue el primer mini-shinkansen (1992): circula por la vía de Yamagata, ensanchada para que quepa.",
+   "Iba pintado de gris plata para distinguirse de los trenes blancos del Tōhoku."
   ]
  },
  {
@@ -1230,7 +1250,8 @@
    }
   ],
   "facts": [
-   "Mini-shinkansen de Akita; una de sus unidades se decoró como museo de arte rodante, el Genbi Shinkansen."
+   "Mini-shinkansen de Akita; una de sus unidades se decoró como museo de arte rodante, el Genbi Shinkansen.",
+   "Al ser mini-shinkansen, su caja es más estrecha: en la vía normal deja un hueco que se salva con un estribo móvil."
   ]
  },
  {
@@ -1255,7 +1276,8 @@
    }
   ],
   "facts": [
-   "Su morro le valió el apodo de «ornitorrinco» (カモノハシ)."
+   "Su morro le valió el apodo de «ornitorrinco» (カモノハシ).",
+   "Fue el primer Shinkansen hecho a medias entre JR Central y JR West para el Nozomi."
   ]
  },
  {
@@ -1436,6 +1458,9 @@
    {
     "line": "keihan-main"
    }
+  ],
+  "facts": [
+   "Al entrar en servicio jubiló a los 2600, cuyos bastidores venían de trenes de 1959."
   ]
  },
  {
@@ -1467,6 +1492,9 @@
    {
     "line": "hankyu-kyoto"
    }
+  ],
+  "facts": [
+   "Hankyu pinta sus trenes del mismo granate desde los años veinte: este no iba a ser menos."
   ]
  },
  {
@@ -1484,6 +1512,9 @@
    {
     "line": "karasuma"
    }
+  ],
+  "facts": [
+   "Solo hay tres unidades: las justas para los directos entre Nara, Kioto y el metro Karasuma."
   ]
  },
  {
@@ -1821,7 +1852,10 @@
     "line": "tokyu-shin-yokohama"
    }
   ],
-  "photo_file": "File:Tokyu-Series3020-3821.jpg"
+  "photo_file": "File:Tokyu-Series3020-3821.jpg",
+  "facts": [
+   "Solo se fabricaron tres unidades, para reforzar la Meguro al abrirse el enlace con Shin-Yokohama."
+  ]
  },
  {
   "id": "tokyu-1000",
@@ -1869,7 +1903,8 @@
   "wiki": "Odakyu 70000 series",
   "summary": "El Romancecar actual, rojo, con asientos panorámicos delante del conductor: el maquinista va en una cabina elevada.",
   "facts": [
-   "Ganó el premio Blue Ribbon de los aficionados al tren en 2019."
+   "Ganó el premio Blue Ribbon de los aficionados al tren en 2019.",
+   "Los Romancecar llevan asientos panorámicos delante del todo porque la cabina del conductor va encima."
   ],
   "runs": [
    {
@@ -1961,6 +1996,9 @@
    {
     "line": "keio-inokashira"
    }
+  ],
+  "facts": [
+   "El Inokashira es la única línea de Keiō con vía de 1.067 mm: el resto de la compañía usa 1.372."
   ]
  },
  {
@@ -1998,6 +2036,9 @@
    {
     "line": "seibu-yurakucho"
    }
+  ],
+  "facts": [
+   "Los fines de semana su S-TRAIN llega hasta Yokohama, cruzando las vías de cuatro compañías."
   ]
  },
  {
@@ -2021,6 +2062,9 @@
      2020
     ]
    }
+  ],
+  "facts": [
+   "Reaprovechó bogies y motores de los «Red Arrow» originales; varias unidades acabaron en Toyama."
   ]
  },
  {
@@ -2052,6 +2096,9 @@
    {
     "line": "tobu-skytree"
    }
+  ],
+  "facts": [
+   "En la punta del tren hay una suite de seis plazas que mira por la ventana del morro."
   ]
  },
  {
@@ -2069,6 +2116,9 @@
    {
     "line": "hibiya"
    }
+  ],
+  "facts": [
+   "Una variante suya, con asientos que giran, hace el servicio de pago TH Liner hasta el metro Hibiya."
   ]
  },
  {
@@ -2086,6 +2136,9 @@
    {
     "line": "fukutoshin"
    }
+  ],
+  "facts": [
+   "Sus unidades 50070 son las que se meten en el metro Fukutoshin y siguen hasta Yokohama."
   ]
  },
  {
@@ -2114,6 +2167,10 @@
    {
     "line": "keikyu-daishi"
    }
+  ],
+  "facts": [
+   "Las primeras unidades llevaban equipo alemán de Siemens que al arrancar sonaba como una escala musical.",
+   "Por eso se las conocía como «el tren que canta»; el equipo se fue cambiando y el sonido desapareció."
   ]
  },
  {
@@ -2125,7 +2182,8 @@
   "wiki": "Keikyu 2100 series",
   "summary": "Expreso con asientos transversales para los «Kaitoku».",
   "facts": [
-   "Sus motores, de Siemens, tocaban una escala musical al arrancar: lo llamaban el «tren que canta»."
+   "Sus motores, de Siemens, tocaban una escala musical al arrancar: lo llamaban el «tren que canta».",
+   "Todos sus asientos son transversales, cosa rara en un tren que también hace de cercanías."
   ],
   "runs": [
    {
@@ -2142,7 +2200,8 @@
   "wiki": "Keisei AE series (2009)",
   "summary": "Une Ueno con el aeropuerto de Narita en unos 40 minutos, a 160 km/h por la Narita Sky Access.",
   "facts": [
-   "Lo diseñó Kansai Yamamoto, el diseñador de moda; ganó el premio Blue Ribbon en 2011."
+   "Lo diseñó Kansai Yamamoto, el diseñador de moda; ganó el premio Blue Ribbon en 2011.",
+   "Alcanza 160 km/h, la mayor velocidad de un tren de ancho estrecho en Japón."
   ],
   "runs": [
    {
@@ -2174,6 +2233,9 @@
    {
     "line": "hokuso"
    }
+  ],
+  "facts": [
+   "Lleva huecos para maletas junto a las puertas: casi todos sus viajeros van o vienen de un aeropuerto."
   ]
  },
  {
@@ -2188,6 +2250,9 @@
    {
     "line": "tsukuba-express"
    }
+  ],
+  "facts": [
+   "Corre a 130 km/h, velocidad de pocas líneas de cercanías en Japón."
   ]
  },
  {
@@ -2240,6 +2305,9 @@
    {
     "line": "sotetsu-shin-yokohama"
    }
+  ],
+  "facts": [
+   "Su azul oscuro se llama «Yokohama navy blue» y se eligió al preparar la entrada de Sōtetsu en Tokio."
   ]
  },
  {
@@ -2254,6 +2322,9 @@
    {
     "line": "yokohama-blue"
    }
+  ],
+  "facts": [
+   "Sus versiones van de la A a la V y entre la primera y la última pasan veinticinco años."
   ]
  },
  {
@@ -2268,6 +2339,9 @@
    {
     "line": "yokohama-blue"
    }
+  ],
+  "facts": [
+   "Es el primer tren nuevo de la línea Azul en treinta años: hasta él solo hubo versiones del 3000."
   ]
  },
  {
@@ -2282,6 +2356,9 @@
    {
     "line": "yokohama-green"
    }
+  ],
+  "facts": [
+   "El motor lineal le permite subir rampas más fuertes, que falta hacen en los montes del oeste de Yokohama."
   ]
  },
  {
@@ -2328,6 +2405,9 @@
      2018
     ]
    }
+  ],
+  "facts": [
+   "Fue el último Romancecar de asientos panorámicos y cabina sobre el techo; se retiró en 2018."
   ]
  },
  {
@@ -2346,6 +2426,9 @@
      2012
     ]
    }
+  ],
+  "facts": [
+   "Dos de sus unidades se vendieron a Nagano, donde siguieron circulando como «Yukemuri»."
   ]
  },
  {
@@ -2364,6 +2447,9 @@
      2022
     ]
    }
+  ],
+  "facts": [
+   "Lo diseñó Okabe Noriaki, del estudio de Renzo Piano, el arquitecto del Centro Pompidou."
   ]
  },
  {
@@ -2382,6 +2468,9 @@
      1993
     ]
    }
+  ],
+  "facts": [
+   "El primer Skyliner tardaba una hora de Ueno a Narita; el de ahora lo hace en 41 minutos."
   ]
  },
  {
@@ -2400,6 +2489,9 @@
      2019
     ]
    }
+  ],
+  "facts": [
+   "Fue el primer tren de Keikyū con control por chopper y freno regenerativo, en 1978."
   ]
  },
  {
@@ -2414,6 +2506,9 @@
    {
     "line": "tama-monorail"
    }
+  ],
+  "facts": [
+   "Sus ruedas de goma abrazan la viga de hormigón, lo que le permite subir rampas muy fuertes."
   ]
  },
  {
@@ -2428,6 +2523,9 @@
    {
     "line": "enoden"
    }
+  ],
+  "facts": [
+   "Ganó el premio Blue Ribbon en 1980, raro para un tren que durante buena parte del recorrido va por la calle."
   ]
  },
  {
@@ -2442,6 +2540,9 @@
    {
     "line": "shonan-monorail"
    }
+  ],
+  "facts": [
+   "Es un monorraíl colgante del sistema francés SAFEGE: en Japón solo quedan dos, este y el de Chiba."
   ]
  },
  {
@@ -2475,6 +2576,10 @@
    {
     "line": "hanwa"
    }
+  ],
+  "facts": [
+   "Desde 2019 algunas unidades van decoradas con Hello Kitty de arriba abajo.",
+   "Tarda unos 75 minutos de Kioto al aeropuerto de Kansai, con parada en Shin-Ōsaka."
   ]
  },
  {
@@ -2491,6 +2596,9 @@
    {
     "line": "kosei"
    }
+  ],
+  "facts": [
+   "Desde 2024 ya no llega a Kanazawa: el Shinkansen se quedó ese tramo y el Thunderbird acaba en Tsuruga."
   ]
  },
  {
@@ -2507,6 +2615,9 @@
    {
     "line": "tanimachi"
    }
+  ],
+  "facts": [
+   "En la Midōsuji circula en formaciones de diez coches, las más largas del metro de Ōsaka."
   ]
  },
  {
@@ -2521,6 +2632,9 @@
    {
     "line": "chuo-osaka"
    }
+  ],
+  "facts": [
+   "Su frontal, que parece una nave espacial, es obra del estudio de Okuyama Ken, diseñador de coches deportivos."
   ]
  },
  {
@@ -2538,6 +2652,9 @@
    {
     "line": "hankyu-senri"
    }
+  ],
+  "facts": [
+   "Para poder salir a las vías de Hankyu lleva pantógrafo y ancho de 1.435 mm, en vez del tercer carril del resto del metro."
   ]
  },
  {
@@ -2552,6 +2669,9 @@
    {
     "line": "nagahori"
    }
+  ],
+  "facts": [
+   "Su motor lineal permitió excavar en la Nagahori un túnel mucho más pequeño y barato."
   ]
  },
  {
@@ -2571,6 +2691,10 @@
    {
     "line": "nankai-airport"
    }
+  ],
+  "facts": [
+   "Lo diseñó el arquitecto Wakabayashi Hiroaki y ganó el premio Blue Ribbon en 1995.",
+   "Sus ventanillas son redondas, como ojos de buey, y el morro recuerda a un casco."
   ]
  },
  {
@@ -2587,6 +2711,9 @@
    {
     "line": "nankai-koya"
    }
+  ],
+  "facts": [
+   "Vino a sustituir a los 7000, que llevaban circulando desde los años sesenta."
   ]
  },
  {
@@ -2626,6 +2753,9 @@
    {
     "line": "kintetsu-nara"
    }
+  ],
+  "facts": [
+   "Cuando sale por la Hanshin Namba es el único tren de Hanshin que se deja ver en Nara."
   ]
  },
  {
@@ -2643,6 +2773,9 @@
    {
     "line": "hankyu-takarazuka"
    }
+  ],
+  "facts": [
+   "Hankyu presumió de que hacía la mitad de ruido dentro del coche que el modelo al que sustituía."
   ]
  },
  {
@@ -2654,7 +2787,8 @@
   "wiki": "Kintetsu 80000 series",
   "summary": "Expreso de lujo rojo metalizado entre Ōsaka-Namba y Nagoya, con asientos «premium» en los extremos.",
   "facts": [
-   "Ganó el premio Blue Ribbon en 2021."
+   "Ganó el premio Blue Ribbon en 2021.",
+   "Sus asientos de clase premium van en una butaca que se reclina sin invadir al de atrás."
   ],
   "runs": [
    {
@@ -2674,7 +2808,8 @@
   "wiki": "Kintetsu 50000 series",
   "summary": "Expreso turístico al santuario de Ise y Kashikojima, con coche cafetería de dos pisos.",
   "facts": [
-   "Ganó el premio Blue Ribbon en 2014."
+   "Ganó el premio Blue Ribbon en 2014.",
+   "Lleva coche-café de dos pisos y salas privadas de cuatro y seis plazas."
   ],
   "runs": [
    {
@@ -2700,6 +2835,9 @@
    {
     "line": "osaka-monorail-saito"
    }
+  ],
+  "facts": [
+   "Su línea tiene el récord Guinness del monorraíl más largo del mundo: 28 kilómetros."
   ]
  },
  {
@@ -2714,7 +2852,10 @@
     "line": "hankai"
    }
   ],
-  "photo_file": "File:Hankai mo161.jpg"
+  "photo_file": "File:Hankai mo161.jpg",
+  "facts": [
+   "No tiene aire acondicionado, así que hoy solo se le ve en invierno."
+  ]
  },
  {
   "id": "kobe-6000",
@@ -2728,6 +2869,9 @@
    {
     "line": "kobe-seishin"
    }
+  ],
+  "facts": [
+   "Sustituyó a los trenes de 1977 que abrieron la línea, tras más de cuarenta años de servicio."
   ]
  },
  {
@@ -2742,6 +2886,9 @@
    {
     "line": "port-liner"
    }
+  ],
+  "facts": [
+   "El Port Liner da una vuelta completa a la isla del puerto: la ida y la vuelta no pasan por las mismas paradas."
   ]
  },
  {
@@ -2759,7 +2906,10 @@
     "line": "kyoto-tozai"
    }
   ],
-  "photo_file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg"
+  "photo_file": "File:浜大津駅前交差点のカーブを進む京阪800系（2006年9月24日）.jpg",
+  "facts": [
+   "En Ōtsu circula por el medio de la calle, entre los coches, con sus cuatro coches de metro."
+  ]
  },
  {
   "id": "chiba-monorail-0",
@@ -2776,7 +2926,10 @@
     "line": "chiba-monorail-1"
    }
   ],
-  "photo_file": "File:Chiba Urban Monorail 0 series 20120809.jpg"
+  "photo_file": "File:Chiba Urban Monorail 0 series 20120809.jpg",
+  "facts": [
+   "Su línea tiene el récord Guinness del monorraíl colgante más largo del mundo."
+  ]
  },
  {
   "id": "port-liner-8000",
@@ -2794,7 +2947,10 @@
     ]
    }
   ],
-  "photo_file": "File:Port Liner at Sannomiya Station.jpg"
+  "photo_file": "File:Port Liner at Sannomiya Station.jpg",
+  "facts": [
+   "Abrió en 1981 para la exposición Portopia, celebrada en la propia isla artificial."
+  ]
  },
  {
   "id": "nt-300",
@@ -2808,6 +2964,9 @@
    {
     "line": "nippori-toneri"
    }
+  ],
+  "facts": [
+   "Va sin conductor, así que el asiento de delante tiene la vista del maquinista."
   ]
  },
  {
@@ -2822,6 +2981,9 @@
    {
     "line": "nippori-toneri"
    }
+  ],
+  "facts": [
+   "Se hizo con más puertas y menos asientos porque la línea se llenó mucho antes de lo previsto."
   ]
  },
  {
@@ -2838,6 +3000,9 @@
    {
     "line": "randen-kitano"
    }
+  ],
+  "facts": [
+   "Una de sus estaciones, Arashiyama, está rodeada de cientos de postes forrados de tela de quimono que se iluminan de noche."
   ]
  },
  {
@@ -2852,6 +3017,9 @@
    {
     "line": "nagoya-higashiyama"
    }
+  ],
+  "facts": [
+   "La Higashiyama, de 1957, fue el tercer metro de Japón, después de los de Tokio y Ōsaka."
   ]
  },
  {
@@ -2866,7 +3034,10 @@
     "line": "nagoya-tsurumai"
    }
   ],
-  "photo_file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg"
+  "photo_file": "File:Nagoya Municipal Subway N3000 series 2010-09-07.jpg",
+  "facts": [
+   "Fue el primer tren de Nagoya con caja de acero inoxidable, más ligera que el aluminio que usaban antes."
+  ]
  },
  {
   "id": "meitetsu-2000",
@@ -2907,7 +3078,10 @@
     "line": "meitetsu-inuyama"
    }
   ],
-  "photo_file": "File:Meitetsu Express 9500 series.jpg"
+  "photo_file": "File:Meitetsu Express 9500 series.jpg",
+  "facts": [
+   "Meitetsu pinta de rojo escarlata casi todos sus trenes desde los años sesenta."
+  ]
  },
  {
   "id": "meitetsu-7000",
@@ -2942,7 +3116,11 @@
     "line": "linimo"
    }
   ],
-  "photo_file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg"
+  "photo_file": "File:Linimo approaching Banpaku Kinen Koen, towards Fujigaoka Station.jpg",
+  "facts": [
+   "Se construyó para la Exposición Universal de Aichi de 2005 y se quedó cuando esta terminó.",
+   "Flota unos ocho milímetros sobre la vía, así que no hace ruido de ruedas."
+  ]
  },
  {
   "id": "aonami-1000",
@@ -2956,7 +3134,10 @@
     "line": "aonami"
    }
   ],
-  "photo_file": "File:Aonami-Line Type1000-1106.jpg"
+  "photo_file": "File:Aonami-Line Type1000-1106.jpg",
+  "facts": [
+   "Su última parada, Kinjōfutō, es la del museo del ferrocarril de JR Central, con el maglev y el Shinkansen 0."
+  ]
  },
  {
   "id": "fukuoka-3000",
@@ -2970,7 +3151,10 @@
     "line": "fukuoka-nanakuma"
    }
   ],
-  "photo_file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg"
+  "photo_file": "File:Fukuoka City Subway 3000A Series at Hashimoto Depot.jpg",
+  "facts": [
+   "En 2023 su línea se alargó por fin hasta Hakata, cerrando el hueco que le faltaba al metro de Fukuoka."
+  ]
  },
  {
   "id": "fukuoka-2000",
@@ -2990,7 +3174,10 @@
     "line": "chikuhi"
    }
   ],
-  "photo_file": "File:Fukuokasubway2000.jpg"
+  "photo_file": "File:Fukuokasubway2000.jpg",
+  "facts": [
+   "Sale del metro y sigue por la línea Chikuhi de JR hasta Karatsu, con el mar al lado."
+  ]
  },
  {
   "id": "nishitetsu-9000",
@@ -3004,7 +3191,10 @@
     "line": "nishitetsu-omuta"
    }
   ],
-  "photo_file": "File:Nishitetsu Series9000-9007.jpg"
+  "photo_file": "File:Nishitetsu Series9000-9007.jpg",
+  "facts": [
+   "Nishitetsu es la compañía privada más grande de Kyūshū y esta es la línea que la sostiene."
+  ]
  },
  {
   "id": "dencha",
@@ -3018,6 +3208,10 @@
    {
     "line": "kashii"
    }
+  ],
+  "facts": [
+   "Su nombre es un juego de palabras: «dencha» suena igual a «tren eléctrico» y a «batería».",
+   "Al llegar a la parte con catenaria carga las baterías, y sigue sin ella hasta el final de la línea."
   ]
  },
  {
@@ -3032,7 +3226,10 @@
     "line": "sapporo-namboku"
    }
   ],
-  "photo_file": "File:ST SN5000 20061102 001.jpg"
+  "photo_file": "File:ST SN5000 20061102 001.jpg",
+  "facts": [
+   "La guía central y los neumáticos hacen que el metro de Sapporo suene distinto a cualquier otro de Japón."
+  ]
  },
  {
   "id": "sapporo-8000",
@@ -3046,7 +3243,10 @@
     "line": "sapporo-tozai"
    }
   ],
-  "photo_file": "File:Sapporo Subway 8901 20080601 t09 2.jpg"
+  "photo_file": "File:Sapporo Subway 8901 20080601 t09 2.jpg",
+  "facts": [
+   "La Tōzai cruza Sapporo de punta a punta: 20 kilómetros en poco más de media hora."
+  ]
  },
  {
   "id": "sapporo-9000",
@@ -3060,7 +3260,10 @@
     "line": "sapporo-toho"
    }
   ],
-  "photo_file": "File:Sapporo 9000 9001 Odori 20150521.jpg"
+  "photo_file": "File:Sapporo 9000 9001 Odori 20150521.jpg",
+  "facts": [
+   "La Tōhō fue la última de las tres líneas del metro de Sapporo en abrirse, en 1988."
+  ]
  },
  {
   "id": "sapporo-a1200",
@@ -3074,7 +3277,10 @@
     "line": "sapporo-tram"
    }
   ],
-  "photo_file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg"
+  "photo_file": "File:札幌市交通局A1200形電車 A1201ポラリス（Polaris A1201) - Panoramio 113919797.jpg",
+  "facts": [
+   "Llegó en 2013 y en 2015 el tranvía de Sapporo cerró por fin su anillo completo por el centro."
+  ]
  },
  {
   "id": "sendai-2000",
@@ -3088,7 +3294,10 @@
     "line": "sendai-tozai"
    }
   ],
-  "photo_file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg"
+  "photo_file": "File:Sendai-City-Subway Tozai-Line-Series2504.jpg",
+  "facts": [
+   "Su motor lineal le permite subir rampas del 57 por mil, de las más fuertes de un metro japonés."
+  ]
  },
  {
   "id": "sendai-1000n",
@@ -3102,7 +3311,10 @@
     "line": "sendai-namboku"
    }
   ],
-  "photo_file": "File:Sendai Subway 1000 series ②.jpg"
+  "photo_file": "File:Sendai Subway 1000 series ②.jpg",
+  "facts": [
+   "Lleva en la línea desde que abrió, en 1987; entre 2004 y 2016 se renovaron todas las unidades."
+  ]
  },
  {
   "id": "hiroden-5100",
@@ -3119,7 +3331,10 @@
     "line": "hiroden-1"
    }
   ],
-  "photo_file": "File:Hiroden Green Mover T-5100 LRV.jpg"
+  "photo_file": "File:Hiroden Green Mover T-5100 LRV.jpg",
+  "facts": [
+   "Su antecesor, el Green Mover, fue el primer tranvía fabricado fuera de Japón que circuló por el país."
+  ]
  },
  {
   "id": "hiroden-1000",
@@ -3139,7 +3354,10 @@
     "line": "hiroden-5"
    }
   ],
-  "photo_file": "File:Hiroden Series1000-1010.jpg"
+  "photo_file": "File:Hiroden Series1000-1010.jpg",
+  "facts": [
+   "Es más corto que el Green Mover Max para poder parar en las paradas estrechas del centro."
+  ]
  },
  {
   "id": "hiroden-650",
@@ -3170,7 +3388,10 @@
     "line": "astram"
    }
   ],
-  "photo_file": "File:Ōmachi station 2024 2.jpg"
+  "photo_file": "File:Ōmachi station 2024 2.jpg",
+  "facts": [
+   "La Astram se construyó para los Juegos Asiáticos de Hiroshima de 1994."
+  ]
  },
  {
   "id": "kumamoto-9700",
@@ -3187,7 +3408,10 @@
     "line": "kumamoto-b"
    }
   ],
-  "photo_file": "File:Kumamoto City Tram 9702.jpg"
+  "photo_file": "File:Kumamoto City Tram 9702.jpg",
+  "facts": [
+   "Se construyó con tecnología alemana bajo licencia; detrás vinieron los de Hiroshima y Okayama."
+  ]
  },
  {
   "id": "okaden-9200",
@@ -3204,7 +3428,10 @@
     "line": "okayama-seikibashi"
    }
   ],
-  "photo_file": "File:Okaden Type9200-9201B.jpg"
+  "photo_file": "File:Okaden Type9200-9201B.jpg",
+  "facts": [
+   "«MOMO» es el melocotón de Okayama, el de la leyenda de Momotarō."
+  ]
  },
  {
   "id": "toyama-portram",
@@ -3218,7 +3445,10 @@
     "line": "toyama-port"
    }
   ],
-  "photo_file": "File:Toyama Light Rail TLR0600.JPG"
+  "photo_file": "File:Toyama Light Rail TLR0600.JPG",
+  "facts": [
+   "Fue el primer tranvía moderno de Japón (2006), montado sobre una línea de JR que iba a cerrar."
+  ]
  },
  {
   "id": "botchan-ressha",
@@ -3232,7 +3462,10 @@
     "line": "iyotetsu-loop"
    }
   ],
-  "photo_file": "File:Botchan-ressha.jpg"
+  "photo_file": "File:Botchan-ressha.jpg",
+  "facts": [
+   "La caldera es de mentira: lleva un motor diésel escondido y echa humo de pega."
+  ]
  },
  {
   "id": "jrh-721",
@@ -3372,7 +3605,8 @@
    }
   ],
   "facts": [
-   "La serie 0 nació para los trenes del túnel de Seikan; la 1000, de 2007, para el corredor de Sapporo."
+   "La serie 0 nació para los trenes del túnel de Seikan; la 1000, de 2007, para el corredor de Sapporo.",
+   "Va preparado para la nieve: las puertas llevan calefacción para que no se congelen."
   ],
   "wiki": "789 series"
  },
@@ -3483,7 +3717,9 @@
     "line": "sapporo-tram"
    }
   ],
-  "facts": [],
+  "facts": [
+   "Por fuera parece de los años ochenta porque lo es: solo se le cambiaron las tripas en 1998."
+  ],
   "photo_file": "File:Sapporo Tram Type 3300 011.JPG"
  },
  {
@@ -3498,7 +3734,9 @@
     "line": "sapporo-tram"
    }
   ],
-  "facts": [],
+  "facts": [
+   "Fue el primero del tranvía de Sapporo con control por chopper, que ahorra corriente al frenar."
+  ],
   "photo_file": "File:Sapporo Tram Type 8500 013.JPG"
  },
  {

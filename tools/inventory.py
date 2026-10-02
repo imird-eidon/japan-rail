@@ -142,7 +142,9 @@ def main():
     w(f"- **Líneas sin trenes actuales** ({len(no_cur)}): {lst(no_cur, 'line')}")
     w(f"- **Trenes sin foto** ({len(no_photo)}): {lst(no_photo, 'train')}")
     w(f"- **Líneas con numeración incompleta** ({len(no_code)}): {lst(no_code, 'line')}")
+    no_lfacts = [l for l in lines if not l.get("facts")]
     w(f"- **Trenes sin datos curiosos** ({len(no_tfacts)} de {len(trains)}).")
+    w(f"- **Líneas sin datos curiosos** ({len(no_lfacts)} de {len(lines)}): {lst(no_lfacts, 'line')}")
     w(f"- **Líneas sin trenes históricos** ({len(no_hist)} de {len(lines)}):")
     for rid, r in regions.items():
         ls = [l for l in no_hist if l.get("region") == rid]

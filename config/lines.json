@@ -443,9 +443,6 @@
   "donan": {
    "name": "Dōnan Isaribi Tetsudō"
   },
-  "sorachi": {
-   "name": "Sorachi Tetsudō"
-  },
   "kuroshio": {
    "name": "Tosa Kuroshio Tetsudō"
   },
@@ -3784,7 +3781,8 @@
    "length_km": 75.0,
    "summary": "De Ikebukuro a Yorii por Kawagoe, hacia el noroeste de Saitama.",
    "facts": [
-    "Abrió en 1914 y une Ikebukuro con Yorii, ya en las montañas de Saitama."
+    "Abrió en 1914 y une Ikebukuro con Yorii, ya en las montañas de Saitama.",
+    "Sus trenes siguen por el metro Fukutoshin y por Tōkyū hasta Yokohama sin que haya que cambiar."
    ],
    "trains": [],
    "region": "kanto"
@@ -3847,7 +3845,8 @@
    "length_km": 69.3,
    "summary": "De Keisei-Ueno al aeropuerto de Narita; el Skyliner va por la Narita Sky Access, más directa.",
    "facts": [
-    "El Skyliner llega a 160 km/h en la Narita Sky Access: el tren convencional (no Shinkansen) más rápido de Japón."
+    "El Skyliner llega a 160 km/h en la Narita Sky Access: el tren convencional (no Shinkansen) más rápido de Japón.",
+    "Nació para llevar peregrinos al templo de Naritasan, mucho antes de que allí hubiera un aeropuerto."
    ],
    "trains": [],
    "region": "kanto"
@@ -4426,7 +4425,8 @@
    "length_km": 64.2,
    "summary": "De Namba a Wakayamashi bordeando la bahía de Ōsaka.",
    "facts": [
-    "Nankai desciende del Hankai Railway de 1885: es la compañía ferroviaria privada más antigua de Japón que sigue funcionando."
+    "Nankai desciende del Hankai Railway de 1885: es la compañía ferroviaria privada más antigua de Japón que sigue funcionando.",
+    "Nankai es la compañía privada de tren más antigua de Japón: arrancó en 1885."
    ],
    "trains": [],
    "region": "kansai"
@@ -4665,7 +4665,8 @@
    "length_km": 64.5,
    "summary": "De Namba a Gokurakubashi, donde un funicular sube al monte Kōya, centro del budismo Shingon.",
    "facts": [
-    "El último tramo sube por montañas con curvas y pendientes muy fuertes; el expreso «Kōya» usa trenes cortos preparados para ellas."
+    "El último tramo sube por montañas con curvas y pendientes muy fuertes; el expreso «Kōya» usa trenes cortos preparados para ellas.",
+    "Sube al monte Kōya con rampas del 50 por mil y curvas de 100 metros de radio; el último tramo lo salva un funicular."
    ],
    "trains": [],
    "region": "kansai"
@@ -4814,7 +4815,8 @@
    "length_km": 108.9,
    "summary": "De Ōsaka-Uehommachi a Ise-Nakagawa cruzando las montañas: el camino de los expresos hacia Nagoya e Ise.",
    "facts": [
-    "Por aquí pasan el Hinotori (a Nagoya) y el Shimakaze (al santuario de Ise)."
+    "Por aquí pasan el Hinotori (a Nagoya) y el Shimakaze (al santuario de Ise).",
+    "Kintetsu es la compañía privada con más kilómetros de Japón, y esta línea es su columna vertebral hacia Ise."
    ],
    "trains": [],
    "region": "kansai"
@@ -5546,7 +5548,9 @@
    "region": "kanto",
    "trains": [],
    "summary": "De Kokubunji a Higashi-Murayama.",
-   "facts": []
+   "facts": [
+    "Es el tramo más antiguo de Seibu: lo abrió el ferrocarril de Kawagoe en 1894."
+   ]
   },
   {
    "id": "seibu-tamako",
@@ -5639,7 +5643,9 @@
    "region": "kanto",
    "trains": [],
    "summary": "Ramal de Higashi-Murayama a Seibu-en.",
-   "facts": []
+   "facts": [
+    "Dos paradas y poco más de dos kilómetros, para llevar gente al parque de atracciones Seibuen."
+   ]
   },
   {
    "id": "seibu-yurakucho",
@@ -6141,7 +6147,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "Ramal de una parada de Ōtori a Higashi-Hagoromo.",
-   "facts": []
+   "facts": [
+    "Un ida y vuelta de 1,7 km entre Ōtori y Higashi-Hagoromo: de los trayectos más cortos de JR West."
+   ]
   },
   {
    "id": "jr-takarazuka",
@@ -6295,7 +6303,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Furuichi a Kawachi-Nagano.",
-   "facts": []
+   "facts": [
+    "De Furuichi a Kawachi-Nagano, donde se cambia a Nankai para subir al monte Kōya."
+   ]
   },
   {
    "id": "kintetsu-domyoji",
@@ -6312,7 +6322,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Kashiwara a Dōmyōji.",
-   "facts": []
+   "facts": [
+    "Tres paradas que son de lo más viejo de Kintetsu: la vía se abrió en 1898."
+   ]
   },
   {
    "id": "kintetsu-gose",
@@ -6329,7 +6341,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Shakudo a Kintetsu-Gose.",
-   "facts": []
+   "facts": [
+    "Cuatro paradas hasta Gose, al pie del monte Katsuragi."
+   ]
   },
   {
    "id": "kintetsu-keihanna",
@@ -6366,7 +6380,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Ikoma a Ōji.",
-   "facts": []
+   "facts": [
+    "Une Ikoma con Ōji por el valle, entre las dos cadenas de montes que cierran Nara por el oeste."
+   ]
   },
   {
    "id": "kintetsu-kashihara",
@@ -6484,7 +6500,8 @@
    "region": "kansai",
    "trains": [],
    "facts": [
-    "Da la vuelta entera a la península de Kii, 384 km entre el mar y las montañas sagradas de Kumano."
+    "Da la vuelta entera a la península de Kii, 384 km entre el mar y las montañas sagradas de Kumano.",
+    "Rodea la península de Kii, la zona donde más llueve de todo Japón."
    ]
   },
   {
@@ -6621,7 +6638,9 @@
    "order": "nearest",
    "region": "kansai",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Es de las pocas compañías privadas de Japón que siguen moviendo mercancías: lleva cemento desde Fujiwara."
+   ]
   },
   {
    "id": "yokkaichi-utsube",
@@ -6700,7 +6719,9 @@
    "order": "nearest",
    "region": "kansai",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Lleva a Yunoyama Onsen, al pie del monte Gozaisho y de su teleférico."
+   ]
   },
   {
    "id": "kintetsu-suzuka",
@@ -6725,7 +6746,9 @@
    "order": "nearest",
    "region": "kansai",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Ramal de seis paradas por Suzuka, la ciudad del circuito de Fórmula 1."
+   ]
   },
   {
    "id": "kishigawa",
@@ -6928,7 +6951,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Hirahata a Tenri.",
-   "facts": []
+   "facts": [
+    "Se llena los días 25 de cada mes: son las grandes ceremonias de Tenrikyō, cuya sede está en Tenri."
+   ]
   },
   {
    "id": "kintetsu-tawaramoto",
@@ -6945,7 +6970,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Shin-Ōji a Nishi-Tawaramoto.",
-   "facts": []
+   "facts": [
+    "Ocho paradas por el centro de la cuenca de Nara, entre campos de arroz y templos."
+   ]
   },
   {
    "id": "kintetsu-shigi",
@@ -6962,7 +6989,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Kawachi-Yamamoto a Shigisanguchi, al pie del monte Shigi.",
-   "facts": []
+   "facts": [
+    "Tres paradas hasta Shigisan-guchi, donde empieza el funicular que sube al monte Shigi."
+   ]
   },
   {
    "id": "hankyu-senri",
@@ -6979,7 +7008,10 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Tenjimbashisuji 6-chōme a Kita-Senri; comparte trenes con el metro Sakaisuji.",
-   "facts": []
+   "facts": [
+    "Cruza Senri New Town, la primera gran ciudad dormitorio planificada de Japón (1962).",
+    "Sus trenes siguen por el metro Sakaisuji de Ōsaka sin cambiar en Tenjimbashisuji."
+   ]
   },
   {
    "id": "hankyu-imazu",
@@ -7016,7 +7048,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Tsukaguchi a Itami.",
-   "facts": []
+   "facts": [
+    "El terremoto de 1995 tiró la estación de Itami; se reconstruyó y volvió a abrir en 1998."
+   ]
   },
   {
    "id": "hankyu-minoo",
@@ -7052,7 +7086,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Shukugawa a Kōyōen.",
-   "facts": []
+   "facts": [
+    "Tres paradas por un barrio residencial de Nishinomiya, con trenes de tres coches."
+   ]
   },
   {
    "id": "hanshin-mukogawa",
@@ -7069,7 +7105,10 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Mukogawa a Mukogawa-Danchi-mae junto al río.",
-   "facts": []
+   "facts": [
+    "Va encajonada entre los diques del río Mukogawa, con el agua a los dos lados.",
+    "Sus trenes van pintados de los Hanshin Tigers: el campo de Kōshien queda a dos paradas de su cruce."
+   ]
   },
   {
    "id": "kakogawa",
@@ -7191,7 +7230,8 @@
    "region": "kansai",
    "trains": [],
    "facts": [
-    "Recorre el valle interior desde Himeji hacia el oeste, con trenes diésel de una o dos unidades."
+    "Recorre el valle interior desde Himeji hacia el oeste, con trenes diésel de una o dos unidades.",
+    "Su tramo central tiene tres o cuatro trenes al día: de los más vacíos de Japón."
    ],
    "order": "nearest"
   },
@@ -7572,7 +7612,8 @@
    "region": "chugoku",
    "trains": [],
    "facts": [
-    "Pasa por Izumo, donde está el santuario más antiguo de Japón según las crónicas."
+    "Pasa por Izumo, donde está el santuario más antiguo de Japón según las crónicas.",
+    "Pasa por Izumo y su gran santuario, al que, según la leyenda, acuden en octubre todos los dioses de Japón."
    ]
   },
   {
@@ -7598,7 +7639,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Dejó de ser el camino de los expresos a Tottori en 1994, cuando abrió el atajo del Chizu Kyūkō."
+   ]
   },
   {
    "id": "sakai",
@@ -7853,7 +7896,9 @@
    "strict_order": true,
    "region": "kansai",
    "trains": [],
-   "facts": []
+   "facts": [
+    "La compañía, de 1896, es de las más antiguas que siguen en pie; aquí une Yōkaichi con Ōmi-Hachiman."
+   ]
   },
   {
    "id": "omi-taga",
@@ -8072,7 +8117,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "Ramal de Hagoromo a Takashinohama.",
-   "facts": []
+   "facts": [
+    "Estuvo cerrada de 2020 a 2024 mientras se elevaba la vía: durante cuatro años solo hubo autobús."
+   ]
   },
   {
    "id": "keihan-katano",
@@ -8089,7 +8136,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Hirakatashi a Kisaichi.",
-   "facts": []
+   "facts": [
+    "Termina en Kisaichi, al pie del parque de Hoshida y su puente colgante sobre el valle."
+   ]
   },
   {
    "id": "keihan-nakanoshima",
@@ -8104,7 +8153,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Temmabashi a Nakanoshima, bajo la isla entre los ríos Dōjima y Tosabori.",
-   "facts": [],
+   "facts": [
+    "Abrió en 2008 bajo la isla de Nakanoshima y nunca ha tenido los viajeros que esperaba."
+   ],
    "osm_ways": {
     "filter": "way[\"railway\"=\"rail\"][\"name\"~\"中之島線\"]",
     "bbox": [
@@ -8141,7 +8192,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Banpaku-kinen-kōen a Saito-nishi.",
-   "facts": []
+   "facts": [
+    "Ramal hacia Saito, la ciudad nueva de los laboratorios y las empresas de biotecnología."
+   ]
   },
   {
    "id": "kobe-electric-arima",
@@ -8177,7 +8230,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Arimaguchi a Sanda.",
-   "facts": []
+   "facts": [
+    "Sube de Kōbe a Sanda por rampas del 50 por mil, de las más duras que afronta un tren normal en Japón."
+   ]
   },
   {
    "id": "kobe-electric-ao",
@@ -8194,7 +8249,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Suzurandai a Ao, hacia Miki y Ono.",
-   "facts": []
+   "facts": [
+    "Veinte paradas hacia Ao; es la línea con más pérdidas de la compañía y lleva años en la cuerda floja."
+   ]
   },
   {
    "id": "kobe-electric-koen-toshi",
@@ -8211,7 +8268,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Yokoyama a Woody Town-chūō.",
-   "facts": []
+   "facts": [
+    "Da servicio a Woody Town y Flower Town, barrios nuevos levantados en los montes de Sanda."
+   ]
   },
   {
    "id": "sanyo-electric",
@@ -8229,7 +8288,8 @@
    "trains": [],
    "summary": "De Nishidai (Kōbe) a Sanyō-Himeji, junto al mar de Seto.",
    "facts": [
-    "Entre Suma y Shioya corre pegado a la playa, junto a la JR; al final, en Himeji, se ve el castillo."
+    "Entre Suma y Shioya corre pegado a la playa, junto a la JR; al final, en Himeji, se ve el castillo.",
+    "Compite con JR entre Kōbe y Himeji, y sus trenes entran en Kōbe por las vías de Hanshin."
    ]
   },
   {
@@ -8266,7 +8326,9 @@
    "region": "kansai",
    "trains": [],
    "summary": "De Yamashita a Nissei-Chūō.",
-   "facts": []
+   "facts": [
+    "Nose Dentetsu es casi de Hankyu, y se nota: sus trenes son Hankyu de segunda mano, con el mismo granate."
+   ]
   },
   {
    "id": "nagoya-higashiyama",
@@ -8321,7 +8383,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Baja al puerto de Nagoya, donde están el acuario y el rompehielos Fuji, el barco de la Antártida."
+   ]
   },
   {
    "id": "nagoya-tsurumai",
@@ -8337,7 +8401,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sus trenes salen del metro por los dos extremos y siguen por Meitetsu hasta Inuyama y Toyota."
+   ]
   },
   {
    "id": "nagoya-sakuradori",
@@ -8353,7 +8419,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "La más nueva de las grandes del metro de Nagoya (1989), y también la que va más profunda."
+   ]
   },
   {
    "id": "nagoya-kamiiida",
@@ -8369,7 +8437,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Solo tiene dos estaciones: existe para enchufar la Meitetsu Komaki con el centro de Nagoya."
+   ]
   },
   {
    "id": "meitetsu-main",
@@ -8386,7 +8456,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "La estación de Meitetsu Nagoya tiene solo tres andenes para decenas de destinos: los trenes llegan y salen casi sin pausa, y hay que fijarse bien en los carteles de color."
+    "La estación de Meitetsu Nagoya tiene solo tres andenes para decenas de destinos: los trenes llegan y salen casi sin pausa, y hay que fijarse bien en los carteles de color.",
+    "Su estación de Nagoya despacha casi mil trenes al día con solo tres andenes: los viajeros esperan en zonas marcadas con colores."
    ]
   },
   {
@@ -8493,7 +8564,9 @@
    "order": "geometry",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Catorce paradas hacia Nishio, la ciudad del té matcha."
+   ]
   },
   {
    "id": "meitetsu-tsushima",
@@ -8518,7 +8591,9 @@
    "order": "geometry",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Lleva a Tsushima y su santuario, famoso por la fiesta de las barcas iluminadas de julio."
+   ]
   },
   {
    "id": "meitetsu-hiromi",
@@ -8543,7 +8618,9 @@
    "order": "geometry",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Su tramo final, más allá de Shin-Kani, apenas tiene trenes y lleva años en discusión."
+   ]
   },
   {
    "id": "meitetsu-toyokawa",
@@ -8740,7 +8817,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Tiene 94 estaciones en 195 km: una media de una cada dos kilómetros, récord en Japón."
+    "Tiene 94 estaciones en 195 km: una media de una cada dos kilómetros, récord en Japón.",
+    "Casi cien paradas en 195 km: recorrerla entera de punta a punta lleva más de seis horas."
    ],
    "order": "nearest"
   },
@@ -8807,7 +8885,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Es el eje de cercanías de Nagoya; sus trenes «Special Rapid» son de los más rápidos de Japón sin recargo."
+    "Es el eje de cercanías de Nagoya; sus trenes «Special Rapid» son de los más rápidos de Japón sin recargo.",
+    "Entre Nagoya y Gifu, los rápidos especiales de JR compiten con Meitetsu en el mismo pasillo."
    ]
   },
   {
@@ -8833,7 +8912,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Sube por el valle del Kiso hacia los Alpes japoneses."
+    "Sube por el valle del Kiso hacia los Alpes japoneses.",
+    "Sigue el valle del Kiso, el camino que recorrían los viajeros del Nakasendō entre Kioto y Edo."
    ],
    "order": "nearest"
   },
@@ -8860,7 +8940,9 @@
    "order": "geometry",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Entre Nagoya y Kameyama compite con Kintetsu, y lleva décadas llevando las de perder."
+   ]
   },
   {
    "id": "meitetsu-tokoname",
@@ -8876,7 +8958,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Por aquí pasa el μ-SKY camino del aeropuerto de Chūbu, en una isla artificial frente a Tokoname."
+   ]
   },
   {
    "id": "meitetsu-airport",
@@ -8956,7 +9040,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sus trenes se meten en el metro de Nagoya por la Kamiiida, la línea de dos paradas."
+   ]
   },
   {
    "id": "meitetsu-kowa",
@@ -8972,7 +9058,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": [],
+   "facts": [
+    "Baja por la península de Chita y se parte en Fuchiwaki: una rama a Kōwa, otra a las playas de Utsumi."
+   ],
    "osm_ways": {
     "filter": "way[\"railway\"=\"rail\"][\"name\"~\"名古屋鉄道河和線\"]",
     "bbox": [
@@ -9092,7 +9180,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "De Okayama a Tsuyama por el valle del Asahi; su rápido se llama Misaki, como el río."
+   ]
   },
   {
    "id": "uno",
@@ -9203,7 +9293,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Nació para el complejo industrial de Kurashiki: mueve mercancías y, de paso, viajeros."
+   ]
   },
   {
    "id": "ube",
@@ -9228,7 +9320,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Recorre la ciudad química de Ube, levantada sobre lo que fueron minas de carbón bajo el mar."
+   ]
   },
   {
    "id": "onoda",
@@ -9280,7 +9374,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Es el atajo entre Iwakuni y Tokuyama; el Shinkansen acabó siguiendo casi el mismo trazado."
+   ]
   },
   {
    "id": "nishikigawa",
@@ -9360,7 +9456,8 @@
    "region": "chugoku",
    "trains": [],
    "facts": [
-    "Es el eje de cercanías de Hiroshima, entre el mar interior de Seto y las montañas."
+    "Es el eje de cercanías de Hiroshima, entre el mar interior de Seto y las montañas.",
+    "Entre Mihara e Itozaki va pegada al mar interior de Seto, con las islas enfrente."
    ]
   },
   {
@@ -9414,7 +9511,8 @@
    "region": "chugoku",
    "trains": [],
    "facts": [
-    "Su tramo entre Higashi-Jōge y Bingo-Ochiai es de los menos usados de todo Japón."
+    "Su tramo entre Higashi-Jōge y Bingo-Ochiai es de los menos usados de todo Japón.",
+    "Su tramo norte es de los menos usados de todo JR West: hay días que no llega a diez viajeros por kilómetro."
    ]
   },
   {
@@ -9440,7 +9538,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "De Fukuyama hacia el norte; pasado Fuchū la vía se queda sin electrificar y con tres o cuatro trenes al día."
+   ]
   },
   {
    "id": "ibara",
@@ -9493,7 +9593,8 @@
    "region": "kyushu",
    "trains": [],
    "facts": [
-    "Es la línea con más viajeros de Kyūshū: une Kitakyūshū, Hakata y Kumamoto."
+    "Es la línea con más viajeros de Kyūshū: une Kitakyūshū, Hakata y Kumamoto.",
+    "La estación de Mojikō conserva su edificio de madera de 1914, protegido como bien cultural."
    ],
    "skip_stations": [
     "九州鉄道記念館",
@@ -9527,7 +9628,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Por aquí sale el Sonic de Kokura hacia Ōita, el expreso azul de morro redondeado."
+   ]
   },
   {
    "id": "chikuho-main",
@@ -9579,7 +9682,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Con la Chikuhō forman la «Fukuhoku Yutaka», el nombre comercial de la ruta Hakata–Nōgata."
+   ]
   },
   {
    "id": "hitahikosan",
@@ -9604,7 +9709,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Las lluvias de 2017 se llevaron su tramo sur; desde 2023 ese trozo lo cubre un BRT por la antigua vía."
+   ]
   },
   {
    "id": "kyudai",
@@ -9629,7 +9736,10 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Por ella circula el Yufuin no Mori, el tren turístico verde de madera que lleva al balneario de Yufuin.",
+    "Las lluvias de 2017 destrozaron su puente sobre el río Chikugo; volvió a abrirse en 2020."
+   ]
   },
   {
    "id": "gotoji",
@@ -9654,7 +9764,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Cinco paradas en lo que fue la cuenca minera de Chikuhō, cuando el carbón movía Kyūshū."
+   ]
   },
   {
    "id": "hakata-minami",
@@ -9738,7 +9850,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Era una línea de JR condenada al cierre; en 1986 la recogió una compañía local y sigue abierta."
+   ]
   },
   {
    "id": "nishitetsu-amagi",
@@ -9763,7 +9877,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Hay dos líneas Amagi y las dos acaban en el mismo pueblo: esta es la de Nishitetsu, la otra es de tercera vía."
+   ]
   },
   {
    "id": "heisei-ita",
@@ -9788,7 +9904,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "La compañía se llama «Heisei» porque nació en 1989, el año en que empezó esa era."
+   ]
   },
   {
    "id": "heisei-tagawa",
@@ -9813,7 +9931,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Antes llevaba carbón de las minas de Tagawa; hoy lleva estudiantes."
+   ]
   },
   {
    "id": "heisei-itoda",
@@ -9838,7 +9958,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Seis paradas que unen las otras dos líneas de la compañía por el medio."
+   ]
   },
   {
    "id": "kitakyushu-monorail",
@@ -10009,7 +10131,9 @@
    ],
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Termina en Kaizuka, pegada a la línea de Nishitetsu; el enlace entre las dos se planeó durante años y nunca se hizo."
+   ]
   },
   {
    "id": "fukuoka-nanakuma",
@@ -10044,7 +10168,8 @@
    "region": "kyushu",
    "trains": [],
    "facts": [
-    "Es la mayor red ferroviaria privada de Kyūshū; su tren turístico «The Rail Kitchen Chikugo» sirve comidas a bordo."
+    "Es la mayor red ferroviaria privada de Kyūshū; su tren turístico «The Rail Kitchen Chikugo» sirve comidas a bordo.",
+    "Con 74 km es la línea privada más larga de Kyūshū."
    ]
   },
   {
@@ -10061,7 +10186,9 @@
    ],
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Está separada del resto de la red de Nishitetsu: no hay forma de llegar a ella en tren de la compañía."
+   ]
   },
   {
    "id": "nishitetsu-dazaifu",
@@ -10160,7 +10287,9 @@
    ],
    "region": "hokkaido",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Como todo el metro de Sapporo, va sobre neumáticos y guiada por un carril central."
+   ]
   },
   {
    "id": "sapporo-toho",
@@ -10515,7 +10644,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Une Fuji con Kōfu bordeando el monte Fuji por el oeste, junto al río Fuji."
+    "Une Fuji con Kōfu bordeando el monte Fuji por el oeste, junto al río Fuji.",
+    "Lleva al templo de Kuon-ji, en el monte Minobu, sede de la escuela budista de Nichiren."
    ]
   },
   {
@@ -10570,7 +10700,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Es el tramo con más viajeros de JR Central sin contar el Shinkansen."
+    "Es el tramo con más viajeros de JR Central sin contar el Shinkansen.",
+    "Bordea la bahía de Suruga con el monte Fuji a la vista en los días claros."
    ]
   },
   {
@@ -10597,7 +10728,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Treinta y seis de sus estaciones y casetas son patrimonio cultural registrado, casi todas de 1940."
+    "Treinta y seis de sus estaciones y casetas son patrimonio cultural registrado, casi todas de 1940.",
+    "Casi todas sus estaciones son bienes culturales protegidos: se conservan como se construyeron en 1940."
    ]
   },
   {
@@ -10815,7 +10947,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Sigue el río Nagara, famoso por la pesca con cormoranes que se practica desde hace 1300 años."
+    "Sigue el río Nagara, famoso por la pesca con cormoranes que se practica desde hace 1300 años.",
+    "Sigue el río Nagara, donde en verano todavía se pesca de noche con cormoranes."
    ]
   },
   {
@@ -11005,7 +11138,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Por aquí ruedan trenes de segunda mano de Keihan y Seibu, algunos todavía con su librea de origen."
+    "Por aquí ruedan trenes de segunda mano de Keihan y Seibu, algunos todavía con su librea de origen.",
+    "De Toyama a Uozu, con los Alpes a un lado y el mar de Japón al otro."
    ]
   },
   {
@@ -11179,7 +11313,9 @@
    "order": "nearest",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Catorce paradas por el valle del Jōganji, entre Toyama y los montes."
+   ]
   },
   {
    "id": "manyosen",
@@ -11366,7 +11502,9 @@
    "order": "nearest",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sale de Kanazawa hacia Tsurugi; su tramo final cerró en 2009 y la línea se quedó a medias."
+   ]
   },
   {
    "id": "hokutetsu-asanogawa",
@@ -11636,7 +11774,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Sube al altiplano de Suwa, con el lago Suwa y los Alpes del Sur a los lados."
+    "Sube al altiplano de Suwa, con el lago Suwa y los Alpes del Sur a los lados.",
+    "Pasa junto al lago Suwa, que al helarse se agrieta formando el «camino de los dioses»."
    ]
   },
   {
@@ -11857,7 +11996,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Es lo que queda de la gran línea Shin'etsu: el Shinkansen y las compañías locales se repartieron el resto."
+    "Es lo que queda de la gran línea Shin'etsu: el Shinkansen y las compañías locales se repartieron el resto.",
+    "Su antiguo paso de Usui, con rampas del 66 por mil, necesitaba locomotoras de refuerzo; hoy ese tramo ya no existe."
    ]
   },
   {
@@ -11883,7 +12023,9 @@
    "order": "nearest",
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Une Niigata con Shibata en línea recta por la llanura del arroz."
+   ]
   },
   {
    "id": "tokimeki-myoko",
@@ -11937,7 +12079,8 @@
    "region": "chubu",
    "trains": [],
    "facts": [
-    "Recorre el valle bajo los Alpes del Norte, con el Hakuba y sus pistas de esquí a la vista."
+    "Recorre el valle bajo los Alpes del Norte, con el Hakuba y sus pistas de esquí a la vista.",
+    "Sigue el valle de Hakuba, con los Alpes del norte al lado y las estaciones de esquí de los Juegos de 1998."
    ]
   },
   {
@@ -12869,7 +13012,9 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Tramo de la San'yō, la línea que unió Kōbe con Shimonoseki y por la que iban todos los expresos antes del Shinkansen."
+   ]
   },
   {
    "id": "sanyo-yamaguchi",
@@ -12894,7 +13039,10 @@
    "order": "nearest",
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "El último tramo de la San'yō antes del túnel de Kanmon, por donde se pasa a Kyūshū.",
+    "Acaba en Shimonoseki, donde el estrecho se cruza por un túnel submarino abierto en 1942."
+   ]
   },
   {
    "id": "sanin-yamaguchi",
@@ -12920,7 +13068,8 @@
    "region": "chugoku",
    "trains": [],
    "facts": [
-    "Termina en Hatabu, tras 673 km desde Kioto: es el final de la línea más larga de Japón."
+    "Termina en Hatabu, tras 673 km desde Kioto: es el final de la línea más larga de Japón.",
+    "Pasa por Hagi, la ciudad de los samuráis que empujaron la Restauración Meiji."
    ]
   },
   {
@@ -12947,7 +13096,8 @@
    "region": "kanto",
    "trains": [],
    "facts": [
-    "Sigue el río Kuji entre Mito y Kōriyama; en otoño el valle de Fukuroda se llena de arces rojos."
+    "Sigue el río Kuji entre Mito y Kōriyama; en otoño el valle de Fukuroda se llena de arces rojos.",
+    "Un tifón se llevó tres de sus puentes en 2019 y la línea no volvió entera hasta 2021."
    ]
   },
   {
@@ -13219,7 +13369,8 @@
    "region": "tohoku",
    "trains": [],
    "facts": [
-    "Cruza Tōhoku de Fukushima a Aomori: 484 km, la segunda línea más larga de Japón."
+    "Cruza Tōhoku de Fukushima a Aomori: 484 km, la segunda línea más larga de Japón.",
+    "Pasa por Hirosaki, en la tierra de las manzanas, con su castillo y sus cerezos."
    ]
   },
   {
@@ -13246,7 +13397,8 @@
    "region": "tohoku",
    "trains": [],
    "facts": [
-    "Por su vía, ensanchada, circula el Shinkansen de Yamagata junto a los trenes normales."
+    "Por su vía, ensanchada, circula el Shinkansen de Yamagata junto a los trenes normales.",
+    "Entre Fukushima y Yonezawa cruza el paso de Itaya, uno de los puntos con más nieve de toda la red."
    ]
   },
   {
@@ -13625,7 +13777,8 @@
    "region": "tohoku",
    "trains": [],
    "facts": [
-    "Por ella circula el «SL Banetsu Monogatari», con una locomotora de vapor C57 de 1946 apodada «la dama esbelta»."
+    "Por ella circula el «SL Banetsu Monogatari», con una locomotora de vapor C57 de 1946 apodada «la dama esbelta».",
+    "Los fines de semana la recorre el SL Banetsu Monogatari, con una locomotora de vapor de 1946."
    ]
   },
   {
@@ -13761,7 +13914,8 @@
    "region": "tohoku",
    "trains": [],
    "facts": [
-    "Fue la línea troncal del norte de Japón antes del Shinkansen."
+    "Fue la línea troncal del norte de Japón antes del Shinkansen.",
+    "Fue la línea más larga de Japón hasta que el Shinkansen y las compañías locales se repartieron sus tramos."
    ],
    "skip_stations": [
     "曽根田",
@@ -13912,7 +14066,8 @@
    "region": "tohoku",
    "trains": [],
    "facts": [
-    "Su tramo costero se reconstruyó tierra adentro tras el tsunami de 2011."
+    "Su tramo costero se reconstruyó tierra adentro tras el tsunami de 2011.",
+    "Su tramo junto a Fukushima estuvo cortado nueve años por el accidente nuclear; volvió entero en 2020."
    ]
   },
   {
@@ -13966,7 +14121,8 @@
    "region": "hokkaido",
    "trains": [],
    "facts": [
-    "El tramo de montaña entre Oshamambe y Otaru, la «Yamasen», va entre bosques y el volcán Yōtei."
+    "El tramo de montaña entre Oshamambe y Otaru, la «Yamasen», va entre bosques y el volcán Yōtei.",
+    "La «línea de la montaña» perdió su papel al abrirse la costera; con el Shinkansen a Sapporo está previsto cerrar buena parte."
    ]
   },
   {
@@ -13992,7 +14148,9 @@
    "order": "nearest",
    "region": "hokkaido",
    "trains": [],
-   "facts": [],
+   "facts": [
+    "Cruza la llanura de Ishikari, la zona agrícola más grande de Hokkaidō."
+   ],
    "extra_nodes": [
     264420469
    ]
@@ -14054,31 +14212,6 @@
    ]
   },
   {
-   "id": "sorachi",
-   "code": "SR",
-   "color": "#2E8B57",
-   "name": "Sorachi Tetsudō",
-   "ja": "空知鉄道",
-   "en": "Sorachi Railway",
-   "operator": "sorachi",
-   "type": "local",
-   "osm": [],
-   "osm_ways": {
-    "filter": "way[\"railway\"=\"rail\"][\"name\"~\"空知鉄道\"]",
-    "bbox": [
-     43.2,
-     141.7,
-     43.45,
-     141.95
-    ],
-    "nearby": 300
-   },
-   "order": "nearest",
-   "region": "hokkaido",
-   "trains": [],
-   "facts": []
-  },
-  {
    "id": "muroran",
    "code": "H",
    "color": "#0072BC",
@@ -14102,7 +14235,8 @@
    "region": "hokkaido",
    "trains": [],
    "facts": [
-    "Se tendió para sacar el carbón de Yūbari hacia el puerto de Muroran."
+    "Se tendió para sacar el carbón de Yūbari hacia el puerto de Muroran.",
+    "Pasa por Noboribetsu, el balneario del «valle del infierno», con sus humos de azufre."
    ]
   },
   {
@@ -14129,7 +14263,8 @@
    "region": "hokkaido",
    "trains": [],
    "facts": [
-    "Llega a Higashi-Nemuro, la estación más oriental de Japón."
+    "Llega a Higashi-Nemuro, la estación más oriental de Japón.",
+    "Termina en Nemuro; su parada de Higashi-Nemuro es la estación más al este de Japón."
    ]
   },
   {
@@ -14421,7 +14556,8 @@
    "region": "chugoku",
    "trains": [],
    "facts": [
-    "Llega hasta Miyajimaguchi, el embarcadero para la isla de Miyajima y su torii sobre el agua."
+    "Llega hasta Miyajimaguchi, el embarcadero para la isla de Miyajima y su torii sobre el agua.",
+    "Es la que lleva al embarcadero de Miyajima, con su torii en el agua."
    ]
   },
   {
@@ -14456,7 +14592,9 @@
    ],
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sube a Hijiyama, el monte con vistas desde el que se ve toda Hiroshima."
+   ]
   },
   {
    "id": "hiroden-6",
@@ -14490,7 +14628,9 @@
    ],
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Une Yokogawa, la estación del norte, con el centro y el barrio de Hondōri."
+   ]
   },
   {
    "id": "hiroden-8",
@@ -14506,7 +14646,9 @@
    ],
    "region": "chugoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "De Yokogawa a Eba, cruzando Hiroshima de norte a sur por fuera del centro."
+   ]
   },
   {
    "id": "hiroden-9",
@@ -14632,7 +14774,9 @@
    ],
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sube a Akasako por el norte de Nagasaki, por calles estrechas entre casas."
+   ]
   },
   {
    "id": "nagasaki-4",
@@ -14648,7 +14792,9 @@
    ],
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "La más corta de Nagasaki: diez paradas entre Hotarujaya y Sumiyoshi."
+   ]
   },
   {
    "id": "nagasaki-5",
@@ -15046,7 +15192,8 @@
    "region": "kyushu",
    "trains": [],
    "facts": [
-    "Desde 2022 su tramo final lo cubre el Shinkansen de Nishi-Kyūshū entre Takeo-Onsen y Nagasaki."
+    "Desde 2022 su tramo final lo cubre el Shinkansen de Nishi-Kyūshū entre Takeo-Onsen y Nagasaki.",
+    "Entre Isahaya y Nagasaki va pegada a la bahía de Ōmura."
    ]
   },
   {
@@ -15209,7 +15356,9 @@
    ],
    "region": "shikoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Sale de Matsuyama hacia el este, hasta Yokogawara, al pie de los montes."
+   ]
   },
   {
    "id": "iyotetsu-gunchu",
@@ -15225,7 +15374,9 @@
    ],
    "region": "shikoku",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Baja de Matsuyama a la costa, hasta el puerto de Gunchū."
+   ]
   },
   {
    "id": "toyohashi-azumada",
@@ -15269,7 +15420,9 @@
    ],
    "region": "chubu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Cada uno de sus trenes lleva el color de una flor distinta de la península de Atsumi."
+   ]
   },
   {
    "id": "yui-rail",
@@ -15710,7 +15863,9 @@
    },
    "region": "shikoku",
    "trains": [],
-   "facts": [],
+   "facts": [
+    "Ramal corto hasta el puerto de Kōchi, donde atracan los barcos."
+   ],
    "station_order": [
     "高知駅前",
     "高知橋",
@@ -15860,7 +16015,9 @@
    "order": "nearest",
    "region": "kyushu",
    "trains": [],
-   "facts": []
+   "facts": [
+    "Perdió sus expresos cuando abrió el Shinkansen de Kyūshū y hoy la recorren trenes de cercanías."
+   ]
   },
   {
    "id": "hohi",
@@ -16077,7 +16234,8 @@
    "region": "kyushu",
    "trains": [],
    "facts": [
-    "Bordea la costa este de Kyūshū: de las termas de Beppu a las palmeras de Miyazaki."
+    "Bordea la costa este de Kyūshū: de las termas de Beppu a las palmeras de Miyazaki.",
+    "Pasa por Usuki, famosa por sus budas tallados en la roca hace casi mil años."
    ]
   },
   {

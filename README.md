@@ -6,7 +6,7 @@ Cubre **todo Japón**: 604 líneas, 9028 estaciones y 182 series de trenes. Las 
 El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
-- Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
+- Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos: las 603 tienen).
 - Ficha de cada estación (foto en las principales, líneas, estación anterior/siguiente, transbordos a pie).
 - Ficha de cada serie de tren, con foto, por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
@@ -21,7 +21,7 @@ El detalle, en [INVENTARIO.md](INVENTARIO.md).
 ```
 config/            ← lo que se edita a mano
   lines.json       líneas: color, código, relación OSM, datos curiosos, trenes
-  stations.json    datos curiosos por estación (clave = id de estación)
+  stations.json    datos curiosos y foto por estación (clave = id de estación)
   trains.json      series de trenes y por dónde circulan (runs)
   photos.json      (generado por fetch_photos.py) fotos de trenes: fichero, autor, licencia
   photos_stations.json   lo mismo para las fotos de estaciones

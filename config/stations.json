@@ -597,22 +597,39 @@
   "wiki": "Kareigawa Station"
  },
  "takasaki": {
-  "wiki": "Takasaki Station"
+  "wiki": "Takasaki Station",
+  "facts": [
+   "Aquí se separan el Shinkansen de Jōetsu y el de Hokuriku.",
+   "Takasaki fabrica ocho de cada diez muñecos daruma que se venden en Japón."
+  ]
  },
  "chiba": {
-  "wiki": "Chiba Station"
+  "wiki": "Chiba Station",
+  "facts": [
+   "Sus andenes trazan una curva cerrada en pleno centro, y por encima pasa el monorraíl colgante."
+  ]
  },
  "okayama": {
-  "wiki": "Okayama Station"
+  "wiki": "Okayama Station",
+  "facts": [
+   "De aquí sale el tren que cruza a Shikoku por el puente del mar interior de Seto.",
+   "Es el nudo de las líneas que suben hacia el mar de Japón: Hakubi, Tsuyama y Kibi."
+  ]
  },
  "dentetsu-toyama": {
   "wiki": "Dentetsu-Toyama Station"
  },
  "ogaki": {
-  "wiki": "Ogaki Station"
+  "wiki": "Ogaki Station",
+  "facts": [
+   "De aquí salía el Moonlight Nagara, el tren nocturno barato que llevaba a Tokio y que se suprimió en 2021."
+  ]
  },
  "toyama": {
-  "wiki": "Toyama Station"
+  "wiki": "Toyama Station",
+  "facts": [
+   "Desde 2020 el tranvía pasa por debajo de la estación y une por fin el norte y el sur de la ciudad."
+  ]
  },
  "tokaichi-machi": {
   "wiki": "Tokaichi-machi Station"
@@ -669,13 +686,22 @@
   "wiki": "Kurashiki Station"
  },
  "kurashikishi": {
-  "wiki": "Kurashikishi Station"
+  "wiki": "Kurashikishi Station",
+  "facts": [
+   "Kurashiki conserva junto al canal un barrio entero de almacenes blancos del siglo XVII."
+  ]
  },
  "meitetsu-nagoya": {
-  "wiki": "Meitetsu Nagoya Station"
+  "wiki": "Meitetsu Nagoya Station",
+  "facts": [
+   "Despacha casi mil trenes al día con solo tres andenes: los viajeros esperan en zonas pintadas según el destino."
+  ]
  },
  "morioka": {
-  "wiki": "Morioka Station"
+  "wiki": "Morioka Station",
+  "facts": [
+   "Aquí se separan el Shinkansen de Akita y el que sigue hacia Hokkaidō."
+  ]
  },
  "minami-machi-6-chome": {
   "wiki": "Minami-machi 6-chome Station"
@@ -684,58 +710,101 @@
   "wiki": "Kuwana Station"
  },
  "niigata": {
-  "wiki": "Niigata Station"
+  "wiki": "Niigata Station",
+  "facts": [
+   "Entre 2018 y 2022 se elevó entera para que los autobuses pudieran pasar por debajo de las vías."
+  ]
  },
  "nisseki-byoin-mae": {
   "wiki": "Nisseki-byoin-mae Station"
  },
  "nerima": {
-  "wiki": "Nerima Station"
+  "wiki": "Nerima Station",
+  "facts": [
+   "Nerima es la cuna del anime japonés: aquí estaban los estudios donde nacieron las primeras series de televisión."
+  ]
  },
  "nishi-funabashi": {
-  "wiki": "Nishi-Funabashi Station"
+  "wiki": "Nishi-Funabashi Station",
+  "facts": [
+   "Es el extremo del metro Tōzai y punto de paso de la Musashino y la Sōbu."
+  ]
  },
  "nishi-kuwana": {
-  "wiki": "Nishi-Kuwana Station"
+  "wiki": "Nishi-Kuwana Station",
+  "facts": [
+   "En Kuwana se juntan tres anchos de vía distintos: el de JR, el de Kintetsu y los 762 mm del Sangi."
+  ]
  },
  "osaka-umeda": {
-  "wiki": "Osaka-Umeda Station"
+  "wiki": "Osaka-Umeda Station",
+  "facts": [
+   "La estación de Hankyu tiene nueve andenes en cabeza, la terminal privada más grande de Japón."
+  ]
  },
  "osaki": {
-  "wiki": "Osaki Station"
+  "wiki": "Osaki Station",
+  "facts": [
+   "Fue un barrio de fábricas y hoy es de oficinas; aquí se juntan la Saikyō y la Rinkai."
+  ]
  },
  "sapporo-2": {
   "wiki": "Sapporo Station"
  },
  "oyama": {
-  "wiki": "Oyama Station"
+  "wiki": "Oyama Station",
+  "facts": [
+   "Nudo entre el Shinkansen del Tōhoku, la Mito y la Ryōmō."
+  ]
  },
  "shin-toyohashi": {
   "wiki": "Shin-Toyohashi Station"
  },
  "shinjo": {
-  "wiki": "Shinjo Station"
+  "wiki": "Shinjo Station",
+  "facts": [
+   "Aquí se acaba la vía ancha del Shinkansen de Yamagata: más al norte hay que cambiar de tren."
+  ]
  },
  "tate-machi": {
   "wiki": "Tate-machi Station"
  },
  "shin-yamaguchi": {
-  "wiki": "Shin-Yamaguchi Station"
+  "wiki": "Shin-Yamaguchi Station",
+  "facts": [
+   "De aquí sale el SL Yamaguchi, uno de los trenes de vapor que siguen circulando en Japón."
+  ]
  },
  "totsuka": {
-  "wiki": "Totsuka Station"
+  "wiki": "Totsuka Station",
+  "facts": [
+   "Fue pueblo de postas del Tōkaidō; hoy es transbordo entre la Tōkaidō y la Yokosuka."
+  ]
  },
  "utsunomiya": {
-  "wiki": "Utsunomiya Station"
+  "wiki": "Utsunomiya Station",
+  "facts": [
+   "Desde su lado este sale el tranvía inaugurado en 2023, el primer sistema nuevo construido desde cero en Japón en setenta y cinco años.",
+   "La ciudad presume de ser la capital de las gyōza."
+  ]
  },
  "urawa": {
-  "wiki": "Urawa Station"
+  "wiki": "Urawa Station",
+  "facts": [
+   "Hay ocho estaciones con «Urawa» en el nombre repartidas por la ciudad."
+  ]
  },
  "yotsuya": {
-  "wiki": "Yotsuya Station"
+  "wiki": "Yotsuya Station",
+  "facts": [
+   "Sus andenes están en lo que fue el foso del castillo de Edo."
+  ]
  },
  "yokogawa": {
-  "wiki": "Yokogawa Station"
+  "wiki": "Yokogawa Station",
+  "facts": [
+   "En su plaza hay una réplica del primer autobús de línea de Japón, que empezó a circular aquí en 1905."
+  ]
  },
  "yagyu-bashi": {
   "wiki": "Yagyu-bashi Station"
@@ -2181,7 +2250,10 @@
  },
  "shin-imaimiya": {
   "wiki_ja": "新今宮駅",
-  "photo_file": "File:JRW Shin-Imamiya-STA West-Gate.jpg"
+  "photo_file": "File:JRW Shin-Imamiya-STA West-Gate.jpg",
+  "facts": [
+   "Junta la Loop con Nankai, al lado de Shinsekai y de la torre Tsūtenkaku."
+  ]
  },
  "shin-maruko": {
   "wiki_ja": "新丸子駅",
@@ -2327,7 +2399,10 @@
  },
  "hondori": {
   "wiki_ja": "本通駅",
-  "photo_file": "File:Hiroden Hondori Station02.JPG"
+  "photo_file": "File:Hiroden Hondori Station02.JPG",
+  "facts": [
+   "Está bajo la galería comercial de Hondōri, la calle cubierta más concurrida de Hiroshima."
+  ]
  },
  "kikonai": {
   "wiki_ja": "木古内駅",
@@ -3224,7 +3299,10 @@
  },
  "takaoka-toyama": {
   "wiki_ja": "高岡駅",
-  "photo_file": "File:Takaoka-STA Zuiryuji-entrance.jpg"
+  "photo_file": "File:Takaoka-STA Zuiryuji-entrance.jpg",
+  "facts": [
+   "De aquí sale el tranvía Manyōsen; la ciudad presume de su gran Buda de bronce."
+  ]
  },
  "kochi-ekimae": {
   "wiki_ja": "高知駅",
@@ -3354,10 +3432,16 @@
   "photo_file": "File:Nagasaki Station 20200407 03.jpg"
  },
  "koriyama": {
-  "photo_file": "File:260801 Koriyama Station Koriyama Fukushima pref Japan04s3.jpg"
+  "photo_file": "File:260801 Koriyama Station Koriyama Fukushima pref Japan04s3.jpg",
+  "facts": [
+   "Nudo del centro de Fukushima: de aquí salen las líneas hacia Aizu y hacia la costa."
+  ]
  },
  "fukushima": {
-  "photo_file": "File:JR East Fukushima Station JR Line Platform 4・5.jpg"
+  "photo_file": "File:JR East Fukushima Station JR Line Platform 4・5.jpg",
+  "facts": [
+   "Aquí se separa el Shinkansen de Yamagata del de Tōhoku, y el cruce de vías da tantos retrasos que están construyendo un acceso nuevo."
+  ]
  },
  "shin-hakodate-hokuto": {
   "photo_file": "File:Shin-Hakodate-Hokuto-STA South.jpg"
@@ -3447,7 +3531,10 @@
   "photo_file": "File:Osaka-subway-K14-Kitahama-station-6-entrance.jpg"
  },
  "kyobashi-osaka": {
-  "photo_file": "File:Kyobashi 20210627045723.jpg"
+  "photo_file": "File:Kyobashi 20210627045723.jpg",
+  "facts": [
+   "Juntan aquí la Loop, la Gakkentoshi y Keihan: uno de los transbordos con más gente de Ōsaka."
+  ]
  },
  "chushojima": {
   "photo_file": "File:Keihan Chushojima station 20171014.jpg"
@@ -5031,7 +5118,10 @@
   "photo_file": "File:Ebisumachi stn hiroshima.JPG"
  },
  "hatchobori-hiroshima": {
-  "photo_file": "File:八丁堀電停広島駅行き 2013.jpg"
+  "photo_file": "File:八丁堀電停広島駅行き 2013.jpg",
+  "facts": [
+   "Es el cruce del tranvía de Hiroshima: aquí se juntan casi todas sus líneas."
+  ]
  },
  "shiyakusho-mae-hiroshima": {
   "photo_file": "File:Hiroden Hiroshima City Office Sta.01.jpg"
@@ -5172,7 +5262,10 @@
   "photo_file": "File:Shindaiku-machi tramstop 20190727.jpg"
  },
  "suwajinja-shrine": {
-  "photo_file": "File:Suwa-jinja Shrine tramstop 20180819 01.jpg"
+  "photo_file": "File:Suwa-jinja Shrine tramstop 20180819 01.jpg",
+  "facts": [
+   "Es la parada del santuario de Suwa, donde cada octubre se celebra el Kunchi, la gran fiesta de Nagasaki."
+  ]
  },
  "city-hall": {
   "photo_file": "File:Nagasaki Electric Tramway station 38 Kokaido-mae.png"
