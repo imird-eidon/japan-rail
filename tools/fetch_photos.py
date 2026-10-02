@@ -6,7 +6,9 @@ Sirve para los trenes (config/trains.json, por defecto) y para las estaciones
 
 Para cada ficha con:
   "photo_file": "File:Nombre.jpg"   → usa ese fichero de Commons (recomendado: control total), o
-  "wiki": "Título del artículo"     → usa la imagen principal del artículo en la Wikipedia en inglés.
+  "wiki": "Título del artículo"     → usa la imagen principal del artículo en la Wikipedia en inglés, o
+  "wiki_ja": "○○駅"                 → lo mismo, pero en la Wikipedia japonesa (casi toda estación
+                                       tiene artículo allí, y casi siempre con foto de la fachada).
   "photo_search": "texto"           → busca en Commons y toma la primera foto con licencia libre
                                        (revísala: conviene fijarla luego con photo_file).
 
@@ -62,8 +64,8 @@ def api(host, **params):
         return json.load(r)
 
 
-def lead_image(title):
-    d = api("en.wikipedia.org", action="query", titles=title, prop="pageimages", piprop="name", redirects=1)
+def lead_image(title, host="en.wikipedia.org"):
+    d = api(host, action="query", titles=title, prop="pageimages", piprop="name", redirects=1)
     page = d["query"]["pages"][0]
     name = page.get("pageimage")
     return f"File:{name}" if name else None
@@ -166,13 +168,14 @@ def main():
     for tid, t in fichas(kind):
         if args.ids and tid not in args.ids:
             continue
-        if not (t.get("photo_file") or t.get("wiki") or t.get("photo_search")):
+        if not (t.get("photo_file") or t.get("wiki") or t.get("wiki_ja") or t.get("photo_search")):
             continue
         if tid in photos and not args.refresh and not args.ids:
             continue
         try:
             file = t.get("photo_file") or (t.get("photo_search") and search_file(t["photo_search"])) \
-                or (t.get("wiki") and lead_image(t["wiki"]))
+                or (t.get("wiki") and lead_image(t["wiki"])) \
+                or (t.get("wiki_ja") and lead_image(t["wiki_ja"], "ja.wikipedia.org"))
             if not file:
                 print(f"  {tid}: no encuentro foto (wiki/photo_search)", file=sys.stderr)
                 continue

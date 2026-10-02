@@ -698,7 +698,7 @@ def main():
     resolve_trains(trains, out_lines, stations, warnings)
     photos = load_json(CONFIG / "photos.json") if (CONFIG / "photos.json").exists() else {}
     for t in trains:
-        for k in ("wiki", "photo_file", "photo_search"):
+        for k in ("wiki", "wiki_ja", "photo_file", "photo_search"):
             t.pop(k, None)
         if t["id"] in photos:
             t["photo"] = photos[t["id"]]

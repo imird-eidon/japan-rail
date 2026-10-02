@@ -105,7 +105,9 @@
   "facts": [
    "El barrio y la estación toman el nombre de la cerveza Yebisu, que se fabricaba aquí. La estación nació para dar servicio a la fábrica.",
    "Su melodía de salida es el tema de la película «El tercer hombre», que la marca usó en sus anuncios."
-  ]
+  ],
+  "wiki_ja": "恵比寿駅",
+  "photo_file": "File:JRE-Ebisu-STA Home1-2.jpg"
  },
  "otemachi": {
   "summary": "Nudo de metro bajo el distrito financiero.",
@@ -203,7 +205,8 @@
  "arashiyama": {
   "facts": [
    "En la estación del Randen hay un «bosque de kimonos» con cientos de postes forrados con telas de kimono."
-  ]
+  ],
+  "photo_file": "File:Hankyu Arashiyama Station sakura 20201-04-03.jpg"
  },
  "demachiyanagi": {
   "summary": "Donde se unen los ríos Kamo y Takano; aquí empiezan el Eiden y la línea Keihan.",
@@ -215,13 +218,15 @@
  "uji": {
   "facts": [
    "Cerca está el templo Byōdō-in, el de la moneda de 10 yenes."
-  ]
+  ],
+  "photo_file": "File:Keihan Uji station.jpg"
  },
  "umekoji-kyotonishi": {
   "summary": "Junto al Museo del Ferrocarril de Kioto.",
   "facts": [
    "El museo (2016) tiene una rotonda de locomotoras de vapor de 1914 y la antigua estación de madera de Nijō, trasladada aquí."
-  ]
+  ],
+  "photo_file": "File:Umekoji-Kyotonishi Station, ekisha.jpg"
  },
  "kurama": {
   "facts": [
@@ -284,7 +289,8 @@
   "wiki": "Naka-meguro Station"
  },
  "motomachi-chukagai": {
-  "summary": "El barrio chino de Yokohama, el mayor de Japón."
+  "summary": "El barrio chino de Yokohama, el mayor de Japón.",
+  "photo_file": "File:Motomachi-Chukagai Station Platform2.jpg"
  },
  "takaosanguchi": {
   "summary": "A los pies del monte Takao, la montaña más visitada del mundo según algunas estimaciones.",
@@ -308,7 +314,9 @@
  "miyanosaka": {
   "facts": [
    "Junto a la estación está el templo Gōtoku-ji, lleno de figuritas del gato de la suerte (maneki-neko)."
-  ]
+  ],
+  "wiki_ja": "宮の坂駅",
+  "photo_file": "File:Miyanosaka Station Setagaya Line IMG 9386 20131030.JPG"
  },
  "hon-kawagoe": {
   "facts": [
@@ -379,12 +387,15 @@
  "tsuruhashi": {
   "facts": [
    "Es el barrio coreano de Ōsaka: al bajar del tren se huele el yakiniku."
-  ]
+  ],
+  "wiki_ja": "鶴橋駅",
+  "photo_file": "File:JR鶴橋駅・近鉄改札口 2022.jpg"
  },
  "ebisucho": {
   "facts": [
    "Junto a la torre Tsūtenkaku y el barrio de Shinsekai, cuna de los kushikatsu."
-  ]
+  ],
+  "photo_file": "File:Ebisucho Station.JPG"
  },
  "gokurakubashi": {
   "facts": [
@@ -433,7 +444,8 @@
   "wiki": "Toshimaen Station"
  },
  "tetsudo-hakubutsukan": {
-  "summary": "La estación del Museo del Ferrocarril de Saitama (JR East)."
+  "summary": "La estación del Museo del Ferrocarril de Saitama (JR East).",
+  "photo_file": "File:Saitama-new-shuttle-NS02-Tetsudo-hakubutsukan-station-entrance-20210504-143903.jpg"
  },
  "hakkeijima": {
   "summary": "La isla del parque acuático Hakkeijima Sea Paradise.",
@@ -460,7 +472,8 @@
   "wiki": "Tama-Dobutsukoen Station"
  },
  "kodomonokuni": {
-  "summary": "«El país de los niños», un gran parque infantil de Yokohama."
+  "summary": "«El país de los niños», un gran parque infantil de Yokohama.",
+  "photo_file": "File:Kodomono-kuni-eki-2.jpg"
  },
  "urawa-misono": {
   "facts": [
@@ -471,7 +484,8 @@
  "kawasakidaishi": {
   "facts": [
    "A pocos pasos del templo Kawasaki Daishi, famoso por sus millones de visitantes en Año Nuevo."
-  ]
+  ],
+  "photo_file": "File:Keikyu-railway-KK23-Kawasakidaishi-station-platform-20190310-142140.jpg"
  },
  "minoh": {
   "facts": [
@@ -480,13 +494,16 @@
   "wiki": "Minoh Station"
  },
  "seibukyujo-mae": {
-  "summary": "Estación del estadio de los Saitama Seibu Lions (Belluna Dome)."
+  "summary": "Estación del estadio de los Saitama Seibu Lions (Belluna Dome).",
+  "wiki_ja": "西武球場前駅",
+  "photo_file": "File:Seibu-kyujyo-mae-STA.jpg"
  },
  "omiya": {
   "facts": [
    "Es la mayor estación de transbordo al norte de Tokio: paran en ella todos los Shinkansen del norte.",
    "De aquí salen las líneas hacia Tōhoku, Hokuriku, Jōetsu y Hokkaidō."
-  ]
+  ],
+  "photo_file": "File:Omiya-STA West.jpg"
  },
  "nagoya": {
   "facts": [
@@ -513,7 +530,9 @@
   "facts": [
    "Abrió en 1887 y para en ella todo tren que pasa, Shinkansen incluidos.",
    "Es la única estación de Tōhoku donde enlazan tres Shinkansen: Tōhoku, Akita y Hokkaidō."
-  ]
+  ],
+  "wiki_ja": "仙台駅",
+  "photo_file": "File:211028 Sendai Station Sendai Miyagi pref Japan02s5.jpg"
  },
  "toyohashi": {
   "facts": [
@@ -1171,6 +1190,4375 @@
  "kanayama": {
   "facts": [
    "Abrió en 1944 y es la segunda estación de Nagoya: enlazan en ella JR, Meitetsu y el metro."
-  ]
+  ],
+  "photo_file": "File:Kanayama Station south entrance 2020-10 ac (2).jpg"
+ },
+ "asunarou-yokkaichi": {
+  "wiki_ja": "近鉄四日市駅"
+ },
+ "jr-namba": {
+  "wiki_ja": "JR難波駅",
+  "photo_file": "File:JR難波駅駅舎が入居する「OCAT」 2022.jpg"
+ },
+ "azamino": {
+  "wiki_ja": "あざみ野駅",
+  "photo_file": "File:Tokyu-Azamino-Sta-W.JPG"
+ },
+ "misaki-koen": {
+  "wiki_ja": "みさき公園駅",
+  "photo_file": "File:Nankai Misakikoen Station.jpg"
+ },
+ "iwate-numakunai": {
+  "wiki_ja": "いわて沼宮内駅",
+  "photo_file": "File:JR East Iwate-Numakunai Station Platform in Iwate Town, Iwate Pref 20241101.jpg"
+ },
+ "sakurambo-higashine": {
+  "wiki_ja": "さくらんぼ東根駅",
+  "photo_file": "File:JR East Sakurambohigashine Station East Exit, Yamagata Pref.jpg"
+ },
+ "kaminoyama-onsen": {
+  "wiki_ja": "かみのやま温泉駅",
+  "photo_file": "File:JR East Kaminoyamaonsen Station West Exit.jpg"
+ },
+ "aoba-dori": {
+  "wiki_ja": "あおば通駅",
+  "photo_file": "File:Aobadorista cropped.jpg"
+ },
+ "sapporo": {
+  "wiki_ja": "さっぽろ駅",
+  "photo_file": "File:JR Sapporo Sta03n3200.jpg"
+ },
+ "monorail-hamamatsucho": {
+  "wiki_ja": "浜松町駅"
+ },
+ "minowabashi": {
+  "wiki_ja": "三ノ輪橋停留場",
+  "photo_file": "File:Toden-SA01-Minowabashi-station-entrance-20210102-122855.jpg"
+ },
+ "midaibashi": {
+  "wiki_ja": "三代橋駅",
+  "photo_file": "File:Mr midaibashi station.jpg"
+ },
+ "nanao": {
+  "wiki_ja": "七尾駅",
+  "photo_file": "File:Nanao Station 2021.jpg"
+ },
+ "cosmo-square": {
+  "wiki_ja": "コスモスクエア駅",
+  "photo_file": "File:Cosmosquare Station3.jpg"
+ },
+ "center-kita": {
+  "wiki_ja": "センター北駅",
+  "photo_file": "File:Center-kita-station-topview-nov24-2015.jpg"
+ },
+ "center-minami": {
+  "wiki_ja": "センター南駅",
+  "photo_file": "File:Yokohama Municipal Subway Center-Minami Station exterior.jpg"
+ },
+ "torokko-kameoka": {
+  "wiki_ja": "トロッコ亀岡駅",
+  "photo_file": "File:Truck KAMEOKA station-201106.jpg"
+ },
+ "yukarigaoka": {
+  "wiki_ja": "ユーカリが丘駅",
+  "photo_file": "File:Keisei Yūkarigaoka Sta 002.jpg"
+ },
+ "torokko-saga": {
+  "wiki_ja": "嵯峨嵐山駅",
+  "photo_file": "File:Torokko-Saga Station at dusk 20141009.JPG"
+ },
+ "mitaka": {
+  "wiki_ja": "三鷹駅",
+  "photo_file": "File:JR Chuo-Main-Line Mitaka Station Platform 3・4.jpg"
+ },
+ "mitsukoshimae": {
+  "wiki_ja": "三越前駅"
+ },
+ "kami-kagawa": {
+  "wiki_ja": "上嘉川駅",
+  "photo_file": "File:JR Kamikagawa sta 001.jpg"
+ },
+ "sammi": {
+  "wiki_ja": "三見駅",
+  "photo_file": "File:Sammi St.JPG"
+ },
+ "misakiguchi": {
+  "wiki_ja": "三崎口駅",
+  "photo_file": "File:Misakiguchi-STA Platform2.jpg"
+ },
+ "mikawa-anjo": {
+  "wiki_ja": "三河安城駅",
+  "photo_file": "File:Mikawa-Anjo Station shinkansen-south side.jpg"
+ },
+ "sangen-jaya": {
+  "wiki_ja": "三軒茶屋駅",
+  "photo_file": "File:Denentoshi line - Sangenjaya stn platforms and platform doors - June 2 2018.jpg"
+ },
+ "mikunigaoka": {
+  "wiki_ja": "三国ヶ丘駅",
+  "photo_file": "File:JRW Nankai Mikunigaoka-STA West.jpg"
+ },
+ "kamimaezu": {
+  "wiki_ja": "上前津駅",
+  "photo_file": "File:Nagoya-subway-M03-Kamimaezu-station-platform-20100315.jpg"
+ },
+ "sannomiya-hanadokeimae": {
+  "wiki_ja": "三宮・花時計前駅",
+  "photo_file": "File:三宮・花時計前駅改札口.jpg"
+ },
+ "ryogoku": {
+  "wiki_ja": "両国駅",
+  "photo_file": "File:Toei Ryogoku-STA Platform1-2.jpg"
+ },
+ "shimo-takaido": {
+  "wiki_ja": "下高井戸駅",
+  "photo_file": "File:Tokyu-Shimotakaido-Sta-1.JPG"
+ },
+ "kami-ooka": {
+  "wiki_ja": "上大岡駅",
+  "photo_file": "File:KamioookaSt.jpg"
+ },
+ "chuo-maebashi": {
+  "wiki_ja": "中央前橋駅",
+  "photo_file": "File:Chuo-maebashi Station 20070103.jpg"
+ },
+ "kami-yakuno": {
+  "wiki_ja": "上夜久野駅",
+  "photo_file": "File:Kami-Yakuno Station-01.jpg"
+ },
+ "kami-otai": {
+  "wiki_ja": "上小田井駅",
+  "photo_file": "File:MT-Kami Otai Station-SouthGate.jpg"
+ },
+ "ueda": {
+  "wiki_ja": "上田駅",
+  "photo_file": "File:Ueda-STA Castle-side-Entrance.jpg"
+ },
+ "chuo-hirosaki": {
+  "wiki_ja": "中央弘前駅",
+  "photo_file": "File:Chuo-Hirosaki Station 20220618.jpg"
+ },
+ "shimosa-manzaki": {
+  "wiki_ja": "下総松崎駅",
+  "photo_file": "File:Shimōsa-Manzaki-STA-Home.jpg"
+ },
+ "shimokita": {
+  "wiki_ja": "下北駅",
+  "photo_file": "File:JRE ShimokitaStation-NEW 20090805.jpg"
+ },
+ "nakasu-kawabata": {
+  "wiki_ja": "中洲川端駅"
+ },
+ "nakaoguni": {
+  "wiki_ja": "中小国駅",
+  "photo_file": "File:Naka-Oguni Station Entrance, Aomori Pref 20231030.jpg"
+ },
+ "nakanobu": {
+  "wiki_ja": "中延駅",
+  "photo_file": "File:Toei Nakanobu-STA Platform1-2.jpg"
+ },
+ "nakano-sakaue": {
+  "wiki_ja": "中野坂上駅"
+ },
+ "chuo-rinkan": {
+  "wiki_ja": "中央林間駅",
+  "photo_file": "File:Odakyu-ChuoRinkanSta-NorthExit.jpg"
+ },
+ "hisaya-odori": {
+  "wiki_ja": "久屋大通駅"
+ },
+ "marunouchi": {
+  "wiki_ja": "丸の内駅",
+  "photo_file": "File:Nagoya-subway-Marunouchi-station-entrance-4-20100315.jpg"
+ },
+ "kurihama": {
+  "wiki_ja": "久里浜駅",
+  "photo_file": "File:KurihamaStation.jpg"
+ },
+ "nakano-shimbashi": {
+  "wiki_ja": "中野新橋駅"
+ },
+ "keikyu-kawasaki": {
+  "wiki_ja": "京急川崎駅",
+  "photo_file": "File:Keikyu-Kawasaki-STA Platform4-5.jpg"
+ },
+ "keikyu-kamata": {
+  "wiki_ja": "京急蒲田駅",
+  "photo_file": "File:Keikyu-Kamata-Sta-2F-Platform after adding platform doors.jpg"
+ },
+ "futamatagawa": {
+  "wiki_ja": "二俣川駅",
+  "photo_file": "File:Futamatagawa Station 2018 - 01c.jpg"
+ },
+ "futako-tamagawa": {
+  "wiki_ja": "二子玉川駅",
+  "photo_file": "File:Futakotamagawa rise-20150807.jpg"
+ },
+ "kamejima": {
+  "wiki_ja": "亀島駅",
+  "photo_file": "File:Nagoya-subway-H07-Kamejima-station-entrance-2-20100316.jpg"
+ },
+ "ninohe": {
+  "wiki_ja": "二戸駅",
+  "photo_file": "File:Ninohe Station West Exit, Iwate Pref.jpg"
+ },
+ "goshogawara": {
+  "wiki_ja": "五所川原駅",
+  "photo_file": "File:五所川原駅構内の改札風景.jpg"
+ },
+ "itsutsubashi": {
+  "wiki_ja": "五橋駅",
+  "photo_file": "File:Itsutsubashi-STA Entrance North-4.jpg"
+ },
+ "yoyogi-uehara": {
+  "wiki_ja": "代々木上原駅",
+  "photo_file": "File:TokyoMetro-C01-Yoyogi-uehara-station-sign-20190420-165814.jpg"
+ },
+ "keisei-ueno": {
+  "wiki_ja": "京成上野駅",
+  "photo_file": "File:Keisei-Ueno-STA Platform1-2.jpg"
+ },
+ "keisei-chiba": {
+  "wiki_ja": "京成千葉駅",
+  "photo_file": "File:Keisei-chiba Station.jpg"
+ },
+ "keio-hachioji": {
+  "wiki_ja": "京王八王子駅",
+  "photo_file": "File:KeioHachiojiStationGate.JPG"
+ },
+ "keisei-makuhari-hongo": {
+  "wiki_ja": "幕張本郷駅"
+ },
+ "kyoto-kawaramachi": {
+  "wiki_ja": "京都河原町駅",
+  "photo_file": "File:Kyoto-Kawaramachi-STA Platform1-3.jpg"
+ },
+ "senbokucho": {
+  "wiki_ja": "仙北町駅",
+  "photo_file": "File:JR East Sembokuchō Station building, Iwate Pref.jpg"
+ },
+ "imamiya": {
+  "wiki_ja": "今宮駅",
+  "photo_file": "File:Imamiya Station Sign (Osaka Loop Line).jpg"
+ },
+ "keisei-kanamachi": {
+  "wiki_ja": "京成金町駅",
+  "photo_file": "File:Keisei-Kanamachi.jpg"
+ },
+ "aizu-wakamatsu": {
+  "wiki_ja": "会津若松駅",
+  "photo_file": "File:JR East Aizu-Wakamatsu Station building.jpg"
+ },
+ "sayo": {
+  "wiki_ja": "佐用駅",
+  "photo_file": "File:Sayo Station 01.jpg"
+ },
+ "iga-ueno": {
+  "wiki_ja": "伊賀上野駅",
+  "photo_file": "File:Iga-Ueno-Station-20120708.jpg"
+ },
+ "ise-wakamatsu": {
+  "wiki_ja": "伊勢若松駅",
+  "photo_file": "File:Ise-Wakamatsu STN1.JPG"
+ },
+ "fushiya": {
+  "wiki_ja": "伏屋駅",
+  "photo_file": "File:Fushiya Station 20180107.jpg"
+ },
+ "iseshi": {
+  "wiki_ja": "伊勢市駅",
+  "photo_file": "File:JRC sangu line Ise-shi station 01.jpg"
+ },
+ "sakudaira": {
+  "wiki_ja": "佐久平駅",
+  "photo_file": "File:JR Hokuriku Shinkansen・Koumi Line Sakudaira Station Tateshina Exit.jpg"
+ },
+ "hodogaya": {
+  "wiki_ja": "保土ケ谷駅"
+ },
+ "amarume": {
+  "wiki_ja": "余目駅",
+  "photo_file": "File:JR East Amarume Station Platform, Yamagata Pref.jpg"
+ },
+ "suminoekoen": {
+  "wiki_ja": "住之江公園駅",
+  "photo_file": "File:Platform for New Tram of Suminoekōen Station.JPG"
+ },
+ "hikarigaoka": {
+  "wiki_ja": "光が丘駅",
+  "photo_file": "File:Hikarigaoka Station exit A2 - 2022 Jan 8 - various.jpeg"
+ },
+ "motosumiyoshi": {
+  "wiki_ja": "元住吉駅",
+  "photo_file": "File:Tokyu-motosumiyoshi-platform-20070707.jpg"
+ },
+ "bingo-ochiai": {
+  "wiki_ja": "備後落合駅",
+  "photo_file": "File:BingoOchiaiStation1.JPG"
+ },
+ "bitchu-kojiro": {
+  "wiki_ja": "備中神代駅",
+  "photo_file": "File:JR備中神代駅の駅舎.jpg"
+ },
+ "hatchonawate": {
+  "wiki_ja": "八丁畷駅",
+  "photo_file": "File:Hatchonawate-STA East.jpg"
+ },
+ "hatchobori": {
+  "wiki_ja": "八丁堀駅",
+  "photo_file": "File:JREast-Hatchobori-station-platform.jpg"
+ },
+ "yao-minami": {
+  "wiki_ja": "八尾南駅",
+  "photo_file": "File:Osaka-subway-T36-Yaominami-station-building.jpg"
+ },
+ "kuragano": {
+  "wiki_ja": "倉賀野駅",
+  "photo_file": "File:JR Takasaki Line・Hachikō Line Kuragano Station South Exit.jpg"
+ },
+ "yagoto": {
+  "wiki_ja": "八事駅",
+  "photo_file": "File:Meijyo&Turumai-Line-Yagoto-Sta.jpg"
+ },
+ "irieoka": {
+  "wiki_ja": "入江岡駅",
+  "photo_file": "File:Shizuoka-Shimizu Line Irieoka Sta-01.JPG"
+ },
+ "hachinohe": {
+  "wiki_ja": "八戸駅",
+  "photo_file": "File:JRE-Aoimoritetsudou HachinoheStation-West.jpg"
+ },
+ "muikamachi": {
+  "wiki_ja": "六日町駅",
+  "photo_file": "File:JR East・Hokuetsu Express Muikamachi Station Platform 4・5.jpg"
+ },
+ "izumi": {
+  "wiki_ja": "出水駅",
+  "photo_file": "File:Izumi Station east-20121228.jpg"
+ },
+ "utsube": {
+  "wiki_ja": "内部駅",
+  "photo_file": "File:Utsube-station-Platform.jpg"
+ },
+ "uchiko": {
+  "wiki_ja": "内子駅",
+  "photo_file": "File:Uchiko Station platform.jpg"
+ },
+ "uchijuku": {
+  "wiki_ja": "内宿駅",
+  "photo_file": "File:Uchijuku-STA Platform.jpg"
+ },
+ "yase-hieizanguchi": {
+  "wiki_ja": "八瀬比叡山口駅",
+  "photo_file": "File:八瀬比叡山口駅駅舎.JPG"
+ },
+ "yokaichi": {
+  "wiki_ja": "八日市駅",
+  "photo_file": "File:240608 Yokaichi Station Higashiomi Shiga pref Japan05s3.jpg"
+ },
+ "yakusa": {
+  "wiki_ja": "八草駅"
+ },
+ "yakuriguchi": {
+  "wiki_ja": "八栗口駅",
+  "photo_file": "File:JR-Yakuriguchi-pf-2.jpg"
+ },
+ "bubaigawara": {
+  "wiki_ja": "分倍河原駅",
+  "photo_file": "File:BubaigawaraStation.JPG"
+ },
+ "izumoshi": {
+  "wiki_ja": "出雲市駅",
+  "photo_file": "File:Izumoshi station01n4592.jpg"
+ },
+ "kariya": {
+  "wiki_ja": "刈谷駅",
+  "photo_file": "File:140112 Kariya Station Kariya Aich pref Japan01s5.jpg"
+ },
+ "kakogawa": {
+  "wiki_ja": "加古川駅",
+  "photo_file": "File:JR Kakogawa station04n4592.jpg"
+ },
+ "dobutsuen-mae": {
+  "wiki_ja": "動物園前駅",
+  "photo_file": "File:大阪メトロ動物園前駅御堂筋線1番線ホーム.jpg"
+ },
+ "izumo-science-center-parktown": {
+  "wiki_ja": "出雲科学館パークタウン前駅",
+  "photo_file": "File:出雲科学館パークタウン前駅.jpg"
+ },
+ "rifu": {
+  "wiki_ja": "利府駅",
+  "photo_file": "File:JR East Rifu Station building, Miyagi Pref.jpg"
+ },
+ "hakodate-ekimae": {
+  "wiki_ja": "函館駅",
+  "photo_file": "File:Hakodateekimae-sta.jpg"
+ },
+ "maeyachi": {
+  "wiki_ja": "前谷地駅",
+  "photo_file": "File:JR East Maeyachi Station Platform, Miyagi Pref.jpg"
+ },
+ "bessho-onsen": {
+  "wiki_ja": "別所温泉駅",
+  "photo_file": "File:Ueda dentetsu Bessho-onsen station.jpg"
+ },
+ "kita-kashiwa": {
+  "wiki_ja": "北柏駅",
+  "photo_file": "File:JR Jōban Line Kita-Kashiwa Station Platform.jpg"
+ },
+ "st-5632": {
+  "wiki_ja": "金沢駅"
+ },
+ "kita-ayase": {
+  "wiki_ja": "北綾瀬駅",
+  "photo_file": "File:Kita-ayase-station-platform-night.jpg"
+ },
+ "kita-narashino": {
+  "wiki_ja": "北習志野駅"
+ },
+ "katsuta": {
+  "wiki_ja": "勝田駅",
+  "photo_file": "File:JR East・Hitachinaka Seaside Railway Katsuta Station Platform 3・4.jpg"
+ },
+ "tokamachi": {
+  "wiki_ja": "十日町駅",
+  "photo_file": "File:JR East・Hokuetsu Express Tokamachi Station JR Lines Platform.jpg"
+ },
+ "kotodai-koen": {
+  "wiki_ja": "勾当台公園駅",
+  "photo_file": "File:Kotodai-Koen station platforms.jpg"
+ },
+ "kita-senri": {
+  "wiki_ja": "北千里駅",
+  "photo_file": "File:Kitasenri stn.jpg"
+ },
+ "kita-uwajima": {
+  "wiki_ja": "北宇和島駅",
+  "photo_file": "File:Kita-Uwajima stn.jpg"
+ },
+ "minami-senju": {
+  "wiki_ja": "南千住駅",
+  "photo_file": "File:JR Joban-Line Minami-Senji Station Platform.jpg"
+ },
+ "minami-iwakuni": {
+  "wiki_ja": "南岩国駅",
+  "photo_file": "File:JR Minami-Iwakuni Station 2021-08 ac (2).jpg"
+ },
+ "minami-urawa": {
+  "wiki_ja": "南浦和駅",
+  "photo_file": "File:Minami-Urawa-STA Platform5-6.jpg"
+ },
+ "chikusa": {
+  "wiki_ja": "千種駅",
+  "photo_file": "File:Nagoya-subway-H12-Chikusa-station-platform-20100316.jpg"
+ },
+ "minami-nagareyama": {
+  "wiki_ja": "南流山駅",
+  "photo_file": "File:JRE TX Minami-Nagareyama-STA South.jpg"
+ },
+ "minami-morimachi": {
+  "wiki_ja": "南森町駅",
+  "photo_file": "File:Osaka-subway-T21-Minamimorimachi-station-platform.jpg"
+ },
+ "minami-tatsumi": {
+  "wiki_ja": "南巽駅",
+  "photo_file": "File:Platform of Minami-Tatsumi Station.JPG"
+ },
+ "minami-sendai": {
+  "wiki_ja": "南仙台駅",
+  "photo_file": "File:Minamisendaista cropped.jpg"
+ },
+ "senkawa": {
+  "wiki_ja": "千川駅",
+  "photo_file": "File:Senkawa-station-Exit3.jpg"
+ },
+ "chiba-chuo": {
+  "wiki_ja": "千葉中央駅",
+  "photo_file": "File:Keisei-railway-KS60-Chiba-chuo-station-platform-20190701-163600.jpg"
+ },
+ "atsugi": {
+  "wiki_ja": "厚木駅",
+  "photo_file": "File:Atsugi-Sta-201509.JPG"
+ },
+ "furukawa": {
+  "wiki_ja": "古川駅",
+  "photo_file": "File:JR East Furukawa Station JR Line Platform, Miyagi Pref.jpg"
+ },
+ "hakata-south": {
+  "wiki_ja": "博多南駅",
+  "photo_file": "File:Hakata-Minami Station 20170128.jpg"
+ },
+ "tomobe": {
+  "wiki_ja": "友部駅",
+  "photo_file": "File:Tomobe-STA Platform2-3.jpg"
+ },
+ "komachi": {
+  "wiki_ja": "古町駅",
+  "photo_file": "File:KomachiStation.JPG"
+ },
+ "yoshizuka": {
+  "wiki_ja": "吉塚駅",
+  "photo_file": "File:Yoshizuka Station 20160714.jpg"
+ },
+ "yoshiwara": {
+  "wiki_ja": "吉原駅",
+  "photo_file": "File:Yoshiwara Station North.JPG"
+ },
+ "inba-nihon-idai": {
+  "wiki_ja": "印旛日本医大駅",
+  "photo_file": "File:Hokuso-railway-HS14-Imba-nihon-idai-station-building-20250101-135626.jpg"
+ },
+ "kakamigahara-shiyakusho-mae": {
+  "wiki_ja": "各務原市役所前駅",
+  "photo_file": "File:Kakamigarasiyakusyomae station.JPG"
+ },
+ "wadayama": {
+  "wiki_ja": "和田山駅",
+  "photo_file": "File:Wadayama Station apr2018.jpg"
+ },
+ "wakayamako": {
+  "wiki_ja": "和歌山港駅",
+  "photo_file": "File:Wakayamakosign.JPG"
+ },
+ "agano": {
+  "wiki_ja": "吾野駅",
+  "photo_file": "File:Seibu-railway-ikebukuro-line-Agano-station-platform.jpg"
+ },
+ "karakida": {
+  "wiki_ja": "唐木田駅",
+  "photo_file": "File:Karakida Staition 2.jpg"
+ },
+ "wada": {
+  "wiki_ja": "和田駅",
+  "photo_file": "File:JR East Wada Station North Exit in Akita City, Akita Pref.jpg"
+ },
+ "natori": {
+  "wiki_ja": "名取駅",
+  "photo_file": "File:NatoriStation forFukushima.JPG"
+ },
+ "izumichuo": {
+  "wiki_ja": "和泉中央駅",
+  "photo_file": "File:泉北高速鉄道線 和泉中央駅 Izumi-chūō station 2012.12.14 - panoramio.jpg"
+ },
+ "yoshinoguchi": {
+  "wiki_ja": "吉野口駅",
+  "photo_file": "File:Yoshinoguchi-sta.jpg"
+ },
+ "meiden-kakamigahara": {
+  "wiki_ja": "名電各務原駅",
+  "photo_file": "File:MT-Meiden Kakamigahara Station-Building.jpg"
+ },
+ "kozu": {
+  "wiki_ja": "国府津駅",
+  "photo_file": "File:JRE Kozu-Station platform 2-3 20220407 093640.jpg"
+ },
+ "chikatetsu-narimasu": {
+  "wiki_ja": "地下鉄成増駅",
+  "photo_file": "File:TokyoMetro-Y02-F02-Chikatetsu-narimasu-station-entrance-1-20211216-150136.jpg"
+ },
+ "yotsugoya": {
+  "wiki_ja": "四ツ小屋駅",
+  "photo_file": "File:JR East Yotsugoya Station building in Akita City, Akita Pref.jpg"
+ },
+ "sonobe": {
+  "wiki_ja": "園部駅",
+  "photo_file": "File:JR Sonobe Station East Gate.jpg"
+ },
+ "horinouchi": {
+  "wiki_ja": "堀ノ内駅",
+  "photo_file": "File:Horinouchi Station platform20200802.jpg"
+ },
+ "saka": {
+  "wiki_ja": "坂駅",
+  "photo_file": "File:Platform of Saka Station 5.jpg"
+ },
+ "kiyama-fukuoka": {
+  "wiki_ja": "基山駅",
+  "photo_file": "File:Kiyama stn.(saga).JPG"
+ },
+ "sakamachi": {
+  "wiki_ja": "坂町駅",
+  "photo_file": "File:JR East Sakamachi Station Platform, Niigata Pref 20230722.jpg"
+ },
+ "chikatetsu-akatsuka": {
+  "wiki_ja": "地下鉄赤塚駅",
+  "photo_file": "File:Chikatetsu-Akatsuka Station 20080614.jpg"
+ },
+ "sakata": {
+  "wiki_ja": "坂田駅"
+ },
+ "tamagawa": {
+  "wiki_ja": "多摩川駅",
+  "photo_file": "File:Tokyu Tamagawa-STA West.jpg"
+ },
+ "tamako": {
+  "wiki_ja": "多摩湖駅",
+  "photo_file": "File:Seibu-yuenchi Sta.-north entrance 20160322.jpg"
+ },
+ "st-3380": {
+  "wiki_ja": "境港駅",
+  "photo_file": "File:JRW Sakaiminato-STA Platform.jpg"
+ },
+ "shiomachi": {
+  "wiki_ja": "塩町駅",
+  "photo_file": "File:Shiomachi Station, platform-2.jpg"
+ },
+ "tadotsu": {
+  "wiki_ja": "多度津駅",
+  "photo_file": "File:JRS-Tadotsu-Station platform 3-4 20211226 073034.jpg"
+ },
+ "tama-center": {
+  "wiki_ja": "多摩センター駅",
+  "photo_file": "File:OER Tama-Center station.jpg"
+ },
+ "tokida": {
+  "wiki_ja": "外城田駅",
+  "photo_file": "File:Tokida Station-Platform 2.jpg"
+ },
+ "tanagawa": {
+  "wiki_ja": "多奈川駅",
+  "photo_file": "File:Tanagawa stn.jpg"
+ },
+ "shukugawa": {
+  "wiki_ja": "夙川駅",
+  "photo_file": "File:Hankyu Shukugawa Station.jpg"
+ },
+ "daikokucho": {
+  "wiki_ja": "大国町駅",
+  "photo_file": "File:大阪メトロ大国町駅2番線ホーム.jpg"
+ },
+ "daishimae": {
+  "wiki_ja": "大師前駅",
+  "photo_file": "File:Daishimae station.jpg"
+ },
+ "otake": {
+  "wiki_ja": "大竹駅",
+  "photo_file": "File:Otake station new.jpg"
+ },
+ "obarino": {
+  "wiki_ja": "大張野駅",
+  "photo_file": "File:JR East Ōbarino Station building in Akita City, Akita Pref.jpg"
+ },
+ "daimotsu": {
+  "wiki_ja": "大物駅",
+  "photo_file": "File:Daimotsu stn.jpg"
+ },
+ "oishida": {
+  "wiki_ja": "大石田駅",
+  "photo_file": "File:JR East Ōishida Station Platform, Yamagata Pref.jpg"
+ },
+ "osaka-uehommachi": {
+  "wiki_ja": "大阪上本町駅",
+  "photo_file": "File:KINTETSU Uehommachi.JPG"
+ },
+ "dainichi": {
+  "wiki_ja": "大日駅",
+  "photo_file": "File:Osaka Monorail Dainichi Station.JPG"
+ },
+ "oami": {
+  "wiki_ja": "大網駅",
+  "photo_file": "File:JRE-Oami-STA Togane-line-Home.jpg"
+ },
+ "otsuki": {
+  "wiki_ja": "大月駅",
+  "photo_file": "File:JRE Otsuki-STA Platform4-5.jpg"
+ },
+ "ookayama": {
+  "wiki_ja": "大岡山駅",
+  "photo_file": "File:Tokyu Oookayama sta 002.jpg"
+ },
+ "tennoji-ekimae": {
+  "wiki_ja": "天王寺駅",
+  "photo_file": "File:Hankai-Tennojiekimae-st1.jpg"
+ },
+ "tennozu-isle": {
+  "wiki_ja": "天王洲アイル駅",
+  "photo_file": "File:Rinkai-Line Tennozu-Isle-STA Home.jpg"
+ },
+ "taiko-dori": {
+  "wiki_ja": "太閤通駅",
+  "photo_file": "File:Taiko-dori Station 20230121-07.jpg"
+ },
+ "tenjinbashisuji-rokuchome": {
+  "wiki_ja": "天神橋筋六丁目駅",
+  "photo_file": "File:Osaka City Subway Tenroku Sta Home Sakaisuji Line.jpg"
+ },
+ "odate": {
+  "wiki_ja": "大館駅",
+  "photo_file": "File:JR East Ōdate Station building in Odate City, Akita Pref.jpg"
+ },
+ "owani": {
+  "wiki_ja": "大鰐温泉駅"
+ },
+ "tendo": {
+  "wiki_ja": "天童駅",
+  "photo_file": "File:JR East Tendō Station East Exit, Yamagata Pref 20240331.jpg"
+ },
+ "taishibashi-imaichi": {
+  "wiki_ja": "太子橋今市駅"
+ },
+ "osaka-airport": {
+  "wiki_ja": "大阪空港駅"
+ },
+ "tennodai": {
+  "wiki_ja": "天王台駅",
+  "photo_file": "File:JR Jōban Line Tennōdai Station Platform 3・4.jpg"
+ },
+ "oku-tama": {
+  "wiki_ja": "奥多摩駅",
+  "photo_file": "File:JR Ōme Line Oku-Tama Station Platform.jpg"
+ },
+ "meinohama": {
+  "wiki_ja": "姪浜駅",
+  "photo_file": "File:Meinohama-STA South.jpg"
+ },
+ "uno": {
+  "wiki_ja": "宇野駅",
+  "photo_file": "File:Uno Station (26718035261).jpg"
+ },
+ "ube": {
+  "wiki_ja": "宇部駅",
+  "photo_file": "File:20210408 Ube-Station.jpg"
+ },
+ "ubemisaki": {
+  "wiki_ja": "宇部岬駅",
+  "photo_file": "File:0903090114 ubemisaki.jpg"
+ },
+ "utazu": {
+  "wiki_ja": "宇多津駅",
+  "photo_file": "File:Utazu Station-SouthGate.jpg"
+ },
+ "nara": {
+  "wiki_ja": "奈良駅",
+  "photo_file": "File:Nara Station, ekisha.jpg"
+ },
+ "myokenguchi": {
+  "wiki_ja": "妙見口駅",
+  "photo_file": "File:妙見口駅.jpg"
+ },
+ "koma-tohoku": {
+  "wiki_ja": "好摩駅",
+  "photo_file": "File:Kōma Station Platform, Iwate Pref.jpg"
+ },
+ "onagawa": {
+  "wiki_ja": "女川駅",
+  "photo_file": "File:JR East Onagawa Station building, Miyagi Pref 20240420.jpg"
+ },
+ "yasugi": {
+  "wiki_ja": "安来駅",
+  "photo_file": "File:Yasugi Station.jpg"
+ },
+ "shinji": {
+  "wiki_ja": "宍道駅",
+  "photo_file": "File:Shinji Station 2017.jpg"
+ },
+ "moriya": {
+  "wiki_ja": "守谷駅",
+  "photo_file": "File:TX Moriya Station Ticket Gate.jpg"
+ },
+ "miyamachi": {
+  "wiki_ja": "宮町駅",
+  "photo_file": "File:Kintetsu Miyamachi station West exit.jpg"
+ },
+ "shukugawara-tohoku": {
+  "wiki_ja": "宿川原駅",
+  "photo_file": "File:Shukugawara Station, Aomori 20190921.jpg"
+ },
+ "awa-kamogawa": {
+  "wiki_ja": "安房鴨川駅",
+  "photo_file": "File:JR Uchibō Line・Sotobō Line Awa-Kamogawa Station Platform.jpg"
+ },
+ "fuji": {
+  "wiki_ja": "富士駅",
+  "photo_file": "File:JR Central Fuji Station Platform 3・4.jpg"
+ },
+ "asaka-nagamori": {
+  "wiki_ja": "安積永盛駅",
+  "photo_file": "File:JR Tohoku Line・Suigun Line Asakanagamori Station building.jpg"
+ },
+ "sukumo": {
+  "wiki_ja": "宿毛駅",
+  "photo_file": "File:Sukumo station kurumadome.JPG"
+ },
+ "onoda": {
+  "wiki_ja": "小野田駅",
+  "photo_file": "File:Onoda Station-03.jpg"
+ },
+ "tomizawa": {
+  "wiki_ja": "富沢駅",
+  "photo_file": "File:Sendai-subway-tomizawa-station.jpg"
+ },
+ "komorie": {
+  "wiki_ja": "小森江駅",
+  "photo_file": "File:Komorie station 1.jpg"
+ },
+ "teradacho": {
+  "wiki_ja": "寺田町駅",
+  "photo_file": "File:Terada station.jpg"
+ },
+ "shitte": {
+  "wiki_ja": "尻手駅",
+  "photo_file": "File:ShitteStation-front-Oct12-2015.jpg"
+ },
+ "koike": {
+  "wiki_ja": "小池駅",
+  "photo_file": "File:Koike Station.jpg"
+ },
+ "komoro": {
+  "wiki_ja": "小諸駅",
+  "photo_file": "File:Shinano Railway・JR East Komoro Station Platform 4・5.jpg"
+ },
+ "kodaira": {
+  "wiki_ja": "小平駅",
+  "photo_file": "File:Kodaira-station-south-gate 20200607.jpg"
+ },
+ "shakudo": {
+  "wiki_ja": "尺土駅",
+  "photo_file": "File:Kintetsu Shakudo sta 002.jpg"
+ },
+ "koide": {
+  "wiki_ja": "小出駅",
+  "photo_file": "File:JR Joetsu Line・Tadami Line Koide Station Platform 2・3.jpg"
+ },
+ "iwanuma": {
+  "wiki_ja": "岩沼駅",
+  "photo_file": "File:Iwanuma sta cropped.jpg"
+ },
+ "okayama-ekimae": {
+  "wiki_ja": "岡山駅",
+  "photo_file": "File:Okayama-Ekimae-STA Panorama-view.jpg"
+ },
+ "ino-chugoku": {
+  "wiki_ja": "居能駅",
+  "photo_file": "File:JR Inō sta 001.jpg"
+ },
+ "igumi": {
+  "wiki_ja": "居組駅",
+  "photo_file": "File:New igumi sta.jpg"
+ },
+ "gifu-hashima": {
+  "wiki_ja": "岐阜羽島駅",
+  "photo_file": "File:Gifu Hashima Station 01.JPG"
+ },
+ "oku": {
+  "wiki_ja": "尾久駅",
+  "photo_file": "File:JREast-Tohoku-main-line-JU03-Oku-station-building-20210202-145052.jpg"
+ },
+ "iwakiri": {
+  "wiki_ja": "岩切駅",
+  "photo_file": "File:JR East Iwakiri Station North Exit, Miyagi Pref.jpg"
+ },
+ "sanyo-himeji": {
+  "wiki_ja": "山陽姫路駅",
+  "photo_file": "File:170107 Sanyo department store Himeji Hyogo pref Japan01n.jpg"
+ },
+ "owari-ichinomiya": {
+  "wiki_ja": "尾張一宮駅",
+  "photo_file": "File:Civic Complex Building in front of Owari-Ichinomiya Station ac (7).jpg"
+ },
+ "gifu": {
+  "wiki_ja": "岐阜駅",
+  "photo_file": "File:Gifu sta entrance.jpg"
+ },
+ "sugamo": {
+  "wiki_ja": "巣鴨駅",
+  "photo_file": "File:Sugamo Station Southeast Facade.jpg"
+ },
+ "kawagoe": {
+  "wiki_ja": "川越駅",
+  "photo_file": "File:Kawagoe-STA West.jpg"
+ },
+ "kawanisinoseguchi": {
+  "wiki_ja": "川西能勢口駅",
+  "photo_file": "File:Kawanishi Noseguchi Station.JPG"
+ },
+ "kishinosato-tamade": {
+  "wiki_ja": "岸里玉出駅",
+  "photo_file": "File:Kishinosato-Tamade Station 02.jpg"
+ },
+ "kawabe-tohoku": {
+  "wiki_ja": "川部駅",
+  "photo_file": "File:JR East Kawabe Station Platform in Inakadate Village, Aomori Pref.jpg"
+ },
+ "fuse": {
+  "wiki_ja": "布施駅",
+  "photo_file": "File:Kintetsu Fuse St -S-.jpg"
+ },
+ "fusa": {
+  "wiki_ja": "布佐駅",
+  "photo_file": "File:Fusa-STA-Home.jpg"
+ },
+ "ichikawa": {
+  "wiki_ja": "市川駅",
+  "photo_file": "File:JR Sobu-Main-Line Ichikawa Station Platform 1・2 (20210410).jpg"
+ },
+ "ichiburi": {
+  "wiki_ja": "市振駅",
+  "photo_file": "File:Ichiburi-station-building.jpg"
+ },
+ "fuchu-hommachi": {
+  "wiki_ja": "府中本町駅",
+  "photo_file": "File:JR Nambu-Line・Musashino-Line Fuchuhommachi Station Platform 4.jpg"
+ },
+ "makuhari": {
+  "wiki_ja": "幕張駅",
+  "photo_file": "File:JR Sobu-Main-Line Makuhari Station Platform.jpg"
+ },
+ "makuhari-hongo": {
+  "wiki_ja": "幕張本郷駅",
+  "photo_file": "File:Makuharihongo-Sta-S-201905.jpg"
+ },
+ "fuchukeiba-seimonmae": {
+  "wiki_ja": "府中競馬正門前駅",
+  "photo_file": "File:Fuchu-Keiba-Seimommae-Sta.JPG"
+ },
+ "hatabu": {
+  "wiki_ja": "幡生駅",
+  "photo_file": "File:Hatabu 20230502 095036.jpg"
+ },
+ "koiki-koen-mae": {
+  "wiki_ja": "広域公園前駅",
+  "photo_file": "File:Koiki-koenmae-eki-1.jpg"
+ },
+ "hiratacho": {
+  "wiki_ja": "平田町駅",
+  "photo_file": "File:Hiratacho Station.JPG"
+ },
+ "heian-dori": {
+  "wiki_ja": "平安通駅"
+ },
+ "hirosaki": {
+  "wiki_ja": "弘前駅",
+  "photo_file": "File:Hirosaki Station 20170329.jpg"
+ },
+ "bentencho": {
+  "wiki_ja": "弁天町駅"
+ },
+ "narita-airport-terminal-1": {
+  "wiki_ja": "成田空港駅",
+  "photo_file": "File:JRE-Narita-Airport-Terminal-1-Station Home.jpg"
+ },
+ "okachimachi": {
+  "wiki_ja": "御徒町駅",
+  "photo_file": "File:JROkachimachiStation-northexit-2018-3-11.jpg"
+ },
+ "naruto": {
+  "wiki_ja": "成東駅",
+  "photo_file": "File:JR Sobu-Main-Line・Togane-Line Naruto Station Platform.jpg"
+ },
+ "tokuyama": {
+  "wiki_ja": "徳山駅",
+  "photo_file": "File:みゆき口.jpg"
+ },
+ "gokiso": {
+  "wiki_ja": "御器所駅",
+  "photo_file": "File:Nagoya-subway-Gokiso-station-entrance-6-20100316.jpg"
+ },
+ "mikadodai": {
+  "wiki_ja": "御門台駅",
+  "photo_file": "File:Mikadodai-Station.jpg"
+ },
+ "korakuen": {
+  "wiki_ja": "後楽園駅",
+  "photo_file": "File:Tokyo-Metro Korakuen-STA Platform3-4.jpg"
+ },
+ "gobo": {
+  "wiki_ja": "御坊駅",
+  "photo_file": "File:Gobo station 001.JPG"
+ },
+ "tokorozawa": {
+  "wiki_ja": "所沢駅",
+  "photo_file": "File:Tokorozawa-STA West.jpg"
+ },
+ "shin-shimonoseki": {
+  "wiki_ja": "新下関駅",
+  "photo_file": "File:新下関駅 東口（2023年9月）.jpg"
+ },
+ "todakohama": {
+  "wiki_ja": "戸田小浜駅",
+  "photo_file": "File:JR Toda Kohama sta 001.jpg"
+ },
+ "shin-imaimiya": {
+  "wiki_ja": "新今宮駅",
+  "photo_file": "File:JRW Shin-Imamiya-STA West-Gate.jpg"
+ },
+ "shin-maruko": {
+  "wiki_ja": "新丸子駅",
+  "photo_file": "File:Tokyu Line Shinmaruko station 1.JPG"
+ },
+ "hanaten": {
+  "wiki_ja": "放出駅",
+  "photo_file": "File:Hanaten-South.jpg"
+ },
+ "new-chitose-airport": {
+  "wiki_ja": "新千歳空港駅"
+ },
+ "shin-yatsushiro": {
+  "wiki_ja": "新八代駅",
+  "photo_file": "File:Platform of Shin-Yatsushiro Station (Kagoshima Main Line) 2.jpg"
+ },
+ "shin-maebashi": {
+  "wiki_ja": "新前橋駅",
+  "photo_file": "File:Shin-Maebashi-STA Platform1-2.jpg"
+ },
+ "orio": {
+  "wiki_ja": "折尾駅",
+  "photo_file": "File:Orio Station.JPG"
+ },
+ "shin-matsudo": {
+  "wiki_ja": "新松戸駅",
+  "photo_file": "File:Shin-Matsudo-Sta.2022.jpg"
+ },
+ "shin-kawasaki": {
+  "wiki_ja": "新川崎駅",
+  "photo_file": "File:JREast-Yokosuka-line-JO14-JS14-Shin-kawasaki-station-building-20210708-151325.jpg"
+ },
+ "niitsu": {
+  "wiki_ja": "新津駅",
+  "photo_file": "File:JR East Niitsu Station Platform 2・3, Niigata Pref 20230422.jpg"
+ },
+ "shinjuku-nishiguchi": {
+  "wiki_ja": "新宿西口駅",
+  "photo_file": "File:Shinjuku-Nishiguchi-Sta-D4.JPG"
+ },
+ "shin-kemigawa": {
+  "wiki_ja": "新検見川駅",
+  "photo_file": "File:JR Sobu-Main-Line Shin-Kemigawa Station Platform.jpg"
+ },
+ "shin-okachimachi": {
+  "wiki_ja": "新御徒町駅",
+  "photo_file": "File:Toei-shin-okachimachi-platform.jpg"
+ },
+ "shin-iwakuni": {
+  "wiki_ja": "新岩国駅",
+  "photo_file": "File:Shin-Iwakuni Station.jpg"
+ },
+ "shinkawa-cho": {
+  "wiki_ja": "新川町停留場",
+  "photo_file": "File:Hakodate Tram Shinkawacho Station.jpg"
+ },
+ "shin-anjo": {
+  "wiki_ja": "新安城駅",
+  "photo_file": "File:SHIN ANJO STATION south entrance.jpg"
+ },
+ "niimi": {
+  "wiki_ja": "新見駅",
+  "photo_file": "File:JRW Niimi-STA Platform1-2.jpg"
+ },
+ "nissei-chuo": {
+  "wiki_ja": "日生中央駅",
+  "photo_file": "File:Nissei-chuo station platform.jpg"
+ },
+ "aratama-bashi": {
+  "wiki_ja": "新瑞橋駅",
+  "photo_file": "File:Nagoya Aratama-bashi Station.jpg"
+ },
+ "shin-kobe": {
+  "wiki_ja": "新神戸駅",
+  "photo_file": "File:JR Shin Kobe Station.jpg"
+ },
+ "shinkaichi": {
+  "wiki_ja": "新開地駅",
+  "photo_file": "File:Shinkaichi-sta. entrance.JPG"
+ },
+ "shin-yurigaoka": {
+  "wiki_ja": "新百合ヶ丘駅",
+  "photo_file": "File:Shin-Yurigaoka Station south 201610.jpg"
+ },
+ "shin-hanamaki": {
+  "wiki_ja": "新花巻駅",
+  "photo_file": "File:JR East Shin-Hanamaki Station east side.jpg"
+ },
+ "shin-shirakawa": {
+  "wiki_ja": "新白河駅",
+  "photo_file": "File:JR Tohoku Shinkansen・Tohoku Line Shin-Shirakawa Station JR Line Platform 7・8.jpg"
+ },
+ "hatanodai": {
+  "wiki_ja": "旗の台駅",
+  "photo_file": "File:Hatanodai-STA Home3-4.jpg"
+ },
+ "niiya": {
+  "wiki_ja": "新谷駅",
+  "photo_file": "File:Niiya Station 2020 (2).jpg"
+ },
+ "waseda": {
+  "wiki_ja": "早稲田駅",
+  "photo_file": "File:Toden Arakawa Line Waseda Station.jpg"
+ },
+ "meidaimae": {
+  "wiki_ja": "明大前駅",
+  "photo_file": "File:Meidaimae-STA Central-Gate.jpg"
+ },
+ "kasukabe": {
+  "wiki_ja": "春日部駅",
+  "photo_file": "File:Kasukabe-STA East.jpg"
+ },
+ "chizu": {
+  "wiki_ja": "智頭駅",
+  "photo_file": "File:Chizu stn JRW.jpg"
+ },
+ "une": {
+  "wiki_ja": "有年駅",
+  "photo_file": "File:Une station southside 20181007.jpg"
+ },
+ "tsukishima": {
+  "wiki_ja": "月島駅",
+  "photo_file": "File:Tsukishima Station Entrance No8.jpg"
+ },
+ "koremasa": {
+  "wiki_ja": "是政駅",
+  "photo_file": "File:Koremasa-station.JPG"
+ },
+ "hikifune": {
+  "wiki_ja": "曳舟駅",
+  "photo_file": "File:Hikifune Station East Gate.jpg"
+ },
+ "akashi": {
+  "wiki_ja": "明石駅",
+  "photo_file": "File:JRW Akashi-STA Gate.jpg"
+ },
+ "meiji-jingumae": {
+  "wiki_ja": "明治神宮前駅"
+ },
+ "moto-yawata": {
+  "wiki_ja": "本八幡駅",
+  "photo_file": "File:JR Sobu-Main-Line Moto-Yawata Station Platform.jpg"
+ },
+ "hondori": {
+  "wiki_ja": "本通駅",
+  "photo_file": "File:Hiroden Hondori Station02.JPG"
+ },
+ "kikonai": {
+  "wiki_ja": "木古内駅",
+  "photo_file": "File:Donan Isaribi Tetsudo line Kikonai Station building.jpg"
+ },
+ "higashi-nakano": {
+  "wiki_ja": "東中野駅"
+ },
+ "kioroshi": {
+  "wiki_ja": "木下駅",
+  "photo_file": "File:JR Narita-Line Kioroshi Station South Exit.jpg"
+ },
+ "hongo-sanchome": {
+  "wiki_ja": "本郷三丁目駅"
+ },
+ "higashi-sanjou": {
+  "wiki_ja": "東三条駅",
+  "photo_file": "File:JR Shin-etsu Line・Yahiko Line Higashi-Sanjo Station Platform 2・3.jpg"
+ },
+ "higashi-nagoyako": {
+  "wiki_ja": "東名古屋港駅",
+  "photo_file": "File:Meitetsu Higashi Nagoyako Station 01.JPG"
+ },
+ "kisarazu": {
+  "wiki_ja": "木更津駅",
+  "photo_file": "File:JR Uchibō Line・Kururi Line Kisarazu Station Platform 1・2.jpg"
+ },
+ "kinomiya": {
+  "wiki_ja": "来宮駅",
+  "photo_file": "File:JR Ito-Line Kinomiya Station building.jpg"
+ },
+ "higashi-narita": {
+  "wiki_ja": "東成田駅",
+  "photo_file": "File:Higashi-Narita Station 2024.jpg"
+ },
+ "higashi-fuchu": {
+  "wiki_ja": "東府中駅",
+  "photo_file": "File:Higashi-fuchu station north 20111030.jpg"
+ },
+ "higashi-matsudo": {
+  "wiki_ja": "東松戸駅",
+  "photo_file": "File:Higashi-Matsudo-station platform 3-4 20210718 094206.jpg"
+ },
+ "higashi-kanagawa": {
+  "wiki_ja": "東神奈川駅",
+  "photo_file": "File:Higashi-Kanagawa-STA Platform3-4.jpg"
+ },
+ "higashi-totsuka": {
+  "wiki_ja": "東戸塚駅",
+  "photo_file": "File:JRE Higashi-Totsuka-STA Platform1-2.jpg"
+ },
+ "tobu-utsunomiya": {
+  "wiki_ja": "東武宇都宮駅",
+  "photo_file": "File:Running in board of Tobu-utsunomiya sta. (\"Strawberry Kingdom\").jpg"
+ },
+ "higashi-okayama": {
+  "wiki_ja": "東岡山駅",
+  "photo_file": "File:JRW-Higashi-okayamaStation.jpg"
+ },
+ "higashi-tsuyama": {
+  "wiki_ja": "東津山駅",
+  "photo_file": "File:JRW-Higashi-TsuyamaStation.jpg"
+ },
+ "higashi-maizuru": {
+  "wiki_ja": "東舞鶴駅",
+  "photo_file": "File:JR West Higashi-Maizuru Station Platform 2.jpg"
+ },
+ "higashi-matsusaka": {
+  "wiki_ja": "東松阪駅",
+  "photo_file": "File:Higashi-Matsusaka stn.jpg"
+ },
+ "higashi-hagi": {
+  "wiki_ja": "東萩駅",
+  "photo_file": "File:Platform of Higashi-Hagi Station 3.jpg"
+ },
+ "matsusaka": {
+  "wiki_ja": "松阪駅",
+  "photo_file": "File:Matsusaka Station 2024-04 ac (1).jpg"
+ },
+ "hirakatashi": {
+  "wiki_ja": "枚方市駅",
+  "photo_file": "File:Hirakata-shi Station Minami Entrance.jpg"
+ },
+ "matsuyama-shi-ekimae": {
+  "wiki_ja": "松山市駅"
+ },
+ "higashi-kushiro": {
+  "wiki_ja": "東釧路駅",
+  "photo_file": "File:JR Nemuro-Main-Line・Senmo-Main-Line Higashi-Kushiro Station building.jpg"
+ },
+ "matsushima-kaigan": {
+  "wiki_ja": "松島海岸駅",
+  "photo_file": "File:JR East Matsushimakaigan Station Platform, Miyagi Pref.jpg"
+ },
+ "matsue-shinjiko-onsen": {
+  "wiki_ja": "松江しんじ湖温泉駅",
+  "photo_file": "File:Matsue-shinjiko-onsen sta02s4592.jpg"
+ },
+ "higashi-ginza": {
+  "wiki_ja": "東銀座駅"
+ },
+ "tochigi": {
+  "wiki_ja": "栃木駅",
+  "photo_file": "File:Tochigi Station North Entrance 1.JPG"
+ },
+ "sakuragicho": {
+  "wiki_ja": "桜木町駅",
+  "photo_file": "File:JR Sakuragicho Station - 2024 June 30 various 01 05 39 157000.jpeg"
+ },
+ "ritsurin": {
+  "wiki_ja": "栗林駅",
+  "photo_file": "File:Ritsurin Station Platform.jpg"
+ },
+ "yanase": {
+  "wiki_ja": "梁瀬駅",
+  "photo_file": "File:Yanaseeki.jpg"
+ },
+ "umetsubo": {
+  "wiki_ja": "梅坪駅",
+  "photo_file": "File:Umetsubo station 02.jpg"
+ },
+ "sakurajima": {
+  "wiki_ja": "桜島駅",
+  "photo_file": "File:Sakurajima Station.JPG"
+ },
+ "katsura": {
+  "wiki_ja": "桂駅",
+  "photo_file": "File:HK-KatsuraStation-NorthGate.jpg"
+ },
+ "tsukinoki": {
+  "wiki_ja": "槻木駅",
+  "photo_file": "File:Tshukinoki-station cropped.jpg"
+ },
+ "soen": {
+  "wiki_ja": "桑園駅",
+  "photo_file": "File:JR Hakodate-Main-Line・Sassho-Line Soen Station building.jpg"
+ },
+ "nemuro": {
+  "wiki_ja": "根室駅",
+  "photo_file": "File:JR Nemuro-Main-Line Nemuro Station building.jpg"
+ },
+ "kemigawa": {
+  "wiki_ja": "検見川駅",
+  "photo_file": "File:Kemigawa-sta KS54.jpg"
+ },
+ "musashi-sakai": {
+  "wiki_ja": "武蔵境駅",
+  "photo_file": "File:JRE Musashi-sakai-STA Platform1-2.jpg"
+ },
+ "suidobashi": {
+  "wiki_ja": "水道橋駅",
+  "photo_file": "File:JRE Suidobashi-STA East.jpg"
+ },
+ "musashi-urawa": {
+  "wiki_ja": "武蔵浦和駅",
+  "photo_file": "File:Musashi-urawa-STA Platform1-2.jpg"
+ },
+ "kushigahama": {
+  "wiki_ja": "櫛ケ浜駅"
+ },
+ "hido": {
+  "wiki_ja": "比土駅",
+  "photo_file": "File:Hido stn 1.jpg"
+ },
+ "mukogawa": {
+  "wiki_ja": "武庫川駅",
+  "photo_file": "File:Mukogawa Station.jpg"
+ },
+ "yokote": {
+  "wiki_ja": "横手駅",
+  "photo_file": "File:Yokote Station east entrance 20220910.jpg"
+ },
+ "mukogawadanchi-mae": {
+  "wiki_ja": "武庫川団地前駅",
+  "photo_file": "File:Hanshin Mukogawadanchi-Mae Station.JPG"
+ },
+ "mizushiri": {
+  "wiki_ja": "水尻駅",
+  "photo_file": "File:Platform of Mizushiri Station.JPG"
+ },
+ "yokogawara": {
+  "wiki_ja": "横河原駅",
+  "photo_file": "File:Iyo Railway Yokogawara Station.jpg"
+ },
+ "tsuyama": {
+  "wiki_ja": "津山駅",
+  "photo_file": "File:Tsuyama Sta01n3200.jpg"
+ },
+ "tsuyamaguchi": {
+  "wiki_ja": "津山口駅",
+  "photo_file": "File:Tsuyamaguchi-sta.jpg"
+ },
+ "numazu": {
+  "wiki_ja": "沼津駅",
+  "photo_file": "File:JRC Numazu STA South.jpg"
+ },
+ "aburahi": {
+  "wiki_ja": "油日駅",
+  "photo_file": "File:Aburahi Station.jpg"
+ },
+ "kawarada": {
+  "wiki_ja": "河原田駅",
+  "photo_file": "File:Kawarada Station 1.jpg"
+ },
+ "izumisano": {
+  "wiki_ja": "泉佐野駅",
+  "photo_file": "File:Izumisano station east entrance.jpeg"
+ },
+ "hikawadai": {
+  "wiki_ja": "氷川台駅",
+  "photo_file": "File:Hikawadai Station no 1 entrance 2022-12-18.jpg"
+ },
+ "shiomibashi": {
+  "wiki_ja": "汐見橋駅",
+  "photo_file": "File:Nankai Shiomibashi Station 001.JPG"
+ },
+ "kawachinagano": {
+  "wiki_ja": "河内長野駅",
+  "photo_file": "File:Kawachinagano-Station-Building.jpg"
+ },
+ "tsudanuma": {
+  "wiki_ja": "津田沼駅",
+  "photo_file": "File:JR Sobu-Main-Line Tsudanuma Station Platform 1・2.jpg"
+ },
+ "hamamatsucho": {
+  "wiki_ja": "浜松町駅",
+  "photo_file": "File:JR Hamamatsucho Station North Exit.jpg"
+ },
+ "nagareyama": {
+  "wiki_ja": "流山駅",
+  "photo_file": "File:Nagareyama-Station.JPG"
+ },
+ "asakusabashi": {
+  "wiki_ja": "浅草橋駅",
+  "photo_file": "File:Asakusabashi 20220709054938 (52267434998).jpg"
+ },
+ "urakami-ekimae": {
+  "wiki_ja": "浦上駅",
+  "photo_file": "File:Urakami Station and Route 206 in Nagasaki.jpg"
+ },
+ "seiryu-shin-iwakuni": {
+  "wiki_ja": "清流新岩国駅",
+  "photo_file": "File:Mishō sta 201205-1.JPG"
+ },
+ "kaitaichi": {
+  "wiki_ja": "海田市駅",
+  "photo_file": "File:Platform of Kaitaichi Station 6.jpg"
+ },
+ "tsu-shinmachi": {
+  "wiki_ja": "津新町駅",
+  "photo_file": "File:Tsu-Shimmachi station.JPG"
+ },
+ "yodoyabashi": {
+  "wiki_ja": "淀屋橋駅",
+  "photo_file": "File:大阪メトロ淀屋橋駅ホーム2.jpg"
+ },
+ "awaji": {
+  "wiki_ja": "淡路駅",
+  "photo_file": "File:阪急淡路駅4・5号線ホーム.jpg"
+ },
+ "kiyone": {
+  "wiki_ja": "清音駅",
+  "photo_file": "File:Kiyone sta (Soja City).jpg"
+ },
+ "shonan-enoshima": {
+  "wiki_ja": "湘南江の島駅"
+ },
+ "tamae": {
+  "wiki_ja": "玉江駅",
+  "photo_file": "File:Tamae Station 20170504.jpg"
+ },
+ "tamagawa-josui": {
+  "wiki_ja": "玉川上水駅",
+  "photo_file": "File:Tama-Toshi-Monorail Tamagawajosui-STA Gate.jpg"
+ },
+ "tameike-sanno": {
+  "wiki_ja": "溜池山王駅"
+ },
+ "kasumori": {
+  "wiki_ja": "烏森駅",
+  "photo_file": "File:Kintetsu Kasumori Station 01.JPG"
+ },
+ "tsubamesanjo": {
+  "wiki_ja": "燕三条駅",
+  "photo_file": "File:Tsubane-Sanjo Station Tsubame Entrance Mar2022.jpg"
+ },
+ "sanage": {
+  "wiki_ja": "猿投駅",
+  "photo_file": "File:Meitetsu Mikawa Line Sanage Station ac.jpg"
+ },
+ "kataharamachi": {
+  "wiki_ja": "片原町駅",
+  "photo_file": "File:KD-Kataharamachi Station-Building 2.jpg"
+ },
+ "tamanoi": {
+  "wiki_ja": "玉ノ井駅",
+  "photo_file": "File:MT-Tamanoi Station-Building 1.JPG"
+ },
+ "machiya": {
+  "wiki_ja": "町屋駅"
+ },
+ "tabata": {
+  "wiki_ja": "田端駅",
+  "photo_file": "File:JRE Tabata-STA Platform3-4.jpg"
+ },
+ "tamachi": {
+  "wiki_ja": "田町駅",
+  "photo_file": "File:Tamachi Station 01.jpg"
+ },
+ "oji": {
+  "wiki_ja": "王子駅",
+  "photo_file": "File:High angle view of Ouji Station.jpg"
+ },
+ "kuba": {
+  "wiki_ja": "玖波駅",
+  "photo_file": "File:玖波駅西口駅舎.jpg"
+ },
+ "yu": {
+  "wiki_ja": "由宇駅",
+  "photo_file": "File:JR Yuu Station.jpg"
+ },
+ "den-en-chofu": {
+  "wiki_ja": "田園調布駅",
+  "photo_file": "File:Denen-Chofu-STA Platform1-2.jpg"
+ },
+ "kawaramachi-shikoku": {
+  "wiki_ja": "瓦町駅",
+  "photo_file": "File:Kotoden Kawaramachi Building.jpg"
+ },
+ "tazawako": {
+  "wiki_ja": "田沢湖駅",
+  "photo_file": "File:Tazawako Station 20221031-1.jpg"
+ },
+ "machida": {
+  "wiki_ja": "町田駅",
+  "photo_file": "File:MachidaStminami.jpg"
+ },
+ "sagami-ono": {
+  "wiki_ja": "相模大野駅",
+  "photo_file": "File:Sagami-OnoStationConcourse.jpg"
+ },
+ "shirokane-takanawa": {
+  "wiki_ja": "白金高輪駅",
+  "photo_file": "File:Shirokane-Takanawa-STA Home3-4.jpg"
+ },
+ "masuo-nagoya": {
+  "wiki_ja": "益生駅",
+  "photo_file": "File:Masuo STN.jpg"
+ },
+ "aioi-kanto": {
+  "wiki_ja": "相老駅",
+  "photo_file": "File:Aioi Station building front b - feb 5 2015.jpg"
+ },
+ "yashima": {
+  "wiki_ja": "矢島駅",
+  "photo_file": "File:Yashima Station 20180923.jpg"
+ },
+ "metoki": {
+  "wiki_ja": "目時駅",
+  "photo_file": "File:Metoki Station building, Aomori Pref.jpg"
+ },
+ "hakushima": {
+  "wiki_ja": "白島駅",
+  "photo_file": "File:Hiroden-Hakushima-Station01.jpg"
+ },
+ "chiryuu": {
+  "wiki_ja": "知立駅",
+  "photo_file": "File:MT-Chiryū Station-Building.jpg"
+ },
+ "noborito": {
+  "wiki_ja": "登戸駅",
+  "photo_file": "File:Noborito jr kaisatsu 240517b.jpg"
+ },
+ "fukuokakuko": {
+  "wiki_ja": "福岡空港駅",
+  "photo_file": "File:Fukuokakūkō (Airport) Station 1.jpg"
+ },
+ "ishibashi-handai-mae": {
+  "wiki_ja": "石橋阪大前駅",
+  "photo_file": "File:Hankyu Railway ishibashi-sta.JPG"
+ },
+ "fukuzumi": {
+  "wiki_ja": "福住駅",
+  "photo_file": "File:Fukuzumi Station.jpg"
+ },
+ "kubokawa": {
+  "wiki_ja": "窪川駅",
+  "photo_file": "File:JR Kubokawa sta 001.jpg"
+ },
+ "ishinomaki": {
+  "wiki_ja": "石巻駅",
+  "photo_file": "File:Ishinomaki sta.jpg"
+ },
+ "kisaichi": {
+  "wiki_ja": "私市駅",
+  "photo_file": "File:Keihan kisaichi station 01.jpg"
+ },
+ "wakkanai": {
+  "wiki_ja": "稚内駅",
+  "photo_file": "File:Wakkanai-STA Entrance.jpg"
+ },
+ "st-6222": {
+  "wiki_ja": "竜ヶ崎駅",
+  "photo_file": "File:Ryugasaki Station Platform.JPG"
+ },
+ "ryuo": {
+  "wiki_ja": "竜王駅",
+  "photo_file": "File:JR Chuo-Main-Line Ryuo Station Platform.jpg"
+ },
+ "tateyama-chubu": {
+  "wiki_ja": "立山駅",
+  "photo_file": "File:Tateyama Station (Toyama), ekisha.jpg"
+ },
+ "sasazuka": {
+  "wiki_ja": "笹塚駅",
+  "photo_file": "File:Sasazuka-Sta-Gate.JPG"
+ },
+ "ayase": {
+  "wiki_ja": "綾瀬駅",
+  "photo_file": "File:Tokyo Metro・JR Ayase Station Platform 0.jpg"
+ },
+ "ayabe": {
+  "wiki_ja": "綾部駅",
+  "photo_file": "File:綾部駅ホーム.JPG"
+ },
+ "komeno": {
+  "wiki_ja": "米野駅",
+  "photo_file": "File:Komeno Station 200215.jpg"
+ },
+ "kasamatsu-nagoya": {
+  "wiki_ja": "笠松駅",
+  "photo_file": "File:MT-Kasamatsu Station-EastGate.jpg"
+ },
+ "kinokawa": {
+  "wiki_ja": "紀ノ川駅",
+  "photo_file": "File:Kinokawa station frontview.jpg"
+ },
+ "uzen-chitose": {
+  "wiki_ja": "羽前千歳駅",
+  "photo_file": "File:JR East Uzen-Chitose Station West Exit, Yamagata Pref.jpg"
+ },
+ "midoribashi": {
+  "wiki_ja": "緑橋駅",
+  "photo_file": "File:Midoribashi.sta.JPG"
+ },
+ "gijukukokomae": {
+  "wiki_ja": "義塾高校前駅",
+  "photo_file": "File:Gijukukōkōmae Station 20190921b.jpg"
+ },
+ "sasayamaguchi": {
+  "wiki_ja": "篠山口駅",
+  "photo_file": "File:Sasayamaguchi sta01st3200.jpg"
+ },
+ "jiyugaoka": {
+  "wiki_ja": "自由が丘駅",
+  "photo_file": "File:Jiyugaoka-Sta-S.JPG"
+ },
+ "hanyu": {
+  "wiki_ja": "羽生駅",
+  "photo_file": "File:Hanyu Station west entrance 20170130.jpg"
+ },
+ "haneda-airport-terminal-1-2": {
+  "wiki_ja": "羽田空港第1・第2ターミナル駅",
+  "photo_file": "File:Haneda-Airport-T1-T2-STA Keikyu-Gate.jpg"
+ },
+ "hagoromo": {
+  "wiki_ja": "羽衣駅",
+  "photo_file": "File:Hagoromo Station platform No.2 20161231.jpg"
+ },
+ "ugo-sakai": {
+  "wiki_ja": "羽後境駅",
+  "photo_file": "File:Ugo-Sakai Station 20181202a.jpg"
+ },
+ "hadachi": {
+  "wiki_ja": "羽立駅",
+  "photo_file": "File:Hadachi Station 20180526.jpg"
+ },
+ "st-5050": {
+  "wiki_ja": "羽後本荘駅",
+  "photo_file": "File:羽後本荘駅西口2023.jpg"
+ },
+ "hanamaki": {
+  "wiki_ja": "花巻駅",
+  "photo_file": "File:Hanamaki sta03s3200.jpg"
+ },
+ "shibayama-chiyoda": {
+  "wiki_ja": "芝山千代田駅",
+  "photo_file": "File:Shibayama-Chiyoda Station - July 20 2021 various 01 38 12 531000.jpeg"
+ },
+ "naebo": {
+  "wiki_ja": "苗穂駅",
+  "photo_file": "File:JR Hakodate-Main-Line Naebo Station building (North Exit).jpg"
+ },
+ "kayabacho": {
+  "wiki_ja": "茅場町駅"
+ },
+ "kikuna": {
+  "wiki_ja": "菊名駅",
+  "photo_file": "File:KikunaStnishi.jpg"
+ },
+ "chayamachi": {
+  "wiki_ja": "茶屋町駅",
+  "photo_file": "File:The vicinity of Chayamachi station.JPG"
+ },
+ "wakasa": {
+  "wiki_ja": "若桜駅",
+  "photo_file": "File:Wakasa sta01s4592.jpg"
+ },
+ "hagi": {
+  "wiki_ja": "萩駅",
+  "photo_file": "File:JRW Hagi-STA.jpg"
+ },
+ "kamata": {
+  "wiki_ja": "蒲田駅",
+  "photo_file": "File:Tokyu Kamata sta 001.jpg"
+ },
+ "chigasaki": {
+  "wiki_ja": "茅ケ崎駅"
+ },
+ "gamo-4-chome": {
+  "wiki_ja": "蒲生四丁目駅",
+  "photo_file": "File:Imazatosuji Line Gamo 4-chome Station platform - panoramio (2).jpg"
+ },
+ "kuzu-kanto": {
+  "wiki_ja": "葛生駅",
+  "photo_file": "File:Tobu-railway-TI39-Kuzuu-station-building-20230325-170523.jpg"
+ },
+ "gamagori": {
+  "wiki_ja": "蒲郡駅",
+  "photo_file": "File:Gamagori Station southgate ac.jpg"
+ },
+ "nishi-kokubunji": {
+  "wiki_ja": "西国分寺駅",
+  "photo_file": "File:JR Chuo-Main-Line・Musashino-Line Nishi-Kokubunji Station South Exit.jpg"
+ },
+ "nishi-oi": {
+  "wiki_ja": "西大井駅",
+  "photo_file": "File:Nishi-Oi-STA Gate.jpg"
+ },
+ "nishi-chiba": {
+  "wiki_ja": "西千葉駅",
+  "photo_file": "File:JR Sobu-Main-Line Nishi-Chiba Station Platform.jpg"
+ },
+ "nishikujo": {
+  "wiki_ja": "西九条駅",
+  "photo_file": "File:Nishi-Kujo Station1.JPG"
+ },
+ "soga": {
+  "wiki_ja": "蘇我駅",
+  "photo_file": "File:JR Soga Station Platform 5・6.jpg"
+ },
+ "fuju": {
+  "wiki_ja": "藤生駅",
+  "photo_file": "File:藤生駅Fujyu10CR.jpg"
+ },
+ "nishidai-kobe": {
+  "wiki_ja": "西代駅",
+  "photo_file": "File:Nishidai Sta Home.JPG"
+ },
+ "nishinomiya-kitaguchi": {
+  "wiki_ja": "西宮北口駅",
+  "photo_file": "File:Nishinomiya-kitaguchi station1.JPG"
+ },
+ "yakushido": {
+  "wiki_ja": "薬師堂駅 (秋田県)",
+  "photo_file": "File:Yakushidou station.jpg"
+ },
+ "seibu-shinjuku": {
+  "wiki_ja": "西武新宿駅"
+ },
+ "nishiarai": {
+  "wiki_ja": "西新井駅",
+  "photo_file": "File:Tobu-railway-TS13-Nishiarai-station-entrance-west-20251124-110424.jpg"
+ },
+ "seibu-chichibu": {
+  "wiki_ja": "西武秩父駅",
+  "photo_file": "File:Seibu chichibu sta. 20180101.jpg"
+ },
+ "nishi-maizuru": {
+  "wiki_ja": "西舞鶴駅",
+  "photo_file": "File:Nishi-Maizuru st01s3200.jpg"
+ },
+ "seibuen": {
+  "wiki_ja": "西武園駅",
+  "photo_file": "File:Seibuen Sta.-south entrance 20160322.jpg"
+ },
+ "nishikiryu": {
+  "wiki_ja": "西桐生駅",
+  "photo_file": "File:Nishi-Kiryu-STA.jpg"
+ },
+ "nishi-umeda": {
+  "wiki_ja": "西梅田駅",
+  "photo_file": "File:西梅田駅9号出入口2.jpg"
+ },
+ "nishi-kinuyama": {
+  "wiki_ja": "西衣山駅",
+  "photo_file": "File:Iyo Railway Nishikinuyama Station - panoramio (1).jpg"
+ },
+ "nishi-koizumi": {
+  "wiki_ja": "西小泉駅",
+  "photo_file": "File:Nishi-Koizumi Station 20201024.jpg"
+ },
+ "chofu": {
+  "wiki_ja": "調布駅",
+  "photo_file": "File:Keio Chofu-STA Platform1-2.jpg"
+ },
+ "nishiya": {
+  "wiki_ja": "西谷駅",
+  "photo_file": "File:Sotetsu Nishiya Station platform 202307300838.jpg"
+ },
+ "nishi-magome": {
+  "wiki_ja": "西馬込駅",
+  "photo_file": "File:Toei-subway-A01-Nishi-magome-station-entrance-south-20221217-111527.jpg"
+ },
+ "nishi-takakura": {
+  "wiki_ja": "西高蔵駅",
+  "photo_file": "File:Meijyo-Line-Nishi-Takakura-Sta.jpg"
+ },
+ "nishi-nagahori": {
+  "wiki_ja": "西長堀駅"
+ },
+ "saiin": {
+  "wiki_ja": "西院駅"
+ },
+ "kanamecho": {
+  "wiki_ja": "要町駅",
+  "photo_file": "File:TokyoMetro-Y08-Kanamecho-station-platform-20211216-130721.jpg"
+ },
+ "nishitetsu-chihaya": {
+  "wiki_ja": "千早駅"
+ },
+ "nishitetsu-ogori": {
+  "wiki_ja": "西鉄小郡駅",
+  "photo_file": "File:Nishitetsu-Ogori Station 20151120.JPG"
+ },
+ "nishi-takashimadaira": {
+  "wiki_ja": "西高島平駅",
+  "photo_file": "File:Toei-subway-I27-Nishi-takashimadaira-station-building-20200321-142614.jpg"
+ },
+ "akabane-iwabuchi": {
+  "wiki_ja": "赤羽岩淵駅",
+  "photo_file": "File:TokyoMetro-N19-SR19-Akabane-iwabuchi-station-entrance-1-20230505-113828.jpg"
+ },
+ "akagi-kanto": {
+  "wiki_ja": "赤城駅",
+  "photo_file": "File:Akagi-station-20200627.jpg"
+ },
+ "koshigahama": {
+  "wiki_ja": "越ケ浜駅"
+ },
+ "kashikojima": {
+  "wiki_ja": "賢島駅",
+  "photo_file": "File:Kashikojima Station02.jpg"
+ },
+ "toyosu": {
+  "wiki_ja": "豊洲駅",
+  "photo_file": "File:Yurikamome-U16-Toyosu-station-platform.jpg"
+ },
+ "toyotashi": {
+  "wiki_ja": "豊田市駅",
+  "photo_file": "File:Aichi Pref r-342 Toyotashi Sta.JPG"
+ },
+ "akasaka-mitsuke": {
+  "wiki_ja": "赤坂見附駅"
+ },
+ "tanimachi-4-chome": {
+  "wiki_ja": "谷町四丁目駅",
+  "photo_file": "File:Platform for Tanimachi subway line of Tanimachi Yonchōme Station.JPG"
+ },
+ "tanimachi-9-chome": {
+  "wiki_ja": "谷町九丁目駅",
+  "photo_file": "File:谷町九丁目駅 ホーム 2024.jpg"
+ },
+ "tanimachi-6-chome": {
+  "wiki_ja": "谷町六丁目駅",
+  "photo_file": "File:Tanimachi 6-chome Station Tanimachi line Platform.JPG"
+ },
+ "echigo-yuzawa": {
+  "wiki_ja": "越後湯沢駅",
+  "photo_file": "File:JR East Echigo-Yuzawa Station JR Line Platform 2 - 4 20221219.jpg"
+ },
+ "karuizawa": {
+  "wiki_ja": "軽井沢駅",
+  "photo_file": "File:260322 Karuizawa Station Karuizawa Japan01s3.jpg"
+ },
+ "zushi-hayama": {
+  "wiki_ja": "逗子・葉山駅",
+  "photo_file": "File:ShinzushiStkita.jpg"
+ },
+ "kintetsu-yokkaichi": {
+  "wiki_ja": "近鉄四日市駅",
+  "photo_file": "File:近鉄四日市駅南バスのりば.jpg"
+ },
+ "tsuzu": {
+  "wiki_ja": "通津駅",
+  "photo_file": "File:Tsuzu Station.jpg"
+ },
+ "kintetsu-nagashima": {
+  "wiki_ja": "近鉄長島駅",
+  "photo_file": "File:Kintetsu-Nagashima stn.jpg"
+ },
+ "kintetsu-yatomi": {
+  "wiki_ja": "近鉄弥富駅",
+  "photo_file": "File:Kintetsu Yatomi Station 2023-04 ac (2).jpg"
+ },
+ "kintetsu-hatta": {
+  "wiki_ja": "近鉄八田駅",
+  "photo_file": "File:Kintetsu Hatta Station 02.JPG"
+ },
+ "kurumamichi": {
+  "wiki_ja": "車道駅",
+  "photo_file": "File:Nagoya Kurumamichi Station.jpg"
+ },
+ "dogo-onsen": {
+  "wiki_ja": "道後温泉駅",
+  "photo_file": "File:DogoOnsen station.JPG"
+ },
+ "nodahanshin": {
+  "wiki_ja": "野田阪神駅",
+  "photo_file": "File:Osaka Metro Nodahanshin Station.jpg"
+ },
+ "koge": {
+  "wiki_ja": "郡家駅",
+  "photo_file": "File:JRW kooge sta.jpg"
+ },
+ "satosho": {
+  "wiki_ja": "里庄駅",
+  "photo_file": "File:Satosho Station Building 20200927.jpg"
+ },
+ "konko": {
+  "wiki_ja": "金光駅",
+  "photo_file": "File:JR Konkō sta 001.jpg"
+ },
+ "kanazawa-hakkei": {
+  "wiki_ja": "金沢八景駅",
+  "photo_file": "File:Keikyu Kanazawa-Hakkei Station.JPG"
+ },
+ "sakaori": {
+  "wiki_ja": "酒折駅",
+  "photo_file": "File:JR Chuo-Main-Line Sakaori Station building.jpg"
+ },
+ "kanaya": {
+  "wiki_ja": "金谷駅",
+  "photo_file": "File:JR Central Kanaya Station Platform 2.jpg"
+ },
+ "noheji": {
+  "wiki_ja": "野辺地駅",
+  "photo_file": "File:Noheji Station.jpg"
+ },
+ "gunchu-port": {
+  "wiki_ja": "郡中港駅",
+  "photo_file": "File:Iyo Railway Gunchū Port Station.jpg"
+ },
+ "tsuga": {
+  "wiki_ja": "都賀駅",
+  "photo_file": "File:JR Sobu-Main-Line Tsuga Station Platform.jpg"
+ },
+ "nagasaki-ekimae": {
+  "wiki_ja": "長崎駅",
+  "photo_file": "File:Nagasaki Ekimae Station.JPG"
+ },
+ "nagatoshi": {
+  "wiki_ja": "長門市駅",
+  "photo_file": "File:Nagatoshi station.JPG"
+ },
+ "nagato-motoyama": {
+  "wiki_ja": "長門本山駅",
+  "photo_file": "File:Nagato-Motoyama Station-20210408.JPG"
+ },
+ "nagato-oi": {
+  "wiki_ja": "長門大井駅",
+  "photo_file": "File:Nagato-Oi Station.jpg"
+ },
+ "suzuka": {
+  "wiki_ja": "鈴鹿駅",
+  "photo_file": "File:Suzuka-Station.JPG"
+ },
+ "nagaoka": {
+  "wiki_ja": "長岡駅",
+  "photo_file": "File:Nagaoka Station Main Gate(Local).JPG"
+ },
+ "moji": {
+  "wiki_ja": "門司駅",
+  "photo_file": "File:Moji Station 20181224.jpg"
+ },
+ "nagamachi-itchome": {
+  "wiki_ja": "長町一丁目駅",
+  "photo_file": "File:Nagamachi-itchomeEki2005-7.jpg"
+ },
+ "nagai": {
+  "wiki_ja": "長居駅",
+  "photo_file": "File:JRW nagai.jpg"
+ },
+ "nagahoribashi": {
+  "wiki_ja": "長堀橋駅",
+  "photo_file": "File:Platform for Sakaisuji Line in Nagahoribashi Station.JPG"
+ },
+ "dentetsu-izumoshi": {
+  "wiki_ja": "出雲市駅",
+  "photo_file": "File:Dentetsu-Izumoshi stn.jpg"
+ },
+ "shizukuishi": {
+  "wiki_ja": "雫石駅",
+  "photo_file": "File:JR East Shizukuishi Station Front Exit in Shizukuishi Town, Iwate Pref.jpg"
+ },
+ "mutsu-tsuruda": {
+  "wiki_ja": "陸奥鶴田駅",
+  "photo_file": "File:Mutsu-Tsuruda Station 20190908c.jpg"
+ },
+ "kadoma-minami": {
+  "wiki_ja": "門真南駅",
+  "photo_file": "File:Osaka-subway-N27-Kadomaminami-station-platform.jpg"
+ },
+ "hanshin-kokudo": {
+  "wiki_ja": "阪神国道駅",
+  "photo_file": "File:Hanshin-kokudo Station (05) IMG 1815 20140719.JPG"
+ },
+ "kannai": {
+  "wiki_ja": "関内駅"
+ },
+ "awaza": {
+  "wiki_ja": "阿波座駅"
+ },
+ "kadomashi": {
+  "wiki_ja": "門真市駅",
+  "photo_file": "File:Kadoma-shi station south entrance.jpg"
+ },
+ "dentetsu-toyama-eki-esta-mae": {
+  "wiki_ja": "富山駅"
+ },
+ "aoto": {
+  "wiki_ja": "青砥駅",
+  "photo_file": "File:Aoto Sta. platform3.jpg"
+ },
+ "komagome": {
+  "wiki_ja": "駒込駅",
+  "photo_file": "File:Komagome-Station-North-exit.JPG"
+ },
+ "mabashi": {
+  "wiki_ja": "馬橋駅",
+  "photo_file": "File:JRE Mabashi-STA East.jpg"
+ },
+ "ii": {
+  "wiki_ja": "飯井駅",
+  "photo_file": "File:飯井駅待合室.jpg"
+ },
+ "iinoura": {
+  "wiki_ja": "飯浦駅",
+  "photo_file": "File:Iinoura station 20230604.jpg"
+ },
+ "aomori": {
+  "wiki_ja": "青森駅",
+  "photo_file": "File:Aomori Station new building 20240324.jpg"
+ },
+ "shizuoka": {
+  "wiki_ja": "静岡駅",
+  "photo_file": "File:Shizuoka Station.jpg"
+ },
+ "susa": {
+  "wiki_ja": "須佐駅",
+  "photo_file": "File:JRW Susa-STA Platforms.jpg"
+ },
+ "koenji": {
+  "wiki_ja": "高円寺駅",
+  "photo_file": "File:JRE Koenji-STA Gate.jpg"
+ },
+ "sukaguchi": {
+  "wiki_ja": "須ヶ口駅",
+  "photo_file": "File:MT-SukaguchiStation-Platform.jpg"
+ },
+ "tottori": {
+  "wiki_ja": "鳥取駅",
+  "photo_file": "File:Tottori st10s2720.jpg"
+ },
+ "takabata": {
+  "wiki_ja": "高畑駅",
+  "photo_file": "File:Higashiyama Line Takabata Station 01.JPG"
+ },
+ "uozaki": {
+  "wiki_ja": "魚崎駅",
+  "photo_file": "File:阪神魚崎駅.JPG"
+ },
+ "takahata": {
+  "wiki_ja": "高畠駅",
+  "photo_file": "File:JR East Takahata Station East Exit.jpg"
+ },
+ "otori": {
+  "wiki_ja": "鳳駅",
+  "photo_file": "File:Otori platform01.jpg"
+ },
+ "tosu": {
+  "wiki_ja": "鳥栖駅",
+  "photo_file": "File:鳥栖駅 駅舎.jpg"
+ },
+ "takaoka-toyama": {
+  "wiki_ja": "高岡駅",
+  "photo_file": "File:Takaoka-STA Zuiryuji-entrance.jpg"
+ },
+ "kochi-ekimae": {
+  "wiki_ja": "高知駅",
+  "photo_file": "File:Tosa-den kochi-eki-mae sta01n3872.jpg"
+ },
+ "komagawa": {
+  "wiki_ja": "高麗川駅",
+  "photo_file": "File:JR East Komagawa Station building 20230205.jpg"
+ },
+ "toriimae": {
+  "wiki_ja": "鳥居前駅",
+  "photo_file": "File:鳥居前駅 駅入口.jpg"
+ },
+ "uguisudani": {
+  "wiki_ja": "鶯谷駅",
+  "photo_file": "File:Uguisudanistation-southexit-nov15-2014.jpg"
+ },
+ "asabu": {
+  "wiki_ja": "麻生駅",
+  "photo_file": "File:AzabuStation4exit.JPG"
+ },
+ "kamogata": {
+  "wiki_ja": "鴨方駅",
+  "photo_file": "File:Kamogata Station Building (North) 20200927.jpg"
+ },
+ "tsurumi": {
+  "wiki_ja": "鶴見駅",
+  "photo_file": "File:JRE Tsurumi-STA East CIAL.jpg"
+ },
+ "takanosu": {
+  "wiki_ja": "鷹ノ巣駅"
+ },
+ "azabu-juban": {
+  "wiki_ja": "麻布十番駅",
+  "photo_file": "File:Azabujuban-Sta-3.JPG"
+ },
+ "kuroiso": {
+  "wiki_ja": "黒磯駅",
+  "photo_file": "File:JR East Kuroiso Station Platform 1 20221203.jpg"
+ },
+ "kashima-soccer-stadium": {
+  "wiki_ja": "鹿島サッカースタジアム駅",
+  "photo_file": "File:鹿島サッカースタジアム駅跨線橋-1.jpg"
+ },
+ "kagoshima-ekimae": {
+  "wiki_ja": "鹿児島駅"
+ },
+ "kanda": {
+  "photo_file": "File:JR Kanda Station - North exit - May 30 2021 various 18 27 16 704000.jpeg"
+ },
+ "nakano": {
+  "photo_file": "File:JR Chuo-Main-Line・Tokyo Metro Tozai-Line Nakano Station Platform 3・4 (20210418).jpg"
+ },
+ "asagaya": {
+  "photo_file": "File:JR Chuo-Main-Line Asagaya Station Platform 3・4.jpg"
+ },
+ "nishi-ogikubo": {
+  "photo_file": "File:JR Chuo-Main-Line Nishi-Ogikubo Station Platform 3・4.jpg"
+ },
+ "nishi-hachioji": {
+  "photo_file": "File:JRE Nishi-Hachioji-STA Platforms.jpg"
+ },
+ "takao": {
+  "photo_file": "File:Takao Station - 2025 Nov 10 various 01.jpg"
+ },
+ "kameido": {
+  "photo_file": "File:JR Kameido sta 001.jpg"
+ },
+ "shin-koiwa": {
+  "photo_file": "File:JR Sobu-Main-Line Shin-Koiwa Station Platform 3・4 (20210410).jpg"
+ },
+ "shin-sugita": {
+  "photo_file": "File:Shinsugitaeki-seasideline2009.jpg"
+ },
+ "heiwadai": {
+  "photo_file": "File:TokyoMetro-Y04-F04-Heiwadai-station-entrance-1-20211216-143605.jpg"
+ },
+ "kiyosumi-shirakawa": {
+  "photo_file": "File:Kiyosumi-shirakawa-Station-ExitA1.jpg"
+ },
+ "shirokanedai": {
+  "photo_file": "File:Shirokanedai2.jpg"
+ },
+ "higashi-shinjuku": {
+  "photo_file": "File:Higashi-shinjuku Sta. Exit-B2.JPG"
+ },
+ "mita": {
+  "photo_file": "File:Mita-Sta-A9.JPG"
+ },
+ "daimon": {
+  "photo_file": "File:Daimon-station-ExitB4.jpg"
+ },
+ "kuramae": {
+  "photo_file": "File:Kuramae-Sta-A6.JPG"
+ },
+ "shiodome": {
+  "photo_file": "File:Shiodome Station in 2008.jpg"
+ },
+ "kumanomae": {
+  "photo_file": "File:Kumanomae-Station.jpg"
+ },
+ "tenkubashi": {
+  "photo_file": "File:Keikyu tenkubashi sta.JPG"
+ },
+ "haneda-airport-terminal-3": {
+  "photo_file": "File:Haneda airport international terminal 005.jpg"
+ },
+ "aioi": {
+  "photo_file": "File:Aioi Station in Hyogo J09 10.jpg"
+ },
+ "chikugo-funagoya": {
+  "photo_file": "File:View from platform of Chikugo-Funagoya Station (Kagoshima Main Line).jpg"
+ },
+ "shin-minamata": {
+  "photo_file": "File:Shin-minamata station 1.jpg"
+ },
+ "sendai-kagoshima": {
+  "photo_file": "File:JR Sendai Station Kagoshima ac (1).jpg"
+ },
+ "takeo-onsen": {
+  "photo_file": "File:JRKyushu Takeo-Onsen Station NorthExit 200912.jpg"
+ },
+ "shin-omura": {
+  "photo_file": "File:Shin-Omura Station west 20220924.jpg"
+ },
+ "nagasaki": {
+  "photo_file": "File:Nagasaki Station 20200407 03.jpg"
+ },
+ "koriyama": {
+  "photo_file": "File:260801 Koriyama Station Koriyama Fukushima pref Japan04s3.jpg"
+ },
+ "fukushima": {
+  "photo_file": "File:JR East Fukushima Station JR Line Platform 4・5.jpg"
+ },
+ "shin-hakodate-hokuto": {
+  "photo_file": "File:Shin-Hakodate-Hokuto-STA South.jpg"
+ },
+ "urasa": {
+  "photo_file": "File:JR Joetsu Shinkansen・Joetsu Line Urasa Station JR Line Platform 1・2.jpg"
+ },
+ "iiyama": {
+  "photo_file": "File:Iiyama Station 2022-07 1.jpg"
+ },
+ "joetsu-myoko": {
+  "photo_file": "File:JR・Echigo TOKImeki Railway Joetsumyoko Station Echigo TOKImeki Railway (Local Line) Platform.jpg"
+ },
+ "kurobe-unazuki-onsen": {
+  "photo_file": "File:Kurobe-Unazukionsen Station.jpg"
+ },
+ "shin-takaoka": {
+  "photo_file": "File:Shin-Takaoka-STA Johana-line-Platform.jpg"
+ },
+ "komatsu": {
+  "photo_file": "File:Komatsu-STA East.jpg"
+ },
+ "kagaonsen": {
+  "photo_file": "File:260606 Kagaonsen Station Kaga Ishikawa pref Japan01s3.jpg"
+ },
+ "awaraonsen": {
+  "photo_file": "File:Awaraonsen station South 20240506.JPG"
+ },
+ "fukui": {
+  "photo_file": "File:JRW Fukui-STA West.jpg"
+ },
+ "murayama": {
+  "photo_file": "File:JR East Murayama Station Platform, Yamagata Pref.jpg"
+ },
+ "omagari": {
+  "photo_file": "File:Omagari Station 20230729.jpg"
+ },
+ "kokusaikaikan": {
+  "photo_file": "File:KOKUSAIKAIKAN Station No.3 Exit.JPG"
+ },
+ "jujo-kyoto": {
+  "photo_file": "File:Kyoto-subway-K13-Jujo-station-entrance-4-20111213-144536.jpg"
+ },
+ "takeda": {
+  "photo_file": "File:Kyoto-subway-K15-Takeda-station-building-east-20111213-151456.jpg"
+ },
+ "uzumasa-tenjingawa": {
+  "photo_file": "File:京都市営地下鉄太秦天神川駅改札口.jpg"
+ },
+ "nijo": {
+  "photo_file": "File:View in Nijo Station (Kyoto Municipal Subway).jpg"
+ },
+ "misasagi": {
+  "photo_file": "File:KS-MisasagiStation-Entrance2.jpg"
+ },
+ "suita": {
+  "photo_file": "File:Hankyu Suita Station.JPG"
+ },
+ "toyooka": {
+  "photo_file": "File:JR KTR Tyooka Station.JPG"
+ },
+ "kameyama": {
+  "photo_file": "File:JR Kameyama-station.jpg"
+ },
+ "kamo": {
+  "photo_file": "File:Kamo Station Kizugawa Kyoto pref Japan02n.jpg"
+ },
+ "cable-yase": {
+  "photo_file": "File:Cable-Yase station.jpg"
+ },
+ "cable-hiei": {
+  "photo_file": "File:Cable-Hiei station.JPG"
+ },
+ "fuchu": {
+  "photo_file": "File:Amanohashidate Cable Car Fuchu Station 2026.jpg"
+ },
+ "tofukuji": {
+  "photo_file": "File:Keihan Tofukuji station entrance.jpg"
+ },
+ "kohata": {
+  "photo_file": "File:Kowata Station (Keihan), zenkei.jpg"
+ },
+ "kizu": {
+  "photo_file": "File:Kizu station station building.JPG"
+ },
+ "kitahama": {
+  "photo_file": "File:Osaka-subway-K14-Kitahama-station-6-entrance.jpg"
+ },
+ "kyobashi-osaka": {
+  "photo_file": "File:Kyobashi 20210627045723.jpg"
+ },
+ "chushojima": {
+  "photo_file": "File:Keihan Chushojima station 20171014.jpg"
+ },
+ "minami-ibaraki": {
+  "photo_file": "File:Minami-Ibaraki Station.JPG"
+ },
+ "shijo-omiya": {
+  "photo_file": "File:嵐電四条大宮駅.JPG"
+ },
+ "katabiranotsuji": {
+  "photo_file": "File:京福帷子ノ辻駅.JPG"
+ },
+ "kitano-hakubaicho": {
+  "photo_file": "File:Randen Kitano-Hakubaicho Station.jpg"
+ },
+ "takaragaike": {
+  "photo_file": "File:Takaragaike Station.JPG"
+ },
+ "minami-funabashi": {
+  "photo_file": "File:Minami-Funabashi Station lala 2024.jpg"
+ },
+ "hamano": {
+  "photo_file": "File:JR Uchibō Line Hamano Station Platform.jpg"
+ },
+ "goi": {
+  "photo_file": "File:JR East・Kominato Railway Goi Station West Exit.jpg"
+ },
+ "ohara": {
+  "photo_file": "File:JR East・Isumi Railway Ōhara Station JR East Platform.jpg"
+ },
+ "choshi": {
+  "photo_file": "File:Choshi-STA.jpg"
+ },
+ "matsugishi": {
+  "photo_file": "File:JR Sōbu Line・Narita Line Matsugishi Station Platform.jpg"
+ },
+ "sakura": {
+  "photo_file": "File:JR Sobu-Main-Line・Narita-Line Sakura Station Platform 1・2.jpg"
+ },
+ "keisei-makuhari": {
+  "photo_file": "File:Keisei-railway-KS53-Keisei-makuhari-station-building-20200727-142210.jpg"
+ },
+ "araki": {
+  "photo_file": "File:JR Narita-Line Araki Station Platform.jpg"
+ },
+ "kobayashi": {
+  "photo_file": "File:JR Narita-Line Kobayashi Station Platform.jpg"
+ },
+ "narita": {
+  "photo_file": "File:JR Narita-Line Narita Station Platform 2・3.jpg"
+ },
+ "katori": {
+  "photo_file": "File:JR Narita Line・Kashima Line Katori Station Platform.jpg"
+ },
+ "abiko": {
+  "photo_file": "File:JR Joban-Line・Narita-Line Abiko Station Platform 4・5.jpg"
+ },
+ "st-928": {
+  "photo_file": "File:JR Kururi Line Kazusa-Kameyama Station Platform.jpg"
+ },
+ "kashima-jingu": {
+  "photo_file": "File:JR Kashima Line Kashimajingū Station Platform.jpg"
+ },
+ "kazusa-nakano": {
+  "photo_file": "File:Kazusanakano Station May 2005 2.jpg"
+ },
+ "tokawa": {
+  "photo_file": "File:Tokawa-STA Outside.jpg"
+ },
+ "resort-gateway": {
+  "photo_file": "File:Resort gateway station.jpg"
+ },
+ "higashi-kawaguchi": {
+  "photo_file": "File:Higashi-Kawaguchi-Sta-S-JR.JPG"
+ },
+ "nakayama": {
+  "photo_file": "File:JR Nakayama Station 202305.jpg"
+ },
+ "hashimoto-kanto": {
+  "photo_file": "File:JR Yokohama-Line・Sagami-Line Hashimoto Station Gates.jpg"
+ },
+ "yugawara": {
+  "photo_file": "File:Yugawara-Station-building-renewal2020.jpg"
+ },
+ "kuki": {
+  "photo_file": "File:Tobu Kuki-STA Platform3-4.jpg"
+ },
+ "kurihashi": {
+  "photo_file": "File:JREast-Tohoku-main-line-Kurihashi-station-platform.jpg"
+ },
+ "hoshakuji": {
+  "photo_file": "File:宝積寺駅 - panoramio.jpg"
+ },
+ "hiyoshi-tokyo": {
+  "photo_file": "File:Tokyu hiyoshi station keio university side.jpg"
+ },
+ "hinoharu": {
+  "photo_file": "File:JREast-Chuo-main-line-CO49-Hinoharu-station-building-20220820-082950.jpg"
+ },
+ "anayama": {
+  "photo_file": "File:JREast-Chuo-main-line-CO48-Anayama-station-building-20220806-143325.jpg"
+ },
+ "shimpu": {
+  "photo_file": "File:JR Chuo-Main-Line Shimpu Station Platform.jpg"
+ },
+ "nirasaki": {
+  "photo_file": "File:JR Chuo-Main-Line Nirasaki Station building.jpg"
+ },
+ "shiozaki": {
+  "photo_file": "File:JR Chuo-Main-Line Shiozaki Station Platform.jpg"
+ },
+ "isawa-onsen": {
+  "photo_file": "File:JREast-Chuo-main-line-CO41-Isawa-onsen-station-building-south-20220806-113920.jpg"
+ },
+ "kasugaicho": {
+  "photo_file": "File:JR Chuo-Main-Line Kasugaicho Station Platform.jpg"
+ },
+ "yamanashishi": {
+  "photo_file": "File:JREast-Chuo-main-line-CO39-Yamanashishi-station-building-south-20220806-102204.jpg"
+ },
+ "higashi-yamanashi": {
+  "photo_file": "File:JR Chuo-Main-Line Higashi-Yamanashi Station Platform.jpg"
+ },
+ "kamiotsuki": {
+  "photo_file": "File:Kamiotsuki Station 20060211.jpg"
+ },
+ "gora": {
+  "photo_file": "File:Hakone-Tozan-Goura-Sta.jpg"
+ },
+ "sounzan": {
+  "photo_file": "File:Sounzan-Sta.jpg"
+ },
+ "daiyuzan": {
+  "photo_file": "File:Daiyuuzan Sta.jpg"
+ },
+ "yamato": {
+  "photo_file": "File:Yamato Station Odakyu Exit 20180325.jpg"
+ },
+ "kitano": {
+  "photo_file": "File:京王北野駅南口 2023-03-22.jpg"
+ },
+ "nishi-tokorozawa": {
+  "photo_file": "File:Nishi-Tokorozawa-Sta.JPG"
+ },
+ "higashi-hanno": {
+  "photo_file": "File:Higashi-hanno sta west.jpg"
+ },
+ "mitsumineguchi": {
+  "photo_file": "File:CTK Mitsumineguchi station.jpg"
+ },
+ "ota": {
+  "photo_file": "File:Ota Station north 2017-04.jpg"
+ },
+ "isesaki": {
+  "photo_file": "File:Isesaki Station south 2020-11.jpg"
+ },
+ "shimo-imaichi": {
+  "photo_file": "File:Shimo-imaichi-STA.jpg"
+ },
+ "tobu-nikko": {
+  "photo_file": "File:Tobunikkostation-building-sunny-nov3-2016.jpg"
+ },
+ "sakado": {
+  "photo_file": "File:Sakado 20111102.jpg"
+ },
+ "ogawamachi-kanto": {
+  "photo_file": "File:Tōbu Railway・JR East Ogawamachi Station Platform 7・8.jpg"
+ },
+ "uraga": {
+  "photo_file": "File:Uraga station platform.jpg"
+ },
+ "nagareyama-otakanomori": {
+  "photo_file": "File:TX Nagareyama-ōtakanomori Station Platform 1,2.jpg"
+ },
+ "kiyotaki": {
+  "photo_file": "File:Takao Mountain Railroad Kiyotaki Station.jpg"
+ },
+ "takaosan": {
+  "photo_file": "File:Takao Mountain Railroad Takaosan Station.jpg"
+ },
+ "takimoto": {
+  "photo_file": "File:Takimoto-Sta.JPG"
+ },
+ "mitakesan": {
+  "photo_file": "File:Mitakesan-Sta.JPG"
+ },
+ "taisho": {
+  "photo_file": "File:JRWest Taishou Station.jpg"
+ },
+ "noda": {
+  "photo_file": "File:Hanshin Noda Station.JPG"
+ },
+ "fukushima-osaka": {
+  "photo_file": "File:OLL Fukushima stn.jpg"
+ },
+ "tamatsukuri": {
+  "photo_file": "File:JR Tamatsukuri Station north entrance.jpg"
+ },
+ "esaka": {
+  "photo_file": "File:Esaka Station (01) IMG 7390-2 20130824.JPG"
+ },
+ "nakatsu": {
+  "photo_file": "File:Hankyu Nakatsu Sta Home Takaraduka Line.JPG"
+ },
+ "abeno": {
+  "photo_file": "File:Osaka-abeno-L2.jpg"
+ },
+ "hirano": {
+  "photo_file": "File:JR平野駅北口.jpg"
+ },
+ "nagata-kansai": {
+  "photo_file": "File:Nagata Station Platform.JPG"
+ },
+ "sakaisuji-hommachi": {
+  "photo_file": "File:Osaka Subway Sakaisuji-Hommachi St.jpg"
+ },
+ "kujo-osaka": {
+  "photo_file": "File:Osaka-sw Kujo stn.jpg"
+ },
+ "sakuragawa": {
+  "photo_file": "File:Sakuragawa station, Hansin01.JPG"
+ },
+ "nippombashi": {
+  "photo_file": "File:大阪メトロ日本橋駅.jpg"
+ },
+ "imazato": {
+  "photo_file": "File:Platform for Sennichimae subway line of Imazato Station.jpg"
+ },
+ "itakano": {
+  "photo_file": "File:Itakano Station Entrance 2.jpg"
+ },
+ "kaizuka": {
+  "photo_file": "File:Kaizuka Station01.JPG"
+ },
+ "mizumakannon": {
+  "photo_file": "File:Mizuma Railway Mizuma Kannon Station.jpg"
+ },
+ "senri-chuo": {
+  "photo_file": "File:Senri Chuo-Station.jpg"
+ },
+ "minoh-kayano": {
+  "photo_file": "File:KITAKYU Minoh-kayano Station.jpg"
+ },
+ "shigisanguchi": {
+  "photo_file": "File:Shigisanguchi-St01.JPG"
+ },
+ "takayasuyama": {
+  "photo_file": "File:Kintetsu Takayasuyama st.jpg"
+ },
+ "nakamozu-kansai": {
+  "photo_file": "File:Nankai Nakamozu Station 20191102.jpg"
+ },
+ "hashimoto-kansai": {
+  "photo_file": "File:Hashimoto station.JPG"
+ },
+ "amagasaki": {
+  "photo_file": "File:Amagasaki Station Hanshin05s3s2592.jpg"
+ },
+ "imazu": {
+  "photo_file": "File:HS-ImazuStation-NorthGate.jpg"
+ },
+ "nishinomiya": {
+  "photo_file": "File:JR Nishinomiya stn 2.jpg"
+ },
+ "ashiya": {
+  "photo_file": "File:Hanshin Ashiya sta02n3872.jpg"
+ },
+ "sumiyoshi-kobe": {
+  "photo_file": "File:JR Sumiyoshi sta Kobe01s2820.jpg"
+ },
+ "mikage": {
+  "photo_file": "File:Hanshin Mikage Station north entrance.jpg"
+ },
+ "kasuganomichi": {
+  "photo_file": "File:Hanshin Kasuganomichi Station.jpg"
+ },
+ "motomachi": {
+  "photo_file": "File:Kobe motomachi st01s3200.jpg"
+ },
+ "osaka-namba": {
+  "photo_file": "File:近鉄大阪難波駅駅舎.jpg"
+ },
+ "tsukaguchi": {
+  "photo_file": "File:HK-TsukaguchiStation-NorthGate.jpg"
+ },
+ "kawachi-yamamoto": {
+  "photo_file": "File:Kawati-Yamamoto.jpg"
+ },
+ "yamato-yagi": {
+  "photo_file": "File:Yamato-Yagi Station North.jpg"
+ },
+ "sakurai": {
+  "photo_file": "File:Sakurai station South 20190505.jpg"
+ },
+ "yamada-osaka": {
+  "photo_file": "File:Yamada Station of Osaka Monorail.JPG"
+ },
+ "hamadera-ekimae": {
+  "photo_file": "File:Hankai Hamaderaekimae (01) IMG 4393 20130616.JPG"
+ },
+ "sumiyoshi-osaka": {
+  "photo_file": "File:Hankai-Sumiyoshi-st2.jpg"
+ },
+ "amagasaki-osaka": {
+  "photo_file": "File:JR Amagasaki Station.JPG"
+ },
+ "tanigami": {
+  "photo_file": "File:Tanigami Station exterior 20210903173443 (cropped).jpg"
+ },
+ "itayado": {
+  "photo_file": "File:山陽電鉄板宿駅.jpg"
+ },
+ "seishin-chuo": {
+  "photo_file": "File:西神中央駅 20231020.jpg"
+ },
+ "ishiyamadera": {
+  "photo_file": "File:Ishiyamadera station.JPG"
+ },
+ "sakamoto-hieizanguchi": {
+  "photo_file": "File:Keihan Sakamoto stn.jpg"
+ },
+ "nagahara-2": {
+  "photo_file": "File:Nagahara Station (Kosei Line).jpg"
+ },
+ "kusatsu": {
+  "photo_file": "File:JR Kusatsu Station West Side.jpg"
+ },
+ "omihachiman": {
+  "photo_file": "File:Omihachiman sta01s5s3200.jpg"
+ },
+ "hikone": {
+  "photo_file": "File:260502 Hikone Station Hikone Shiga pref Japan02s3.jpg"
+ },
+ "nagahama": {
+  "photo_file": "File:JRW-NagahamaStation-IbukiGate.jpg"
+ },
+ "shin-hikida": {
+  "photo_file": "File:Shinhikida Station.jpg"
+ },
+ "kojimashinden": {
+  "photo_file": "File:Keikyu-railway-KK26-Kojimashinden-station-building-20190310-140002.jpg"
+ },
+ "chiharadai": {
+  "photo_file": "File:Keisei-railway-KS65-Chiharadai-station-building-20200809-102157.jpg"
+ },
+ "hagiyama": {
+  "photo_file": "File:Seibu Hagiyama station west entrance.JPG"
+ },
+ "ogawa": {
+  "photo_file": "File:Ogawa-sta-East-gate.jpg"
+ },
+ "ogose": {
+  "photo_file": "File:Ogose Station entrance 20120326.JPG"
+ },
+ "nishi-oya": {
+  "photo_file": "File:Nishi-Oya Station 20140119.JPG"
+ },
+ "hazawa-yokohama-kokudai": {
+  "photo_file": "File:Hazawa yokohamakokudai station 20200501.jpg"
+ },
+ "ogimachi-tokyo": {
+  "photo_file": "File:JR Tsurumi Line Ōgimachi Station Platform.jpg"
+ },
+ "hama-kawasaki": {
+  "photo_file": "File:Hamakawasaki-eki.JPG"
+ },
+ "okawa": {
+  "photo_file": "File:JR Tsurumi Line Ōkawa Station Platform.jpg"
+ },
+ "musashi-itsukaichi": {
+  "photo_file": "File:JR Itsukaichi-Line Musashi-Itsukaichi Station Platform.jpg"
+ },
+ "toyo-katsutadai": {
+  "photo_file": "File:Toyo-rapid-railway-TR09-Toyo-katsutadai-station-platform-20210427-134014.jpg"
+ },
+ "joshidai": {
+  "photo_file": "File:Yamaman Joshidai Sta 001.jpg"
+ },
+ "kii-nakanoshima": {
+  "photo_file": "File:Kii-Nakanoshima Station.jpg"
+ },
+ "higashi-hagoromo": {
+  "photo_file": "File:JR-West Higashi-Hagoromo Station.JPG"
+ },
+ "itami": {
+  "photo_file": "File:Jr itami st01 1920.jpg"
+ },
+ "kyuhoji": {
+  "photo_file": "File:Kyuhoji Station.jpg"
+ },
+ "kashiwara": {
+  "photo_file": "File:JRW Kintetsu Kashiwara-STA West.jpg"
+ },
+ "oji-kansai": {
+  "photo_file": "File:Oji sta2.jpg"
+ },
+ "koriyama-kansai": {
+  "photo_file": "File:Koriyama st01.jpg"
+ },
+ "tenri": {
+  "photo_file": "File:Tenri Station.jpg"
+ },
+ "takada": {
+  "photo_file": "File:JR Takada sta 002.jpg"
+ },
+ "osaka-abenobashi": {
+  "photo_file": "File:Abenobashi Terminal Building (32509399102).jpg"
+ },
+ "domyoji": {
+  "photo_file": "File:近鉄道明寺駅駅舎.JPG"
+ },
+ "furuichi-kansai": {
+  "photo_file": "File:Kintetsu Furuichi St.jpg"
+ },
+ "kintetsu-gose": {
+  "photo_file": "File:Kintetsu Gose Station (entrance).jpg"
+ },
+ "gakken-nara-tomigaoka": {
+  "photo_file": "File:Gakken-Nara-Tomigaoka stn 1.jpg"
+ },
+ "hirahata": {
+  "photo_file": "File:Kintetsu-Hirahata DSCN9545 20100504.JPG"
+ },
+ "yoshino": {
+  "photo_file": "File:Yoshino station in 2014-4-19 No,2.JPG"
+ },
+ "susami": {
+  "photo_file": "File:Susami station001.JPG"
+ },
+ "tanakaguchi": {
+  "photo_file": "File:Tanakaguchi Station, Wakayama Electric Railway 20130608 (9016464395).jpg"
+ },
+ "kaminosho": {
+  "photo_file": "File:Kaminosho STN.JPG"
+ },
+ "ise-okitsu": {
+  "photo_file": "File:JR Ise-Okitsu station.jpg"
+ },
+ "ageki": {
+  "photo_file": "File:Ageki Station.jpg"
+ },
+ "st-2970": {
+  "photo_file": "File:JR Central of Tomida Station 01.JPG"
+ },
+ "nishifujiwara": {
+  "photo_file": "File:Nfstph.jpg"
+ },
+ "yunoyama-onsen": {
+  "photo_file": "File:Yunoyamaonsen-station.jpg"
+ },
+ "nakagawara-nagoya": {
+  "photo_file": "File:Nakagawara station in Yokkaichi.jpg"
+ },
+ "kishi-kansai": {
+  "photo_file": "File:貴志駅新駅舎.jpg"
+ },
+ "nishi-gobo": {
+  "photo_file": "File:Nishigobou station001.JPG"
+ },
+ "ikoma-sanjo": {
+  "photo_file": "File:Ikomasanjyou-Station-platform.jpg"
+ },
+ "shin-oji": {
+  "photo_file": "File:Shin-Ōji station entrance.JPG"
+ },
+ "nishi-tawaramoto": {
+  "photo_file": "File:Nishi-Tawaramoto Station entrance.jpg"
+ },
+ "koyoen": {
+  "photo_file": "File:Hankyu Koyoen Station.jpg"
+ },
+ "hojo-railways-ao": {
+  "photo_file": "File:JR Shintetsu Hojo Railway Ao Station.jpg"
+ },
+ "tanikawa": {
+  "photo_file": "File:JR Tanikawa Station JNR Nameplate.jpg"
+ },
+ "hojomachi": {
+  "photo_file": "File:Hojomachi Station Kasai Hyogo pref Japan01n.jpg"
+ },
+ "maya-cable": {
+  "photo_file": "File:Kobe maya cablecar04 2816.jpg"
+ },
+ "nijinoeki": {
+  "photo_file": "File:Kobe maya cablecar05 1920.jpg"
+ },
+ "rokko-cable-shita": {
+  "photo_file": "File:Rokko cablecar01 2816.jpg"
+ },
+ "rokko-sanjo": {
+  "photo_file": "File:Rokko cablecar05 2816.jpg"
+ },
+ "shikama": {
+  "photo_file": "File:SY-ShikamaStation.jpg"
+ },
+ "sanyo-aboshi": {
+  "photo_file": "File:Sanyo-Aboshi Station 01.jpg"
+ },
+ "higashiyamakoen": {
+  "photo_file": "File:東山公園駅.jpg"
+ },
+ "esaki": {
+  "photo_file": "File:Esakistation.jpg"
+ },
+ "utago": {
+  "photo_file": "File:Utagoustation.jpg"
+ },
+ "kiyo": {
+  "photo_file": "File:JR Kiyo sta 001.jpg"
+ },
+ "nago": {
+  "photo_file": "File:JRW Nago-STA Platforms.jpg"
+ },
+ "yazu-koko-mae": {
+  "photo_file": "File:Yazu hc 1.jpg"
+ },
+ "kawato": {
+  "photo_file": "File:Kawato station01n4592.jpg"
+ },
+ "takamiya": {
+  "photo_file": "File:Shiga Takamiya Station platform1.jpg"
+ },
+ "taga-taisha-mae": {
+  "photo_file": "File:Taga-Taishamae Station.JPG"
+ },
+ "shigaraki": {
+  "photo_file": "File:071020 Shigaraki Station Koga Shiga pref Japan01s5.jpg"
+ },
+ "cable-sakamoto": {
+  "photo_file": "File:Cable-Sakamoto station.JPG"
+ },
+ "cable-enryakuji": {
+  "photo_file": "File:Cable Enryakuji Station, ekisha.jpg"
+ },
+ "takashinohama": {
+  "photo_file": "File:Takashinohama Station 20190131-1.jpg"
+ },
+ "nakanoshima-osaka": {
+  "photo_file": "File:Keihan Nakanoshima station001.jpg"
+ },
+ "suzurandai": {
+  "photo_file": "File:Suzurandai-sta.from.daiei.jpg"
+ },
+ "arimaguchi": {
+  "photo_file": "File:Shintetsu Arimaguchi Station.jpg"
+ },
+ "sanda-hommachi": {
+  "photo_file": "File:Platform of Sanda-Hommachi station.JPG"
+ },
+ "yokoyama": {
+  "photo_file": "File:Yokoyama Station of Hyogo Prefecture.JPG"
+ },
+ "woody-town-chuo": {
+  "photo_file": "File:Woody Town Chuo Station.jpg"
+ },
+ "yamashita-osaka": {
+  "photo_file": "File:Noseden Yamashita stn 1.jpg"
+ },
+ "fushimi-nagoya": {
+  "photo_file": "File:Nagoya-subway-H09-Fushimi-station-platform-1-20100315.jpg"
+ },
+ "imaike-nagoya": {
+  "photo_file": "File:Nagoya Imaike Station.jpg"
+ },
+ "fujigaoka-nagoya": {
+  "photo_file": "File:Linimo-L01-Fujigaoka-station-platform-20100317.jpg"
+ },
+ "horita": {
+  "photo_file": "File:Meitetsu Horita Station 01.JPG"
+ },
+ "nagoyako": {
+  "photo_file": "File:Nagoya Subway Nagoyakou Station.jpg"
+ },
+ "tsurumai": {
+  "photo_file": "File:JR Tsurumai Station 20170304.jpg"
+ },
+ "akaike": {
+  "photo_file": "File:Turumai&Meitetsu-Toyota-Line-AkaikeStation.JPG"
+ },
+ "tokushige": {
+  "photo_file": "File:Tokushige Station Entrance 2.jpg"
+ },
+ "kami-iida": {
+  "photo_file": "File:Meitetsu Kamiiida Building 20130917.JPG"
+ },
+ "ko": {
+  "photo_file": "File:Kou Station (east gate).jpg"
+ },
+ "sanno": {
+  "photo_file": "File:MT-Sannō Station-Building.JPG"
+ },
+ "sako": {
+  "photo_file": "File:Meitetsu Sako Station 01.JPG"
+ },
+ "imaise": {
+  "photo_file": "File:MT-Imaise Station-Building.jpg"
+ },
+ "iwato": {
+  "photo_file": "File:MT-Iwato Station-Building 2.JPG"
+ },
+ "shin-kisogawa": {
+  "photo_file": "File:MT-Shin Kisogawa Station-Building 2.JPG"
+ },
+ "chajo": {
+  "photo_file": "File:MT-Chajo Station-Building.JPG"
+ },
+ "shin-uwagoromo": {
+  "photo_file": "File:SHINUWAGOROMO-Station-platform080506.JPG"
+ },
+ "nishi-ichinomiya": {
+  "photo_file": "File:MT-Nishi-Ichinomiya Station-Building 1.jpg"
+ },
+ "tsushima": {
+  "photo_file": "File:Tsushima Station.JPG"
+ },
+ "gamagori-kyoteijo-mae": {
+  "photo_file": "File:MT-Gamagōri-Kyōteijō-Mae Station-Building 2015-1.JPG"
+ },
+ "mikawa-shiotsu": {
+  "photo_file": "File:JR Central Mikawa-shiotsu Station Platform.jpg"
+ },
+ "kira-yoshida": {
+  "photo_file": "File:MT-Kira Yoshida Station-Building.jpg"
+ },
+ "kani": {
+  "photo_file": "File:JRC-Kani-sta.jpg"
+ },
+ "shin-kani": {
+  "photo_file": "File:MT-Shin Kani Station-Building 2014.JPG"
+ },
+ "mitake-nagoya": {
+  "photo_file": "File:Meitetsu Mitake Station ac.jpg"
+ },
+ "toyokawa-inari": {
+  "photo_file": "File:Toyokawa Inari Station.jpg"
+ },
+ "toyokawa-toyohashi": {
+  "photo_file": "File:JR-Toyokawa-station-platform.jpg"
+ },
+ "utsumi": {
+  "photo_file": "File:Meitetsu Utsumi Station 02.JPG"
+ },
+ "fuki": {
+  "photo_file": "File:MT-Fuki Station-Building.JPG"
+ },
+ "oe-nagoya": {
+  "photo_file": "File:Meitetsu Oe Station 01.JPG"
+ },
+ "okazaki": {
+  "photo_file": "File:JRC tokaido main line Okazaki station 01.jpg"
+ },
+ "kozoji": {
+  "photo_file": "File:Kōzōji Station Platform 1・2.jpg"
+ },
+ "kachigawa": {
+  "photo_file": "File:JR Central Kachigawa Station Platform.jpg"
+ },
+ "ajiyoshi": {
+  "photo_file": "File:Meitetsu-Ajiyoshi-Station.jpg"
+ },
+ "otai": {
+  "photo_file": "File:TKJ-Otai-station-platform.jpg"
+ },
+ "biwajima": {
+  "photo_file": "File:Biwajima Station Gate.jpg"
+ },
+ "st-4014": {
+  "photo_file": "File:JR Chuo-Main-Line・Iida-Line Tatsuno Station building.jpg"
+ },
+ "kiriishi": {
+  "photo_file": "File:Kiriishi-sta.jpg"
+ },
+ "obu": {
+  "photo_file": "File:JR Central Ōbu Station Platform.jpg"
+ },
+ "taketoyo": {
+  "photo_file": "File:JR Taketoyo Station Building.jpg"
+ },
+ "futagawa": {
+  "photo_file": "File:JR Central Futagawa Station Platform 2・3.jpg"
+ },
+ "nishi-kozakai": {
+  "photo_file": "File:JR Central Nishi-kozakai Station Platform 3・4.jpg"
+ },
+ "aichi-mito": {
+  "photo_file": "File:JR Central Aichi-mito Station Platform 2・3.jpg"
+ },
+ "otobashi": {
+  "photo_file": "File:JR Central Otōbashi Station Platform.jpg"
+ },
+ "higashi-ogaki": {
+  "photo_file": "File:東大垣駅より揖斐川橋梁を臨む - panoramio.jpg"
+ },
+ "muro": {
+  "photo_file": "File:Muro Eki1.jpg"
+ },
+ "arao": {
+  "photo_file": "File:JR Central Arao Station Overall.jpg"
+ },
+ "tajimi": {
+  "photo_file": "File:JR Tajimi Station 2021-10 ac (1).jpg"
+ },
+ "ena": {
+  "photo_file": "File:JR Ena Station ac.jpg"
+ },
+ "nagiso": {
+  "photo_file": "File:JR Nagiso sta 001.jpg"
+ },
+ "junikane": {
+  "photo_file": "File:JR Zhunikane sta 001.jpg"
+ },
+ "nojiri": {
+  "photo_file": "File:JR Nojiri sta 001.jpg"
+ },
+ "okuwa": {
+  "photo_file": "File:JR Okuwa sta 001.jpg"
+ },
+ "suhara": {
+  "photo_file": "File:JR Suhara sta 002.jpg"
+ },
+ "kuramoto": {
+  "photo_file": "File:JR Kuramoto sta 001.jpg"
+ },
+ "agematsu": {
+  "photo_file": "File:Agematsu station.jpg"
+ },
+ "kiso-fukushima": {
+  "photo_file": "File:Kiso-fukushima sta06n3200.jpg"
+ },
+ "harano": {
+  "photo_file": "File:Harano-Sta.JPG"
+ },
+ "miyanokoshi": {
+  "photo_file": "File:JR Miyanokoshi sta 001.jpg"
+ },
+ "yabuhara": {
+  "photo_file": "File:Yabuhara-Sta.JPG"
+ },
+ "sashima-raibu": {
+  "photo_file": "File:AONAMI Line Sasashima-Raibu Station 01.JPG"
+ },
+ "kogane": {
+  "photo_file": "File:Kintetsu Kogane Station 01.JPG"
+ },
+ "nagashima": {
+  "photo_file": "File:Nagashima stn 2.jpg"
+ },
+ "tokoname": {
+  "photo_file": "File:MT-Tokoname Station-WestGate.JPG"
+ },
+ "otagawa": {
+  "photo_file": "File:MT-Ōtagawa Station-EastPlaza.JPG"
+ },
+ "oyama-dera-nagoya": {
+  "photo_file": "File:MT-Taisanji Station-Building 2.JPG"
+ },
+ "sakaemachi": {
+  "photo_file": "File:Meitetsu Sakaemachi Station Entrance.jpg"
+ },
+ "owari-seto": {
+  "photo_file": "File:MT-Owari-SetoStation.jpg"
+ },
+ "kowa": {
+  "photo_file": "File:Nagoya Railroad - Kowa Station - 01.JPG"
+ },
+ "kinjo-futo": {
+  "photo_file": "File:Aonami Line Kinjo-futo Station south side.jpg"
+ },
+ "mitsubishijiko-mae": {
+  "photo_file": "File:MR Mitsubishi Jikō-mae sta.jpg"
+ },
+ "kyujo-mae": {
+  "photo_file": "File:MR Kyujō-mae sta enclosure.jpg"
+ },
+ "higashi-shinkawa": {
+  "photo_file": "File:HIgashi-Shinkawa Station Platform.jpg"
+ },
+ "nishikicho": {
+  "photo_file": "File:NishikichoStn.jpg"
+ },
+ "kojiro": {
+  "photo_file": "File:JRWest Koujiro station.jpg"
+ },
+ "waki": {
+  "photo_file": "File:Waki Sta 20140927-1.JPG"
+ },
+ "hiroden-miyajima-guchi": {
+  "photo_file": "File:Hiroden-miyajima-guchi Station 001.jpg"
+ },
+ "inokuchi": {
+  "photo_file": "File:Hiroden Inokuchi Sta.01.jpg"
+ },
+ "shoko-center-iriguchi": {
+  "photo_file": "File:Hiroden-syokosenta-station.jpg"
+ },
+ "kusatsu-minami": {
+  "photo_file": "File:Hiroden Kusatsu-minami Sta.01.jpg"
+ },
+ "kusatsu-hiroshima": {
+  "photo_file": "File:Hiroden Kusatsu Sta.01.jpg"
+ },
+ "furue": {
+  "photo_file": "File:Furue-station-1.JPG"
+ },
+ "takasu": {
+  "photo_file": "File:Takasu-station-1.JPG"
+ },
+ "higashi-takasu": {
+  "photo_file": "File:Higashi-takasu-station-1.JPG"
+ },
+ "kannabe": {
+  "photo_file": "File:JRW fukuen line Kannabe station.jpg"
+ },
+ "mojiko": {
+  "photo_file": "File:Mojiko Station 20190831.jpg"
+ },
+ "nishi-kokura": {
+  "photo_file": "File:Nishi kokura Station platform.JPG"
+ },
+ "jin-noharu": {
+  "photo_file": "File:Jinnoharu Station platforms 20090523.jpg"
+ },
+ "tonoharu": {
+  "photo_file": "File:View of Tonoharu Station.JPG"
+ },
+ "kashii": {
+  "photo_file": "File:Kashii station platform no.4 and 5.jpg"
+ },
+ "kashii-miyamae": {
+  "photo_file": "File:Kashii-Miyamae Station 20150525-1.JPG"
+ },
+ "najima": {
+  "photo_file": "File:Najima Station 20150310-2.JPG"
+ },
+ "kaizuka-fukuoka": {
+  "photo_file": "File:View of Kaizuka Station 20160530.jpg"
+ },
+ "haruda": {
+  "photo_file": "File:Haruda Station 20181111.jpg"
+ },
+ "wataze": {
+  "photo_file": "File:Platform of Wataze Station 2.jpg"
+ },
+ "yoshino-kyushu": {
+  "photo_file": "File:Kagoshima line Yoshino stn.jpg"
+ },
+ "ginsui": {
+  "photo_file": "File:Ginsui-STA Gate.jpg"
+ },
+ "shin-sakaemachi": {
+  "photo_file": "File:Nishitetsu Shinsakaemachi Station01.jpg"
+ },
+ "arao-kumamoto": {
+  "photo_file": "File:Arao Station 20160614.jpg"
+ },
+ "minami-arao": {
+  "photo_file": "File:Minami-arao station 1.jpg"
+ },
+ "jono": {
+  "photo_file": "File:城野駅 駅舎.JPG"
+ },
+ "yukuhashi": {
+  "photo_file": "File:Yukuhashi stn.jpg"
+ },
+ "shindembaru": {
+  "photo_file": "File:Platform of Shindembaru Station 5.jpg"
+ },
+ "tsuiki": {
+  "photo_file": "File:2017 Tsuiki Station.jpg"
+ },
+ "shiida": {
+  "photo_file": "File:Platform of Shiida Station and Chikujo Town Library.jpg"
+ },
+ "buzen-shoe": {
+  "photo_file": "File:Platform of Buzen-Shoe Station 3.jpg"
+ },
+ "unoshima": {
+  "photo_file": "File:Unoshima Station 2.jpg"
+ },
+ "mikekado": {
+  "photo_file": "File:Mikekado Station.JPG"
+ },
+ "yoshitomi-chugoku": {
+  "photo_file": "File:JRK-Yoshitomi-station.jpg"
+ },
+ "nakatsu-chugoku": {
+  "photo_file": "File:Kyushu Railway - Nakatsu Station - 01.JPG"
+ },
+ "higashi-nakatsu": {
+  "photo_file": "File:Higashi-Nakatsu Station 2.JPG"
+ },
+ "imazu-chugoku": {
+  "photo_file": "File:Oita Imazu Station 2.JPG"
+ },
+ "amatsu": {
+  "photo_file": "File:Amatsu Station 2.JPG"
+ },
+ "buzen-zenkoji": {
+  "photo_file": "File:Kyushu Railway - Buzen-Zenkoji Station - 01.JPG"
+ },
+ "wakamatsu": {
+  "photo_file": "File:Wakamatsu station1.jpg"
+ },
+ "nogata-chugoku": {
+  "photo_file": "File:20120304 Nogata Station.JPG"
+ },
+ "minami-nogata-gotenguchi": {
+  "photo_file": "File:Heiseichikuho Minaminogatagotenguchi Station02.jpg"
+ },
+ "keisen": {
+  "photo_file": "File:JRKyushu Keisen station 2021-01.jpg"
+ },
+ "chojabaru": {
+  "photo_file": "File:長者原駅 改札口.jpg"
+ },
+ "soeda": {
+  "photo_file": "File:Relationship between Soeda Station platform and BRT.jpg"
+ },
+ "tagawa-ita": {
+  "photo_file": "File:Tagawa-Ita stn.jpg"
+ },
+ "kami-ita": {
+  "photo_file": "File:Kamiita Station.jpg"
+ },
+ "furugo": {
+  "photo_file": "File:Furugo Station.JPG"
+ },
+ "kami-mio": {
+  "photo_file": "File:Kamimio Station.JPG"
+ },
+ "chikuho-nogata": {
+  "photo_file": "File:Chikuho-Nogata Station 20160618.jpg"
+ },
+ "amagi": {
+  "photo_file": "File:Amagi Station (Nishitetsu) 20151120-2.JPG"
+ },
+ "miyanojin": {
+  "photo_file": "File:Miyanojin Station 20151120.JPG"
+ },
+ "kanada": {
+  "photo_file": "File:Kanada Station.JPG"
+ },
+ "kyushutetsudo-kinenkan": {
+  "photo_file": "File:Kinennkann.JPG"
+ },
+ "hashimoto-fukuoka": {
+  "photo_file": "File:Fukuoka Hashimoto-STA Entrance2.jpg"
+ },
+ "yakuin": {
+  "photo_file": "File:Nishitetsu yakuin sta.JPG"
+ },
+ "nishitetsu-futsukaichi": {
+  "photo_file": "File:Nishitetsu futsukaichi station 20200211 1.jpg"
+ },
+ "wajiro": {
+  "photo_file": "File:Wajiro Station (JR Kashii Line) 20160915.jpg"
+ },
+ "nishitetsu-shingu": {
+  "photo_file": "File:Nishitetsu-Shingu Station 20151207.JPG"
+ },
+ "dazaifu": {
+  "photo_file": "File:Dazaifu Station 太宰府駅2.jpg"
+ },
+ "imari": {
+  "photo_file": "File:Imari Station JR Station wicket 20201128.jpg"
+ },
+ "hizen-kubo": {
+  "photo_file": "File:Hizen-kubo station.jpg"
+ },
+ "honmutabe": {
+  "photo_file": "File:JRKyushu Honmutabe Station01.jpg"
+ },
+ "yamamoto-kyushu": {
+  "photo_file": "File:Saga Yamamoto Station.JPG"
+ },
+ "onizuka": {
+  "photo_file": "File:JRKyushu Onizuka Station.jpg"
+ },
+ "watada": {
+  "photo_file": "File:Watada-STA Entrance.jpg"
+ },
+ "karatsu": {
+  "photo_file": "File:JR Karatsu Station ac.jpg"
+ },
+ "saitozaki": {
+  "photo_file": "File:Saitozaki Station 20190317.jpg"
+ },
+ "umi": {
+  "photo_file": "File:Umi Station 20190118.jpg"
+ },
+ "susukino": {
+  "photo_file": "File:Susukino Sta subway 4.jpg"
+ },
+ "makomanai": {
+  "photo_file": "File:SapporoNanboku3000and5000.jpeg"
+ },
+ "miyanosawa": {
+  "photo_file": "File:Sapporo Subway Miyanosawa Station.jpg"
+ },
+ "kotoni": {
+  "photo_file": "File:Sapporo Subway Kotoni Station.jpg"
+ },
+ "shin-sapporo": {
+  "photo_file": "File:Sapporo Subway Shin Sapporo Station.jpg"
+ },
+ "sakaemachi-sapporo": {
+  "photo_file": "File:Sapporo Subway Sakaemachi Station.jpg"
+ },
+ "nishi-yon-chome": {
+  "photo_file": "File:Nisi 4choume Eki.jpg"
+ },
+ "chuo-toshokan-mae": {
+  "photo_file": "File:Chuo toshokan mae Tram stop 201509.JPG"
+ },
+ "otaru": {
+  "photo_file": "File:Otaru Station01s3.jpg"
+ },
+ "shiroishi-sapporo": {
+  "photo_file": "File:JR Hakodate-Main-Line・Chitose-Line Shiroishi Station building (South Exit).jpg"
+ },
+ "horomui": {
+  "photo_file": "File:JR Hakodate-Main-Line Horomui Station building.jpg"
+ },
+ "kami-horomui": {
+  "photo_file": "File:JR Hakodate-Main-Line Kami-Horomui Station building (Overall).jpg"
+ },
+ "numanohata": {
+  "photo_file": "File:JR Muroran-Main-Line・Chitose-Line Numanohata Station Free passage.jpg"
+ },
+ "hokkaido-iryodaigaku": {
+  "photo_file": "File:JR Sassho-Line Hokkaido-Iryodaigaku Station East Exit (West side).jpg"
+ },
+ "soneda": {
+  "photo_file": "File:Fukushima Kotsu Iizaka Line Soneda Station.jpg"
+ },
+ "iizaka-onsen": {
+  "photo_file": "File:Fukushima Kotsu Iizaka Line Iizaka-Onsen Station.jpg"
+ },
+ "yoshida": {
+  "photo_file": "File:JR Echigo Line・Yahiko Line Yoshida Station Platform 1.jpg"
+ },
+ "kashiwazaki": {
+  "photo_file": "File:JR Shin-estu Line・Echigo Line Kashiwazaki Station Platform 0・1.jpg"
+ },
+ "kawaguchiko": {
+  "photo_file": "File:170505 Kawaguchiko Station Kawaguchiko Yamanashi pref Japan03s3.jpg"
+ },
+ "shinjohara": {
+  "photo_file": "File:JR Central Shinjohara Station Platform 1.jpg"
+ },
+ "shin-hamamatsu": {
+  "photo_file": "File:Shin-Hamamatsu-STA Platforms.jpg"
+ },
+ "otowacho": {
+  "photo_file": "File:OtowachoStation.jpg"
+ },
+ "kasugacho": {
+  "photo_file": "File:Kasugacho Station.JPG"
+ },
+ "yunoki-chubu": {
+  "photo_file": "File:Shizutetsu Yunoki Station.JPG"
+ },
+ "pref-sports-park": {
+  "photo_file": "File:Kensogoundojo eki 1.jpg"
+ },
+ "pref-art-museum": {
+  "photo_file": "File:KenritsuBijutsukanmae-Station.jpg"
+ },
+ "kusanagi": {
+  "photo_file": "File:Kusanagi Station (Shizuoka-Shimizu railway) April 13th 2008.JPG"
+ },
+ "kitsunegasaki": {
+  "photo_file": "File:Kitsunegasaki-Station.jpg"
+ },
+ "sakurabashi": {
+  "photo_file": "File:Shizutetsu Sakurabashi eki 1.jpg"
+ },
+ "shin-shimizu": {
+  "photo_file": "File:Shin-Shimizu Station 20150916.jpg"
+ },
+ "shin-shizuoka": {
+  "photo_file": "File:Shinshizuoka-cenova.jpg"
+ },
+ "senzu": {
+  "photo_file": "File:SenzuStaJP22Feb05-4.jpg"
+ },
+ "ikawa": {
+  "photo_file": "File:Ikawa-Sta-inside1.jpg"
+ },
+ "enshu-gansuiji": {
+  "photo_file": "File:Enshu-railway-17-Gansuiji-station-platform-20110110.jpg"
+ },
+ "kawana-kanto": {
+  "photo_file": "File:Izu-kyuko-railway-IZ03-Kawana-station-platform-20180104-082856.jpg"
+ },
+ "izukyushimoda": {
+  "photo_file": "File:Shimoda station.jpg"
+ },
+ "shuzenji": {
+  "photo_file": "File:修善寺駅 3番線・4番線ホーム（2023年4月）.jpg"
+ },
+ "yoshiwara-honcho": {
+  "photo_file": "File:Yoshiwara-honcho stn.jpg"
+ },
+ "maehira-koen": {
+  "photo_file": "File:Maehira-koen Stn2008-1.jpg"
+ },
+ "hokuno": {
+  "photo_file": "File:HokunoSta2012.JPG"
+ },
+ "ibi": {
+  "photo_file": "File:Kintetsu Ibi station 1.jpg"
+ },
+ "tarumi-chubu": {
+  "photo_file": "File:Tarumi Railway Tarumi Line Tarumi Sta. 20220401 10.jpg"
+ },
+ "akechi-chubu": {
+  "photo_file": "File:Akechi Railway Akechi Station 2021-01 ac (2).jpg"
+ },
+ "unumajuku": {
+  "photo_file": "File:Unumajyuku station.JPG"
+ },
+ "haba-nagoya": {
+  "photo_file": "File:MT-Haba Station.JPG"
+ },
+ "ogase": {
+  "photo_file": "File:Ogase station.JPG"
+ },
+ "kagamigahara": {
+  "photo_file": "File:Kagamigahara Station-Building 1.jpg"
+ },
+ "rokken-nagoya": {
+  "photo_file": "File:MT-Rokken Station-Building 2.JPG"
+ },
+ "shimin-koen-mae": {
+  "photo_file": "File:MT-Shiminkōen-mae Station-Building for Gifu.jpg"
+ },
+ "naka": {
+  "photo_file": "File:Naka Station-Building.jpg"
+ },
+ "shin-naka": {
+  "photo_file": "File:Shin-ｎaka station.JPG"
+ },
+ "shin-kano": {
+  "photo_file": "File:Meitetsu Shin-Kanou Station 01.JPG"
+ },
+ "takadabashi": {
+  "photo_file": "File:Meitetsu Takadabashi Station 01.JPG"
+ },
+ "mino-ota": {
+  "photo_file": "File:JRC taita line Mino-ota station 01.jpg"
+ },
+ "shin-uozu": {
+  "photo_file": "File:Toyama Chihō Railway Shin-Uozu Station-Platform.jpg"
+ },
+ "uozu": {
+  "photo_file": "File:Uozu Station(1).jpg"
+ },
+ "dentetsu-uozu": {
+  "photo_file": "File:Dentetsu Uozu Station ac.jpg"
+ },
+ "nishi-uozu": {
+  "photo_file": "File:Nishi-uozu-station 2018.jpg"
+ },
+ "etchu-nakamura": {
+  "photo_file": "File:Etchuunakamura sta2.jpg"
+ },
+ "higashi-namerikawa": {
+  "photo_file": "File:Higashi-Namerikawa Station(1).jpg"
+ },
+ "hayatsukikazumi": {
+  "photo_file": "File:Hayatsuki-kazumi-station 2018.jpg"
+ },
+ "hamakazumi": {
+  "photo_file": "File:Hama-kazumi-station 2018.jpg"
+ },
+ "namerikawa": {
+  "photo_file": "File:Ainokaze Namerikawa Station 2020.jpg"
+ },
+ "naka-namerikawa": {
+  "photo_file": "File:Nakanamerikawa-station 2018.jpg"
+ },
+ "nishi-namerikawa": {
+  "photo_file": "File:Nishi-namerikawa-station 2018.jpg"
+ },
+ "st-5496": {
+  "photo_file": "File:Oarks Canal Park Hotel Toyama-mae.jpg"
+ },
+ "isurugi": {
+  "photo_file": "File:Isurugi Station 2020.jpg"
+ },
+ "unazuki": {
+  "photo_file": "File:Unazuki Station, ekisha.jpg"
+ },
+ "unazukionsen": {
+  "photo_file": "File:Unazuki Onsen Station 20180505.jpg"
+ },
+ "terada-toyama": {
+  "photo_file": "File:Terada-station 2018.jpg"
+ },
+ "higashi-shinjo": {
+  "photo_file": "File:Higashishinjou sta1.jpg"
+ },
+ "shinjo-tanaka": {
+  "photo_file": "File:Shinjyotanakaeki.JPG"
+ },
+ "inari-machi": {
+  "photo_file": "File:Inarimachi-Station 20090328.jpg"
+ },
+ "iwakuraji": {
+  "photo_file": "File:Iwakuraji Station.jpg"
+ },
+ "bijodaira": {
+  "photo_file": "File:Bijodaira Station 20100905.jpg"
+ },
+ "nishi-matsumoto": {
+  "photo_file": "File:Nishimatsumoto sta.jpg"
+ },
+ "shin-shimashima": {
+  "photo_file": "File:新島々駅 - panoramio (2).jpg"
+ },
+ "kurobeko": {
+  "photo_file": "File:Kurobeko Station entrance 20100906-1.jpg"
+ },
+ "kurobedaira": {
+  "photo_file": "File:Kurobedaira Station 20100904-2.jpg"
+ },
+ "mino-akasaka": {
+  "photo_file": "File:美濃赤坂駅 駅舎(2023年8月).jpg"
+ },
+ "minami-toyama": {
+  "photo_file": "File:Toyamatram.jpg"
+ },
+ "daisenji": {
+  "photo_file": "File:Daisenji stn 2.jpg"
+ },
+ "st-5613": {
+  "photo_file": "File:JRW Himi-STA Platform.jpg"
+ },
+ "kurikara": {
+  "photo_file": "File:Kurikara-station-building.jpg"
+ },
+ "tsubata-chubu": {
+  "photo_file": "File:Tsubata-station platform-20160529.jpg"
+ },
+ "st-5631": {
+  "photo_file": "File:Nanatsuya-STA Platform.jpg"
+ },
+ "shin-nishi-kanazawa": {
+  "photo_file": "File:Shin-Nishi-Kanazawa-station.jpg"
+ },
+ "nishi-kanazawa": {
+  "photo_file": "File:Nishi-Kanazawa-STA West.jpg"
+ },
+ "daishoji": {
+  "photo_file": "File:260718 Daishoji Station Kaga Ishikawa pref Japan01s3.jpg"
+ },
+ "wakura-onsen": {
+  "photo_file": "File:Wakura Onsen Station.jpg"
+ },
+ "anamizu": {
+  "photo_file": "File:Anamizu-station-20160528.jpg"
+ },
+ "nomachi": {
+  "photo_file": "File:Nomachi Station 2020.jpg"
+ },
+ "st-5686": {
+  "photo_file": "File:Tsurugi-station.jpg"
+ },
+ "st-5696": {
+  "photo_file": "File:Uchinada-STA.jpg"
+ },
+ "shin-fukui": {
+  "photo_file": "File:ShinFukui station 2016.jpg"
+ },
+ "shokokaigisho-mae": {
+  "photo_file": "File:Kidayotsutsujieki.jpg"
+ },
+ "sekijujimae": {
+  "photo_file": "File:Fukuishineki.jpg"
+ },
+ "echizen-hanando": {
+  "photo_file": "File:Echizen-Hanando Station 2020.jpg"
+ },
+ "iehisa": {
+  "photo_file": "File:Iehisa Station 2013.JPG"
+ },
+ "sports-koen": {
+  "photo_file": "File:Supotsu koen 2013.jpg"
+ },
+ "st-5741": {
+  "photo_file": "File:Katsuyama station 2013.JPG"
+ },
+ "tawaramachi-fukui": {
+  "photo_file": "File:Tawaramachi-Station Platform.jpg"
+ },
+ "mikuni-minato": {
+  "photo_file": "File:Mikuni Minato Station.jpg"
+ },
+ "yahiko": {
+  "photo_file": "File:Yahiko Station zenkei.JPG"
+ },
+ "toyamadaigaku-mae": {
+  "photo_file": "File:Daigakumaeeki 1.JPG"
+ },
+ "intec-honshamae": {
+  "photo_file": "File:Intec-Honshamae Station(3).jpg"
+ },
+ "okuda-chugakko-mae": {
+  "photo_file": "File:Toyama Light Rail Okudachugakkomae station for iwasehama.JPG"
+ },
+ "yanagibashi": {
+  "photo_file": "File:Kurobe Gorge Railway Yanagibashi Station.jpg"
+ },
+ "keyakidaira": {
+  "photo_file": "File:Keyakista.jpg"
+ },
+ "shiojiri": {
+  "photo_file": "File:JR Chuo-Main-Line・Shinonoi-Line Shiojiri Station West Exit.jpg"
+ },
+ "kobuchizawa": {
+  "photo_file": "File:JR Chuo-Main-Line・Koumi-Line Kobuchizawa Station Platform 1・2.jpg"
+ },
+ "kitanagano": {
+  "photo_file": "File:Kita-Nagano-STA Home2-3.jpg"
+ },
+ "shinanoyoshida": {
+  "photo_file": "File:Shinano-Yoshida-STA Home.jpg"
+ },
+ "toyono": {
+  "photo_file": "File:Shinano Railway・JR Toyono Station Platform.jpg"
+ },
+ "shinano-asano": {
+  "photo_file": "File:Shinano-Asano-STA.jpg"
+ },
+ "myoko-kogen": {
+  "photo_file": "File:Echigo TOKImeki Railway・Shinano Railway Myoko-Kogen Station Platform.jpg"
+ },
+ "ito": {
+  "photo_file": "File:JRE Ito-STA Platform1.jpg"
+ },
+ "saigata": {
+  "photo_file": "File:Saigata 20040718.jpg"
+ },
+ "echigo-kawaguchi": {
+  "photo_file": "File:JR Joetsu Line・Iiyama Line Echigo-Kawaguchi Station building.jpg"
+ },
+ "miyauchi": {
+  "photo_file": "File:Miyauchi-Station-east.JPG"
+ },
+ "echigo-ishiyama": {
+  "photo_file": "File:JR Shin-etsu Line Echigo-Ishiyama Station Platform.jpg"
+ },
+ "shibata-japan": {
+  "photo_file": "File:JR Uetsu Line・Hakushin Line Shibata Station Platform 2・3.jpg"
+ },
+ "kita-matsumoto": {
+  "photo_file": "File:JR Oito Line Kita-Matsumoto Station Platform.jpg"
+ },
+ "shinonoi": {
+  "photo_file": "File:JR・Shinano Railway Shinonoi Station Platform.jpg"
+ },
+ "higashi-komoro": {
+  "photo_file": "File:JR Koumi Line Higashi-Komoro Station Platform.jpg"
+ },
+ "otome": {
+  "photo_file": "File:JR Koumi Line Otome Station Platform.jpg"
+ },
+ "gondo": {
+  "photo_file": "File:Gondo Station 2023-05-27.jpg"
+ },
+ "yudanaka": {
+  "photo_file": "File:湯田中駅2016.jpeg"
+ },
+ "st-6223": {
+  "photo_file": "File:Ireji-STA.jpg"
+ },
+ "motegi": {
+  "photo_file": "File:Motegi station.JPG"
+ },
+ "mito-kanto": {
+  "photo_file": "File:JRE Mito-STA Platform3-4.jpg"
+ },
+ "minohamagakuen": {
+  "photo_file": "File:Minohama-Gakuen Station.jpg"
+ },
+ "kokimae": {
+  "photo_file": "File:Nikkomae-Sta-Patform.JPG"
+ },
+ "kashinomori-park": {
+  "photo_file": "File:Kashinomori Park station, April 2023.jpg"
+ },
+ "karasuyama": {
+  "photo_file": "File:JR Karasuyama Line Karasuyama Station Platform.jpg"
+ },
+ "sano": {
+  "photo_file": "File:JR East・Tobu Railway Sano Station JR Line Platform.jpg"
+ },
+ "miyawaki": {
+  "photo_file": "File:Miyawaki Station 2023.jpg"
+ },
+ "tsukubasancho": {
+  "photo_file": "File:Tsukubasan Cable Railway Tsukuba-Sancho Station.JPG"
+ },
+ "shimo-shinden": {
+  "photo_file": "File:Shimo-shinden sta.jpg"
+ },
+ "kanashima": {
+  "photo_file": "File:JR Agatsuma Line Kanashima Station Platform.jpg"
+ },
+ "omae": {
+  "photo_file": "File:JR Agatsuma Line Omae Station Platform.jpg"
+ },
+ "undo-koen": {
+  "photo_file": "File:Watetsu-WK04-Undo-koen-station-platform-20250505-082629.jpg"
+ },
+ "kiryu-kyujo-mae": {
+  "photo_file": "File:Joden-Kiryu-kyujo-mae-station-platform-20100907.jpg"
+ },
+ "mato": {
+  "photo_file": "File:Mato Station ac (2).jpg"
+ },
+ "shimonita": {
+  "photo_file": "File:Joshin-railway-Shimonita-station-platform.jpg"
+ },
+ "st-6406": {
+  "photo_file": "File:Yagan-railway-TN58-Shin-fujiwara-station-building-20210804-130738.jpg"
+ },
+ "yashu-hirakawa": {
+  "photo_file": "File:Tobu-railway-TN31-Yashu-hirakawa-station-building-20210803-075910.jpg"
+ },
+ "kada": {
+  "photo_file": "File:Nankai Kada eki 1.jpg"
+ },
+ "st-6580": {
+  "photo_file": "File:Tappi-kaitei Station3.jpg"
+ },
+ "higashi-noshiro": {
+  "photo_file": "File:Higashi-Noshiro Station 20210411.jpg"
+ },
+ "hirosaki-higashikomae": {
+  "photo_file": "File:Hirosakihigasikōmae station03.JPG"
+ },
+ "kuroishi": {
+  "photo_file": "File:Kuroishi Station 20220821.jpg"
+ },
+ "owani-onsen": {
+  "photo_file": "File:Owani-Onsen Station 2023.jpg"
+ },
+ "ishikawa": {
+  "photo_file": "File:Ishikawa Station Platform, Konan Railway.jpg"
+ },
+ "tsugaru-nakasato": {
+  "photo_file": "File:Tsugarunakasato-eki01.jpg"
+ },
+ "kuji-tohoku": {
+  "photo_file": "File:Iwate Kuji 2019.jpg"
+ },
+ "izumi-sotoasahikawa": {
+  "photo_file": "File:Waiting room of Izumi-Sotoasahikawa Station 20210321a.jpg"
+ },
+ "oiwake-tohoku": {
+  "photo_file": "File:JR East Oiwake Station building in Akita City, Akita Pref.jpg"
+ },
+ "nanyo-shiyakusho": {
+  "photo_file": "File:Nan-yō-Shiyakusho Station.JPG"
+ },
+ "minami-shinjo": {
+  "photo_file": "File:JR East Minami-Shinjō Station Entrance, Yamagata Pref.jpg"
+ },
+ "miyako": {
+  "photo_file": "File:Sanriku Railway and JR East Miyako Station.jpg"
+ },
+ "kami-morioka": {
+  "photo_file": "File:JR East Kami-Morioka Station building in Morioka City, Iwate Pref.jpg"
+ },
+ "ryori": {
+  "photo_file": "File:Sanriku Railway Ryōri Station building in Ofunato City, Iwate Pref.jpg"
+ },
+ "kamaishi": {
+  "photo_file": "File:JR&Sanriku Railway Kamaishi Station.JPG"
+ },
+ "rikuzen-akasaki": {
+  "photo_file": "File:Sanriku Railway Rikuzen-Akasaki Station Appearance in Ofunato City, Iwate Pref.jpg"
+ },
+ "imaizumi": {
+  "photo_file": "File:Imaizumi Station07262009.JPG"
+ },
+ "aterazawa": {
+  "photo_file": "File:JR East Aterazawa Station Platform, Yamagata Pref.jpg"
+ },
+ "arato": {
+  "photo_file": "File:Arato-eki01.jpg"
+ },
+ "higashi-niitsu": {
+  "photo_file": "File:JR East Higashi-Niitsu Station Platform, Niigata Pref.jpg"
+ },
+ "iwaki-kanto": {
+  "photo_file": "File:JRE Iwaki-STA Platforms.jpg"
+ },
+ "st-7105": {
+  "photo_file": "File:Nishi-Wakamatsu Station Platform, Fukushima Pref.jpg"
+ },
+ "aizukogen-ozeguchi": {
+  "photo_file": "File:Aizukogenozeguchi sta.jpg"
+ },
+ "oroshimachi": {
+  "photo_file": "File:Oroshimachi(Fukushima) Station.jpg"
+ },
+ "taishido": {
+  "photo_file": "File:JR East Taishidō Station building in Sendai City Taihaku Ward, Miyagi Pref 20250125.jpg"
+ },
+ "rembo": {
+  "photo_file": "File:Rembo sta west1 exit.JPG"
+ },
+ "miyagino-dori": {
+  "photo_file": "File:Miyagino-Dōri sta south1 exit.JPG"
+ },
+ "rikuzen-hamada": {
+  "photo_file": "File:JR East Rikuzen-Hamada Station Platform, Miyagi Pref.jpg"
+ },
+ "yanaizu-tohoku": {
+  "photo_file": "File:JR East Yanaizu Station Platform 1, Miyagi Pref.jpg"
+ },
+ "hakodate": {
+  "photo_file": "File:JRH Hakodate-STA Entrance.jpg"
+ },
+ "goryokaku": {
+  "photo_file": "File:JRH Goryokaku-STA.jpg"
+ },
+ "oshamambe": {
+  "photo_file": "File:JR Hakodate-Main-Line・Muroran-Main-Line Oshamambe Station building.jpg"
+ },
+ "oiwake-hokkaido": {
+  "photo_file": "File:JR Muroran-Main-Line・Sekisho-Line Oiwake Station building.jpg"
+ },
+ "shintoku": {
+  "photo_file": "File:Shintoku-STA.jpg"
+ },
+ "kesennuma": {
+  "photo_file": "File:Kesennuma Station.png"
+ },
+ "tomakomai": {
+  "photo_file": "File:JR Muroran-Main-Line・Hidaka-Main-Line Tomakomai Station South Exit.jpg"
+ },
+ "furano": {
+  "photo_file": "File:Furano Station - 2022 Aug 12 various 15 14 36 502000.jpeg"
+ },
+ "akabira": {
+  "photo_file": "File:JR Nemuro-Main-Line Akabira Station building.jpg"
+ },
+ "asahikawa-yojo": {
+  "photo_file": "File:Asahikawa-Yojo Station.jpg"
+ },
+ "shin-asahikawa": {
+  "photo_file": "File:JR Soya-Main-Line・Sekihoku-Main-Line Shin-Asahikawa Station building.jpg"
+ },
+ "abashiri": {
+  "photo_file": "File:Abashiri Station01s3.jpg"
+ },
+ "mukawa": {
+  "photo_file": "File:JR Hidaka-Main-Line Mukawa Station building.jpg"
+ },
+ "izumi-chuo-sendai": {
+  "photo_file": "File:Izumi-Chuo station platforms.jpg"
+ },
+ "yagiyama-zoological-park": {
+  "photo_file": "File:Yagiyama zoo St.JPG"
+ },
+ "arai-sendai": {
+  "photo_file": "File:SS Arai station South Entrance.jpeg"
+ },
+ "sendai-airport": {
+  "photo_file": "File:211028 Sendai Airport Station Miyagi prefecture Japan01s.jpg"
+ },
+ "inari-machi-hiroshima": {
+  "photo_file": "File:Inarimachi stn.JPG"
+ },
+ "ebisu-cho": {
+  "photo_file": "File:Ebisumachi stn hiroshima.JPG"
+ },
+ "hatchobori-hiroshima": {
+  "photo_file": "File:八丁堀電停広島駅行き 2013.jpg"
+ },
+ "shiyakusho-mae-hiroshima": {
+  "photo_file": "File:Hiroden Hiroshima City Office Sta.01.jpg"
+ },
+ "takano-bashi": {
+  "photo_file": "File:Takanobashi Station, Hiroshima 02.jpg"
+ },
+ "dobashi": {
+  "photo_file": "File:Hiroden Dobashi Sta.JPG"
+ },
+ "koami-cho": {
+  "photo_file": "File:Koamicyo stn.jpg"
+ },
+ "temma-cho": {
+  "photo_file": "File:Tenma-chō Tramstop pt1.jpg"
+ },
+ "kan-on-machi": {
+  "photo_file": "File:Kan-on-machi Tramstop pt1.jpg"
+ },
+ "nishi-kan-on-machi": {
+  "photo_file": "File:Nishi-Kan-on-machi Tramstop pt1.jpg"
+ },
+ "fukushima-cho": {
+  "photo_file": "File:Fukushima-chō Tramstop pt1.jpg"
+ },
+ "hiroden-nishi-hiroshima": {
+  "photo_file": "File:Platform of Hiroden-Nishi-Hiroshima Station 3.jpg"
+ },
+ "hijiyama-shita": {
+  "photo_file": "File:Hiroden Hijiyama-shita Sta.jpg"
+ },
+ "hijiyama-bashi": {
+  "photo_file": "File:Hiroden Hijiyama-bashi Sta.01.jpg"
+ },
+ "minami-kuyakusho-mae": {
+  "photo_file": "File:Hiroden Minami Ward office Sta.01.jpg"
+ },
+ "funairi-machi": {
+  "photo_file": "File:Funairi-machi Station pt1.jpg"
+ },
+ "funairi-hon-machi": {
+  "photo_file": "File:Hiroden Funairi Honmachi.JPG"
+ },
+ "funairi-saiwai-cho": {
+  "photo_file": "File:Hiroden Funairi Saiwaicho.JPG"
+ },
+ "funairi-kawaguchi-cho": {
+  "photo_file": "File:Hiroden Funairi Kawaguchicho 01.JPG"
+ },
+ "funairi-minami": {
+  "photo_file": "File:Hiroden Funairi Minami 01.JPG"
+ },
+ "eba": {
+  "photo_file": "File:Eba Rail and Bus Yard pt1.jpg"
+ },
+ "betsuin-mae": {
+  "photo_file": "File:Hiroden Hiroshima Betsuin Sta.01.jpg"
+ },
+ "tera-machi": {
+  "photo_file": "File:Hiroden Tera-machi Sta.01.jpg"
+ },
+ "omachi-hiroshima": {
+  "photo_file": "File:Ōmachi Station building.jpg"
+ },
+ "aki-kameyama": {
+  "photo_file": "File:Aki-Kameyama Station 20170309.jpg"
+ },
+ "sofukuji-temple": {
+  "photo_file": "File:Nagasaki Electric Tramway station 35 Shokakuji-shita.png"
+ },
+ "shianbashi": {
+  "photo_file": "File:Shianbashi Station 4.JPG"
+ },
+ "kanko-dori": {
+  "photo_file": "File:Kanko-Dori Station.JPG"
+ },
+ "nishihamano-machi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 32and36 Nishihamano machi.png"
+ },
+ "shinchi-chinatown": {
+  "photo_file": "File:Nagasaki Electric Tramway station 31 Tsuki machi.png"
+ },
+ "dejima": {
+  "photo_file": "File:Nagasaki Electric Tramway station 30 Dejima.png"
+ },
+ "ohato": {
+  "photo_file": "File:Nagasaki Electric Tramway station 29 Ohato.png"
+ },
+ "goto-machi": {
+  "photo_file": "File:Gotomachi Station.JPG"
+ },
+ "yachiyo-machi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 26 Yachiyo machi.png"
+ },
+ "mori-machi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 23 Mori machi.png"
+ },
+ "university-hospital": {
+  "photo_file": "File:Nagasaki Electric Tramway station 21 Daigaku byoin-mae.png"
+ },
+ "atomic-bomb-museum": {
+  "photo_file": "File:Hamaguchimachi-Station.JPG"
+ },
+ "peace-park": {
+  "photo_file": "File:Matsuyamamachi Station 20150926.JPG"
+ },
+ "urakami-tram-depot": {
+  "photo_file": "File:Nagasaki Electric Tramway station 17 Urakami shako-mae.png"
+ },
+ "iwayabashi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 16 Iwayabashi.png"
+ },
+ "nagasaki-university": {
+  "photo_file": "File:Nagasaki Daigaku mae tram stop 2011.jpg"
+ },
+ "wakaba-machi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 14 Wakaba machi.png"
+ },
+ "chitose-machi": {
+  "photo_file": "File:Nagasaki Electric Tramway station 13 Chitose machi.png"
+ },
+ "showamachi-dori": {
+  "photo_file": "File:Nagasaki Electric Tramway station Showa machi-dori.png"
+ },
+ "sumiyoshi-nagasaki": {
+  "photo_file": "File:Nagasaki Electric Tramway station 12 Sumiyoshi.png"
+ },
+ "akasako": {
+  "photo_file": "File:Nagasaki Electric Tramway station 11 Akasako.png"
+ },
+ "hotarujaya": {
+  "photo_file": "File:Hotarujaya-home.JPG"
+ },
+ "shinnakagawa-machi": {
+  "photo_file": "File:NEW-NAKAGAWAMACHI-STATION.jpg"
+ },
+ "shindaiku-machi": {
+  "photo_file": "File:Shindaiku-machi tramstop 20190727.jpg"
+ },
+ "suwajinja-shrine": {
+  "photo_file": "File:Suwa-jinja Shrine tramstop 20180819 01.jpg"
+ },
+ "city-hall": {
+  "photo_file": "File:Nagasaki Electric Tramway station 38 Kokaido-mae.png"
+ },
+ "meganebashi-bridge": {
+  "photo_file": "File:Nagasaki Electric Tramway station 37 Nigiwaibashi.png"
+ },
+ "hamano-machi-arcade": {
+  "photo_file": "File:Hamano-machi Arcade Station 20180804.jpg"
+ },
+ "ishibashi-nagasaki": {
+  "photo_file": "File:Nagasaki Electric Tramway Ishibashi Station.JPG"
+ },
+ "tasakibashi": {
+  "photo_file": "File:Tasakibashi-STA.jpg"
+ },
+ "karashimacho": {
+  "photo_file": "File:Karashimacho Station 4.JPG"
+ },
+ "hanabatacho": {
+  "photo_file": "File:Hanabatacho Station 3.JPG"
+ },
+ "kumamoto-castle-city-hall": {
+  "photo_file": "File:Kumamoto Castle-City Hall Station 8.JPG"
+ },
+ "torichosuji": {
+  "photo_file": "File:Tori-cho-suji sta Kumamoto01n4272.jpg"
+ },
+ "suidocho": {
+  "photo_file": "File:Suidocho Station 3.JPG"
+ },
+ "kuhonjikosaten": {
+  "photo_file": "File:Kuhonjikosaten Station 2.JPG"
+ },
+ "kotsukyoku-mae": {
+  "photo_file": "File:Kumamoto City Tram Kotsukyoku-mae Station 3.JPG"
+ },
+ "misotenjin-mae": {
+  "photo_file": "File:Misotenjin-mae Station 4.JPG"
+ },
+ "kokubu": {
+  "photo_file": "File:Kumamoto City Tram Kokubu Station 3.JPG"
+ },
+ "suizenji-park": {
+  "photo_file": "File:Suizenji Park Station 4.JPG"
+ },
+ "shiritsutaiikukan-mae": {
+  "photo_file": "File:Kumamoto City Gymnasium Station 4.JPG"
+ },
+ "shogyokoko-mae": {
+  "photo_file": "File:Shogyokoko-mae Station Kumamoto 4.JPG"
+ },
+ "hacchobaba": {
+  "photo_file": "File:Hacchobaba Station 3.JPG"
+ },
+ "kuwamizu-kosaten": {
+  "photo_file": "File:Kuwamizu-Kumamoto Municipal Hospital Station 3.JPG"
+ },
+ "kengunko-mae": {
+  "photo_file": "File:Kengunko-mae Station 3.JPG"
+ },
+ "kengunkoban-mae": {
+  "photo_file": "File:Kengunkoban-mae Station.JPG"
+ },
+ "kengunmachi": {
+  "photo_file": "File:Kengunmachi Station 2.jpg"
+ },
+ "sakurajimasanbashidori": {
+  "photo_file": "File:Sakurajimasambashidori tramstop Kagoshima city transportation bureau.jpg"
+ },
+ "suizokukanguchi": {
+  "photo_file": "File:Suizokukanguchi tramstop Kagoshima city transportation bureau.jpg"
+ },
+ "shikayusho-mae": {
+  "photo_file": "File:Kagoshima Street Car Shiyakushomae Station.JPG"
+ },
+ "asahidori": {
+  "photo_file": "File:Asahidori tramstop Kagoshima city transportation bureau.jpg"
+ },
+ "izurodori": {
+  "photo_file": "File:Izurodori tramstop Kagoshima city transportation bureau.jpg"
+ },
+ "tenmonkandori-1-07-2-07": {
+  "photo_file": "File:Tenmonkandori tram Japan.jpg"
+ },
+ "takamibaba": {
+  "photo_file": "File:Kagoshima Street Car Takamibaba Station 2004.JPG"
+ },
+ "korimoto": {
+  "photo_file": "File:Kōrimoto (South) Station -April 2010 a.jpg"
+ },
+ "taniyama": {
+  "photo_file": "File:Kagoshima-JR-Taniyama-station-building202010.jpg"
+ },
+ "yunokawa": {
+  "photo_file": "File:Hakodate city tram Yunokawa station.JPG"
+ },
+ "yunokawa-onsen": {
+  "photo_file": "File:Yunokawa-onsen Station.jpg"
+ },
+ "hakodate-arena-mae": {
+  "photo_file": "File:函館アリーナ前停留場（往線側から）.jpg"
+ },
+ "komaba-shako-mae": {
+  "photo_file": "File:Komaba-Shako Mae Station.jpg"
+ },
+ "keibajo-mae": {
+  "photo_file": "File:競馬場前停留場(2017年3月).jpg"
+ },
+ "fukaboricho": {
+  "photo_file": "File:Fukaboricho Station.jpg"
+ },
+ "kashiwagicho": {
+  "photo_file": "File:Kashiwagicho Station.jpg"
+ },
+ "suginamicho": {
+  "photo_file": "File:杉並町停留場（復線側・湯の川方向に向かって１・ラバーポール含む）.jpg"
+ },
+ "goryokaku-koen-mae": {
+  "photo_file": "File:Goryokaku kouen mae1.jpg"
+ },
+ "chuo-byoin": {
+  "photo_file": "File:中央病院前停留所(2017年3月).jpg"
+ },
+ "chiyogadai": {
+  "photo_file": "File:Chiyogadai Station.jpg"
+ },
+ "horikawacho": {
+  "photo_file": "File:Horikawacho Station.jpg"
+ },
+ "showa-bashi": {
+  "photo_file": "File:Showa-bashi-STA.jpg"
+ },
+ "chitose-hakodate": {
+  "photo_file": "File:Hakodate Tram Chitosecho Station.jpg"
+ },
+ "matsukazecho": {
+  "photo_file": "File:Matsukazecho Station.jpg"
+ },
+ "shiyakusho-mae-hakodate": {
+  "photo_file": "File:Shiyakusho mae Station in Hokkaido 01.jpg"
+ },
+ "uoichibadori": {
+  "photo_file": "File:Uo-Ichiba Dori Station.jpg"
+ },
+ "jujigai": {
+  "photo_file": "File:Hakodate city tram jujigai.jpg"
+ },
+ "yachigashira": {
+  "photo_file": "File:Yachigashira Station.jpg"
+ },
+ "hakodate-dock-mae": {
+  "photo_file": "File:Hakodate-Dokku Mae Station.jpg"
+ },
+ "yanagawa-okayama": {
+  "photo_file": "File:Okaden Yanagawa station 01.jpg"
+ },
+ "nishigawaryokudokouen": {
+  "photo_file": "File:Okaden Nishigawaryokudokoen station 01.jpg"
+ },
+ "seikibashi": {
+  "photo_file": "File:Okaden Seikibashi sta 01.jpg"
+ },
+ "ino-kochi": {
+  "photo_file": "File:Ino Station (Toden).jpg"
+ },
+ "edagawa": {
+  "photo_file": "File:Edagawa station, Dosan-line 02.JPG"
+ },
+ "kamimachi-nichome": {
+  "photo_file": "File:Kamimachi-nichome-tramstop.jpg"
+ },
+ "tosa-otsu": {
+  "photo_file": "File:Tosa-Otsu Station, ekisha.jpg"
+ },
+ "gomen-machi": {
+  "photo_file": "File:TKT-GomenmachiStation.jpg"
+ },
+ "iwasehama": {
+  "photo_file": "File:TLR0601B and Suntory vending machine at Iwasehama Station 20210425.jpg"
+ },
+ "minami-horibata": {
+  "photo_file": "File:Iyotetsu Minami-horibata Sta.JPG"
+ },
+ "nishi-horibata": {
+  "photo_file": "File:Nishihoribata-platform1.JPG"
+ },
+ "kamiichiman": {
+  "photo_file": "File:Iyotetsu Kami-ichiman 1.JPG"
+ },
+ "police": {
+  "photo_file": "File:Iyotetsu Keisatsusho-mae Station.jpg"
+ },
+ "katsuyamacho": {
+  "photo_file": "File:Iyotetsu Katsuyama Sta 02.JPG"
+ },
+ "okaido": {
+  "photo_file": "File:Iyotetsu Okaido Sta.JPG"
+ },
+ "ehime-pref-office": {
+  "photo_file": "File:Iyo Railway Kenchō Mae.JPG"
+ },
+ "matsuyama-city-hall": {
+  "photo_file": "File:Iyotetsu Shiyakusho-mae Sta.JPG"
+ },
+ "uwajima": {
+  "photo_file": "File:Uwajima-Station-Platform-20100526.jpg"
+ },
+ "takamatsu-shikoku": {
+  "photo_file": "File:Takamatsu Station (Kagawa) 20240327.jpg"
+ },
+ "kohoku-kyushu": {
+  "photo_file": "File:JRK Kohoku Station-north-entrance-20220924.jpg"
+ },
+ "kubota-kyushu": {
+  "photo_file": "File:JRKyushu-Kubota-station building-20201128.jpg"
+ },
+ "iwamatsu": {
+  "photo_file": "File:JRKyushu Iwamatsu Station 2.jpg"
+ },
+ "haiki": {
+  "photo_file": "File:View of Sasebo Line from platform 4 of Haiki Station (North).JPG"
+ },
+ "sasebo": {
+  "photo_file": "File:200320 Sasebo Station Sasebo Nagasaki pref Japan03s3.jpg"
+ },
+ "arita": {
+  "photo_file": "File:Arita-eki-1.jpg"
+ },
+ "shimabara-funatsu": {
+  "photo_file": "File:Shimabara-Funatsu Station.JPG"
+ },
+ "takahama-matsuyama": {
+  "photo_file": "File:TAKAHAMA1930.JPG"
+ },
+ "eki-mae": {
+  "photo_file": "File:Ekimae Station (Toyohashi Railroad).jpg"
+ },
+ "aichidaigakumae": {
+  "photo_file": "File:Aichi Daigaku-mae Station 2.jpg"
+ },
+ "minami-sakae": {
+  "photo_file": "File:Minamisakae-Station.JPG"
+ },
+ "mikawa-tahara": {
+  "photo_file": "File:Mikawa-Tahara Station 2021-09 ac (2).jpg"
+ },
+ "showacho-shikoku": {
+  "photo_file": "File:JRS Showacho stn.jpg"
+ },
+ "hanazono-shikoku": {
+  "photo_file": "File:KD-Hanazono Station-Building.jpg"
+ },
+ "rokumanji": {
+  "photo_file": "File:TKR-Rokumanji-pf-1.jpg"
+ },
+ "omachi-shikoku": {
+  "photo_file": "File:TKR-Omachi.jpg"
+ },
+ "sanuki-mure": {
+  "photo_file": "File:JR-Sanuki-mure-pf-1.jpg"
+ },
+ "yakuri-shinmichi": {
+  "photo_file": "File:TKR-Yakuri-shinmichi-pf-1.jpg"
+ },
+ "fusazaki": {
+  "photo_file": "File:Fusazaki-stn.JPG"
+ },
+ "hara-shikoku": {
+  "photo_file": "File:TKR-Hara-pf-1.jpg"
+ },
+ "kotoden-shido": {
+  "photo_file": "File:Kotoden-Shido Station, ekisha.jpg"
+ },
+ "shido": {
+  "photo_file": "File:Shido Station, ekisha.jpg"
+ },
+ "ikenotani": {
+  "photo_file": "File:JR Ikenotani Station ac.jpg"
+ },
+ "sako-shikoku": {
+  "photo_file": "File:JRShikoku-Sako-station-entrance-north-side-20100803.jpg"
+ },
+ "kotohira": {
+  "photo_file": "File:Kotohira-station-building.jpg"
+ },
+ "kotoden-kotohira": {
+  "photo_file": "File:150504 Kotoden-Kotohira Station Kotohira Kagawa pref Japan01n.jpg"
+ },
+ "nagao-shikoku": {
+  "photo_file": "File:Nagao Station (Kagawa) Station building 2022-01-22.jpg"
+ },
+ "awa-kainan": {
+  "photo_file": "File:Divided Mugi and Asa-kaigann line,Awakainan sta. 2022.jpg"
+ },
+ "tsukuda-shikoku": {
+  "photo_file": "File:JRS tsukuda sta.jpg"
+ },
+ "naruto-kansai": {
+  "photo_file": "File:Platform of Naruto Station.jpg"
+ },
+ "gomen": {
+  "photo_file": "File:Gomen-Station.jpg"
+ },
+ "nahari": {
+  "photo_file": "File:Tosa Kuroshio Railway Nahari Station.jpg"
+ },
+ "nakamura": {
+  "photo_file": "File:Nakamura Station, ekisha.jpg"
+ },
+ "iejigawa": {
+  "photo_file": "File:Iejigawa station 01.jpg"
+ },
+ "sanbashi-dori-gochome": {
+  "photo_file": "File:Sanbashi-dori-5chome-tramstop-Whole-view.jpg"
+ },
+ "oyama-kyushu": {
+  "photo_file": "File:Oyama20091101.JPG"
+ },
+ "kagoshima": {
+  "photo_file": "File:KagoshimaStation.jpg"
+ },
+ "hayato-kagoshima": {
+  "photo_file": "File:Hayato Station (Kagoshima), ekisha.jpg"
+ },
+ "kitamata": {
+  "photo_file": "File:Kitamata station Soo Kagoshima.jpg"
+ },
+ "takarabe": {
+  "photo_file": "File:Takarabe Station2.JPG"
+ },
+ "isoichi": {
+  "photo_file": "File:Isoichi Station2.JPG"
+ },
+ "nishi-miyakonojo": {
+  "photo_file": "File:Nishi-Miyakonojo Station 2018.JPG"
+ },
+ "uto-kumamoto": {
+  "photo_file": "File:Uto-STA Home.jpg"
+ },
+ "tateno-kumamoto": {
+  "photo_file": "File:Minami-Aso Tateno-STA Platform.jpg"
+ },
+ "misumi": {
+  "photo_file": "File:Misumi Station 20170103-3.jpg"
+ },
+ "tsuboigawa-koen": {
+  "photo_file": "File:Tsuboigawakoen Station.JPG"
+ },
+ "kitakumamoto": {
+  "photo_file": "File:Kita-Kumamoto-Station 20121228.jpg"
+ },
+ "miyoshi-kumamoto": {
+  "photo_file": "File:Miyoshi Station platform 20130430.jpg"
+ },
+ "fujisakigu-mae": {
+  "photo_file": "File:Fujisakigū-mae Station.JPG"
+ },
+ "hitoyoshi": {
+  "photo_file": "File:Hitoyoshi Station, ekisha.jpg"
+ },
+ "sagarahanganjoji": {
+  "photo_file": "File:Sagarahan-ganjyouji station 2.jpg"
+ },
+ "yunomae": {
+  "photo_file": "File:Yunomae-STA Platform.jpg"
+ },
+ "takamori": {
+  "photo_file": "File:Takamori station, Minami-Aso Railway station building.jpg"
+ },
+ "nishi-karatsu": {
+  "photo_file": "File:Nishi-Karatsu-STA Gate.jpg"
+ },
+ "minami-miyazaki": {
+  "photo_file": "File:Minami-miyazaki station.JPG"
+ },
+ "miyazaki-airport": {
+  "photo_file": "File:Miyazaki-Airport-STA Home.jpg"
+ },
+ "yoshimatsu": {
+  "photo_file": "File:Yoshimatsu Station 20170317.jpg"
+ },
+ "kyomachi-onsen": {
+  "photo_file": "File:JR Kyushu Kyomachi-Onsen station.jpg"
+ },
+ "shibushi": {
+  "photo_file": "File:Shibushi Station, platform-1.jpg"
  }
 }

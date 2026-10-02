@@ -7,10 +7,10 @@ El detalle, en [INVENTARIO.md](INVENTARIO.md).
 
 - Trazados y estaciones reales, sacados de [OpenStreetMap](https://www.openstreetmap.org/).
 - Ficha de cada línea (recorrido con numeración de estaciones, transbordos, trenes, datos curiosos).
-- Ficha de cada estación (foto, líneas, estación anterior/siguiente en cada línea, transbordos a pie).
+- Ficha de cada estación (foto en las principales, líneas, estación anterior/siguiente, transbordos a pie).
 - Ficha de cada serie de tren, con foto, por qué líneas y tramos circula y en qué estaciones pasa.
 - En cada estación, los trenes que pasan por ella.
-- Galería de fotos a pantalla completa, con buscador por tren, línea, compañía, ciudad o región.
+- Galería de fotos a pantalla completa (1794: trenes y estaciones), con buscador por tren, estación, línea, compañía, ciudad o región.
 - Líneas agrupadas por regiones de Japón (Hokkaidō, Tōhoku, Kantō, Chūbu, Kansai, Chūgoku, Shikoku, Kyūshū).
 - Menú «Ir a…» para centrar el mapa en una región, en cualquiera de las 19 ciudades o en todo Japón.
 - Buscador (español, romaji o japonés: `shinjuku`, `新宿`, `JY`…), filtros por operador, modo oscuro y móvil.
@@ -124,16 +124,22 @@ Para los trenes que ya no circulan (o que dejaron alguna línea), usa `history` 
 Un tren puede tener `runs` y `history` a la vez (el 700 sigue en el San'yō y dejó el Tōkaidō en 2020).
 Los años salen de los artículos de Wikipedia de cada serie.
 
-Para la foto: `wiki` (artículo de la Wikipedia en inglés; se usa su imagen principal) o `photo_file`
-(`"File:…jpg"` de Wikimedia Commons, para elegir una concreta). Después:
+Para la foto: `photo_file` (`"File:…jpg"` de Wikimedia Commons, para elegir una concreta), `wiki`
+(artículo de la Wikipedia en inglés: se usa su imagen principal) o `wiki_ja` (lo mismo en la japonesa).
+Después:
 
 ```bash
-python3 tools/fetch_photos.py sk-e6   # descarga la foto, la pasa a WebP y guarda autor y licencia
+python3 tools/fetch_photos.py sk-e6              # un tren
+python3 tools/fetch_photos.py --stations kyoto   # una estación
 python3 tools/build_data.py
 ```
 
 `fetch_photos.py` necesita `cwebp` (`apt install webp`): guarda cada foto en WebP a 800 px y una miniatura
-de 360 px para listas y tarjetas.
+de 360 px para listas, tarjetas y galería.
+
+Las fotos de estaciones salieron de Wikidata, que sabe de cada estación japonesa su foto (P18) y sus
+coordenadas: se cruzan con las nuestras exigiendo que coincidan el nombre japonés **y** la posición, para
+no colar la estación homónima de otra prefectura ni la de al lado.
 
 Solo se aceptan licencias libres; la autoría y la licencia se muestran bajo cada foto.
 
@@ -170,7 +176,7 @@ y sirve para detectar líneas o estaciones que faltan. El inventario se regenera
 - [x] Nagoya, Fukuoka, Sapporo, Sendai, Hiroshima y los tranvías de otras ciudades (fase 3)
 - [x] Sapporo al completo: JR Hakodate, Chitose entera y sus trenes (fase 3c)
 - [ ] El resto de ciudades, una a una y cerrando cada una del todo (fase 3c)
-- [x] Fotos de estaciones de las 273 principales
+- [x] Fotos de 1580 estaciones (todas las de dos o más líneas y las puntas de línea)
 - [ ] Servicios (Nozomi, Hikari, Kodama…) y en qué estaciones para cada uno
 - [ ] Viajeros diarios por estación
 
